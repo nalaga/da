@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="http://da.nala.ga/xmlrpc.php">
+
+<title>메모리 분석 | All About CC</title>
+<meta name='robots' content='noindex,follow' />
+
+<!-- All in One SEO Pack 2.4.3.1 by Michael Torbert of Semper Fi Web Design[276,310] -->
+<link rel="canonical" href="http://da.nala.ga/%eb%a9%94%eb%aa%a8%eb%a6%ac-%eb%b6%84%ec%84%9d/" />
+<!-- /all in one seo pack -->
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 피드" href="http://da.nala.ga/feed/" />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 댓글 피드" href="http://da.nala.ga/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 메모리 분석 댓글 피드" href="http://da.nala.ga/%eb%a9%94%eb%aa%a8%eb%a6%ac-%eb%b6%84%ec%84%9d/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/da.nala.ga\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.4"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bootstrap-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/bootstrap.min.css?ver=3.3.5' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/font-awesome.min.css?ver=4.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='shaped-blog-stylesheet-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/style.css?ver=4.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/responsive.css' type='text/css' media='all' />
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://da.nala.ga/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://da.nala.ga/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://da.nala.ga/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='스타크래프트 리마스터 소식(1)' href='http://da.nala.ga/%ec%8a%a4%ed%83%80%ed%81%ac%eb%9e%98%ed%94%84%ed%8a%b8-%eb%a6%ac%eb%a7%88%ec%8a%a4%ed%84%b0-%ec%86%8c%ec%8b%9d1/' />
+<link rel='next' title='스타크래프트 리마스터 출시/예약 구매 실시!' href='http://da.nala.ga/%ec%8a%a4%ed%83%80%ed%81%ac%eb%9e%98%ed%94%84%ed%8a%b8-%eb%a6%ac%eb%a7%88%ec%8a%a4%ed%84%b0-%ec%b6%9c%ec%8b%9c%ec%98%88%ec%95%bd-%ea%b5%ac%eb%a7%a4-%ec%8b%a4%ec%8b%9c/' />
+<meta name="generator" content="WordPress 4.8.4" />
+<link rel='shortlink' href='http://da.nala.ga/?p=6250' />
+<link rel="alternate" type="application/json+oembed" href="http://da.nala.ga/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fda.nala.ga%2F%25eb%25a9%2594%25eb%25aa%25a8%25eb%25a6%25ac-%25eb%25b6%2584%25ec%2584%259d%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://da.nala.ga/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fda.nala.ga%2F%25eb%25a9%2594%25eb%25aa%25a8%25eb%25a6%25ac-%25eb%25b6%2584%25ec%2584%259d%2F&#038;format=xml" />
+
+	<style>
+
+		/* Border Color */
+		.btn-social:hover,
+		blockquote,
+		#respond input:focus[type="text"], 
+	    #respond input:focus[type="email"], 
+	    #respond input:focus[type="url"],
+	    #respond textarea:focus,
+	    #comments .comment-reply a:hover
+		{
+			border-color: ;
+		}
+
+		
+		/* Background Color */
+		.scroll-up a,
+		.btn-social:hover,
+		button,
+		input[type="button"],
+		input[type="reset"],
+		input[type="submit"],
+		.navbar-default .navbar-nav .dropdown-menu li a:hover, .dropdown-menu li a:focus, .navbar-default .navbar-nav .dropdown-menu .active a,
+		.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover, .pagination li .current,
+		.next-previous-posts .next-post a:hover,
+		.next-previous-posts .previous-post a:hover,
+		.btn-goback,
+		.btn-submit,
+		a.more-link,
+		.featured-post .fa,
+		#comments .comment-reply a:hover,
+		.widget .tagcloud a
+		{
+			background-color: ;
+		}
+
+		
+		/* Color */
+		.text-logo a,
+		.navbar-default .navbar-nav .active a, .navbar-default .navbar-nav .active a:hover, .navbar-default .navbar-nav .active a:focus,
+		.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus,
+		a:hover,
+    	a:focus,
+		.next-previous-posts .previous-post a,
+		.next-previous-posts .next-post a,
+		.pagination>li>a, .pagination>li>span,
+		#comments .comment-author a:hover, 
+    	#respond .logged-in-as a:hover,
+    	#wp-calendar a,
+    	h2.entry-title a:hover
+		{
+			color: ;
+		}
+
+
+		/* A Color */
+		a{
+			color: ;
+		}
+
+		/* a:hover Color */
+		a:hover,
+		a:focus,
+		a:active,
+		.widget a:hover,
+		.post .post-content .entry-meta ul li a:hover
+		{
+			color: ;
+		}
+
+		/* .featured-post .fa:after*/
+		.featured-post .fa:after{
+			border-color:   transparent ;
+		}
+
+
+		
+
+	</style>
+</head>
+
+<body class="post-template-default single single-post postid-6250 single-format-standard">
+
+    <div id="st-preloader">
+        <div id="pre-status">
+            <div class="preload-placeholder"></div>
+        </div>
+    </div>
+<!-- /Preloader -->
+
+<header id="header">	
+	<div id="trueHeader">
+    	<div class="wrapper">
+            <div class="container">
+            	<!-- Menu -->
+            	<div class="menu_main">
+                	<div class="navbar blogx-navbar navbar-default">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#st-navber-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+
+                                                            <div class="text-logo">
+                                    <a href="http://da.nala.ga">All About CC</a>
+                                    <p>All About CC Contents</p>
+                                </div><!-- /Logo -->
+                                                    </div>
+                      
+                        <div id="st-navber-collapse" class="navbar-collapse collapse pull-right">
+                             
+                        </div>
+                    </div>
+            	</div><!-- end menu -->
+        	</div> <!-- /.container -->
+    	</div>
+	</div>
+	<DIV class='ads_adsense_img' style='margin:40px 0px 40px 0px;'>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- only display -->
+	<ins class="adsbygoogle"
+	     style="display:block"
+	     data-ad-client="ca-pub-8393857339019314"
+	     data-ad-slot="7474886381"
+	     data-ad-format="auto"></ins>
+	<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+	</DIV>	
+</header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div id="primary" class="content-area">
+                    <main id="main" class="site-main" role="main">
+
+                        
+                                <article id="post-6250" class="post-6250 post type-post status-publish format-standard hentry category-uncategorized tag-312 tag-168">
+    <header class="entry-header">
+        
+        
+    </header> <!--/.entry-header -->
+
+    <div class="clearfix post-content media">
+
+        <h2 class="entry-title">
+            메모리 분석        </h2> <!-- //.entry-title -->
+
+        <div class="clearfix entry-meta">
+            
+            <ul class="list-inline">
+                <li>
+                    <span class="author vcard">
+                        By <a class="url fn n" href="http://da.nala.ga/author/site-admin/">site-admin</a>                    </span>
+                </li>
+                <li>
+                    on <span class="posted-on">1월 10, 2018</span>
+                </li>
+                                    <li>
+                        in <span class="posted-in">
+                            <a href="http://da.nala.ga/category/uncategorized/" rel="category tag">미분류</a>                        </span>
+                    </li>
+                            </ul>
+                </div> <!--/.entry-meta -->
+        
+        <div class="entry-summary">
+            <p><img src='http://cfile9.uf.tistory.com/image/2632334257FC98FB24EE03' style='max-width:250px;min-width:0px;' onError='this.style.display="none"' /></p>
+<h1>3줄 요약 </h1>
+<div style='color:#fff;background-color:#000;border-radius:10px;'>
+<ol>
+<li><span>IEEE1394(Firewire) : DMA가 가능 (Direct Memory Access)</span></li>
+<li><span>2) pslist : vola.exe -f [덤프파일] &#8211;prorile=Win7SP1x64 pslist</span></li>
+<li><span>&#8211;dump-dir [경로] &#8211;pid [PID]</span></li>
+</ol>
+</div>
+<p><span id="more-6250"></span></p>
+<p><iframe src='http://ad.selfhow.com/rd' width='100%' border=0 frameborder=0 style='height:auto;width:100%'></iframe></p>
+<hr /><strong><span style="box-sizing: border-box; font-size: 12pt; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">2. 메모리 포렌식</span></strong></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> </span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">□ 메모리 포렌식의 필요성</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> ① 메모리에 직접 올라가는 악성 프로그램 등을 분석 가능</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">     인 메모리 라이브 인젝션</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> ②프라이버시를 위하여 보호된 사용자 데이터들이 메모리에 올라갔을때는 암호화 해제</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> </span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> </span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">□ 활성데이터 수집(Live Data)과 메모리 포렌식의 차이점</span></p>
+<table border="0" cellpadding="0" cellspacing="0" class="txc-table" style='color: rgb(0, 0, 0); background-color: rgb(241, 241, 241); font-size: 13px; border-width: medium; border-style: none; border-color: initial; font-family: "맑은 고딕", sans-serif; border-collapse: collapse;' width="647">
+<tbody>
+<tr>
+<td style="border-width: 1px 1px 2px; border-style: solid; border-color: rgb(204, 204, 204) rgb(0, 0, 0) rgb(0, 0, 0) rgb(204, 204, 204); height: 24px; width: 323px;">
+<p style="text-align: center;"><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"><span style="background-color: rgb(246, 246, 246);"></span><span style="background-color: rgb(246, 246, 246);"></span><span style="background-color: rgb(246, 246, 246);">활성데이터 수집(Live Data) </span></span></p>
+</td>
+<td style="border-top: 1px solid rgb(204, 204, 204); height: 24px; border-right: 1px solid rgb(204, 204, 204); width: 323px; border-bottom: 2px solid rgb(0, 0, 0);">
+<p style="text-align: center;"><span style="background-color: rgb(246, 246, 246); color: rgb(0, 0, 0);">메모리 포렌식 </span></p>
+</td>
+</tr>
+<tr>
+<td style="height: 24px; border-right: 1px solid rgb(0, 0, 0); width: 323px; border-bottom: 1px solid rgb(204, 204, 204); border-left: 1px solid rgb(204, 204, 204);">
+<p><span style="background-color: rgb(246, 246, 246); color: rgb(0, 0, 0);"> 운영체제 API의 영향을 받음</span></p>
+</td>
+<td style="height: 24px; border-right: 1px solid rgb(204, 204, 204); width: 323px; border-bottom: 1px solid rgb(204, 204, 204);">
+<p><span style="background-color: rgb(246, 246, 246); color: rgb(0, 0, 0);">메모리 자체를 가져오기 때문에 영향X </span></p>
+</td>
+</tr>
+<tr>
+<td style="height: 24px; border-right: 1px solid rgb(0, 0, 0); width: 323px; border-bottom: 1px solid rgb(204, 204, 204); border-left: 1px solid rgb(204, 204, 204);">
+<p><span style="background-color: rgb(246, 246, 246); color: rgb(0, 0, 0);"> 시행 시 마다 다른 결과가 나올 수 있음</span></p>
+</td>
+<td style="height: 24px; border-right: 1px solid rgb(204, 204, 204); width: 323px; border-bottom: 1px solid rgb(204, 204, 204);">
+<p><span style="background-color: rgb(246, 246, 246); color: rgb(0, 0, 0);">분석 시 마다 동일한 결과 </span></p>
+</td>
+</tr>
+<tr>
+<td style="height: 24px; border-right: 1px solid rgb(0, 0, 0); width: 323px; border-bottom: 1px solid rgb(204, 204, 204); border-left: 1px solid rgb(204, 204, 204);">
+<p><span style="background-color: rgb(246, 246, 246); color: rgb(0, 0, 0);"> </span></p>
+</td>
+<td style="height: 24px; border-right: 1px solid rgb(204, 204, 204); width: 323px; border-bottom: 1px solid rgb(204, 204, 204);">
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"><span style="background-color: rgb(246, 246, 246);">전체 메모리 덤프를 통해 분석하지 않은 부분에 대하여 추가적인 분석이 가능</span><span style="background-color: rgb(246, 246, 246);"></span></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> </span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> </span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">□ 메모리 덤프</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">&#8211; 하드웨어 방식 / 소프트웨어 방식</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> </span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">[하드웨어 방식] http://www.grandideastudio.com/tribble/</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">tribble : RAM 슬롯에 장착하여 메모리 덤프 수행</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">&#8211; 사전에 설치되어 있어야 함</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">&#8211; 설치가 되어있을경우 다른 영향 없이 덤프 추출 가능</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> </span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">IEEE1394(Firewire) : DMA가 가능 (Direct Memory Access)</span></p>
+<p>
+<span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">                   USB는 운영체제를 통해서만 메모리 접근 가능</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> </span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">=&gt; 이러한 이유로 소프트웨어 방식의 메모리 덤프 사용</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">     &#8211; 윈도우 API의 영향을 받을 수 있음</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">     &#8211; 덤프를 만드는 과정에서 시스템에 영향을 줌</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> </span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> </span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">□ 메모리 덤프 추출 도구</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> </span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> ▷ 사용자가 임의로 추출한 덤프</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">&#8211; dumpit (</span><a href="http://www.downloadcrew.com/article/23854-dumpit" style="transition: all 0.3s;"><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">http://www.downloadcrew.com/article/23854-dumpit</span></a><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">)</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">  : cmd창 -&gt; y -&gt; 메모리 덤프</span></p>
+<p><span class="imageblock" style="box-sizing: border-box; display: inline-block; width: 596px; height: auto; max-width: 100%;"><img filemime="image/jpeg" filename="5.PNG" height="306" src="http://cfile9.uf.tistory.com/image/2632334257FC98FB24EE03" style="border: 0px; max-width: 100%; height: auto;" width="596"/></span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> </span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">&#8211; memoryze (Mandiant사에서 만든 도구)</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">  : C:\Program Files (x86)\MANDIANT\Memoryze\memoryDD 관리자 권한으로 실행</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> </span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">&#8211; DD</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> : 예전에는 사용가능했으나 현재 윈도우에서는 불가</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> </span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">&#8211; FTK Imager Lite (무료도구)</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">: 메모리모양 클릭 -&gt;경로 설정 -&gt; capture memory -&gt; 끝</span></p>
+<p><span class="imageblock" style="box-sizing: border-box; display: inline-block; width: 609px; height: auto; max-width: 100%;"><img filemime="image/jpeg" filename="6.PNG" height="520" src="http://cfile8.uf.tistory.com/image/2420403D57FC98FC237DB5" style="border: 0px; max-width: 100%; height: auto;" width="609"/></span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> </span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> </span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> ▷ 자동저장 덤프 (일반적으로 메모리 포렌식에서 사용하지 않음)</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">&#8211; 크래시 덤프 : 장애 발생 시 자동 저장</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">경로)사용자설정-고급설정-시작및복구-시스템오류-디버깅정보쓰기-커널/작은/전체 메모리 텀프</span></p>
+<table border="0" cellpadding="0" cellspacing="0" class="txc-table" style='color: rgb(0, 0, 0); background-color: rgb(241, 241, 241); font-size: 13px; border-width: medium; border-style: none; border-color: initial; font-family: "맑은 고딕", sans-serif; width: 524px; border-collapse: collapse;' width="524">
+<tbody>
+<tr>
+<td style="border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); height: 24px; width: 148px;">
+<p style="text-align: center;"><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"><span style="background-color: rgb(246, 246, 246);"> </span><span style="background-color: rgb(246, 246, 246);">커널 메모리 덤프</span></span></p>
+</td>
+<td style="border-top: 1px solid rgb(204, 204, 204); height: 24px; border-right: 1px solid rgb(204, 204, 204); width: 377px; border-bottom: 1px solid rgb(204, 204, 204);">
+<p><span style="background-color: rgb(246, 246, 246); color: rgb(0, 0, 0);">   크래시에 대한 최소 정보</span></p>
+</td>
+</tr>
+<tr>
+<td style="height: 24px; border-right: 1px solid rgb(204, 204, 204); width: 148px; border-bottom: 1px solid rgb(204, 204, 204); border-left: 1px solid rgb(204, 204, 204);">
+<p style="text-align: center;"><span style="background-color: rgb(246, 246, 246); color: rgb(0, 0, 0);"> 작은 메모리 덤프</span></p>
+</td>
+<td style="height: 24px; border-right: 1px solid rgb(204, 204, 204); width: 377px; border-bottom: 1px solid rgb(204, 204, 204);">
+<p><span style="background-color: rgb(246, 246, 246); color: rgb(0, 0, 0);">   커널 메모리 부분만 저장</span></p>
+</td>
+</tr>
+<tr>
+<td style="height: 24px; border-right: 1px solid rgb(204, 204, 204); width: 148px; border-bottom: 1px solid rgb(204, 204, 204); border-left: 1px solid rgb(204, 204, 204);">
+<p style="text-align: center;"><span style="background-color: rgb(246, 246, 246); color: rgb(0, 0, 0);"> 전체 메모리 덤프</span></p>
+</td>
+<td style="height: 24px; border-right: 1px solid rgb(204, 204, 204); width: 377px; border-bottom: 1px solid rgb(204, 204, 204);">
+<p><span style="background-color: rgb(246, 246, 246); color: rgb(0, 0, 0);">   물리 메모리 전체</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> </span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">&#8211; 절전모드 덤프 : 최대 절전모드에서 사용하는 덤프 c:\hiberfil.sys</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">  //끄기 powercfg -h off</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> </span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">&#8211; VMware 등 가상컴퓨터 시스템 &#8211; .vmem 파일</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> </span></p>
+<hr style='margin: 0px; padding: 0px; border-right: none; border-bottom: none; border-left: none; border-image: initial; border-top-style: solid; border-top-color: rgb(204, 204, 204); height: 0px; overflow: hidden; font-family: "Ubuntu Condensed", "Noto Sans Korean"; font-size: 14px; background-color: rgb(241, 241, 241);'><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">EPROCESS 구조체</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> &#8211; 프로세스가 메모리에 존재할 때의 구조체</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> &#8211; 환형 이중 링크드 리스트 형태</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> </span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">프로세스 스캔 방식</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> &#8211; 리스트 워킹(List Walking)     : 링크를 따라 프로세스 검색</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> &#8211; 패턴 매칭 (Pattern Matching): 실제 메모리 데이터 상 EPROCESS형태를 가진 프로세스 검색</span></p>
+<hr style='margin: 0px; padding: 0px; border-right: none; border-bottom: none; border-left: none; border-image: initial; border-top-style: solid; border-top-color: rgb(204, 204, 204); height: 0px; overflow: hidden; font-family: "Ubuntu Condensed", "Noto Sans Korean"; font-size: 14px; background-color: rgb(241, 241, 241);'><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> </span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">□ 메모리 덤프 분석 도구</span></p>
+<p><strong><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">[volatility]</span></strong><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> </span><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">(</span><a href="http://www.volatilityfoundation.org/25" style="transition: all 0.3s;"><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">http://www.volatilityfoundation.org/25</span></a><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">)</span></p>
+<p><span class="imageblock" style='box-sizing: border-box; font-family: "Ubuntu Condensed", "Noto Sans Korean"; font-size: 14px; background-color: rgb(241, 241, 241); display: inline-block; width: 604px; height: auto; max-width: 100%;'><img filemime="image/jpeg" filename="7(메모리덤프분석.PNG" height="670" src="http://cfile23.uf.tistory.com/image/2621CE3D57FC98FC23BA84" style="border: 0px; max-width: 100%; height: auto;" width="604"/></span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> </span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">&#8211; volatility.exe -h : 사용법 조회 (플러그인 목록)</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> </span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">1) imageinfo :  vola.exe -f [메모리덤프파일이름] imageinfo</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">   메모리 덤프가 추출 된 시스템의 정보 확인  </span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">   Suggested Profile에서 운영체제 종류 확인</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">   Service Pack이 여러개 검색 될 경우 아래부분의 Service Pack 항목 확인</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">   Win7SP1x64</span></p>
+<p><span class="imageblock" style="box-sizing: border-box; display: inline-block; width: 497px; height: auto; max-width: 100%;"><img filemime="image/jpeg" filename="7-1.PNG" height="41" src="http://cfile10.uf.tistory.com/image/211DB83D57FC98FD2739A8" style="border: 0px; max-width: 100%; height: auto;" width="497"/></span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">2) pslist : vola.exe -f [덤프파일] &#8211;prorile=Win7SP1x64 pslist</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">   리스트워킹 방식으로 프로세스 검색</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> </span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">3) psscan : vola.exe -f [덤프파일] &#8211;prorile=Win7SP1x64 psscan</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">   패턴 매칭 방식으로 프로세스 검색</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> </span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">4) pstree : 프로세스 트리</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> </span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">5) psxview : 다양한 프로세스 검색 방식으로 비교</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> </span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">6) dlllist :</span></p>
+<p><span style='font-family: "Ubuntu Condensed", "Noto Sans Korean"; font-size: 14px; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);'>&#8211; 메모리 상에 존재하는 프로세스와 관련된 DLL리스트를 출력</span><br style='font-family: "Ubuntu Condensed", "Noto Sans Korean"; font-size: 14px; background-color: rgb(241, 241, 241);'><span style='font-family: "Ubuntu Condensed", "Noto Sans Korean"; font-size: 14px; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);'>&#8211;pid : 특정 PID와 관련된 DLL리스트를 출력</span><br style='font-family: "Ubuntu Condensed", "Noto Sans Korean"; font-size: 14px; background-color: rgb(241, 241, 241);'><span style='font-family: "Ubuntu Condensed", "Noto Sans Korean"; font-size: 14px; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);'>&#8211;offset [물리메모리주소] : psscan으로 검색된 프로세스의 DLL리스트 확인</span></br></br></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> </span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">7) dlldump : dlldump &#8211;dump-dir [덤프 대상 디렉토리] &#8211;pid [특정PID]</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">&#8211; DLL을 추출</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">추출 된 DLL은 virustotal</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> </span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">8) handle</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">&#8211; 프로세스가 접근중인 자원의 목록 확인(핸들)</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> </span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">9) getsids</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">&#8211; 보안식별자 확인</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">&#8211; 프로세스가 사용한 보안식별자 목록 환인</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">&#8211; 권한상승 등의 공격 확인 용도</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> </span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">10) mod시리즈</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">&#8211; modules, modscan, moddump</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">&#8211; 로드된 드라이버(*.sys)</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">&#8211; modules는 리스트 형태로 검색, modscna은 패턴매칭으로 검색</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">&#8211; moddump를 사용하여 덤프</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> </span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">11) thrdscan</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">&#8211; 스레드 정보 검색</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> </span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">12) 네트워크 관련 플러그인</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">&#8211; XP이전  : connections, conscan, sockets, sockscan</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">connections    연결정보를 리스트로 검색</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">conscan         연결정보를 스캔으로 검색</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">socket           열려있는 포트정보를 리스트로 검색</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">sockscan        열려있는 포트정보를 스캔으로 검색</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">&#8211; Vista 이후 : netscan</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> </span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">13) svcscan</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">&#8211; 서비스 관련</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> </span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">14) cmdscan</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">&#8211; cmd에서 입력했던 명령어</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> </span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">15) consoles</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">&#8211; 마지막 cmd창의 화면 상태 표시</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> </span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">16) procdump</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">&#8211; 특정 프로세스 덤프</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">&#8211;dump-dir [경로] &#8211;pid [PID]</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> </span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> </span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">□ 레지스트리 관련</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">17) hivescan : 메모리에서 레지스트리 목록 확인</span><br /><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">18) hivelist : 레지스트리 주소와 파일 관계 매칭</span><br /><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">19) printkey : 레지스트리에서 특정 값 출력</span><br /><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">20) hivedump : 레지스트리 하이브 파일로 덤프</span><br /><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">21) hashdump : 윈도우 SAM에 들어있는 계정 해쉬 추출</span></p>
+<p><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">22) clipboard : 메모리 덤프시 클립보드 내용 출력</span><br /><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">23) screenshot : 메모리 덤프시 대략적인 윈도우 배치</span><br /><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">24) windows : 덤프시 열려있던 윈도우 창 정보</span></p>
+<p></p>
+</hr>
+</hr>
+<hr />
+<p><iframe src='http://ad.selfhow.com/rd' width='100%' border=0 frameborder=0 style='height:auto;width:100%'></iframe></p>
+<p><a href='http://hpitos.tistory.com/61' target='_blank'>Origin Content : 냠냠쩝쩝</a> | <a href="/cdn-cgi/l/email-protection#5037313d350f3333606061103e313c317e3731" target='_blank'>Contact : <span class="__cf_email__" data-cfemail="a3c4c2cec6fcc0c0939392e3cdc2cfc28dc4c2">[email&#160;protected]</span></a>
+</p>
+<p>Cotent License : CC-BY </p>
+<p>This content is collected under the CCL license.</p>
+<p>Please check the license of the original article before asking about copyright.</p>
+<ul>
+<li><a href='/tag/메모리'>More About <span style='font-weight:bold;'>메모리</span></a></li>
+<li><a href='/tag/분석'>More About <span style='font-weight:bold;'>분석</span></a></li>
+</ul>
+        </div> <!-- //.entry-summary -->
+        
+                    <div class="entry-tags"><b>Tags:</b> <a href="http://da.nala.ga/tag/%eb%a9%94%eb%aa%a8%eb%a6%ac/" rel="tag">메모리</a>, <a href="http://da.nala.ga/tag/%eb%b6%84%ec%84%9d/" rel="tag">분석</a></div>
+        
+    </div>
+
+</article> <!--/#post-->
+
+
+
+
+
+                                                                    <div class="post-nav-area">
+                                                    
+            <nav class="next-previous-post clearfix media" role="navigation">
+                <div class="row">
+                    <!-- Previous Post -->
+                    <div class="previous-post col-sm-6 pull-left">
+                        <div class="nav-previous"><i class="fa fa-angle-left"></i> <a href="http://da.nala.ga/%ec%8a%a4%ed%83%80%ed%81%ac%eb%9e%98%ed%94%84%ed%8a%b8-%eb%a6%ac%eb%a7%88%ec%8a%a4%ed%84%b0-%ec%86%8c%ec%8b%9d1/" rel="prev">스타크래프트 리마스터 소식(1)</a></div>                    </div>
+
+                    <!-- Next Post -->
+                    <div class="next-post col-sm-6 pull-right text-right">
+                        <div class="nav-next"><a href="http://da.nala.ga/%ec%8a%a4%ed%83%80%ed%81%ac%eb%9e%98%ed%94%84%ed%8a%b8-%eb%a6%ac%eb%a7%88%ec%8a%a4%ed%84%b0-%ec%b6%9c%ec%8b%9c%ec%98%88%ec%95%bd-%ea%b5%ac%eb%a7%a4-%ec%8b%a4%ec%8b%9c/" rel="next">스타크래프트 리마스터 출시/예약 구매 실시!</a> <i class="fa fa-angle-right"></i></div>                    </div>
+                </div>
+            </nav><!-- .navigation -->
+            
+                                            </div>
+                                
+                                
+                            
+                                            </main> <!-- /.site-main -->
+                </div>  <!-- /.content-area -->
+            </div> <!-- /col -->
+
+            <!-- Blogsidebar -->
+            
+	<div class="col-md-4">
+	    <div class="primary-sidebar widget-area" role="complementary">
+	        <div id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="http://da.nala.ga/">
+				<label>
+					<span class="screen-reader-text">검색:</span>
+					<input type="search" class="search-field" placeholder="검색 &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="검색" />
+			</form></div>		<div id="recent-posts-2" class="widget widget_recent_entries">		<h2 class="widget-title">최근 글</h2>		<ul>
+					<li>
+				<a href="http://da.nala.ga/%ea%b5%90%ed%99%98%ed%95%99%ec%83%9d%ec%a4%80%eb%b9%84part2-%ed%94%84%eb%9e%91%ec%8a%a4-sciences-po-%ec%a7%80%ec%9b%90-%ea%b3%bc%ec%a0%95%ea%b3%bc-%ea%b7%b8-%ec%a0%84-%ec%95%8c%ec%95%84%ec%95%bc/">[교환학생준비PART2] 프랑스 Sciences Po 지원 과정과 그 전 알아야할 것들!</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%b0%95%ea%b7%bc%ed%98%9c-%ec%b5%9c%ec%88%9c%ec%8b%a4-%ea%b2%8c%ec%9d%b4%ed%8a%b8%eb%a5%bc-%eb%b0%9d%ed%98%80%eb%82%b8-%ec%9d%bc%eb%93%b1%ea%b3%b5%ec%8b%a0-%ec%95%88%eb%af%bc%ec%84%9d/">박근혜 최순실 게이트를 밝혀낸 일등공신 안민석</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%b0%b0%ed%8b%80%ea%b7%b8%eb%9d%bc%ec%9a%b4%eb%93%9c-%ec%a0%95%ec%8b%9d%eb%b2%84%ec%a0%84-1-0%ed%8c%a8%ec%b9%98-%eb%ac%b4%ec%97%87%ec%9d%b4-%eb%b0%94%eb%80%8c%eb%82%98%ec%9a%94/">배틀그라운드 정식버전 1.0패치 무엇이 바뀌나요?</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%91%90%eb%87%8c%eb%a5%bc-%ea%b1%b4%ea%b0%95%ed%95%98%ea%b2%8c-%eb%a7%8c%eb%93%9c%eb%8a%94-4%ec%b2%9c%eb%b3%b4%ec%9d%98-%ea%b1%b8%ec%9d%8c/">두뇌를 건강하게 만드는 4천보의 걸음</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%af%b8%ea%b5%ad-%ec%9c%a0%ed%95%99-%ec%a0%95%eb%b3%b4-%ed%95%9c%ea%b5%ad-%eb%82%b4%ec%8b%a0-%ec%84%b1%ec%a0%81%eb%a7%8c%ec%9c%bc%eb%a1%9c-%eb%af%b8%ea%b5%ad-%eb%aa%85%eb%ac%b8%eb%8c%80-%ea%b0%80/">미국 유학  정보 &#8211; 한국 내신 성적만으로 미국 명문대 가기</a>
+						</li>
+				</ul>
+		</div>		<div id="tag_cloud-2" class="widget widget_tag_cloud"><h2 class="widget-title">태그</h2><div class="tagcloud"><a href="http://da.nala.ga/tag/1%ec%9b%94/" class="tag-cloud-link tag-link-35 tag-link-position-1" style="font-size: 14.892307692308pt;" aria-label="1월 (47 아이템)">1월</a>
+<a href="http://da.nala.ga/tag/2017/" class="tag-cloud-link tag-link-510 tag-link-position-2" style="font-size: 19.415384615385pt;" aria-label="2017 (76 아이템)">2017</a>
+<a href="http://da.nala.ga/tag/2017%eb%85%84/" class="tag-cloud-link tag-link-8 tag-link-position-3" style="font-size: 18.123076923077pt;" aria-label="2017년 (66 아이템)">2017년</a>
+<a href="http://da.nala.ga/tag/2018/" class="tag-cloud-link tag-link-61 tag-link-position-4" style="font-size: 14.461538461538pt;" aria-label="2018 (45 아이템)">2018</a>
+<a href="http://da.nala.ga/tag/2018%eb%85%84/" class="tag-cloud-link tag-link-103 tag-link-position-5" style="font-size: 18.984615384615pt;" aria-label="2018년 (73 아이템)">2018년</a>
+<a href="http://da.nala.ga/tag/vs/" class="tag-cloud-link tag-link-943 tag-link-position-6" style="font-size: 9.5076923076923pt;" aria-label="vs (26 아이템)">vs</a>
+<a href="http://da.nala.ga/tag/%ec%98%81%ed%99%94/" class="tag-cloud-link tag-link-1375 tag-link-position-7" style="font-size: 14.246153846154pt;" aria-label="“영화 (44 아이템)">“영화</a>
+<a href="http://da.nala.ga/tag/%ea%b0%80%ea%b2%a9/" class="tag-cloud-link tag-link-63 tag-link-position-8" style="font-size: 12.953846153846pt;" aria-label="가격 (38 아이템)">가격</a>
+<a href="http://da.nala.ga/tag/%ea%b0%80%ec%83%81%ed%99%94%ed%8f%90/" class="tag-cloud-link tag-link-1479 tag-link-position-9" style="font-size: 9.0769230769231pt;" aria-label="가상화폐 (25 아이템)">가상화폐</a>
+<a href="http://da.nala.ga/tag/%ea%b2%80%ec%9d%80%ec%82%ac%eb%a7%89/" class="tag-cloud-link tag-link-341 tag-link-position-10" style="font-size: 8.8615384615385pt;" aria-label="검은사막 (24 아이템)">검은사막</a>
+<a href="http://da.nala.ga/tag/%ea%b2%8c%ec%9e%84/" class="tag-cloud-link tag-link-391 tag-link-position-11" style="font-size: 22pt;" aria-label="게임 (102 아이템)">게임</a>
+<a href="http://da.nala.ga/tag/%ea%b3%b5%ea%b0%9c/" class="tag-cloud-link tag-link-938 tag-link-position-12" style="font-size: 9.5076923076923pt;" aria-label="공개 (26 아이템)">공개</a>
+<a href="http://da.nala.ga/tag/%ea%b3%b5%eb%9e%b5/" class="tag-cloud-link tag-link-1018 tag-link-position-13" style="font-size: 8.8615384615385pt;" aria-label="공략 (24 아이템)">공략</a>
+<a href="http://da.nala.ga/tag/%eb%8b%a4%ec%9a%b4%eb%a1%9c%eb%93%9c/" class="tag-cloud-link tag-link-364 tag-link-position-14" style="font-size: 8.4307692307692pt;" aria-label="다운로드 (23 아이템)">다운로드</a>
+<a href="http://da.nala.ga/tag/%eb%8c%80%ed%95%b4%ec%84%9c/" class="tag-cloud-link tag-link-1629 tag-link-position-15" style="font-size: 8.8615384615385pt;" aria-label="대해서 (24 아이템)">대해서</a>
+<a href="http://da.nala.ga/tag/%eb%a6%ac%eb%b7%b0/" class="tag-cloud-link tag-link-555 tag-link-position-16" style="font-size: 15.969230769231pt;" aria-label="리뷰 (53 아이템)">리뷰</a>
+<a href="http://da.nala.ga/tag/%eb%a7%9b%ec%a7%91/" class="tag-cloud-link tag-link-4173 tag-link-position-17" style="font-size: 9.9384615384615pt;" aria-label="맛집 (27 아이템)">맛집</a>
+<a href="http://da.nala.ga/tag/%eb%aa%a8%eb%b0%94%ec%9d%bc/" class="tag-cloud-link tag-link-835 tag-link-position-18" style="font-size: 10.584615384615pt;" aria-label="모바일 (29 아이템)">모바일</a>
+<a href="http://da.nala.ga/tag/%eb%ac%b4%eb%a3%8c/" class="tag-cloud-link tag-link-827 tag-link-position-19" style="font-size: 13.384615384615pt;" aria-label="무료 (40 아이템)">무료</a>
+<a href="http://da.nala.ga/tag/%eb%b0%a9%eb%b2%95/" class="tag-cloud-link tag-link-529 tag-link-position-20" style="font-size: 15.323076923077pt;" aria-label="방법 (49 아이템)">방법</a>
+<a href="http://da.nala.ga/tag/%eb%b9%84%ed%8a%b8%ec%bd%94%ec%9d%b8/" class="tag-cloud-link tag-link-1478 tag-link-position-21" style="font-size: 9.0769230769231pt;" aria-label="비트코인 (25 아이템)">비트코인</a>
+<a href="http://da.nala.ga/tag/%ec%84%a4%ec%b9%98/" class="tag-cloud-link tag-link-360 tag-link-position-22" style="font-size: 8pt;" aria-label="설치 (22 아이템)">설치</a>
+<a href="http://da.nala.ga/tag/%ec%86%8c%ea%b0%9c/" class="tag-cloud-link tag-link-297 tag-link-position-23" style="font-size: 8.4307692307692pt;" aria-label="소개 (23 아이템)">소개</a>
+<a href="http://da.nala.ga/tag/%ec%88%9c%ec%9c%84/" class="tag-cloud-link tag-link-12 tag-link-position-24" style="font-size: 11.230769230769pt;" aria-label="순위 (31 아이템)">순위</a>
+<a href="http://da.nala.ga/tag/%ec%8b%9c%ec%9e%91/" class="tag-cloud-link tag-link-579 tag-link-position-25" style="font-size: 8.4307692307692pt;" aria-label="시작 (23 아이템)">시작</a>
+<a href="http://da.nala.ga/tag/%ec%95%88%eb%82%b4/" class="tag-cloud-link tag-link-338 tag-link-position-26" style="font-size: 10.584615384615pt;" aria-label="안내 (29 아이템)">안내</a>
+<a href="http://da.nala.ga/tag/%ec%95%8c%ec%95%84%eb%b3%b4%ea%b8%b0/" class="tag-cloud-link tag-link-1939 tag-link-position-27" style="font-size: 12.523076923077pt;" aria-label="알아보기 (36 아이템)">알아보기</a>
+<a href="http://da.nala.ga/tag/%ec%95%8c%ec%95%84%eb%b3%b4%ec%9e%90/" class="tag-cloud-link tag-link-369 tag-link-position-28" style="font-size: 11.661538461538pt;" aria-label="알아보자 (33 아이템)">알아보자</a>
+<a href="http://da.nala.ga/tag/%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8/" class="tag-cloud-link tag-link-567 tag-link-position-29" style="font-size: 9.0769230769231pt;" aria-label="업데이트 (25 아이템)">업데이트</a>
+<a href="http://da.nala.ga/tag/%ec%97%ac%ed%96%89/" class="tag-cloud-link tag-link-1122 tag-link-position-30" style="font-size: 12.738461538462pt;" aria-label="여행 (37 아이템)">여행</a>
+<a href="http://da.nala.ga/tag/%ec%98%a4%eb%b8%8c/" class="tag-cloud-link tag-link-271 tag-link-position-31" style="font-size: 10.8pt;" aria-label="오브 (30 아이템)">오브</a>
+<a href="http://da.nala.ga/tag/%ec%98%a8%eb%9d%bc%ec%9d%b8/" class="tag-cloud-link tag-link-328 tag-link-position-32" style="font-size: 11.876923076923pt;" aria-label="온라인 (34 아이템)">온라인</a>
+<a href="http://da.nala.ga/tag/%ec%9c%84%ed%95%9c/" class="tag-cloud-link tag-link-183 tag-link-position-33" style="font-size: 13.169230769231pt;" aria-label="위한 (39 아이템)">위한</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%eb%b2%a4%ed%8a%b8/" class="tag-cloud-link tag-link-723 tag-link-position-34" style="font-size: 13.169230769231pt;" aria-label="이벤트 (39 아이템)">이벤트</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%ec%95%bc%ea%b8%b0/" class="tag-cloud-link tag-link-861 tag-link-position-35" style="font-size: 10.8pt;" aria-label="이야기 (30 아이템)">이야기</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%ec%9c%a0/" class="tag-cloud-link tag-link-1482 tag-link-position-36" style="font-size: 9.9384615384615pt;" aria-label="이유 (27 아이템)">이유</a>
+<a href="http://da.nala.ga/tag/%ec%9d%bc%eb%b3%b8/" class="tag-cloud-link tag-link-1007 tag-link-position-37" style="font-size: 8.4307692307692pt;" aria-label="일본 (23 아이템)">일본</a>
+<a href="http://da.nala.ga/tag/%ec%a0%95%eb%a6%ac/" class="tag-cloud-link tag-link-65 tag-link-position-38" style="font-size: 11.876923076923pt;" aria-label="정리 (34 아이템)">정리</a>
+<a href="http://da.nala.ga/tag/%ec%a0%95%eb%b3%b4/" class="tag-cloud-link tag-link-610 tag-link-position-39" style="font-size: 17.261538461538pt;" aria-label="정보 (61 아이템)">정보</a>
+<a href="http://da.nala.ga/tag/%ec%b4%9d%ec%a0%95%eb%a6%ac/" class="tag-cloud-link tag-link-179 tag-link-position-40" style="font-size: 8.4307692307692pt;" aria-label="총정리 (23 아이템)">총정리</a>
+<a href="http://da.nala.ga/tag/%ec%b5%9c%ea%b3%a0/" class="tag-cloud-link tag-link-404 tag-link-position-41" style="font-size: 11.876923076923pt;" aria-label="최고 (34 아이템)">최고</a>
+<a href="http://da.nala.ga/tag/%ec%b6%94%ec%b2%9c/" class="tag-cloud-link tag-link-367 tag-link-position-42" style="font-size: 20.707692307692pt;" aria-label="추천 (89 아이템)">추천</a>
+<a href="http://da.nala.ga/tag/%ec%b6%9c%ec%8b%9c/" class="tag-cloud-link tag-link-612 tag-link-position-43" style="font-size: 10.584615384615pt;" aria-label="출시 (29 아이템)">출시</a>
+<a href="http://da.nala.ga/tag/%ed%95%9c%ea%b5%ad/" class="tag-cloud-link tag-link-1483 tag-link-position-44" style="font-size: 10.153846153846pt;" aria-label="한국 (28 아이템)">한국</a>
+<a href="http://da.nala.ga/tag/%ed%9b%84%ea%b8%b0/" class="tag-cloud-link tag-link-114 tag-link-position-45" style="font-size: 19.2pt;" aria-label="후기 (74 아이템)">후기</a></div>
+</div>	    </div>
+	</div>
+
+        </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+    </div>
+    <footer class="site-footer" role="contentinfo">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+  
+                    <p></p>
+                    
+                                            <div class="footer-social-icons">
+                                                                                                                                                                                                                                                                                                                                                                                                        
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+            <div class="scroll-up">
+            <a href="#"><i class="fa fa-angle-up"></i></a>
+        </div>
+        <!-- Scroll Up -->
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/af2821b0/cloudflare-static/email-decode.min.js"></script><script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/bootstrap.min.js?ver=3.3.5'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/scripts.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/jquery.fitvids.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/smoothscroll.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/wp-embed.min.js?ver=4.8.4'></script>
+    </body>
+</html>

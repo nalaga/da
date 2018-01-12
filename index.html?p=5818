@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="http://da.nala.ga/xmlrpc.php">
+
+<title>심심해서 쓴 그동안 &#039;봤던&#039; 게임 이야기 1 (HOMM) | All About CC</title>
+<meta name='robots' content='noindex,follow' />
+
+<!-- All in One SEO Pack 2.4.3.1 by Michael Torbert of Semper Fi Web Design[276,347] -->
+<link rel="canonical" href="http://da.nala.ga/%ec%8b%ac%ec%8b%ac%ed%95%b4%ec%84%9c-%ec%93%b4-%ea%b7%b8%eb%8f%99%ec%95%88-%eb%b4%a4%eb%8d%98-%ea%b2%8c%ec%9e%84-%ec%9d%b4%ec%95%bc%ea%b8%b0-1-homm/" />
+<!-- /all in one seo pack -->
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 피드" href="http://da.nala.ga/feed/" />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 댓글 피드" href="http://da.nala.ga/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 심심해서 쓴 그동안 &#8216;봤던&#8217; 게임 이야기 1 (HOMM) 댓글 피드" href="http://da.nala.ga/%ec%8b%ac%ec%8b%ac%ed%95%b4%ec%84%9c-%ec%93%b4-%ea%b7%b8%eb%8f%99%ec%95%88-%eb%b4%a4%eb%8d%98-%ea%b2%8c%ec%9e%84-%ec%9d%b4%ec%95%bc%ea%b8%b0-1-homm/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/da.nala.ga\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.4"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bootstrap-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/bootstrap.min.css?ver=3.3.5' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/font-awesome.min.css?ver=4.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='shaped-blog-stylesheet-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/style.css?ver=4.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/responsive.css' type='text/css' media='all' />
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://da.nala.ga/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://da.nala.ga/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://da.nala.ga/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='잔혹하고 아기자기한 왕좌의 게임, &#8216;아르멜로(Armello)&#8217;' href='http://da.nala.ga/%ec%9e%94%ed%98%b9%ed%95%98%ea%b3%a0-%ec%95%84%ea%b8%b0%ec%9e%90%ea%b8%b0%ed%95%9c-%ec%99%95%ec%a2%8c%ec%9d%98-%ea%b2%8c%ec%9e%84-%ec%95%84%eb%a5%b4%eb%a9%9c%eb%a1%9carmello/' />
+<link rel='next' title='히어로즈 오브 마이트 앤 매직 (1+2+3) 밀레니엄 한정판 패키지 에디션 1,2,3모음집' href='http://da.nala.ga/%ed%9e%88%ec%96%b4%eb%a1%9c%ec%a6%88-%ec%98%a4%eb%b8%8c-%eb%a7%88%ec%9d%b4%ed%8a%b8-%ec%95%a4-%eb%a7%a4%ec%a7%81-123-%eb%b0%80%eb%a0%88%eb%8b%88%ec%97%84-%ed%95%9c%ec%a0%95%ed%8c%90-%ed%8c%a8/' />
+<meta name="generator" content="WordPress 4.8.4" />
+<link rel='shortlink' href='http://da.nala.ga/?p=5818' />
+<link rel="alternate" type="application/json+oembed" href="http://da.nala.ga/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fda.nala.ga%2F%25ec%258b%25ac%25ec%258b%25ac%25ed%2595%25b4%25ec%2584%259c-%25ec%2593%25b4-%25ea%25b7%25b8%25eb%258f%2599%25ec%2595%2588-%25eb%25b4%25a4%25eb%258d%2598-%25ea%25b2%258c%25ec%259e%2584-%25ec%259d%25b4%25ec%2595%25bc%25ea%25b8%25b0-1-homm%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://da.nala.ga/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fda.nala.ga%2F%25ec%258b%25ac%25ec%258b%25ac%25ed%2595%25b4%25ec%2584%259c-%25ec%2593%25b4-%25ea%25b7%25b8%25eb%258f%2599%25ec%2595%2588-%25eb%25b4%25a4%25eb%258d%2598-%25ea%25b2%258c%25ec%259e%2584-%25ec%259d%25b4%25ec%2595%25bc%25ea%25b8%25b0-1-homm%2F&#038;format=xml" />
+
+	<style>
+
+		/* Border Color */
+		.btn-social:hover,
+		blockquote,
+		#respond input:focus[type="text"], 
+	    #respond input:focus[type="email"], 
+	    #respond input:focus[type="url"],
+	    #respond textarea:focus,
+	    #comments .comment-reply a:hover
+		{
+			border-color: ;
+		}
+
+		
+		/* Background Color */
+		.scroll-up a,
+		.btn-social:hover,
+		button,
+		input[type="button"],
+		input[type="reset"],
+		input[type="submit"],
+		.navbar-default .navbar-nav .dropdown-menu li a:hover, .dropdown-menu li a:focus, .navbar-default .navbar-nav .dropdown-menu .active a,
+		.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover, .pagination li .current,
+		.next-previous-posts .next-post a:hover,
+		.next-previous-posts .previous-post a:hover,
+		.btn-goback,
+		.btn-submit,
+		a.more-link,
+		.featured-post .fa,
+		#comments .comment-reply a:hover,
+		.widget .tagcloud a
+		{
+			background-color: ;
+		}
+
+		
+		/* Color */
+		.text-logo a,
+		.navbar-default .navbar-nav .active a, .navbar-default .navbar-nav .active a:hover, .navbar-default .navbar-nav .active a:focus,
+		.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus,
+		a:hover,
+    	a:focus,
+		.next-previous-posts .previous-post a,
+		.next-previous-posts .next-post a,
+		.pagination>li>a, .pagination>li>span,
+		#comments .comment-author a:hover, 
+    	#respond .logged-in-as a:hover,
+    	#wp-calendar a,
+    	h2.entry-title a:hover
+		{
+			color: ;
+		}
+
+
+		/* A Color */
+		a{
+			color: ;
+		}
+
+		/* a:hover Color */
+		a:hover,
+		a:focus,
+		a:active,
+		.widget a:hover,
+		.post .post-content .entry-meta ul li a:hover
+		{
+			color: ;
+		}
+
+		/* .featured-post .fa:after*/
+		.featured-post .fa:after{
+			border-color:   transparent ;
+		}
+
+
+		
+
+	</style>
+</head>
+
+<body class="post-template-default single single-post postid-5818 single-format-standard">
+
+    <div id="st-preloader">
+        <div id="pre-status">
+            <div class="preload-placeholder"></div>
+        </div>
+    </div>
+<!-- /Preloader -->
+
+<header id="header">	
+	<div id="trueHeader">
+    	<div class="wrapper">
+            <div class="container">
+            	<!-- Menu -->
+            	<div class="menu_main">
+                	<div class="navbar blogx-navbar navbar-default">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#st-navber-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+
+                                                            <div class="text-logo">
+                                    <a href="http://da.nala.ga">All About CC</a>
+                                    <p>All About CC Contents</p>
+                                </div><!-- /Logo -->
+                                                    </div>
+                      
+                        <div id="st-navber-collapse" class="navbar-collapse collapse pull-right">
+                             
+                        </div>
+                    </div>
+            	</div><!-- end menu -->
+        	</div> <!-- /.container -->
+    	</div>
+	</div>
+	<DIV class='ads_adsense_img' style='margin:40px 0px 40px 0px;'>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- only display -->
+	<ins class="adsbygoogle"
+	     style="display:block"
+	     data-ad-client="ca-pub-8393857339019314"
+	     data-ad-slot="7474886381"
+	     data-ad-format="auto"></ins>
+	<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+	</DIV>	
+</header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div id="primary" class="content-area">
+                    <main id="main" class="site-main" role="main">
+
+                        
+                                <article id="post-5818" class="post-5818 post type-post status-publish format-standard hentry category-uncategorized tag-homm tag-391 tag-9438 tag-9439 tag-9437 tag-861">
+    <header class="entry-header">
+        
+        
+    </header> <!--/.entry-header -->
+
+    <div class="clearfix post-content media">
+
+        <h2 class="entry-title">
+            심심해서 쓴 그동안 &#8216;봤던&#8217; 게임 이야기 1 (HOMM)        </h2> <!-- //.entry-title -->
+
+        <div class="clearfix entry-meta">
+            
+            <ul class="list-inline">
+                <li>
+                    <span class="author vcard">
+                        By <a class="url fn n" href="http://da.nala.ga/author/site-admin/">site-admin</a>                    </span>
+                </li>
+                <li>
+                    on <span class="posted-on">1월 10, 2018</span>
+                </li>
+                                    <li>
+                        in <span class="posted-in">
+                            <a href="http://da.nala.ga/category/uncategorized/" rel="category tag">미분류</a>                        </span>
+                    </li>
+                            </ul>
+                </div> <!--/.entry-meta -->
+        
+        <div class="entry-summary">
+            <h1>2줄 요약 </h1>
+<div style='color:#fff;background-color:#000;border-radius:10px;'>
+<ol>
+<li><span>2. HOMM 2일단 1보다는 나은 것 같고&#8230;(당연히 그럴수밖에) 모 <small>&#8230;중략&#8230;</small>  그렇다고 존잼!! 도 아닌 느낌이었다. 3이 너무 임팩트가 커서 그런가</span></li>
+<li><span>3. HOMM 3삼촌이 진짜 거의 밤새면서까지 하길래 그렇게 재미있나.. <small>&#8230;중략&#8230;</small> 도 유저맵 같던데 유저맵이랑은 상관 없는거 같은데.. 뭐가 있는 걸까??</span></li>
+</ol>
+</div>
+<p><span id="more-5818"></span></p>
+<p><iframe src='http://ad.selfhow.com/rd' width='100%' border=0 frameborder=0 style='height:auto;width:100%'></iframe></p>
+<hr />
+<p>나는 게임을 못한다. 정말 자신있게 못한다고 말할 수 있을 정도로ㅠ&#8230;</p>
+<p>게임을 한다고 해도 파티나 멀티플레이가 필요없는, 스카이림 같은 게임을 하는 편. </p>
+<p>(파티하면 존나 민폐이기 때문에ㅠㅠ)</p>
+<p>게임을 못함 + 즐겨 하지도 않음 의 콜라보로 나는 유투브 등을 통해서 게임을 &#8216;보면서&#8217; 대리만족을 하기 시작했다.</p>
+<p>지금도 가끔씩 보고.. 그래서 생각나는 게임들을 &#8216;보는&#8217; 입장에서 이야기하려고 한다.</p>
+<p><span style="color: rgb(204, 61, 61);"><b>내 주관이 진짜 많이 들어가 있음 주의</b></span> </p>
+<p></p>
+<p>처음으로 이야기할 게임은 히어로즈 오브 마이트 앤 매직 (일명 HOMM) 시리즈.</p>
+<p>왜 이 게임을 처음으로 뽑았냐 하면 이 게임을 플레이하는걸 살면서 제일 많이 봤기 때문이다ㅋㅋ</p>
+<p>우리 삼촌은 내가 어렸을 때부터 HOMM을 즐겨하는데(특히 3편), </p>
+<p>어렸을 때부터 지금까지 자라면서 그걸 보고 자랐다고 해도 과언이 아니다. (정말 보고 자랐기 때문이다;;)</p>
+<p>지금은 나도 가아아끔 생각날때마다 한번씩 하는 편이고&#8230; 그래서 이걸 처음으로 얘기하려고 한다. </p>
+<p>플레이를 보거나 하거나 한 건 1, 2, 3, 5 밖에 없어서 이것만 써보려고 한다.</p>
+<p></p>
+<p></p>
+<p><b>1. HOMM 1</b></p>
+<p>일단 기억에 남는건 몹이 졸라 크다는 것?</p>
+<p>전투장면을 보면 진짜 몹이 개커서 깜짝 놀랐다ㅋㅋㅋ 아무래도 3의 몹의 크기와 필드에 익숙해져서 그런 것 같다.</p>
+<p>그리고 모션 등이 엄청 느렸다는 것?? 그 외에는 딱히 기억나는 게 없다.</p>
+<p></p>
+<p></p>
+<p><b>2. HOMM 2</b></p>
+<p>일단 1보다는 나은 것 같고&#8230;(당연히 그럴수밖에) 모션 등이 빨라져서 보기에는 좋았다. 필드도 좀 넓어져서 </p>
+<p>막 좁은 곳에 구겨넣어서 하는 느낌이 들지도 않았고ㅋㅋㅋ </p>
+<p>HOMM에서 고전적인 분위기를 느끼고 싶다면 딱 2가 좋은 것 같기도 하다. (3은 지금봐도 세련된 것 같아서 포함 안함)</p>
+<p>HOMM2에서 가장 좋았던 것은 이상하게도 메인 화면이었다. 막 선술집 간판이나 나무통에 세이브 게임, 로드 게임, 뉴 게임</p>
+<p>막 이런것들이 써져 있었는데 이상하게 마음에 들었다.  </p>
+<p>별로 마음에 안드는 점도 있긴 했는데, 가장 좋아하는 유닛 중 하나인 타이탄이 기계가 삐그덕거리는 소리를 내며 걷는</p>
+<p>돌덩이로 디자인되었던 점하고&#8230; 걷는데 중간중간 멈추는 점?? </p>
+<p>(이동을 하다 보면 약간 박자타면서 걷는듯한 느낌도 들고&#8230;)</p>
+<p>그리고 산드로의 초상화가 너무 무서웠던점ㅋㅋㅋㅋㅋㅋㅋㅋ 어렸을 때 삼촌이 HOMM2할 때 나를 무릎에 앉혀놓고 했는데</p>
+<p>산드로만 나오면 무서워서 도망갔다고 한다. 근데 지금 봐도 왜 도망갔는지 이해된다&#8230; </p>
+<p>예전에 한 1년 전인가 플레이 해봤는데, 재미있긴 하지만 그렇다고 존잼!! 도 아닌 느낌이었다. 3이 너무 임팩트가 커서 그런가</p>
+<p></p>
+<p></p>
+<p><b>3. HOMM 3</b></p>
+<p>삼촌이 진짜 거의 밤새면서까지 하길래 그렇게 재미있나&#8230; 했는데 막상 해보니 진짜 밤샐뻔했다;;</p>
+<p>지금 봐도 2에 비해 엄청 세련되어진 느낌 (그렇다고 2가 엄청 구리다는 뜻은 아님;; 2도 좋음)</p>
+<p>버그 같은 것도 딱히 안보이는 것 같고&#8230; (내가 막눈이라 안보이는 것일 수도 있다) </p>
+<p>유닛 디자인도 마음에 들고 모션도 마음에 들고 전투할 때 필드가 넓어진 것도, 7명이 들어갈 수 있는 것도 다 좋았다!</p>
+<p>다만 아쉬운 점은 종족간의 밸런스&#8230; 램파트 노래 너무 좋아서 램파트 하고 싶은데 별로고,</p>
+<p>인퍼노도 간지 대박이라 하고 싶은데 역시나 별로고ㅠㅠ 램파트 인퍼노 조금만 더 상향시켰으면</p>
+<p>할때마다 무슨 종족으로 할지 막 고민했을텐데 아쉬웠다.</p>
+<p>가장 좋아하는 종족은 타워랑 컨플럭스. 좋은 이유는 타워는 유닛들이 좋아서, 컨플럭스는 그냥 사기라서&#8230;ㅋㅋㅋ</p>
+<p>처음에 HOMM3 했을 때 컨플럭스 해본 적이 있었는데, 몇주 지나니까 피닉스 열마리 가까이 쌓여있는 것 보고 진짜 놀랐다.</p>
+<p>이래서 멀티할땐 하지 말라는건가 싶기도 하고..</p>
+<p>가장 좋아하는 영웅은 없음. 그냥 종족에서 능력 괜찮은 애 골라 쓰는 편이다. (타워는 무조건 솔미르)</p>
+<p>위에는 적지 않았지만 2에서 마음에 안들었던 점 중 하나가 건물 디자인이 마음에 안 든 것인데, 3에서는 정말 많이</p>
+<p>세련되어져서 좋았다. 그리고 그 영웅 능력치 보는 화면이 딱 보기 편해졌다. 2는 좀 보기 불편했는데..</p>
+<p>그리고 무엇보다도 좋은 점은 음악이 진짜 좋다는 것ㅋㅋㅋ 전투할 때 브금 틀어놓고 하면 진짜 신나서 흥얼거리게 된다.</p>
+<p>타운 브금 보다는 전투 유닛을 좋아한다. 타운 브금이 가장 좋다고 생각하는 것은 램파트!</p>
+<p>이상하게 손이 안가는 종족은 네크로폴리스랑 포트리스. 둘 다 매력적인 종족인데 이상하게 손이 안가긴 한다&#8230;</p>
+<p>캠페인 보다는 자유 시나리오를 하는것을 더 선호하는 편이다(보는 것도, 하는 것도).</p>
+<p>근데 HOMM고, M&amp;M이고 하다 보면 드는 생각은 Might and Magic이지만 Magic에 몰빵되어 있다는 점ㅋㅋ</p>
+<p>Magic이 채고시다&#8230;. 아 그러고 보니 삼촌이나 나나 플레이하면서 중력장은 잘 안썼다. </p>
+<p>오히려 중력장 저거 쓸데없는거 아닌가 왜있나&#8230; 했는다 유투브에서 중력장을 이용한 플레이를 보고 엄청 놀랐다.</p>
+<p>중력장은 저렇게 쓰라고 있는거구나ㅋㅋㅋㅋㅋㅋ 근데 또 이거랑은 별개로 궁금한 점이 있다.</p>
+<p>가끔씩 유투브에 올라오는 HOMM3 영상을 보면 대천사, 드래곤 같은 고급 유닛이 몇만마리 있던데.. 그런건 어떻게 하는 거지</p>
+<p>맵도 유저맵 같던데 유저맵이랑은 상관 없는거 같은데.. 뭐가 있는 걸까??</p>
+<p></p>
+<p></p>
+<p><b>4. HOMM 5</b></p>
+<p>이거는 1편처럼 그렇게 기억에 남지 않는 편이다. 일단 플레이를 해본적도 없고, </p>
+<p>삼촌이 잠깐 하다가 다시 3으로 갈아탔기 때문&#8230;</p>
+<p>기억나는건 그리핀이 하늘에서 활강하면서 공격하는게 멋있었단것, 천사 디자인이 멋있었다는 것</p>
+<p>그리고 나가를 기대했는데 락샤사 어쩌구가 나와서 좀 실망이었던 점</p>
+<p>(나가가 3 내에서 최애 유닛임)</p>
+<p>그리고 가고일이 그냥 날개달린 돌덩이가 된 점ㅋㅋㅋㅋㅋㅋㅋㅋ만 기억이 난다.</p>
+<p>3에 비해 뭔가가 많이 바뀌었지만 그렇게 인상깊지는 않았다. </p>
+<p></p>
+<p></p>
+<p></p>
+<hr />
+<p><iframe src='http://ad.selfhow.com/rd' width='100%' border=0 frameborder=0 style='height:auto;width:100%'></iframe></p>
+<p><a href='http://deeeeeeepgreen.tistory.com/84' target='_blank'>Origin Content : 갈매빛</a> | <a href="/cdn-cgi/l/email-protection#55323438300a3636656564153b3439347b3234" target='_blank'>Contact : <span class="__cf_email__" data-cfemail="4a2d2b272f1529297a7a7b0a242b262b642d2b">[email&#160;protected]</span></a>
+</p>
+<p>Cotent License : CC-BY </p>
+<p>This content is collected under the CCL license.</p>
+<p>Please check the license of the original article before asking about copyright.</p>
+<ul>
+<li><a href='/tag/심심해서'>More About <span style='font-weight:bold;'>심심해서</span></a></li>
+<li><a href='/tag/그동안'>More About <span style='font-weight:bold;'>그동안</span></a></li>
+<li><a href='/tag/봤던'>More About <span style='font-weight:bold;'>봤던</span></a></li>
+<li><a href='/tag/게임'>More About <span style='font-weight:bold;'>게임</span></a></li>
+<li><a href='/tag/이야기'>More About <span style='font-weight:bold;'>이야기</span></a></li>
+<li><a href='/tag/HOMM'>More About <span style='font-weight:bold;'>HOMM</span></a></li>
+</ul>
+        </div> <!-- //.entry-summary -->
+        
+                    <div class="entry-tags"><b>Tags:</b> <a href="http://da.nala.ga/tag/homm/" rel="tag">HOMM</a>, <a href="http://da.nala.ga/tag/%ea%b2%8c%ec%9e%84/" rel="tag">게임</a>, <a href="http://da.nala.ga/tag/%ea%b7%b8%eb%8f%99%ec%95%88/" rel="tag">그동안</a>, <a href="http://da.nala.ga/tag/%eb%b4%a4%eb%8d%98/" rel="tag">봤던</a>, <a href="http://da.nala.ga/tag/%ec%8b%ac%ec%8b%ac%ed%95%b4%ec%84%9c/" rel="tag">심심해서</a>, <a href="http://da.nala.ga/tag/%ec%9d%b4%ec%95%bc%ea%b8%b0/" rel="tag">이야기</a></div>
+        
+    </div>
+
+</article> <!--/#post-->
+
+
+
+
+
+                                                                    <div class="post-nav-area">
+                                                    
+            <nav class="next-previous-post clearfix media" role="navigation">
+                <div class="row">
+                    <!-- Previous Post -->
+                    <div class="previous-post col-sm-6 pull-left">
+                        <div class="nav-previous"><i class="fa fa-angle-left"></i> <a href="http://da.nala.ga/%ec%9e%94%ed%98%b9%ed%95%98%ea%b3%a0-%ec%95%84%ea%b8%b0%ec%9e%90%ea%b8%b0%ed%95%9c-%ec%99%95%ec%a2%8c%ec%9d%98-%ea%b2%8c%ec%9e%84-%ec%95%84%eb%a5%b4%eb%a9%9c%eb%a1%9carmello/" rel="prev">잔혹하고 아기자기한 왕좌의 게임, &#8216;아르멜로(Armello)&#8217;</a></div>                    </div>
+
+                    <!-- Next Post -->
+                    <div class="next-post col-sm-6 pull-right text-right">
+                        <div class="nav-next"><a href="http://da.nala.ga/%ed%9e%88%ec%96%b4%eb%a1%9c%ec%a6%88-%ec%98%a4%eb%b8%8c-%eb%a7%88%ec%9d%b4%ed%8a%b8-%ec%95%a4-%eb%a7%a4%ec%a7%81-123-%eb%b0%80%eb%a0%88%eb%8b%88%ec%97%84-%ed%95%9c%ec%a0%95%ed%8c%90-%ed%8c%a8/" rel="next">히어로즈 오브 마이트 앤 매직 (1+2+3) 밀레니엄 한정판 패키지 에디션 1,2,3모음집</a> <i class="fa fa-angle-right"></i></div>                    </div>
+                </div>
+            </nav><!-- .navigation -->
+            
+                                            </div>
+                                
+                                
+                            
+                                            </main> <!-- /.site-main -->
+                </div>  <!-- /.content-area -->
+            </div> <!-- /col -->
+
+            <!-- Blogsidebar -->
+            
+	<div class="col-md-4">
+	    <div class="primary-sidebar widget-area" role="complementary">
+	        <div id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="http://da.nala.ga/">
+				<label>
+					<span class="screen-reader-text">검색:</span>
+					<input type="search" class="search-field" placeholder="검색 &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="검색" />
+			</form></div>		<div id="recent-posts-2" class="widget widget_recent_entries">		<h2 class="widget-title">최근 글</h2>		<ul>
+					<li>
+				<a href="http://da.nala.ga/%ea%b5%90%ed%99%98%ed%95%99%ec%83%9d%ec%a4%80%eb%b9%84part2-%ed%94%84%eb%9e%91%ec%8a%a4-sciences-po-%ec%a7%80%ec%9b%90-%ea%b3%bc%ec%a0%95%ea%b3%bc-%ea%b7%b8-%ec%a0%84-%ec%95%8c%ec%95%84%ec%95%bc/">[교환학생준비PART2] 프랑스 Sciences Po 지원 과정과 그 전 알아야할 것들!</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%b0%95%ea%b7%bc%ed%98%9c-%ec%b5%9c%ec%88%9c%ec%8b%a4-%ea%b2%8c%ec%9d%b4%ed%8a%b8%eb%a5%bc-%eb%b0%9d%ed%98%80%eb%82%b8-%ec%9d%bc%eb%93%b1%ea%b3%b5%ec%8b%a0-%ec%95%88%eb%af%bc%ec%84%9d/">박근혜 최순실 게이트를 밝혀낸 일등공신 안민석</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%b0%b0%ed%8b%80%ea%b7%b8%eb%9d%bc%ec%9a%b4%eb%93%9c-%ec%a0%95%ec%8b%9d%eb%b2%84%ec%a0%84-1-0%ed%8c%a8%ec%b9%98-%eb%ac%b4%ec%97%87%ec%9d%b4-%eb%b0%94%eb%80%8c%eb%82%98%ec%9a%94/">배틀그라운드 정식버전 1.0패치 무엇이 바뀌나요?</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%91%90%eb%87%8c%eb%a5%bc-%ea%b1%b4%ea%b0%95%ed%95%98%ea%b2%8c-%eb%a7%8c%eb%93%9c%eb%8a%94-4%ec%b2%9c%eb%b3%b4%ec%9d%98-%ea%b1%b8%ec%9d%8c/">두뇌를 건강하게 만드는 4천보의 걸음</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%af%b8%ea%b5%ad-%ec%9c%a0%ed%95%99-%ec%a0%95%eb%b3%b4-%ed%95%9c%ea%b5%ad-%eb%82%b4%ec%8b%a0-%ec%84%b1%ec%a0%81%eb%a7%8c%ec%9c%bc%eb%a1%9c-%eb%af%b8%ea%b5%ad-%eb%aa%85%eb%ac%b8%eb%8c%80-%ea%b0%80/">미국 유학  정보 &#8211; 한국 내신 성적만으로 미국 명문대 가기</a>
+						</li>
+				</ul>
+		</div>		<div id="tag_cloud-2" class="widget widget_tag_cloud"><h2 class="widget-title">태그</h2><div class="tagcloud"><a href="http://da.nala.ga/tag/1%ec%9b%94/" class="tag-cloud-link tag-link-35 tag-link-position-1" style="font-size: 14.892307692308pt;" aria-label="1월 (47 아이템)">1월</a>
+<a href="http://da.nala.ga/tag/2017/" class="tag-cloud-link tag-link-510 tag-link-position-2" style="font-size: 19.415384615385pt;" aria-label="2017 (76 아이템)">2017</a>
+<a href="http://da.nala.ga/tag/2017%eb%85%84/" class="tag-cloud-link tag-link-8 tag-link-position-3" style="font-size: 18.123076923077pt;" aria-label="2017년 (66 아이템)">2017년</a>
+<a href="http://da.nala.ga/tag/2018/" class="tag-cloud-link tag-link-61 tag-link-position-4" style="font-size: 14.461538461538pt;" aria-label="2018 (45 아이템)">2018</a>
+<a href="http://da.nala.ga/tag/2018%eb%85%84/" class="tag-cloud-link tag-link-103 tag-link-position-5" style="font-size: 18.984615384615pt;" aria-label="2018년 (73 아이템)">2018년</a>
+<a href="http://da.nala.ga/tag/vs/" class="tag-cloud-link tag-link-943 tag-link-position-6" style="font-size: 9.5076923076923pt;" aria-label="vs (26 아이템)">vs</a>
+<a href="http://da.nala.ga/tag/%ec%98%81%ed%99%94/" class="tag-cloud-link tag-link-1375 tag-link-position-7" style="font-size: 14.246153846154pt;" aria-label="“영화 (44 아이템)">“영화</a>
+<a href="http://da.nala.ga/tag/%ea%b0%80%ea%b2%a9/" class="tag-cloud-link tag-link-63 tag-link-position-8" style="font-size: 12.953846153846pt;" aria-label="가격 (38 아이템)">가격</a>
+<a href="http://da.nala.ga/tag/%ea%b0%80%ec%83%81%ed%99%94%ed%8f%90/" class="tag-cloud-link tag-link-1479 tag-link-position-9" style="font-size: 9.0769230769231pt;" aria-label="가상화폐 (25 아이템)">가상화폐</a>
+<a href="http://da.nala.ga/tag/%ea%b2%80%ec%9d%80%ec%82%ac%eb%a7%89/" class="tag-cloud-link tag-link-341 tag-link-position-10" style="font-size: 8.8615384615385pt;" aria-label="검은사막 (24 아이템)">검은사막</a>
+<a href="http://da.nala.ga/tag/%ea%b2%8c%ec%9e%84/" class="tag-cloud-link tag-link-391 tag-link-position-11" style="font-size: 22pt;" aria-label="게임 (102 아이템)">게임</a>
+<a href="http://da.nala.ga/tag/%ea%b3%b5%ea%b0%9c/" class="tag-cloud-link tag-link-938 tag-link-position-12" style="font-size: 9.5076923076923pt;" aria-label="공개 (26 아이템)">공개</a>
+<a href="http://da.nala.ga/tag/%ea%b3%b5%eb%9e%b5/" class="tag-cloud-link tag-link-1018 tag-link-position-13" style="font-size: 8.8615384615385pt;" aria-label="공략 (24 아이템)">공략</a>
+<a href="http://da.nala.ga/tag/%eb%8b%a4%ec%9a%b4%eb%a1%9c%eb%93%9c/" class="tag-cloud-link tag-link-364 tag-link-position-14" style="font-size: 8.4307692307692pt;" aria-label="다운로드 (23 아이템)">다운로드</a>
+<a href="http://da.nala.ga/tag/%eb%8c%80%ed%95%b4%ec%84%9c/" class="tag-cloud-link tag-link-1629 tag-link-position-15" style="font-size: 8.8615384615385pt;" aria-label="대해서 (24 아이템)">대해서</a>
+<a href="http://da.nala.ga/tag/%eb%a6%ac%eb%b7%b0/" class="tag-cloud-link tag-link-555 tag-link-position-16" style="font-size: 15.969230769231pt;" aria-label="리뷰 (53 아이템)">리뷰</a>
+<a href="http://da.nala.ga/tag/%eb%a7%9b%ec%a7%91/" class="tag-cloud-link tag-link-4173 tag-link-position-17" style="font-size: 9.9384615384615pt;" aria-label="맛집 (27 아이템)">맛집</a>
+<a href="http://da.nala.ga/tag/%eb%aa%a8%eb%b0%94%ec%9d%bc/" class="tag-cloud-link tag-link-835 tag-link-position-18" style="font-size: 10.584615384615pt;" aria-label="모바일 (29 아이템)">모바일</a>
+<a href="http://da.nala.ga/tag/%eb%ac%b4%eb%a3%8c/" class="tag-cloud-link tag-link-827 tag-link-position-19" style="font-size: 13.384615384615pt;" aria-label="무료 (40 아이템)">무료</a>
+<a href="http://da.nala.ga/tag/%eb%b0%a9%eb%b2%95/" class="tag-cloud-link tag-link-529 tag-link-position-20" style="font-size: 15.323076923077pt;" aria-label="방법 (49 아이템)">방법</a>
+<a href="http://da.nala.ga/tag/%eb%b9%84%ed%8a%b8%ec%bd%94%ec%9d%b8/" class="tag-cloud-link tag-link-1478 tag-link-position-21" style="font-size: 9.0769230769231pt;" aria-label="비트코인 (25 아이템)">비트코인</a>
+<a href="http://da.nala.ga/tag/%ec%84%a4%ec%b9%98/" class="tag-cloud-link tag-link-360 tag-link-position-22" style="font-size: 8pt;" aria-label="설치 (22 아이템)">설치</a>
+<a href="http://da.nala.ga/tag/%ec%86%8c%ea%b0%9c/" class="tag-cloud-link tag-link-297 tag-link-position-23" style="font-size: 8.4307692307692pt;" aria-label="소개 (23 아이템)">소개</a>
+<a href="http://da.nala.ga/tag/%ec%88%9c%ec%9c%84/" class="tag-cloud-link tag-link-12 tag-link-position-24" style="font-size: 11.230769230769pt;" aria-label="순위 (31 아이템)">순위</a>
+<a href="http://da.nala.ga/tag/%ec%8b%9c%ec%9e%91/" class="tag-cloud-link tag-link-579 tag-link-position-25" style="font-size: 8.4307692307692pt;" aria-label="시작 (23 아이템)">시작</a>
+<a href="http://da.nala.ga/tag/%ec%95%88%eb%82%b4/" class="tag-cloud-link tag-link-338 tag-link-position-26" style="font-size: 10.584615384615pt;" aria-label="안내 (29 아이템)">안내</a>
+<a href="http://da.nala.ga/tag/%ec%95%8c%ec%95%84%eb%b3%b4%ea%b8%b0/" class="tag-cloud-link tag-link-1939 tag-link-position-27" style="font-size: 12.523076923077pt;" aria-label="알아보기 (36 아이템)">알아보기</a>
+<a href="http://da.nala.ga/tag/%ec%95%8c%ec%95%84%eb%b3%b4%ec%9e%90/" class="tag-cloud-link tag-link-369 tag-link-position-28" style="font-size: 11.661538461538pt;" aria-label="알아보자 (33 아이템)">알아보자</a>
+<a href="http://da.nala.ga/tag/%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8/" class="tag-cloud-link tag-link-567 tag-link-position-29" style="font-size: 9.0769230769231pt;" aria-label="업데이트 (25 아이템)">업데이트</a>
+<a href="http://da.nala.ga/tag/%ec%97%ac%ed%96%89/" class="tag-cloud-link tag-link-1122 tag-link-position-30" style="font-size: 12.738461538462pt;" aria-label="여행 (37 아이템)">여행</a>
+<a href="http://da.nala.ga/tag/%ec%98%a4%eb%b8%8c/" class="tag-cloud-link tag-link-271 tag-link-position-31" style="font-size: 10.8pt;" aria-label="오브 (30 아이템)">오브</a>
+<a href="http://da.nala.ga/tag/%ec%98%a8%eb%9d%bc%ec%9d%b8/" class="tag-cloud-link tag-link-328 tag-link-position-32" style="font-size: 11.876923076923pt;" aria-label="온라인 (34 아이템)">온라인</a>
+<a href="http://da.nala.ga/tag/%ec%9c%84%ed%95%9c/" class="tag-cloud-link tag-link-183 tag-link-position-33" style="font-size: 13.169230769231pt;" aria-label="위한 (39 아이템)">위한</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%eb%b2%a4%ed%8a%b8/" class="tag-cloud-link tag-link-723 tag-link-position-34" style="font-size: 13.169230769231pt;" aria-label="이벤트 (39 아이템)">이벤트</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%ec%95%bc%ea%b8%b0/" class="tag-cloud-link tag-link-861 tag-link-position-35" style="font-size: 10.8pt;" aria-label="이야기 (30 아이템)">이야기</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%ec%9c%a0/" class="tag-cloud-link tag-link-1482 tag-link-position-36" style="font-size: 9.9384615384615pt;" aria-label="이유 (27 아이템)">이유</a>
+<a href="http://da.nala.ga/tag/%ec%9d%bc%eb%b3%b8/" class="tag-cloud-link tag-link-1007 tag-link-position-37" style="font-size: 8.4307692307692pt;" aria-label="일본 (23 아이템)">일본</a>
+<a href="http://da.nala.ga/tag/%ec%a0%95%eb%a6%ac/" class="tag-cloud-link tag-link-65 tag-link-position-38" style="font-size: 11.876923076923pt;" aria-label="정리 (34 아이템)">정리</a>
+<a href="http://da.nala.ga/tag/%ec%a0%95%eb%b3%b4/" class="tag-cloud-link tag-link-610 tag-link-position-39" style="font-size: 17.261538461538pt;" aria-label="정보 (61 아이템)">정보</a>
+<a href="http://da.nala.ga/tag/%ec%b4%9d%ec%a0%95%eb%a6%ac/" class="tag-cloud-link tag-link-179 tag-link-position-40" style="font-size: 8.4307692307692pt;" aria-label="총정리 (23 아이템)">총정리</a>
+<a href="http://da.nala.ga/tag/%ec%b5%9c%ea%b3%a0/" class="tag-cloud-link tag-link-404 tag-link-position-41" style="font-size: 11.876923076923pt;" aria-label="최고 (34 아이템)">최고</a>
+<a href="http://da.nala.ga/tag/%ec%b6%94%ec%b2%9c/" class="tag-cloud-link tag-link-367 tag-link-position-42" style="font-size: 20.707692307692pt;" aria-label="추천 (89 아이템)">추천</a>
+<a href="http://da.nala.ga/tag/%ec%b6%9c%ec%8b%9c/" class="tag-cloud-link tag-link-612 tag-link-position-43" style="font-size: 10.584615384615pt;" aria-label="출시 (29 아이템)">출시</a>
+<a href="http://da.nala.ga/tag/%ed%95%9c%ea%b5%ad/" class="tag-cloud-link tag-link-1483 tag-link-position-44" style="font-size: 10.153846153846pt;" aria-label="한국 (28 아이템)">한국</a>
+<a href="http://da.nala.ga/tag/%ed%9b%84%ea%b8%b0/" class="tag-cloud-link tag-link-114 tag-link-position-45" style="font-size: 19.2pt;" aria-label="후기 (74 아이템)">후기</a></div>
+</div>	    </div>
+	</div>
+
+        </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+    </div>
+    <footer class="site-footer" role="contentinfo">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+  
+                    <p></p>
+                    
+                                            <div class="footer-social-icons">
+                                                                                                                                                                                                                                                                                                                                                                                                        
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+            <div class="scroll-up">
+            <a href="#"><i class="fa fa-angle-up"></i></a>
+        </div>
+        <!-- Scroll Up -->
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/af2821b0/cloudflare-static/email-decode.min.js"></script><script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/bootstrap.min.js?ver=3.3.5'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/scripts.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/jquery.fitvids.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/smoothscroll.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/wp-embed.min.js?ver=4.8.4'></script>
+    </body>
+</html>

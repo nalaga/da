@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="http://da.nala.ga/xmlrpc.php">
+
+<title>[정보보안교육][모집] 소스코드 기반 웹 해킹 기초/기본 교육 과정(01.05 ~ ?) | All About CC</title>
+<meta name='robots' content='noindex,follow' />
+
+<!-- All in One SEO Pack 2.4.3.1 by Michael Torbert of Semper Fi Web Design[276,352] -->
+<link rel="canonical" href="http://da.nala.ga/%ec%a0%95%eb%b3%b4%eb%b3%b4%ec%95%88%ea%b5%90%ec%9c%a1%eb%aa%a8%ec%a7%91-%ec%86%8c%ec%8a%a4%ec%bd%94%eb%93%9c-%ea%b8%b0%eb%b0%98-%ec%9b%b9-%ed%95%b4%ed%82%b9-%ea%b8%b0%ec%b4%88%ea%b8%b0%eb%b3%b8/" />
+<!-- /all in one seo pack -->
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 피드" href="http://da.nala.ga/feed/" />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 댓글 피드" href="http://da.nala.ga/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; [정보보안교육][모집] 소스코드 기반 웹 해킹 기초/기본 교육 과정(01.05 ~ ?) 댓글 피드" href="http://da.nala.ga/%ec%a0%95%eb%b3%b4%eb%b3%b4%ec%95%88%ea%b5%90%ec%9c%a1%eb%aa%a8%ec%a7%91-%ec%86%8c%ec%8a%a4%ec%bd%94%eb%93%9c-%ea%b8%b0%eb%b0%98-%ec%9b%b9-%ed%95%b4%ed%82%b9-%ea%b8%b0%ec%b4%88%ea%b8%b0%eb%b3%b8/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/da.nala.ga\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.4"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bootstrap-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/bootstrap.min.css?ver=3.3.5' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/font-awesome.min.css?ver=4.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='shaped-blog-stylesheet-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/style.css?ver=4.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/responsive.css' type='text/css' media='all' />
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://da.nala.ga/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://da.nala.ga/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://da.nala.ga/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='[모바일게임] 리니지m 희귀제작비법서 득템 획득처는??' href='http://da.nala.ga/%eb%aa%a8%eb%b0%94%ec%9d%bc%ea%b2%8c%ec%9e%84-%eb%a6%ac%eb%8b%88%ec%a7%80m-%ed%9d%ac%ea%b7%80%ec%a0%9c%ec%9e%91%eb%b9%84%eb%b2%95%ec%84%9c-%eb%93%9d%ed%85%9c-%ed%9a%8d%eb%93%9d%ec%b2%98%eb%8a%94/' />
+<link rel='next' title='리버싱 입문자용_Win32' href='http://da.nala.ga/%eb%a6%ac%eb%b2%84%ec%8b%b1-%ec%9e%85%eb%ac%b8%ec%9e%90%ec%9a%a9_win32/' />
+<meta name="generator" content="WordPress 4.8.4" />
+<link rel='shortlink' href='http://da.nala.ga/?p=1895' />
+<link rel="alternate" type="application/json+oembed" href="http://da.nala.ga/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fda.nala.ga%2F%25ec%25a0%2595%25eb%25b3%25b4%25eb%25b3%25b4%25ec%2595%2588%25ea%25b5%2590%25ec%259c%25a1%25eb%25aa%25a8%25ec%25a7%2591-%25ec%2586%258c%25ec%258a%25a4%25ec%25bd%2594%25eb%2593%259c-%25ea%25b8%25b0%25eb%25b0%2598-%25ec%259b%25b9-%25ed%2595%25b4%25ed%2582%25b9-%25ea%25b8%25b0%25ec%25b4%2588%25ea%25b8%25b0%25eb%25b3%25b8%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://da.nala.ga/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fda.nala.ga%2F%25ec%25a0%2595%25eb%25b3%25b4%25eb%25b3%25b4%25ec%2595%2588%25ea%25b5%2590%25ec%259c%25a1%25eb%25aa%25a8%25ec%25a7%2591-%25ec%2586%258c%25ec%258a%25a4%25ec%25bd%2594%25eb%2593%259c-%25ea%25b8%25b0%25eb%25b0%2598-%25ec%259b%25b9-%25ed%2595%25b4%25ed%2582%25b9-%25ea%25b8%25b0%25ec%25b4%2588%25ea%25b8%25b0%25eb%25b3%25b8%2F&#038;format=xml" />
+
+	<style>
+
+		/* Border Color */
+		.btn-social:hover,
+		blockquote,
+		#respond input:focus[type="text"], 
+	    #respond input:focus[type="email"], 
+	    #respond input:focus[type="url"],
+	    #respond textarea:focus,
+	    #comments .comment-reply a:hover
+		{
+			border-color: ;
+		}
+
+		
+		/* Background Color */
+		.scroll-up a,
+		.btn-social:hover,
+		button,
+		input[type="button"],
+		input[type="reset"],
+		input[type="submit"],
+		.navbar-default .navbar-nav .dropdown-menu li a:hover, .dropdown-menu li a:focus, .navbar-default .navbar-nav .dropdown-menu .active a,
+		.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover, .pagination li .current,
+		.next-previous-posts .next-post a:hover,
+		.next-previous-posts .previous-post a:hover,
+		.btn-goback,
+		.btn-submit,
+		a.more-link,
+		.featured-post .fa,
+		#comments .comment-reply a:hover,
+		.widget .tagcloud a
+		{
+			background-color: ;
+		}
+
+		
+		/* Color */
+		.text-logo a,
+		.navbar-default .navbar-nav .active a, .navbar-default .navbar-nav .active a:hover, .navbar-default .navbar-nav .active a:focus,
+		.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus,
+		a:hover,
+    	a:focus,
+		.next-previous-posts .previous-post a,
+		.next-previous-posts .next-post a,
+		.pagination>li>a, .pagination>li>span,
+		#comments .comment-author a:hover, 
+    	#respond .logged-in-as a:hover,
+    	#wp-calendar a,
+    	h2.entry-title a:hover
+		{
+			color: ;
+		}
+
+
+		/* A Color */
+		a{
+			color: ;
+		}
+
+		/* a:hover Color */
+		a:hover,
+		a:focus,
+		a:active,
+		.widget a:hover,
+		.post .post-content .entry-meta ul li a:hover
+		{
+			color: ;
+		}
+
+		/* .featured-post .fa:after*/
+		.featured-post .fa:after{
+			border-color:   transparent ;
+		}
+
+
+		
+
+	</style>
+</head>
+
+<body class="post-template-default single single-post postid-1895 single-format-standard">
+
+    <div id="st-preloader">
+        <div id="pre-status">
+            <div class="preload-placeholder"></div>
+        </div>
+    </div>
+<!-- /Preloader -->
+
+<header id="header">	
+	<div id="trueHeader">
+    	<div class="wrapper">
+            <div class="container">
+            	<!-- Menu -->
+            	<div class="menu_main">
+                	<div class="navbar blogx-navbar navbar-default">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#st-navber-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+
+                                                            <div class="text-logo">
+                                    <a href="http://da.nala.ga">All About CC</a>
+                                    <p>All About CC Contents</p>
+                                </div><!-- /Logo -->
+                                                    </div>
+                      
+                        <div id="st-navber-collapse" class="navbar-collapse collapse pull-right">
+                             
+                        </div>
+                    </div>
+            	</div><!-- end menu -->
+        	</div> <!-- /.container -->
+    	</div>
+	</div>
+	<DIV class='ads_adsense_img' style='margin:40px 0px 40px 0px;'>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- only display -->
+	<ins class="adsbygoogle"
+	     style="display:block"
+	     data-ad-client="ca-pub-8393857339019314"
+	     data-ad-slot="7474886381"
+	     data-ad-format="auto"></ins>
+	<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+	</DIV>	
+</header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div id="primary" class="content-area">
+                    <main id="main" class="site-main" role="main">
+
+                        
+                                <article id="post-1895" class="post-1895 post type-post status-publish format-standard hentry category-uncategorized tag-3738 tag-2 tag-3735 tag-3737 tag-3734 tag-3733 tag-3736">
+    <header class="entry-header">
+        
+        
+    </header> <!--/.entry-header -->
+
+    <div class="clearfix post-content media">
+
+        <h2 class="entry-title">
+            [정보보안교육][모집] 소스코드 기반 웹 해킹 기초/기본 교육 과정(01.05 ~ ?)        </h2> <!-- //.entry-title -->
+
+        <div class="clearfix entry-meta">
+            
+            <ul class="list-inline">
+                <li>
+                    <span class="author vcard">
+                        By <a class="url fn n" href="http://da.nala.ga/author/site-admin/">site-admin</a>                    </span>
+                </li>
+                <li>
+                    on <span class="posted-on">1월 09, 2018</span>
+                </li>
+                                    <li>
+                        in <span class="posted-in">
+                            <a href="http://da.nala.ga/category/uncategorized/" rel="category tag">미분류</a>                        </span>
+                    </li>
+                            </ul>
+                </div> <!--/.entry-meta -->
+        
+        <div class="entry-summary">
+            <h1>3줄 요약 </h1>
+<div style='color:#fff;background-color:#000;border-radius:10px;'>
+<ol>
+<li><span>[교육 후기]- http://blog.naver.com/yyt3000/memo</span></li>
+<li><span>[필수 역량] &#8211; 열정이 넘치는 자(비전공자 일반인도 가능) &#8211; 절실한  <small>&#8230;중략&#8230;</small> 는 날로 오셔서 분위기나 교육 내용 방식 등 보고 판단하시기 바랍니다 .</span></li>
+<li><span>&#8211; 장소 및 시간 : 구로디지털단지 &#8220;서울산업정보교육원&#8221; / 매주 금(19시 ~ 22시)</span></li>
+</ol>
+</div>
+<p><span id="more-1895"></span></p>
+<p><iframe src='http://ad.selfhow.com/rd' width='100%' border=0 frameborder=0 style='height:auto;width:100%'></iframe></p>
+<hr />
+<p style='font-family: "Ubuntu Condensed", "Noto Sans Korean"; font-size: 15px;'><strong style="font-size: 14pt; font-family: 굴림; color: rgb(37, 37, 37);">[교육 대상]</strong></p>
+<p style="font-size: 15px; margin: 0px; list-style-type: none; font-family: 돋움, dotum, Helvetica, sans-serif; color: rgb(37, 37, 37); padding: 0px; line-height: 16px;"><font face="굴림" size="2"><span style="box-sizing: border-box; font-size: 14pt; line-height: 20px;"><strong><br style="padding: 0px; margin: 0px;"/></strong></span></font></p>
+<p style="font-size: 15px; margin: 0px; list-style-type: none; font-family: 돋움, dotum, Helvetica, sans-serif; color: rgb(37, 37, 37); padding: 0px; line-height: 16px;"><font face="굴림" size="2"><span style="box-sizing: border-box; font-size: 14pt; line-height: 20px;"><span style="box-sizing: border-box; font-size: 12pt; line-height: 20px;"><strong> &#8211; 비 전공자, 컴공이나 보안에 관심은 있으나 접할 용기가 없으신 분</strong></span> </span></font></p>
+<p style="font-size: 15px; margin: 0px; list-style-type: none; font-family: 돋움, dotum, Helvetica, sans-serif; color: rgb(37, 37, 37); padding: 0px; line-height: 16px;"><font face="굴림" size="2"><span style="box-sizing: border-box; font-size: 12pt; line-height: 20px;"><strong> &#8211; 정보보안전문가에 관심은 있으나 기회가 되지 않아 공부해보지 못한 분</strong></span></font></p>
+<p style="font-size: 15px; margin: 0px; list-style-type: none; font-family: 돋움, dotum, Helvetica, sans-serif; color: rgb(37, 37, 37); padding: 0px; line-height: 16px;"><font face="굴림" size="2"><span style="box-sizing: border-box; font-size: 12pt; line-height: 20px;"><strong> &#8211; 정보보안쪽으로 취업을 희망하나 “과연할 수 있을까” 생각이 드는 분</strong></span></font></p>
+<p style="font-size: 15px; margin: 0px; list-style-type: none; font-family: 돋움, dotum, Helvetica, sans-serif; color: rgb(37, 37, 37); padding: 0px; line-height: 16px;"><font face="굴림" size="2"><span style="box-sizing: border-box; font-size: 12pt; line-height: 20px;"><strong> &#8211; 졸업 이후 정보보호학원(kitri, 아이티뱅크, kisec 등)을 다녀 취업을 희망하시는 분</strong></span></font></p>
+<p style="font-size: 15px; margin: 0px; list-style-type: none; font-family: 돋움, dotum, Helvetica, sans-serif; color: rgb(37, 37, 37); padding: 0px; line-height: 16px;"><font face="굴림" size="2"><span style="box-sizing: border-box; font-size: 12pt; line-height: 20px;"><strong> &#8211; 기업의 실무 보안이 어떤 일을 하는 지 궁금하신 분</strong></span></font></p>
+<p style="font-size: 15px; margin: 0px; list-style-type: none; font-family: 돋움, dotum, Helvetica, sans-serif; color: rgb(37, 37, 37); padding: 0px; line-height: 16px;"><font face="굴림" size="2"><span style="box-sizing: border-box; font-size: 12pt; line-height: 20px;"><strong> &#8211; 보안업체 인턴으로 취업을 해도 『동적, 정적 취약점 진단(AND, iOS, WEB), 모의해킹,</strong></span></font></p>
+<p style="font-size: 15px; margin: 0px; list-style-type: none; font-family: 돋움, dotum, Helvetica, sans-serif; color: rgb(37, 37, 37); padding: 0px; line-height: 16px;"><font face="굴림" size="2"><span style="box-sizing: border-box; font-size: 12pt; line-height: 20px;"><strong>   악성코드 분석, 리버스엔지니어링』 등 심화된 분야를 경험해 보고 싶었으나 생각했던 부분과</strong></span></font></p>
+<p style="font-size: 15px; margin: 0px; list-style-type: none; font-family: 돋움, dotum, Helvetica, sans-serif; color: rgb(37, 37, 37); padding: 0px; line-height: 16px;"><font face="굴림" size="2"><span style="box-sizing: border-box; font-size: 12pt; line-height: 20px;"><strong>   많이 달라 진로를 고민하고 계신 분</strong></span></font></p>
+<p style="font-size: 15px; margin: 0px; list-style-type: none; font-family: 돋움, dotum, Helvetica, sans-serif; color: rgb(37, 37, 37); padding: 0px; line-height: 16px;"><font face="굴림" size="2"><span style="box-sizing: border-box; font-size: 12pt; line-height: 20px;"><strong> &#8211; 위 내용들과 같이 다양한 분야를 두루 알고 싶은데 접할 기회가 없는 분</strong></span></font></p>
+<p style="font-size: 15px; margin: 0px; list-style-type: none; font-family: 돋움, dotum, Helvetica, sans-serif; color: rgb(37, 37, 37); padding: 0px; line-height: 16px;"><font face="굴림" size="2"><span style="box-sizing: border-box; font-size: 12pt; line-height: 20px;"> </span></font></p>
+<p style="font-size: 15px; margin: 0px; list-style-type: none; font-family: 돋움, dotum, Helvetica, sans-serif; color: rgb(37, 37, 37); padding: 0px; line-height: 16px;"><font face="굴림" size="2"><span style="box-sizing: border-box; font-size: 12pt; line-height: 20px;">​</span></font></p>
+<p style="font-size: 15px; margin: 0px; list-style-type: none; font-family: 돋움, dotum, Helvetica, sans-serif; color: rgb(37, 37, 37); padding: 0px; line-height: 16px;"><font face="굴림" size="2"><font face="굴림" size="2"><span style="box-sizing: border-box; font-size: 14pt; line-height: 20px;"><strong>[강사 소개]</strong></span></font></font></p>
+<p style="font-size: 15px; margin: 0px; list-style-type: none; font-family: 돋움, dotum, Helvetica, sans-serif; color: rgb(37, 37, 37); padding: 0px; line-height: 16px;"><font face="굴림" size="2"><span style="box-sizing: border-box; font-size: 14pt; line-height: 20px;"><strong><br style="padding: 0px; margin: 0px;"/></strong></span></font></p>
+<p style="margin: 0px; list-style-type: none; padding: 0px; line-height: 16px;"><strong style="color: rgb(37, 37, 37); font-family: 굴림;"><span style="font-size: 12pt;"> &#8211; </span></strong><font color="#252525" face="굴림"><b><span style="font-size: 12pt;">총 실무경력 : 11년</span></b></font></p>
+<p style="margin: 0px; list-style-type: none; padding: 0px; line-height: 16px;"><strong style="color: rgb(37, 37, 37); font-family: 굴림;"><span style="font-size: 12pt;"> &#8211; </span></strong><font color="#252525" face="굴림"><b><span style="font-size: 12pt;">육군 00 CERT 침해대응 / 분석 담당</span></b></font></p>
+<p style="margin: 0px; list-style-type: none; padding: 0px; line-height: 16px;"><strong style="color: rgb(37, 37, 37); font-family: 굴림;"><span style="font-size: 12pt;"> &#8211; </span></strong><font color="#252525" face="굴림"><b><span style="font-size: 12pt;">신한 00 취약점 진단 / 모의해킹 담당</span></b></font></p>
+<p style="margin: 0px; list-style-type: none; padding: 0px; line-height: 16px;"><strong style="color: rgb(37, 37, 37); font-family: 굴림;"><span style="font-size: 12pt;"> &#8211; </span></strong><font color="#252525" face="굴림"><b><span style="font-size: 12pt;">SK 00 취약점 진단 / 모의해킹 담당</span></b></font></p>
+<p style="margin: 0px; list-style-type: none; padding: 0px; line-height: 16px;"><strong style="color: rgb(37, 37, 37); font-family: 굴림;"><span style="font-size: 12pt;"> &#8211; </span></strong><font color="#252525" face="굴림"><b><span style="font-size: 12pt;">KT 00 침해사고분석/대응 PL</span></b></font></p>
+<p style="margin: 0px; list-style-type: none; padding: 0px; line-height: 16px;"><strong style="color: rgb(37, 37, 37); font-family: 굴림;"><span style="font-size: 12pt;"> &#8211; </span></strong><font color="#252525" face="굴림"><b><span style="font-size: 12pt;">경찰0 침해사고분석/대응 PM</span></b></font></p>
+<p style="margin: 0px; list-style-type: none; padding: 0px; line-height: 16px;"><strong style="color: rgb(37, 37, 37); font-family: 굴림;"><span style="font-size: 12pt;"> &#8211; </span></strong><font color="#252525" face="굴림"><b><span style="font-size: 12pt;">법무0 침해사고분석/대응</span></b></font></p>
+<p style="margin: 0px; list-style-type: none; padding: 0px; line-height: 16px;"><strong style="color: rgb(37, 37, 37); font-family: 굴림;"><span style="font-size: 12pt;"> &#8211; </span></strong><font color="#252525" face="굴림"><b><span style="font-size: 12pt;">입상경력 : 해킹방어대회 3회 입상</span></b></font></p>
+<p style="margin: 0px; list-style-type: none; padding: 0px; line-height: 16px;"><strong style="color: rgb(37, 37, 37); font-family: 굴림;"><span style="font-size: 12pt;"> &#8211; </span></strong><font color="#252525" face="굴림"><b><span style="font-size: 12pt;">2017 사이버공격방어대회(CCE) 5등</span></b></font></p>
+<p style='font-family: "Ubuntu Condensed", "Noto Sans Korean"; font-size: 15px;'></p>
+<p style="font-size: 15px; margin: 0px; list-style-type: none; font-family: 돋움, dotum, Helvetica, sans-serif; color: rgb(37, 37, 37); padding: 0px; line-height: 16px;"><font face="굴림" size="2"><font face="굴림" size="2"><font face="굴림" size="2"><span style="box-sizing: border-box; font-size: 14pt; line-height: 20px;"><strong>[교육 내용] : 아래와 내용을 기반으로 수업을 진행하고 별도 포트폴리오를 진행.</strong></span></font></font></font></p>
+<p style="font-size: 15px; margin: 0px; list-style-type: none; font-family: 돋움, dotum, Helvetica, sans-serif; color: rgb(37, 37, 37); padding: 0px; line-height: 16px;"><font face="굴림" size="2"><font face="굴림" size="2"><font face="굴림" size="2"><span style="box-sizing: border-box; font-size: 14pt; line-height: 20px;"><strong><br /></strong></span></font></font></font></p>
+<p style="font-size: 15px; margin: 0px; list-style-type: none; font-family: 돋움, dotum, Helvetica, sans-serif; color: rgb(37, 37, 37); padding: 0px; line-height: 16px;"><b style="color: rgb(102, 102, 102); font-size: 14.6667px; font-family: 나눔고딕, NanumGothic, 돋움;"><span style="font-size: 12pt; font-family: Gulim, 굴림; color: rgb(0, 0, 0);">&#8211; 웹 기초 (HTTP&amp;HTTPS, 클라이언트&amp;서버, 블랙박스&amp;화이트박스,쿠키&amp;세션,요청&amp;응답)</span></b></p>
+<div style="font-family: 돋움, dotum, Helvetica, sans-serif; font-size: 12px; list-style: none; margin: 0px; padding: 0px; color: rgb(102, 102, 102); line-height: 1.8;"><b style="font-family: 나눔고딕, NanumGothic, 돋움;"><span style="font-size: 11pt;"><span style="font-size: 12pt; font-family: Gulim, 굴림; color: rgb(0, 0, 0);">&#8211; 웹</span></span><span style="font-size: 12pt; font-family: Gulim, 굴림; color: rgb(0, 0, 0);"> 기본</span></b><font color="#666666" face="함초롬바탕"><span style="font-size: 12pt; font-family: Gulim, 굴림; color: rgb(0, 0, 0);">Ⅰ </span></font><span style="font-family: 나눔고딕, NanumGothic, 돋움; font-size: 11pt;"><b><span style="font-size: 12pt; font-family: Gulim, 굴림; color: rgb(0, 0, 0);">(취약점 분석 방법론 &#8211; 관점 넓히기, 인증 결재 시나리오 학습)</span></b></span></div>
+<div style="font-family: 돋움, dotum, Helvetica, sans-serif; font-size: 12px; list-style: none; margin: 0px; padding: 0px; color: rgb(102, 102, 102); line-height: 1.8;"><b style="font-family: 나눔고딕, NanumGothic, 돋움; font-size: 14.6667px;"><span style="font-size: 12pt; font-family: Gulim, 굴림; color: rgb(0, 0, 0);">&#8211; 웹 기본</span></b><font color="#666666" face="나눔고딕, NanumGothic, 돋움"><span style="font-size: 14.6667px;"><b><span style="font-size: 12pt; font-family: Gulim, 굴림; color: rgb(0, 0, 0);">Ⅱ </span></b></span></font><b style="font-family: 나눔고딕, NanumGothic, 돋움; font-size: 14.6667px;"><span style="font-size: 12pt; font-family: Gulim, 굴림; color: rgb(0, 0, 0);">(SW 개발보안 경진대회 대비 소스코드 트레이싱 방법론 학습)</span></b></div>
+<div style="font-family: inherit; font-size: inherit; list-style: none; margin: 0px; padding: 0px; color: rgb(102, 102, 102); line-height: 1.8;"><b style="font-family: 나눔고딕, NanumGothic, 돋움; font-size: 14.6667px;"><span style="font-size: 12pt; font-family: Gulim, 굴림; color: rgb(0, 0, 0);">&#8211; 웹 기본Ⅲ </span></b><b style="font-family: 나눔고딕, NanumGothic, 돋움; font-size: 14.6667px;"><span style="font-size: 12pt; font-family: Gulim, 굴림; color: rgb(0, 0, 0);">(SW 개발보안 경진대회 대비 전자정부 표준 프레임웍 기반 시나리오 연계 취약점 문제 풀이)</span></b></div>
+<div style="font-family: inherit; font-size: inherit; list-style: none; margin: 0px; padding: 0px; color: rgb(102, 102, 102); line-height: 1.8;"><b style="font-family: 나눔고딕, NanumGothic, 돋움; font-size: 14.6667px;"><br /></b></div>
+<div style="font-family: inherit; font-size: inherit; list-style: none; margin: 0px; padding: 0px; color: rgb(102, 102, 102); line-height: 1.8;"><b style="font-family: 나눔고딕, NanumGothic, 돋움; font-size: 14.6667px;"><span style="font-size: 12pt; font-family: Gulim, 굴림; color: rgb(255, 0, 0);">※ 포토폴리오 : 주요정보통신기반시설 기술적 취약점 분석 평가 방법 상세가이드를 기반으로 한 </span></b></div>
+<div style="font-family: inherit; font-size: inherit; list-style: none; margin: 0px; padding: 0px; color: rgb(102, 102, 102); line-height: 1.8;"><b style="font-family: 나눔고딕, NanumGothic, 돋움; font-size: 14.6667px;"><span style="font-size: 12pt; font-family: Gulim, 굴림; color: rgb(255, 0, 0);">                  &#8220;모든 취약점 항목에 대한 취약점 상세 분석 결과&#8221; 보고서 작성</span></b></div>
+<p style="font-size: 15px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; list-style-type: none; font-family: 돋움, dotum, Helvetica, sans-serif; color: rgb(37, 37, 37); padding: 0px; line-height: 16px;"></p>
+<p style='font-family: "Ubuntu Condensed", "Noto Sans Korean"; font-size: 15px;'><strong style="font-size: 14pt; color: rgb(37, 37, 37); font-family: 굴림;">[교육 문의]</strong></p>
+<p style="margin: 0px; list-style-type: none; font-size: 10pt; font-family: 굴림; color: rgb(37, 37, 37); padding: 0px;"><span style="box-sizing: border-box; font-size: 12pt;"><strong> &#8211; 카카오톡 id : yyt3000</strong></span></p>
+<p style="margin: 0px; list-style-type: none; font-size: 10pt; font-family: 굴림; color: rgb(37, 37, 37); padding: 0px;"><span style="box-sizing: border-box; font-size: 12pt;"><strong> &#8211; 전화번호 : 010-구구05-오사11</strong></span></p>
+<p style="margin: 0px; list-style-type: none; font-size: 10pt; font-family: 굴림; color: rgb(37, 37, 37); padding: 0px;"><strong><span style="box-sizing: border-box; font-size: 14pt;"><span style="box-sizing: border-box; font-size: 14pt; line-height: 20px;"><br /></span></span></strong></p>
+<p style="margin: 0px; list-style-type: none; font-size: 10pt; font-family: 굴림; color: rgb(37, 37, 37); padding: 0px;"><span style="box-sizing: border-box; font-size: 14pt; line-height: 20px;"><strong>[교육 후기]</strong></span></p>
+<p style="margin: 0px; list-style-type: none; font-size: 10pt; font-family: 굴림; color: rgb(37, 37, 37); padding: 0px;"><span style="box-sizing: border-box; font-size: 14pt; line-height: 20px;"><strong><br style="padding: 0px; margin: 0px;"/></strong></span></p>
+<p style="margin: 0px; list-style-type: none; font-size: 10pt; font-family: 굴림; color: rgb(37, 37, 37); padding: 0px;"><strong style="font-size: 14pt;">&#8211; <a class="con_link" href="http://blog.naver.com/yyt3000/memo/220898143207" style="transition: all 0.3s;" target="_blank">http://blog.naver.com/yyt3000/memo</a></strong></p>
+<p style="margin: 0px; list-style-type: none; font-size: 10pt; font-family: 굴림; color: rgb(37, 37, 37); padding: 0px;"></p>
+<p style="margin: 0px; list-style-type: none; font-size: 10pt; font-family: 굴림; color: rgb(37, 37, 37); padding: 0px;"></p>
+<p style="font-size: 15px; margin: 0px; list-style-type: none; font-family: 돋움, dotum, Helvetica, sans-serif; color: rgb(37, 37, 37); padding: 0px; line-height: 16px;"><font face="굴림" size="2"><font face="굴림" size="2"><font face="굴림" size="2"><span style="box-sizing: border-box; font-size: 14pt; line-height: 20px;"><strong>[필수 역량]</strong></span></font></font></font></p>
+<p style="margin: 0px; list-style-type: none; font-size: 10pt; font-family: 굴림; color: rgb(37, 37, 37); padding: 0px;"><br style="padding: 0px; margin: 0px;"/></p>
+<p style="margin: 0px; list-style-type: none; font-size: 10pt; font-family: 굴림; color: rgb(37, 37, 37); padding: 0px;"><span style="box-sizing: border-box; font-size: 12pt;"><strong> &#8211; 열정이 넘치는 자(비전공자 일반인도 가능)</strong></span></p>
+<p style="margin: 0px; list-style-type: none; font-size: 10pt; font-family: 굴림; color: rgb(37, 37, 37); padding: 0px;"><span style="box-sizing: border-box; font-size: 12pt;"><strong> &#8211; 절실한 자(언어를 몰라도 충분히 할 수 있음)</strong></span></p>
+<p style="margin: 0px; list-style-type: none; font-size: 10pt; font-family: 굴림; color: rgb(37, 37, 37); padding: 0px;"><span style="box-sizing: border-box; font-size: 12pt;"><strong> </strong></span></p>
+<p style="margin: 0px; list-style-type: none; font-size: 10pt; font-family: 굴림; color: rgb(37, 37, 37); padding: 0px;"><span style="box-sizing: border-box; font-size: 12pt;"><strong></strong></span><span style="box-sizing: border-box; font-size: 12pt;"><br style="padding: 0px; margin: 0px;"/></span></p>
+<p style="font-size: 15px; margin: 0px; list-style-type: none; font-family: 돋움, dotum, Helvetica, sans-serif; color: rgb(37, 37, 37); padding: 0px; line-height: 16px;"><font face="굴림" size="2"><font face="굴림" size="2"><font face="굴림" size="2"><span style="box-sizing: border-box; font-size: 14pt; line-height: 20px;"><strong>[교육 일정]</strong></span></font></font></font></p>
+<p style="margin: 0px; list-style-type: none; font-size: 10pt; font-family: 굴림; color: rgb(37, 37, 37); padding: 0px;"><br style="padding: 0px; margin: 0px;"/></p>
+<p style="margin: 0px; list-style-type: none; font-size: 10pt; font-family: 굴림; color: rgb(37, 37, 37); padding: 0px;"><strong style="font-size: 16px;"> &#8211; 교육 시작일 : 17.01.05(금)</strong></p>
+<p style="margin: 0px; list-style-type: none; font-size: 10pt; font-family: 굴림; color: rgb(37, 37, 37); padding: 0px;"><strong style="font-size: 16px;">   ☞ 이 날은 오리엔테이션이 진행되는 날로 오셔서 분위기나 교육 내용 방식 등 보고 판단하시기 바랍니다 .<br /></strong></p>
+<p style="margin: 0px; list-style-type: none; font-size: 10pt; font-family: 굴림; color: rgb(37, 37, 37); padding: 0px;"><strong style="font-size: 16px;"><br /></strong></p>
+<p style="margin: 0px; list-style-type: none; font-size: 10pt; font-family: 굴림; color: rgb(37, 37, 37); padding: 0px;"><span style="box-sizing: border-box; font-size: 12pt;"><strong> &#8211; 장소 및 시간 : 구로디지털단지 &#8220;서울산업정보교육원&#8221; / 매주 금(19시 ~ 22시)</strong></span><br style="padding: 0px; margin: 0px;"/></p>
+<p style="margin: 0px; list-style-type: none; font-size: 10pt; font-family: 굴림; color: rgb(37, 37, 37); padding: 0px;"><span style="box-sizing: border-box; font-size: 12pt;"><strong><br /></strong></span></p>
+<p style="margin: 0px; list-style-type: none; font-size: 10pt; font-family: 굴림; color: rgb(37, 37, 37); padding: 0px;"><span style="box-sizing: border-box; font-size: 12pt;"><strong> <span style="color: rgb(0, 0, 0);">※ 주소 : </span></strong></span><b style="color: rgb(102, 102, 102); font-family: 나눔고딕, NanumGothic, 돋움; font-size: 14.6667px;"><span style="color: rgb(0, 0, 0);">서울특별시 구로구 디지털로32길 30 코오롱디지털타워빌란트 1차 511호,512호</span></b></p>
+<p style="margin: 0px; list-style-type: none; font-size: 10pt; font-family: 굴림; color: rgb(37, 37, 37); padding: 0px;"><span style="box-sizing: border-box; font-size: 12pt;"><strong><br /></strong></span></p>
+<p style="padding: 0px; list-style-type: none; font-size: 10pt; font-family: 굴림; color: rgb(37, 37, 37); margin-left: 0px; margin-right: 0px; margin-top: 0px !important; margin-bottom: 0px !important;"></p>
+<p style="font-size: 15px; margin: 0px; list-style-type: none; font-family: 돋움, dotum, Helvetica, sans-serif; color: rgb(37, 37, 37); padding: 0px; line-height: 16px;"><font face="굴림" size="2"><font face="굴림" size="2"><font face="굴림" size="2"><span style="box-sizing: border-box; font-size: 14pt; line-height: 20px;"><strong>[교육 방식 및 마음가짐]</strong></span></font></font></font></p>
+<p style="margin: 0px; list-style-type: none; font-size: 10pt; font-family: 굴림; color: rgb(37, 37, 37); padding: 0px;"><br style="padding: 0px; margin: 0px;"/></p>
+<p style='font-family: "Ubuntu Condensed", "Noto Sans Korean"; font-size: 15px; margin: 0px; list-style-type: none; padding: 0px;'><strong style="color: rgb(37, 37, 37); font-family: 굴림; font-size: 16px;"> <span style="box-sizing: border-box; font-size: 14pt;">&#8211; </span></strong><font color="#252525" face="굴림"><b><span style="box-sizing: border-box; font-size: 14pt;"><a class="tx-link" href="http://winner75.tistory.com/14" style="transition: all 0.3s; cursor: pointer;" target="_blank">http://winner75.tistory.com/14</a></span></b></font></p>
+<p style="margin: 0px; list-style-type: none; font-size: 10pt; font-family: 굴림; color: rgb(37, 37, 37); padding: 0px;"><span style="box-sizing: border-box; font-size: 12pt;"><span style="box-sizing: border-box; font-size: 12pt; color: rgb(255, 0, 0);"><strong><br style="padding: 0px; margin: 0px;"/></strong></span></span></p>
+<p style="margin: 0px; list-style-type: none; font-size: 10pt; font-family: 굴림; color: rgb(37, 37, 37); padding: 0px;"><br style="padding: 0px; margin: 0px;"/></p>
+<p style="margin: 0px; list-style-type: none; font-size: 10pt; font-family: 굴림; color: rgb(37, 37, 37); padding: 0px;"><span style="box-sizing: border-box; font-size: 14pt; line-height: 20px;"><strong>[교육 비용]</strong></span></p>
+<p style="margin: 0px; list-style-type: none; font-size: 10pt; font-family: 굴림; color: rgb(37, 37, 37); padding: 0px;"><br style="padding: 0px; margin: 0px;"/></p>
+<p style="margin: 0px; list-style-type: none; font-size: 10pt; font-family: 굴림; color: rgb(37, 37, 37); padding: 0px;"><strong><font size="3">&#8211; 카톡 및 전화 문의(010-구구05-54일일 / 카카오톡 : yyt3000)</font></strong></p>
+<p style="margin: 0px; list-style-type: none; font-size: 10pt; font-family: 굴림; color: rgb(37, 37, 37); padding: 0px;"><strong><font size="3"><br /></font></strong></p>
+<p style="margin: 0px; list-style-type: none; font-size: 10pt; font-family: 굴림; color: rgb(37, 37, 37); padding: 0px;"><strong><font size="3"><br /></font></strong></p>
+<p style="font-size: 15px; margin: 0px; list-style-type: none; font-family: 돋움, dotum, Helvetica, sans-serif; color: rgb(37, 37, 37); padding: 0px; line-height: 16px;"></p>
+<p style="margin: 0px; list-style-type: none; font-size: 10pt; font-family: 굴림; color: rgb(37, 37, 37); padding: 0px;"><span style="box-sizing: border-box; font-size: 12pt;"><br style="padding: 0px; margin: 0px;"/></span></p>
+<p style="margin: 0px; list-style-type: none; font-size: 10pt; font-family: 굴림; color: rgb(37, 37, 37); padding: 0px;"><span style="box-sizing: border-box; font-size: 12pt;"><span style="box-sizing: border-box; font-size: 14pt; line-height: 20px;"><strong><span style="box-sizing: border-box; color: rgb(255, 0, 0);">실무 컨설턴트에 의해 실무적인 노하우를 통해 95% 실습 위주로 교육을 진행하며</span></strong></span></span></p>
+<p style="margin: 0px; list-style-type: none; font-size: 10pt; font-family: 굴림; color: rgb(37, 37, 37); padding: 0px;"><strong><span style="box-sizing: border-box; font-size: 14pt;"><span style="box-sizing: border-box; font-size: 14pt; color: rgb(255, 0, 0); line-height: 20px;">​</span></span></strong></p>
+<p style="margin: 0px; list-style-type: none; font-size: 10pt; font-family: 굴림; color: rgb(37, 37, 37); padding: 0px;"><strong><span style="box-sizing: border-box; font-size: 14pt;"><span style="box-sizing: border-box; font-size: 14pt; line-height: 20px;"><span style="box-sizing: border-box; color: rgb(255, 0, 0);">어디서도 찾아 볼 수 없는 깨어있는 교육 방식을 보게 될 것을 약속드립니다. </span><br style="padding: 0px; margin: 0px;"/></span></span></strong></p>
+<p style="margin: 0px; list-style-type: none; font-size: 10pt; font-family: 굴림; color: rgb(37, 37, 37); padding: 0px;"><br style="padding: 0px; margin: 0px;"/></p>
+<p style="margin: 0px; list-style-type: none; font-size: 10pt; font-family: 굴림; color: rgb(37, 37, 37); padding: 0px;"><br style="padding: 0px; margin: 0px;"/></p>
+<p style='font-family: "Ubuntu Condensed", "Noto Sans Korean"; font-size: 15px; margin: 0px; padding: 0px;'><span style="box-sizing: border-box; font-size: 14pt;"><strong><span style="box-sizing: border-box; font-family: 굴림, Gulim;">※ 지방에 계신 분들을 위해 대학교 방학 </span><span style="box-sizing: border-box; font-family: 굴림, Gulim;">시즌에 맞춰 주말을 활용하여 직접 출장 </span><span style="box-sizing: border-box; font-family: 굴림, Gulim;">교육도 실시하고 기초, 기본, 심화, 특급 과정으로 4단계로 나눠 진행하니 입문자 ~ 고급자분들까지 언제든 문의하여주시기 바랍니다.</span></strong></span></p>
+<p style='font-family: "Ubuntu Condensed", "Noto Sans Korean"; font-size: 15px; margin: 0px; padding: 0px;'><span style="box-sizing: border-box; font-size: 14pt;">​</span></p>
+<hr />
+<p><iframe src='http://ad.selfhow.com/rd' width='100%' border=0 frameborder=0 style='height:auto;width:100%'></iframe></p>
+<p><a href='http://winner75.tistory.com/36' target='_blank'>Origin Content : Winner와 SecurityHolics</a> | <a href="/cdn-cgi/l/email-protection#ee898f838bb18d8ddededfae808f828fc0898f" target='_blank'>Contact : <span class="__cf_email__" data-cfemail="88efe9e5edd7ebebb8b8b9c8e6e9e4e9a6efe9">[email&#160;protected]</span></a>
+</p>
+<p>Cotent License : CC-BY-SA </p>
+<p>This content is collected under the CCL license.</p>
+<p>Please check the license of the original article before asking about copyright.</p>
+<ul>
+<li><a href='/tag/정보보안교육모집'>More About <span style='font-weight:bold;'>정보보안교육모집</span></a></li>
+<li><a href='/tag/소스코드'>More About <span style='font-weight:bold;'>소스코드</span></a></li>
+<li><a href='/tag/기반'>More About <span style='font-weight:bold;'>기반</span></a></li>
+<li><a href='/tag/해킹'>More About <span style='font-weight:bold;'>해킹</span></a></li>
+<li><a href='/tag/기초/기본'>More About <span style='font-weight:bold;'>기초/기본</span></a></li>
+<li><a href='/tag/교육'>More About <span style='font-weight:bold;'>교육</span></a></li>
+<li><a href='/tag/과정0105'>More About <span style='font-weight:bold;'>과정0105</span></a></li>
+</ul>
+        </div> <!-- //.entry-summary -->
+        
+                    <div class="entry-tags"><b>Tags:</b> <a href="http://da.nala.ga/tag/%ea%b3%bc%ec%a0%950105/" rel="tag">과정0105</a>, <a href="http://da.nala.ga/tag/%ea%b5%90%ec%9c%a1/" rel="tag">교육</a>, <a href="http://da.nala.ga/tag/%ea%b8%b0%eb%b0%98/" rel="tag">기반</a>, <a href="http://da.nala.ga/tag/%ea%b8%b0%ec%b4%88%ea%b8%b0%eb%b3%b8/" rel="tag">기초/기본</a>, <a href="http://da.nala.ga/tag/%ec%86%8c%ec%8a%a4%ec%bd%94%eb%93%9c/" rel="tag">소스코드</a>, <a href="http://da.nala.ga/tag/%ec%a0%95%eb%b3%b4%eb%b3%b4%ec%95%88%ea%b5%90%ec%9c%a1%eb%aa%a8%ec%a7%91/" rel="tag">정보보안교육모집</a>, <a href="http://da.nala.ga/tag/%ed%95%b4%ed%82%b9/" rel="tag">해킹</a></div>
+        
+    </div>
+
+</article> <!--/#post-->
+
+
+
+
+
+                                                                    <div class="post-nav-area">
+                                                    
+            <nav class="next-previous-post clearfix media" role="navigation">
+                <div class="row">
+                    <!-- Previous Post -->
+                    <div class="previous-post col-sm-6 pull-left">
+                        <div class="nav-previous"><i class="fa fa-angle-left"></i> <a href="http://da.nala.ga/%eb%aa%a8%eb%b0%94%ec%9d%bc%ea%b2%8c%ec%9e%84-%eb%a6%ac%eb%8b%88%ec%a7%80m-%ed%9d%ac%ea%b7%80%ec%a0%9c%ec%9e%91%eb%b9%84%eb%b2%95%ec%84%9c-%eb%93%9d%ed%85%9c-%ed%9a%8d%eb%93%9d%ec%b2%98%eb%8a%94/" rel="prev">[모바일게임] 리니지m 희귀제작비법서 득템 획득처는??</a></div>                    </div>
+
+                    <!-- Next Post -->
+                    <div class="next-post col-sm-6 pull-right text-right">
+                        <div class="nav-next"><a href="http://da.nala.ga/%eb%a6%ac%eb%b2%84%ec%8b%b1-%ec%9e%85%eb%ac%b8%ec%9e%90%ec%9a%a9_win32/" rel="next">리버싱 입문자용_Win32</a> <i class="fa fa-angle-right"></i></div>                    </div>
+                </div>
+            </nav><!-- .navigation -->
+            
+                                            </div>
+                                
+                                
+                            
+                                            </main> <!-- /.site-main -->
+                </div>  <!-- /.content-area -->
+            </div> <!-- /col -->
+
+            <!-- Blogsidebar -->
+            
+	<div class="col-md-4">
+	    <div class="primary-sidebar widget-area" role="complementary">
+	        <div id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="http://da.nala.ga/">
+				<label>
+					<span class="screen-reader-text">검색:</span>
+					<input type="search" class="search-field" placeholder="검색 &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="검색" />
+			</form></div>		<div id="recent-posts-2" class="widget widget_recent_entries">		<h2 class="widget-title">최근 글</h2>		<ul>
+					<li>
+				<a href="http://da.nala.ga/%ea%b5%90%ed%99%98%ed%95%99%ec%83%9d%ec%a4%80%eb%b9%84part2-%ed%94%84%eb%9e%91%ec%8a%a4-sciences-po-%ec%a7%80%ec%9b%90-%ea%b3%bc%ec%a0%95%ea%b3%bc-%ea%b7%b8-%ec%a0%84-%ec%95%8c%ec%95%84%ec%95%bc/">[교환학생준비PART2] 프랑스 Sciences Po 지원 과정과 그 전 알아야할 것들!</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%b0%95%ea%b7%bc%ed%98%9c-%ec%b5%9c%ec%88%9c%ec%8b%a4-%ea%b2%8c%ec%9d%b4%ed%8a%b8%eb%a5%bc-%eb%b0%9d%ed%98%80%eb%82%b8-%ec%9d%bc%eb%93%b1%ea%b3%b5%ec%8b%a0-%ec%95%88%eb%af%bc%ec%84%9d/">박근혜 최순실 게이트를 밝혀낸 일등공신 안민석</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%b0%b0%ed%8b%80%ea%b7%b8%eb%9d%bc%ec%9a%b4%eb%93%9c-%ec%a0%95%ec%8b%9d%eb%b2%84%ec%a0%84-1-0%ed%8c%a8%ec%b9%98-%eb%ac%b4%ec%97%87%ec%9d%b4-%eb%b0%94%eb%80%8c%eb%82%98%ec%9a%94/">배틀그라운드 정식버전 1.0패치 무엇이 바뀌나요?</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%91%90%eb%87%8c%eb%a5%bc-%ea%b1%b4%ea%b0%95%ed%95%98%ea%b2%8c-%eb%a7%8c%eb%93%9c%eb%8a%94-4%ec%b2%9c%eb%b3%b4%ec%9d%98-%ea%b1%b8%ec%9d%8c/">두뇌를 건강하게 만드는 4천보의 걸음</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%af%b8%ea%b5%ad-%ec%9c%a0%ed%95%99-%ec%a0%95%eb%b3%b4-%ed%95%9c%ea%b5%ad-%eb%82%b4%ec%8b%a0-%ec%84%b1%ec%a0%81%eb%a7%8c%ec%9c%bc%eb%a1%9c-%eb%af%b8%ea%b5%ad-%eb%aa%85%eb%ac%b8%eb%8c%80-%ea%b0%80/">미국 유학  정보 &#8211; 한국 내신 성적만으로 미국 명문대 가기</a>
+						</li>
+				</ul>
+		</div>		<div id="tag_cloud-2" class="widget widget_tag_cloud"><h2 class="widget-title">태그</h2><div class="tagcloud"><a href="http://da.nala.ga/tag/1%ec%9b%94/" class="tag-cloud-link tag-link-35 tag-link-position-1" style="font-size: 14.892307692308pt;" aria-label="1월 (47 아이템)">1월</a>
+<a href="http://da.nala.ga/tag/2017/" class="tag-cloud-link tag-link-510 tag-link-position-2" style="font-size: 19.415384615385pt;" aria-label="2017 (76 아이템)">2017</a>
+<a href="http://da.nala.ga/tag/2017%eb%85%84/" class="tag-cloud-link tag-link-8 tag-link-position-3" style="font-size: 18.123076923077pt;" aria-label="2017년 (66 아이템)">2017년</a>
+<a href="http://da.nala.ga/tag/2018/" class="tag-cloud-link tag-link-61 tag-link-position-4" style="font-size: 14.461538461538pt;" aria-label="2018 (45 아이템)">2018</a>
+<a href="http://da.nala.ga/tag/2018%eb%85%84/" class="tag-cloud-link tag-link-103 tag-link-position-5" style="font-size: 18.984615384615pt;" aria-label="2018년 (73 아이템)">2018년</a>
+<a href="http://da.nala.ga/tag/vs/" class="tag-cloud-link tag-link-943 tag-link-position-6" style="font-size: 9.5076923076923pt;" aria-label="vs (26 아이템)">vs</a>
+<a href="http://da.nala.ga/tag/%ec%98%81%ed%99%94/" class="tag-cloud-link tag-link-1375 tag-link-position-7" style="font-size: 14.246153846154pt;" aria-label="“영화 (44 아이템)">“영화</a>
+<a href="http://da.nala.ga/tag/%ea%b0%80%ea%b2%a9/" class="tag-cloud-link tag-link-63 tag-link-position-8" style="font-size: 12.953846153846pt;" aria-label="가격 (38 아이템)">가격</a>
+<a href="http://da.nala.ga/tag/%ea%b0%80%ec%83%81%ed%99%94%ed%8f%90/" class="tag-cloud-link tag-link-1479 tag-link-position-9" style="font-size: 9.0769230769231pt;" aria-label="가상화폐 (25 아이템)">가상화폐</a>
+<a href="http://da.nala.ga/tag/%ea%b2%80%ec%9d%80%ec%82%ac%eb%a7%89/" class="tag-cloud-link tag-link-341 tag-link-position-10" style="font-size: 8.8615384615385pt;" aria-label="검은사막 (24 아이템)">검은사막</a>
+<a href="http://da.nala.ga/tag/%ea%b2%8c%ec%9e%84/" class="tag-cloud-link tag-link-391 tag-link-position-11" style="font-size: 22pt;" aria-label="게임 (102 아이템)">게임</a>
+<a href="http://da.nala.ga/tag/%ea%b3%b5%ea%b0%9c/" class="tag-cloud-link tag-link-938 tag-link-position-12" style="font-size: 9.5076923076923pt;" aria-label="공개 (26 아이템)">공개</a>
+<a href="http://da.nala.ga/tag/%ea%b3%b5%eb%9e%b5/" class="tag-cloud-link tag-link-1018 tag-link-position-13" style="font-size: 8.8615384615385pt;" aria-label="공략 (24 아이템)">공략</a>
+<a href="http://da.nala.ga/tag/%eb%8b%a4%ec%9a%b4%eb%a1%9c%eb%93%9c/" class="tag-cloud-link tag-link-364 tag-link-position-14" style="font-size: 8.4307692307692pt;" aria-label="다운로드 (23 아이템)">다운로드</a>
+<a href="http://da.nala.ga/tag/%eb%8c%80%ed%95%b4%ec%84%9c/" class="tag-cloud-link tag-link-1629 tag-link-position-15" style="font-size: 8.8615384615385pt;" aria-label="대해서 (24 아이템)">대해서</a>
+<a href="http://da.nala.ga/tag/%eb%a6%ac%eb%b7%b0/" class="tag-cloud-link tag-link-555 tag-link-position-16" style="font-size: 15.969230769231pt;" aria-label="리뷰 (53 아이템)">리뷰</a>
+<a href="http://da.nala.ga/tag/%eb%a7%9b%ec%a7%91/" class="tag-cloud-link tag-link-4173 tag-link-position-17" style="font-size: 9.9384615384615pt;" aria-label="맛집 (27 아이템)">맛집</a>
+<a href="http://da.nala.ga/tag/%eb%aa%a8%eb%b0%94%ec%9d%bc/" class="tag-cloud-link tag-link-835 tag-link-position-18" style="font-size: 10.584615384615pt;" aria-label="모바일 (29 아이템)">모바일</a>
+<a href="http://da.nala.ga/tag/%eb%ac%b4%eb%a3%8c/" class="tag-cloud-link tag-link-827 tag-link-position-19" style="font-size: 13.384615384615pt;" aria-label="무료 (40 아이템)">무료</a>
+<a href="http://da.nala.ga/tag/%eb%b0%a9%eb%b2%95/" class="tag-cloud-link tag-link-529 tag-link-position-20" style="font-size: 15.323076923077pt;" aria-label="방법 (49 아이템)">방법</a>
+<a href="http://da.nala.ga/tag/%eb%b9%84%ed%8a%b8%ec%bd%94%ec%9d%b8/" class="tag-cloud-link tag-link-1478 tag-link-position-21" style="font-size: 9.0769230769231pt;" aria-label="비트코인 (25 아이템)">비트코인</a>
+<a href="http://da.nala.ga/tag/%ec%84%a4%ec%b9%98/" class="tag-cloud-link tag-link-360 tag-link-position-22" style="font-size: 8pt;" aria-label="설치 (22 아이템)">설치</a>
+<a href="http://da.nala.ga/tag/%ec%86%8c%ea%b0%9c/" class="tag-cloud-link tag-link-297 tag-link-position-23" style="font-size: 8.4307692307692pt;" aria-label="소개 (23 아이템)">소개</a>
+<a href="http://da.nala.ga/tag/%ec%88%9c%ec%9c%84/" class="tag-cloud-link tag-link-12 tag-link-position-24" style="font-size: 11.230769230769pt;" aria-label="순위 (31 아이템)">순위</a>
+<a href="http://da.nala.ga/tag/%ec%8b%9c%ec%9e%91/" class="tag-cloud-link tag-link-579 tag-link-position-25" style="font-size: 8.4307692307692pt;" aria-label="시작 (23 아이템)">시작</a>
+<a href="http://da.nala.ga/tag/%ec%95%88%eb%82%b4/" class="tag-cloud-link tag-link-338 tag-link-position-26" style="font-size: 10.584615384615pt;" aria-label="안내 (29 아이템)">안내</a>
+<a href="http://da.nala.ga/tag/%ec%95%8c%ec%95%84%eb%b3%b4%ea%b8%b0/" class="tag-cloud-link tag-link-1939 tag-link-position-27" style="font-size: 12.523076923077pt;" aria-label="알아보기 (36 아이템)">알아보기</a>
+<a href="http://da.nala.ga/tag/%ec%95%8c%ec%95%84%eb%b3%b4%ec%9e%90/" class="tag-cloud-link tag-link-369 tag-link-position-28" style="font-size: 11.661538461538pt;" aria-label="알아보자 (33 아이템)">알아보자</a>
+<a href="http://da.nala.ga/tag/%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8/" class="tag-cloud-link tag-link-567 tag-link-position-29" style="font-size: 9.0769230769231pt;" aria-label="업데이트 (25 아이템)">업데이트</a>
+<a href="http://da.nala.ga/tag/%ec%97%ac%ed%96%89/" class="tag-cloud-link tag-link-1122 tag-link-position-30" style="font-size: 12.738461538462pt;" aria-label="여행 (37 아이템)">여행</a>
+<a href="http://da.nala.ga/tag/%ec%98%a4%eb%b8%8c/" class="tag-cloud-link tag-link-271 tag-link-position-31" style="font-size: 10.8pt;" aria-label="오브 (30 아이템)">오브</a>
+<a href="http://da.nala.ga/tag/%ec%98%a8%eb%9d%bc%ec%9d%b8/" class="tag-cloud-link tag-link-328 tag-link-position-32" style="font-size: 11.876923076923pt;" aria-label="온라인 (34 아이템)">온라인</a>
+<a href="http://da.nala.ga/tag/%ec%9c%84%ed%95%9c/" class="tag-cloud-link tag-link-183 tag-link-position-33" style="font-size: 13.169230769231pt;" aria-label="위한 (39 아이템)">위한</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%eb%b2%a4%ed%8a%b8/" class="tag-cloud-link tag-link-723 tag-link-position-34" style="font-size: 13.169230769231pt;" aria-label="이벤트 (39 아이템)">이벤트</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%ec%95%bc%ea%b8%b0/" class="tag-cloud-link tag-link-861 tag-link-position-35" style="font-size: 10.8pt;" aria-label="이야기 (30 아이템)">이야기</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%ec%9c%a0/" class="tag-cloud-link tag-link-1482 tag-link-position-36" style="font-size: 9.9384615384615pt;" aria-label="이유 (27 아이템)">이유</a>
+<a href="http://da.nala.ga/tag/%ec%9d%bc%eb%b3%b8/" class="tag-cloud-link tag-link-1007 tag-link-position-37" style="font-size: 8.4307692307692pt;" aria-label="일본 (23 아이템)">일본</a>
+<a href="http://da.nala.ga/tag/%ec%a0%95%eb%a6%ac/" class="tag-cloud-link tag-link-65 tag-link-position-38" style="font-size: 11.876923076923pt;" aria-label="정리 (34 아이템)">정리</a>
+<a href="http://da.nala.ga/tag/%ec%a0%95%eb%b3%b4/" class="tag-cloud-link tag-link-610 tag-link-position-39" style="font-size: 17.261538461538pt;" aria-label="정보 (61 아이템)">정보</a>
+<a href="http://da.nala.ga/tag/%ec%b4%9d%ec%a0%95%eb%a6%ac/" class="tag-cloud-link tag-link-179 tag-link-position-40" style="font-size: 8.4307692307692pt;" aria-label="총정리 (23 아이템)">총정리</a>
+<a href="http://da.nala.ga/tag/%ec%b5%9c%ea%b3%a0/" class="tag-cloud-link tag-link-404 tag-link-position-41" style="font-size: 11.876923076923pt;" aria-label="최고 (34 아이템)">최고</a>
+<a href="http://da.nala.ga/tag/%ec%b6%94%ec%b2%9c/" class="tag-cloud-link tag-link-367 tag-link-position-42" style="font-size: 20.707692307692pt;" aria-label="추천 (89 아이템)">추천</a>
+<a href="http://da.nala.ga/tag/%ec%b6%9c%ec%8b%9c/" class="tag-cloud-link tag-link-612 tag-link-position-43" style="font-size: 10.584615384615pt;" aria-label="출시 (29 아이템)">출시</a>
+<a href="http://da.nala.ga/tag/%ed%95%9c%ea%b5%ad/" class="tag-cloud-link tag-link-1483 tag-link-position-44" style="font-size: 10.153846153846pt;" aria-label="한국 (28 아이템)">한국</a>
+<a href="http://da.nala.ga/tag/%ed%9b%84%ea%b8%b0/" class="tag-cloud-link tag-link-114 tag-link-position-45" style="font-size: 19.2pt;" aria-label="후기 (74 아이템)">후기</a></div>
+</div>	    </div>
+	</div>
+
+        </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+    </div>
+    <footer class="site-footer" role="contentinfo">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+  
+                    <p></p>
+                    
+                                            <div class="footer-social-icons">
+                                                                                                                                                                                                                                                                                                                                                                                                        
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+            <div class="scroll-up">
+            <a href="#"><i class="fa fa-angle-up"></i></a>
+        </div>
+        <!-- Scroll Up -->
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/af2821b0/cloudflare-static/email-decode.min.js"></script><script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/bootstrap.min.js?ver=3.3.5'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/scripts.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/jquery.fitvids.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/smoothscroll.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/wp-embed.min.js?ver=4.8.4'></script>
+    </body>
+</html>

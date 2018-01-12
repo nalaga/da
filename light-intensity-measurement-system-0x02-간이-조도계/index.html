@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="http://da.nala.ga/xmlrpc.php">
+
+<title>[Light Intensity Measurement System] 0x02. 간이 조도계 | All About CC</title>
+<meta name='robots' content='noindex,follow' />
+
+<!-- All in One SEO Pack 2.4.3.1 by Michael Torbert of Semper Fi Web Design[276,353] -->
+<link rel="canonical" href="http://da.nala.ga/light-intensity-measurement-system-0x02-%ea%b0%84%ec%9d%b4-%ec%a1%b0%eb%8f%84%ea%b3%84/" />
+<!-- /all in one seo pack -->
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 피드" href="http://da.nala.ga/feed/" />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 댓글 피드" href="http://da.nala.ga/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; [Light Intensity Measurement System] 0x02. 간이 조도계 댓글 피드" href="http://da.nala.ga/light-intensity-measurement-system-0x02-%ea%b0%84%ec%9d%b4-%ec%a1%b0%eb%8f%84%ea%b3%84/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/da.nala.ga\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.4"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bootstrap-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/bootstrap.min.css?ver=3.3.5' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/font-awesome.min.css?ver=4.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='shaped-blog-stylesheet-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/style.css?ver=4.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/responsive.css' type='text/css' media='all' />
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://da.nala.ga/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://da.nala.ga/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://da.nala.ga/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='화재의 에너고(TSL, 테슬라)코인 에너고는 무엇일까?' href='http://da.nala.ga/%ed%99%94%ec%9e%ac%ec%9d%98-%ec%97%90%eb%84%88%ea%b3%a0tsl-%ed%85%8c%ec%8a%ac%eb%9d%bc%ec%bd%94%ec%9d%b8-%ec%97%90%eb%84%88%ea%b3%a0%eb%8a%94-%eb%ac%b4%ec%97%87%ec%9d%bc%ea%b9%8c/' />
+<link rel='next' title='IIS WebDav 그리고 Back-end NAS 연결' href='http://da.nala.ga/iis-webdav-%ea%b7%b8%eb%a6%ac%ea%b3%a0-back-end-nas-%ec%97%b0%ea%b2%b0/' />
+<meta name="generator" content="WordPress 4.8.4" />
+<link rel='shortlink' href='http://da.nala.ga/?p=6672' />
+<link rel="alternate" type="application/json+oembed" href="http://da.nala.ga/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fda.nala.ga%2Flight-intensity-measurement-system-0x02-%25ea%25b0%2584%25ec%259d%25b4-%25ec%25a1%25b0%25eb%258f%2584%25ea%25b3%2584%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://da.nala.ga/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fda.nala.ga%2Flight-intensity-measurement-system-0x02-%25ea%25b0%2584%25ec%259d%25b4-%25ec%25a1%25b0%25eb%258f%2584%25ea%25b3%2584%2F&#038;format=xml" />
+
+	<style>
+
+		/* Border Color */
+		.btn-social:hover,
+		blockquote,
+		#respond input:focus[type="text"], 
+	    #respond input:focus[type="email"], 
+	    #respond input:focus[type="url"],
+	    #respond textarea:focus,
+	    #comments .comment-reply a:hover
+		{
+			border-color: ;
+		}
+
+		
+		/* Background Color */
+		.scroll-up a,
+		.btn-social:hover,
+		button,
+		input[type="button"],
+		input[type="reset"],
+		input[type="submit"],
+		.navbar-default .navbar-nav .dropdown-menu li a:hover, .dropdown-menu li a:focus, .navbar-default .navbar-nav .dropdown-menu .active a,
+		.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover, .pagination li .current,
+		.next-previous-posts .next-post a:hover,
+		.next-previous-posts .previous-post a:hover,
+		.btn-goback,
+		.btn-submit,
+		a.more-link,
+		.featured-post .fa,
+		#comments .comment-reply a:hover,
+		.widget .tagcloud a
+		{
+			background-color: ;
+		}
+
+		
+		/* Color */
+		.text-logo a,
+		.navbar-default .navbar-nav .active a, .navbar-default .navbar-nav .active a:hover, .navbar-default .navbar-nav .active a:focus,
+		.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus,
+		a:hover,
+    	a:focus,
+		.next-previous-posts .previous-post a,
+		.next-previous-posts .next-post a,
+		.pagination>li>a, .pagination>li>span,
+		#comments .comment-author a:hover, 
+    	#respond .logged-in-as a:hover,
+    	#wp-calendar a,
+    	h2.entry-title a:hover
+		{
+			color: ;
+		}
+
+
+		/* A Color */
+		a{
+			color: ;
+		}
+
+		/* a:hover Color */
+		a:hover,
+		a:focus,
+		a:active,
+		.widget a:hover,
+		.post .post-content .entry-meta ul li a:hover
+		{
+			color: ;
+		}
+
+		/* .featured-post .fa:after*/
+		.featured-post .fa:after{
+			border-color:   transparent ;
+		}
+
+
+		
+
+	</style>
+</head>
+
+<body class="post-template-default single single-post postid-6672 single-format-standard">
+
+    <div id="st-preloader">
+        <div id="pre-status">
+            <div class="preload-placeholder"></div>
+        </div>
+    </div>
+<!-- /Preloader -->
+
+<header id="header">	
+	<div id="trueHeader">
+    	<div class="wrapper">
+            <div class="container">
+            	<!-- Menu -->
+            	<div class="menu_main">
+                	<div class="navbar blogx-navbar navbar-default">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#st-navber-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+
+                                                            <div class="text-logo">
+                                    <a href="http://da.nala.ga">All About CC</a>
+                                    <p>All About CC Contents</p>
+                                </div><!-- /Logo -->
+                                                    </div>
+                      
+                        <div id="st-navber-collapse" class="navbar-collapse collapse pull-right">
+                             
+                        </div>
+                    </div>
+            	</div><!-- end menu -->
+        	</div> <!-- /.container -->
+    	</div>
+	</div>
+	<DIV class='ads_adsense_img' style='margin:40px 0px 40px 0px;'>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- only display -->
+	<ins class="adsbygoogle"
+	     style="display:block"
+	     data-ad-client="ca-pub-8393857339019314"
+	     data-ad-slot="7474886381"
+	     data-ad-format="auto"></ins>
+	<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+	</DIV>	
+</header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div id="primary" class="content-area">
+                    <main id="main" class="site-main" role="main">
+
+                        
+                                <article id="post-6672" class="post-6672 post type-post status-publish format-standard hentry category-uncategorized tag-10607 tag-intensity tag-light tag-measurement tag-system tag-10608">
+    <header class="entry-header">
+        
+        
+    </header> <!--/.entry-header -->
+
+    <div class="clearfix post-content media">
+
+        <h2 class="entry-title">
+            [Light Intensity Measurement System] 0x02. 간이 조도계        </h2> <!-- //.entry-title -->
+
+        <div class="clearfix entry-meta">
+            
+            <ul class="list-inline">
+                <li>
+                    <span class="author vcard">
+                        By <a class="url fn n" href="http://da.nala.ga/author/site-admin/">site-admin</a>                    </span>
+                </li>
+                <li>
+                    on <span class="posted-on">1월 10, 2018</span>
+                </li>
+                                    <li>
+                        in <span class="posted-in">
+                            <a href="http://da.nala.ga/category/uncategorized/" rel="category tag">미분류</a>                        </span>
+                    </li>
+                            </ul>
+                </div> <!--/.entry-meta -->
+        
+        <div class="entry-summary">
+            <p><img src='http://cfile29.uf.tistory.com/image/99CAAA335A09B1670343C1' style='max-width:250px;min-width:0px;' onError='this.style.display="none"' /></p>
+<h1>2줄 요약 </h1>
+<div style='color:#fff;background-color:#000;border-radius:10px;'>
+<ol>
+<li><span>만족스러운 결과물입니다!합체이제 조도센서와 캐릭터LCD, 그리고 Wemos D1을 합체합니다!</span></li>
+<li><span>(사진은 이미 프로그램이 올라가 있는 상태입니다!)Wemos의 VCC(5 <small>&#8230;중략&#8230;</small> 야 할 점은 업로드 스피드를 115200으로 맞춰주어야 한다는 점입니다.</span></li>
+</ol>
+</div>
+<p><span id="more-6672"></span></p>
+<p><iframe src='http://ad.selfhow.com/rd' width='100%' border=0 frameborder=0 style='height:auto;width:100%'></iframe></p>
+<hr />
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:436px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="AN50987.jpg" height="257" src="http://cfile29.uf.tistory.com/image/99CAAA335A09B1670343C1" style="" width="436"/></span></p>
+<p></p>
+<p><b>I2C</b>(I Square C; Inter-Integrated Circuit)라는 개념을 배웠습니다. 아두이노를 깊게 팔 생각은 잘 없기 때문에 간단히 말하자면 선 두 가닥으로 통신할 수 있는 인터페이스를 말하는 것 같습니다. </p>
+<p>이론적으로 128개 까지 연결 가능하다고 하는 것 같은데 이것들은 제 알 바가 아니고, 단지 I2C로 구현된 캐릭터 LCD와 조도센서를 한꺼번에 연결할 수 있다는 것이 제 알 바였습니다. </p>
+<p></p>
+<p>신기하긴 하네요! 여러 개의 소자들을 SDA와 SCL 단 두 가닥으로 통신할 수 있다니 말입니다!</p>
+<h1>조도센서 조립</h1>
+<div>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:900px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="20171111_225157.jpg" height="506" src="http://cfile30.uf.tistory.com/image/990236335A09B3351F7426" style="" width="900"/></span></p>
+<p>조도센서 세트에는 다음과 같이 본체와 다리로 구성되어 있습니다. 효율적으로 사용하기 위해 어딘가에 푹 꽂을 수 있도록 다리가 아래로 향하게 땜질을 하겠습니다. </p>
+<p></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:900px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="20171111_225619.jpg" height="506" src="http://cfile24.uf.tistory.com/image/996EF7335A09B368274788" style="" width="900"/></span></p>
+<p>만족스러운 결과물입니다!</p>
+</p>
+</div>
+<h1>합체</h1>
+<p>이제 조도센서와 캐릭터LCD, 그리고 Wemos D1을 합체합니다!</p>
+<p></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:900px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="20171113_235742.jpg" height="506" src="http://cfile24.uf.tistory.com/image/99153C335A09B3BA27B268" style="" width="900"/></span></p>
+<p>(사진은 이미 프로그램이 올라가 있는 상태입니다!)</p>
+<p>Wemos의 VCC(5V)와 GND는 소자에 공통적으로 물려주고, SDA, SCL 역시 마찬가지로 공통적으로 물려줍니다. </p>
+<p>D1은 SDA와 SCL 단자가 두 개 존재하네요?!</p>
+<h1>소스 코드</h1>
+<p>조도 센서 예제와 LCD 예제를 합쳐서 돌려놓았습니다. </p>
+<p>놓치지 말아야 할 점은 업로드 스피드를 115200으로 맞춰주어야 한다는 점입니다. </p>
+<p></p>
+<div class="colorscripter-code" style="color:#010101; font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; position:relative !important; overflow:auto">
+<table cellpadding="0" cellspacing="0" class="colorscripter-code-table" style="margin:0; padding:0; border:none; background-color:#fafafa; border-radius:4px;">
+<tbody>
+<tr>
+<td style="padding:6px; border-right:2px solid #e5e5e5">
+<div style="margin:0; padding:0; word-break:normal; text-align:right; color:#666; font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; line-height:130%">
+<div style="line-height:130%">1</div>
+<div style="line-height:130%">2</div>
+<div style="line-height:130%">3</div>
+<div style="line-height:130%">4</div>
+<div style="line-height:130%">5</div>
+<div style="line-height:130%">6</div>
+<div style="line-height:130%">7</div>
+<div style="line-height:130%">8</div>
+<div style="line-height:130%">9</div>
+<div style="line-height:130%">10</div>
+<div style="line-height:130%">11</div>
+<div style="line-height:130%">12</div>
+<div style="line-height:130%">13</div>
+<div style="line-height:130%">14</div>
+<div style="line-height:130%">15</div>
+<div style="line-height:130%">16</div>
+<div style="line-height:130%">17</div>
+<div style="line-height:130%">18</div>
+<div style="line-height:130%">19</div>
+<div style="line-height:130%">20</div>
+<div style="line-height:130%">21</div>
+<div style="line-height:130%">22</div>
+<div style="line-height:130%">23</div>
+<div style="line-height:130%">24</div>
+<div style="line-height:130%">25</div>
+<div style="line-height:130%">26</div>
+<div style="line-height:130%">27</div>
+<div style="line-height:130%">28</div>
+<div style="line-height:130%">29</div>
+<div style="line-height:130%">30</div>
+<div style="line-height:130%">31</div>
+<div style="line-height:130%">32</div>
+<div style="line-height:130%">33</div>
+<div style="line-height:130%">34</div>
+<div style="line-height:130%">35</div>
+<div style="line-height:130%">36</div>
+<div style="line-height:130%">37</div>
+<div style="line-height:130%">38</div>
+<div style="line-height:130%">39</div>
+<div style="line-height:130%">40</div>
+<div style="line-height:130%">41</div>
+<div style="line-height:130%">42</div>
+<div style="line-height:130%">43</div>
+<div style="line-height:130%">44</div>
+<div style="line-height:130%">45</div>
+<div style="line-height:130%">46</div>
+<div style="line-height:130%">47</div>
+<div style="line-height:130%">48</div>
+<div style="line-height:130%">49</div>
+<div style="line-height:130%">50</div>
+<div style="line-height:130%">51</div>
+<div style="line-height:130%">52</div>
+<div style="line-height:130%">53</div>
+<div style="line-height:130%">54</div>
+<div style="line-height:130%">55</div>
+<div style="line-height:130%">56</div>
+<div style="line-height:130%">57</div>
+<div style="line-height:130%">58</div>
+<div style="line-height:130%">59</div>
+<div style="line-height:130%">60</div>
+<div style="line-height:130%">61</div>
+<div style="line-height:130%">62</div>
+<div style="line-height:130%">63</div>
+<div style="line-height:130%">64</div>
+<div style="line-height:130%">65</div>
+<div style="line-height:130%">66</div>
+<div style="line-height:130%">67</div>
+<div style="line-height:130%">68</div>
+<div style="line-height:130%">69</div>
+<div style="line-height:130%">70</div>
+<div style="line-height:130%">71</div>
+<div style="line-height:130%">72</div>
+<div style="line-height:130%">73</div>
+<div style="line-height:130%">74</div>
+<div style="line-height:130%">75</div>
+<div style="line-height:130%">76</div>
+<div style="line-height:130%">77</div>
+<div style="line-height:130%">78</div>
+<div style="line-height:130%">79</div>
+<div style="line-height:130%">80</div>
+<div style="line-height:130%">81</div>
+<div style="line-height:130%">82</div>
+<div style="line-height:130%">83</div>
+<div style="line-height:130%">84</div>
+<div style="line-height:130%">85</div>
+<div style="line-height:130%">86</div>
+<div style="line-height:130%">87</div>
+<div style="line-height:130%">88</div>
+<div style="line-height:130%">89</div>
+<div style="line-height:130%">90</div>
+<div style="line-height:130%">91</div>
+<div style="line-height:130%">92</div>
+<div style="line-height:130%">93</div>
+<div style="line-height:130%">94</div>
+<div style="line-height:130%">95</div>
+<div style="line-height:130%">96</div>
+<div style="line-height:130%">97</div>
+<div style="line-height:130%">98</div>
+<div style="line-height:130%">99</div>
+<div style="line-height:130%">100</div>
+<div style="line-height:130%">101</div>
+<div style="line-height:130%">102</div>
+<div style="line-height:130%">103</div>
+<div style="line-height:130%">104</div>
+<div style="line-height:130%">105</div>
+<div style="line-height:130%">106</div>
+<div style="line-height:130%">107</div>
+<div style="line-height:130%">108</div>
+<div style="line-height:130%">109</div>
+<div style="line-height:130%">110</div>
+<div style="line-height:130%">111</div>
+<div style="line-height:130%">112</div>
+<div style="line-height:130%">113</div>
+<div style="line-height:130%">114</div>
+<div style="line-height:130%">115</div>
+<div style="line-height:130%">116</div>
+<div style="line-height:130%">117</div>
+<div style="line-height:130%">118</div>
+<div style="line-height:130%">119</div>
+<div style="line-height:130%">120</div>
+<div style="line-height:130%">121</div>
+<div style="line-height:130%">122</div>
+<div style="line-height:130%">123</div>
+<div style="line-height:130%">124</div>
+<div style="line-height:130%">125</div>
+<div style="line-height:130%">126</div>
+<div style="line-height:130%">127</div>
+<div style="line-height:130%">128</div>
+<div style="line-height:130%">129</div>
+<div style="line-height:130%">130</div>
+<div style="line-height:130%">131</div>
+<div style="line-height:130%">132</div>
+<div style="line-height:130%">133</div>
+<div style="line-height:130%">134</div>
+<div style="line-height:130%">135</div>
+<div style="line-height:130%">136</div>
+<div style="line-height:130%">137</div>
+<div style="line-height:130%">138</div>
+<div style="line-height:130%">139</div>
+<div style="line-height:130%">140</div>
+<div style="line-height:130%">141</div>
+<div style="line-height:130%">142</div>
+<div style="line-height:130%">143</div>
+<div style="line-height:130%">144</div>
+<div style="line-height:130%">145</div>
+<div style="line-height:130%">146</div>
+<div style="line-height:130%">147</div>
+<div style="line-height:130%">148</div>
+<div style="line-height:130%">149</div>
+<div style="line-height:130%">150</div>
+<div style="line-height:130%">151</div>
+<div style="line-height:130%">152</div>
+<div style="line-height:130%">153</div>
+<div style="line-height:130%">154</div>
+<div style="line-height:130%">155</div>
+<div style="line-height:130%">156</div>
+<div style="line-height:130%">157</div>
+<div style="line-height:130%">158</div>
+<div style="line-height:130%">159</div>
+<div style="line-height:130%">160</div>
+<div style="line-height:130%">161</div>
+<div style="line-height:130%">162</div>
+<div style="line-height:130%">163</div>
+<div style="line-height:130%">164</div>
+<div style="line-height:130%">165</div>
+<div style="line-height:130%">166</div>
+<div style="line-height:130%">167</div>
+<div style="line-height:130%">168</div>
+<div style="line-height:130%">169</div>
+<div style="line-height:130%">170</div>
+<div style="line-height:130%">171</div>
+<div style="line-height:130%">172</div>
+<div style="line-height:130%">173</div>
+<div style="line-height:130%">174</div>
+<div style="line-height:130%">175</div>
+<div style="line-height:130%">176</div>
+<div style="line-height:130%">177</div>
+<div style="line-height:130%">178</div>
+<div style="line-height:130%">179</div>
+<div style="line-height:130%">180</div>
+<div style="line-height:130%">181</div>
+<div style="line-height:130%">182</div>
+<div style="line-height:130%">183</div>
+<div style="line-height:130%">184</div>
+<div style="line-height:130%">185</div>
+<div style="line-height:130%">186</div>
+<div style="line-height:130%">187</div>
+<div style="line-height:130%">188</div>
+<div style="line-height:130%">189</div>
+<div style="line-height:130%">190</div>
+<div style="line-height:130%">191</div>
+<div style="line-height:130%">192</div>
+</div>
+</td>
+<td style="padding:6px 0">
+<div style="margin:0; padding:0; color:#010101; font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; line-height:130%">
+<div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">/* TSL2591 Digital Light Sensor */</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">/* Dynamic Range: 600M:1 */</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">/* Maximum Lux: 88K */</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"> </div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">#include <span style="color:#ff3399"></span><span style="color:#a71d5d">&lt;</span>Wire.h<span style="color:#ff3399"></span><span style="color:#a71d5d">&gt;</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">#include <span style="color:#ff3399"></span><span style="color:#a71d5d">&lt;</span>Adafruit_Sensor.h<span style="color:#ff3399"></span><span style="color:#a71d5d">&gt;</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">#include <span style="color:#63a35c">&#8220;Adafruit_TSL2591.h&#8221;</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"> </div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">#include <span style="color:#ff3399"></span><span style="color:#a71d5d">&lt;</span>LiquidCrystal_I2C.h<span style="color:#ff3399"></span><span style="color:#a71d5d">&gt;</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"> </div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">// Example for demonstrating the TSL2591 library &#8211; public domain!</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"> </div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">Adafruit_TSL2591 tsl <span style="color:#ff3399"></span><span style="color:#a71d5d">=</span> Adafruit_TSL2591(<span style="color:#0099cc">2591</span>); <span style="color:#999999">// pass in a number for the sensor identifier (for your use later)</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">LiquidCrystal_I2C lcd(<span style="color:#0099cc">0x27</span>, <span style="color:#0099cc">16</span>, <span style="color:#0099cc">2</span>);</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"> </div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">/**************************************************************************/</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">/*</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">    Displays some basic information on this sensor from the unified</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">    sensor API sensor_t type (see Adafruit_Sensor for more information)</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">*/</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">/**************************************************************************/</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">void displaySensorDetails(void)</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">{</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  sensor_t sensor;</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  tsl.getSensor(<span style="color:#ff3399"></span><span style="color:#a71d5d">&amp;</span>sensor);</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  Serial.println(F(<span style="color:#63a35c">&#8220;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8220;</span>));</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  Serial.print  (F(<span style="color:#63a35c">&#8220;Sensor:       &#8220;</span>)); Serial.println(sensor.name);</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  Serial.print  (F(<span style="color:#63a35c">&#8220;Driver Ver:   &#8220;</span>)); Serial.println(sensor.version);</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  Serial.print  (F(<span style="color:#63a35c">&#8220;Unique ID:    &#8220;</span>)); Serial.println(sensor.sensor_id);</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  Serial.print  (F(<span style="color:#63a35c">&#8220;Max Value:    &#8220;</span>)); Serial.print(sensor.max_value); Serial.println(F(<span style="color:#63a35c">&#8221; lux&#8221;</span>));</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  Serial.print  (F(<span style="color:#63a35c">&#8220;Min Value:    &#8220;</span>)); Serial.print(sensor.min_value); Serial.println(F(<span style="color:#63a35c">&#8221; lux&#8221;</span>));</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  Serial.print  (F(<span style="color:#63a35c">&#8220;Resolution:   &#8220;</span>)); Serial.print(sensor.resolution); Serial.println(F(<span style="color:#63a35c">&#8221; lux&#8221;</span>));  </div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  Serial.println(F(<span style="color:#63a35c">&#8220;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8220;</span>));</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  Serial.println(F(<span style="color:#63a35c">&#8220;&#8221;</span>));</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  delay(<span style="color:#0099cc">500</span>);</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">}</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"> </div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">/**************************************************************************/</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">/*</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">    Configures the gain and integration time for the TSL2591</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">*/</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">/**************************************************************************/</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">void configureSensor(void)</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">{</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  <span style="color:#999999">// You can change the gain on the fly, to adapt to brighter/dimmer light situations</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  tsl.setGain(TSL2591_GAIN_MED);      <span style="color:#999999">// 25x gain</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  </div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  <span style="color:#999999">// Changing the integration time gives you a longer time over which to sense light</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  <span style="color:#999999">// longer timelines are slower, but are good in very low light situtations!</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  tsl.setTiming(TSL2591_INTEGRATIONTIME_100MS);</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"> </div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  <span style="color:#999999">/* Display the gain and integration time for reference sake */</span>  </div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  Serial.println(F(<span style="color:#63a35c">&#8220;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8220;</span>));</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  Serial.print  (F(<span style="color:#63a35c">&#8220;Gain:         &#8220;</span>));</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  tsl2591Gain_t gain <span style="color:#ff3399"></span><span style="color:#a71d5d">=</span> tsl.getGain();</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  switch(gain)</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  {</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">    case TSL2591_GAIN_LOW:</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">      Serial.println(F(<span style="color:#63a35c">&#8220;1x (Low)&#8221;</span>));</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">      break;</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">    case TSL2591_GAIN_MED:</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">      Serial.println(F(<span style="color:#63a35c">&#8220;25x (Medium)&#8221;</span>));</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">      break;</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">    case TSL2591_GAIN_HIGH:</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">      Serial.println(F(<span style="color:#63a35c">&#8220;428x (High)&#8221;</span>));</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">      break;</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">    case TSL2591_GAIN_MAX:</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">      Serial.println(F(<span style="color:#63a35c">&#8220;9876x (Max)&#8221;</span>));</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">      break;</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  }</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  Serial.print  (F(<span style="color:#63a35c">&#8220;Timing:       &#8220;</span>));</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  Serial.print((tsl.getTiming() <span style="color:#ff3399"></span><span style="color:#a71d5d">+</span> <span style="color:#0099cc">1</span>) <span style="color:#ff3399"></span><span style="color:#a71d5d">*</span> <span style="color:#0099cc">100</span>, DEC); </div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  Serial.println(F(<span style="color:#63a35c">&#8221; ms&#8221;</span>));</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  Serial.println(F(<span style="color:#63a35c">&#8220;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8220;</span>));</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  Serial.println(F(<span style="color:#63a35c">&#8220;&#8221;</span>));</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">}</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"> </div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">/**************************************************************************/</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">/*</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">    Program entry point for the Arduino sketch</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">*/</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">/**************************************************************************/</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">void setup(void) </div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">{</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  Serial.begin(<span style="color:#0099cc">9600</span>);</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  </div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  Serial.println(F(<span style="color:#63a35c">&#8220;Starting Adafruit TSL2591 Test!&#8221;</span>));</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  </div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  if (tsl.begin()) </div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  {</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">    Serial.println(F(<span style="color:#63a35c">&#8220;Found a TSL2591 sensor&#8221;</span>));</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  } </div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  else </div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  {</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">    Serial.println(F(<span style="color:#63a35c">&#8220;No sensor found &#8230; check your wiring?&#8221;</span>));</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">    while (<span style="color:#0099cc">1</span>);</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  }</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">    </div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  <span style="color:#999999">/* Display some basic information on this sensor */</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  displaySensorDetails();</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  </div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  <span style="color:#999999">/* Configure the sensor */</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  configureSensor();</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"> </div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  <span style="color:#999999">// Now we&#8217;re ready to get readings &#8230; move on to loop()!</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  lcd.begin();</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  lcd.backlight();</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">}</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"> </div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">/**************************************************************************/</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">/*</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">    Shows how to perform a basic read on visible, full spectrum or</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">    infrared light (returns raw 16-bit ADC values)</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">*/</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">/**************************************************************************/</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">void simpleRead(void)</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">{</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  <span style="color:#999999">// Simple data read example. Just read the infrared, fullspecrtrum diode </span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  <span style="color:#999999">// or &#8216;visible&#8217; (difference between the two) channels.</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  <span style="color:#999999">// This can take 100-600 milliseconds! Uncomment whichever of the following you want to read</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  uint16_t x <span style="color:#ff3399"></span><span style="color:#a71d5d">=</span> tsl.getLuminosity(TSL2591_VISIBLE);</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"> </div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  Serial.print(F(<span style="color:#63a35c">&#8220;[ &#8220;</span>)); Serial.print(millis()); Serial.print(F(<span style="color:#63a35c">&#8221; ms ] &#8220;</span>));</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  Serial.print(F(<span style="color:#63a35c">&#8220;Luminosity: &#8220;</span>));</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  Serial.println(x, DEC);</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">}</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"> </div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">/**************************************************************************/</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">/*</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">    Show how to read IR and Full Spectrum at once and convert to lux</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">*/</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">/**************************************************************************/</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">void advancedRead(void)</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">{</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  <span style="color:#999999">// More advanced data read example. Read 32 bits with top 16 bits IR, bottom 16 bits full spectrum</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  <span style="color:#999999">// That way you can do whatever math and comparisons you want!</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  uint32_t lum <span style="color:#ff3399"></span><span style="color:#a71d5d">=</span> tsl.getFullLuminosity();</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  uint16_t ir, full;</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  ir <span style="color:#ff3399"></span><span style="color:#a71d5d">=</span> lum <span style="color:#ff3399"></span><span style="color:#a71d5d">&gt;</span><span style="color:#ff3399"></span><span style="color:#a71d5d">&gt;</span> <span style="color:#0099cc">16</span>;</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  full <span style="color:#ff3399"></span><span style="color:#a71d5d">=</span> lum <span style="color:#ff3399"></span><span style="color:#a71d5d">&amp;</span> <span style="color:#0099cc">0xFFFF</span>;</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  Serial.print(F(<span style="color:#63a35c">&#8220;[ &#8220;</span>)); Serial.print(millis()); Serial.print(F(<span style="color:#63a35c">&#8221; ms ] &#8220;</span>));</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  Serial.print(F(<span style="color:#63a35c">&#8220;IR: &#8220;</span>)); Serial.print(ir);  Serial.print(F(<span style="color:#63a35c">&#8221;  &#8220;</span>));</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  Serial.print(F(<span style="color:#63a35c">&#8220;Full: &#8220;</span>)); Serial.print(full); Serial.print(F(<span style="color:#63a35c">&#8221;  &#8220;</span>));</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  Serial.print(F(<span style="color:#63a35c">&#8220;Visible: &#8220;</span>)); Serial.print(full <span style="color:#ff3399"></span><span style="color:#a71d5d">&#8211;</span> ir); Serial.print(F(<span style="color:#63a35c">&#8221;  &#8220;</span>));</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  Serial.print(F(<span style="color:#63a35c">&#8220;Lux: &#8220;</span>)); Serial.println(tsl.calculateLux(full, ir));</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"> </div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  lcd.print(<span style="color:#63a35c">&#8220;Lux : &#8220;</span>);</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  lcd.print(tsl.calculateLux(full, ir));</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  lcd.home();</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">}</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"> </div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">/**************************************************************************/</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">/*</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">    Performs a read using the Adafruit Unified Sensor API.</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">*/</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">/**************************************************************************/</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">void unifiedSensorAPIRead(void)</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">{</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  <span style="color:#999999">/* Get a new sensor event */</span> </div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  sensors_event_t event;</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  tsl.getEvent(<span style="color:#ff3399"></span><span style="color:#a71d5d">&amp;</span>event);</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"> </div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  <span style="color:#999999">/* Display the results (light is measured in lux) */</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  Serial.print(F(<span style="color:#63a35c">&#8220;[ &#8220;</span>)); Serial.print(event.timestamp); Serial.print(F(<span style="color:#63a35c">&#8221; ms ] &#8220;</span>));</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  if ((event.light <span style="color:#ff3399"></span><span style="color:#a71d5d">=</span><span style="color:#ff3399"></span><span style="color:#a71d5d">=</span> <span style="color:#0099cc">0</span>) <span style="color:#ff3399"></span><span style="color:#a71d5d">|</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">      (event.light <span style="color:#ff3399"></span><span style="color:#a71d5d">&gt;</span> <span style="color:#0099cc">4294966000.</span><span style="color:#0099cc">0</span>) <span style="color:#ff3399"></span><span style="color:#a71d5d">|</span> </div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">      (event.light <span style="color:#ff3399"></span><span style="color:#a71d5d">&lt;</span><span style="color:#ff3399"></span><span style="color:#a71d5d">&#8211;</span><span style="color:#0099cc">4294966000.</span><span style="color:#0099cc">0</span>))</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  {</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">    <span style="color:#999999">/* If event.light = 0 lux the sensor is probably saturated */</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">    <span style="color:#999999">/* and no reliable data could be generated! */</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">    <span style="color:#999999">/* if event.light is +/- 4294967040 there was a float over/underflow */</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">    Serial.println(F(<span style="color:#63a35c">&#8220;Invalid data (adjust gain or timing)&#8221;</span>));</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  }</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  else</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  {</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">    Serial.print(event.light); Serial.println(F(<span style="color:#63a35c">&#8221; lux&#8221;</span>));</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  }</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">}</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"> </div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">/**************************************************************************/</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">/*</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">    Arduino loop function, called once &#8216;setup&#8217; is complete (your own code</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">    should go here)</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">*/</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#999999">/**************************************************************************/</span></div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">void loop(void) </div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">{ </div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  advancedRead();</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  </div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  delay(<span style="color:#0099cc">500</span>);</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">  lcd.clear();</div>
+<div style="padding:0 6px; white-space:pre; line-height:130%">}</div>
+</div>
+<div style="text-align:right; margin-top:-13px; margin-right:5px; font-size:9px; font-style:italic"><a href="http://colorscripter.com/info#e" style="color: rgb(229, 229, 229);" target="_blank">Colored by Color Scripter</a></div>
+</td>
+<td style="vertical-align:bottom; padding:0 2px 4px 0"><a href="http://colorscripter.com/info#e" style="color: white;" target="_blank"><span style="font-size: 9px; word-break: normal; background-color: rgb(229, 229, 229); border-radius: 10px; padding: 1px;">cs</span></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<p>결과는 위의 사진처럼, 1초에 두 번 갱신되면서 조도를 출력해줍니다. </p>
+<p>값이 정확한지는 잘 모르겠네요! 조도계와 비교해야 할 것 같습니다!</p>
+<hr />
+<p><iframe src='http://ad.selfhow.com/rd' width='100%' border=0 frameborder=0 style='height:auto;width:100%'></iframe></p>
+<p><a href='http://simple3068.tistory.com/13' target='_blank'>Origin Content : Simple Factory</a> | <a href="/cdn-cgi/l/email-protection#0f686e626a506c6c3f3f3e4f616e636e21686e" target='_blank'>Contact : <span class="__cf_email__" data-cfemail="7116101c142e1212414140311f101d105f1610">[email&#160;protected]</span></a>
+</p>
+<p>Cotent License : CC-BY </p>
+<p>This content is collected under the CCL license.</p>
+<p>Please check the license of the original article before asking about copyright.</p>
+<ul>
+<li><a href='/tag/Light'>More About <span style='font-weight:bold;'>Light</span></a></li>
+<li><a href='/tag/Intensity'>More About <span style='font-weight:bold;'>Intensity</span></a></li>
+<li><a href='/tag/Measurement'>More About <span style='font-weight:bold;'>Measurement</span></a></li>
+<li><a href='/tag/System'>More About <span style='font-weight:bold;'>System</span></a></li>
+<li><a href='/tag/0x02'>More About <span style='font-weight:bold;'>0x02</span></a></li>
+<li><a href='/tag/조도계'>More About <span style='font-weight:bold;'>조도계</span></a></li>
+</ul>
+        </div> <!-- //.entry-summary -->
+        
+                    <div class="entry-tags"><b>Tags:</b> <a href="http://da.nala.ga/tag/0x02/" rel="tag">0x02</a>, <a href="http://da.nala.ga/tag/intensity/" rel="tag">Intensity</a>, <a href="http://da.nala.ga/tag/light/" rel="tag">Light</a>, <a href="http://da.nala.ga/tag/measurement/" rel="tag">Measurement</a>, <a href="http://da.nala.ga/tag/system/" rel="tag">System</a>, <a href="http://da.nala.ga/tag/%ec%a1%b0%eb%8f%84%ea%b3%84/" rel="tag">조도계</a></div>
+        
+    </div>
+
+</article> <!--/#post-->
+
+
+
+
+
+                                                                    <div class="post-nav-area">
+                                                    
+            <nav class="next-previous-post clearfix media" role="navigation">
+                <div class="row">
+                    <!-- Previous Post -->
+                    <div class="previous-post col-sm-6 pull-left">
+                        <div class="nav-previous"><i class="fa fa-angle-left"></i> <a href="http://da.nala.ga/%ed%99%94%ec%9e%ac%ec%9d%98-%ec%97%90%eb%84%88%ea%b3%a0tsl-%ed%85%8c%ec%8a%ac%eb%9d%bc%ec%bd%94%ec%9d%b8-%ec%97%90%eb%84%88%ea%b3%a0%eb%8a%94-%eb%ac%b4%ec%97%87%ec%9d%bc%ea%b9%8c/" rel="prev">화재의 에너고(TSL, 테슬라)코인 에너고는 무엇일까?</a></div>                    </div>
+
+                    <!-- Next Post -->
+                    <div class="next-post col-sm-6 pull-right text-right">
+                        <div class="nav-next"><a href="http://da.nala.ga/iis-webdav-%ea%b7%b8%eb%a6%ac%ea%b3%a0-back-end-nas-%ec%97%b0%ea%b2%b0/" rel="next">IIS WebDav 그리고 Back-end NAS 연결</a> <i class="fa fa-angle-right"></i></div>                    </div>
+                </div>
+            </nav><!-- .navigation -->
+            
+                                            </div>
+                                
+                                
+                            
+                                            </main> <!-- /.site-main -->
+                </div>  <!-- /.content-area -->
+            </div> <!-- /col -->
+
+            <!-- Blogsidebar -->
+            
+	<div class="col-md-4">
+	    <div class="primary-sidebar widget-area" role="complementary">
+	        <div id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="http://da.nala.ga/">
+				<label>
+					<span class="screen-reader-text">검색:</span>
+					<input type="search" class="search-field" placeholder="검색 &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="검색" />
+			</form></div>		<div id="recent-posts-2" class="widget widget_recent_entries">		<h2 class="widget-title">최근 글</h2>		<ul>
+					<li>
+				<a href="http://da.nala.ga/%ea%b5%90%ed%99%98%ed%95%99%ec%83%9d%ec%a4%80%eb%b9%84part2-%ed%94%84%eb%9e%91%ec%8a%a4-sciences-po-%ec%a7%80%ec%9b%90-%ea%b3%bc%ec%a0%95%ea%b3%bc-%ea%b7%b8-%ec%a0%84-%ec%95%8c%ec%95%84%ec%95%bc/">[교환학생준비PART2] 프랑스 Sciences Po 지원 과정과 그 전 알아야할 것들!</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%b0%95%ea%b7%bc%ed%98%9c-%ec%b5%9c%ec%88%9c%ec%8b%a4-%ea%b2%8c%ec%9d%b4%ed%8a%b8%eb%a5%bc-%eb%b0%9d%ed%98%80%eb%82%b8-%ec%9d%bc%eb%93%b1%ea%b3%b5%ec%8b%a0-%ec%95%88%eb%af%bc%ec%84%9d/">박근혜 최순실 게이트를 밝혀낸 일등공신 안민석</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%b0%b0%ed%8b%80%ea%b7%b8%eb%9d%bc%ec%9a%b4%eb%93%9c-%ec%a0%95%ec%8b%9d%eb%b2%84%ec%a0%84-1-0%ed%8c%a8%ec%b9%98-%eb%ac%b4%ec%97%87%ec%9d%b4-%eb%b0%94%eb%80%8c%eb%82%98%ec%9a%94/">배틀그라운드 정식버전 1.0패치 무엇이 바뀌나요?</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%91%90%eb%87%8c%eb%a5%bc-%ea%b1%b4%ea%b0%95%ed%95%98%ea%b2%8c-%eb%a7%8c%eb%93%9c%eb%8a%94-4%ec%b2%9c%eb%b3%b4%ec%9d%98-%ea%b1%b8%ec%9d%8c/">두뇌를 건강하게 만드는 4천보의 걸음</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%af%b8%ea%b5%ad-%ec%9c%a0%ed%95%99-%ec%a0%95%eb%b3%b4-%ed%95%9c%ea%b5%ad-%eb%82%b4%ec%8b%a0-%ec%84%b1%ec%a0%81%eb%a7%8c%ec%9c%bc%eb%a1%9c-%eb%af%b8%ea%b5%ad-%eb%aa%85%eb%ac%b8%eb%8c%80-%ea%b0%80/">미국 유학  정보 &#8211; 한국 내신 성적만으로 미국 명문대 가기</a>
+						</li>
+				</ul>
+		</div>		<div id="tag_cloud-2" class="widget widget_tag_cloud"><h2 class="widget-title">태그</h2><div class="tagcloud"><a href="http://da.nala.ga/tag/1%ec%9b%94/" class="tag-cloud-link tag-link-35 tag-link-position-1" style="font-size: 14.892307692308pt;" aria-label="1월 (47 아이템)">1월</a>
+<a href="http://da.nala.ga/tag/2017/" class="tag-cloud-link tag-link-510 tag-link-position-2" style="font-size: 19.415384615385pt;" aria-label="2017 (76 아이템)">2017</a>
+<a href="http://da.nala.ga/tag/2017%eb%85%84/" class="tag-cloud-link tag-link-8 tag-link-position-3" style="font-size: 18.123076923077pt;" aria-label="2017년 (66 아이템)">2017년</a>
+<a href="http://da.nala.ga/tag/2018/" class="tag-cloud-link tag-link-61 tag-link-position-4" style="font-size: 14.461538461538pt;" aria-label="2018 (45 아이템)">2018</a>
+<a href="http://da.nala.ga/tag/2018%eb%85%84/" class="tag-cloud-link tag-link-103 tag-link-position-5" style="font-size: 18.984615384615pt;" aria-label="2018년 (73 아이템)">2018년</a>
+<a href="http://da.nala.ga/tag/vs/" class="tag-cloud-link tag-link-943 tag-link-position-6" style="font-size: 9.5076923076923pt;" aria-label="vs (26 아이템)">vs</a>
+<a href="http://da.nala.ga/tag/%ec%98%81%ed%99%94/" class="tag-cloud-link tag-link-1375 tag-link-position-7" style="font-size: 14.246153846154pt;" aria-label="“영화 (44 아이템)">“영화</a>
+<a href="http://da.nala.ga/tag/%ea%b0%80%ea%b2%a9/" class="tag-cloud-link tag-link-63 tag-link-position-8" style="font-size: 12.953846153846pt;" aria-label="가격 (38 아이템)">가격</a>
+<a href="http://da.nala.ga/tag/%ea%b0%80%ec%83%81%ed%99%94%ed%8f%90/" class="tag-cloud-link tag-link-1479 tag-link-position-9" style="font-size: 9.0769230769231pt;" aria-label="가상화폐 (25 아이템)">가상화폐</a>
+<a href="http://da.nala.ga/tag/%ea%b2%80%ec%9d%80%ec%82%ac%eb%a7%89/" class="tag-cloud-link tag-link-341 tag-link-position-10" style="font-size: 8.8615384615385pt;" aria-label="검은사막 (24 아이템)">검은사막</a>
+<a href="http://da.nala.ga/tag/%ea%b2%8c%ec%9e%84/" class="tag-cloud-link tag-link-391 tag-link-position-11" style="font-size: 22pt;" aria-label="게임 (102 아이템)">게임</a>
+<a href="http://da.nala.ga/tag/%ea%b3%b5%ea%b0%9c/" class="tag-cloud-link tag-link-938 tag-link-position-12" style="font-size: 9.5076923076923pt;" aria-label="공개 (26 아이템)">공개</a>
+<a href="http://da.nala.ga/tag/%ea%b3%b5%eb%9e%b5/" class="tag-cloud-link tag-link-1018 tag-link-position-13" style="font-size: 8.8615384615385pt;" aria-label="공략 (24 아이템)">공략</a>
+<a href="http://da.nala.ga/tag/%eb%8b%a4%ec%9a%b4%eb%a1%9c%eb%93%9c/" class="tag-cloud-link tag-link-364 tag-link-position-14" style="font-size: 8.4307692307692pt;" aria-label="다운로드 (23 아이템)">다운로드</a>
+<a href="http://da.nala.ga/tag/%eb%8c%80%ed%95%b4%ec%84%9c/" class="tag-cloud-link tag-link-1629 tag-link-position-15" style="font-size: 8.8615384615385pt;" aria-label="대해서 (24 아이템)">대해서</a>
+<a href="http://da.nala.ga/tag/%eb%a6%ac%eb%b7%b0/" class="tag-cloud-link tag-link-555 tag-link-position-16" style="font-size: 15.969230769231pt;" aria-label="리뷰 (53 아이템)">리뷰</a>
+<a href="http://da.nala.ga/tag/%eb%a7%9b%ec%a7%91/" class="tag-cloud-link tag-link-4173 tag-link-position-17" style="font-size: 9.9384615384615pt;" aria-label="맛집 (27 아이템)">맛집</a>
+<a href="http://da.nala.ga/tag/%eb%aa%a8%eb%b0%94%ec%9d%bc/" class="tag-cloud-link tag-link-835 tag-link-position-18" style="font-size: 10.584615384615pt;" aria-label="모바일 (29 아이템)">모바일</a>
+<a href="http://da.nala.ga/tag/%eb%ac%b4%eb%a3%8c/" class="tag-cloud-link tag-link-827 tag-link-position-19" style="font-size: 13.384615384615pt;" aria-label="무료 (40 아이템)">무료</a>
+<a href="http://da.nala.ga/tag/%eb%b0%a9%eb%b2%95/" class="tag-cloud-link tag-link-529 tag-link-position-20" style="font-size: 15.323076923077pt;" aria-label="방법 (49 아이템)">방법</a>
+<a href="http://da.nala.ga/tag/%eb%b9%84%ed%8a%b8%ec%bd%94%ec%9d%b8/" class="tag-cloud-link tag-link-1478 tag-link-position-21" style="font-size: 9.0769230769231pt;" aria-label="비트코인 (25 아이템)">비트코인</a>
+<a href="http://da.nala.ga/tag/%ec%84%a4%ec%b9%98/" class="tag-cloud-link tag-link-360 tag-link-position-22" style="font-size: 8pt;" aria-label="설치 (22 아이템)">설치</a>
+<a href="http://da.nala.ga/tag/%ec%86%8c%ea%b0%9c/" class="tag-cloud-link tag-link-297 tag-link-position-23" style="font-size: 8.4307692307692pt;" aria-label="소개 (23 아이템)">소개</a>
+<a href="http://da.nala.ga/tag/%ec%88%9c%ec%9c%84/" class="tag-cloud-link tag-link-12 tag-link-position-24" style="font-size: 11.230769230769pt;" aria-label="순위 (31 아이템)">순위</a>
+<a href="http://da.nala.ga/tag/%ec%8b%9c%ec%9e%91/" class="tag-cloud-link tag-link-579 tag-link-position-25" style="font-size: 8.4307692307692pt;" aria-label="시작 (23 아이템)">시작</a>
+<a href="http://da.nala.ga/tag/%ec%95%88%eb%82%b4/" class="tag-cloud-link tag-link-338 tag-link-position-26" style="font-size: 10.584615384615pt;" aria-label="안내 (29 아이템)">안내</a>
+<a href="http://da.nala.ga/tag/%ec%95%8c%ec%95%84%eb%b3%b4%ea%b8%b0/" class="tag-cloud-link tag-link-1939 tag-link-position-27" style="font-size: 12.523076923077pt;" aria-label="알아보기 (36 아이템)">알아보기</a>
+<a href="http://da.nala.ga/tag/%ec%95%8c%ec%95%84%eb%b3%b4%ec%9e%90/" class="tag-cloud-link tag-link-369 tag-link-position-28" style="font-size: 11.661538461538pt;" aria-label="알아보자 (33 아이템)">알아보자</a>
+<a href="http://da.nala.ga/tag/%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8/" class="tag-cloud-link tag-link-567 tag-link-position-29" style="font-size: 9.0769230769231pt;" aria-label="업데이트 (25 아이템)">업데이트</a>
+<a href="http://da.nala.ga/tag/%ec%97%ac%ed%96%89/" class="tag-cloud-link tag-link-1122 tag-link-position-30" style="font-size: 12.738461538462pt;" aria-label="여행 (37 아이템)">여행</a>
+<a href="http://da.nala.ga/tag/%ec%98%a4%eb%b8%8c/" class="tag-cloud-link tag-link-271 tag-link-position-31" style="font-size: 10.8pt;" aria-label="오브 (30 아이템)">오브</a>
+<a href="http://da.nala.ga/tag/%ec%98%a8%eb%9d%bc%ec%9d%b8/" class="tag-cloud-link tag-link-328 tag-link-position-32" style="font-size: 11.876923076923pt;" aria-label="온라인 (34 아이템)">온라인</a>
+<a href="http://da.nala.ga/tag/%ec%9c%84%ed%95%9c/" class="tag-cloud-link tag-link-183 tag-link-position-33" style="font-size: 13.169230769231pt;" aria-label="위한 (39 아이템)">위한</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%eb%b2%a4%ed%8a%b8/" class="tag-cloud-link tag-link-723 tag-link-position-34" style="font-size: 13.169230769231pt;" aria-label="이벤트 (39 아이템)">이벤트</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%ec%95%bc%ea%b8%b0/" class="tag-cloud-link tag-link-861 tag-link-position-35" style="font-size: 10.8pt;" aria-label="이야기 (30 아이템)">이야기</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%ec%9c%a0/" class="tag-cloud-link tag-link-1482 tag-link-position-36" style="font-size: 9.9384615384615pt;" aria-label="이유 (27 아이템)">이유</a>
+<a href="http://da.nala.ga/tag/%ec%9d%bc%eb%b3%b8/" class="tag-cloud-link tag-link-1007 tag-link-position-37" style="font-size: 8.4307692307692pt;" aria-label="일본 (23 아이템)">일본</a>
+<a href="http://da.nala.ga/tag/%ec%a0%95%eb%a6%ac/" class="tag-cloud-link tag-link-65 tag-link-position-38" style="font-size: 11.876923076923pt;" aria-label="정리 (34 아이템)">정리</a>
+<a href="http://da.nala.ga/tag/%ec%a0%95%eb%b3%b4/" class="tag-cloud-link tag-link-610 tag-link-position-39" style="font-size: 17.261538461538pt;" aria-label="정보 (61 아이템)">정보</a>
+<a href="http://da.nala.ga/tag/%ec%b4%9d%ec%a0%95%eb%a6%ac/" class="tag-cloud-link tag-link-179 tag-link-position-40" style="font-size: 8.4307692307692pt;" aria-label="총정리 (23 아이템)">총정리</a>
+<a href="http://da.nala.ga/tag/%ec%b5%9c%ea%b3%a0/" class="tag-cloud-link tag-link-404 tag-link-position-41" style="font-size: 11.876923076923pt;" aria-label="최고 (34 아이템)">최고</a>
+<a href="http://da.nala.ga/tag/%ec%b6%94%ec%b2%9c/" class="tag-cloud-link tag-link-367 tag-link-position-42" style="font-size: 20.707692307692pt;" aria-label="추천 (89 아이템)">추천</a>
+<a href="http://da.nala.ga/tag/%ec%b6%9c%ec%8b%9c/" class="tag-cloud-link tag-link-612 tag-link-position-43" style="font-size: 10.584615384615pt;" aria-label="출시 (29 아이템)">출시</a>
+<a href="http://da.nala.ga/tag/%ed%95%9c%ea%b5%ad/" class="tag-cloud-link tag-link-1483 tag-link-position-44" style="font-size: 10.153846153846pt;" aria-label="한국 (28 아이템)">한국</a>
+<a href="http://da.nala.ga/tag/%ed%9b%84%ea%b8%b0/" class="tag-cloud-link tag-link-114 tag-link-position-45" style="font-size: 19.2pt;" aria-label="후기 (74 아이템)">후기</a></div>
+</div>	    </div>
+	</div>
+
+        </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+    </div>
+    <footer class="site-footer" role="contentinfo">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+  
+                    <p></p>
+                    
+                                            <div class="footer-social-icons">
+                                                                                                                                                                                                                                                                                                                                                                                                        
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+            <div class="scroll-up">
+            <a href="#"><i class="fa fa-angle-up"></i></a>
+        </div>
+        <!-- Scroll Up -->
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/af2821b0/cloudflare-static/email-decode.min.js"></script><script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/bootstrap.min.js?ver=3.3.5'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/scripts.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/jquery.fitvids.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/smoothscroll.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/wp-embed.min.js?ver=4.8.4'></script>
+    </body>
+</html>

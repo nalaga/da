@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="http://da.nala.ga/xmlrpc.php">
+
+<title>vert.x 란? | All About CC</title>
+<meta name='robots' content='noindex,follow' />
+
+<!-- All in One SEO Pack 2.4.3.1 by Michael Torbert of Semper Fi Web Design[276,313] -->
+<link rel="canonical" href="http://da.nala.ga/vert-x-%eb%9e%80/" />
+<!-- /all in one seo pack -->
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 피드" href="http://da.nala.ga/feed/" />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 댓글 피드" href="http://da.nala.ga/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; vert.x 란? 댓글 피드" href="http://da.nala.ga/vert-x-%eb%9e%80/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/da.nala.ga\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.4"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bootstrap-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/bootstrap.min.css?ver=3.3.5' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/font-awesome.min.css?ver=4.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='shaped-blog-stylesheet-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/style.css?ver=4.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/responsive.css' type='text/css' media='all' />
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://da.nala.ga/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://da.nala.ga/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://da.nala.ga/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='알투비트' href='http://da.nala.ga/%ec%95%8c%ed%88%ac%eb%b9%84%ed%8a%b8/' />
+<link rel='next' title='[영화추천] 역대 범죄영화 흥행 순위' href='http://da.nala.ga/%ec%98%81%ed%99%94%ec%b6%94%ec%b2%9c-%ec%97%ad%eb%8c%80-%eb%b2%94%ec%a3%84%ec%98%81%ed%99%94-%ed%9d%a5%ed%96%89-%ec%88%9c%ec%9c%84/' />
+<meta name="generator" content="WordPress 4.8.4" />
+<link rel='shortlink' href='http://da.nala.ga/?p=3738' />
+<link rel="alternate" type="application/json+oembed" href="http://da.nala.ga/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fda.nala.ga%2Fvert-x-%25eb%259e%2580%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://da.nala.ga/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fda.nala.ga%2Fvert-x-%25eb%259e%2580%2F&#038;format=xml" />
+
+	<style>
+
+		/* Border Color */
+		.btn-social:hover,
+		blockquote,
+		#respond input:focus[type="text"], 
+	    #respond input:focus[type="email"], 
+	    #respond input:focus[type="url"],
+	    #respond textarea:focus,
+	    #comments .comment-reply a:hover
+		{
+			border-color: ;
+		}
+
+		
+		/* Background Color */
+		.scroll-up a,
+		.btn-social:hover,
+		button,
+		input[type="button"],
+		input[type="reset"],
+		input[type="submit"],
+		.navbar-default .navbar-nav .dropdown-menu li a:hover, .dropdown-menu li a:focus, .navbar-default .navbar-nav .dropdown-menu .active a,
+		.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover, .pagination li .current,
+		.next-previous-posts .next-post a:hover,
+		.next-previous-posts .previous-post a:hover,
+		.btn-goback,
+		.btn-submit,
+		a.more-link,
+		.featured-post .fa,
+		#comments .comment-reply a:hover,
+		.widget .tagcloud a
+		{
+			background-color: ;
+		}
+
+		
+		/* Color */
+		.text-logo a,
+		.navbar-default .navbar-nav .active a, .navbar-default .navbar-nav .active a:hover, .navbar-default .navbar-nav .active a:focus,
+		.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus,
+		a:hover,
+    	a:focus,
+		.next-previous-posts .previous-post a,
+		.next-previous-posts .next-post a,
+		.pagination>li>a, .pagination>li>span,
+		#comments .comment-author a:hover, 
+    	#respond .logged-in-as a:hover,
+    	#wp-calendar a,
+    	h2.entry-title a:hover
+		{
+			color: ;
+		}
+
+
+		/* A Color */
+		a{
+			color: ;
+		}
+
+		/* a:hover Color */
+		a:hover,
+		a:focus,
+		a:active,
+		.widget a:hover,
+		.post .post-content .entry-meta ul li a:hover
+		{
+			color: ;
+		}
+
+		/* .featured-post .fa:after*/
+		.featured-post .fa:after{
+			border-color:   transparent ;
+		}
+
+
+		
+
+	</style>
+</head>
+
+<body class="post-template-default single single-post postid-3738 single-format-standard">
+
+    <div id="st-preloader">
+        <div id="pre-status">
+            <div class="preload-placeholder"></div>
+        </div>
+    </div>
+<!-- /Preloader -->
+
+<header id="header">	
+	<div id="trueHeader">
+    	<div class="wrapper">
+            <div class="container">
+            	<!-- Menu -->
+            	<div class="menu_main">
+                	<div class="navbar blogx-navbar navbar-default">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#st-navber-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+
+                                                            <div class="text-logo">
+                                    <a href="http://da.nala.ga">All About CC</a>
+                                    <p>All About CC Contents</p>
+                                </div><!-- /Logo -->
+                                                    </div>
+                      
+                        <div id="st-navber-collapse" class="navbar-collapse collapse pull-right">
+                             
+                        </div>
+                    </div>
+            	</div><!-- end menu -->
+        	</div> <!-- /.container -->
+    	</div>
+	</div>
+	<DIV class='ads_adsense_img' style='margin:40px 0px 40px 0px;'>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- only display -->
+	<ins class="adsbygoogle"
+	     style="display:block"
+	     data-ad-client="ca-pub-8393857339019314"
+	     data-ad-slot="7474886381"
+	     data-ad-format="auto"></ins>
+	<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+	</DIV>	
+</header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div id="primary" class="content-area">
+                    <main id="main" class="site-main" role="main">
+
+                        
+                                <article id="post-3738" class="post-3738 post type-post status-publish format-standard hentry category-uncategorized tag-vertx tag-6691">
+    <header class="entry-header">
+        
+        
+    </header> <!--/.entry-header -->
+
+    <div class="clearfix post-content media">
+
+        <h2 class="entry-title">
+            vert.x 란?        </h2> <!-- //.entry-title -->
+
+        <div class="clearfix entry-meta">
+            
+            <ul class="list-inline">
+                <li>
+                    <span class="author vcard">
+                        By <a class="url fn n" href="http://da.nala.ga/author/site-admin/">site-admin</a>                    </span>
+                </li>
+                <li>
+                    on <span class="posted-on">1월 09, 2018</span>
+                </li>
+                                    <li>
+                        in <span class="posted-in">
+                            <a href="http://da.nala.ga/category/uncategorized/" rel="category tag">미분류</a>                        </span>
+                    </li>
+                            </ul>
+                </div> <!--/.entry-meta -->
+        
+        <div class="entry-summary">
+            <p><img src='http://d2.naver.com/content/images/2015/06/helloworld-163784-1.png' style='max-width:250px;min-width:0px;' onError='this.style.display="none"' /></p>
+<h1>3줄 요약 </h1>
+<div style='color:#fff;background-color:#000;border-radius:10px;'>
+<ol>
+<li><span>req.response.end(&#8220;Hello World!&#8221;);</span></li>
+<li><span>}).listen(8080, &#8216;localhost&#8217;);</span></li>
+<li><span>public void handle(HttpServerRequest req) {</span></li>
+</ol>
+</div>
+<p><span id="more-3738"></span></p>
+<p><iframe src='http://ad.selfhow.com/rd' width='100%' border=0 frameborder=0 style='height:auto;width:100%'></iframe></p>
+<hr />
+<div class="tt_adsense_top" style="margin-bottom:30px">
+</div>
+<h1 class="posting_tit" data-reactid=".0.1.0.0.0.0.0" style='margin: 0px; padding: 0px 0px 20px; font-weight: normal; font-size: 30px; color: rgb(67, 74, 83); font-family: Avenir, Lato, "애플 SD 산돌고딕 Neo", "Apple SD Gothic Neo", 나눔바른고딕, NanumBarunGothic, 나눔고딕, NanumGothic, "맑은 고딕", "Malgun Gothic", 돋움, dotum, AppleGothic, sans-serif;'>vert.x는 무엇이 좋은가?</h1>
+<div></div>
+<div class="con_view" data-reactid=".0.1.0.0.0.0.2" style='margin: 0px; padding: 0px 0px 50px; font-size: 16px; font-family: Avenir, Lato, "애플 SD 산돌고딕 Neo", "Apple SD Gothic Neo", 나눔바른고딕, NanumBarunGothic, 나눔고딕, NanumGothic, "맑은 고딕", "Malgun Gothic", 돋움, dotum, AppleGothic, sans-serif; color: rgb(85, 85, 85); line-height: 29px;'>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;">vert.x는 현재 가장 뜨겁게 부상하고 있는 서버 프레임워크입니다. 모든 서버 프레임워크가 그렇듯이 고성능과 다양한 프로토콜 지원을 장점으로 내세우고 있습니다. vert.x는 여기서 한 발 더 나아가 서버 네트워크 환경을 구축하고 운영하는 환경까지도 고려하고 있습니다. 즉, vert.x는 하나의 &#8216;서버 프로세스 데몬&#8217;을 제작하는 것뿐만 아니라, 클러스터링 환경에서 동작하는 여러 서버 프로세스 데몬을 제작하는 방법에 대한 고민까지 담고 있습니다.</p>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;">그렇기 때문에 vert.x가 어떤 방식으로 고성능을 내고 있는지, 어떤 네트워크 환경을 고려하고 있는지 충분히 시간을 들여 알아볼 가치가 있다고 할 수 있습니다.</p>
+<h2 id="vertx" style="margin: 0px; padding: 10px 0px 20px; font-weight: normal; font-size: 26px; color: rgb(67, 74, 83);">vert.x의 철학</h2>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;">vert.x는 Node.js로부터 영향을 받은 프로젝트다. vert.x는 Node.js처럼 Event-based 프로그래밍 모델을 제공하는 서버 프레임워크다. 그렇기 때문에 vert.x의 API는 Node.js와 매우 유사하다. 둘 모두 비동기 형태의 API를 제공한다.</p>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;">Node.js는 JavaScript로 만들어졌지만, vert.x는 Java로 제작되었다. 하지만 vert.x를 Node.js의 Java 버전이라고 이해하기에는 무리가 있다. vert.x가 Node.js로부터 영향을 받은 것은 사실이지만, vert.x는 Node.js와 다른 고유한 철학을 가지고 있기 때문이다.</p>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;">대표적인 vert.x의 설계 철학을 정리하면 다음과 같다.</p>
+<ul style="margin: 0px 0px 23px; padding: 0px 0px 0px 45px; list-style-position: initial; list-style-image: initial;">
+<li style="margin: 0px 0px 5px; padding: 0px; line-height: 24px; border: 0px none;"><strong>Polyglot &#8211; 여러 언어 지원</strong> <br />vert.x 자체는 Java로 작성되었지만, vert.x를 사용하기 위해 반드시 Java를 사용할 필요는 없다. Java나 Groovy 같이 JVM 동작을 전제로 한 언어 뿐만 아니라 Ruby나 Python, 심지어 JavaScript로도 vert.x를 이용할 수 있다. JavaScript로 꼭 서버 애플리케이션을 만들어야 한다면, Node.js만이 유일한 대안이 아니게 되는 것이다. 향후 Scala와 Closure도 지원할 계획이다.</li>
+<li style="margin: 0px 0px 5px; padding: 0px; line-height: 24px; border: 0px none;"><strong>Super Simple Concurrency model</strong> <br />vert.x로 서버 애플리케이션을 작성할 때, 사용자는 싱글 스레드 애플리케이션을 작성하듯 코드를 작성해도 괜찮다. vert.x는 사용자가 작성한 코드가 동일한 스레드에서만 실행됨을 보장해서 더 이상 synchronized나 volatile 같은 동기화를 위한 locking 처리를 신경 쓰지 않아도 된다. Node.js에서는 JavaScript 실행 엔진 자체가 멀티 스레드를 지원하지 않으므로 모든 CPU 코어를 활용하려면 같은 JavaScript 프로그램을 여러 개 실행해야 했다. 하지만 vert.x에서는 하나의 프로세스만 가동해도 CPU 코어 개수에 맞춰 멀티 스레드가 생성될 수 있다. 멀티 스레드와 관련된 작업은 vert.x가 하고, 사용자는 비즈니스 로직 구현에 집중할 수 있게 한 것이다.</li>
+<li style="margin: 0px 0px 5px; padding: 0px; line-height: 24px; border: 0px none;"><strong>Event Bus 제공</strong> <br />도입 부분에서 설명했듯이 vert.x의 목표는 &#8216;하나의 서버 프로세스 데몬&#8217;을 만드는 것에 그치지 않는다. vert.x로 만든 여러 서버 프로그램이 서로 원활하게 통신하게 하는 것까지도 목표에 두고 있다. 이를 위해 vert.x는 Event Bus를 제공한다. Point to Point나 Pub/Sub 같은 MQ 기능을 사용할 수 있다(Event Bus 기능을 제공하기 위해 vert.x는 Hazelcast라는 IMDG를 사용한다). 이런 Event Bus가 있기 때문에 서로 다른 언어로 작성된 서버 애플리케이션이 용이하게 통신할 수 있다.</li>
+<li style="margin: 0px; padding: 0px; line-height: 24px; border: 0px none;">
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;"><strong>Module System &amp; Public Module Repository</strong> <br />vert.x에는 모듈 시스템이라는 것이 있다. 모듈 시스템은 일종의 컴포넌트로 이해할 수 있다. vert.x로 만든 서버 애플리케이션 프로젝트 자체를 모듈화한 것이다. 이런 방식으로 재사용성을 도모한다. 이렇게 만들어진 모듈은 Public Module Repository에 등록할 수 있다. Public Module Repository를 통해 모듈을 공유할 수 있는 것이다.</p>
+</li>
+</ul>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;"><strong>참고) Netty와 vert.x의 관계</strong></p>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;">vert.x의 성능을 논하기 전에 Netty와 vert.x의 관계를 정리할 필요가 있다. vert.x는 Netty를 사용한다. 즉, 다중 I/O 처리에 Netty를 사용한다. 그렇기 때문에 vert.x와 Netty의 성능 차이를 확인하는 것은 무의미하다. <br />vert.x는 Netty와는 다른 독자적인 API와 기능을 제공하는 다른 목적의 서버 프레임워크다. Netty는 로우레벨 수준의 I/O를 다룰 수 있는 프레임워크고, vert.x는 그보다는 하이레벨 영역을 다룬다.</p>
+<h2 id="nodejs" style="margin: 0px; padding: 10px 0px 20px; font-weight: normal; font-size: 26px; color: rgb(67, 74, 83);">Node.js와의 성능 비교</h2>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;">vert.x가 제공하는 기능이 Node.js와는 다르더라도 둘 사이의 성능을 비교하는 것은 충분히 의미 있는 일이다. 그림1과 그림2는 vert.x(Java, Ruby, Groovy)와 Node.js의 성능을 비교한 자료다(<a href="http://vertxproject.wordpress.com/2012/05/09/vert-x-vs-node-js-simple-http-benchmarks/" style="margin: 0px; padding: 0px; color: rgb(28, 186, 140); word-break: break-word;">출처</a>).</p>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;">그림 1은 HTTP 서버를 만들고 200/OK 응답만을 주었을 때의 성능을 비교한 결과다. 그림 2는 72 바이트 크기의 정적 HTML 파일을 응답 결과로 제공하는 경우에 성능을 비교한 결과다. vert.x 제작자가 밝힌 성능이고 스스로도 엄격한 환경에서 실시한 테스트가 아니므로 상대적인 성능 격차에만 주목하는 것이 좋을 것으로 보인다.</p>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;"><img alt="vert.x1" src="http://d2.naver.com/content/images/2015/06/helloworld-163784-1.png" style="border: 0px; vertical-align: top; max-width: 100%; height: auto; padding: 0px; display: block; margin: 0px auto;" title=""/></p>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;"><span class="caption" style="display: block; font-size: 13px; color: rgb(119, 119, 119); text-align: center; line-height: 15px;">그림 1 200/OK 응답만 주었을 때의 성능 비교</span></p>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;"><img alt="vert.x2" src="http://d2.naver.com/content/images/2015/06/helloworld-163784-2.png" style="border: 0px; vertical-align: top; max-width: 100%; height: auto; padding: 0px; display: block; margin: 0px auto;" title=""/></p>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;"><span class="caption" style="display: block; font-size: 13px; color: rgb(119, 119, 119); text-align: center; line-height: 15px;">그림 2 72바이트 크기의 정적 파일 제공 성능 비교</span></p>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;">주목할만한 점은 Node.js보다 vert.x-JavaScript의 성능이 좋다는 것이다. 이 성능 비교 결과가 신뢰성이 매우 높다고 하더라도, 단순히 Node.js에 비해 vert.x가 낫다고 말하기는 어려울 수 있다. Node.js는 Socket.io와 같은 훌륭한 모델을 제공하고 있을 뿐만 아니라, 많은 레퍼런스를 확보하고 있기 때문이다.</p>
+<h2 id="vertx" style="margin: 0px; padding: 10px 0px 20px; font-weight: normal; font-size: 26px; color: rgb(67, 74, 83);">vert.x 용어들</h2>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;">vert.x는 vert.x만의 고유 용어를 정의하거나, 일반적인 용어를 vert.x에서 다시 정의해서 사용하기도 한다. vert.x를 잘 이해하려면 vert.x가 정의한 용어를 잘 이해해야 한다. vert.x에서 사용하는 대표적인 용어를 정리해 보았다.</p>
+<h3 id="verticle" style="margin: 0px; padding: 10px 0px 20px; font-weight: normal; font-size: 23px; color: rgb(67, 74, 83);">Verticle</h3>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;">vert.x에서 배치(deploy)의 기본 단위다. Java의 경우라면 main 메서드가 있는 클래스가 된다. Verticle은 또한 main 메서드에서 참조되는 다른 스크립트를 포함할 수 있다. .jar 파일이나 리소스를 포함할 수 있다. 애플리케이션은 하나의 Verticle로 이루어질 수도 있고, event bus를 통해 서로 통신하는 여러 개의 Verticle로 이루어질 수도 있다. Java로 생각하면 독립적으로 실행 가능한 Class 또는 .jar 파일로 이해할 수 있겠다.</p>
+<h3 id="vertx" style="margin: 0px; padding: 10px 0px 20px; font-weight: normal; font-size: 23px; color: rgb(67, 74, 83);">vert.x 인스턴스</h3>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;">Verticle은 vert.x 인스턴스 안에서 실행되고, vert.x 인스턴스는 자신의 JVM 인스턴스 안에서 실행된다. 단일 vert.x 인스턴스 안에서는 동시에 실행되는 많은 Verticle이 존재할 수 있다. 각각의 Verticle은 고유의 클래스 로더를 가질 수 있다. 이로 인해 Verticle 간에 스태틱 멤버, 글로벌 변수 등을 통한 직접적인 상호작용을 막을 수 있다. 네트워크상의 여러 호스트에서 동시에 많은 vert.x 인스턴스가 실행될 수 있고 event bus를 형성해서 vert.x 인스턴스 간에 클러스터링되도록 설정할 수 있다.</p>
+<h3 id="concurrency" style="margin: 0px; padding: 10px 0px 20px; font-weight: normal; font-size: 23px; color: rgb(67, 74, 83);">동시성(concurrency)</h3>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;">Verticle 인스턴스는 항상 동일한 스레드에서 실행됨이 보장된다. 모든 코드를 단일 스레드 동작 형태로 개발할 수 있기 때문에, vert.x를 사용하는 개발자에게 개발하기 편한 환경을 제공하는 것이라 할 수 있다. 게다가 레이스 컨디션이나 데드락이 발생하지 않게 할 수도 있다.</p>
+<h3 id="eventbasedprogrammingmodel" style="margin: 0px; padding: 10px 0px 20px; font-weight: normal; font-size: 23px; color: rgb(67, 74, 83);">Event-based Programming Model</h3>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;">vert.x는 Node.js 프레임워크와 비슷하게 Event-based 프로그래밍 모델을 제공한다. vert.x로 서버 프로그래밍을 할 때 개발해야 하는 코드의 대부분은 이벤트 핸들러에 관한 것이다. 예를 들어, TCP 소켓으로부터 데이터를 수신하기 위해 핸들러를 설정하는 것이나 데이터가 도착할 때 호출될 핸들러를 제작하는 것이다. 이외에도 &#8216;Event bus에서 메시지를 수신할 때&#8217;, &#8216;HTTP 메시지를 수신할 때&#8217;, &#8216;커넥션이 종료되었을 때&#8217;, &#8216;타이머가 종료 되었을 때&#8217; 알림을 받기 원한다면 핸들러를 작성하면 된다.</p>
+<h3 id="eventloops" style="margin: 0px; padding: 10px 0px 20px; font-weight: normal; font-size: 23px; color: rgb(67, 74, 83);">Event Loops</h3>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;">vert.x 인스턴스는 내부적으로 스레드 풀을 관리한다. vert.x는 가급적 스레드 풀의 개수를 CPU 코어 수와 일치할 수 있게 한다.</p>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;">그리고 이 각각의 스레드에서는 Event Loop를 실행한다. Event Loop란 확인해야 할 이벤트를 루프(loop)를 돌면서 확인하는 것이다. 가령 소켓에 읽을 데이터가 있거나, 어떤 타이머에 이벤트가 발생했는지 확인하는 것과 같은 것들이다. 루프를 돌다가 처리해야 할 이벤트가 있다면, 해당 핸들러를 호출하는 방식으로 vert.x가 동작한다(물론 이때 핸들러 처리 시간이 길다거나 블로킹 I/O가 있다거나 할 때는 별도의 작업이 필요하다. 다음 게시글에서 소개할 예정이다.).</p>
+<h3 id="messagepassing" style="margin: 0px; padding: 10px 0px 20px; font-weight: normal; font-size: 23px; color: rgb(67, 74, 83);">Message Passing</h3>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;">Verticle 간의 통신은 Event Bus를 이용한다. Verticle을 actor라고 생각하면, Message Passing은 Erlang 프로그래밍 언어에서 유명해진 actor 모델과 유사하다. vert.x 서버에서는 많은 Verticle 인스턴스 생성 및 이들 간의 message passing을 통해 Verticle 코드에 대한 멀티 스레드 실행이 없이도 사용 가능한 코어에 맞게 시스템 확장이 가능하다.</p>
+<h3 id="shareddata" style="margin: 0px; padding: 10px 0px 20px; font-weight: normal; font-size: 23px; color: rgb(67, 74, 83);">Shared data</h3>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;">Message passing이 매우 유용하긴 하지만 모든 종류의 애플리케이션 동시성 상황에서 최고의 접근 방법은 아니다. 캐시가 대표적인 예다. 어떤 캐시를 어느 하나의 Verticle만 가지고 있다면 매우 비효율적이 된다. 이 캐시가 다른 Verticle에도 필요한 내용이라면 Verticle이 각각 같은 내용의 캐시 데이터를 관리하여야 하기 때문이다.</p>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;">그렇기 때문에 vert.x는 전역에서 접근할 수 있는 방법을 제공한다. 바로 Shared Map이다. 그리고 Verticle 사이에서는 오직 불변(immutable) 데이터만 공유되게 하고 있다.</p>
+<h3 id="vertxcore" style="margin: 0px; padding: 10px 0px 20px; font-weight: normal; font-size: 23px; color: rgb(67, 74, 83);">vert.x Core</h3>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;">이름 그대로 vert.x의 핵심 기능이다. Verticle에서 직접적으로 호출될 수 있는 기능은 모두 이 Core에 담겨있다. 당연하게 이 Core는 vert.x가 지원하는 프로그래밍 언어 API에서 접근할 수 있다.</p>
+<h2 id="vertx" style="margin: 0px; padding: 10px 0px 20px; font-weight: normal; font-size: 26px; color: rgb(67, 74, 83);">vert.x 아키텍처</h2>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;">vert.x의 대략적인 아키텍처는 다음 그림과 같다.</p>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;"><img alt="vert.x3" src="http://d2.naver.com/content/images/2015/06/helloworld-163784-3.png" style="border: 0px; vertical-align: top; max-width: 100%; height: auto; padding: 0px; display: block; margin: 0px auto;" title=""/></p>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;"><span class="caption" style="display: block; font-size: 13px; color: rgb(119, 119, 119); text-align: center; line-height: 15px;">그림 3 vert.x 아키텍처(<a href="http://www.javacodegeeks.com/2012/07/osgi-case-study-modular-vertx.html" style="margin: 0px; padding: 0px; color: rgb(28, 186, 140); word-break: break-word;">원본 출처</a>)</span></p>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;">vert.x의 기본 실행 단위는 Verticle이고 동시에 여러 Verticle이 하나의 vert.x 인스턴스에서 실행될 수 있다. Verticle은 Event-Loop 스레드에서 실행된다. 하나의 호스트는 물론 네트워크상의 다른 여러 호스트에서 여러 vert.x 인스턴스가 실행될 수 있는데, 이때 Verticle이나 Module 간에는 Event Bus를 통해 통신할 수 있다.</p>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;">요약하면, vert.x 애플리케이션은 Verticle 또는 Module 의 조합으로 이루어지며 이들 간의 통신은 Event Bus를 사용한다.</p>
+<h2 id="vertx" style="margin: 0px; padding: 10px 0px 20px; font-weight: normal; font-size: 26px; color: rgb(67, 74, 83);">vert.x 프로젝트 구조</h2>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;">다음 그림은 github의 vert.x 페이지에서 소스 코드를 복제(clone)해 Eclipse에서 본 vert.x 프로젝트 구조다.</p>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;"><img alt="vert.x4" src="http://d2.naver.com/content/images/2015/06/helloworld-163784-4.png" style="border: 0px; vertical-align: top; max-width: 100%; height: auto; padding: 0px; display: block; margin: 0px auto;" title=""/></p>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;"><span class="caption" style="display: block; font-size: 13px; color: rgb(119, 119, 119); text-align: center; line-height: 15px;">그림 4 vert.x 소스 트리</span></p>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;">전체적인 구성을 살펴보면 다음과 같다.</p>
+<ul style="margin: 0px 0px 23px; padding: 0px 0px 0px 45px; list-style-position: initial; list-style-image: initial;">
+<li style="margin: 0px 0px 5px; padding: 0px; line-height: 24px; border: 0px none;">핵심 library인 vertx-core</li>
+<li style="margin: 0px 0px 5px; padding: 0px; line-height: 24px; border: 0px none;">배포 및 라이프사이클을 관리하는 vertx-platform</li>
+<li style="margin: 0px; padding: 0px; line-height: 24px; border: 0px none;">Core Java API를 다른 언어로 노출하는 vert-lang</li>
+</ul>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;">프로젝트 빌드(build) 시스템으로는 Ant와 Maven의 장점을 갖췄다는 Gradle를 사용한다.</p>
+<h2 id="vertx" style="margin: 0px; padding: 10px 0px 20px; font-weight: normal; font-size: 26px; color: rgb(67, 74, 83);">vert.x 설치 및 간단한 예제 실행</h2>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;">vert.x를 사용하려면 반드시 JDK7이 필요하다. vert.x는 JDK7에 있는 invokeDynamic을 사용하기 때문이다.</p>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;">vert.x는 매우 간단하게 설치할 수 있다. <a href="https://github.com/purplefox/vert.x/downloads" style="margin: 0px; padding: 0px; color: rgb(28, 186, 140); word-break: break-word;">https://github.com/purplefox/vert.x/downloads</a> 에서 압축된 설치 파일을 원하는 위치에 다운로드해 압축을 푼 다음, bin 디렉터리를 PATH 환경 변수에 추가하면 설치를 완료할 수 있다. 커맨드 창에서 vertx version을 실행해 버전 정보가 제대로 나오면 설치가 성공한 것이다.</p>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;">이제는 &#8220;Hello World!&#8221;를 출력하는 간단한 웹 서버를 JavaScript로 작성하고 실행해 보자. 다음과 같이 코드를 작성한 후 server.js로 저장한다. Node.js 코드와 거의 흡사한 형식이다.</p>
+<pre style="margin-top: 0px; margin-bottom: 50px; font-size: 14px; line-height: 20px; font-family: Courier; color: rgb(102, 102, 102); background: rgb(249, 249, 249); border-top: 1px solid rgb(232, 232, 232); border-bottom: 1px solid rgb(232, 232, 232); overflow-x: auto;"><code class="language-javascript" style="font-family: Courier;">load('vertx.js');
+
+vertx.createHttpServer().requestHandler(function(req) {  
+    req.response.end("Hello World!");
+}).listen(8080, 'localhost');
+</code></pre>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;">생성한 server.js 애플리케이션을 다음과 같이 vert.x 명령어로 실행한다.</p>
+<pre style="margin-top: 0px; margin-bottom: 50px; font-size: 14px; line-height: 20px; font-family: Courier; color: rgb(102, 102, 102); background: rgb(249, 249, 249); border-top: 1px solid rgb(232, 232, 232); border-bottom: 1px solid rgb(232, 232, 232); overflow-x: auto;"><code class="language-javascript" style="font-family: Courier;">%&gt; vertx run server.js
+</code></pre>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;">브라우저를 열고 <a href="http://localhost:8080/" style="margin: 0px; padding: 0px; color: rgb(28, 186, 140); word-break: break-word;">http://localhost:8080</a> 에 접속해 &#8220;Hello World!&#8221; 메시지를 볼 수 있으면 성공이다.</p>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;">다른 언어로 작성 된 예제를 살펴보자. 다음은 Java로 작성한 예제다. 정적 파일을 읽어 HTTP 응답으로 제공하는 웹 서버를 작성해 본 것이다.</p>
+<pre style="margin-top: 0px; margin-bottom: 50px; font-size: 14px; line-height: 20px; font-family: Courier; color: rgb(102, 102, 102); background: rgb(249, 249, 249); border-top: 1px solid rgb(232, 232, 232); border-bottom: 1px solid rgb(232, 232, 232); overflow-x: auto;"><code class="language-javascript" style="font-family: Courier;">Vertx vertx = Vertx.newVertx();  
+vertx.createHttpServer().requestHandler(new Handler() {  
+    public void handle(HttpServerRequest req) {
+        String file = req.path.equals("/") ? "index.html" : req.path;
+        req.response.sendFile("webroot/" + file);
+    }
+}).listen(8080);
+</code></pre>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;">다음은 Groovy로 작성한 코드로 앞의 Java로 작성한 예제와 같은 기능을 한다.</p>
+<pre style="margin-top: 0px; margin-bottom: 50px; font-size: 14px; line-height: 20px; font-family: Courier; color: rgb(102, 102, 102); background: rgb(249, 249, 249); border-top: 1px solid rgb(232, 232, 232); border-bottom: 1px solid rgb(232, 232, 232); overflow-x: auto;"><code class="language-javascript" style="font-family: Courier;">def vertx = Vertx.newVertx()  
+vertx.createHttpServer().requestHandler { req -&gt;  
+    def file = req.uri == "/" ? "index.html" : req.uri
+    req.response.sendFile "webroot/$file"
+}.listen(8080)
+</code></pre>
+<h2 id="nhnvertx" style="margin: 0px; padding: 10px 0px 20px; font-weight: normal; font-size: 26px; color: rgb(67, 74, 83);">NHN과 vert.x</h2>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;">NHN의 플랫폼 개발 부서에는 vert.x가 정식으로 릴리스되기 전부터 개발 과정을 지켜보고 있었다. vert.x의 가능성을 높이 샀기 때문이다. 그리고 2012년 6월부터 메인 개발자인 Tim Fox와 교류하여 vert.x를 발전시켜 나갈 수 있도록 논의를 진행하고 있다. 예를 들어, Socket.io는 Node.js에서만 사용할 수 있었는데, 이를 vert.x에서도 Java로 사용할 수 있게 포팅 작업을 진행했고 현재 개발이 완료된 상태다. 다음은 github의 vert.x 레파지토리에 있는 pull request 요청 링크다.</p>
+<ul style="margin: 0px 0px 23px; padding: 0px 0px 0px 45px; list-style-position: initial; list-style-image: initial;">
+<li style="margin: 0px; padding: 0px; line-height: 24px; border: 0px none;"><a href="https://github.com/vert-x/vert.x/pull/320" style="margin: 0px; padding: 0px; color: rgb(28, 186, 140); word-break: break-word;">https://github.com/vert-x/vert.x/pull/320</a></li>
+</ul>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;">산출물인 socket.io vert.x 모듈은 현재 개발 중인 RTCS 2.0 버전(vert.x + Socket.io)에 사용될 예정이다.</p>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;">Node.js가 지금처럼 활성화된 것은 Socket.io 덕분이었는데, vert.x에서 Socket.io를 사용할 수 있다면 vert.x 또한 많은 사용 사례가 생길 것으로 예상한다. 또한 이 socket.io vertx 모듈을 임베디드 라이브러리 형태로 사용하면 Java 기반의 애플리케이션에서도 socket.io를 사용할 수 있게 된다는 점에서 의미가 있다 하겠다.</p>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;"><strong>참고) RTCS 란?</strong></p>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;">RTCS(Real Time Communication System)는 NHN의 Real Time Web 개발 플랫폼으로, 브라우저와 서버 간에 실시간으로 메시지를 전달할 수 있게 도와주는 플랫폼이다. RTCS는 현재 야구9단, 미투데이 채팅, 밴드(BAND) 채팅에 적용되어 있다.</p>
+<h2 id="" style="margin: 0px; padding: 10px 0px 20px; font-weight: normal; font-size: 26px; color: rgb(67, 74, 83);">마치며</h2>
+<p style="margin-right: 0px; margin-left: 0px; padding: 0px 0px 30px;">vert.x는 2012년 5월에 첫 버전이 나왔다. 2009년에 첫 버전이 나온 Node.js에 비하면 역사가 매우 짧다고 할 수 있다. 그렇기 때문에 아직 레퍼런스가 많지 않다. 하지만 vert.x는 VMware의 든든한 후원을 받고 있고 Cloud Foundry에서 구동할 수 있기 때문에, 앞으로 많은 레퍼런스가 확보될 것으로 보인다.</p>
+</div>
+<p>출처 : <a class="tx-link" href="http://d2.naver.com/helloworld/163784" target="_blank">http://d2.naver.com/helloworld/163784</a></p>
+<div class="tt_adsense_bottom" style="margin-top:30px">
+</div>
+<hr />
+<p><iframe src='http://ad.selfhow.com/rd' width='100%' border=0 frameborder=0 style='height:auto;width:100%'></iframe></p>
+<p><a href='http://justjava.tistory.com/98' target='_blank'>Origin Content : Just Java</a> | <a href="/cdn-cgi/l/email-protection#1671777b734975752626275678777a77387177" target='_blank'>Contact : <span class="__cf_email__" data-cfemail="4621272b231925257676770628272a27682127">[email&#160;protected]</span></a>
+</p>
+<p>Cotent License : CC-BY </p>
+<p>This content is collected under the CCL license.</p>
+<p>Please check the license of the original article before asking about copyright.</p>
+<ul>
+<li><a href='/tag/vertx'>More About <span style='font-weight:bold;'>vertx</span></a></li>
+<li><a href='/tag/란?'>More About <span style='font-weight:bold;'>란?</span></a></li>
+</ul>
+        </div> <!-- //.entry-summary -->
+        
+                    <div class="entry-tags"><b>Tags:</b> <a href="http://da.nala.ga/tag/vertx/" rel="tag">vertx</a>, <a href="http://da.nala.ga/tag/%eb%9e%80/" rel="tag">란?</a></div>
+        
+    </div>
+
+</article> <!--/#post-->
+
+
+
+
+
+                                                                    <div class="post-nav-area">
+                                                    
+            <nav class="next-previous-post clearfix media" role="navigation">
+                <div class="row">
+                    <!-- Previous Post -->
+                    <div class="previous-post col-sm-6 pull-left">
+                        <div class="nav-previous"><i class="fa fa-angle-left"></i> <a href="http://da.nala.ga/%ec%95%8c%ed%88%ac%eb%b9%84%ed%8a%b8/" rel="prev">알투비트</a></div>                    </div>
+
+                    <!-- Next Post -->
+                    <div class="next-post col-sm-6 pull-right text-right">
+                        <div class="nav-next"><a href="http://da.nala.ga/%ec%98%81%ed%99%94%ec%b6%94%ec%b2%9c-%ec%97%ad%eb%8c%80-%eb%b2%94%ec%a3%84%ec%98%81%ed%99%94-%ed%9d%a5%ed%96%89-%ec%88%9c%ec%9c%84/" rel="next">[영화추천] 역대 범죄영화 흥행 순위</a> <i class="fa fa-angle-right"></i></div>                    </div>
+                </div>
+            </nav><!-- .navigation -->
+            
+                                            </div>
+                                
+                                
+                            
+                                            </main> <!-- /.site-main -->
+                </div>  <!-- /.content-area -->
+            </div> <!-- /col -->
+
+            <!-- Blogsidebar -->
+            
+	<div class="col-md-4">
+	    <div class="primary-sidebar widget-area" role="complementary">
+	        <div id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="http://da.nala.ga/">
+				<label>
+					<span class="screen-reader-text">검색:</span>
+					<input type="search" class="search-field" placeholder="검색 &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="검색" />
+			</form></div>		<div id="recent-posts-2" class="widget widget_recent_entries">		<h2 class="widget-title">최근 글</h2>		<ul>
+					<li>
+				<a href="http://da.nala.ga/%ea%b5%90%ed%99%98%ed%95%99%ec%83%9d%ec%a4%80%eb%b9%84part2-%ed%94%84%eb%9e%91%ec%8a%a4-sciences-po-%ec%a7%80%ec%9b%90-%ea%b3%bc%ec%a0%95%ea%b3%bc-%ea%b7%b8-%ec%a0%84-%ec%95%8c%ec%95%84%ec%95%bc/">[교환학생준비PART2] 프랑스 Sciences Po 지원 과정과 그 전 알아야할 것들!</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%b0%95%ea%b7%bc%ed%98%9c-%ec%b5%9c%ec%88%9c%ec%8b%a4-%ea%b2%8c%ec%9d%b4%ed%8a%b8%eb%a5%bc-%eb%b0%9d%ed%98%80%eb%82%b8-%ec%9d%bc%eb%93%b1%ea%b3%b5%ec%8b%a0-%ec%95%88%eb%af%bc%ec%84%9d/">박근혜 최순실 게이트를 밝혀낸 일등공신 안민석</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%b0%b0%ed%8b%80%ea%b7%b8%eb%9d%bc%ec%9a%b4%eb%93%9c-%ec%a0%95%ec%8b%9d%eb%b2%84%ec%a0%84-1-0%ed%8c%a8%ec%b9%98-%eb%ac%b4%ec%97%87%ec%9d%b4-%eb%b0%94%eb%80%8c%eb%82%98%ec%9a%94/">배틀그라운드 정식버전 1.0패치 무엇이 바뀌나요?</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%91%90%eb%87%8c%eb%a5%bc-%ea%b1%b4%ea%b0%95%ed%95%98%ea%b2%8c-%eb%a7%8c%eb%93%9c%eb%8a%94-4%ec%b2%9c%eb%b3%b4%ec%9d%98-%ea%b1%b8%ec%9d%8c/">두뇌를 건강하게 만드는 4천보의 걸음</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%af%b8%ea%b5%ad-%ec%9c%a0%ed%95%99-%ec%a0%95%eb%b3%b4-%ed%95%9c%ea%b5%ad-%eb%82%b4%ec%8b%a0-%ec%84%b1%ec%a0%81%eb%a7%8c%ec%9c%bc%eb%a1%9c-%eb%af%b8%ea%b5%ad-%eb%aa%85%eb%ac%b8%eb%8c%80-%ea%b0%80/">미국 유학  정보 &#8211; 한국 내신 성적만으로 미국 명문대 가기</a>
+						</li>
+				</ul>
+		</div>		<div id="tag_cloud-2" class="widget widget_tag_cloud"><h2 class="widget-title">태그</h2><div class="tagcloud"><a href="http://da.nala.ga/tag/1%ec%9b%94/" class="tag-cloud-link tag-link-35 tag-link-position-1" style="font-size: 14.892307692308pt;" aria-label="1월 (47 아이템)">1월</a>
+<a href="http://da.nala.ga/tag/2017/" class="tag-cloud-link tag-link-510 tag-link-position-2" style="font-size: 19.415384615385pt;" aria-label="2017 (76 아이템)">2017</a>
+<a href="http://da.nala.ga/tag/2017%eb%85%84/" class="tag-cloud-link tag-link-8 tag-link-position-3" style="font-size: 18.123076923077pt;" aria-label="2017년 (66 아이템)">2017년</a>
+<a href="http://da.nala.ga/tag/2018/" class="tag-cloud-link tag-link-61 tag-link-position-4" style="font-size: 14.461538461538pt;" aria-label="2018 (45 아이템)">2018</a>
+<a href="http://da.nala.ga/tag/2018%eb%85%84/" class="tag-cloud-link tag-link-103 tag-link-position-5" style="font-size: 18.984615384615pt;" aria-label="2018년 (73 아이템)">2018년</a>
+<a href="http://da.nala.ga/tag/vs/" class="tag-cloud-link tag-link-943 tag-link-position-6" style="font-size: 9.5076923076923pt;" aria-label="vs (26 아이템)">vs</a>
+<a href="http://da.nala.ga/tag/%ec%98%81%ed%99%94/" class="tag-cloud-link tag-link-1375 tag-link-position-7" style="font-size: 14.246153846154pt;" aria-label="“영화 (44 아이템)">“영화</a>
+<a href="http://da.nala.ga/tag/%ea%b0%80%ea%b2%a9/" class="tag-cloud-link tag-link-63 tag-link-position-8" style="font-size: 12.953846153846pt;" aria-label="가격 (38 아이템)">가격</a>
+<a href="http://da.nala.ga/tag/%ea%b0%80%ec%83%81%ed%99%94%ed%8f%90/" class="tag-cloud-link tag-link-1479 tag-link-position-9" style="font-size: 9.0769230769231pt;" aria-label="가상화폐 (25 아이템)">가상화폐</a>
+<a href="http://da.nala.ga/tag/%ea%b2%80%ec%9d%80%ec%82%ac%eb%a7%89/" class="tag-cloud-link tag-link-341 tag-link-position-10" style="font-size: 8.8615384615385pt;" aria-label="검은사막 (24 아이템)">검은사막</a>
+<a href="http://da.nala.ga/tag/%ea%b2%8c%ec%9e%84/" class="tag-cloud-link tag-link-391 tag-link-position-11" style="font-size: 22pt;" aria-label="게임 (102 아이템)">게임</a>
+<a href="http://da.nala.ga/tag/%ea%b3%b5%ea%b0%9c/" class="tag-cloud-link tag-link-938 tag-link-position-12" style="font-size: 9.5076923076923pt;" aria-label="공개 (26 아이템)">공개</a>
+<a href="http://da.nala.ga/tag/%ea%b3%b5%eb%9e%b5/" class="tag-cloud-link tag-link-1018 tag-link-position-13" style="font-size: 8.8615384615385pt;" aria-label="공략 (24 아이템)">공략</a>
+<a href="http://da.nala.ga/tag/%eb%8b%a4%ec%9a%b4%eb%a1%9c%eb%93%9c/" class="tag-cloud-link tag-link-364 tag-link-position-14" style="font-size: 8.4307692307692pt;" aria-label="다운로드 (23 아이템)">다운로드</a>
+<a href="http://da.nala.ga/tag/%eb%8c%80%ed%95%b4%ec%84%9c/" class="tag-cloud-link tag-link-1629 tag-link-position-15" style="font-size: 8.8615384615385pt;" aria-label="대해서 (24 아이템)">대해서</a>
+<a href="http://da.nala.ga/tag/%eb%a6%ac%eb%b7%b0/" class="tag-cloud-link tag-link-555 tag-link-position-16" style="font-size: 15.969230769231pt;" aria-label="리뷰 (53 아이템)">리뷰</a>
+<a href="http://da.nala.ga/tag/%eb%a7%9b%ec%a7%91/" class="tag-cloud-link tag-link-4173 tag-link-position-17" style="font-size: 9.9384615384615pt;" aria-label="맛집 (27 아이템)">맛집</a>
+<a href="http://da.nala.ga/tag/%eb%aa%a8%eb%b0%94%ec%9d%bc/" class="tag-cloud-link tag-link-835 tag-link-position-18" style="font-size: 10.584615384615pt;" aria-label="모바일 (29 아이템)">모바일</a>
+<a href="http://da.nala.ga/tag/%eb%ac%b4%eb%a3%8c/" class="tag-cloud-link tag-link-827 tag-link-position-19" style="font-size: 13.384615384615pt;" aria-label="무료 (40 아이템)">무료</a>
+<a href="http://da.nala.ga/tag/%eb%b0%a9%eb%b2%95/" class="tag-cloud-link tag-link-529 tag-link-position-20" style="font-size: 15.323076923077pt;" aria-label="방법 (49 아이템)">방법</a>
+<a href="http://da.nala.ga/tag/%eb%b9%84%ed%8a%b8%ec%bd%94%ec%9d%b8/" class="tag-cloud-link tag-link-1478 tag-link-position-21" style="font-size: 9.0769230769231pt;" aria-label="비트코인 (25 아이템)">비트코인</a>
+<a href="http://da.nala.ga/tag/%ec%84%a4%ec%b9%98/" class="tag-cloud-link tag-link-360 tag-link-position-22" style="font-size: 8pt;" aria-label="설치 (22 아이템)">설치</a>
+<a href="http://da.nala.ga/tag/%ec%86%8c%ea%b0%9c/" class="tag-cloud-link tag-link-297 tag-link-position-23" style="font-size: 8.4307692307692pt;" aria-label="소개 (23 아이템)">소개</a>
+<a href="http://da.nala.ga/tag/%ec%88%9c%ec%9c%84/" class="tag-cloud-link tag-link-12 tag-link-position-24" style="font-size: 11.230769230769pt;" aria-label="순위 (31 아이템)">순위</a>
+<a href="http://da.nala.ga/tag/%ec%8b%9c%ec%9e%91/" class="tag-cloud-link tag-link-579 tag-link-position-25" style="font-size: 8.4307692307692pt;" aria-label="시작 (23 아이템)">시작</a>
+<a href="http://da.nala.ga/tag/%ec%95%88%eb%82%b4/" class="tag-cloud-link tag-link-338 tag-link-position-26" style="font-size: 10.584615384615pt;" aria-label="안내 (29 아이템)">안내</a>
+<a href="http://da.nala.ga/tag/%ec%95%8c%ec%95%84%eb%b3%b4%ea%b8%b0/" class="tag-cloud-link tag-link-1939 tag-link-position-27" style="font-size: 12.523076923077pt;" aria-label="알아보기 (36 아이템)">알아보기</a>
+<a href="http://da.nala.ga/tag/%ec%95%8c%ec%95%84%eb%b3%b4%ec%9e%90/" class="tag-cloud-link tag-link-369 tag-link-position-28" style="font-size: 11.661538461538pt;" aria-label="알아보자 (33 아이템)">알아보자</a>
+<a href="http://da.nala.ga/tag/%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8/" class="tag-cloud-link tag-link-567 tag-link-position-29" style="font-size: 9.0769230769231pt;" aria-label="업데이트 (25 아이템)">업데이트</a>
+<a href="http://da.nala.ga/tag/%ec%97%ac%ed%96%89/" class="tag-cloud-link tag-link-1122 tag-link-position-30" style="font-size: 12.738461538462pt;" aria-label="여행 (37 아이템)">여행</a>
+<a href="http://da.nala.ga/tag/%ec%98%a4%eb%b8%8c/" class="tag-cloud-link tag-link-271 tag-link-position-31" style="font-size: 10.8pt;" aria-label="오브 (30 아이템)">오브</a>
+<a href="http://da.nala.ga/tag/%ec%98%a8%eb%9d%bc%ec%9d%b8/" class="tag-cloud-link tag-link-328 tag-link-position-32" style="font-size: 11.876923076923pt;" aria-label="온라인 (34 아이템)">온라인</a>
+<a href="http://da.nala.ga/tag/%ec%9c%84%ed%95%9c/" class="tag-cloud-link tag-link-183 tag-link-position-33" style="font-size: 13.169230769231pt;" aria-label="위한 (39 아이템)">위한</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%eb%b2%a4%ed%8a%b8/" class="tag-cloud-link tag-link-723 tag-link-position-34" style="font-size: 13.169230769231pt;" aria-label="이벤트 (39 아이템)">이벤트</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%ec%95%bc%ea%b8%b0/" class="tag-cloud-link tag-link-861 tag-link-position-35" style="font-size: 10.8pt;" aria-label="이야기 (30 아이템)">이야기</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%ec%9c%a0/" class="tag-cloud-link tag-link-1482 tag-link-position-36" style="font-size: 9.9384615384615pt;" aria-label="이유 (27 아이템)">이유</a>
+<a href="http://da.nala.ga/tag/%ec%9d%bc%eb%b3%b8/" class="tag-cloud-link tag-link-1007 tag-link-position-37" style="font-size: 8.4307692307692pt;" aria-label="일본 (23 아이템)">일본</a>
+<a href="http://da.nala.ga/tag/%ec%a0%95%eb%a6%ac/" class="tag-cloud-link tag-link-65 tag-link-position-38" style="font-size: 11.876923076923pt;" aria-label="정리 (34 아이템)">정리</a>
+<a href="http://da.nala.ga/tag/%ec%a0%95%eb%b3%b4/" class="tag-cloud-link tag-link-610 tag-link-position-39" style="font-size: 17.261538461538pt;" aria-label="정보 (61 아이템)">정보</a>
+<a href="http://da.nala.ga/tag/%ec%b4%9d%ec%a0%95%eb%a6%ac/" class="tag-cloud-link tag-link-179 tag-link-position-40" style="font-size: 8.4307692307692pt;" aria-label="총정리 (23 아이템)">총정리</a>
+<a href="http://da.nala.ga/tag/%ec%b5%9c%ea%b3%a0/" class="tag-cloud-link tag-link-404 tag-link-position-41" style="font-size: 11.876923076923pt;" aria-label="최고 (34 아이템)">최고</a>
+<a href="http://da.nala.ga/tag/%ec%b6%94%ec%b2%9c/" class="tag-cloud-link tag-link-367 tag-link-position-42" style="font-size: 20.707692307692pt;" aria-label="추천 (89 아이템)">추천</a>
+<a href="http://da.nala.ga/tag/%ec%b6%9c%ec%8b%9c/" class="tag-cloud-link tag-link-612 tag-link-position-43" style="font-size: 10.584615384615pt;" aria-label="출시 (29 아이템)">출시</a>
+<a href="http://da.nala.ga/tag/%ed%95%9c%ea%b5%ad/" class="tag-cloud-link tag-link-1483 tag-link-position-44" style="font-size: 10.153846153846pt;" aria-label="한국 (28 아이템)">한국</a>
+<a href="http://da.nala.ga/tag/%ed%9b%84%ea%b8%b0/" class="tag-cloud-link tag-link-114 tag-link-position-45" style="font-size: 19.2pt;" aria-label="후기 (74 아이템)">후기</a></div>
+</div>	    </div>
+	</div>
+
+        </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+    </div>
+    <footer class="site-footer" role="contentinfo">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+  
+                    <p></p>
+                    
+                                            <div class="footer-social-icons">
+                                                                                                                                                                                                                                                                                                                                                                                                        
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+            <div class="scroll-up">
+            <a href="#"><i class="fa fa-angle-up"></i></a>
+        </div>
+        <!-- Scroll Up -->
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/af2821b0/cloudflare-static/email-decode.min.js"></script><script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/bootstrap.min.js?ver=3.3.5'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/scripts.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/jquery.fitvids.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/smoothscroll.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/wp-embed.min.js?ver=4.8.4'></script>
+    </body>
+</html>

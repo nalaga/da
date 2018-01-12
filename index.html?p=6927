@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="http://da.nala.ga/xmlrpc.php">
+
+<title>[데이터분석전문가가이드(ADP,ADSP)] 1.1 데이터와 정보 | All About CC</title>
+<meta name='robots' content='noindex,follow' />
+
+<!-- All in One SEO Pack 2.4.3.1 by Michael Torbert of Semper Fi Web Design[276,339] -->
+<link rel="canonical" href="http://da.nala.ga/%eb%8d%b0%ec%9d%b4%ed%84%b0%eb%b6%84%ec%84%9d%ec%a0%84%eb%ac%b8%ea%b0%80%ea%b0%80%ec%9d%b4%eb%93%9cadpadsp-1-1-%eb%8d%b0%ec%9d%b4%ed%84%b0%ec%99%80-%ec%a0%95%eb%b3%b4/" />
+<!-- /all in one seo pack -->
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 피드" href="http://da.nala.ga/feed/" />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 댓글 피드" href="http://da.nala.ga/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; [데이터분석전문가가이드(ADP,ADSP)] 1.1 데이터와 정보 댓글 피드" href="http://da.nala.ga/%eb%8d%b0%ec%9d%b4%ed%84%b0%eb%b6%84%ec%84%9d%ec%a0%84%eb%ac%b8%ea%b0%80%ea%b0%80%ec%9d%b4%eb%93%9cadpadsp-1-1-%eb%8d%b0%ec%9d%b4%ed%84%b0%ec%99%80-%ec%a0%95%eb%b3%b4/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/da.nala.ga\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.4"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bootstrap-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/bootstrap.min.css?ver=3.3.5' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/font-awesome.min.css?ver=4.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='shaped-blog-stylesheet-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/style.css?ver=4.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/responsive.css' type='text/css' media='all' />
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://da.nala.ga/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://da.nala.ga/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://da.nala.ga/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='하이디라오 海底捞, 13억 대륙 홀린 샤브샤브 경영철학' href='http://da.nala.ga/%ed%95%98%ec%9d%b4%eb%94%94%eb%9d%bc%ec%98%a4-%e6%b5%b7%e5%ba%95%e6%8d%9e-13%ec%96%b5-%eb%8c%80%eb%a5%99-%ed%99%80%eb%a6%b0-%ec%83%a4%eb%b8%8c%ec%83%a4%eb%b8%8c-%ea%b2%bd%ec%98%81%ec%b2%a0%ed%95%99/' />
+<link rel='next' title='단적으로 SNS의 위력을' href='http://da.nala.ga/%eb%8b%a8%ec%a0%81%ec%9c%bc%eb%a1%9c-sns%ec%9d%98-%ec%9c%84%eb%a0%a5%ec%9d%84/' />
+<meta name="generator" content="WordPress 4.8.4" />
+<link rel='shortlink' href='http://da.nala.ga/?p=6927' />
+<link rel="alternate" type="application/json+oembed" href="http://da.nala.ga/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fda.nala.ga%2F%25eb%258d%25b0%25ec%259d%25b4%25ed%2584%25b0%25eb%25b6%2584%25ec%2584%259d%25ec%25a0%2584%25eb%25ac%25b8%25ea%25b0%2580%25ea%25b0%2580%25ec%259d%25b4%25eb%2593%259cadpadsp-1-1-%25eb%258d%25b0%25ec%259d%25b4%25ed%2584%25b0%25ec%2599%2580-%25ec%25a0%2595%25eb%25b3%25b4%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://da.nala.ga/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fda.nala.ga%2F%25eb%258d%25b0%25ec%259d%25b4%25ed%2584%25b0%25eb%25b6%2584%25ec%2584%259d%25ec%25a0%2584%25eb%25ac%25b8%25ea%25b0%2580%25ea%25b0%2580%25ec%259d%25b4%25eb%2593%259cadpadsp-1-1-%25eb%258d%25b0%25ec%259d%25b4%25ed%2584%25b0%25ec%2599%2580-%25ec%25a0%2595%25eb%25b3%25b4%2F&#038;format=xml" />
+
+	<style>
+
+		/* Border Color */
+		.btn-social:hover,
+		blockquote,
+		#respond input:focus[type="text"], 
+	    #respond input:focus[type="email"], 
+	    #respond input:focus[type="url"],
+	    #respond textarea:focus,
+	    #comments .comment-reply a:hover
+		{
+			border-color: ;
+		}
+
+		
+		/* Background Color */
+		.scroll-up a,
+		.btn-social:hover,
+		button,
+		input[type="button"],
+		input[type="reset"],
+		input[type="submit"],
+		.navbar-default .navbar-nav .dropdown-menu li a:hover, .dropdown-menu li a:focus, .navbar-default .navbar-nav .dropdown-menu .active a,
+		.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover, .pagination li .current,
+		.next-previous-posts .next-post a:hover,
+		.next-previous-posts .previous-post a:hover,
+		.btn-goback,
+		.btn-submit,
+		a.more-link,
+		.featured-post .fa,
+		#comments .comment-reply a:hover,
+		.widget .tagcloud a
+		{
+			background-color: ;
+		}
+
+		
+		/* Color */
+		.text-logo a,
+		.navbar-default .navbar-nav .active a, .navbar-default .navbar-nav .active a:hover, .navbar-default .navbar-nav .active a:focus,
+		.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus,
+		a:hover,
+    	a:focus,
+		.next-previous-posts .previous-post a,
+		.next-previous-posts .next-post a,
+		.pagination>li>a, .pagination>li>span,
+		#comments .comment-author a:hover, 
+    	#respond .logged-in-as a:hover,
+    	#wp-calendar a,
+    	h2.entry-title a:hover
+		{
+			color: ;
+		}
+
+
+		/* A Color */
+		a{
+			color: ;
+		}
+
+		/* a:hover Color */
+		a:hover,
+		a:focus,
+		a:active,
+		.widget a:hover,
+		.post .post-content .entry-meta ul li a:hover
+		{
+			color: ;
+		}
+
+		/* .featured-post .fa:after*/
+		.featured-post .fa:after{
+			border-color:   transparent ;
+		}
+
+
+		
+
+	</style>
+</head>
+
+<body class="post-template-default single single-post postid-6927 single-format-standard">
+
+    <div id="st-preloader">
+        <div id="pre-status">
+            <div class="preload-placeholder"></div>
+        </div>
+    </div>
+<!-- /Preloader -->
+
+<header id="header">	
+	<div id="trueHeader">
+    	<div class="wrapper">
+            <div class="container">
+            	<!-- Menu -->
+            	<div class="menu_main">
+                	<div class="navbar blogx-navbar navbar-default">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#st-navber-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+
+                                                            <div class="text-logo">
+                                    <a href="http://da.nala.ga">All About CC</a>
+                                    <p>All About CC Contents</p>
+                                </div><!-- /Logo -->
+                                                    </div>
+                      
+                        <div id="st-navber-collapse" class="navbar-collapse collapse pull-right">
+                             
+                        </div>
+                    </div>
+            	</div><!-- end menu -->
+        	</div> <!-- /.container -->
+    	</div>
+	</div>
+	<DIV class='ads_adsense_img' style='margin:40px 0px 40px 0px;'>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- only display -->
+	<ins class="adsbygoogle"
+	     style="display:block"
+	     data-ad-client="ca-pub-8393857339019314"
+	     data-ad-slot="7474886381"
+	     data-ad-format="auto"></ins>
+	<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+	</DIV>	
+</header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div id="primary" class="content-area">
+                    <main id="main" class="site-main" role="main">
+
+                        
+                                <article id="post-6927" class="post-6927 post type-post status-publish format-standard hentry category-uncategorized tag-2503 tag-adpadsp tag-11041 tag-610">
+    <header class="entry-header">
+        
+        
+    </header> <!--/.entry-header -->
+
+    <div class="clearfix post-content media">
+
+        <h2 class="entry-title">
+            [데이터분석전문가가이드(ADP,ADSP)] 1.1 데이터와 정보        </h2> <!-- //.entry-title -->
+
+        <div class="clearfix entry-meta">
+            
+            <ul class="list-inline">
+                <li>
+                    <span class="author vcard">
+                        By <a class="url fn n" href="http://da.nala.ga/author/site-admin/">site-admin</a>                    </span>
+                </li>
+                <li>
+                    on <span class="posted-on">1월 10, 2018</span>
+                </li>
+                                    <li>
+                        in <span class="posted-in">
+                            <a href="http://da.nala.ga/category/uncategorized/" rel="category tag">미분류</a>                        </span>
+                    </li>
+                            </ul>
+                </div> <!--/.entry-meta -->
+        
+        <div class="entry-summary">
+            <p><img src='http://cfile28.uf.tistory.com/image/99A1774B5A55914E16A065' style='max-width:250px;min-width:0px;' onError='this.style.display="none"' /></p>
+<h1>3줄 요약 </h1>
+<div style='color:#fff;background-color:#000;border-radius:10px;'>
+<ol>
+<li><span>[표 1-1-2] 암묵지와 형식지의 상호작용</span></li>
+<li><span>근본 원리에 대한 깊은 이해를 바탕으로 도출되는 창의적 아이디어ex) A마트의 다른 상품들도 B마트보다 쌀 것이라고 판단</span></li>
+<li><span>3. 데이터베이스의 특징</span></li>
+</ol>
+</div>
+<p><span id="more-6927"></span></p>
+<p><iframe src='http://ad.selfhow.com/rd' width='100%' border=0 frameborder=0 style='height:auto;width:100%'></iframe></p>
+<hr />
+<p><b style="font-size: 14pt;"><span style="background-color: rgb(255, 228, 0);">1.1  데이터와 정보</span></b></p>
+<p></p>
+<p><span style="font-size: 12pt;"><b><span style="background-color: rgb(250, 244, 192);">1.1.1 데이터와 정보</span></b></span></p>
+<p></p>
+<p><span style="font-size: 11pt;"><b><span style="background-color: rgb(228, 247, 186);">1. 데이터의 정의</span></b></span></p>
+<p></p>
+<p><span style="font-size: 11pt;">데이터란,</span><span style="font-size: 11pt;"> 추론과 추정의 근거를 이루는 사실</span></p>
+<p></p>
+<table border="0" cellpadding="0" cellspacing="0" class="txc-table" sans-serif;font-size:13px"="" style="border:none;border-collapse:collapse;;font-family:" width="864" 고딕",="" 맑은="">
+<tbody>
+<tr>
+<td style="width: 288px; height: 24px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); background-color: rgb(218, 217, 255);">
+<p style="text-align: center;"><span style="font-size: 11pt;"> 구분</span></p>
+</td>
+<td style="width: 288px; height: 24px; border-bottom: 1px solid rgb(204, 204, 204); border-right: 1px solid rgb(204, 204, 204); border-top: 1px solid rgb(204, 204, 204); background-color: rgb(218, 217, 255);">
+<p style="text-align: center;"><span style="font-size: 11pt;">형태 </span></p>
+</td>
+<td style="width: 288px; height: 24px; border-bottom: 1px solid rgb(204, 204, 204); border-right: 1px solid rgb(204, 204, 204); border-top: 1px solid rgb(204, 204, 204); background-color: rgb(218, 217, 255);">
+<p style="text-align: center;"><span style="font-size: 11pt;">예 </span></p>
+</td>
+</tr>
+<tr>
+<td style="width:288;height:24;border-bottom:1px solid #ccc;border-right:1px solid #ccc;border-left:1px solid #ccc;;">
+<p style="text-align: center;"><span style="font-size: 11pt;">정성적 데이터(qualitative data)</span><span style="font-size: 11pt;"> </span></p>
+</td>
+<td style="width:288;height:24;border-bottom:1px solid #ccc;border-right:1px solid #ccc;;">
+<p style="text-align: center;"><span style="font-size: 11pt;">언어, 문자 등</span></p>
+</td>
+<td style="width:288;height:24;border-bottom:1px solid #ccc;border-right:1px solid #ccc;;">
+<p style="text-align: center;"><span style="font-size: 11pt;">회사 매출이 증가함</span><span style="font-size: 11pt;"> </span></p>
+</td>
+</tr>
+<tr>
+<td style="width:288;height:24;border-bottom:1px solid #ccc;border-right:1px solid #ccc;border-left:1px solid #ccc;;">
+<p style="text-align: center;"><span style="font-size: 11pt;">정량적 데이터(quantitative data)</span><span style="font-size: 11pt;"> </span></p>
+</td>
+<td style="width:288;height:24;border-bottom:1px solid #ccc;border-right:1px solid #ccc;;">
+<p style="text-align: center;"><span style="font-size: 11pt;">수치, 도형, 기호 등</span><span style="font-size: 11pt;"> </span></p>
+</td>
+<td style="width:288;height:24;border-bottom:1px solid #ccc;border-right:1px solid #ccc;;">
+<p style="text-align: center;"><span style="font-size: 11pt;">30(나이), 48.4(kg)</span><span style="font-size: 11pt;"> </span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: center;"><span style="font-size: 11pt;">[표 1-1-1] 데이터 유형</span></p>
+<p></p>
+<ul style="list-style-type: square;">
+<li><span style="font-size: 11pt;"><b>정성적 데이터</b> :</span><span style="font-size: 11pt;"> 수치로 명확하게 표현되는 데이터로써 </span><span style="font-size: 11pt;">데이터 관리 시스템(ex)DBMS)에 저장·검색·분석하여 활용하기가 용이.</span></li>
+<li><span style="font-size: 11pt;"><b>정량적 데이터</b> : 비정형 데이터라 불리우며, 트위터나 페이스북, 블로그 등에 올린 글 등과 같은 글.</span></li>
+</ul>
+<p></p>
+<p></p>
+<table border="0" cellpadding="0" cellspacing="0" class="txc-table" sans-serif;font-size:13px"="" style="border:none;border-collapse:collapse;;font-family:" width="864" 고딕",="" 맑은="">
+<tbody>
+<tr>
+<td style="width: 432px; height: 24px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204); background-color: rgb(218, 217, 255);">
+<p style="text-align: center;"><span style="font-size: 11pt;">암묵지</span><span style="font-size: 11pt;"> </span></p>
+</td>
+<td style="width: 432px; height: 24px; border-bottom: 1px solid rgb(204, 204, 204); border-right: 1px solid rgb(204, 204, 204); border-top: 1px solid rgb(204, 204, 204); background-color: rgb(218, 217, 255);">
+<p style="text-align: center;"><span style="font-size: 11pt;">형식지</span><span style="font-size: 11pt;"> </span></p>
+</td>
+</tr>
+<tr>
+<td style="width:432;height:24;border-bottom:1px solid #ccc;border-right:1px solid #ccc;border-left:1px solid #ccc;;">
+<p style="text-align: center;"><span style="font-size: 11pt;">공통화(Socialization)</span><span style="font-size: 11pt;"> </span></p>
+</td>
+<td style="width:432;height:24;border-bottom:1px solid #ccc;border-right:1px solid #ccc;;">
+<p style="text-align: center;"><span style="font-size: 11pt;">표출화(Externalization)</span><span style="font-size: 11pt;"> </span></p>
+</td>
+</tr>
+<tr>
+<td style="width:432;height:24;border-bottom:1px solid #ccc;border-right:1px solid #ccc;border-left:1px solid #ccc;;">
+<p style="text-align: center;"><span style="font-size: 11pt;">내면화(Internalization)</span><span style="font-size: 11pt;"> </span></p>
+</td>
+<td style="width:432;height:24;border-bottom:1px solid #ccc;border-right:1px solid #ccc;;">
+<p style="text-align: center;"><span style="font-size: 11pt;">연결화(Combination)</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: center;"><span style="font-size: 11pt;">[표 1-1-2] 암묵지와 형식지의 상호작</span><span style="font-size: 11pt;">용</span></p>
+<p></p>
+<ul style="list-style-type: square;">
+<li><span style="font-size: 11pt;"><b>암묵지</b> : 시행착오와 오랜 경험을 통해 개인에게 습득된 무형의 지식으로 개인에게 체화되어 있기 때문에 외부에 표출되어 다른 사람에게 공유되기 어렵다.</span></li>
+</ul>
+<p><span style="font-size: 11pt;">ex) 김장김치 담그기, 자전거 타기</span></p>
+<p></p>
+<ul style="list-style-type: square;">
+<li><span style="font-size: 11pt;"><b>형식지</b> : 유형의 지식으로 지식의 전달과 공유 가능하다.</span></li>
+</ul>
+<p><span style="font-size: 11pt;">ex) 교과서, 매뉴얼, DB</span></p>
+<p></p>
+<p><span style="font-size: 11pt;">암묵지 -&gt; 형식지 : 개인의 내면화를 공통화하고 연결화하여 객관적인 데이터로 가공·분석하는 과정을 거쳐 표출화한다.</span></p>
+<p></p>
+<p></p>
+<p><span style="font-size: 11pt;"><b><span style="background-color: rgb(228, 247, 186);">2. 데이터와 정보의 관계</span></b></span></p>
+<p></p>
+</p>
+<p style="text-align: left; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:429px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="DIKW.jpg" height="311" src="http://cfile28.uf.tistory.com/image/99A1774B5A55914E16A065" width="429"/></span></p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<table border="0" cellpadding="0" cellspacing="0" class="txc-table" sans-serif;font-size:13px"="" style="border:none;border-collapse:collapse;;font-family:" width="864" 고딕",="" 맑은="">
+<tbody>
+<tr>
+<td style="width: 132px; height: 24px; border-width: 1px; border-style: solid; border-color: rgb(95, 142, 239) rgb(209, 223, 250) rgb(209, 223, 250) rgb(95, 142, 239); background-color: rgb(250, 244, 192); color: rgb(0, 0, 0);">
+<p style="text-align: center;"><b><span style="font-size: 11pt;">지</span><span style="font-size: 11pt;">혜(Wisdom</span><span style="font-size: 11pt;">)</span><span style="font-size: 11pt;"> </span></b></p>
+</td>
+<td style="width: 731px; height: 24px; border-bottom: 1px solid rgb(209, 223, 250); border-right: 1px solid rgb(95, 142, 239); border-top: 1px solid rgb(95, 142, 239); background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">
+<p><span style="font-size: 11pt;">근본 원리에 대한 깊은 이해를 바탕으로 도출되는 창의적 아이디어</span></p>
+<p><span style="font-size: 11pt;">ex) A마트의 다른 상품들도 B마트보다 쌀 것이라고 판단</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 132px; height: 36px; border-bottom: 1px solid rgb(209, 223, 250); border-right: 1px solid rgb(209, 223, 250); border-left: 1px solid rgb(95, 142, 239); background-color: rgb(206, 242, 121); color: rgb(0, 0, 0);">
+<p style="text-align: center;"><b><span style="font-size: 11pt;">지식(Knowledge)</span><span style="font-size: 11pt;"> </span></b></p>
+</td>
+<td style="width: 731px; height: 36px; border-bottom: 1px solid rgb(209, 223, 250); border-right: 1px solid rgb(95, 142, 239); background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">
+<p><span style="font-size: 11pt;">상호 연결된 정보 패턴을 이해하여 이를 토대로 예측한 결과물</span></p>
+<p><span style="font-size: 11pt;">ex) 상대적으로 저렴한 A마트에서 연필을 사야겠다.</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 132px; height: 36px; border-bottom: 1px solid rgb(209, 223, 250); border-right: 1px solid rgb(209, 223, 250); border-left: 1px solid rgb(95, 142, 239); background-color: rgb(209, 178, 255); color: rgb(0, 0, 0);">
+<p style="text-align: center;"><b><span style="font-size: 11pt;">정보(Infromation)</span><span style="font-size: 11pt;"> </span></b></p>
+</td>
+<td style="width: 731px; height: 36px; border-bottom: 1px solid rgb(209, 223, 250); border-right: 1px solid rgb(95, 142, 239); background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">
+<p><span style="font-size: 11pt;">데이터의 가공 및 상관관계간 이해를 통해 패턴을 인식하고 그 의미를 부여한 데이터</span></p>
+<p><span style="font-size: 11pt;">ex) A마트의 연필가격이 더 싸다.</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 132px; height: 24px; border-bottom: 1px solid rgb(95, 142, 239); border-right: 1px solid rgb(209, 223, 250); border-left: 1px solid rgb(95, 142, 239); background-color: rgb(217, 229, 255); color: rgb(0, 0, 0);">
+<p style="text-align: center;"><span style="font-size: 11pt;"><b>데이터(Data) </b></span></p>
+</td>
+<td style="width: 731px; height: 24px; border-bottom: 1px solid rgb(95, 142, 239); border-right: 1px solid rgb(95, 142, 239); background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">
+<p><span style="font-size: 11pt;">존재형식을 불문하고</span><span style="font-size: 11pt;"> 타 데이터와 상관관계가 없는 가공하기 전의 순수한 수치나 기호를 의미</span></p>
+<p><span style="font-size: 11pt;">ex) A마트 100원에, B마트는 200원에 연필을 판매</span><span style="font-size: 11pt;">  </span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;"><span style="font-size: 12pt;"><b><span style="background-color: rgb(250, 244, 192);">1.1.2 데이터베이스 정의와 특징</span></b></span></p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;"><span style="font-size: 11pt; background-color: rgb(228, 247, 186);"><b>1. 용어의 연역</b></span></p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;"><span style="font-size: 11pt;">데이터베이스(Database) : 데이터(data)의 기지(base),  수집된 자료를 일컫는 말.</span></p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;"><span style="font-size: 11pt;"><b><span style="background-color: rgb(228, 247, 186);">2. 데이터베이스의 정의</span></b></span></p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<ul style="list-style-type: disc;">
+<li>
+<p style="text-align: left; clear: none; float: none;"><span style="font-size: 11pt;">[EU 데이터베이스의 법적 보호에 관한 지침] 체계적이거나 조직적으로 정리되고 전자식 또는 기타 수단으로 개별적으로 접근할 수 있는 독립된 저작물, 데이터 또는 기타 소재의 수집물.</span></p>
+</li>
+<li>
+<p style="text-align: left; clear: none; float: none;"><span style="font-size: 11pt;">[국내 저작권 법] 소재를 체계적으로 배열 또는 구성한 편집물로서 개별적으로 그 소재에 접근하거나 그 소재를 검색할 수 있도록 한 것.</span></p>
+</li>
+<li>
+<p style="text-align: left; clear: none; float: none;"><span style="font-size: 11pt;">[정보통신용어사전, TTA] 관련된 레코드의 집합, 소프트웨어로는 데이터베이스관리시스템(DBMS : Database Management System)을 의미.</span></p>
+</li>
+</ul>
+<div></div>
+<div><span style="font-size: 11pt; background-color: rgb(228, 247, 186);"><b>3. 데이터베이스의 특징</b></span></div>
+<div><span style="font-size: 11pt; background-color: rgb(228, 247, 186);"><b><br /></b></span></div>
+<div><span style="background-color: rgb(255, 255, 255); font-size: 11pt;"> 1) 일반적인 데이터베이스의 특징</span></div>
+<ul style="list-style-type: disc;">
+<li><span style="font-size: 11pt;">데이터베이스 = 통합된 데이터(intergrated data) : 중복 존재하지 않음.</span></li>
+<li><span style="font-size: 11pt;">데이터베이스 = 저장된 데이터(stored data) : 저장매체에 저장 되는 것.</span></li>
+<li><span style="font-size: 11pt;">데이터베이스 = 공용 데이터(shared data) : 데이터를 공동으로 사용 가능.</span></li>
+<li><span style="font-size: 11pt;">데이터베이스 = 변화하는 데이터 : 삽입·삭제·갱신으로 항상 변화하며 정확한 데이터로 유지.</span></li>
+</ul>
+<div><span style="font-size: 14.6667px;"> 2) 데이터베이스의 다양한 측면에서의 특성</span></div>
+<ul style="list-style-type: disc;">
+<li><span style="font-size: 14.6667px;">정보의 축적 및 전달 측면 : 대량의 정보를 일정한 형식에 따라 컴퓨터 등의 정보처리기가 읽고 쓸 수 있도록 하는 기계가독성과 다양한 방법으로 필요한 정보를 검색할 수 있는 검색가능성, 그리고 정보통신망을 통하여 원거리에서도 즛기 온라인으로 이용할 수 있는 원격조작성을 갖음.</span></li>
+<li><span style="font-size: 14.6667px;">정보 이용 측면 : 이용자의 정보 요구에 따라 다양한 정보를 신속하게 획득할 수 있고 원하는 정보를 정확하고 경제적으로 찾아낼 수 있음.</span></li>
+<li><span style="font-size: 14.6667px;">정보 관리 측면 : 정보를 일정한 질서와 구조에 따라 정리</span>·저장하고 검색·관리할 수 있도록 하여 방대한 양의 정보를 체계적으로 축적하고 새로운 내용 추가나 갱신이 용이.</li>
+<li>정보 기술 발전 측면 : 데이터베이스는 정보처리, 검색·관리 소프트웨어, 관련 하드웨어, 정보 전송을 위한 네트워크 기술 등의 발전을 견인 할 수 있음.</li>
+<li>경제·산업적 측면 : 데이터베이스는 다양한 정보를 필요에 따라 신속하게 제공·이용할 수 있는 인프라로서 특성을 가지고 있어 경제, 산업, 사회 활동의 효율성을 제고하고 국민의 편의를 증진하는 수단으로서 의미를 갖음.</li>
+</ul>
+<div></div>
+<div><span style="font-size: 12pt;"><b><span style="background-color: rgb(250, 244, 192);">1.1.3 데이터베이스 활용</span></b></span></div>
+<div></div>
+<div><span style="font-size: 11pt; background-color: rgb(228, 247, 186);"><b>1. 기업내부 데이터베이스</b></span></div>
+<div></div>
+<div><span style="font-size: 11pt;">OLTP(Online Transaction Processing) : 데이터 &#8216;수집&#8217;에 초점 &#8212;-&gt; OLAP(Online Analytical Processing) : 데이터 &#8216;분석&#8217;에 초점</span></div>
+<div></div>
+<div><span style="font-size: 11pt;">가. 제조부분</span></div>
+<div><span style="font-size: 11pt;">&#8211; ERP(Enterprise Resource Planning) 시스템 도입과 함께 DW, CRM, BI(Business Intelligence) 등의 진보된 정보기술을 적용한 기업내부 인하우스 DB 구축이 주류를 이룸.</span></div>
+<div><span style="font-size: 11pt;">나. 금용부분</span></div>
+<div><span style="font-size: 11pt;">&#8211; EAI(Enterprise Applications Intergration), ERP, e-CRM &#8212;&#8211;&gt; DW 적극적 도입하여 대용량 DW를 위한 최적의 BI 기반 시스템 구축.</span></div>
+<div><span style="font-size: 11pt;">&#8211; 최근 EDW(Enterprise Data Warehouse)의 확장.</span></div>
+<div><span style="font-size: 11pt;"><br /></span></div>
+<div><span style="font-size: 11pt;">다.</span><span style="font-size: 11pt;"> 유통부분</span></div>
+<div><span style="font-size: 11pt;">&#8211; CRM, SCM 구축, 상거래를 위한 각종 인프라 및 KMS(Knowledge Management System)를 위한 별도의 백업시스템 구축.</span></div>
+<div><span style="font-size: 11pt;">&#8211; 균형성과관리(BSC), 핵심성과지표(KPI), 웹 리포팅 등의 다양한 고객 분석 툴을 통해 기존 데이터베이스와 연계.</span></div>
+<div><span style="font-size: 11pt;">&#8211; 전자태그(RFID) 등장으로 접촉이 없어도 무선주팟로 전송·처리가 가능.</span></div>
+<p></p>
+<p><span style="font-size: 11pt; background-color: rgb(228, 247, 186);"><b>2. 사회기반구조로서의 데이터베이스</b></span></p>
+<p></p>
+<p><span style="font-size: 11pt;">가. 물류부분</span></p>
+<p><span style="font-size: 11pt;">&#8211; CVO 서비스(Commercial Vehicle Operation System, 화물운송정보), EDI 서비스, 데이터베이스 서비스(물류정보), 부가서비스로 구성.</span></p>
+<p><span style="font-size: 11pt;">&#8211; 기업 물류정보(이삿짐, 택배, 정책, 법령, 물류시설, 장비), 해양수산 데이터베이스</span><span style="font-size: 11pt;">(항만정보, 물류관련 정책 정보) 개발.</span></p>
+<p><span style="font-size: 11pt;">&#8211; 현대 택배의 HYDEX(택배정보시스템), 한진의 GIOVAN(물류정보서비스, 물류비즈니스 서비스), 등등</span></p>
+<p><span style="font-size: 11pt;"><br /></span></p>
+<p><span style="font-size: 11pt;">나. 지리부분</span></p>
+<p><span style="font-size: 11pt;">&#8211; GIS, RS(Remote Sensing), GPS(Global Positioning System), ITS(Intelligent Transport System) 기술을 통합하여 새로운 GIS 응용에 활용하는 4S 통합기술, LBS(Location Based Service) 기술, SIM(Sparti</span><span style="font-size: 11pt;">al Information Management), 공간 DBMS 등 GIS 개발.</span></p>
+<p><span style="font-size: 11pt;"><br /></span></p>
+<p><span style="font-size: 11pt;">다. 교통부분</span></p>
+<p><span style="font-size: 11pt;">&#8211; 실시간 교통정보 </span><span style="font-size: 11pt;">: </span><span style="font-size: 11pt;">지능형교통시스템(ITS, Intelligent Transport System), 방송매체 등에서 교통소통을 목적으로 운전자에게 제공되는 정보</span><span style="font-size: 11pt;"> </span></p>
+<p><span style="font-size: 11pt;">&#8211; 비실시간 교통정보 : 교통정책 및 계획 수립 등에 필요한 교통 분야별 기초자료 및 통계를 제공하는 데이터베이스</span></p>
+<p><span style="font-size: 11pt;"><br /></span></p>
+<p><span style="font-size: 11pt;">라. 의료부분</span></p>
+<p><span style="font-size: 11pt;">&#8211; 처방전달</span><span style="font-size: 11pt;">시스템, 임상병리, 전자의무기록, 영상처리시스템 PACS(Picture Archiving and Communications System), 병원의 멀티미디어, 원격의료, 지식정보화</span></p>
+<p><span style="font-size: 11pt;">&#8211; u 헬스(ubiquitous-Health) 등장</span></p>
+<p><span style="font-size: 11pt;"><br /></span></p>
+<p><span style="font-size: 11pt;">마. 교육부분</span></p>
+<p><span style="font-size: 11pt;">&#8211; 에뉴넷(Edunet)과 16개 시·도 교육청 홈페이지 어느 곳에서나 전국의 교육자료를 원스톱 검색 가능.</span></p>
+<p><span style="font-size: 11pt;">&#8211; 교육행정정보시스템(NEIS, National Education Information System) 개발.</span></p>
+<hr />
+<p><iframe src='http://ad.selfhow.com/rd' width='100%' border=0 frameborder=0 style='height:auto;width:100%'></iframe></p>
+<p><a href='http://sojeong2.tistory.com/44' target='_blank'>Origin Content : 과감한 모험이던가,</a> | <a href="/cdn-cgi/l/email-protection#96f3f5f9c9f5f5a6a6a7d6f8f7faf7b8f1f7" target='_blank'>Contact : <span class="__cf_email__" data-cfemail="2441474b7b4747141415644a4548450a4345">[email&#160;protected]</span></a>
+</p>
+<p>Cotent License : CC-BY </p>
+<p>This content is collected under the CCL license.</p>
+<p>Please check the license of the original article before asking about copyright.</p>
+<ul>
+<li><a href='/tag/데이터분석전문가가이드ADPADSP'>More About <span style='font-weight:bold;'>데이터분석전문가가이드ADPADSP</span></a></li>
+<li><a href='/tag/11'>More About <span style='font-weight:bold;'>11</span></a></li>
+<li><a href='/tag/데이터와'>More About <span style='font-weight:bold;'>데이터와</span></a></li>
+<li><a href='/tag/정보'>More About <span style='font-weight:bold;'>정보</span></a></li>
+</ul>
+        </div> <!-- //.entry-summary -->
+        
+                    <div class="entry-tags"><b>Tags:</b> <a href="http://da.nala.ga/tag/11/" rel="tag">11</a>, <a href="http://da.nala.ga/tag/%eb%8d%b0%ec%9d%b4%ed%84%b0%eb%b6%84%ec%84%9d%ec%a0%84%eb%ac%b8%ea%b0%80%ea%b0%80%ec%9d%b4%eb%93%9cadpadsp/" rel="tag">데이터분석전문가가이드ADPADSP</a>, <a href="http://da.nala.ga/tag/%eb%8d%b0%ec%9d%b4%ed%84%b0%ec%99%80/" rel="tag">데이터와</a>, <a href="http://da.nala.ga/tag/%ec%a0%95%eb%b3%b4/" rel="tag">정보</a></div>
+        
+    </div>
+
+</article> <!--/#post-->
+
+
+
+
+
+                                                                    <div class="post-nav-area">
+                                                    
+            <nav class="next-previous-post clearfix media" role="navigation">
+                <div class="row">
+                    <!-- Previous Post -->
+                    <div class="previous-post col-sm-6 pull-left">
+                        <div class="nav-previous"><i class="fa fa-angle-left"></i> <a href="http://da.nala.ga/%ed%95%98%ec%9d%b4%eb%94%94%eb%9d%bc%ec%98%a4-%e6%b5%b7%e5%ba%95%e6%8d%9e-13%ec%96%b5-%eb%8c%80%eb%a5%99-%ed%99%80%eb%a6%b0-%ec%83%a4%eb%b8%8c%ec%83%a4%eb%b8%8c-%ea%b2%bd%ec%98%81%ec%b2%a0%ed%95%99/" rel="prev">하이디라오 海底捞, 13억 대륙 홀린 샤브샤브 경영철학</a></div>                    </div>
+
+                    <!-- Next Post -->
+                    <div class="next-post col-sm-6 pull-right text-right">
+                        <div class="nav-next"><a href="http://da.nala.ga/%eb%8b%a8%ec%a0%81%ec%9c%bc%eb%a1%9c-sns%ec%9d%98-%ec%9c%84%eb%a0%a5%ec%9d%84/" rel="next">단적으로 SNS의 위력을</a> <i class="fa fa-angle-right"></i></div>                    </div>
+                </div>
+            </nav><!-- .navigation -->
+            
+                                            </div>
+                                
+                                
+                            
+                                            </main> <!-- /.site-main -->
+                </div>  <!-- /.content-area -->
+            </div> <!-- /col -->
+
+            <!-- Blogsidebar -->
+            
+	<div class="col-md-4">
+	    <div class="primary-sidebar widget-area" role="complementary">
+	        <div id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="http://da.nala.ga/">
+				<label>
+					<span class="screen-reader-text">검색:</span>
+					<input type="search" class="search-field" placeholder="검색 &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="검색" />
+			</form></div>		<div id="recent-posts-2" class="widget widget_recent_entries">		<h2 class="widget-title">최근 글</h2>		<ul>
+					<li>
+				<a href="http://da.nala.ga/%ea%b5%90%ed%99%98%ed%95%99%ec%83%9d%ec%a4%80%eb%b9%84part2-%ed%94%84%eb%9e%91%ec%8a%a4-sciences-po-%ec%a7%80%ec%9b%90-%ea%b3%bc%ec%a0%95%ea%b3%bc-%ea%b7%b8-%ec%a0%84-%ec%95%8c%ec%95%84%ec%95%bc/">[교환학생준비PART2] 프랑스 Sciences Po 지원 과정과 그 전 알아야할 것들!</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%b0%95%ea%b7%bc%ed%98%9c-%ec%b5%9c%ec%88%9c%ec%8b%a4-%ea%b2%8c%ec%9d%b4%ed%8a%b8%eb%a5%bc-%eb%b0%9d%ed%98%80%eb%82%b8-%ec%9d%bc%eb%93%b1%ea%b3%b5%ec%8b%a0-%ec%95%88%eb%af%bc%ec%84%9d/">박근혜 최순실 게이트를 밝혀낸 일등공신 안민석</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%b0%b0%ed%8b%80%ea%b7%b8%eb%9d%bc%ec%9a%b4%eb%93%9c-%ec%a0%95%ec%8b%9d%eb%b2%84%ec%a0%84-1-0%ed%8c%a8%ec%b9%98-%eb%ac%b4%ec%97%87%ec%9d%b4-%eb%b0%94%eb%80%8c%eb%82%98%ec%9a%94/">배틀그라운드 정식버전 1.0패치 무엇이 바뀌나요?</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%91%90%eb%87%8c%eb%a5%bc-%ea%b1%b4%ea%b0%95%ed%95%98%ea%b2%8c-%eb%a7%8c%eb%93%9c%eb%8a%94-4%ec%b2%9c%eb%b3%b4%ec%9d%98-%ea%b1%b8%ec%9d%8c/">두뇌를 건강하게 만드는 4천보의 걸음</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%af%b8%ea%b5%ad-%ec%9c%a0%ed%95%99-%ec%a0%95%eb%b3%b4-%ed%95%9c%ea%b5%ad-%eb%82%b4%ec%8b%a0-%ec%84%b1%ec%a0%81%eb%a7%8c%ec%9c%bc%eb%a1%9c-%eb%af%b8%ea%b5%ad-%eb%aa%85%eb%ac%b8%eb%8c%80-%ea%b0%80/">미국 유학  정보 &#8211; 한국 내신 성적만으로 미국 명문대 가기</a>
+						</li>
+				</ul>
+		</div>		<div id="tag_cloud-2" class="widget widget_tag_cloud"><h2 class="widget-title">태그</h2><div class="tagcloud"><a href="http://da.nala.ga/tag/1%ec%9b%94/" class="tag-cloud-link tag-link-35 tag-link-position-1" style="font-size: 14.892307692308pt;" aria-label="1월 (47 아이템)">1월</a>
+<a href="http://da.nala.ga/tag/2017/" class="tag-cloud-link tag-link-510 tag-link-position-2" style="font-size: 19.415384615385pt;" aria-label="2017 (76 아이템)">2017</a>
+<a href="http://da.nala.ga/tag/2017%eb%85%84/" class="tag-cloud-link tag-link-8 tag-link-position-3" style="font-size: 18.123076923077pt;" aria-label="2017년 (66 아이템)">2017년</a>
+<a href="http://da.nala.ga/tag/2018/" class="tag-cloud-link tag-link-61 tag-link-position-4" style="font-size: 14.461538461538pt;" aria-label="2018 (45 아이템)">2018</a>
+<a href="http://da.nala.ga/tag/2018%eb%85%84/" class="tag-cloud-link tag-link-103 tag-link-position-5" style="font-size: 18.984615384615pt;" aria-label="2018년 (73 아이템)">2018년</a>
+<a href="http://da.nala.ga/tag/vs/" class="tag-cloud-link tag-link-943 tag-link-position-6" style="font-size: 9.5076923076923pt;" aria-label="vs (26 아이템)">vs</a>
+<a href="http://da.nala.ga/tag/%ec%98%81%ed%99%94/" class="tag-cloud-link tag-link-1375 tag-link-position-7" style="font-size: 14.246153846154pt;" aria-label="“영화 (44 아이템)">“영화</a>
+<a href="http://da.nala.ga/tag/%ea%b0%80%ea%b2%a9/" class="tag-cloud-link tag-link-63 tag-link-position-8" style="font-size: 12.953846153846pt;" aria-label="가격 (38 아이템)">가격</a>
+<a href="http://da.nala.ga/tag/%ea%b0%80%ec%83%81%ed%99%94%ed%8f%90/" class="tag-cloud-link tag-link-1479 tag-link-position-9" style="font-size: 9.0769230769231pt;" aria-label="가상화폐 (25 아이템)">가상화폐</a>
+<a href="http://da.nala.ga/tag/%ea%b2%80%ec%9d%80%ec%82%ac%eb%a7%89/" class="tag-cloud-link tag-link-341 tag-link-position-10" style="font-size: 8.8615384615385pt;" aria-label="검은사막 (24 아이템)">검은사막</a>
+<a href="http://da.nala.ga/tag/%ea%b2%8c%ec%9e%84/" class="tag-cloud-link tag-link-391 tag-link-position-11" style="font-size: 22pt;" aria-label="게임 (102 아이템)">게임</a>
+<a href="http://da.nala.ga/tag/%ea%b3%b5%ea%b0%9c/" class="tag-cloud-link tag-link-938 tag-link-position-12" style="font-size: 9.5076923076923pt;" aria-label="공개 (26 아이템)">공개</a>
+<a href="http://da.nala.ga/tag/%ea%b3%b5%eb%9e%b5/" class="tag-cloud-link tag-link-1018 tag-link-position-13" style="font-size: 8.8615384615385pt;" aria-label="공략 (24 아이템)">공략</a>
+<a href="http://da.nala.ga/tag/%eb%8b%a4%ec%9a%b4%eb%a1%9c%eb%93%9c/" class="tag-cloud-link tag-link-364 tag-link-position-14" style="font-size: 8.4307692307692pt;" aria-label="다운로드 (23 아이템)">다운로드</a>
+<a href="http://da.nala.ga/tag/%eb%8c%80%ed%95%b4%ec%84%9c/" class="tag-cloud-link tag-link-1629 tag-link-position-15" style="font-size: 8.8615384615385pt;" aria-label="대해서 (24 아이템)">대해서</a>
+<a href="http://da.nala.ga/tag/%eb%a6%ac%eb%b7%b0/" class="tag-cloud-link tag-link-555 tag-link-position-16" style="font-size: 15.969230769231pt;" aria-label="리뷰 (53 아이템)">리뷰</a>
+<a href="http://da.nala.ga/tag/%eb%a7%9b%ec%a7%91/" class="tag-cloud-link tag-link-4173 tag-link-position-17" style="font-size: 9.9384615384615pt;" aria-label="맛집 (27 아이템)">맛집</a>
+<a href="http://da.nala.ga/tag/%eb%aa%a8%eb%b0%94%ec%9d%bc/" class="tag-cloud-link tag-link-835 tag-link-position-18" style="font-size: 10.584615384615pt;" aria-label="모바일 (29 아이템)">모바일</a>
+<a href="http://da.nala.ga/tag/%eb%ac%b4%eb%a3%8c/" class="tag-cloud-link tag-link-827 tag-link-position-19" style="font-size: 13.384615384615pt;" aria-label="무료 (40 아이템)">무료</a>
+<a href="http://da.nala.ga/tag/%eb%b0%a9%eb%b2%95/" class="tag-cloud-link tag-link-529 tag-link-position-20" style="font-size: 15.323076923077pt;" aria-label="방법 (49 아이템)">방법</a>
+<a href="http://da.nala.ga/tag/%eb%b9%84%ed%8a%b8%ec%bd%94%ec%9d%b8/" class="tag-cloud-link tag-link-1478 tag-link-position-21" style="font-size: 9.0769230769231pt;" aria-label="비트코인 (25 아이템)">비트코인</a>
+<a href="http://da.nala.ga/tag/%ec%84%a4%ec%b9%98/" class="tag-cloud-link tag-link-360 tag-link-position-22" style="font-size: 8pt;" aria-label="설치 (22 아이템)">설치</a>
+<a href="http://da.nala.ga/tag/%ec%86%8c%ea%b0%9c/" class="tag-cloud-link tag-link-297 tag-link-position-23" style="font-size: 8.4307692307692pt;" aria-label="소개 (23 아이템)">소개</a>
+<a href="http://da.nala.ga/tag/%ec%88%9c%ec%9c%84/" class="tag-cloud-link tag-link-12 tag-link-position-24" style="font-size: 11.230769230769pt;" aria-label="순위 (31 아이템)">순위</a>
+<a href="http://da.nala.ga/tag/%ec%8b%9c%ec%9e%91/" class="tag-cloud-link tag-link-579 tag-link-position-25" style="font-size: 8.4307692307692pt;" aria-label="시작 (23 아이템)">시작</a>
+<a href="http://da.nala.ga/tag/%ec%95%88%eb%82%b4/" class="tag-cloud-link tag-link-338 tag-link-position-26" style="font-size: 10.584615384615pt;" aria-label="안내 (29 아이템)">안내</a>
+<a href="http://da.nala.ga/tag/%ec%95%8c%ec%95%84%eb%b3%b4%ea%b8%b0/" class="tag-cloud-link tag-link-1939 tag-link-position-27" style="font-size: 12.523076923077pt;" aria-label="알아보기 (36 아이템)">알아보기</a>
+<a href="http://da.nala.ga/tag/%ec%95%8c%ec%95%84%eb%b3%b4%ec%9e%90/" class="tag-cloud-link tag-link-369 tag-link-position-28" style="font-size: 11.661538461538pt;" aria-label="알아보자 (33 아이템)">알아보자</a>
+<a href="http://da.nala.ga/tag/%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8/" class="tag-cloud-link tag-link-567 tag-link-position-29" style="font-size: 9.0769230769231pt;" aria-label="업데이트 (25 아이템)">업데이트</a>
+<a href="http://da.nala.ga/tag/%ec%97%ac%ed%96%89/" class="tag-cloud-link tag-link-1122 tag-link-position-30" style="font-size: 12.738461538462pt;" aria-label="여행 (37 아이템)">여행</a>
+<a href="http://da.nala.ga/tag/%ec%98%a4%eb%b8%8c/" class="tag-cloud-link tag-link-271 tag-link-position-31" style="font-size: 10.8pt;" aria-label="오브 (30 아이템)">오브</a>
+<a href="http://da.nala.ga/tag/%ec%98%a8%eb%9d%bc%ec%9d%b8/" class="tag-cloud-link tag-link-328 tag-link-position-32" style="font-size: 11.876923076923pt;" aria-label="온라인 (34 아이템)">온라인</a>
+<a href="http://da.nala.ga/tag/%ec%9c%84%ed%95%9c/" class="tag-cloud-link tag-link-183 tag-link-position-33" style="font-size: 13.169230769231pt;" aria-label="위한 (39 아이템)">위한</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%eb%b2%a4%ed%8a%b8/" class="tag-cloud-link tag-link-723 tag-link-position-34" style="font-size: 13.169230769231pt;" aria-label="이벤트 (39 아이템)">이벤트</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%ec%95%bc%ea%b8%b0/" class="tag-cloud-link tag-link-861 tag-link-position-35" style="font-size: 10.8pt;" aria-label="이야기 (30 아이템)">이야기</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%ec%9c%a0/" class="tag-cloud-link tag-link-1482 tag-link-position-36" style="font-size: 9.9384615384615pt;" aria-label="이유 (27 아이템)">이유</a>
+<a href="http://da.nala.ga/tag/%ec%9d%bc%eb%b3%b8/" class="tag-cloud-link tag-link-1007 tag-link-position-37" style="font-size: 8.4307692307692pt;" aria-label="일본 (23 아이템)">일본</a>
+<a href="http://da.nala.ga/tag/%ec%a0%95%eb%a6%ac/" class="tag-cloud-link tag-link-65 tag-link-position-38" style="font-size: 11.876923076923pt;" aria-label="정리 (34 아이템)">정리</a>
+<a href="http://da.nala.ga/tag/%ec%a0%95%eb%b3%b4/" class="tag-cloud-link tag-link-610 tag-link-position-39" style="font-size: 17.261538461538pt;" aria-label="정보 (61 아이템)">정보</a>
+<a href="http://da.nala.ga/tag/%ec%b4%9d%ec%a0%95%eb%a6%ac/" class="tag-cloud-link tag-link-179 tag-link-position-40" style="font-size: 8.4307692307692pt;" aria-label="총정리 (23 아이템)">총정리</a>
+<a href="http://da.nala.ga/tag/%ec%b5%9c%ea%b3%a0/" class="tag-cloud-link tag-link-404 tag-link-position-41" style="font-size: 11.876923076923pt;" aria-label="최고 (34 아이템)">최고</a>
+<a href="http://da.nala.ga/tag/%ec%b6%94%ec%b2%9c/" class="tag-cloud-link tag-link-367 tag-link-position-42" style="font-size: 20.707692307692pt;" aria-label="추천 (89 아이템)">추천</a>
+<a href="http://da.nala.ga/tag/%ec%b6%9c%ec%8b%9c/" class="tag-cloud-link tag-link-612 tag-link-position-43" style="font-size: 10.584615384615pt;" aria-label="출시 (29 아이템)">출시</a>
+<a href="http://da.nala.ga/tag/%ed%95%9c%ea%b5%ad/" class="tag-cloud-link tag-link-1483 tag-link-position-44" style="font-size: 10.153846153846pt;" aria-label="한국 (28 아이템)">한국</a>
+<a href="http://da.nala.ga/tag/%ed%9b%84%ea%b8%b0/" class="tag-cloud-link tag-link-114 tag-link-position-45" style="font-size: 19.2pt;" aria-label="후기 (74 아이템)">후기</a></div>
+</div>	    </div>
+	</div>
+
+        </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+    </div>
+    <footer class="site-footer" role="contentinfo">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+  
+                    <p></p>
+                    
+                                            <div class="footer-social-icons">
+                                                                                                                                                                                                                                                                                                                                                                                                        
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+            <div class="scroll-up">
+            <a href="#"><i class="fa fa-angle-up"></i></a>
+        </div>
+        <!-- Scroll Up -->
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/af2821b0/cloudflare-static/email-decode.min.js"></script><script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/bootstrap.min.js?ver=3.3.5'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/scripts.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/jquery.fitvids.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/smoothscroll.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/wp-embed.min.js?ver=4.8.4'></script>
+    </body>
+</html>

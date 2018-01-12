@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="http://da.nala.ga/xmlrpc.php">
+
+<title>카카오미니 예약 성공 기념, 기능 총정리… | All About CC</title>
+<meta name='robots' content='noindex,follow' />
+
+<!-- All in One SEO Pack 2.4.3.1 by Michael Torbert of Semper Fi Web Design[276,333] -->
+<link rel="canonical" href="http://da.nala.ga/%ec%b9%b4%ec%b9%b4%ec%98%a4%eb%af%b8%eb%8b%88-%ec%98%88%ec%95%bd-%ec%84%b1%ea%b3%b5-%ea%b8%b0%eb%85%90-%ea%b8%b0%eb%8a%a5-%ec%b4%9d%ec%a0%95%eb%a6%ac/" />
+<!-- /all in one seo pack -->
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 피드" href="http://da.nala.ga/feed/" />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 댓글 피드" href="http://da.nala.ga/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 카카오미니 예약 성공 기념, 기능 총정리&#8230; 댓글 피드" href="http://da.nala.ga/%ec%b9%b4%ec%b9%b4%ec%98%a4%eb%af%b8%eb%8b%88-%ec%98%88%ec%95%bd-%ec%84%b1%ea%b3%b5-%ea%b8%b0%eb%85%90-%ea%b8%b0%eb%8a%a5-%ec%b4%9d%ec%a0%95%eb%a6%ac/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/da.nala.ga\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.4"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bootstrap-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/bootstrap.min.css?ver=3.3.5' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/font-awesome.min.css?ver=4.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='shaped-blog-stylesheet-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/style.css?ver=4.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/responsive.css' type='text/css' media='all' />
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://da.nala.ga/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://da.nala.ga/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://da.nala.ga/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='레옹 명대사 마틸다가 사랑한 킬러 명작영화' href='http://da.nala.ga/%eb%a0%88%ec%98%b9-%eb%aa%85%eb%8c%80%ec%82%ac-%eb%a7%88%ed%8b%b8%eb%8b%a4%ea%b0%80-%ec%82%ac%eb%9e%91%ed%95%9c-%ed%82%ac%eb%9f%ac-%eb%aa%85%ec%9e%91%ec%98%81%ed%99%94/' />
+<link rel='next' title='종각역고시원가격 [카드] 빨간 조끼로 되찾은 내 인생, &#8216;빅이슈&#8217;' href='http://da.nala.ga/%ec%a2%85%ea%b0%81%ec%97%ad%ea%b3%a0%ec%8b%9c%ec%9b%90%ea%b0%80%ea%b2%a9-%ec%b9%b4%eb%93%9c-%eb%b9%a8%ea%b0%84-%ec%a1%b0%eb%81%bc%eb%a1%9c-%eb%90%98%ec%b0%be%ec%9d%80-%eb%82%b4-%ec%9d%b8%ec%83%9d/' />
+<meta name="generator" content="WordPress 4.8.4" />
+<link rel='shortlink' href='http://da.nala.ga/?p=6805' />
+<link rel="alternate" type="application/json+oembed" href="http://da.nala.ga/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fda.nala.ga%2F%25ec%25b9%25b4%25ec%25b9%25b4%25ec%2598%25a4%25eb%25af%25b8%25eb%258b%2588-%25ec%2598%2588%25ec%2595%25bd-%25ec%2584%25b1%25ea%25b3%25b5-%25ea%25b8%25b0%25eb%2585%2590-%25ea%25b8%25b0%25eb%258a%25a5-%25ec%25b4%259d%25ec%25a0%2595%25eb%25a6%25ac%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://da.nala.ga/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fda.nala.ga%2F%25ec%25b9%25b4%25ec%25b9%25b4%25ec%2598%25a4%25eb%25af%25b8%25eb%258b%2588-%25ec%2598%2588%25ec%2595%25bd-%25ec%2584%25b1%25ea%25b3%25b5-%25ea%25b8%25b0%25eb%2585%2590-%25ea%25b8%25b0%25eb%258a%25a5-%25ec%25b4%259d%25ec%25a0%2595%25eb%25a6%25ac%2F&#038;format=xml" />
+
+	<style>
+
+		/* Border Color */
+		.btn-social:hover,
+		blockquote,
+		#respond input:focus[type="text"], 
+	    #respond input:focus[type="email"], 
+	    #respond input:focus[type="url"],
+	    #respond textarea:focus,
+	    #comments .comment-reply a:hover
+		{
+			border-color: ;
+		}
+
+		
+		/* Background Color */
+		.scroll-up a,
+		.btn-social:hover,
+		button,
+		input[type="button"],
+		input[type="reset"],
+		input[type="submit"],
+		.navbar-default .navbar-nav .dropdown-menu li a:hover, .dropdown-menu li a:focus, .navbar-default .navbar-nav .dropdown-menu .active a,
+		.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover, .pagination li .current,
+		.next-previous-posts .next-post a:hover,
+		.next-previous-posts .previous-post a:hover,
+		.btn-goback,
+		.btn-submit,
+		a.more-link,
+		.featured-post .fa,
+		#comments .comment-reply a:hover,
+		.widget .tagcloud a
+		{
+			background-color: ;
+		}
+
+		
+		/* Color */
+		.text-logo a,
+		.navbar-default .navbar-nav .active a, .navbar-default .navbar-nav .active a:hover, .navbar-default .navbar-nav .active a:focus,
+		.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus,
+		a:hover,
+    	a:focus,
+		.next-previous-posts .previous-post a,
+		.next-previous-posts .next-post a,
+		.pagination>li>a, .pagination>li>span,
+		#comments .comment-author a:hover, 
+    	#respond .logged-in-as a:hover,
+    	#wp-calendar a,
+    	h2.entry-title a:hover
+		{
+			color: ;
+		}
+
+
+		/* A Color */
+		a{
+			color: ;
+		}
+
+		/* a:hover Color */
+		a:hover,
+		a:focus,
+		a:active,
+		.widget a:hover,
+		.post .post-content .entry-meta ul li a:hover
+		{
+			color: ;
+		}
+
+		/* .featured-post .fa:after*/
+		.featured-post .fa:after{
+			border-color:   transparent ;
+		}
+
+
+		
+
+	</style>
+</head>
+
+<body class="post-template-default single single-post postid-6805 single-format-standard">
+
+    <div id="st-preloader">
+        <div id="pre-status">
+            <div class="preload-placeholder"></div>
+        </div>
+    </div>
+<!-- /Preloader -->
+
+<header id="header">	
+	<div id="trueHeader">
+    	<div class="wrapper">
+            <div class="container">
+            	<!-- Menu -->
+            	<div class="menu_main">
+                	<div class="navbar blogx-navbar navbar-default">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#st-navber-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+
+                                                            <div class="text-logo">
+                                    <a href="http://da.nala.ga">All About CC</a>
+                                    <p>All About CC Contents</p>
+                                </div><!-- /Logo -->
+                                                    </div>
+                      
+                        <div id="st-navber-collapse" class="navbar-collapse collapse pull-right">
+                             
+                        </div>
+                    </div>
+            	</div><!-- end menu -->
+        	</div> <!-- /.container -->
+    	</div>
+	</div>
+	<DIV class='ads_adsense_img' style='margin:40px 0px 40px 0px;'>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- only display -->
+	<ins class="adsbygoogle"
+	     style="display:block"
+	     data-ad-client="ca-pub-8393857339019314"
+	     data-ad-slot="7474886381"
+	     data-ad-format="auto"></ins>
+	<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+	</DIV>	
+</header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div id="primary" class="content-area">
+                    <main id="main" class="site-main" role="main">
+
+                        
+                                <article id="post-6805" class="post-6805 post type-post status-publish format-standard hentry category-uncategorized tag-1845 tag-2847 tag-6782 tag-2489 tag-179 tag-10814">
+    <header class="entry-header">
+        
+        
+    </header> <!--/.entry-header -->
+
+    <div class="clearfix post-content media">
+
+        <h2 class="entry-title">
+            카카오미니 예약 성공 기념, 기능 총정리&#8230;        </h2> <!-- //.entry-title -->
+
+        <div class="clearfix entry-meta">
+            
+            <ul class="list-inline">
+                <li>
+                    <span class="author vcard">
+                        By <a class="url fn n" href="http://da.nala.ga/author/site-admin/">site-admin</a>                    </span>
+                </li>
+                <li>
+                    on <span class="posted-on">1월 10, 2018</span>
+                </li>
+                                    <li>
+                        in <span class="posted-in">
+                            <a href="http://da.nala.ga/category/uncategorized/" rel="category tag">미분류</a>                        </span>
+                    </li>
+                            </ul>
+                </div> <!--/.entry-meta -->
+        
+        <div class="entry-summary">
+            <p><img src='http://cfile6.uf.tistory.com/image/994C9E3359BF44191A90D9' style='max-width:250px;min-width:0px;' onError='this.style.display="none"' /></p>
+<h1>3줄 요약 </h1>
+<div style='color:#fff;background-color:#000;border-radius:10px;'>
+<ol>
+<li><span>&#8220;지금 중국 베이징 몇 시야?&#8221;</span></li>
+<li><span>&#8220;사자자리 운세 알려줘&#8221;</span></li>
+<li><span>카카오와 백문백답</span></li>
+</ol>
+</div>
+<p><span id="more-6805"></span></p>
+<p><iframe src='http://ad.selfhow.com/rd' width='100%' border=0 frameborder=0 style='height:auto;width:100%'></iframe></p>
+<hr />
+<p>오늘 정말 30분 정도 클릭 계속하다가 정말 운좋게도 예약 성공을 하고 보니&#8230;</p>
+<p> </p>
+<p>더욱더 카카오미니가 사랑스러워지네요.</p>
+<p> </p>
+<p>그래서, 카카오 미니 기능들 총정리 해보았습니다.</p>
+<p> </p>
+<p>생각보다 더 생활이 간편해지고 스마트해질거라는 생각이 듭니다.</p>
+<p> </p>
+<p>일단&#8230;. 카카오미니의 기능들은 아래와 같습니다.</p>
+<p> </p>
+<p style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:1170px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="1.jpg" height="609" src="http://cfile6.uf.tistory.com/image/994C9E3359BF44191A90D9" width="1170"/></span></p>
+<p style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:1170px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="2.jpg" height="691" src="http://cfile2.uf.tistory.com/image/99A9003359BF44190D38FE" width="1170"/></span></p>
+<p style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:1170px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="3.jpg" height="900" src="http://cfile22.uf.tistory.com/image/9988C73359BF441A112350" width="1170"/></span></p>
+<p style="FLOAT: none; TEXT-ALIGN: center; CLEAR: none"><span class="imageblock" style="display:inline-block;width:1170px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="4.jpg" height="235" src="http://cfile21.uf.tistory.com/image/99BA533359BF441A0A4364" width="1170"/></span></p>
+<p> </p>
+<p>각 기능별로 살펴보면,</p>
+<p> </p>
+<p>1) 음악 듣기</p>
+<p>음악 재생<br />&#8220;아이유 좋은 날 들려줘&#8221;<br />&#8220;미녀와 야수 동화 들려줘&#8221;<br />&#8220;나비야 동요 들려줘&#8221;<br />&#8220;비 오는 날에 어울리는 노래 틀어줘&#8221;<br />&#8220;70년대 팝음악 들려줘&#8221;<br />&#8220;최신곡 들려줘&#8221;<br />&#8220;댄스곡 들려줘&#8221;<br />&#8220;내가 좋아요 한 곡 들려줘&#8221;<br />&#8220;내가 많이 들은 곡 들려줘&#8221;<br />&#8220;[아티스트명] 인기곡 들려줘&#8221;<br />&#8220;[아티스트명]이/가 피쳐링한 곡 틀어줘&#8221;<br />&#8220;[작곡가명]이/가 작곡한 노래 들려줘&#8221;</p>
+<p>인기차트 재생<br />&#8220;멜론 탑백 틀어줘&#8221;<br />&#8220;이번 주 인기곡 들려줘&#8221;</p>
+<p>추천 음악 재생<br />&#8220;음악 추천해줘&#8221;<br />&#8220;아이유 좋은 날이랑 비슷한 곡 들려줘&#8221;</p>
+<p>방금그곡 재생<br />&#8220;방금그곡 들려줘&#8221;<br />&#8220;[라디오 프로그램명]에 나온 노래 틀어줘&#8221;<br />&#8220;[TV 프로그램명]에 나온 노래 들려줘&#8221;</p>
+<p>음악 재생 컨트롤<br />&#8220;(음악 재생 중) 그만 틀어&#8221;<br />&#8220;(음악 재생 중) 일시 정지&#8221;<br />&#8220;이전 곡&#8221;<br />&#8220;다음 곡&#8221;<br />&#8220;다시 들려줘&#8221;</p>
+<p>2) 라디오</p>
+<p><em>라디오 재생</em></p>
+<div class="layer_body">
+<div class="desc_feature" style="-ms-content-zooming: none; -ms-user-select: none; -ms-touch-action: pan-y; -ms-touch-select: none">
+<div>
+<p>&#8220;라디오 틀어줘&#8221;<br />&#8220;라디오 들려줘&#8221;<br />&#8220;라디오 듣고 싶어&#8221;<br />&#8220;[방송사] 라디오 들려줘 &#8220;<br />&#8220;[라디오 채널명] 틀어줘&#8221;<br />&#8220;[라디오 주파수] 라디오 틀어줘&#8221;</p>
+</div>
+<div><em>라디오 재생 컨트롤 </em></p>
+<p>&#8220;이전 채널&#8221;<br />&#8220;다음 채널&#8221;<br />&#8220;방금 전 채널로 바꿔줘&#8221;<br />&#8220;이전 채널로 바꿔&#8221;</p>
+</div>
+</div>
+</div>
+<p> </p>
+<p>3) 팟캐스트 듣기</p>
+<p><em>팟캐스트 재생 </em></p>
+<div class="layer_body">
+<div class="desc_feature" style="-ms-content-zooming: none; -ms-user-select: none; -ms-touch-action: pan-y; -ms-touch-select: none">
+<div>
+<p>&#8220;팟캐스트 틀어줘&#8221;<br />&#8220;팟캐스트 들려줘&#8221;<br />&#8220;팟캐스트 듣고 싶어&#8221;<br />&#8220;[팟캐스트 프로그램명] 들려줘&#8221;</p>
+</div>
+<div><em>인기 팟캐스트 재생 </em></p>
+<p>&#8220;인기 있는 팟캐스트 들려줘&#8221;<br />&#8220;추천 팟캐스트 들려줘&#8221;</p>
+</div>
+<div><em>카테고리 팟캐스트 재생 </em></p>
+<p>&#8220;정치 팟캐스트 들려줘&#8221;<br />&#8220;코미디 팟캐스트 틀어&#8221;<br />&#8220;예술 카테고리 팟캐스트 재생해&#8221;<br />&#8220;교육 분야 팟캐스트 듣고 싶어&#8221;</p>
+</div>
+<div><em>팟캐스트 재생 컨트롤</em></p>
+<p>&#8220;이전 편 틀어줘&#8221;<br />&#8220;다음 편 틀어줘&#8221;<br />&#8220;이전 팟캐스트 틀어줘&#8221;<br />&#8220;다음 프로그램 틀어줘 &#8220;<br />&#8220;잠시 멈춰&#8221;<br />&#8220;다시 틀어줘&#8221;<br />&#8220;팟캐스트 그만&#8221;</p>
+</div>
+</div>
+</div>
+<p> </p>
+<p>4) 카톡 음성으로 주고 받기</p>
+<p><em>메시지 확인 </em></p>
+<div class="layer_body">
+<div class="desc_feature" style="-ms-content-zooming: none; -ms-user-select: none; -ms-touch-action: pan-y; -ms-touch-select: none">
+<div>
+<p>&#8220;카카오톡 새로운 메시지 있어?&#8221;<br />&#8220;[친구이름]한테 카톡 온 거 있어?&#8221;<br />&#8220;[단체 채팅방 이름] 채팅방에 새로 온 메시지 있어?&#8221;</p>
+</div>
+<div><em>메시지 보내기</em></p>
+<p>&#8220;[친구이름]한테 카카오톡 보내줘&#8221;<br />&#8220;[친구이름]한테 안녕이라고 카톡 보내줘&#8221;</p>
+</div>
+</div>
+</div>
+<p> </p>
+<p>5) 알람 기능</p>
+<p><em>알람 설정 </em></p>
+<div class="layer_body">
+<div class="desc_feature" style="-ms-content-zooming: none; -ms-user-select: none; -ms-touch-action: pan-y; -ms-touch-select: none">
+<div>
+<p>&#8220;오전 7시에 알람 맞춰줘&#8221;<br />&#8220;매일 오전 7시에 깨워줘&#8221;<br />&#8220;평일 아침 7시에 모닝콜 해줘&#8221;<br />&#8220;열 시간 뒤에 깨워줘&#8221;</p>
+</div>
+<div><em>알람 확인 </em></p>
+<p>&#8220;알람 언제 울려?&#8221;<br />&#8220;내일 아침에 알람 몇 시야?&#8221;<br />&#8220;월요일에 알람 뭐 있어?&#8221;<br />&#8220;화요일 알람 확인해줘&#8221;</p>
+</div>
+<div><em>알람 삭제 </em></p>
+<p>&#8220;알람 다 지워줘&#8221;<br />&#8220;오전 알람 없애줘&#8221;<br />&#8220;오전 7시 알람 삭제해줘&#8221;</p>
+</div>
+<div><em>알람 끄기 </em></p>
+<p>&#8220;알람 다 꺼줘&#8221;<br />&#8220;전체 알람 비활성화해줘&#8221;<br />&#8220;오전 알람 꺼줘&#8221;<br />&#8220;아침 7시 알람 꺼줘&#8221;</p>
+</div>
+<div><em>알람 켜기 </em></p>
+<p>&#8220;알람 다 켜줘&#8221;<br />&#8220;전체 알람 활성화해줘&#8221;<br />&#8220;오전 알람 켜줘&#8221;<br />&#8220;오후 9시 알람 켜줘&#8221;</p>
+</div>
+<div><em>알람 음악 설정</em></p>
+<p>&#8220;기본 알람음으로 변경해줘&#8221;<br />&#8220;[노래제목]으로 알람 음악 설정해줘&#8221;<br />&#8220;지금 알람 음악 뭐야?&#8221;</p>
+</div>
+</div>
+</div>
+<p> </p>
+<p>6) 타이머</p>
+<p><em>시간 타이머 </em></p>
+<div class="layer_body">
+<div class="desc_feature" style="-ms-content-zooming: none; -ms-user-select: none; -ms-touch-action: pan-y; -ms-touch-select: none">
+<div>
+<p>&#8220;1분 30초 타이머 시작해줘&#8221;<br />&#8220;5분 카운트다운 시작해줘&#8221;<br />&#8220;3분 타이머 스타트해줘&#8221;</p>
+</div>
+<div><em>생활 타이머</em></p>
+<p>&#8220;라면 타이머 등록해줘&#8221;<br />&#8220;양치질 타이머 맞춰줘&#8221;<br />&#8220;마스크팩 타이머 설정해줘&#8221;<br />&#8220;계란 반숙 타이머 스타트해줘&#8221;<br />&#8220;계란 완숙 타이머 실행해줘&#8221;<br />&#8220;수능 모의고사 타이머 켜줘&#8221;<br />&#8220;토익 시험 타이머 틀어줘&#8221;</p>
+</div>
+<div><em>타이머 시간 확인</em></p>
+<p>&#8220;타이머 몇 분 남았어?&#8221;<br />&#8220;타이머 시간 얼마나 남았어?&#8221;<br />&#8220;지금 타이머 진행 중이야?&#8221;<br />&#8220;타이머 언제 끝나?&#8221;</p>
+</div>
+<div><em>타이머 중단</em></p>
+<p>&#8220;타이머 취소해줘&#8221;<br />&#8220;타이머 멈춰줘&#8221;<br />&#8220;타이머 꺼줘&#8221;</p>
+</div>
+<div><em>타이머 재시작 </em></p>
+<p>&#8220;타이머 다시 시작해줘&#8221;<br />&#8220;타이머 재시작해줘&#8221;<br />&#8220;아까 그 타이머 시작해줘&#8221;</p>
+</div>
+</div>
+</div>
+<p> </p>
+<p>7) 날씨</p>
+<p><em>현재 날씨 </em></p>
+<div class="layer_body">
+<div class="desc_feature" style="-ms-content-zooming: none; -ms-user-select: none; -ms-touch-action: pan-y; -ms-touch-select: none">
+<div>
+<p>&#8220;지금 밖에 날씨 어때?&#8221;<br />&#8220;현재 날씨 알려줘&#8221;</p>
+</div>
+<div><em>일자별 날씨</em></p>
+<p>&#8211; 오늘부터 10일 동안의 날씨 정보가 제공됩니다<br />&#8220;날씨 알려줘&#8221;<br />&#8220;오늘 날씨 어때?&#8221;<br />&#8220;가로수길 날씨 알려줘&#8221;<br />&#8220;제주도 내일 날씨 알려줘&#8221;<br />&#8220;다음주 화요일 날씨 알려줘 &#8221;<br />&#8220;10월 3일 날씨 알려줘&#8221;</p>
+</div>
+<div><em>주말 날씨 </em></p>
+<p>&#8220;주말 날씨 알려줘&#8221;<br />&#8220;제주도 주말 날씨 알려줘&#8221;</p>
+</div>
+<div><em>주간 날씨 </em></p>
+<p>&#8220;주간 날씨 알려줘&#8221;<br />&#8220;이번 주 날씨 어때?&#8221;<br />&#8220;다음 주 제주도 날씨 어때?&#8221;<br />&#8220;11월 셋째 주 날씨 어때?&#8221;<br />&#8220;크리스마스 날씨 어때?&#8221;</p>
+</div>
+<div><em>시간별 날씨</em></p>
+<p>&#8220;오후 7시 날씨 알려줘&#8221;<br />&#8220;저녁 6시 날씨 어때?&#8221;<br />&#8220;내일 오후 3시 서울 날씨 알려줘&#8221;<br />&#8220;3시간 뒤 날씨 알려줘&#8221;<br />&#8220;2시간 뒤 제주도 날씨 알려줘&#8221;</p>
+</div>
+<div><em>생활 날씨 </em></p>
+<p>&#8211; 오늘부터 모레까지의 생활날씨 정보가 제공됩니다<br />&#8220;밖에 비 와?&#8221;<br />&#8220;내일 제주에 비 소식 있어?&#8221;<br />&#8220;내일 제주도 미세먼지 어때?&#8221;<br />&#8220;오늘 마스크 써야 해?&#8221;<br />&#8220;대기 상태 알려줘&#8221;<br />&#8220;지금 제주도에 바람 많이 불어?&#8221;<br />&#8220;오늘 습도는 어때?&#8221;</p>
+</div>
+<div><em>세계 날씨 </em></p>
+<p>-오늘부터 5일 동안의 해외날씨 정보가 제공됩니다<br />&#8220;오늘 뉴욕 날씨 좋아?&#8221;<br />&#8220;샌프란시스코 날씨 알려줘&#8221;</p>
+</div>
+</div>
+</div>
+<p> </p>
+<p>8) 뉴스</p>
+<p><em>뉴스 </em></p>
+<div class="layer_body">
+<div class="desc_feature" style="-ms-content-zooming: none; -ms-user-select: none; -ms-touch-action: pan-y; -ms-touch-select: none">
+<div>
+<p>&#8220;뉴스 들려줘&#8221;<br />&#8220;오늘 뉴스 알려줘&#8221;<br />&#8220;뉴스 기사 읽어줘&#8221;</p>
+</div>
+<div><em>섹션/카테고리별 뉴스 </em></p>
+<p>&#8220;주요 뉴스 알려줘&#8221;<br />&#8220;연예 뉴스 알려줘&#8221;<br />&#8220;스포츠 뉴스 알려줘&#8221;<br />&#8220;어제 스포츠 뉴스 알려줘&#8221;<br />&#8220;정치 뉴스 알려줘&#8221;<br />&#8220;사회 분야 뉴스 알려줘&#8221;<br />&#8220;과학 카테고리 뉴스 알려줘&#8221;</p>
+</div>
+<div><em>인기/테마 뉴스</em></p>
+<p>&#8220;인기 있는 뉴스 알려줘&#8221;<br />&#8220;댓글 많은 뉴스 알려줘&#8221;<br />&#8220;[키워드] 관련 뉴스 알려줘&#8221;<br />&#8220;[언론사명] 뉴스 들려줘&#8221;</p>
+</div>
+<div><em>영어뉴스</em></p>
+<p>&#8220;영문 뉴스 들려줘&#8221;</p>
+</div>
+<div><em>뉴스 재생 컨트롤 </em></p>
+<p>&#8220;(뉴스 재생 중) 이전 뉴스 틀어줘&#8221;<br />&#8220;(뉴스 재생 중) 다음 뉴스 틀어줘&#8221;<br />&#8220;(뉴스 재생 중) 뉴스 그만&#8221;</p>
+</div>
+<div><em>뉴스 공유 </em></p>
+<p>&#8220;지금 뉴스 나와의 채팅방으로 공유해줘&#8221;<br />&#8220;이 뉴스 카톡으로 나한테 보내줘&#8221;</p>
+</div>
+</div>
+</div>
+<p> </p>
+<p>9) 날짜</p>
+<p><em>날짜 확인 </em></p>
+<div class="layer_body">
+<div class="desc_feature" style="-ms-content-zooming: none; -ms-user-select: none; -ms-touch-action: pan-y; -ms-touch-select: none">
+<div>
+<p>&#8220;오늘 며칠이야&#8221;<br />&#8220;목요일이 며칠이야&#8221;<br />&#8220;내일 날짜&#8221;<br />&#8220;다음 주 월요일이 며칠이야?&#8221;<br />&#8220;내일모레 날짜 알려줘&#8221;<br />&#8220;어제 며칠이야?&#8221;</p>
+</div>
+<div><em>달의 마지막 날 확인 </em></p>
+<p>&#8220;이번 달 며칠까지 있어?&#8221;<br />&#8220;2월 며칠까지 있어?&#8221;</p>
+</div>
+<div><em>요일 확인</em></p>
+<p>&#8220;오늘 수요일이야?&#8221;<br />&#8220;오늘이 무슨 요일이야?&#8221;<br />&#8220;4월 15일이 무슨 요일이야?&#8221;<br />&#8220;11월 30일은 무슨 요일이야?&#8221;</p>
+</div>
+<div><em>달력/공휴일 확인</em></p>
+<p>&#8220;설날이 며칠이야?&#8221;<br />&#8220;올해 추석 며칠이야?&#8221;<br />&#8220;한글날 몇월 며칠이야?&#8221;<br />&#8220;어린이날 무슨 요일이야?&#8221;<br />&#8220;입추가 언제야?&#8221;</p>
+</div>
+<div><em>기념일 확인</em></p>
+<p>&#8220;오늘이 무슨 날이야?&#8221;<br />&#8220;3월 14일은 무슨 날이야?&#8221;</p>
+</div>
+<div><em>양력 음력 변환</em></p>
+<p>&#8220;오늘이 음력 며칠이야?&#8221;<br />&#8220;어제는 음력 며칠이었어?&#8221;<br />&#8220;음력 x월 xx일은 양력으로 몇월 며칠이야?&#8221;<br />&#8220;올해 음력 6월 14일 며칠이지?&#8221;</p>
+</div>
+<div><em>휴일 확인 </em></p>
+<p>&#8220;올해 얼마나 쉬어?&#8221;<br />&#8220;5월에 쉬는 날 며칠 있어?&#8221;<br />&#8220;4월에 쉬는 날 있어?&#8221;</p>
+</div>
+</div>
+</div>
+<p> </p>
+<p>10) 시간</p>
+<p><em>현재시간 확인</em></p>
+<div class="layer_body">
+<div class="desc_feature" style="-ms-content-zooming: none; -ms-user-select: none; -ms-touch-action: pan-y; -ms-touch-select: none">
+<div>
+<p>&#8220;지금 몇 시야?&#8221;<br />&#8220;몇시야?&#8221;<br />&#8220;현재시간&#8221;<br />&#8220;시간 알려줘&#8221;</p>
+</div>
+<div><em>세계시간 확인</em></p>
+<p>&#8220;지금 런던 몇 시야?&#8221;<br />&#8220;지금 중국 베이징 몇 시야?&#8221;<br />&#8220;일본 현재 시간&#8221;<br />&#8220;뉴욕 지금 밤이야?&#8221;<br />&#8220;방콕은 지금 아침이야?&#8221;</p>
+</div>
+<div><em>시차 계산 </em></p>
+<p>&#8220;런던이랑 시차가 얼마지?&#8221;<br />&#8220;방콕이랑 몇 시간 차이나?&#8221;<br />&#8220;프랑스 파리랑 시차 있어?&#8221;<br />&#8220;베이징이랑 도쿄랑 시차 얼마나 나?&#8221;<br />&#8220;런던이랑 한국 시차 알려줘&#8221;</p>
+</div>
+</div>
+</div>
+<p> </p>
+<p>11) 주식</p>
+<p><em>실시간 주가 </em></p>
+<div class="layer_body">
+<div class="desc_feature" style="-ms-content-zooming: none; -ms-user-select: none; -ms-touch-action: pan-y; -ms-touch-select: none">
+<div>
+<p>&#8220;카카오 주가 얼마야?&#8221;<br />&#8220;[회사명] 주식 시세 알려줘&#8221;<br />&#8220;오늘 [회사명] 주가 얼마야?&#8221;</p>
+</div>
+<div><em>종합 증시</em></p>
+<p>&#8220;오늘 코스피 알려줘&#8221;<br />&#8220;한국증시 알려줘&#8221;</p>
+</div>
+</div>
+</div>
+<p> </p>
+<p>12) 환율</p>
+<p><em>환율정보</em></p>
+<div class="layer_body">
+<div class="desc_feature" style="-ms-content-zooming: none; -ms-user-select: none; -ms-touch-action: pan-y; -ms-touch-select: none">
+<div>
+<p>&#8220;미국 환율&#8221;<br />&#8220;유로 환율 얼마야?&#8221;<br />&#8220;오늘 엔화 환율 알려줘&#8221;</p>
+</div>
+<div><em>환율 계산</em></p>
+<p>&#8220;달러를 호주 돈으로 하면 얼마야?&#8221;<br />&#8220;125달러가 한국 돈으로 얼마야?&#8221;<br />&#8220;100만원 태국 돈으로 얼마야?&#8221;<br />&#8220;86유로 미국 달러로 바꾸면 얼마야?&#8221;</p>
+</div>
+</div>
+</div>
+<p> </p>
+<p>13) 운세</p>
+<p><em>운세 일반 </em></p>
+<div class="layer_body">
+<div class="desc_feature" style="-ms-content-zooming: none; -ms-user-select: none; -ms-touch-action: pan-y; -ms-touch-select: none">
+<div>
+<p>&#8211; 날짜별 운세는 오늘/내일에 해당하는 날짜만 제공됩니다<br />&#8220;운세 알려줘&#8221;<br />&#8220;무료 운세 알려줘&#8221;<br />&#8220;2017년 10월 16일 운세 어때?&#8221;<br />&#8220;2017년 운세 알려줘&#8221;<br />&#8220;2017년 10월 운세 알려줘&#8221;</p>
+</div>
+<div><em>띠별 운세 </em></p>
+<p>&#8220;띠별 운세 알려줘&#8221;<br />&#8220;오늘의 띠별 운세&#8221;<br />&#8220;이번 주 돼지띠 운세 알려줘&#8221;<br />&#8220;87년생 토끼띠 운세&#8221;<br />&#8220;10월 16일 말띠 운세 어때?&#8221;</p>
+</div>
+<div><em>별자리 운세 </em></p>
+<p>&#8220;별자리 운세 알려줘&#8221;<br />&#8220;오늘의 별자리 운세&#8221;<br />&#8220;이번 주 물병자리 운세 알려줘&#8221;<br />&#8220;사자자리 운세 알려줘&#8221;</p>
+</div>
+<div><em>신년 운세</em></p>
+<p>&#8211; 신년 운세는 매년 12월 01일 부터 다음 해 02월 29일 까지만 제공됩니다<br />&#8220;개띠 신년 운세 알려줘&#8221;<br />&#8220;원숭이띠 토정비결 어때?&#8221;<br />&#8220;82년생 신년운세&#8221;<br />&#8220;1991년생 양띠 신년운세 알려줘&#8221;</p>
+</div>
+</div>
+</div>
+<p> </p>
+<p>14) 로또</p>
+<p><em>로또 당첨번호 </em></p>
+<div class="layer_body">
+<div class="desc_feature" style="-ms-content-zooming: none; -ms-user-select: none; -ms-touch-action: pan-y; -ms-touch-select: none">
+<div>
+<p>&#8220;로또 번호 알려줘&#8221;<br />&#8220;700회 로또 번호 알려줘&#8221;<br />&#8220;1회 로또 번호는 뭐였어?&#8221;<br />&#8220;10월 14일 로또 알려줘&#8221;<br />&#8220;지난주 로또 번호 알려줘&#8221;</p>
+</div>
+<div><em>로또 당첨금 </em></p>
+<p>&#8220;로또 당첨금액 알려줘&#8221;<br />&#8220;로또 700회 당첨금액 알려줘&#8221;<br />&#8220;2등 로또 당첨금액 알려줘&#8221;<br />&#8220;10월 7일 로또 1등 당첨금 얼마야?&#8221;</p>
+</div>
+<div><em>로또 당첨자</em></p>
+<p>&#8220;로또 당첨자 몇 명이야?&#8221;<br />&#8220;로또 1등 당첨자 수 알려줘&#8221;<br />&#8220;10월 14일 로또 당첨자 알려줘&#8221;<br />&#8220;700회 당첨자 수 알려줘&#8221;</p>
+</div>
+<div><em>로또 추천번호 </em></p>
+<p>&#8220;로또 번호 추천해줘 &#8220;<br />&#8220;로또 예상번호 알려줘&#8221;</p>
+</div>
+</div>
+</div>
+<p> </p>
+<p>15) 인물</p>
+<p><em>인물 이름 정보 </em></p>
+<div class="layer_body">
+<div class="desc_feature" style="-ms-content-zooming: none; -ms-user-select: none; -ms-touch-action: pan-y; -ms-touch-select: none">
+<div>
+<p>&#8220;[인물명] 본명이 뭐야?&#8221;<br />&#8220;[인물명] 본명 알려줘&#8221;</p>
+</div>
+<div><em>기본 프로필 정보</em></p>
+<p>&#8220;[인물명] 알려줘&#8221;<br />&#8220;[인물명]이 누구야?&#8221;<br />&#8220;[인물명] 몇 살이야?&#8221;<br />&#8220;[인물명] 생일 알려줘&#8221;<br />&#8220;[인물명] 직업이 뭐야?&#8221;<br />&#8220;[인물명] 생일 언제야?&#8221;</p>
+</div>
+<div><em>신체사이즈 정보 </em></p>
+<p>&#8220;[인물명] 키 몇이야?&#8221;<br />&#8220;[인물명] 몸무게 몇이야?&#8221;</p>
+</div>
+<div><em>혈액형 정보 </em></p>
+<p>&#8220;[인물명] 혈액형 알려줘&#8221;<br />&#8220;[인물명] 혈액형 무슨형이야?&#8221;</p>
+</div>
+<div><em>인물 소속 정보</em></p>
+<p>&#8220;[그룹명] 멤버 알려줘&#8221;<br />&#8220;[스포츠 선수명] 소속구단이 어디지?&#8221;<br />&#8220;[스포츠 선수명] 포지션이 뭐야?&#8221;</p>
+</div>
+<div><em>데뷔/경력/수상 정보 </em></p>
+<p>&#8220;[아티스트명] 데뷔 언제 했어?&#8221;<br />&#8220;[아티스트명] 경력은?&#8221;<br />&#8220;[아티스트명] 약력은?&#8221;<br />&#8220;[아티스트명] 수상 정보 궁금해&#8221;</p>
+</div>
+<div><em>학교/학력 정보</em></p>
+<p>&#8220;[인물명] 학력이 뭐야?&#8221;<br />&#8220;[인물명] 최근 학력은?&#8221;</p>
+</div>
+<div><em>가족 정보</em></p>
+<p>&#8220;[인물명] 남편이 누구야?&#8221;<br />&#8220;[인물명] 아들이 누구야?&#8221;</p>
+</div>
+</div>
+</div>
+<p> </p>
+<p>16) 일정</p>
+<p><em>일정 등록 </em></p>
+<div class="layer_body">
+<div class="desc_feature" style="-ms-content-zooming: none; -ms-user-select: none; -ms-touch-action: pan-y; -ms-touch-select: none">
+<div>
+<p>&#8220;새로운 일정 등록해줘&#8221;<br />&#8220;오늘 오후 3시 일정 등록해줘&#8221;<br />&#8220;다음 주 월요일 5시 캘린더에 등록해줘&#8221;<br />&#8220;다음 주 월요일에 저녁 약속 캘린더에 추가해줘&#8221;<br />&#8220;7월 21일에 스케줄 등록해줘&#8221;<br />&#8220;18일 스케줄 추가해줘&#8221;</p>
+</div>
+<div><em>일정 조회 </em></p>
+<p>&#8220;오늘 일정 알려줘&#8221;<br />&#8220;다음 주에 일정 있어?&#8221;<br />&#8220;오늘 3시에 회의 있어?&#8221;<br />&#8220;오늘 저녁에 약속 있어?&#8221;</p>
+</div>
+<div><em>일정 삭제 </em></p>
+<p>&#8220;오늘 일정 삭제해줘&#8221;<br />&#8220;오늘 일정 다 삭제 취소해줘&#8221;<br />&#8220;다음 주 일정 삭제해줘&#8221;<br />&#8220;오늘 3시 일정 캘린더에서 삭제해줘&#8221;<br />&#8220;다음 주 월요일 회식 스케줄 삭제해줘&#8221;<br />&#8220;내일 4시까지 일정 삭제해줘&#8221;</p>
+</div>
+</div>
+</div>
+<p> </p>
+<p>17) 메모</p>
+<p><em>메모</em></p>
+<div class="layer_body">
+<div class="desc_feature" style="-ms-content-zooming: none; -ms-user-select: none; -ms-touch-action: pan-y; -ms-touch-select: none">
+<div>
+<p>&#8220;메모해줘&#8221;<br />&#8220;나와의 채팅방에 메모해줘&#8221;<br />&#8220;나와의 채팅방에 세차하라고 메모해줘&#8221;<br />&#8220;오늘 장 봐야 한다고 나와의 채팅방에 메모해줘&#8221;</p>
+</div>
+</div>
+</div>
+<p> </p>
+<p>18) 게임</p>
+<p><em>게임 시작/종료 </em></p>
+<div class="layer_body">
+<div class="desc_feature" style="-ms-content-zooming: none; -ms-user-select: none; -ms-touch-action: pan-y; -ms-touch-select: none">
+<div>
+<p>&#8220;스무고개 게임하자&#8221;<br />&#8220;구구단 게임하자&#8221;<br />&#8220;게임 그만할래&#8221;<br />&#8220;게임 종료!&#8221;</p>
+</div>
+<div><em>스무고개 </em></p>
+<p>&#8220;스무고개 게임하자&#8221;<br />&#8220;스무고개 하자&#8221;<br />&#8220;동물 스무고개 시작&#8221;</p>
+</div>
+<div><em>구구단 </em></p>
+<p>&#8220;구구단 게임 시작&#8221;<br />&#8220;쉬운 구구단 게임 할래?&#8221;<br />&#8220;어려운 구구단 게임 시작&#8221;<br />&#8220;구구단 게임 5단 시작&#8221;<br />&#8220;15단 구구단 시작&#8221;</p>
+</div>
+</div>
+</div>
+<p> </p>
+<p>19) 일상 대화</p>
+<p><em>인사</em></p>
+<div class="layer_body">
+<div class="desc_feature" style="-ms-content-zooming: none; -ms-user-select: none; -ms-touch-action: pan-y; -ms-touch-select: none">
+<div>
+<p>&#8220;반가워&#8221;<br />&#8220;좋은 아침&#8221;<br />&#8220;잘자&#8221;<br />&#8220;다녀올게&#8221;<br />&#8220;안녕&#8221;<br />&#8220;감사합니다&#8221;<br />&#8220;고마워&#8221;<br />&#8220;미안해&#8221;<br />&#8220;잘 있었어?&#8221;</p>
+</div>
+<div><em>가벼운 대화</em></p>
+<p>&#8220;너는 정말 대단해&#8221;<br />&#8220;나 오늘 생일이야&#8221;<br />&#8220;누가 위로해 줬으면 좋겠다&#8221;<br />&#8220;답답해&#8221;<br />&#8220;너무 외로워&#8221;<br />&#8220;애인 생겼으면 좋겠다&#8221;<br />&#8220;나 피곤해&#8221;<br />&#8220;나를 위해 기도해줘&#8221;<br />&#8220;나 다이어트 할거야&#8221;<br />&#8220;내 비밀 얘기해줄까?&#8221;<br />&#8220;나 졸려&#8221;</p>
+</div>
+<div><em>카카오와 백문백답 </em></p>
+<p>&#8220;자기소개 해봐 &#8220;<br />&#8220;너 몇 살이야?&#8221;<br />&#8220;비밀 얘기해줘&#8221;<br />&#8220;명대사 해봐&#8221;</p>
+</div>
+</div>
+</div>
+<p> </p>
+<p>20) 스피커 제어</p>
+<p><em>볼륨 컨트롤 </em></p>
+<div class="layer_body">
+<div class="desc_feature" style="-ms-content-zooming: none; -ms-user-select: none; -ms-touch-action: pan-y; -ms-touch-select: none">
+<div>
+<p>&#8220;볼륨 5로 맞춰줘&#8221;<br />&#8220;볼륨 줄여줘&#8221;<br />&#8220;볼륨 많이 높여줘&#8221;<br />&#8220;최대 볼륨으로 설정해줘&#8221;<br />&#8220;음소거 해줘&#8221;</p>
+</div>
+<div><em>블루투스 연결</em></p>
+<p>&#8220;블루투스 기기 연결해줘&#8221;<br />&#8220;블루투스 스피커랑 연결해줘&#8221;<br />&#8220;블루투스 기기 연결 끊어&#8221;</p>
+</div>
+<div><em>예약 </em></p>
+<p>&#8220;2시간 뒤에 수면예약 해줘&#8221;<br />&#8220;수면예약 취소해줘&#8221;</p>
+</div>
+</div>
+</div>
+<p> </p>
+<p>21) 카카오 택시 예약 (준비중)</p>
+<p>22) 카카오 음식 주문 등&#8230;.. (준비중)</p>
+<p> </p>
+<p> </p>
+<p>후아.. 정말 많네요. 총 20여가지의 다양한 기능들이 있네요.</p>
+<p> </p>
+<p>그런데&#8230;. 카카오미니가 추천해 준 로또 번호가 실제  당첨된다면&#8230; 어떻게 되는건가요.. ㅎㅎㅎㅎ</p>
+<p> </p>
+<p>아무튼.. 카카오 미니가&#8230;.  굉장히 편리한 세상을 만들어 나갈 것 같은 좋은 예감이 듭니다.</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<div style="text-align:center;margin:10px 0 10px 0;">
+</div>
+<hr />
+<p><iframe src='http://ad.selfhow.com/rd' width='100%' border=0 frameborder=0 style='height:auto;width:100%'></iframe></p>
+<p><a href='http://relaxcityman.tistory.com/100' target='_blank'>Origin Content : 도시남 숨쉬기 프로젝트</a> | <a href="/cdn-cgi/l/email-protection#dbbeb8b484b8b8ebebea9bb5bab7baf5bcba" target='_blank'>Contact : <span class="__cf_email__" data-cfemail="0267616d5d6161323233426c636e632c6563">[email&#160;protected]</span></a>
+</p>
+<p>Cotent License : CC-BY </p>
+<p>This content is collected under the CCL license.</p>
+<p>Please check the license of the original article before asking about copyright.</p>
+<ul>
+<li><a href='/tag/카카오미니'>More About <span style='font-weight:bold;'>카카오미니</span></a></li>
+<li><a href='/tag/예약'>More About <span style='font-weight:bold;'>예약</span></a></li>
+<li><a href='/tag/성공'>More About <span style='font-weight:bold;'>성공</span></a></li>
+<li><a href='/tag/기념'>More About <span style='font-weight:bold;'>기념</span></a></li>
+<li><a href='/tag/기능'>More About <span style='font-weight:bold;'>기능</span></a></li>
+<li><a href='/tag/총정리'>More About <span style='font-weight:bold;'>총정리</span></a></li>
+</ul>
+        </div> <!-- //.entry-summary -->
+        
+                    <div class="entry-tags"><b>Tags:</b> <a href="http://da.nala.ga/tag/%ea%b8%b0%eb%85%90/" rel="tag">기념</a>, <a href="http://da.nala.ga/tag/%ea%b8%b0%eb%8a%a5/" rel="tag">기능</a>, <a href="http://da.nala.ga/tag/%ec%84%b1%ea%b3%b5/" rel="tag">성공</a>, <a href="http://da.nala.ga/tag/%ec%98%88%ec%95%bd/" rel="tag">예약</a>, <a href="http://da.nala.ga/tag/%ec%b4%9d%ec%a0%95%eb%a6%ac/" rel="tag">총정리</a>, <a href="http://da.nala.ga/tag/%ec%b9%b4%ec%b9%b4%ec%98%a4%eb%af%b8%eb%8b%88/" rel="tag">카카오미니</a></div>
+        
+    </div>
+
+</article> <!--/#post-->
+
+
+
+
+
+                                                                    <div class="post-nav-area">
+                                                    
+            <nav class="next-previous-post clearfix media" role="navigation">
+                <div class="row">
+                    <!-- Previous Post -->
+                    <div class="previous-post col-sm-6 pull-left">
+                        <div class="nav-previous"><i class="fa fa-angle-left"></i> <a href="http://da.nala.ga/%eb%a0%88%ec%98%b9-%eb%aa%85%eb%8c%80%ec%82%ac-%eb%a7%88%ed%8b%b8%eb%8b%a4%ea%b0%80-%ec%82%ac%eb%9e%91%ed%95%9c-%ed%82%ac%eb%9f%ac-%eb%aa%85%ec%9e%91%ec%98%81%ed%99%94/" rel="prev">레옹 명대사 마틸다가 사랑한 킬러 명작영화</a></div>                    </div>
+
+                    <!-- Next Post -->
+                    <div class="next-post col-sm-6 pull-right text-right">
+                        <div class="nav-next"><a href="http://da.nala.ga/%ec%a2%85%ea%b0%81%ec%97%ad%ea%b3%a0%ec%8b%9c%ec%9b%90%ea%b0%80%ea%b2%a9-%ec%b9%b4%eb%93%9c-%eb%b9%a8%ea%b0%84-%ec%a1%b0%eb%81%bc%eb%a1%9c-%eb%90%98%ec%b0%be%ec%9d%80-%eb%82%b4-%ec%9d%b8%ec%83%9d/" rel="next">종각역고시원가격 [카드] 빨간 조끼로 되찾은 내 인생, &#8216;빅이슈&#8217;</a> <i class="fa fa-angle-right"></i></div>                    </div>
+                </div>
+            </nav><!-- .navigation -->
+            
+                                            </div>
+                                
+                                
+                            
+                                            </main> <!-- /.site-main -->
+                </div>  <!-- /.content-area -->
+            </div> <!-- /col -->
+
+            <!-- Blogsidebar -->
+            
+	<div class="col-md-4">
+	    <div class="primary-sidebar widget-area" role="complementary">
+	        <div id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="http://da.nala.ga/">
+				<label>
+					<span class="screen-reader-text">검색:</span>
+					<input type="search" class="search-field" placeholder="검색 &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="검색" />
+			</form></div>		<div id="recent-posts-2" class="widget widget_recent_entries">		<h2 class="widget-title">최근 글</h2>		<ul>
+					<li>
+				<a href="http://da.nala.ga/%ea%b5%90%ed%99%98%ed%95%99%ec%83%9d%ec%a4%80%eb%b9%84part2-%ed%94%84%eb%9e%91%ec%8a%a4-sciences-po-%ec%a7%80%ec%9b%90-%ea%b3%bc%ec%a0%95%ea%b3%bc-%ea%b7%b8-%ec%a0%84-%ec%95%8c%ec%95%84%ec%95%bc/">[교환학생준비PART2] 프랑스 Sciences Po 지원 과정과 그 전 알아야할 것들!</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%b0%95%ea%b7%bc%ed%98%9c-%ec%b5%9c%ec%88%9c%ec%8b%a4-%ea%b2%8c%ec%9d%b4%ed%8a%b8%eb%a5%bc-%eb%b0%9d%ed%98%80%eb%82%b8-%ec%9d%bc%eb%93%b1%ea%b3%b5%ec%8b%a0-%ec%95%88%eb%af%bc%ec%84%9d/">박근혜 최순실 게이트를 밝혀낸 일등공신 안민석</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%b0%b0%ed%8b%80%ea%b7%b8%eb%9d%bc%ec%9a%b4%eb%93%9c-%ec%a0%95%ec%8b%9d%eb%b2%84%ec%a0%84-1-0%ed%8c%a8%ec%b9%98-%eb%ac%b4%ec%97%87%ec%9d%b4-%eb%b0%94%eb%80%8c%eb%82%98%ec%9a%94/">배틀그라운드 정식버전 1.0패치 무엇이 바뀌나요?</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%91%90%eb%87%8c%eb%a5%bc-%ea%b1%b4%ea%b0%95%ed%95%98%ea%b2%8c-%eb%a7%8c%eb%93%9c%eb%8a%94-4%ec%b2%9c%eb%b3%b4%ec%9d%98-%ea%b1%b8%ec%9d%8c/">두뇌를 건강하게 만드는 4천보의 걸음</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%af%b8%ea%b5%ad-%ec%9c%a0%ed%95%99-%ec%a0%95%eb%b3%b4-%ed%95%9c%ea%b5%ad-%eb%82%b4%ec%8b%a0-%ec%84%b1%ec%a0%81%eb%a7%8c%ec%9c%bc%eb%a1%9c-%eb%af%b8%ea%b5%ad-%eb%aa%85%eb%ac%b8%eb%8c%80-%ea%b0%80/">미국 유학  정보 &#8211; 한국 내신 성적만으로 미국 명문대 가기</a>
+						</li>
+				</ul>
+		</div>		<div id="tag_cloud-2" class="widget widget_tag_cloud"><h2 class="widget-title">태그</h2><div class="tagcloud"><a href="http://da.nala.ga/tag/1%ec%9b%94/" class="tag-cloud-link tag-link-35 tag-link-position-1" style="font-size: 14.892307692308pt;" aria-label="1월 (47 아이템)">1월</a>
+<a href="http://da.nala.ga/tag/2017/" class="tag-cloud-link tag-link-510 tag-link-position-2" style="font-size: 19.415384615385pt;" aria-label="2017 (76 아이템)">2017</a>
+<a href="http://da.nala.ga/tag/2017%eb%85%84/" class="tag-cloud-link tag-link-8 tag-link-position-3" style="font-size: 18.123076923077pt;" aria-label="2017년 (66 아이템)">2017년</a>
+<a href="http://da.nala.ga/tag/2018/" class="tag-cloud-link tag-link-61 tag-link-position-4" style="font-size: 14.461538461538pt;" aria-label="2018 (45 아이템)">2018</a>
+<a href="http://da.nala.ga/tag/2018%eb%85%84/" class="tag-cloud-link tag-link-103 tag-link-position-5" style="font-size: 18.984615384615pt;" aria-label="2018년 (73 아이템)">2018년</a>
+<a href="http://da.nala.ga/tag/vs/" class="tag-cloud-link tag-link-943 tag-link-position-6" style="font-size: 9.5076923076923pt;" aria-label="vs (26 아이템)">vs</a>
+<a href="http://da.nala.ga/tag/%ec%98%81%ed%99%94/" class="tag-cloud-link tag-link-1375 tag-link-position-7" style="font-size: 14.246153846154pt;" aria-label="“영화 (44 아이템)">“영화</a>
+<a href="http://da.nala.ga/tag/%ea%b0%80%ea%b2%a9/" class="tag-cloud-link tag-link-63 tag-link-position-8" style="font-size: 12.953846153846pt;" aria-label="가격 (38 아이템)">가격</a>
+<a href="http://da.nala.ga/tag/%ea%b0%80%ec%83%81%ed%99%94%ed%8f%90/" class="tag-cloud-link tag-link-1479 tag-link-position-9" style="font-size: 9.0769230769231pt;" aria-label="가상화폐 (25 아이템)">가상화폐</a>
+<a href="http://da.nala.ga/tag/%ea%b2%80%ec%9d%80%ec%82%ac%eb%a7%89/" class="tag-cloud-link tag-link-341 tag-link-position-10" style="font-size: 8.8615384615385pt;" aria-label="검은사막 (24 아이템)">검은사막</a>
+<a href="http://da.nala.ga/tag/%ea%b2%8c%ec%9e%84/" class="tag-cloud-link tag-link-391 tag-link-position-11" style="font-size: 22pt;" aria-label="게임 (102 아이템)">게임</a>
+<a href="http://da.nala.ga/tag/%ea%b3%b5%ea%b0%9c/" class="tag-cloud-link tag-link-938 tag-link-position-12" style="font-size: 9.5076923076923pt;" aria-label="공개 (26 아이템)">공개</a>
+<a href="http://da.nala.ga/tag/%ea%b3%b5%eb%9e%b5/" class="tag-cloud-link tag-link-1018 tag-link-position-13" style="font-size: 8.8615384615385pt;" aria-label="공략 (24 아이템)">공략</a>
+<a href="http://da.nala.ga/tag/%eb%8b%a4%ec%9a%b4%eb%a1%9c%eb%93%9c/" class="tag-cloud-link tag-link-364 tag-link-position-14" style="font-size: 8.4307692307692pt;" aria-label="다운로드 (23 아이템)">다운로드</a>
+<a href="http://da.nala.ga/tag/%eb%8c%80%ed%95%b4%ec%84%9c/" class="tag-cloud-link tag-link-1629 tag-link-position-15" style="font-size: 8.8615384615385pt;" aria-label="대해서 (24 아이템)">대해서</a>
+<a href="http://da.nala.ga/tag/%eb%a6%ac%eb%b7%b0/" class="tag-cloud-link tag-link-555 tag-link-position-16" style="font-size: 15.969230769231pt;" aria-label="리뷰 (53 아이템)">리뷰</a>
+<a href="http://da.nala.ga/tag/%eb%a7%9b%ec%a7%91/" class="tag-cloud-link tag-link-4173 tag-link-position-17" style="font-size: 9.9384615384615pt;" aria-label="맛집 (27 아이템)">맛집</a>
+<a href="http://da.nala.ga/tag/%eb%aa%a8%eb%b0%94%ec%9d%bc/" class="tag-cloud-link tag-link-835 tag-link-position-18" style="font-size: 10.584615384615pt;" aria-label="모바일 (29 아이템)">모바일</a>
+<a href="http://da.nala.ga/tag/%eb%ac%b4%eb%a3%8c/" class="tag-cloud-link tag-link-827 tag-link-position-19" style="font-size: 13.384615384615pt;" aria-label="무료 (40 아이템)">무료</a>
+<a href="http://da.nala.ga/tag/%eb%b0%a9%eb%b2%95/" class="tag-cloud-link tag-link-529 tag-link-position-20" style="font-size: 15.323076923077pt;" aria-label="방법 (49 아이템)">방법</a>
+<a href="http://da.nala.ga/tag/%eb%b9%84%ed%8a%b8%ec%bd%94%ec%9d%b8/" class="tag-cloud-link tag-link-1478 tag-link-position-21" style="font-size: 9.0769230769231pt;" aria-label="비트코인 (25 아이템)">비트코인</a>
+<a href="http://da.nala.ga/tag/%ec%84%a4%ec%b9%98/" class="tag-cloud-link tag-link-360 tag-link-position-22" style="font-size: 8pt;" aria-label="설치 (22 아이템)">설치</a>
+<a href="http://da.nala.ga/tag/%ec%86%8c%ea%b0%9c/" class="tag-cloud-link tag-link-297 tag-link-position-23" style="font-size: 8.4307692307692pt;" aria-label="소개 (23 아이템)">소개</a>
+<a href="http://da.nala.ga/tag/%ec%88%9c%ec%9c%84/" class="tag-cloud-link tag-link-12 tag-link-position-24" style="font-size: 11.230769230769pt;" aria-label="순위 (31 아이템)">순위</a>
+<a href="http://da.nala.ga/tag/%ec%8b%9c%ec%9e%91/" class="tag-cloud-link tag-link-579 tag-link-position-25" style="font-size: 8.4307692307692pt;" aria-label="시작 (23 아이템)">시작</a>
+<a href="http://da.nala.ga/tag/%ec%95%88%eb%82%b4/" class="tag-cloud-link tag-link-338 tag-link-position-26" style="font-size: 10.584615384615pt;" aria-label="안내 (29 아이템)">안내</a>
+<a href="http://da.nala.ga/tag/%ec%95%8c%ec%95%84%eb%b3%b4%ea%b8%b0/" class="tag-cloud-link tag-link-1939 tag-link-position-27" style="font-size: 12.523076923077pt;" aria-label="알아보기 (36 아이템)">알아보기</a>
+<a href="http://da.nala.ga/tag/%ec%95%8c%ec%95%84%eb%b3%b4%ec%9e%90/" class="tag-cloud-link tag-link-369 tag-link-position-28" style="font-size: 11.661538461538pt;" aria-label="알아보자 (33 아이템)">알아보자</a>
+<a href="http://da.nala.ga/tag/%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8/" class="tag-cloud-link tag-link-567 tag-link-position-29" style="font-size: 9.0769230769231pt;" aria-label="업데이트 (25 아이템)">업데이트</a>
+<a href="http://da.nala.ga/tag/%ec%97%ac%ed%96%89/" class="tag-cloud-link tag-link-1122 tag-link-position-30" style="font-size: 12.738461538462pt;" aria-label="여행 (37 아이템)">여행</a>
+<a href="http://da.nala.ga/tag/%ec%98%a4%eb%b8%8c/" class="tag-cloud-link tag-link-271 tag-link-position-31" style="font-size: 10.8pt;" aria-label="오브 (30 아이템)">오브</a>
+<a href="http://da.nala.ga/tag/%ec%98%a8%eb%9d%bc%ec%9d%b8/" class="tag-cloud-link tag-link-328 tag-link-position-32" style="font-size: 11.876923076923pt;" aria-label="온라인 (34 아이템)">온라인</a>
+<a href="http://da.nala.ga/tag/%ec%9c%84%ed%95%9c/" class="tag-cloud-link tag-link-183 tag-link-position-33" style="font-size: 13.169230769231pt;" aria-label="위한 (39 아이템)">위한</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%eb%b2%a4%ed%8a%b8/" class="tag-cloud-link tag-link-723 tag-link-position-34" style="font-size: 13.169230769231pt;" aria-label="이벤트 (39 아이템)">이벤트</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%ec%95%bc%ea%b8%b0/" class="tag-cloud-link tag-link-861 tag-link-position-35" style="font-size: 10.8pt;" aria-label="이야기 (30 아이템)">이야기</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%ec%9c%a0/" class="tag-cloud-link tag-link-1482 tag-link-position-36" style="font-size: 9.9384615384615pt;" aria-label="이유 (27 아이템)">이유</a>
+<a href="http://da.nala.ga/tag/%ec%9d%bc%eb%b3%b8/" class="tag-cloud-link tag-link-1007 tag-link-position-37" style="font-size: 8.4307692307692pt;" aria-label="일본 (23 아이템)">일본</a>
+<a href="http://da.nala.ga/tag/%ec%a0%95%eb%a6%ac/" class="tag-cloud-link tag-link-65 tag-link-position-38" style="font-size: 11.876923076923pt;" aria-label="정리 (34 아이템)">정리</a>
+<a href="http://da.nala.ga/tag/%ec%a0%95%eb%b3%b4/" class="tag-cloud-link tag-link-610 tag-link-position-39" style="font-size: 17.261538461538pt;" aria-label="정보 (61 아이템)">정보</a>
+<a href="http://da.nala.ga/tag/%ec%b4%9d%ec%a0%95%eb%a6%ac/" class="tag-cloud-link tag-link-179 tag-link-position-40" style="font-size: 8.4307692307692pt;" aria-label="총정리 (23 아이템)">총정리</a>
+<a href="http://da.nala.ga/tag/%ec%b5%9c%ea%b3%a0/" class="tag-cloud-link tag-link-404 tag-link-position-41" style="font-size: 11.876923076923pt;" aria-label="최고 (34 아이템)">최고</a>
+<a href="http://da.nala.ga/tag/%ec%b6%94%ec%b2%9c/" class="tag-cloud-link tag-link-367 tag-link-position-42" style="font-size: 20.707692307692pt;" aria-label="추천 (89 아이템)">추천</a>
+<a href="http://da.nala.ga/tag/%ec%b6%9c%ec%8b%9c/" class="tag-cloud-link tag-link-612 tag-link-position-43" style="font-size: 10.584615384615pt;" aria-label="출시 (29 아이템)">출시</a>
+<a href="http://da.nala.ga/tag/%ed%95%9c%ea%b5%ad/" class="tag-cloud-link tag-link-1483 tag-link-position-44" style="font-size: 10.153846153846pt;" aria-label="한국 (28 아이템)">한국</a>
+<a href="http://da.nala.ga/tag/%ed%9b%84%ea%b8%b0/" class="tag-cloud-link tag-link-114 tag-link-position-45" style="font-size: 19.2pt;" aria-label="후기 (74 아이템)">후기</a></div>
+</div>	    </div>
+	</div>
+
+        </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+    </div>
+    <footer class="site-footer" role="contentinfo">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+  
+                    <p></p>
+                    
+                                            <div class="footer-social-icons">
+                                                                                                                                                                                                                                                                                                                                                                                                        
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+            <div class="scroll-up">
+            <a href="#"><i class="fa fa-angle-up"></i></a>
+        </div>
+        <!-- Scroll Up -->
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/af2821b0/cloudflare-static/email-decode.min.js"></script><script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/bootstrap.min.js?ver=3.3.5'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/scripts.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/jquery.fitvids.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/smoothscroll.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/wp-embed.min.js?ver=4.8.4'></script>
+    </body>
+</html>

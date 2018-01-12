@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="http://da.nala.ga/xmlrpc.php">
+
+<title>[설계/개발] HRD전문가 육성 2단계 : ISD모형의 고찰(1) | All About CC</title>
+<meta name='robots' content='noindex,follow' />
+
+<!-- All in One SEO Pack 2.4.3.1 by Michael Torbert of Semper Fi Web Design[276,340] -->
+<link rel="canonical" href="http://da.nala.ga/%ec%84%a4%ea%b3%84%ea%b0%9c%eb%b0%9c-hrd%ec%a0%84%eb%ac%b8%ea%b0%80-%ec%9c%a1%ec%84%b1-2%eb%8b%a8%ea%b3%84-isd%eb%aa%a8%ed%98%95%ec%9d%98-%ea%b3%a0%ec%b0%b01/" />
+<!-- /all in one seo pack -->
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 피드" href="http://da.nala.ga/feed/" />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 댓글 피드" href="http://da.nala.ga/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; [설계/개발] HRD전문가 육성 2단계 : ISD모형의 고찰(1) 댓글 피드" href="http://da.nala.ga/%ec%84%a4%ea%b3%84%ea%b0%9c%eb%b0%9c-hrd%ec%a0%84%eb%ac%b8%ea%b0%80-%ec%9c%a1%ec%84%b1-2%eb%8b%a8%ea%b3%84-isd%eb%aa%a8%ed%98%95%ec%9d%98-%ea%b3%a0%ec%b0%b01/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/da.nala.ga\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.4"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bootstrap-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/bootstrap.min.css?ver=3.3.5' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/font-awesome.min.css?ver=4.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='shaped-blog-stylesheet-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/style.css?ver=4.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/responsive.css' type='text/css' media='all' />
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://da.nala.ga/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://da.nala.ga/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://da.nala.ga/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='[이것이 4차 산업혁명이다] 최재용 구대환 박주용 양성길 윤성임' href='http://da.nala.ga/%ec%9d%b4%ea%b2%83%ec%9d%b4-4%ec%b0%a8-%ec%82%b0%ec%97%85%ed%98%81%eb%aa%85%ec%9d%b4%eb%8b%a4-%ec%b5%9c%ec%9e%ac%ec%9a%a9-%ea%b5%ac%eb%8c%80%ed%99%98-%eb%b0%95%ec%a3%bc%ec%9a%a9-%ec%96%91%ec%84%b1/' />
+<link rel='next' title='협력하기를 거부 치아보험비교표' href='http://da.nala.ga/%ed%98%91%eb%a0%a5%ed%95%98%ea%b8%b0%eb%a5%bc-%ea%b1%b0%eb%b6%80-%ec%b9%98%ec%95%84%eb%b3%b4%ed%97%98%eb%b9%84%ea%b5%90%ed%91%9c/' />
+<meta name="generator" content="WordPress 4.8.4" />
+<link rel='shortlink' href='http://da.nala.ga/?p=9626' />
+<link rel="alternate" type="application/json+oembed" href="http://da.nala.ga/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fda.nala.ga%2F%25ec%2584%25a4%25ea%25b3%2584%25ea%25b0%259c%25eb%25b0%259c-hrd%25ec%25a0%2584%25eb%25ac%25b8%25ea%25b0%2580-%25ec%259c%25a1%25ec%2584%25b1-2%25eb%258b%25a8%25ea%25b3%2584-isd%25eb%25aa%25a8%25ed%2598%2595%25ec%259d%2598-%25ea%25b3%25a0%25ec%25b0%25b01%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://da.nala.ga/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fda.nala.ga%2F%25ec%2584%25a4%25ea%25b3%2584%25ea%25b0%259c%25eb%25b0%259c-hrd%25ec%25a0%2584%25eb%25ac%25b8%25ea%25b0%2580-%25ec%259c%25a1%25ec%2584%25b1-2%25eb%258b%25a8%25ea%25b3%2584-isd%25eb%25aa%25a8%25ed%2598%2595%25ec%259d%2598-%25ea%25b3%25a0%25ec%25b0%25b01%2F&#038;format=xml" />
+
+	<style>
+
+		/* Border Color */
+		.btn-social:hover,
+		blockquote,
+		#respond input:focus[type="text"], 
+	    #respond input:focus[type="email"], 
+	    #respond input:focus[type="url"],
+	    #respond textarea:focus,
+	    #comments .comment-reply a:hover
+		{
+			border-color: ;
+		}
+
+		
+		/* Background Color */
+		.scroll-up a,
+		.btn-social:hover,
+		button,
+		input[type="button"],
+		input[type="reset"],
+		input[type="submit"],
+		.navbar-default .navbar-nav .dropdown-menu li a:hover, .dropdown-menu li a:focus, .navbar-default .navbar-nav .dropdown-menu .active a,
+		.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover, .pagination li .current,
+		.next-previous-posts .next-post a:hover,
+		.next-previous-posts .previous-post a:hover,
+		.btn-goback,
+		.btn-submit,
+		a.more-link,
+		.featured-post .fa,
+		#comments .comment-reply a:hover,
+		.widget .tagcloud a
+		{
+			background-color: ;
+		}
+
+		
+		/* Color */
+		.text-logo a,
+		.navbar-default .navbar-nav .active a, .navbar-default .navbar-nav .active a:hover, .navbar-default .navbar-nav .active a:focus,
+		.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus,
+		a:hover,
+    	a:focus,
+		.next-previous-posts .previous-post a,
+		.next-previous-posts .next-post a,
+		.pagination>li>a, .pagination>li>span,
+		#comments .comment-author a:hover, 
+    	#respond .logged-in-as a:hover,
+    	#wp-calendar a,
+    	h2.entry-title a:hover
+		{
+			color: ;
+		}
+
+
+		/* A Color */
+		a{
+			color: ;
+		}
+
+		/* a:hover Color */
+		a:hover,
+		a:focus,
+		a:active,
+		.widget a:hover,
+		.post .post-content .entry-meta ul li a:hover
+		{
+			color: ;
+		}
+
+		/* .featured-post .fa:after*/
+		.featured-post .fa:after{
+			border-color:   transparent ;
+		}
+
+
+		
+
+	</style>
+</head>
+
+<body class="post-template-default single single-post postid-9626 single-format-standard">
+
+    <div id="st-preloader">
+        <div id="pre-status">
+            <div class="preload-placeholder"></div>
+        </div>
+    </div>
+<!-- /Preloader -->
+
+<header id="header">	
+	<div id="trueHeader">
+    	<div class="wrapper">
+            <div class="container">
+            	<!-- Menu -->
+            	<div class="menu_main">
+                	<div class="navbar blogx-navbar navbar-default">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#st-navber-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+
+                                                            <div class="text-logo">
+                                    <a href="http://da.nala.ga">All About CC</a>
+                                    <p>All About CC Contents</p>
+                                </div><!-- /Logo -->
+                                                    </div>
+                      
+                        <div id="st-navber-collapse" class="navbar-collapse collapse pull-right">
+                             
+                        </div>
+                    </div>
+            	</div><!-- end menu -->
+        	</div> <!-- /.container -->
+    	</div>
+	</div>
+	<DIV class='ads_adsense_img' style='margin:40px 0px 40px 0px;'>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- only display -->
+	<ins class="adsbygoogle"
+	     style="display:block"
+	     data-ad-client="ca-pub-8393857339019314"
+	     data-ad-slot="7474886381"
+	     data-ad-format="auto"></ins>
+	<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+	</DIV>	
+</header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div id="primary" class="content-area">
+                    <main id="main" class="site-main" role="main">
+
+                        
+                                <article id="post-9626" class="post-9626 post type-post status-publish format-standard hentry category-uncategorized tag-15187 tag-hrd tag-isd tag-15189 tag-15186 tag-2497">
+    <header class="entry-header">
+        
+        
+    </header> <!--/.entry-header -->
+
+    <div class="clearfix post-content media">
+
+        <h2 class="entry-title">
+            [설계/개발] HRD전문가 육성 2단계 : ISD모형의 고찰(1)        </h2> <!-- //.entry-title -->
+
+        <div class="clearfix entry-meta">
+            
+            <ul class="list-inline">
+                <li>
+                    <span class="author vcard">
+                        By <a class="url fn n" href="http://da.nala.ga/author/site-admin/">site-admin</a>                    </span>
+                </li>
+                <li>
+                    on <span class="posted-on">1월 11, 2018</span>
+                </li>
+                                    <li>
+                        in <span class="posted-in">
+                            <a href="http://da.nala.ga/category/uncategorized/" rel="category tag">미분류</a>                        </span>
+                    </li>
+                            </ul>
+                </div> <!--/.entry-meta -->
+        
+        <div class="entry-summary">
+            <p><img src='https://postfiles.pstatic.net/MjAxODAxMDVfMjc0/MDAxNTE1MTAzNTI5NDE0.T8Gdyrfxo6OEAoUhXUkGwfItTTfmRJUq5xu-eDSXdVkg.BtX_FcRJ1Up6oQy7L3fhR5X_GBeITXk2fG8dfsZisdwg.PNG.angerwars/20171216_184733.png?type=w966' style='max-width:250px;min-width:0px;' onError='this.style.display="none"' /></p>
+<h1>3줄 요약 </h1>
+<div style='color:#fff;background-color:#000;border-radius:10px;'>
+<ol>
+<li><span> 하라는 대로 모두 따랐지만, 그 결과는 형편없었다.</span></li>
+<li><span>인사관리는 채용과 평가, 보상, 배치 등을 관리하는 HRM(Human Resource Management)과 인적자원의</span></li>
+<li><span>사람을 어떻게 평가하는게 결국 수행하고 있는 업무와 관련해서 그리고 각 직책별 요구되는 수준을 갖추고</span></li>
+</ol>
+</div>
+<p><span id="more-9626"></span></p>
+<p><iframe src='http://ad.selfhow.com/rd' width='100%' border=0 frameborder=0 style='height:auto;width:100%'></iframe></p>
+<hr />
+<p style="LINE-HEIGHT: 1.8"><span>이론 없이 실행하는 사람은<br />마치 키나 나침반 없이 배를 바다에 띄워놓고<br />어디로 가야 할지 방향을 잡지 못하는 선원과 같다 </span></p>
+<p style="LINE-HEIGHT: 1.8"><span>레오나르도 다빈치(1452~1519)<span><span><br /></span><br /><span><strong><span style="COLOR: rgb(255,255,255); BACKGROUND-COLOR: rgb(31,175,218)"> HRD 전문가 육성 2단계 : 설계/개발 단계  ISD모형에 대해서</span></strong><br /></span><span><strong><span style="COLOR: rgb(255,255,255); BACKGROUND-COLOR: rgb(31,175,218)"><br /></span></strong></span><span><span>어떻게 하면 효과적인 트레이닝을 만들 수 있을까? 지난 수십년 동안 기업 트레이닝 업계에서 이 질문에 대한 최고의 답은 교수체계설계 모델 ISD, 또는 ‘시스템 접근법’이라고도 한다. 컴퓨터를 제외하고 생각했을 때, 우리가 ‘교수(Instructional) 테크날러지’라고 부르는 것은 바로 ISD였다. 모든 트레이닝 디자이너들은 다양한 종류의 ISD에 대해 교육을 받았고, 박사 학위 프로그램 또한 여기에 바탕을 두고 있었다. 심지어, Fortune誌가 선정한 전 세계 1000대 기업들의 트레이닝 부서와 기업 대학들에게 ISD는 성경과 같은 존재였다. 또한 ISD는 트레이닝이 그 자체의 학문적인 가치와 전문성의 측면에서 하나의 전문직업(Profession)으로서 자격을 인정할 수 있는가(교육(Teaching)은 이미 전문직업(Profession)으로 인정받고 있다.<br /><span><span><span><span> <br />그러나 트레이닝 사업 분야에서 경험과 능력을 인정받고 있는 전문가들 중 많은 수의 사람들이 이제 ISD의 시절은 끝났다는 이야기를 공개적으로 하고 있다. ISD는 간단하게 말해서, 교수 설계에 대한 ADDIE 모델(사정-Assess, 설계-Design, 개발-Develop, 교수-Instruct, 평가-Evaluate)이다. 지금까지 많은 저서들이 이 모델의 각 단계를 가장 적절히 실행하기 위한 다양한 방법들에 대해서 다루어 왔다. 수년간 많은 기업과 정부기관, 그리고 여러 군대 조직에서는 프로그램 설계자들에게, 복잡한 ISD 가이드라인을 엄격하게 적용하여 골치아플 정도로 복잡하고 어려운 도표와 체크리스트, 형식들을 채우도록 해왔다. 그 결과 규모가 큰 조직의 경우 &#8220;ISD 시스템&#8221;은 몇 개의 두꺼운 바인더를 채울 정도로 양이 많지만, 여기서 각 시스템들은 모두가 다르며 똑같은 것은 존재하지 않는다.</p>
+<p>하지만 이러한 가이드라인이 언제나 좋은 결과 만을 가져오는 것은 아니다. 현재 ISD에 대한 많은 비판들은 부분적으로, 설계자들이 &#8220;ISD를 따르기&#8221; 위해서 해야만 하는 것을 정확히 행동으로 옮기기 위해 노력하면 할수록 방향을 잡지 못하고 헤매게 된다는 확신이 점차 커지고 있는 데서 비롯되고 있다. 즉, 쓸데없는 짓만 하고 있다는 것이다. <br />ISD 접근법은 지난 수년간, 다른 교수법 또는 학습 방법들(액션 러닝, 촉진 학습, 경험 학습, 자발적 학습 등)을 옹호하는 이들에 의해 격렬한 공격을 받아 왔다. 대표적으로 개인 개발(Personal Development) 전문가들은, 사람들에게 정신적 영역의 확대나 개인 삶의 형태 변화라는 부분보다는 특정한 직무의 수행이라는 측면 만을 강조하는 ISD의 편협성과 소심함을 비웃어 왔다. 심지어 기본적으로 ISD의 개념을 옹호하는 이들 중에서도, 실제 그 적용 방식에 대해서는 의문을 갖고 있는 이들도 많았다. </p>
+<p>그러나 현재 이 모델이 직면한 가장 심각한 문제는, 트레이닝 업계에서 존경받는 유명인사들 또한 비난의 목소리를 높이기 시작했다는 점이다. 게다가 이들은 ISD의 탄생과 발전에 가장 큰 도움을 주었던 인물들이었다. 이들이 가지고 있는 불만은 단지 ISD를 잘못 사용하고 있는 왜곡된 목적의식을 가진 동료들에 대한 것만은 아니었다. 큰 컨퍼런스 장소 주위의 복도나 호텔바에서, 그리고 인터넷의 트레이닝 포럼에서 시작된 열띤 토론이나 이 업계 사람들 간에 주고 받는 솔직한 대화 속에서 ISD에 대한 새로운 비판은 그 구체적인 형태를 갖추게 되었다. </span></span></span></span></span></span></span></span></p>
+<p style="LINE-HEIGHT: 1.8"><span><span><span><span>이렇게 새로이 대두되고 있는 비판의 내용을 정확히 이해하기 위해, 본 誌에서는 ISD에 대해 속속들이 알고 있는 노련한 전문가 6명의 의견을 다음과 같이 크게 4가지로 분류하여 소개할 예정이다.</span></span></span></span></p>
+<p style="LINE-HEIGHT: 1.8"><span><span><span><span> ISD는 오늘날 트레이닝 업계가 직면하는 많은 장애들에 대처하기에는 그 속도가 너무 느리고 서투르다. <br /> 무언가가 있을 것이라고 믿었지만, 실제로는 어떤 것도 존재하지 않는다.(There&#8217;s no &#8220;there&#8221; there)<br /> 하라는 대로 모두 따랐지만, 그 결과는 형편없었다. <br /> 세상을 보는 잘못된 시각에 매달리고 있다. </span></span></span></span></p>
+<p style="LINE-HEIGHT: 1.8"><span><span><span><span>이와 같은 내용을 일괄적으로 고려해 보았을 때, 이 논란들은 이제까지 트레이닝 업계의 진리라고 여겨졌던 이 위대한 이론의 존립에 심각한 위험을 초래할 수 있으리라 여겨진다. 물론 이에 대한 최종 평가는 이 글을 읽는 당신에게 달려있다. </span></span></span></span></p>
+<p style="LINE-HEIGHT: 1.8"><span><span><span><span>&lt;출처 : 엑스퍼트 컨설팅&gt;<br /></span></span><span><span><span><span> </span></span> </span></span><!-- } SE3-TEXT --></span></span></p>
+<div class="se_component se_horizontalLine line1" style="LINE-HEIGHT: 1.8">
+<div class="se_sectionArea">
+<div class="se_editArea">
+<div class="viewArea">
+<div class="se_horizontalLineView">
+<div class="se_hr">
+<hr>
+</hr>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="se_component se_paragraph default" style="LINE-HEIGHT: 1.8">
+<div class="se_sectionArea">
+<div class="se_editArea">
+<div class="se_viewArea se_ff_nanumgothic se_fs_T3 se_align-left">
+<div class="se_editView">
+<div class="se_textView">
+<p class="se_textarea"><!-- SE3-TEXT { --><span><span>나도 그랬지만 HRD를 준비하는 많은 사람들이나 실제 기업 HRD를 담당하고 있는 사람들도 정확하게 HRD의 업무범위와 본인의 역할이 무엇인지 고민을 많이 하는 것 같다. 그럴 수 밖에 없는 것이 명확하게 성장체계를 구축한 곳도 없을 뿐더라 실제 업무를 하는데 있어 명확하게 선을 그을 수 없는 영역이 존재하기 때문이다. 나같은 경우는 다행스럽게도 초기에는 HRD 이론 및 지식을 기반으로 다양한 프로젝트를 수행하였고 현재는 기업 HRD를 담당하고 있기 때문에 어떤 부분의 차이가 나는지 조금은 알고 있다고 생각한다. 그래서 내가 알고 있고 경험했던 사례를 기반으로 HRD전문가가 되기 위한 단계별 업무와 역할이 무엇인지 하나하나 기록해보려고 한다.</span></span></p>
+<p class="se_textarea"><span><span><br /><u><span style="COLOR: rgb(0,102,204)"></span></u></span></span><!-- } SE3-TEXT --></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="se_component se_image default" style="LINE-HEIGHT: 1.8">
+<div class="se_sectionArea se_align-center">
+<div class="se_editArea">
+<div class="se_viewArea" style="MAX-WIDTH: 820px"><a class="se_mediaArea __se_image_link __se_link" data-linkdata='{"imgId" : "SEDOC-1515103708072-1184569856_image_0_img", "src" : "https://postfiles.pstatic.net/MjAxODAxMDVfMjc0/MDAxNTE1MTAzNTI5NDE0.T8Gdyrfxo6OEAoUhXUkGwfItTTfmRJUq5xu-eDSXdVkg.BtX_FcRJ1Up6oQy7L3fhR5X_GBeITXk2fG8dfsZisdwg.PNG.angerwars/20171216_184733.png", "linkUse" : "false", "link" : ""}' data-linktype="img" href="https://blog.naver.com/PostView.nhn?blogId=angerwars&amp;logNo=221178224212&amp;redirect=Dlog&amp;widgetTypeCall=true&amp;topReferer=https%3A%2F%2Fblog.naver.com%2FPostView.nhn%3FblogId%3Dangerwars%26Redirect%3DView%26logNo%3D221180994574%26categoryNo%3D52%26isAfterWrite%3Dtrue%26isMrblogPost%3Dfalse%26isHappyBeanLeverage%3Dtrue%26contentLength%3D4677%26proxyReferer%3Dhttp%253A%252F%252Fblog.editor.naver.com%252Feditor%26redirect%3DView%26widgetTypeCall%3Dtrue%26topReferer%3Dhttp%253A%252F%252Fblog.editor.naver.com%252Feditor%26directAccess%3Dfalse&amp;directAccess=false#"><img alt="" class="se_mediaImage __se_img_el" data-attachment-id="Is-sWTG_nGGDSW9yEAP9rsUk9xU4" height="444" id="SEDOC-1515103708072-1184569856_image_0_img" src="https://postfiles.pstatic.net/MjAxODAxMDVfMjc0/MDAxNTE1MTAzNTI5NDE0.T8Gdyrfxo6OEAoUhXUkGwfItTTfmRJUq5xu-eDSXdVkg.BtX_FcRJ1Up6oQy7L3fhR5X_GBeITXk2fG8dfsZisdwg.PNG.angerwars/20171216_184733.png?type=w966" width="820"><u><font color="#0066cc"> </font></u></img></a></div>
+</div>
+</div>
+</div>
+<div class="se_component se_table default" style="LINE-HEIGHT: 1.8">
+<div class="se_sectionArea se_align-left">
+<div class="se_editArea">
+<div class="se_table_wrap" data-attachment-id="" id="SEDOC-1515103708072-1184569856_table_0">
+<div class="se_table_innerWrap">
+<table class="se_table_col" style="WIDTH: 100%">
+<tbody>
+<tr>
+<td class="se_cell se_align-left" style="BORDER-TOP: rgb(0,0,0) 1px dashed; HEIGHT: 534px; BORDER-RIGHT: rgb(0,0,0) 1px dashed; WIDTH: 100%; BORDER-BOTTOM: rgb(0,0,0) 1px dashed; BORDER-LEFT: rgb(0,0,0) 1px dashed; BACKGROUND-COLOR: rgb(212,244,250); border-image: none">
+<div class="se_cellArea"><span class="se_fs_T3" style="COLOR: rgb(93,93,93)">  <strong><span>내 멋대로 정의한 HRDer </span></strong><br /></span><span class="se_fs_T3" style="COLOR: rgb(93,93,93)"><strong></strong></span><span class="se_fs_T3"><br /></span><span class="se_fs_T3" style="COLOR: rgb(93,93,93)"><span>    인사관리는 채용과 평가, 보상, 배치 등을 관리하는 HRM(Human Resource Management)과 인적자원의 </span><br /><span>    교육, </span><span class="se_fs_T3" style="COLOR: rgb(93,93,93)"><span>훈련, 육성, 역량개발, 경력관리 및 개발 등을 관리하는 HRD로 구분된다. 그렇다면 HRD는 채용, 평가, </span><br /><span>    보상, 배치와 관계가 없을까? 그렇지 않다. </span></span><br /></span><span class="se_fs_T3" style="COLOR: rgb(93,93,93)"><span class="se_fs_T3" style="COLOR: rgb(93,93,93)"></span></span><span class="se_fs_T3"><br /></span><span class="se_fs_T3" style="COLOR: rgb(93,93,93)">    채용을 위해서는 필요역량에 대한 조건과 역량이 되는지 확인 할 수 있는 기준이 필요하다. </span><span class="se_fs_T3" style="COLOR: rgb(93,93,93)"><span>평가는 어떻까? </span><br /><span>    사람을 어떻게 평가하는게 결국 수행하고 있는 업무와 관련해서 그리고 각 직책별 요구되는 수준을 </span></span><span class="se_fs_T3" style="COLOR: rgb(93,93,93)"><span>갖추고 </span><br /><span>    있는지를 평가해야 하는데 이를 위해서도 구체적인 역량</span></span><span class="se_fs_T3" style="COLOR: rgb(93,93,93)"><span>평가 기준과 절차가 필요하다. 보상은 어떨까? </span><br /><span>    보상을 지급하는 것에 포커스를 맞추면 HRD와 관련이 되지 않지만 역량수준, 수행수준에 대한 기준과 </span><br /><span>    체계가 필요하다. 마지막으로 배치는? 해당되는 인력의 CDP를 수립하고 단계별 적합한 솔루션과 역량지원 </span><br /><span>    역시 필요하다. </span></span><span class="se_fs_T3"><br /></span><span class="se_fs_T3"><br /></span><span class="se_fs_T3" style="COLOR: rgb(93,93,93)"><span>    결과적으로 HRD는 HRM과 구분되어서는 안된다. HRD는 기업전반을 모두 포괄해야한다. 쉽게 설명하겠다. </span><br /><span>    인사, </span></span><span class="se_fs_T3" style="COLOR: rgb(93,93,93)">재무, 구매, 마케팅, SCM등의 세부 단위업무에 대해서는 HRDe</span><span class="se_fs_T3" style="COLOR: rgb(93,93,93)"><span>r가 알지 못한다. 하지만 이들이 일을 </span><br /><span>    제대로 하기 위해 필요한 분석, 기획, 실행과 관련된 공통적 역량을 단위업무에서 적용하게 하는것이 HRDer</span><br /><span>    의 역할이다. </span></span><span class="se_fs_T3"><br /></span><span class="se_fs_T3"><br /></span><span class="se_fs_T3" style="COLOR: rgb(93,93,93)"><span>    </span><strong><span>즉 내가 멋대로 정의한 HRDer는 기업이나 개인이 변화되어야 하는 본질을 파악해 문제를 해결할 수 있도록 </span><br /><span>    지속 가능한 시스템을 구축하고 기업 및 개인이 </span></strong></span><strong><span class="se_fs_T3" style="COLOR: rgb(93,93,93)">성장(성과)되었음을 검증</span><span class="se_fs_T3" style="COLOR: rgb(93,93,93)">할 수 있는 체계를 만드는 사람이다</span></strong><strong><span style="COLOR: rgb(93,93,93)">. </span></strong><span style="COLOR: rgb(93,93,93)"> </span></div>
+<div class="autosourcing-stub-extra" style="opacity: 1; -ms-zoom: 1"></div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr />
+<p><iframe src='http://ad.selfhow.com/rd' width='100%' border=0 frameborder=0 style='height:auto;width:100%'></iframe></p>
+<p><a href='http://rookie-mind.tistory.com/554' target='_blank'>Origin Content : 경제적 자유를 위한 삶</a> | <a href="/cdn-cgi/l/email-protection#5b3e38340438386b6b6a1b353a373a753c3a" target='_blank'>Contact : <span class="__cf_email__" data-cfemail="fb9e9894a49898cbcbcabb959a979ad59c9a">[email&#160;protected]</span></a>
+</p>
+<p>Cotent License : CC-BY </p>
+<p>This content is collected under the CCL license.</p>
+<p>Please check the license of the original article before asking about copyright.</p>
+<ul>
+<li><a href='/tag/설계/개발'>More About <span style='font-weight:bold;'>설계/개발</span></a></li>
+<li><a href='/tag/HRD전문'>More About <span style='font-weight:bold;'>HRD전문</span></a></li>
+<li><a href='/tag/육성'>More About <span style='font-weight:bold;'>육성</span></a></li>
+<li><a href='/tag/2단계'>More About <span style='font-weight:bold;'>2단계</span></a></li>
+<li><a href='/tag/ISD모형'>More About <span style='font-weight:bold;'>ISD모형</span></a></li>
+<li><a href='/tag/고찰1'>More About <span style='font-weight:bold;'>고찰1</span></a></li>
+</ul>
+        </div> <!-- //.entry-summary -->
+        
+                    <div class="entry-tags"><b>Tags:</b> <a href="http://da.nala.ga/tag/2%eb%8b%a8%ea%b3%84/" rel="tag">2단계</a>, <a href="http://da.nala.ga/tag/hrd%ec%a0%84%eb%ac%b8/" rel="tag">HRD전문</a>, <a href="http://da.nala.ga/tag/isd%eb%aa%a8%ed%98%95/" rel="tag">ISD모형</a>, <a href="http://da.nala.ga/tag/%ea%b3%a0%ec%b0%b01/" rel="tag">고찰1</a>, <a href="http://da.nala.ga/tag/%ec%84%a4%ea%b3%84%ea%b0%9c%eb%b0%9c/" rel="tag">설계/개발</a>, <a href="http://da.nala.ga/tag/%ec%9c%a1%ec%84%b1/" rel="tag">육성</a></div>
+        
+    </div>
+
+</article> <!--/#post-->
+
+
+
+
+
+                                                                    <div class="post-nav-area">
+                                                    
+            <nav class="next-previous-post clearfix media" role="navigation">
+                <div class="row">
+                    <!-- Previous Post -->
+                    <div class="previous-post col-sm-6 pull-left">
+                        <div class="nav-previous"><i class="fa fa-angle-left"></i> <a href="http://da.nala.ga/%ec%9d%b4%ea%b2%83%ec%9d%b4-4%ec%b0%a8-%ec%82%b0%ec%97%85%ed%98%81%eb%aa%85%ec%9d%b4%eb%8b%a4-%ec%b5%9c%ec%9e%ac%ec%9a%a9-%ea%b5%ac%eb%8c%80%ed%99%98-%eb%b0%95%ec%a3%bc%ec%9a%a9-%ec%96%91%ec%84%b1/" rel="prev">[이것이 4차 산업혁명이다] 최재용 구대환 박주용 양성길 윤성임</a></div>                    </div>
+
+                    <!-- Next Post -->
+                    <div class="next-post col-sm-6 pull-right text-right">
+                        <div class="nav-next"><a href="http://da.nala.ga/%ed%98%91%eb%a0%a5%ed%95%98%ea%b8%b0%eb%a5%bc-%ea%b1%b0%eb%b6%80-%ec%b9%98%ec%95%84%eb%b3%b4%ed%97%98%eb%b9%84%ea%b5%90%ed%91%9c/" rel="next">협력하기를 거부 치아보험비교표</a> <i class="fa fa-angle-right"></i></div>                    </div>
+                </div>
+            </nav><!-- .navigation -->
+            
+                                            </div>
+                                
+                                
+                            
+                                            </main> <!-- /.site-main -->
+                </div>  <!-- /.content-area -->
+            </div> <!-- /col -->
+
+            <!-- Blogsidebar -->
+            
+	<div class="col-md-4">
+	    <div class="primary-sidebar widget-area" role="complementary">
+	        <div id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="http://da.nala.ga/">
+				<label>
+					<span class="screen-reader-text">검색:</span>
+					<input type="search" class="search-field" placeholder="검색 &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="검색" />
+			</form></div>		<div id="recent-posts-2" class="widget widget_recent_entries">		<h2 class="widget-title">최근 글</h2>		<ul>
+					<li>
+				<a href="http://da.nala.ga/%ea%b5%90%ed%99%98%ed%95%99%ec%83%9d%ec%a4%80%eb%b9%84part2-%ed%94%84%eb%9e%91%ec%8a%a4-sciences-po-%ec%a7%80%ec%9b%90-%ea%b3%bc%ec%a0%95%ea%b3%bc-%ea%b7%b8-%ec%a0%84-%ec%95%8c%ec%95%84%ec%95%bc/">[교환학생준비PART2] 프랑스 Sciences Po 지원 과정과 그 전 알아야할 것들!</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%b0%95%ea%b7%bc%ed%98%9c-%ec%b5%9c%ec%88%9c%ec%8b%a4-%ea%b2%8c%ec%9d%b4%ed%8a%b8%eb%a5%bc-%eb%b0%9d%ed%98%80%eb%82%b8-%ec%9d%bc%eb%93%b1%ea%b3%b5%ec%8b%a0-%ec%95%88%eb%af%bc%ec%84%9d/">박근혜 최순실 게이트를 밝혀낸 일등공신 안민석</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%b0%b0%ed%8b%80%ea%b7%b8%eb%9d%bc%ec%9a%b4%eb%93%9c-%ec%a0%95%ec%8b%9d%eb%b2%84%ec%a0%84-1-0%ed%8c%a8%ec%b9%98-%eb%ac%b4%ec%97%87%ec%9d%b4-%eb%b0%94%eb%80%8c%eb%82%98%ec%9a%94/">배틀그라운드 정식버전 1.0패치 무엇이 바뀌나요?</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%91%90%eb%87%8c%eb%a5%bc-%ea%b1%b4%ea%b0%95%ed%95%98%ea%b2%8c-%eb%a7%8c%eb%93%9c%eb%8a%94-4%ec%b2%9c%eb%b3%b4%ec%9d%98-%ea%b1%b8%ec%9d%8c/">두뇌를 건강하게 만드는 4천보의 걸음</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%af%b8%ea%b5%ad-%ec%9c%a0%ed%95%99-%ec%a0%95%eb%b3%b4-%ed%95%9c%ea%b5%ad-%eb%82%b4%ec%8b%a0-%ec%84%b1%ec%a0%81%eb%a7%8c%ec%9c%bc%eb%a1%9c-%eb%af%b8%ea%b5%ad-%eb%aa%85%eb%ac%b8%eb%8c%80-%ea%b0%80/">미국 유학  정보 &#8211; 한국 내신 성적만으로 미국 명문대 가기</a>
+						</li>
+				</ul>
+		</div>		<div id="tag_cloud-2" class="widget widget_tag_cloud"><h2 class="widget-title">태그</h2><div class="tagcloud"><a href="http://da.nala.ga/tag/1%ec%9b%94/" class="tag-cloud-link tag-link-35 tag-link-position-1" style="font-size: 14.892307692308pt;" aria-label="1월 (47 아이템)">1월</a>
+<a href="http://da.nala.ga/tag/2017/" class="tag-cloud-link tag-link-510 tag-link-position-2" style="font-size: 19.415384615385pt;" aria-label="2017 (76 아이템)">2017</a>
+<a href="http://da.nala.ga/tag/2017%eb%85%84/" class="tag-cloud-link tag-link-8 tag-link-position-3" style="font-size: 18.123076923077pt;" aria-label="2017년 (66 아이템)">2017년</a>
+<a href="http://da.nala.ga/tag/2018/" class="tag-cloud-link tag-link-61 tag-link-position-4" style="font-size: 14.461538461538pt;" aria-label="2018 (45 아이템)">2018</a>
+<a href="http://da.nala.ga/tag/2018%eb%85%84/" class="tag-cloud-link tag-link-103 tag-link-position-5" style="font-size: 18.984615384615pt;" aria-label="2018년 (73 아이템)">2018년</a>
+<a href="http://da.nala.ga/tag/vs/" class="tag-cloud-link tag-link-943 tag-link-position-6" style="font-size: 9.5076923076923pt;" aria-label="vs (26 아이템)">vs</a>
+<a href="http://da.nala.ga/tag/%ec%98%81%ed%99%94/" class="tag-cloud-link tag-link-1375 tag-link-position-7" style="font-size: 14.246153846154pt;" aria-label="“영화 (44 아이템)">“영화</a>
+<a href="http://da.nala.ga/tag/%ea%b0%80%ea%b2%a9/" class="tag-cloud-link tag-link-63 tag-link-position-8" style="font-size: 12.953846153846pt;" aria-label="가격 (38 아이템)">가격</a>
+<a href="http://da.nala.ga/tag/%ea%b0%80%ec%83%81%ed%99%94%ed%8f%90/" class="tag-cloud-link tag-link-1479 tag-link-position-9" style="font-size: 9.0769230769231pt;" aria-label="가상화폐 (25 아이템)">가상화폐</a>
+<a href="http://da.nala.ga/tag/%ea%b2%80%ec%9d%80%ec%82%ac%eb%a7%89/" class="tag-cloud-link tag-link-341 tag-link-position-10" style="font-size: 8.8615384615385pt;" aria-label="검은사막 (24 아이템)">검은사막</a>
+<a href="http://da.nala.ga/tag/%ea%b2%8c%ec%9e%84/" class="tag-cloud-link tag-link-391 tag-link-position-11" style="font-size: 22pt;" aria-label="게임 (102 아이템)">게임</a>
+<a href="http://da.nala.ga/tag/%ea%b3%b5%ea%b0%9c/" class="tag-cloud-link tag-link-938 tag-link-position-12" style="font-size: 9.5076923076923pt;" aria-label="공개 (26 아이템)">공개</a>
+<a href="http://da.nala.ga/tag/%ea%b3%b5%eb%9e%b5/" class="tag-cloud-link tag-link-1018 tag-link-position-13" style="font-size: 8.8615384615385pt;" aria-label="공략 (24 아이템)">공략</a>
+<a href="http://da.nala.ga/tag/%eb%8b%a4%ec%9a%b4%eb%a1%9c%eb%93%9c/" class="tag-cloud-link tag-link-364 tag-link-position-14" style="font-size: 8.4307692307692pt;" aria-label="다운로드 (23 아이템)">다운로드</a>
+<a href="http://da.nala.ga/tag/%eb%8c%80%ed%95%b4%ec%84%9c/" class="tag-cloud-link tag-link-1629 tag-link-position-15" style="font-size: 8.8615384615385pt;" aria-label="대해서 (24 아이템)">대해서</a>
+<a href="http://da.nala.ga/tag/%eb%a6%ac%eb%b7%b0/" class="tag-cloud-link tag-link-555 tag-link-position-16" style="font-size: 15.969230769231pt;" aria-label="리뷰 (53 아이템)">리뷰</a>
+<a href="http://da.nala.ga/tag/%eb%a7%9b%ec%a7%91/" class="tag-cloud-link tag-link-4173 tag-link-position-17" style="font-size: 9.9384615384615pt;" aria-label="맛집 (27 아이템)">맛집</a>
+<a href="http://da.nala.ga/tag/%eb%aa%a8%eb%b0%94%ec%9d%bc/" class="tag-cloud-link tag-link-835 tag-link-position-18" style="font-size: 10.584615384615pt;" aria-label="모바일 (29 아이템)">모바일</a>
+<a href="http://da.nala.ga/tag/%eb%ac%b4%eb%a3%8c/" class="tag-cloud-link tag-link-827 tag-link-position-19" style="font-size: 13.384615384615pt;" aria-label="무료 (40 아이템)">무료</a>
+<a href="http://da.nala.ga/tag/%eb%b0%a9%eb%b2%95/" class="tag-cloud-link tag-link-529 tag-link-position-20" style="font-size: 15.323076923077pt;" aria-label="방법 (49 아이템)">방법</a>
+<a href="http://da.nala.ga/tag/%eb%b9%84%ed%8a%b8%ec%bd%94%ec%9d%b8/" class="tag-cloud-link tag-link-1478 tag-link-position-21" style="font-size: 9.0769230769231pt;" aria-label="비트코인 (25 아이템)">비트코인</a>
+<a href="http://da.nala.ga/tag/%ec%84%a4%ec%b9%98/" class="tag-cloud-link tag-link-360 tag-link-position-22" style="font-size: 8pt;" aria-label="설치 (22 아이템)">설치</a>
+<a href="http://da.nala.ga/tag/%ec%86%8c%ea%b0%9c/" class="tag-cloud-link tag-link-297 tag-link-position-23" style="font-size: 8.4307692307692pt;" aria-label="소개 (23 아이템)">소개</a>
+<a href="http://da.nala.ga/tag/%ec%88%9c%ec%9c%84/" class="tag-cloud-link tag-link-12 tag-link-position-24" style="font-size: 11.230769230769pt;" aria-label="순위 (31 아이템)">순위</a>
+<a href="http://da.nala.ga/tag/%ec%8b%9c%ec%9e%91/" class="tag-cloud-link tag-link-579 tag-link-position-25" style="font-size: 8.4307692307692pt;" aria-label="시작 (23 아이템)">시작</a>
+<a href="http://da.nala.ga/tag/%ec%95%88%eb%82%b4/" class="tag-cloud-link tag-link-338 tag-link-position-26" style="font-size: 10.584615384615pt;" aria-label="안내 (29 아이템)">안내</a>
+<a href="http://da.nala.ga/tag/%ec%95%8c%ec%95%84%eb%b3%b4%ea%b8%b0/" class="tag-cloud-link tag-link-1939 tag-link-position-27" style="font-size: 12.523076923077pt;" aria-label="알아보기 (36 아이템)">알아보기</a>
+<a href="http://da.nala.ga/tag/%ec%95%8c%ec%95%84%eb%b3%b4%ec%9e%90/" class="tag-cloud-link tag-link-369 tag-link-position-28" style="font-size: 11.661538461538pt;" aria-label="알아보자 (33 아이템)">알아보자</a>
+<a href="http://da.nala.ga/tag/%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8/" class="tag-cloud-link tag-link-567 tag-link-position-29" style="font-size: 9.0769230769231pt;" aria-label="업데이트 (25 아이템)">업데이트</a>
+<a href="http://da.nala.ga/tag/%ec%97%ac%ed%96%89/" class="tag-cloud-link tag-link-1122 tag-link-position-30" style="font-size: 12.738461538462pt;" aria-label="여행 (37 아이템)">여행</a>
+<a href="http://da.nala.ga/tag/%ec%98%a4%eb%b8%8c/" class="tag-cloud-link tag-link-271 tag-link-position-31" style="font-size: 10.8pt;" aria-label="오브 (30 아이템)">오브</a>
+<a href="http://da.nala.ga/tag/%ec%98%a8%eb%9d%bc%ec%9d%b8/" class="tag-cloud-link tag-link-328 tag-link-position-32" style="font-size: 11.876923076923pt;" aria-label="온라인 (34 아이템)">온라인</a>
+<a href="http://da.nala.ga/tag/%ec%9c%84%ed%95%9c/" class="tag-cloud-link tag-link-183 tag-link-position-33" style="font-size: 13.169230769231pt;" aria-label="위한 (39 아이템)">위한</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%eb%b2%a4%ed%8a%b8/" class="tag-cloud-link tag-link-723 tag-link-position-34" style="font-size: 13.169230769231pt;" aria-label="이벤트 (39 아이템)">이벤트</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%ec%95%bc%ea%b8%b0/" class="tag-cloud-link tag-link-861 tag-link-position-35" style="font-size: 10.8pt;" aria-label="이야기 (30 아이템)">이야기</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%ec%9c%a0/" class="tag-cloud-link tag-link-1482 tag-link-position-36" style="font-size: 9.9384615384615pt;" aria-label="이유 (27 아이템)">이유</a>
+<a href="http://da.nala.ga/tag/%ec%9d%bc%eb%b3%b8/" class="tag-cloud-link tag-link-1007 tag-link-position-37" style="font-size: 8.4307692307692pt;" aria-label="일본 (23 아이템)">일본</a>
+<a href="http://da.nala.ga/tag/%ec%a0%95%eb%a6%ac/" class="tag-cloud-link tag-link-65 tag-link-position-38" style="font-size: 11.876923076923pt;" aria-label="정리 (34 아이템)">정리</a>
+<a href="http://da.nala.ga/tag/%ec%a0%95%eb%b3%b4/" class="tag-cloud-link tag-link-610 tag-link-position-39" style="font-size: 17.261538461538pt;" aria-label="정보 (61 아이템)">정보</a>
+<a href="http://da.nala.ga/tag/%ec%b4%9d%ec%a0%95%eb%a6%ac/" class="tag-cloud-link tag-link-179 tag-link-position-40" style="font-size: 8.4307692307692pt;" aria-label="총정리 (23 아이템)">총정리</a>
+<a href="http://da.nala.ga/tag/%ec%b5%9c%ea%b3%a0/" class="tag-cloud-link tag-link-404 tag-link-position-41" style="font-size: 11.876923076923pt;" aria-label="최고 (34 아이템)">최고</a>
+<a href="http://da.nala.ga/tag/%ec%b6%94%ec%b2%9c/" class="tag-cloud-link tag-link-367 tag-link-position-42" style="font-size: 20.707692307692pt;" aria-label="추천 (89 아이템)">추천</a>
+<a href="http://da.nala.ga/tag/%ec%b6%9c%ec%8b%9c/" class="tag-cloud-link tag-link-612 tag-link-position-43" style="font-size: 10.584615384615pt;" aria-label="출시 (29 아이템)">출시</a>
+<a href="http://da.nala.ga/tag/%ed%95%9c%ea%b5%ad/" class="tag-cloud-link tag-link-1483 tag-link-position-44" style="font-size: 10.153846153846pt;" aria-label="한국 (28 아이템)">한국</a>
+<a href="http://da.nala.ga/tag/%ed%9b%84%ea%b8%b0/" class="tag-cloud-link tag-link-114 tag-link-position-45" style="font-size: 19.2pt;" aria-label="후기 (74 아이템)">후기</a></div>
+</div>	    </div>
+	</div>
+
+        </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+    </div>
+    <footer class="site-footer" role="contentinfo">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+  
+                    <p></p>
+                    
+                                            <div class="footer-social-icons">
+                                                                                                                                                                                                                                                                                                                                                                                                        
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+            <div class="scroll-up">
+            <a href="#"><i class="fa fa-angle-up"></i></a>
+        </div>
+        <!-- Scroll Up -->
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/af2821b0/cloudflare-static/email-decode.min.js"></script><script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/bootstrap.min.js?ver=3.3.5'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/scripts.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/jquery.fitvids.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/smoothscroll.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/wp-embed.min.js?ver=4.8.4'></script>
+    </body>
+</html>

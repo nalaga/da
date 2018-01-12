@@ -1,0 +1,1359 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="http://da.nala.ga/xmlrpc.php">
+
+<title>ARP(Address Resolution Protocol) | All About CC</title>
+<meta name='robots' content='noindex,follow' />
+
+<!-- All in One SEO Pack 2.4.3.1 by Michael Torbert of Semper Fi Web Design[276,336] -->
+<link rel="canonical" href="http://da.nala.ga/arpaddress-resolution-protocol/" />
+<!-- /all in one seo pack -->
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 피드" href="http://da.nala.ga/feed/" />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 댓글 피드" href="http://da.nala.ga/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; ARP(Address Resolution Protocol) 댓글 피드" href="http://da.nala.ga/arpaddress-resolution-protocol/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/da.nala.ga\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.4"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bootstrap-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/bootstrap.min.css?ver=3.3.5' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/font-awesome.min.css?ver=4.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='shaped-blog-stylesheet-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/style.css?ver=4.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/responsive.css' type='text/css' media='all' />
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://da.nala.ga/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://da.nala.ga/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://da.nala.ga/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='불확실한 시대의 중국투자 전략 / 한정숙' href='http://da.nala.ga/%eb%b6%88%ed%99%95%ec%8b%a4%ed%95%9c-%ec%8b%9c%eb%8c%80%ec%9d%98-%ec%a4%91%ea%b5%ad%ed%88%ac%ec%9e%90-%ec%a0%84%eb%9e%b5-%ed%95%9c%ec%a0%95%ec%88%99/' />
+<link rel='next' title='브엘링 프로모션(~1/12, 2018): 유럽 항공권 17.99유로부터 시작!' href='http://da.nala.ga/%eb%b8%8c%ec%97%98%eb%a7%81-%ed%94%84%eb%a1%9c%eb%aa%a8%ec%85%98112-2018-%ec%9c%a0%eb%9f%bd-%ed%95%ad%ea%b3%b5%ea%b6%8c-17-99%ec%9c%a0%eb%a1%9c%eb%b6%80%ed%84%b0-%ec%8b%9c%ec%9e%91/' />
+<meta name="generator" content="WordPress 4.8.4" />
+<link rel='shortlink' href='http://da.nala.ga/?p=9547' />
+<link rel="alternate" type="application/json+oembed" href="http://da.nala.ga/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fda.nala.ga%2Farpaddress-resolution-protocol%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://da.nala.ga/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fda.nala.ga%2Farpaddress-resolution-protocol%2F&#038;format=xml" />
+
+	<style>
+
+		/* Border Color */
+		.btn-social:hover,
+		blockquote,
+		#respond input:focus[type="text"], 
+	    #respond input:focus[type="email"], 
+	    #respond input:focus[type="url"],
+	    #respond textarea:focus,
+	    #comments .comment-reply a:hover
+		{
+			border-color: ;
+		}
+
+		
+		/* Background Color */
+		.scroll-up a,
+		.btn-social:hover,
+		button,
+		input[type="button"],
+		input[type="reset"],
+		input[type="submit"],
+		.navbar-default .navbar-nav .dropdown-menu li a:hover, .dropdown-menu li a:focus, .navbar-default .navbar-nav .dropdown-menu .active a,
+		.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover, .pagination li .current,
+		.next-previous-posts .next-post a:hover,
+		.next-previous-posts .previous-post a:hover,
+		.btn-goback,
+		.btn-submit,
+		a.more-link,
+		.featured-post .fa,
+		#comments .comment-reply a:hover,
+		.widget .tagcloud a
+		{
+			background-color: ;
+		}
+
+		
+		/* Color */
+		.text-logo a,
+		.navbar-default .navbar-nav .active a, .navbar-default .navbar-nav .active a:hover, .navbar-default .navbar-nav .active a:focus,
+		.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus,
+		a:hover,
+    	a:focus,
+		.next-previous-posts .previous-post a,
+		.next-previous-posts .next-post a,
+		.pagination>li>a, .pagination>li>span,
+		#comments .comment-author a:hover, 
+    	#respond .logged-in-as a:hover,
+    	#wp-calendar a,
+    	h2.entry-title a:hover
+		{
+			color: ;
+		}
+
+
+		/* A Color */
+		a{
+			color: ;
+		}
+
+		/* a:hover Color */
+		a:hover,
+		a:focus,
+		a:active,
+		.widget a:hover,
+		.post .post-content .entry-meta ul li a:hover
+		{
+			color: ;
+		}
+
+		/* .featured-post .fa:after*/
+		.featured-post .fa:after{
+			border-color:   transparent ;
+		}
+
+
+		
+
+	</style>
+</head>
+
+<body class="post-template-default single single-post postid-9547 single-format-standard">
+
+    <div id="st-preloader">
+        <div id="pre-status">
+            <div class="preload-placeholder"></div>
+        </div>
+    </div>
+<!-- /Preloader -->
+
+<header id="header">	
+	<div id="trueHeader">
+    	<div class="wrapper">
+            <div class="container">
+            	<!-- Menu -->
+            	<div class="menu_main">
+                	<div class="navbar blogx-navbar navbar-default">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#st-navber-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+
+                                                            <div class="text-logo">
+                                    <a href="http://da.nala.ga">All About CC</a>
+                                    <p>All About CC Contents</p>
+                                </div><!-- /Logo -->
+                                                    </div>
+                      
+                        <div id="st-navber-collapse" class="navbar-collapse collapse pull-right">
+                             
+                        </div>
+                    </div>
+            	</div><!-- end menu -->
+        	</div> <!-- /.container -->
+    	</div>
+	</div>
+	<DIV class='ads_adsense_img' style='margin:40px 0px 40px 0px;'>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- only display -->
+	<ins class="adsbygoogle"
+	     style="display:block"
+	     data-ad-client="ca-pub-8393857339019314"
+	     data-ad-slot="7474886381"
+	     data-ad-format="auto"></ins>
+	<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+	</DIV>	
+</header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div id="primary" class="content-area">
+                    <main id="main" class="site-main" role="main">
+
+                        
+                                <article id="post-9547" class="post-9547 post type-post status-publish format-standard hentry category-uncategorized tag-arpaddress tag-protocol tag-resolution">
+    <header class="entry-header">
+        
+        
+    </header> <!--/.entry-header -->
+
+    <div class="clearfix post-content media">
+
+        <h2 class="entry-title">
+            ARP(Address Resolution Protocol)        </h2> <!-- //.entry-title -->
+
+        <div class="clearfix entry-meta">
+            
+            <ul class="list-inline">
+                <li>
+                    <span class="author vcard">
+                        By <a class="url fn n" href="http://da.nala.ga/author/site-admin/">site-admin</a>                    </span>
+                </li>
+                <li>
+                    on <span class="posted-on">1월 10, 2018</span>
+                </li>
+                                    <li>
+                        in <span class="posted-in">
+                            <a href="http://da.nala.ga/category/uncategorized/" rel="category tag">미분류</a>                        </span>
+                    </li>
+                            </ul>
+                </div> <!--/.entry-meta -->
+        
+        <div class="entry-summary">
+            <p><img src='http://cfile29.uf.tistory.com/image/99BDBB475A444B39270267' style='max-width:250px;min-width:0px;' onError='this.style.display="none"' /></p>
+<h1>3줄 요약 </h1>
+<div style='color:#fff;background-color:#000;border-radius:10px;'>
+<ol>
+<li><span>한다. ARP</span></li>
+<li><span>DRARP-Request</span></li>
+<li><span>Proteon</span></li>
+</ol>
+</div>
+<p><span id="more-9547"></span></p>
+<p><iframe src='http://ad.selfhow.com/rd' width='100%' border=0 frameborder=0 style='height:auto;width:100%'></iframe></p>
+<hr />
+<div class="tt_adsense_top" style="margin-bottom:30px">
+<!-- 상단 --></p>
+</div>
+<p lang="en-US" style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'><span style="font-weight:bold">ARP(Address Resolution Protocol)</span></p>
+<p style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'><span lang="ko">데이터의</span><span lang="en-US"> </span><span lang="ko">송수신</span><span lang="en-US"> </span><span lang="ko">시</span><span lang="en-US"> </span><span lang="ko">호스트의</span><span lang="en-US"> IP </span><span lang="ko">주소를</span><span lang="en-US"> </span><span lang="ko">아는</span><span lang="en-US"> </span><span lang="ko">것</span><span lang="en-US"> </span><span lang="ko">만으로는</span><span lang="en-US"> MAC </span><span lang="ko">주소를</span><span lang="en-US"> </span><span lang="ko">이용해</span><span lang="en-US"> </span><span lang="ko">통신하는</span><span lang="en-US"> </span><span lang="ko">네트워크</span><span lang="en-US"> </span><span lang="ko">계층에서</span><span lang="en-US"> </span><span lang="ko">프레임을</span><span lang="en-US"> </span><span lang="ko">전달하는</span><span lang="en-US"> </span><span lang="ko">것은</span><span lang="en-US"> </span><span lang="ko">불가능하다</span><span lang="en-US">. </span></p>
+<p style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'><span lang="ko">때문에</span><span lang="en-US"> TCP/IP </span><span lang="ko">통신에서</span><span lang="en-US"> </span><span lang="ko">하드웨어</span><span lang="en-US"> </span><span lang="ko">주소</span><span lang="en-US"> </span><span lang="ko">즉</span><span lang="en-US">, MAC </span><span lang="ko">주소를</span><span lang="en-US"> </span><span lang="ko">알기</span><span lang="en-US"> </span><span lang="ko">위해</span><span lang="en-US"> ARP(Address<br />
+Resolution Protocol)</span><span lang="ko">를</span><span lang="en-US"> </span><span lang="ko">사용해</span><span lang="en-US"> IP </span><span lang="ko">와</span><span lang="en-US"> MAC </span><span lang="ko">주소</span><span lang="en-US"> </span><span lang="ko">간의</span><span lang="en-US"> </span><span lang="ko">동적</span><span lang="en-US"> Mapping</span><span lang="ko">을</span><span lang="en-US"> </span><span lang="ko">제공한다</span><span lang="en-US">. </span></p>
+<p style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'><span lang="ko">동적</span><span lang="en-US"> </span><span lang="ko">Mapping</span><span lang="en-US"> </span><span lang="ko">이라</span><span lang="en-US"> </span><span lang="ko">표현한</span><span lang="en-US"> </span><span lang="ko">이유는</span><span lang="en-US"> Mapping </span><span lang="ko">이</span><span lang="en-US"> </span><span lang="ko">자동으로</span><span lang="en-US"> </span><span lang="ko">이루어지며</span><span lang="en-US"> </span><span lang="ko">변경이</span><span lang="en-US"> </span><span lang="ko">발생하여도</span><span lang="en-US"> </span><span lang="ko">시스템</span><span lang="en-US"> </span><span lang="ko">관리자에</span><span lang="en-US"> </span><span lang="ko">의해</span><span lang="en-US"> </span><span lang="ko">재구성을</span><span lang="en-US"> </span><span lang="ko">요하지</span><span lang="en-US"> </span><span lang="ko">않은</span><span lang="en-US"> </span><span lang="ko">채</span><span lang="en-US"> </span><span lang="ko">변경이</span><span lang="en-US"> </span><span lang="ko">적용되기</span><span lang="en-US"> </span><span lang="ko">때문이다</span><span lang="en-US">.</span></p>
+<p lang="en-US" style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'> </p>
+<p style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'><span lang="en-US">ARP</span><span lang="ko">는</span><span lang="en-US"> IPv4 </span><span lang="ko">에서만</span><span lang="en-US"> </span><span lang="ko">사용되며</span><span lang="en-US"> IPv6</span><span lang="ko">의</span><span lang="en-US"> </span><span lang="ko">경우</span><span lang="en-US"> ICMPv6</span><span lang="ko">에</span><span lang="en-US"> </span><span lang="ko">포함되어</span><span lang="en-US"> </span><span lang="ko">있는</span><span lang="en-US"> NDP(Neighbor Discovery Protocol)</span><span lang="ko">을</span><span lang="en-US"> </span><span lang="ko">사용한다</span><span lang="en-US">.</span></p>
+<p lang="en-US" style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'> </p>
+<p style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'><span lang="en-US" style="font-weight:bold">ARP </span><span lang="ko" style="font-weight:bold">패킷</span><span lang="en-US" style="font-weight:bold"> </span><span lang="ko" style="font-weight:bold">구조</span></p>
+<p style='margin:0in;font-family:"Malgun Gothic";font-size:10.0pt'>ARP는 하나의 주소를<br />
+확인하기 위한 요청 혹은 응답을 포함하는 간단한 프로토콜이다. ARP 메시지의 크기는 ARP가 작동하는 네트워크의 상하위 계층의 주소체계에<br />
+따라서 달라진다. 예컨데, IPv4를 사용하는지 IPv6를 사용하는지에 따라서 ARP의 크기도 달라진다. 아래는 ARP 패킷의 대략적인<br />
+구조다. 대략적이라고 한 이유는 필드의 크기가 변할 수 있기 때문이다.</p>
+<p></p>
+<p style='margin: 0in; font-family: "Malgun Gothic"; font-size: 10pt; text-align: center; clear: none; float: none;'></p>
+<p style='margin: 0in; font-family: "Malgun Gothic"; font-size: 10pt; text-align: left; clear: none; float: none;'><span class="imageblock" style="display:inline-block;width:800px;width: 800px; height: 146px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="arp 패킷 구조.jpg" height="146" src="http://cfile29.uf.tistory.com/image/99BDBB475A444B39270267" srcset="//img1.daumcdn.net/thumb/R1920x0/?fname=http%3A%2F%2Fcfile29.uf.tistory.com%2Fimage%2F99BDBB475A444B39270267 1920w, //img1.daumcdn.net/thumb/R960x0/?fname=http%3A%2F%2Fcfile29.uf.tistory.com%2Fimage%2F99BDBB475A444B39270267 960w, //img1.daumcdn.net/thumb/R720x0/?fname=http%3A%2F%2Fcfile29.uf.tistory.com%2Fimage%2F99BDBB475A444B39270267 720w, //img1.daumcdn.net/thumb/R640x0.q70/?fname=http%3A%2F%2Fcfile29.uf.tistory.com%2Fimage%2F99BDBB475A444B39270267 640w, //img1.daumcdn.net/thumb/R480x0.q70/?fname=http%3A%2F%2Fcfile29.uf.tistory.com%2Fimage%2F99BDBB475A444B39270267 480w" style="width: 800px; height: 146px;" width="800"/></span></p>
+<p style='margin:0in;font-family:"Malgun Gothic";font-size:10.0pt'></p>
+<div style="direction:ltr">
+<table border="1" cellpadding="0" cellspacing="0" style="direction:ltr;
+ border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-width:
+ 1pt" valign="top"></p>
+<tbody>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:2.5111in;padding:4pt 4pt 4pt 4pt"></p>
+<p lang="en-US" style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'>Hardware<br />
+  type</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:5.3729in;padding:4pt 4pt 4pt 4pt"></p>
+<p style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'><span lang="ko">네트워크</span><span lang="en-US"> </span><span lang="ko">프로토콜의</span><span lang="en-US"> </span><span lang="ko">타입</span><span lang="en-US">. </span><span lang="ko">이더넷은</span><span lang="en-US"> 1</span></p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:2.5111in;padding:4pt 4pt 4pt 4pt"></p>
+<p lang="en-US" style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'>Protocol<br />
+  type</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:5.3729in;padding:4pt 4pt 4pt 4pt"></p>
+<p style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'><span lang="en-US">Internetwork<br />
+  </span><span lang="ko">프로토콜의</span><span lang="en-US"> </span><span lang="ko">타입</span><span lang="en-US">. IPv4</span><span lang="ko">는</span><span lang="en-US"> 0x0800</span></p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:2.5111in;padding:4pt 4pt 4pt 4pt"></p>
+<p lang="en-US" style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'>Hardware<br />
+  address length</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:5.3729in;padding:4pt 4pt 4pt 4pt"></p>
+<p style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'><span lang="ko">하드웨어</span><span lang="en-US"> </span><span lang="ko">주소</span><span lang="en-US">(MAC)</span><span lang="ko">의</span><span lang="en-US"> </span><span lang="ko">길이</span><span lang="en-US">. </span><span lang="ko">이더넷은</span><span lang="en-US"> 6</span></p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:2.5111in;padding:4pt 4pt 4pt 4pt"></p>
+<p lang="en-US" style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'>Protocol<br />
+  address length</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:5.3729in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin:0in;font-size:10.0pt"><span lang="ko" style='font-family:"Malgun Gothic"'>상위</span><span lang="en-US" style='font-family:"맑은 고딕"'> </span><span lang="ko" style='font-family:"맑은 고딕"'>레이어</span><span lang="en-US" style='font-family:"맑은 고딕"'> </span><span lang="ko" style='font-family:"맑은 고딕"'>프로토콜의</span><span lang="en-US" style='font-family:"맑은 고딕"'> </span><span lang="ko" style='font-family:"맑은 고딕"'>주소길이</span><span lang="en-US" style='font-family:"맑은 고딕"'>. IPv4</span><span lang="ko" style='font-family:"맑은 고딕"'>는</span><span lang="en-US" style='font-family:"맑은 고딕"'> 4</span></p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:2.5111in;padding:4pt 4pt 4pt 4pt"></p>
+<p lang="en-US" style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'>Operation</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:5.3729in;padding:4pt 4pt 4pt 4pt"></p>
+<p style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'><span lang="en-US">1</span><span lang="ko">은</span><span lang="en-US"> </span><span lang="ko">요청</span><span lang="en-US">. 2</span><span lang="ko">는</span><span lang="en-US"> </span><span lang="ko">응답</span><span lang="en-US">.</span></p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:2.5111in;padding:4pt 4pt 4pt 4pt"></p>
+<p lang="en-US" style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'>Source<br />
+  hardware address</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:5.3729in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin:0in;font-size:10.0pt"><span lang="ko" style='font-family:"Malgun Gothic"'>요청을</span><span lang="en-US" style='font-family:"맑은 고딕"'> </span><span lang="ko" style='font-family:"맑은 고딕"'>보내는</span><span lang="en-US" style='font-family:"맑은 고딕"'> </span><span lang="ko" style='font-family:"맑은 고딕"'>측의</span><span lang="en-US" style='font-family:"맑은 고딕"'> MAC</span></p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:2.5111in;padding:4pt 4pt 4pt 4pt"></p>
+<p lang="en-US" style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'>Source<br />
+  IP address</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:5.3729in;padding:4pt 4pt 4pt 4pt"></p>
+<p style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'><span lang="ko">요청을</span><span lang="en-US"> </span><span lang="ko">보내는</span><span lang="en-US"> </span><span lang="ko">측의</span><span lang="en-US"> IP </span><span lang="ko">주소</span></p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:2.5111in;padding:4pt 4pt 4pt 4pt"></p>
+<p lang="en-US" style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'>Destination<br />
+  hardware address</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:5.3729in;padding:4pt 4pt 4pt 4pt"></p>
+<p style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'><span lang="ko">응답을</span><span lang="en-US"> </span><span lang="ko">보내는</span><span lang="en-US"> </span><span lang="ko">측의</span><span lang="en-US"> MAC</span></p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:2.5111in;padding:4pt 4pt 4pt 4pt"></p>
+<p lang="en-US" style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'>Destination<br />
+  IP address</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:5.3729in;padding:4pt 4pt 4pt 4pt"></p>
+<p style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'><span lang="ko">응답을</span><span lang="en-US"> </span><span lang="ko">보내는</span><span lang="en-US"> </span><span lang="ko">측의</span><span lang="en-US"> IP </span><span lang="ko">주소</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p lang="en-US" style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'> </p>
+<p lang="en-US" style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'><span style="font-weight:bold">RARP(Reverse Address Resolution Protocol)</span></p>
+<p style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'><span lang="en-US">ARP</span><span lang="ko">와</span><span lang="en-US"> </span><span lang="ko">반대로</span><span lang="en-US"> MAC </span><span lang="ko">주소와</span><span lang="en-US"> IP </span><span lang="ko">주소</span><span lang="en-US"> </span><span lang="ko">간의</span><span lang="en-US"> </span><span lang="ko">매핑을</span><span lang="en-US"> </span><span lang="ko">한다</span><span lang="en-US">. </span></p>
+<p lang="en-US" style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'> </p>
+<p lang="en-US" style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'><span style="font-weight:bold">ARP probe</span></p>
+<p style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'><span lang="en-US">ARP<br />
+probe</span><span lang="ko">는</span><span lang="en-US"> sender</span><span lang="ko">의</span><span lang="en-US"> IP주소를 0으로 해서 ARP </span><span lang="ko">요청을</span><span lang="en-US"> </span><span lang="ko">전송한다</span><span lang="en-US">.</span></p>
+<p style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'><span lang="en-US">IPv4<br />
+</span><span lang="ko">주소의</span><span lang="en-US"> </span><span lang="ko">충돌을</span><span lang="en-US"> </span><span lang="ko">감지하기</span><span lang="en-US"> </span><span lang="ko">위해서</span><span lang="en-US"> </span><span lang="ko">사용한다</span><span lang="en-US">.</span></p>
+<p style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'><span lang="ko">호스트에서</span><span lang="en-US"> IPv4 </span><span lang="ko">주소를</span><span lang="en-US"> </span><span lang="ko">이용</span><span lang="en-US"> </span><span lang="ko">할</span><span lang="en-US"> </span><span lang="ko">때</span><span lang="en-US">(</span><span lang="ko">수동</span><span lang="en-US">, DHCP </span><span lang="ko">또는</span><span lang="en-US"> </span><span lang="ko">다른</span><span lang="en-US"> </span><span lang="ko">방법으로</span><span lang="en-US">) </span><span lang="ko">이미</span><span lang="en-US"> </span><span lang="ko">사용되는</span><span lang="en-US"> </span><span lang="ko">주소인지</span><span lang="en-US"> </span><span lang="ko">검출하기</span><span lang="en-US"> </span><span lang="ko">위해</span><span lang="en-US"> ARP probe </span><span lang="ko">패킷을</span><span lang="en-US"> </span><span lang="ko">전달한다</span><span lang="en-US">.</span></p>
+<p lang="en-US" style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'> </p>
+<p lang="en-US" style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'><span style="font-weight:bold">ARP announcements</span></p>
+<p lang="en-US" style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'>ARP는<br />
+announcement 프로토콜로도 사용할 수 있다. </p>
+<p lang="en-US" style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'>이 기능을<br />
+이용하면 호스트의 IP 주소나 MAC 주소가 변경될 때, 다른 호스트의 ARP 테이블 정보를 갱신할 수 있다. </p>
+<p style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'><span lang="en-US">ARP는<br />
+Destination Hardware address</span><span lang="ko">를</span><span lang="en-US"> 0으로<br />
+설정하고 Destination protocol address 필드에 Source protocol address 값을 설정해서 브로드캐스팅<br />
+한다. </span></p>
+<p lang="en-US" style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'>ARP<br />
+announcement 를 받은 호스트는 Source Hardware address와 중복되는 값을 찾아서 값을 변환한다.</p>
+<p lang="en-US" style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'>ARP<br />
+announcements는 요청에 대한 응답을 필요로 하지 않는다. </p>
+<p lang="en-US" style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'>대신 요청을 받은<br />
+호스트는 ARP 테이블에 있는 캐시 항목을 업데이트 한다.</p>
+<p lang="en-US" style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'>대부분의<br />
+운영체제들이 부팅하는 동안에 ARP announements를 수행한다. </p>
+<p lang="en-US" style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'>운영체제들이<br />
+올라오면 이전의 IP &#8211; MAC 값이 변경될 수 있는데, 이 값을 다른 호스트에 알려줌으로써 IP &#8211; MAC 불일치로 발생할 수 있는 문제를<br />
+해결하는데 도움을 준다.</p>
+<p lang="en-US" style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'> </p>
+<p style='margin:0in;font-family:"Malgun Gothic";font-size:10.0pt'><span lang="en-US" style="font-weight:bold">Inverse ARP</span><span lang="ko" style="font-weight:
+bold">와</span><span lang="en-US" style="font-weight:bold"> Reverse ARP</span></p>
+<p style='margin:0in;font-family:"Malgun Gothic";font-size:10.0pt'><span lang="en-US">Inverse </span><span lang="ko">ARP는 IP를 알고 있는 상태에서, IP에 대한 MAC 주소를<br />
+알아내기 위해서 사용한다. </span></p>
+<p style='margin:0in;font-family:"Malgun Gothic";font-size:10.0pt'>Reverse ARP는<br />
+반대로 MAC주소에 대한 IP주소를 알아내기 위해서 사용한다</p>
+<p lang="en-US" style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'> </p>
+<p lang="en-US" style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'><span style="font-weight:bold">Alternatives to ARP</span></p>
+<p style='margin:0in;font-family:"Malgun Gothic";font-size:10.0pt'>각 컴퓨터는 자신의<br />
+ARP 테이블에 L3 주소(보통 IP주소)와 L2 주소(Ethernet MAC 주소)정보를 관리한다. </p>
+<p style='margin:0in;font-family:"Malgun Gothic";font-size:10.0pt'>모든 현대적인<br />
+컴퓨터들은 ARP 패킷을 로컬 네트워크에 브로드 캐스팅하는 것으로 테이블을 유지한다. </p>
+<p style='margin:0in;font-family:"Malgun Gothic";font-size:10.0pt'> 1980년 이전에 브로드캐스팅이 매우 많은 자원을 소모한다고 생각하던 시절이<br />
+이었다. </p>
+<p style='margin:0in;font-family:"Malgun Gothic";font-size:10.0pt'><span lang="ko">그래서 비용을 줄이기 위해서 설정파일로 테이블을 유지하였다</span><span lang="en-US">.</span></p>
+<p style='margin:0in;font-family:"Malgun Gothic";font-size:10.0pt'> </p>
+<p lang="en-US" style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'> </p>
+<p lang="en-US" style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'><span style="font-weight:bold">ARP Stuffing</span></p>
+<p lang="en-US" style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'><span style="font-weight:bold">ARP mediation</span></p>
+<p lang="en-US" style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'> </p>
+<p lang="en-US" style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'> </p>
+<p lang="en-US" style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'><span style="font-weight:bold">MAC address ( Media Access Control address)</span></p>
+<ul style="margin-left:.375in;direction:ltr;unicode-bidi:embed;
+ margin-top:0in;margin-bottom:0in" type="disc"></p>
+<li style="margin-top:0;margin-bottom:0;vertical-align:middle"><span lang="ko" style='font-family:"맑은 고딕";font-size:10.0pt'>매체</span><span lang="en-US" style='font-family:"맑은 고딕";font-size:10.0pt'> </span><span lang="ko" style='font-family:"맑은 고딕";font-size:10.0pt'>접근</span><span lang="en-US" style='font-family:"맑은 고딕";font-size:10.0pt'> </span><span lang="ko" style='font-family:"맑은 고딕";font-size:10.0pt'>제어</span><span lang="en-US" style='font-family:"맑은 고딕";font-size:10.0pt'> </span><span lang="ko" style='font-family:"맑은 고딕";font-size:10.0pt'>주소</span><span lang="en-US" style='font-family:"맑은 고딕";font-size:10.0pt'> . </span><span lang="ko" style='font-family:"맑은 고딕";font-size:10.0pt'>이더넷</span><span lang="en-US" style='font-family:"맑은 고딕";font-size:10.0pt'> </span><span lang="ko" style='font-family:"맑은 고딕";font-size:10.0pt'>하드웨어</span><span lang="en-US" style='font-family:"맑은 고딕";font-size:10.0pt'> </span><span lang="ko" style='font-family:"맑은 고딕";font-size:10.0pt'>주소</span></li>
+</ul>
+<p style='margin:0in;margin-left:.375in;font-family:"맑은 고딕";font-size:10.0pt'><span lang="en-US">IANA</span><span lang="ko">에서</span><span lang="en-US"> </span><span lang="ko">관리하고</span><span lang="en-US"> </span><span lang="ko">할당하는</span><span lang="en-US"> IP </span><span lang="ko">주소와</span><span lang="en-US"> </span><span lang="ko">달리</span><span lang="en-US"> MAC </span><span lang="ko">주소는</span><span lang="en-US"> NIC </span><span lang="ko">제조업체에서</span><span lang="en-US"> </span><span lang="ko">정해진</span><span lang="en-US"> </span><span lang="ko">규칙에</span><span lang="en-US"> </span><span lang="ko">의해</span><span lang="en-US"> </span><span lang="ko">임의로</span><span lang="en-US"> </span><span lang="ko">만들어</span><span lang="en-US"> </span><span lang="ko">진</span><span lang="en-US"> </span><span lang="ko">주소를</span><span lang="en-US"> </span><span lang="ko">장치</span><span lang="en-US"> </span><span lang="ko">내부의</span><span lang="en-US"> </span><span lang="ko">영구</span><span lang="en-US"> </span><span lang="ko">메모리에</span><span lang="en-US"> </span><span lang="ko">저장된다</span><span lang="en-US">.</span></p>
+<p style='margin:0in;margin-left:.375in;font-family:"맑은 고딕";font-size:10.0pt'><span lang="en-US">48bit</span><span lang="ko">로</span><span lang="en-US"> </span><span lang="ko">구성된</span><span lang="en-US"> MAC </span><span lang="ko">주소</span><span lang="en-US"> </span><span lang="ko">중</span><span lang="en-US"> </span><span lang="ko">앞의</span><span lang="en-US"> 24bit</span><span lang="ko">는</span><span lang="en-US"> </span><span lang="ko">제조업체</span><span lang="en-US"> </span><span lang="ko">식별</span><span lang="en-US"> </span><span lang="ko">정보이며</span><span lang="en-US"> </span><span lang="ko">나머지</span><span lang="en-US"> 24bit</span><span lang="ko">는</span><span lang="en-US"> NIC</span><span lang="ko">의</span><span lang="en-US"> </span><span lang="ko">시리얼</span><span lang="en-US"> </span><span lang="ko">넘버이다</span><span lang="en-US">.</span></p>
+<p lang="en-US" style='margin:0in;margin-left:.375in;font-family:"맑은 고딕";font-size:10.0pt'> </p>
+<p lang="en-US" style='margin:0in;margin-left:.375in;font-family:"맑은 고딕";font-size:24.0pt'>          <span style="text-decoration-line: underline;">00:11:22</span>:<span style="text-decoration-line: underline;">33:44:55</span></p>
+<p style='margin:0in;margin-left:.375in;font-family:"맑은 고딕";font-size:10.0pt'><span lang="en-US">                         </span><span lang="ko">제조업체</span><span lang="en-US"> </span><span lang="ko">식별번호</span><span lang="en-US">        </span><span lang="ko">시리얼</span><span lang="en-US"> </span><span lang="ko">넘버</span><span lang="en-US">      </span></p>
+<p lang="en-US" style='margin:0in;margin-left:.375in;font-family:"맑은 고딕";font-size:10.0pt'>                            </p>
+<p style='margin:0in;margin-left:.375in;font-family:"맑은 고딕";font-size:10.0pt'> </p>
+<p><span class="imageblock" style='display:inline-block;width:800px;font-family: "Malgun Gothic"; font-size: 13.3333px; text-align: center; width: 800px; height: 674px;;height:auto;max-width:100%'><img 13.3333px;="" 674px;"="" 800px;="" center;="" filemime="image/jpeg" filename="2000px-MAC-48_Address.png" font-size:="" gothic";="" height="674" height:="" malgun="" src="http://cfile3.uf.tistory.com/image/99D37B475A444B38259E42" srcset="//img1.daumcdn.net/thumb/R1920x0/?fname=http%3A%2F%2Fcfile3.uf.tistory.com%2Fimage%2F99D37B475A444B38259E42 1920w, //img1.daumcdn.net/thumb/R960x0/?fname=http%3A%2F%2Fcfile3.uf.tistory.com%2Fimage%2F99D37B475A444B38259E42 960w, //img1.daumcdn.net/thumb/R720x0/?fname=http%3A%2F%2Fcfile3.uf.tistory.com%2Fimage%2F99D37B475A444B38259E42 720w, //img1.daumcdn.net/thumb/R640x0.q70/?fname=http%3A%2F%2Fcfile3.uf.tistory.com%2Fimage%2F99D37B475A444B38259E42 640w, //img1.daumcdn.net/thumb/R480x0.q70/?fname=http%3A%2F%2Fcfile3.uf.tistory.com%2Fimage%2F99D37B475A444B38259E42 480w" style="font-family: " text-align:="" width="800" width:=""/></span></p>
+<p style='margin:0in;margin-left:.375in;font-family:"맑은 고딕";font-size:10.0pt'></p>
+<p lang="en-US" style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'><span style="font-weight:bold">NIC (Network Interface Card)</span></p>
+<p style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'><span lang="en-US">   &#8211; </span><span lang="ko">네트워크</span><span lang="en-US"> </span><span lang="ko">인터페이스</span><span lang="en-US"> </span><span lang="ko">카드</span><span lang="en-US">. </span></p>
+<p style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'><span lang="en-US">      </span><span lang="ko">네트웍에</span><span lang="en-US"> </span><span lang="ko">접속할수</span><span lang="en-US"> </span><span lang="ko">있게</span><span lang="en-US"> </span><span lang="ko">하기</span><span lang="en-US"> </span><span lang="ko">위해</span><span lang="en-US"> </span><span lang="ko">컴퓨터</span><span lang="en-US"> </span><span lang="ko">내에</span><span lang="en-US"> </span><span lang="ko">설치되는</span><span lang="en-US"> </span><span lang="ko">확장</span><span lang="en-US"> </span><span lang="ko">카드</span><span lang="en-US"> </span><span lang="ko">이다</span><span lang="en-US">. </span><span lang="ko">주로</span><span lang="en-US"> </span><span lang="ko">랜카드</span><span lang="en-US"> </span><span lang="ko">또는</span><span lang="en-US"> </span><span lang="ko">이더넷</span><span lang="en-US"> </span><span lang="ko">카드라</span><span lang="en-US"> </span><span lang="ko">부른다</span><span lang="en-US">.</span></p>
+<p lang="en-US" style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'> </p>
+<p lang="en-US" style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'><span style="font-weight:bold">Operation Codes</span></p>
+<div style="direction:ltr">
+<table border="1" cellpadding="0" cellspacing="0" style="direction:ltr;
+ border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-width:
+ 1pt" valign="top"></p>
+<tbody>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8715in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt; text-align: center;"><span style="font-weight:bold">Number</span></p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.227in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt; text-align: center;"><span style="font-weight:bold">Operation Code (op)</span></p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8715in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt; text-align: center;">0</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.227in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt;">Reserved</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8715in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt; text-align: center;">1</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.227in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt;">REQUEST</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8715in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt; text-align: center;">2</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.227in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt;">REPLY</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8715in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt; text-align: center;">3</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.227in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt;">request<br />
+  Reverse</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8715in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt; text-align: center;">4</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.227in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt;">reply<br />
+  Reverse</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8715in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt; text-align: center;">5</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.227in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt;">DRARP-Request</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8715in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt; text-align: center;">6</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.227in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt;">DRARP-Reply</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8715in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt; text-align: center;">7</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.227in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt;">DRARP-Error</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8715in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt; text-align: center;">8</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.227in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt;">InARP-Request</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8715in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt; text-align: center;">9</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.227in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt;">InARP-Reply</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8715in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt; text-align: center;">10</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.227in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt;">ARP-NAK</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8715in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt; text-align: center;">11</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.227in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt;">MARS-Request</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8715in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt; text-align: center;">12</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.227in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt;">MARS-Multi</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8715in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt; text-align: center;">13</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.227in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt;">MARS-MServ</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8715in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt; text-align: center;">14</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.227in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt;">MARS-Join</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8715in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt; text-align: center;">15</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.227in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt;">MARS-Leave</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8715in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt; text-align: center;">16</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.227in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt;">MARS-NAK</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8715in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt; text-align: center;">17</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.227in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt;">MARS-Unserv</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8715in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt; text-align: center;">18</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.227in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt;">MARS-SJoin</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8715in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt; text-align: center;">19</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.227in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt;">MARS-SLeave</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8715in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt; text-align: center;">20</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.227in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt;">MARS-Grouplist-Request</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8715in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt; text-align: center;">21</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.227in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt;">MARS-Grouplist-Reply</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8715in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt; text-align: center;">22</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.227in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt;">MARS-Redirect-Map</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8715in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt; text-align: center;">23</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.227in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt;">MAPOS-UNARP</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8715in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt; text-align: center;">24</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.227in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt;">OP_EXP1</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8715in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt; text-align: center;">25</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.227in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt;">OP_EXP2</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8715in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt; text-align: center;">26-65534</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.227in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt;">Unassigned</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8715in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt; text-align: center;">65535</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.227in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 11pt;">Reserved</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p lang="en-US" style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'> </p>
+<p lang="en-US" style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'><span style="font-weight:bold">Hardware type </span></p>
+<p style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'><span lang="en-US">ARP</span><span lang="ko">에</span><span lang="en-US"> </span><span lang="ko">대한</span><span lang="en-US"> </span><span lang="ko">모든</span><span lang="en-US"> </span><span lang="ko">알려진</span><span lang="en-US"> </span><span lang="ko">하드웨어</span><span lang="en-US"> </span><span lang="ko">목록</span><span lang="en-US"> </span><span lang="ko">번호</span></p>
+<p style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'><span lang="en-US"> </span><span lang="ko">참조사이트</span><span lang="en-US"> : </span><a href="http://iana.org/assignments/arp-parameters/"><span lang="en-US">http://iana.org/assignments/arp-parameters/</span></a></p>
+<p lang="en-US" style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'> </p>
+<div style="direction:ltr">
+<table border="1" cellpadding="0" cellspacing="0" style="direction:ltr;
+ border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-width:
+ 1pt" valign="top"></p>
+<tbody>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;"><span style="font-weight:bold">Number </span></p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;"><span style="font-weight:bold">Hardware Type (hrd) </span></p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;">0</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt;">Reserved</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;">1</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt;">Ethernet<br />
+  (10Mb)</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;">2</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt;">Experimental<br />
+  Ethernet (3Mb)</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;">3</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt;">Amateur<br />
+  Radio AX.25</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;">4</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt;">Proteon<br />
+  ProNET Token Ring</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;">5</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt;">Chaos</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;">6</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt;">IEEE 802<br />
+  Networks</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;">7</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt;">ARCNET</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;">8</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt;">Hyperchannel</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;">9</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt;">Lanstar</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;">10</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt;">Autonet<br />
+  Short Address</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;">11</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt;">LocalTalk</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;">12</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt;">LocalNet<br />
+  (IBM PCNet or SYTEK LocalNET)</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;">13</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt;">Ultra<br />
+  link</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;">14</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt;">SMDS</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;">15</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt;">Frame<br />
+  Relay</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;">16</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt;">Asynchronous<br />
+  Transmission Mode (ATM)</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;">17</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt;">HDLC</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;">18</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt;">Fibre<br />
+  Channel</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;">19</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt;">Asynchronous<br />
+  Transmission Mode (ATM)</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;">20</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt;">Serial<br />
+  Line</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;">21</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt;">Asynchronous<br />
+  Transmission Mode (ATM)</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;">22</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt;">MIL-STD-188-220</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;">23</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt;">Metricom</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;">24</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt;">IEEE<br />
+  1394.1995</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;">25</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt;">MAPOS</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;">26</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt;">Twinaxial</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;">27</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt;">EUI-64</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;">28</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt;">HIPARP</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;">29</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt;">IP and<br />
+  ARP over ISO 7816-3</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;">30</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt;">ARPSec</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;">31</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt;">IPsec<br />
+  tunnel</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;">32</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt;">InfiniBand<br />
+  (TM)</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;">33</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt;">TIA-102<br />
+  Project 25 Common Air Interface (CAI)</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;">34</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt;">Wiegand<br />
+  Interface</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;">35</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt;">Pure IP</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;">36</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt;">HW_EXP1</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;">37</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt;">HFI</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;">38-255</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt;">Unassigned</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;">256</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt;">HW_EXP2</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;">257-65534</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt;">Unassigned</p>
+</td>
+</tr>
+<tr>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.8701in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt; text-align: center;">65535</p>
+</td>
+<td style="border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.1652in;padding:4pt 4pt 4pt 4pt"></p>
+<p style="margin: 0in; font-family: Arial; font-size: 10pt;">Reserved</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p style='margin:0in;font-family:"맑은 고딕";font-size:10.0pt'><span lang="en-US"> </span><span lang="ko">참조사이트</span><span lang="en-US"> : </span><a href="http://iana.org/assignments/arp-parameters/"><span lang="en-US">http://iana.org/assignments/arp-parameters/</span></a></p>
+<div class="tt_adsense_bottom" style="margin-top:30px">
+<!-- 상단 --></p>
+</div>
+<div style="text-align:left; padding-top:10px;clear:both">
+<iframe allowtransparency="true" frameborder="0" scrolling="no" src="//www.facebook.com/plugins/like.php?href=http://nitw.tistory.com/186&amp;layout=standard&amp;show_faces=true&amp;width=310&amp;action=like&amp;font=tahoma&amp;colorscheme=light&amp;height=65" style="border:none; overflow:hidden; width:310px; height:65px;"></iframe>
+</div>
+<hr />
+<p><iframe src='http://ad.selfhow.com/rd' width='100%' border=0 frameborder=0 style='height:auto;width:100%'></iframe></p>
+<p><a href='http://nitw.tistory.com/186' target='_blank'>Origin Content : 작은IT세상</a> | <a href="/cdn-cgi/l/email-protection#0a6f69655569693a3a3b4a646b666b246d6b" target='_blank'>Contact : <span class="__cf_email__" data-cfemail="583d3b37073b3b6868691836393439763f39">[email&#160;protected]</span></a>
+</p>
+<p>Cotent License : CC-BY-SA </p>
+<p>This content is collected under the CCL license.</p>
+<p>Please check the license of the original article before asking about copyright.</p>
+<ul>
+<li><a href='/tag/ARPAddress'>More About <span style='font-weight:bold;'>ARPAddress</span></a></li>
+<li><a href='/tag/Resolution'>More About <span style='font-weight:bold;'>Resolution</span></a></li>
+<li><a href='/tag/Protocol'>More About <span style='font-weight:bold;'>Protocol</span></a></li>
+</ul>
+        </div> <!-- //.entry-summary -->
+        
+                    <div class="entry-tags"><b>Tags:</b> <a href="http://da.nala.ga/tag/arpaddress/" rel="tag">ARPAddress</a>, <a href="http://da.nala.ga/tag/protocol/" rel="tag">Protocol</a>, <a href="http://da.nala.ga/tag/resolution/" rel="tag">Resolution</a></div>
+        
+    </div>
+
+</article> <!--/#post-->
+
+
+
+
+
+                                                                    <div class="post-nav-area">
+                                                    
+            <nav class="next-previous-post clearfix media" role="navigation">
+                <div class="row">
+                    <!-- Previous Post -->
+                    <div class="previous-post col-sm-6 pull-left">
+                        <div class="nav-previous"><i class="fa fa-angle-left"></i> <a href="http://da.nala.ga/%eb%b6%88%ed%99%95%ec%8b%a4%ed%95%9c-%ec%8b%9c%eb%8c%80%ec%9d%98-%ec%a4%91%ea%b5%ad%ed%88%ac%ec%9e%90-%ec%a0%84%eb%9e%b5-%ed%95%9c%ec%a0%95%ec%88%99/" rel="prev">불확실한 시대의 중국투자 전략 / 한정숙</a></div>                    </div>
+
+                    <!-- Next Post -->
+                    <div class="next-post col-sm-6 pull-right text-right">
+                        <div class="nav-next"><a href="http://da.nala.ga/%eb%b8%8c%ec%97%98%eb%a7%81-%ed%94%84%eb%a1%9c%eb%aa%a8%ec%85%98112-2018-%ec%9c%a0%eb%9f%bd-%ed%95%ad%ea%b3%b5%ea%b6%8c-17-99%ec%9c%a0%eb%a1%9c%eb%b6%80%ed%84%b0-%ec%8b%9c%ec%9e%91/" rel="next">브엘링 프로모션(~1/12, 2018): 유럽 항공권 17.99유로부터 시작!</a> <i class="fa fa-angle-right"></i></div>                    </div>
+                </div>
+            </nav><!-- .navigation -->
+            
+                                            </div>
+                                
+                                
+                            
+                                            </main> <!-- /.site-main -->
+                </div>  <!-- /.content-area -->
+            </div> <!-- /col -->
+
+            <!-- Blogsidebar -->
+            
+	<div class="col-md-4">
+	    <div class="primary-sidebar widget-area" role="complementary">
+	        <div id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="http://da.nala.ga/">
+				<label>
+					<span class="screen-reader-text">검색:</span>
+					<input type="search" class="search-field" placeholder="검색 &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="검색" />
+			</form></div>		<div id="recent-posts-2" class="widget widget_recent_entries">		<h2 class="widget-title">최근 글</h2>		<ul>
+					<li>
+				<a href="http://da.nala.ga/%ea%b5%90%ed%99%98%ed%95%99%ec%83%9d%ec%a4%80%eb%b9%84part2-%ed%94%84%eb%9e%91%ec%8a%a4-sciences-po-%ec%a7%80%ec%9b%90-%ea%b3%bc%ec%a0%95%ea%b3%bc-%ea%b7%b8-%ec%a0%84-%ec%95%8c%ec%95%84%ec%95%bc/">[교환학생준비PART2] 프랑스 Sciences Po 지원 과정과 그 전 알아야할 것들!</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%b0%95%ea%b7%bc%ed%98%9c-%ec%b5%9c%ec%88%9c%ec%8b%a4-%ea%b2%8c%ec%9d%b4%ed%8a%b8%eb%a5%bc-%eb%b0%9d%ed%98%80%eb%82%b8-%ec%9d%bc%eb%93%b1%ea%b3%b5%ec%8b%a0-%ec%95%88%eb%af%bc%ec%84%9d/">박근혜 최순실 게이트를 밝혀낸 일등공신 안민석</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%b0%b0%ed%8b%80%ea%b7%b8%eb%9d%bc%ec%9a%b4%eb%93%9c-%ec%a0%95%ec%8b%9d%eb%b2%84%ec%a0%84-1-0%ed%8c%a8%ec%b9%98-%eb%ac%b4%ec%97%87%ec%9d%b4-%eb%b0%94%eb%80%8c%eb%82%98%ec%9a%94/">배틀그라운드 정식버전 1.0패치 무엇이 바뀌나요?</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%91%90%eb%87%8c%eb%a5%bc-%ea%b1%b4%ea%b0%95%ed%95%98%ea%b2%8c-%eb%a7%8c%eb%93%9c%eb%8a%94-4%ec%b2%9c%eb%b3%b4%ec%9d%98-%ea%b1%b8%ec%9d%8c/">두뇌를 건강하게 만드는 4천보의 걸음</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%af%b8%ea%b5%ad-%ec%9c%a0%ed%95%99-%ec%a0%95%eb%b3%b4-%ed%95%9c%ea%b5%ad-%eb%82%b4%ec%8b%a0-%ec%84%b1%ec%a0%81%eb%a7%8c%ec%9c%bc%eb%a1%9c-%eb%af%b8%ea%b5%ad-%eb%aa%85%eb%ac%b8%eb%8c%80-%ea%b0%80/">미국 유학  정보 &#8211; 한국 내신 성적만으로 미국 명문대 가기</a>
+						</li>
+				</ul>
+		</div>		<div id="tag_cloud-2" class="widget widget_tag_cloud"><h2 class="widget-title">태그</h2><div class="tagcloud"><a href="http://da.nala.ga/tag/1%ec%9b%94/" class="tag-cloud-link tag-link-35 tag-link-position-1" style="font-size: 14.892307692308pt;" aria-label="1월 (47 아이템)">1월</a>
+<a href="http://da.nala.ga/tag/2017/" class="tag-cloud-link tag-link-510 tag-link-position-2" style="font-size: 19.415384615385pt;" aria-label="2017 (76 아이템)">2017</a>
+<a href="http://da.nala.ga/tag/2017%eb%85%84/" class="tag-cloud-link tag-link-8 tag-link-position-3" style="font-size: 18.123076923077pt;" aria-label="2017년 (66 아이템)">2017년</a>
+<a href="http://da.nala.ga/tag/2018/" class="tag-cloud-link tag-link-61 tag-link-position-4" style="font-size: 14.461538461538pt;" aria-label="2018 (45 아이템)">2018</a>
+<a href="http://da.nala.ga/tag/2018%eb%85%84/" class="tag-cloud-link tag-link-103 tag-link-position-5" style="font-size: 18.984615384615pt;" aria-label="2018년 (73 아이템)">2018년</a>
+<a href="http://da.nala.ga/tag/vs/" class="tag-cloud-link tag-link-943 tag-link-position-6" style="font-size: 9.5076923076923pt;" aria-label="vs (26 아이템)">vs</a>
+<a href="http://da.nala.ga/tag/%ec%98%81%ed%99%94/" class="tag-cloud-link tag-link-1375 tag-link-position-7" style="font-size: 14.246153846154pt;" aria-label="“영화 (44 아이템)">“영화</a>
+<a href="http://da.nala.ga/tag/%ea%b0%80%ea%b2%a9/" class="tag-cloud-link tag-link-63 tag-link-position-8" style="font-size: 12.953846153846pt;" aria-label="가격 (38 아이템)">가격</a>
+<a href="http://da.nala.ga/tag/%ea%b0%80%ec%83%81%ed%99%94%ed%8f%90/" class="tag-cloud-link tag-link-1479 tag-link-position-9" style="font-size: 9.0769230769231pt;" aria-label="가상화폐 (25 아이템)">가상화폐</a>
+<a href="http://da.nala.ga/tag/%ea%b2%80%ec%9d%80%ec%82%ac%eb%a7%89/" class="tag-cloud-link tag-link-341 tag-link-position-10" style="font-size: 8.8615384615385pt;" aria-label="검은사막 (24 아이템)">검은사막</a>
+<a href="http://da.nala.ga/tag/%ea%b2%8c%ec%9e%84/" class="tag-cloud-link tag-link-391 tag-link-position-11" style="font-size: 22pt;" aria-label="게임 (102 아이템)">게임</a>
+<a href="http://da.nala.ga/tag/%ea%b3%b5%ea%b0%9c/" class="tag-cloud-link tag-link-938 tag-link-position-12" style="font-size: 9.5076923076923pt;" aria-label="공개 (26 아이템)">공개</a>
+<a href="http://da.nala.ga/tag/%ea%b3%b5%eb%9e%b5/" class="tag-cloud-link tag-link-1018 tag-link-position-13" style="font-size: 8.8615384615385pt;" aria-label="공략 (24 아이템)">공략</a>
+<a href="http://da.nala.ga/tag/%eb%8b%a4%ec%9a%b4%eb%a1%9c%eb%93%9c/" class="tag-cloud-link tag-link-364 tag-link-position-14" style="font-size: 8.4307692307692pt;" aria-label="다운로드 (23 아이템)">다운로드</a>
+<a href="http://da.nala.ga/tag/%eb%8c%80%ed%95%b4%ec%84%9c/" class="tag-cloud-link tag-link-1629 tag-link-position-15" style="font-size: 8.8615384615385pt;" aria-label="대해서 (24 아이템)">대해서</a>
+<a href="http://da.nala.ga/tag/%eb%a6%ac%eb%b7%b0/" class="tag-cloud-link tag-link-555 tag-link-position-16" style="font-size: 15.969230769231pt;" aria-label="리뷰 (53 아이템)">리뷰</a>
+<a href="http://da.nala.ga/tag/%eb%a7%9b%ec%a7%91/" class="tag-cloud-link tag-link-4173 tag-link-position-17" style="font-size: 9.9384615384615pt;" aria-label="맛집 (27 아이템)">맛집</a>
+<a href="http://da.nala.ga/tag/%eb%aa%a8%eb%b0%94%ec%9d%bc/" class="tag-cloud-link tag-link-835 tag-link-position-18" style="font-size: 10.584615384615pt;" aria-label="모바일 (29 아이템)">모바일</a>
+<a href="http://da.nala.ga/tag/%eb%ac%b4%eb%a3%8c/" class="tag-cloud-link tag-link-827 tag-link-position-19" style="font-size: 13.384615384615pt;" aria-label="무료 (40 아이템)">무료</a>
+<a href="http://da.nala.ga/tag/%eb%b0%a9%eb%b2%95/" class="tag-cloud-link tag-link-529 tag-link-position-20" style="font-size: 15.323076923077pt;" aria-label="방법 (49 아이템)">방법</a>
+<a href="http://da.nala.ga/tag/%eb%b9%84%ed%8a%b8%ec%bd%94%ec%9d%b8/" class="tag-cloud-link tag-link-1478 tag-link-position-21" style="font-size: 9.0769230769231pt;" aria-label="비트코인 (25 아이템)">비트코인</a>
+<a href="http://da.nala.ga/tag/%ec%84%a4%ec%b9%98/" class="tag-cloud-link tag-link-360 tag-link-position-22" style="font-size: 8pt;" aria-label="설치 (22 아이템)">설치</a>
+<a href="http://da.nala.ga/tag/%ec%86%8c%ea%b0%9c/" class="tag-cloud-link tag-link-297 tag-link-position-23" style="font-size: 8.4307692307692pt;" aria-label="소개 (23 아이템)">소개</a>
+<a href="http://da.nala.ga/tag/%ec%88%9c%ec%9c%84/" class="tag-cloud-link tag-link-12 tag-link-position-24" style="font-size: 11.230769230769pt;" aria-label="순위 (31 아이템)">순위</a>
+<a href="http://da.nala.ga/tag/%ec%8b%9c%ec%9e%91/" class="tag-cloud-link tag-link-579 tag-link-position-25" style="font-size: 8.4307692307692pt;" aria-label="시작 (23 아이템)">시작</a>
+<a href="http://da.nala.ga/tag/%ec%95%88%eb%82%b4/" class="tag-cloud-link tag-link-338 tag-link-position-26" style="font-size: 10.584615384615pt;" aria-label="안내 (29 아이템)">안내</a>
+<a href="http://da.nala.ga/tag/%ec%95%8c%ec%95%84%eb%b3%b4%ea%b8%b0/" class="tag-cloud-link tag-link-1939 tag-link-position-27" style="font-size: 12.523076923077pt;" aria-label="알아보기 (36 아이템)">알아보기</a>
+<a href="http://da.nala.ga/tag/%ec%95%8c%ec%95%84%eb%b3%b4%ec%9e%90/" class="tag-cloud-link tag-link-369 tag-link-position-28" style="font-size: 11.661538461538pt;" aria-label="알아보자 (33 아이템)">알아보자</a>
+<a href="http://da.nala.ga/tag/%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8/" class="tag-cloud-link tag-link-567 tag-link-position-29" style="font-size: 9.0769230769231pt;" aria-label="업데이트 (25 아이템)">업데이트</a>
+<a href="http://da.nala.ga/tag/%ec%97%ac%ed%96%89/" class="tag-cloud-link tag-link-1122 tag-link-position-30" style="font-size: 12.738461538462pt;" aria-label="여행 (37 아이템)">여행</a>
+<a href="http://da.nala.ga/tag/%ec%98%a4%eb%b8%8c/" class="tag-cloud-link tag-link-271 tag-link-position-31" style="font-size: 10.8pt;" aria-label="오브 (30 아이템)">오브</a>
+<a href="http://da.nala.ga/tag/%ec%98%a8%eb%9d%bc%ec%9d%b8/" class="tag-cloud-link tag-link-328 tag-link-position-32" style="font-size: 11.876923076923pt;" aria-label="온라인 (34 아이템)">온라인</a>
+<a href="http://da.nala.ga/tag/%ec%9c%84%ed%95%9c/" class="tag-cloud-link tag-link-183 tag-link-position-33" style="font-size: 13.169230769231pt;" aria-label="위한 (39 아이템)">위한</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%eb%b2%a4%ed%8a%b8/" class="tag-cloud-link tag-link-723 tag-link-position-34" style="font-size: 13.169230769231pt;" aria-label="이벤트 (39 아이템)">이벤트</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%ec%95%bc%ea%b8%b0/" class="tag-cloud-link tag-link-861 tag-link-position-35" style="font-size: 10.8pt;" aria-label="이야기 (30 아이템)">이야기</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%ec%9c%a0/" class="tag-cloud-link tag-link-1482 tag-link-position-36" style="font-size: 9.9384615384615pt;" aria-label="이유 (27 아이템)">이유</a>
+<a href="http://da.nala.ga/tag/%ec%9d%bc%eb%b3%b8/" class="tag-cloud-link tag-link-1007 tag-link-position-37" style="font-size: 8.4307692307692pt;" aria-label="일본 (23 아이템)">일본</a>
+<a href="http://da.nala.ga/tag/%ec%a0%95%eb%a6%ac/" class="tag-cloud-link tag-link-65 tag-link-position-38" style="font-size: 11.876923076923pt;" aria-label="정리 (34 아이템)">정리</a>
+<a href="http://da.nala.ga/tag/%ec%a0%95%eb%b3%b4/" class="tag-cloud-link tag-link-610 tag-link-position-39" style="font-size: 17.261538461538pt;" aria-label="정보 (61 아이템)">정보</a>
+<a href="http://da.nala.ga/tag/%ec%b4%9d%ec%a0%95%eb%a6%ac/" class="tag-cloud-link tag-link-179 tag-link-position-40" style="font-size: 8.4307692307692pt;" aria-label="총정리 (23 아이템)">총정리</a>
+<a href="http://da.nala.ga/tag/%ec%b5%9c%ea%b3%a0/" class="tag-cloud-link tag-link-404 tag-link-position-41" style="font-size: 11.876923076923pt;" aria-label="최고 (34 아이템)">최고</a>
+<a href="http://da.nala.ga/tag/%ec%b6%94%ec%b2%9c/" class="tag-cloud-link tag-link-367 tag-link-position-42" style="font-size: 20.707692307692pt;" aria-label="추천 (89 아이템)">추천</a>
+<a href="http://da.nala.ga/tag/%ec%b6%9c%ec%8b%9c/" class="tag-cloud-link tag-link-612 tag-link-position-43" style="font-size: 10.584615384615pt;" aria-label="출시 (29 아이템)">출시</a>
+<a href="http://da.nala.ga/tag/%ed%95%9c%ea%b5%ad/" class="tag-cloud-link tag-link-1483 tag-link-position-44" style="font-size: 10.153846153846pt;" aria-label="한국 (28 아이템)">한국</a>
+<a href="http://da.nala.ga/tag/%ed%9b%84%ea%b8%b0/" class="tag-cloud-link tag-link-114 tag-link-position-45" style="font-size: 19.2pt;" aria-label="후기 (74 아이템)">후기</a></div>
+</div>	    </div>
+	</div>
+
+        </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+    </div>
+    <footer class="site-footer" role="contentinfo">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+  
+                    <p></p>
+                    
+                                            <div class="footer-social-icons">
+                                                                                                                                                                                                                                                                                                                                                                                                        
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+            <div class="scroll-up">
+            <a href="#"><i class="fa fa-angle-up"></i></a>
+        </div>
+        <!-- Scroll Up -->
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/af2821b0/cloudflare-static/email-decode.min.js"></script><script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/bootstrap.min.js?ver=3.3.5'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/scripts.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/jquery.fitvids.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/smoothscroll.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/wp-embed.min.js?ver=4.8.4'></script>
+    </body>
+</html>

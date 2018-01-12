@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="http://da.nala.ga/xmlrpc.php">
+
+<title>가상화폐 비트코인 기초용어정리 | All About CC</title>
+<meta name='robots' content='noindex,follow' />
+
+<!-- All in One SEO Pack 2.4.3.1 by Michael Torbert of Semper Fi Web Design[276,320] -->
+<link rel="canonical" href="http://da.nala.ga/%ea%b0%80%ec%83%81%ed%99%94%ed%8f%90-%eb%b9%84%ed%8a%b8%ec%bd%94%ec%9d%b8-%ea%b8%b0%ec%b4%88%ec%9a%a9%ec%96%b4%ec%a0%95%eb%a6%ac/" />
+<!-- /all in one seo pack -->
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 피드" href="http://da.nala.ga/feed/" />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 댓글 피드" href="http://da.nala.ga/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 가상화폐 비트코인 기초용어정리 댓글 피드" href="http://da.nala.ga/%ea%b0%80%ec%83%81%ed%99%94%ed%8f%90-%eb%b9%84%ed%8a%b8%ec%bd%94%ec%9d%b8-%ea%b8%b0%ec%b4%88%ec%9a%a9%ec%96%b4%ec%a0%95%eb%a6%ac/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/da.nala.ga\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.4"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bootstrap-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/bootstrap.min.css?ver=3.3.5' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/font-awesome.min.css?ver=4.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='shaped-blog-stylesheet-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/style.css?ver=4.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/responsive.css' type='text/css' media='all' />
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://da.nala.ga/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://da.nala.ga/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://da.nala.ga/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='운동 효과적으로 하는법 운동상식' href='http://da.nala.ga/%ec%9a%b4%eb%8f%99-%ed%9a%a8%ea%b3%bc%ec%a0%81%ec%9c%bc%eb%a1%9c-%ed%95%98%eb%8a%94%eb%b2%95-%ec%9a%b4%eb%8f%99%ec%83%81%ec%8b%9d/' />
+<link rel='next' title='장기렌트카 비교해보기' href='http://da.nala.ga/%ec%9e%a5%ea%b8%b0%eb%a0%8c%ed%8a%b8%ec%b9%b4-%eb%b9%84%ea%b5%90%ed%95%b4%eb%b3%b4%ea%b8%b0/' />
+<meta name="generator" content="WordPress 4.8.4" />
+<link rel='shortlink' href='http://da.nala.ga/?p=6510' />
+<link rel="alternate" type="application/json+oembed" href="http://da.nala.ga/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fda.nala.ga%2F%25ea%25b0%2580%25ec%2583%2581%25ed%2599%2594%25ed%258f%2590-%25eb%25b9%2584%25ed%258a%25b8%25ec%25bd%2594%25ec%259d%25b8-%25ea%25b8%25b0%25ec%25b4%2588%25ec%259a%25a9%25ec%2596%25b4%25ec%25a0%2595%25eb%25a6%25ac%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://da.nala.ga/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fda.nala.ga%2F%25ea%25b0%2580%25ec%2583%2581%25ed%2599%2594%25ed%258f%2590-%25eb%25b9%2584%25ed%258a%25b8%25ec%25bd%2594%25ec%259d%25b8-%25ea%25b8%25b0%25ec%25b4%2588%25ec%259a%25a9%25ec%2596%25b4%25ec%25a0%2595%25eb%25a6%25ac%2F&#038;format=xml" />
+
+	<style>
+
+		/* Border Color */
+		.btn-social:hover,
+		blockquote,
+		#respond input:focus[type="text"], 
+	    #respond input:focus[type="email"], 
+	    #respond input:focus[type="url"],
+	    #respond textarea:focus,
+	    #comments .comment-reply a:hover
+		{
+			border-color: ;
+		}
+
+		
+		/* Background Color */
+		.scroll-up a,
+		.btn-social:hover,
+		button,
+		input[type="button"],
+		input[type="reset"],
+		input[type="submit"],
+		.navbar-default .navbar-nav .dropdown-menu li a:hover, .dropdown-menu li a:focus, .navbar-default .navbar-nav .dropdown-menu .active a,
+		.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover, .pagination li .current,
+		.next-previous-posts .next-post a:hover,
+		.next-previous-posts .previous-post a:hover,
+		.btn-goback,
+		.btn-submit,
+		a.more-link,
+		.featured-post .fa,
+		#comments .comment-reply a:hover,
+		.widget .tagcloud a
+		{
+			background-color: ;
+		}
+
+		
+		/* Color */
+		.text-logo a,
+		.navbar-default .navbar-nav .active a, .navbar-default .navbar-nav .active a:hover, .navbar-default .navbar-nav .active a:focus,
+		.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus,
+		a:hover,
+    	a:focus,
+		.next-previous-posts .previous-post a,
+		.next-previous-posts .next-post a,
+		.pagination>li>a, .pagination>li>span,
+		#comments .comment-author a:hover, 
+    	#respond .logged-in-as a:hover,
+    	#wp-calendar a,
+    	h2.entry-title a:hover
+		{
+			color: ;
+		}
+
+
+		/* A Color */
+		a{
+			color: ;
+		}
+
+		/* a:hover Color */
+		a:hover,
+		a:focus,
+		a:active,
+		.widget a:hover,
+		.post .post-content .entry-meta ul li a:hover
+		{
+			color: ;
+		}
+
+		/* .featured-post .fa:after*/
+		.featured-post .fa:after{
+			border-color:   transparent ;
+		}
+
+
+		
+
+	</style>
+</head>
+
+<body class="post-template-default single single-post postid-6510 single-format-standard">
+
+    <div id="st-preloader">
+        <div id="pre-status">
+            <div class="preload-placeholder"></div>
+        </div>
+    </div>
+<!-- /Preloader -->
+
+<header id="header">	
+	<div id="trueHeader">
+    	<div class="wrapper">
+            <div class="container">
+            	<!-- Menu -->
+            	<div class="menu_main">
+                	<div class="navbar blogx-navbar navbar-default">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#st-navber-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+
+                                                            <div class="text-logo">
+                                    <a href="http://da.nala.ga">All About CC</a>
+                                    <p>All About CC Contents</p>
+                                </div><!-- /Logo -->
+                                                    </div>
+                      
+                        <div id="st-navber-collapse" class="navbar-collapse collapse pull-right">
+                             
+                        </div>
+                    </div>
+            	</div><!-- end menu -->
+        	</div> <!-- /.container -->
+    	</div>
+	</div>
+	<DIV class='ads_adsense_img' style='margin:40px 0px 40px 0px;'>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- only display -->
+	<ins class="adsbygoogle"
+	     style="display:block"
+	     data-ad-client="ca-pub-8393857339019314"
+	     data-ad-slot="7474886381"
+	     data-ad-format="auto"></ins>
+	<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+	</DIV>	
+</header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div id="primary" class="content-area">
+                    <main id="main" class="site-main" role="main">
+
+                        
+                                <article id="post-6510" class="post-6510 post type-post status-publish format-standard hentry category-uncategorized tag-1479 tag-10364 tag-1478">
+    <header class="entry-header">
+        
+        
+    </header> <!--/.entry-header -->
+
+    <div class="clearfix post-content media">
+
+        <h2 class="entry-title">
+            가상화폐 비트코인 기초용어정리        </h2> <!-- //.entry-title -->
+
+        <div class="clearfix entry-meta">
+            
+            <ul class="list-inline">
+                <li>
+                    <span class="author vcard">
+                        By <a class="url fn n" href="http://da.nala.ga/author/site-admin/">site-admin</a>                    </span>
+                </li>
+                <li>
+                    on <span class="posted-on">1월 10, 2018</span>
+                </li>
+                                    <li>
+                        in <span class="posted-in">
+                            <a href="http://da.nala.ga/category/uncategorized/" rel="category tag">미분류</a>                        </span>
+                    </li>
+                            </ul>
+                </div> <!--/.entry-meta -->
+        
+        <div class="entry-summary">
+            <p><img src='http://cfile3.uf.tistory.com/image/99C16B4E5A55543004B523' style='max-width:250px;min-width:0px;' onError='this.style.display="none"' /></p>
+<h1>3줄 요약 </h1>
+<div style='color:#fff;background-color:#000;border-radius:10px;'>
+<ol>
+<li><span>지갑 Wallet : 말그대로 가상화폐 지갑을 의미 합니다. 해킹위험에 대비하여 내 코인들을 안전하게 보관할수 있는 사이버상의 지갑.</span></li>
+<li><span>ㅣ가상화폐 거래에 사용되는 용어</span></li>
+<li><span>흑우 : 호구, 병신, 머저리, 돈잃는 사람</span></li>
+</ol>
+</div>
+<p><span id="more-6510"></span></p>
+<p><iframe src='http://ad.selfhow.com/rd' width='100%' border=0 frameborder=0 style='height:auto;width:100%'></iframe></p>
+<hr />
+<p style="text-align: center;">
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:840px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="가상화폐용어정리1.jpg" height="517" src="http://cfile3.uf.tistory.com/image/99C16B4E5A55543004B523" style="" width="840"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: left; line-height: 2;">가상화폐 그것이 알고싶다?</p>
+<p style="text-align: left; line-height: 2;">얼마전부터 언론에서 오르내리고, 젊은 사람이든 나이든 사람이나, 남자, 여자 할꺼 없이 비트코인과 같은 가상화폐 이야기를 하더군요.</p>
+<p style="text-align: left; line-height: 2;">제가 처럼 비트코인을 알게된게 2015년 말쯤 되었으니 벌써 2년이 흘렀네요.</p>
+<p style="text-align: left; line-height: 2;">그 당시는 채굴에 대한 정보를 알고 싶어 몇일을 조사했던 기억이 나는데, 이렇게 큰 이슈가 될 줄은 상상도 못하고 시도를 안한걸 지금와 후회하고 있습니다&#8230;.ㅜㅜ</p>
+<p style="text-align: left; line-height: 2;">조금은 늦은 시기지만 지금이라도 다시 가상화폐를 이해하고 투자를 해 보려고 여기저기 정보를 수집하다 보니 모르는 용어가 너무 많은거 같아 저처럼 새롭게 가상화폐(비트코인, 이더리움, 리풀, 퀀텀, 네오, 아크, 대시)를 시작하시는 분들과 정보교류를 위해 가상화폐 코인의 용어에 대해 정리해 봤습니다.</p>
+<p style="text-align: left; line-height: 2;"></p>
+<p style="text-align: left; line-height: 2;">가상화폐관련 단톡방에 눈팅을 하다보면 처음듣는 용어들이 계속해서 올라와 읽으면서도 이해하기 어려운 부분이 있는데, 오늘 이 포스팅 하나에 다 담을 수 있었으면 하네요&#8230;</p>
+<p style="text-align: left; line-height: 2;"></p>
+<p style="text-align: left; line-height: 2;"></p>
+<p style="text-align: center; line-height: 2; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:840px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="가상화폐용어정리2.jpg" height="560" src="http://cfile28.uf.tistory.com/image/993B04385A5565521CE4BA" style="" width="840"/></span></p>
+<p style="text-align: center; line-height: 2;"></p>
+<p style="text-align: left; line-height: 2;"></p>
+<p style="text-align: left; line-height: 2;"><b><span style="font-size: 18pt;"><span style="font-size: 24pt; color: rgb(153, 138, 0);">ㅣ</span>가상화폐 기초용어</span></b></p>
+<p style="text-align: left; line-height: 2;"></p>
+<p style="text-align: left; line-height: 2;"><b>블록체인(Block Chain)</b></p>
+<p style="text-align: left; line-height: 2;"> : <span style="color: rgb(93, 93, 93);">비트코인, 이더리움, 리플등을 비롯한 가상화폐의 모든 거래가 기록된 공공의 전자장부 이며, 가상화폐로 거래할 때 발생할 수 있는 해킹을 막는 기술을 말 합니다. </span></p>
+<p style="text-align: left; line-height: 2;"><span style="color: rgb(93, 93, 93);">1세대 가상화폐 비트코인이 성공하게된 이유도 바로 이 블로체인 기술이 있었기 때문이죠.</span></p>
+<p style="text-align: left; line-height: 2;"></p>
+<p style="text-align: left; line-height: 2;"><b>하드포크(Hard Fork)</b></p>
+<p style="text-align: left; line-height: 2;"> : <span style="color: rgb(93, 93, 93);">하드포크란 블록체인을 업그레이드 하면서 원본을 떼어내 새로운 가상화폐를 만들어 독립시키는것을 말 합니다.</span></p>
+<p style="text-align: left; line-height: 2;"><span style="color: rgb(93, 93, 93);">이더리움이 해킹사태를 겪으면서 이로인해 이더리움 클래식(ETC)가 탄생하였습니다.</span></p>
+<p style="text-align: left; line-height: 2;"></p>
+<p style="text-align: left; line-height: 2;"><b>소프트포크(Soft Fork)</b></p>
+<p style="text-align: left; line-height: 2;"> : <span style="color: rgb(93, 93, 93);">소프트웨어 업그레이드를 말하며, 업데이트나 패치를 의미 합니다.</span></p>
+<p style="text-align: left; line-height: 2;"></p>
+<p style="line-height: 2;"><b>세그윗(Segwit)</b></p>
+<p style="text-align: left; line-height: 2;"> : <span style="color: rgb(93, 93, 93);">거래 처리 용량 해결을 위한 업그레이드. </span></p>
+<p style="text-align: left; line-height: 2;"><span style="color: rgb(93, 93, 93);">비트코인은 10분당 1MB용량의 블록을 생성및 거래하기에 1초에 7개만 거래가능하게 설계되어 있습니다.</span></p>
+<p style="text-align: left; line-height: 2;"><span style="color: rgb(93, 93, 93);">거래량 급증에 따라 빠른시간내에 받아들이기가 어려운 상태이므로 좀 더 가격이 올라갈 가능성이 있있는데 이 때 비트코인은 시스템 업그레이드 필요성을 느끼고 세그윗을 진행합니다.</span></p>
+<p style="text-align: left; line-height: 2;"><b><br /></b></p>
+<p style="line-height: 2;"><b>사토시</b></p>
+<p style="line-height: 2;"> : <span style="color: rgb(93, 93, 93);">사토시는 비트코인의 개발자(나카모토 사토시)이자 비트코인을 0.00000001 단위로 쪼갰을 때 부르는 말. 알트코인들의 값어치를 부를 때 사토시의 단위를 씁니다.</span></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"><span style="color: rgb(0, 0, 0);"><b>알트코인(알트)</b></span></p>
+<p style="line-height: 2;"> : <span style="color: rgb(93, 93, 93);">알트코인이란 비트코인, 이더리움,리플 등 시가총액이 큰 코인들을 제외한 다른 코인들을 총칭하는 말입니다. </span></p>
+<p style="line-height: 2;"><span style="color: rgb(93, 93, 93);">비트코인을 제외한 나머지 모든 코인을 뜻하기도 합니다. </span></p>
+<p style="line-height: 2;"><span style="color: rgb(93, 93, 93);">폴로닉스(Poloniex)와 같은 해외 거래소의 경우 비트코인이나 이더리움을 사야 알트코인을 살 수 있는데, 비트코인 단위를 쪼개서 부르다보니 사토시라는 말이 나오게 되었습니다. </span></p>
+<p style="line-height: 2;"><span style="color: rgb(65, 116, 217);">Ex)지금 퀀텀 얼마야?  6600사토시네(0.000066 btc)</span></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"><b>지갑 Wallet</b></p>
+<p style="line-height: 2;"> : <span style="color: rgb(93, 93, 93);">말그대로 가상화폐 지갑을 의미 합니다. 해킹위험에 대비하여 내 코인들을 안전하게 보관할수 있는 사이버상의 지갑.</span></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"><b>비트코인 거래소</b></p>
+<p style="line-height: 2;"> :<span style="color: rgb(93, 93, 93);"> 말그대로 코인을 사고 파는 거래소. 거래소마다 취급하는 코인들이 다르고, 가격도 다르고, 수수료도 다르므로 본인에게 맞는 거래소를 잘 선택하길 바랍니다.</span></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"><b>채굴 Mining</b></p>
+<p style="line-height: 2;"> : <span style="color: rgb(93, 93, 93);">비트코인등을 얻을려고 컴퓨터 등을 이용해 프로그램을 돌리는것. 채굴해본적이 없기 때문에 자세히는 모릅니다.</span></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"><b>EEA</b></p>
+<p style="line-height: 2;"> : <span style="color: rgb(93, 93, 93);">Enterprise Ehereum Allience의 줄임말로 이더리움을 후원하는 기업들을 뜻합니다. 5월 EEA발표에서 삼성SDS와 도요타가 참여하면서 14만원에서 38만원을 찍는 일이 일어났었습니다. </span></p>
+<p style="line-height: 2;"><span style="color: rgb(93, 93, 93);">반대로 알리바바와 화웨이가 참여한다는 소문이 돌던 6월의 EEA에서는 소문이 거짓으로 드러난데다 비탈릭(이더리움 개발자)가 중국에 참석하지 않으며 기대감이 빠지면서 폭등 후 폭락을 겪기도 하였습니다.</span></p>
+<p style="text-align: left; line-height: 2;"></p>
+<p style="text-align: left; line-height: 2;"><b>ETF</b></p>
+<p style="text-align: left; line-height: 2;"> : <span style="color: rgb(93, 93, 93);">ETF(Exchange traded funds)는 상장지수 펀드로 주가지수에 따라 수익률이 결정되는 펀드입니다. 한국의 코스피지수를 예로 들 수 있습니다. </span></p>
+<p style="text-align: left; line-height: 2;"><span style="color: rgb(93, 93, 93);">비트코인이 ETF를 두 번 신청하였는데 ETF전에 기대심리로 올랐다가 ETF가 각각 거절당하며 폭락한 사례가 있습니다.</span></p>
+<p style="text-align: left; line-height: 2;"></p>
+<p style="line-height: 2;"><b>XRP</b> : <span style="color: rgb(93, 93, 93);">리플코인의 약자</span></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"><b>스퀴즈</b> : <span style="color: rgb(93, 93, 93);">스퀴즈란 차트의 변동폭이 좁게 움직이며 쥐어짜는 형상을 의미합니다.</span></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"><b>횡보(박스권)</b></p>
+<p style="line-height: 2;"> :<span style="color: rgb(93, 93, 93);"> 횡보(박스권)란 가격 변동폭이 좁게 움직이는 것을 의미하며 스퀴즈와 비슷합니다.</span></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"><b>펌핑</b> : <span style="color: rgb(93, 93, 93);">펌핑이란 가격이 본격적으로 오르기 전 약간씩 뛰어오르는 현상을 말합니다.</span></p>
+<p style="line-height: 2;"><b><br /></b></p>
+<p style="line-height: 2;"><b>조정</b> : <span style="color: rgb(93, 93, 93);">조정이란 가격이 너무 오르거나 내릴 때 다시 약간 내리거나 오르는 것을 조정이라고 표현합니다.</span></p>
+<p style="text-align: left; line-height: 2;"></p>
+<p style="line-height: 2;"><b>ICO</b></p>
+<p style="line-height: 2;"> : <span style="color: rgb(93, 93, 93);">Innitial Coin Offering의 약자로 신규 비상장 코인에 가상화폐로 투자하면 해당 신규코인을 액면가로 받는 투자 방식을 말합니다.</span></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"><b>스캠 Scam</b> : <span style="color: rgb(93, 93, 93);">쉽게 말해서 사기. 예를 들면 비트코인 플래티넘</span></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"><b>백서 (White paper)</b></p>
+<p style="line-height: 2;"><span style="color: rgb(93, 93, 93);"> : 개발자들이 암호화폐에 대해 장래 희망등이나 기술들을 설명해놓은 것. 혹은 기업에서 암호화폐에 대해 설명하려고 쓴것.</span></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2; text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:840px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="가상화폐용어정리3.jpg" height="560" src="http://cfile10.uf.tistory.com/image/99E54E365A55656428C609" style="" width="840"/></span></p>
+<p style="line-height: 2; text-align: center;"></p>
+<p style="text-align: left; line-height: 2;"></p>
+<p style="text-align: left; line-height: 2;"><b><span style="font-size: 18pt;"><span style="font-size: 24pt; color: rgb(153, 138, 0);">ㅣ</span>가상화폐 거래에 사용되는 용어</span></b></p>
+<p style="text-align: left; line-height: 2;"></p>
+<p style="line-height: 2;"><b>호가 </b>: <span style="color: rgb(93, 93, 93);">팔거나 사려는 가격을 부름.</span></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"><b>매수</b> : <span style="color: rgb(93, 93, 93);">가상화폐 구매</span></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"><b>매도</b> : <span style="color: rgb(93, 93, 93);">가상화폐 판매</span></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"><b>익절</b> :<span style="color: rgb(93, 93, 93);"> 이익을 보고 판매.</span></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"><b>손절 (손절매)</b> : <span style="color: rgb(93, 93, 93);">계속 떨어질꺼 같아 손해를 보더라도 판매하는 행위</span></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"><b>거래량 Volume</b> : <span style="color: rgb(93, 93, 93);">거래가 되고 있는 양</span></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"><b>체결강도</b> : 매수나 매도가 이루어지는 강도.</p>
+<p class="moreless_fold" id="more368_0"><span onclick="toggleMoreLess(this, '368_0','더보기','접기'); return false;" style="cursor: pointer;">더보기</span></p>
+<div class="moreless_content" id="content368_0" style="display: none;">
+<p style="line-height: 2;">주식을 할 때, 거래량의 일간 편차가 심하게 나타나고 이상매매가 발생할 때는 인위적인 대량거래가 수반되는 등 주가 예측을 왜곡시키는 요인들이 있다. 체결강도는 이러한 왜곡 현상을 최소화시키고, 단순한 거래량 변수를 매수, 매도 거래량으로 구분하여 입체적으로 분석한다. 그렇기 때문에 효용성이 극대화된 분석지표라 할 수 있다. 이 체결강도가 100%보다 낮으면 체결매도가 많다는 의미이므로 매도 신호로 활용하고, 100%보다 높으면 체결매수가 많다는 의미이므로 매수 신호로 활용한다.</p>
+</div>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"><b>시가 총액</b> : </p>
+<p class="moreless_fold" id="more368_1"><span onclick="toggleMoreLess(this, '368_1','더보기','접기'); return false;" style="cursor: pointer;">더보기</span></p>
+<div class="moreless_content" id="content368_1" style="display: none;">
+<p style="line-height: 2;">시가총액은 전 상장주식을 시가로 평가한 것으로 여기에는 ▲개별종목의 시가총액을 말하는 경우와 ▲주식시장 전체의 시가총액을 말하는 경우가 있다. </p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;">■ 개별종목의 시가총액</p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;">개별종목의 시가총액은 그 종목의 발행주식수와 주가를 곱한 것으로 그 회사의 규모를 평가할 때 사용한다. </p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;">예를 들면 시가가 1만원이고 발행주식수가 1천만주인 종목의 시가총액은 1천억원이다. 1천억원의 자금이 있으면 그 회사를 매수할 수 있는 것을 의미한다. 그렇지만 실제적으로 매수하려고 하면 대주주가 가만히 있지 않고 또한 매수에 들어가면 주가가 상승하여 변동한다. </p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;">따라서 시가총액은 주가를 변동과 함께 시시각각 변하는데, 보통 그날의 종가에 상장주식수를 곱해 산출한다.</p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;">개별 기업의 시가총액은 그 기업의 실질적인 가치를 평가할 수 있는 방법이다.</p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;">■ 주식시장 전체의 시가총액</p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;">주식시장 전체의 시가총액은 증시에 상장돼 있는 모든 종목의 총주식을 시가로 평가한 금액으로 전 상장종목별로 그 날 종가에 상장주식수를 곱한 후 합계해 산출한다.</p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;">일정 시점에서 주식시장이 어느 정도 규모인지를 나타내주어 주식시장규모의 국제비교에도 곧잘 이용된다. </p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;">또한 시가총액은 우리나라의 경제지표로써 사용되는 중요한 지표 중 하나이다. 예를 들면 개인의 금융자산과 은행예금총액, 보험의 계약고 등과 비교해서 시가총액의 신장률이 크다는 것은 주식시장으로 자금유입이 활발한 것을 의미한다고 할 수 있다.</p>
+<p style="line-height: 2;">[네이버 지식백과] 시가총액 (시사상식사전, 박문각)</p>
+<p style="line-height: 2;">
+</div>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"><b>고점 </b>: <span style="color: rgb(93, 93, 93);">가격이 평균 보다 높은 지점 , 매수 하면 불리한 지점.</span></p>
+<p style="line-height: 2;"><b><br /></b></p>
+<p style="line-height: 2;"><b>저점</b> : <span style="color: rgb(93, 93, 93);">가격이 평균보다 낮은 지점 , 사면 좋은 지점.</span></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"><b>추매(추격매수)</b> : <span style="color: rgb(93, 93, 93);">가격이 상승세인 코인을 따라가는 행위 </span></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"><b>개미</b> :<span style="color: rgb(93, 93, 93);"> 적은돈으로 가상화폐 거래를 하는 사람들</span></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"><b>세력</b> : <span style="color: rgb(93, 93, 93);">큰 돈으로 가상화폐 거래를 하는 집단. 또는 물량이 매우 많은 집단. 시세 조정이 가능한 사람들.</span></p>
+<p style="line-height: 2;"><b><br /></b></p>
+<p style="text-align: left; line-height: 2;"><b>물타기</b> : <span style="color: rgb(93, 93, 93);">본인이 산 가격보다 내릴때 추가자금으로 구매해서 평단을 낮추는 것을 의미합니다.</span></p>
+<p style="text-align: left; line-height: 2;"></p>
+<p style="line-height: 2;"><b>공매(마진거래)</b> : <span style="color: rgb(93, 93, 93);">공매수란 가격이 오를 것을 예상하여 미리 돈을 땡겨서 (레버리지 4배 까지 :코인원기준) 구매를 하고 나중에 청산하는 거래방식입니다.</span></p>
+<p style="line-height: 2;"><b><br /></b></p>
+<p style="line-height: 2;"><b>공매도</b> : <span style="color: rgb(93, 93, 93);">공매와 반대로 가격이 내릴 것을 예상하여 미리 돈을 땡겨서(역시 레버리지 4배) 팔고 나중에 사는 거래방식입니다. </span></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"><b>볼밴 </b>: <span style="color: rgb(93, 93, 93);">볼린저밴드의 약자로 후행성 차트분석을 하는 지표 입니다. </span></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"><b>골크(골든크로스), 데크(데드크로스)</b> : <span style="color: rgb(93, 93, 93);">골든크로스와 데드크로스는 추세가 바뀌는 것을 암시하는 시그널이라 볼 수 있습니다. (조금 어렵죠^^)</span></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"><b>단기 이동평균선(이평선)</b> : <span style="color: rgb(93, 93, 93);">코인 그래프에서 주황선</span></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"><b>장기 이동평균선</b></p>
+<p style="line-height: 2;"><span style="color: rgb(93, 93, 93);"> : 코인 그래프에서 하늘색 인데 주황선이 위로 갈 경우 골든크로스, 하늘선이 위로갈 경우 데드크로스 입니다. </span></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"><b>지정가(maker)</b></p>
+<p style="line-height: 2;"><span style="color: rgb(93, 93, 93);"> : 지정가란 해당 가격에 도달하지 않을 때 미리 걸어두고 거래가 성사될 때의 수수료입니다.</span></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"><b>시장가(taker)</b></p>
+<p style="line-height: 2;"><span style="color: rgb(93, 93, 93);"> : 시장가란 현재 거래가 진행되는 가격에 바로 사거나 팔 때의 수수료를 의미합니다.</span></p>
+<div></div>
+<p style="line-height: 2;"><b>매수벽, 매도벽, 지지선, Cryptowatch</b></p>
+<p style="line-height: 2;"><span style="color: rgb(93, 93, 93);"> : 호가창에서 지정가로 걸어둔 매수량이 매수벽, 반대가 매도벽입니다.</span></p>
+<p style="line-height: 2;"><span style="color: rgb(93, 93, 93);">매수벽이 받쳐준다는 것은 그 가격 이하로는 안내린다는 기대심리가 포함되어 있습니다.</span></p>
+<p style="line-height: 2;"><span style="color: rgb(93, 93, 93);">따라서 지지선이라고도 부릅니다.</span></p>
+<p style="line-height: 2;"><span style="color: rgb(93, 93, 93);">하지만 거래량이 많은 분이 그 벽에 팔아버리면 아래로 쭉쭉 내려가겠죠. 매도벽도 반대입니다. </span></p>
+<p style="line-height: 2;"><span style="color: rgb(93, 93, 93);">상승세에서 매도벽이 가로막고있을때 이것을 치우거나 거래액 많은 분이 사버리면 위로 치고 올라가겠지요 이것을 추세거래법이라고도 합니다. </span></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"><b>재정거래</b></p>
+<p style="line-height: 2;"><span style="color: rgb(93, 93, 93);">: 프리미엄 시세 차익으로 해외 거래서에서 코인 구매 후 국내 거래소에 팔아 이익 챙기는 형태</span></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2; text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:840px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="가상화폐용어정리4.jpg" height="560" src="http://cfile22.uf.tistory.com/image/99CDF4355A55657E1745AB" style="" width="840"/></span></p>
+<p style="line-height: 2; text-align: center;"></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"><b><span style="font-size: 18pt;"><span style="font-size: 24pt; color: rgb(153, 138, 0);">ㅣ</span>가상화폐 단톡방 또는 커뮤니티 용어</span></b></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"><b>존버</b></p>
+<p style="line-height: 2;"> : <span style="color: rgb(93, 93, 93);">존나버티기. 또는 존나 버로우. 속뜻은 저점일때 사서 고점으로 올라가는중, 또는 고점에서 물려서 손절하기 싫으니까 익절할때까지 기다리기</span></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"><b>김프(=김치프리미엄)</b></p>
+<p style="line-height: 2;"> : <span style="color: rgb(93, 93, 93);">해외거래소 시세보다 국내 거래소 시세가 높을 경우 김프꼈다고 말하며 그 반대의 경우엔 역프꼈다고 말함</span></p>
+<p style="text-align: left;"></p>
+<p><b>풀매(=풀매수)</b> : <span style="color: rgb(93, 93, 93);">살 수 있는 만큼 모든 돈으로 코인 구매</span></p>
+<p></p>
+<p><b>떡상</b> : <span style="color: rgb(93, 93, 93);">싯가가 아주 많이 오름 (그 반대는 떡락)</span></p>
+<p style="text-align: left;"></p>
+<p><b>흑우</b> :<span style="color: rgb(93, 93, 93);"> 호구, 병신, 머저리, 돈잃는 사람</span></p>
+<p><b><br /></b></p>
+<p><b>떡락</b> : <span style="color: rgb(93, 93, 93);">가격 엄청 내림</span></p>
+<p></p>
+<p><b>떡상</b> : <span style="color: rgb(93, 93, 93);">가격 엄청 오름</span></p>
+<p><b><br /></b></p>
+<p><b>가즈아</b> : <span style="color: rgb(93, 93, 93);">내가 삿으니 떡상가자</span></p>
+<p></p>
+<p><b>물림</b> : <span style="color: rgb(93, 93, 93);">고점에서 사서 손해보는중</span></p>
+<p><b><br /></b></p>
+<p><b>구조대 </b>: <span style="color: rgb(93, 93, 93);">물리는 중이니까 살려주세요</span></p>
+<p></p>
+<p><b>단타</b> : <span style="color: rgb(93, 93, 93);">짧은 기간내에 매수,매도를 해서 이득을 취할려고 함</span></p>
+<p><b><br /></b></p>
+<p><b>장타</b> : <span style="color: rgb(93, 93, 93);">매수를 하고 이득을 볼때까지 긴 시간을 기다리는것.</span></p>
+<p></p>
+<p><b>패닉셀 panic sell </b>: <span style="color: rgb(93, 93, 93);">떡락하는것을 보고 쫄아서 너도 나도 던지는것</span></p>
+<p style="text-align: left;"></p>
+<p><b>데이트레이딩</b> : <span style="color: rgb(93, 93, 93);">1일 이내</span></p>
+<p></p>
+<p><b>스윙</b> : <span style="color: rgb(93, 93, 93);">3일~1달정도</span></p>
+<p></p>
+<p><b>장투</b> : <span style="color: rgb(93, 93, 93);">3~6개월 이상을 보통 이야기 합니다.</span></p>
+<p></p>
+<p style="line-height: 2;"><b>패닉셀</b></p>
+<p style="line-height: 2;"><span style="color: rgb(93, 93, 93);"> : </span><span style="color: rgb(93, 93, 93);">가격이 내리는 것을 보고 추종하여 우르르 던지는 것을 패닉셀이라 합니다. 3월에 이더리움이 패닉셀을 겪어서 20000에서 7천원까지 갔었다고 하네요. </span></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"><b>데드캣 </b></p>
+<p style="line-height: 2;"><span style="color: rgb(93, 93, 93);"> : 데드캣은 패닉셀이 있는 와중에 공매도를 청산하거나 단기반등을 노리고 매수하는 거래자에 의하여 단기반등이 이루어지는 것을 말합니다.</span></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"><b>파종</b></p>
+<p style="line-height: 2;"><span style="color: rgb(93, 93, 93);"> : 여러가지 알트코인들을 소수단위로 많이 사서 투자하는 방식을 말합니다. 주로 해외사이트에서 파종하기가 더 좋습니다(알트코인이 많기 때문).</span></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"><b>이더교(김치이더)</b></p>
+<p style="line-height: 2;"><span style="color: rgb(93, 93, 93);"> : 이더리움을 신봉하는 사람들을 뜻합니다. 이더리움은 무조건 오른다, 이더리움은 적금이다, 이더리움은 사랑이다, 이더리움을 내리는 것은 믿음이 부족해서이다 등등 우리나라에서 특히 이더리움을 많이 사랑해서 나온 말입니다. 강남 아주머니들이 작년말부터 이더리움을 매집했다는 이야기는 벌써 유명하다네요~~^^</span></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;">와!</p>
+<p style="line-height: 2;">정말 처음 접하는 용어가 참 많네요.</p>
+<p style="line-height: 2;">주식을 해보셨던 분들은 그나마 많이들 아셔서 큰 어려움 없이 가상화폐 커뮤니티나 단톡방에서 대화가 되겠지만 저같은 초보는 하나하나 찾아가며, 대화와 정보를 습득하고 있습니다.</p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;"><b>가상화폐 뜨는 별이고 흙수저를 금수저로 만들어주는 수단이 될 수 있지만 누구도 장담해 주지는 않습니다.</b></p>
+<p style="line-height: 2;"><b>판단과 책임은 본인에게 있고 신중한 결정으로 후회하지 않는 투자를 하시기 바랍니다.</b></p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;">오늘은 여기까지&#8230;^^</p>
+<p style="line-height: 2;"></p>
+<p style="line-height: 2;">&lt;출처 : 본인작성 / 스티밋 일부발취&gt;</p>
+<p style="line-height: 2;"></p>
+<div style="text-align:center;margin:10px 0 10px 0;clear:both">
+<div style="display:inline;text-align:center;">
+<!-- 본문하단 좌측2017-1123 --></p>
+</div>
+<div style="display:inline;text-align:center;">
+<!-- 본문하단 우측2017-1123 --></p>
+</div>
+</div>
+<div class="tt_adsense_bottom" style="margin-top:30px">
+</div>
+<div style="text-align:center; padding-top:10px;clear:both">
+<iframe allowtransparency="true" frameborder="0" scrolling="no" src="//www.facebook.com/plugins/like.php?href=http://tabplaza.tistory.com/368&amp;layout=standard&amp;show_faces=true&amp;width=310&amp;action=like&amp;font=tahoma&amp;colorscheme=light&amp;height=65" style="border:none; overflow:hidden; width:310px; height:65px;"></iframe>
+</div>
+<hr />
+<p><iframe src='http://ad.selfhow.com/rd' width='100%' border=0 frameborder=0 style='height:auto;width:100%'></iframe></p>
+<p><a href='http://tabplaza.tistory.com/368' target='_blank'>Origin Content : 탭플라자</a> | <a href="/cdn-cgi/l/email-protection#4a2d2b272f1529297a7a7b0a242b262b642d2b" target='_blank'>Contact : <span class="__cf_email__" data-cfemail="b3d4d2ded6ecd0d0838382f3ddd2dfd29dd4d2">[email&#160;protected]</span></a>
+</p>
+<p>Cotent License : CC-BY </p>
+<p>This content is collected under the CCL license.</p>
+<p>Please check the license of the original article before asking about copyright.</p>
+<ul>
+<li><a href='/tag/가상화폐'>More About <span style='font-weight:bold;'>가상화폐</span></a></li>
+<li><a href='/tag/비트코인'>More About <span style='font-weight:bold;'>비트코인</span></a></li>
+<li><a href='/tag/기초용어정리'>More About <span style='font-weight:bold;'>기초용어정리</span></a></li>
+</ul>
+        </div> <!-- //.entry-summary -->
+        
+                    <div class="entry-tags"><b>Tags:</b> <a href="http://da.nala.ga/tag/%ea%b0%80%ec%83%81%ed%99%94%ed%8f%90/" rel="tag">가상화폐</a>, <a href="http://da.nala.ga/tag/%ea%b8%b0%ec%b4%88%ec%9a%a9%ec%96%b4%ec%a0%95%eb%a6%ac/" rel="tag">기초용어정리</a>, <a href="http://da.nala.ga/tag/%eb%b9%84%ed%8a%b8%ec%bd%94%ec%9d%b8/" rel="tag">비트코인</a></div>
+        
+    </div>
+
+</article> <!--/#post-->
+
+
+
+
+
+                                                                    <div class="post-nav-area">
+                                                    
+            <nav class="next-previous-post clearfix media" role="navigation">
+                <div class="row">
+                    <!-- Previous Post -->
+                    <div class="previous-post col-sm-6 pull-left">
+                        <div class="nav-previous"><i class="fa fa-angle-left"></i> <a href="http://da.nala.ga/%ec%9a%b4%eb%8f%99-%ed%9a%a8%ea%b3%bc%ec%a0%81%ec%9c%bc%eb%a1%9c-%ed%95%98%eb%8a%94%eb%b2%95-%ec%9a%b4%eb%8f%99%ec%83%81%ec%8b%9d/" rel="prev">운동 효과적으로 하는법 운동상식</a></div>                    </div>
+
+                    <!-- Next Post -->
+                    <div class="next-post col-sm-6 pull-right text-right">
+                        <div class="nav-next"><a href="http://da.nala.ga/%ec%9e%a5%ea%b8%b0%eb%a0%8c%ed%8a%b8%ec%b9%b4-%eb%b9%84%ea%b5%90%ed%95%b4%eb%b3%b4%ea%b8%b0/" rel="next">장기렌트카 비교해보기</a> <i class="fa fa-angle-right"></i></div>                    </div>
+                </div>
+            </nav><!-- .navigation -->
+            
+                                            </div>
+                                
+                                
+                            
+                                            </main> <!-- /.site-main -->
+                </div>  <!-- /.content-area -->
+            </div> <!-- /col -->
+
+            <!-- Blogsidebar -->
+            
+	<div class="col-md-4">
+	    <div class="primary-sidebar widget-area" role="complementary">
+	        <div id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="http://da.nala.ga/">
+				<label>
+					<span class="screen-reader-text">검색:</span>
+					<input type="search" class="search-field" placeholder="검색 &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="검색" />
+			</form></div>		<div id="recent-posts-2" class="widget widget_recent_entries">		<h2 class="widget-title">최근 글</h2>		<ul>
+					<li>
+				<a href="http://da.nala.ga/%ea%b5%90%ed%99%98%ed%95%99%ec%83%9d%ec%a4%80%eb%b9%84part2-%ed%94%84%eb%9e%91%ec%8a%a4-sciences-po-%ec%a7%80%ec%9b%90-%ea%b3%bc%ec%a0%95%ea%b3%bc-%ea%b7%b8-%ec%a0%84-%ec%95%8c%ec%95%84%ec%95%bc/">[교환학생준비PART2] 프랑스 Sciences Po 지원 과정과 그 전 알아야할 것들!</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%b0%95%ea%b7%bc%ed%98%9c-%ec%b5%9c%ec%88%9c%ec%8b%a4-%ea%b2%8c%ec%9d%b4%ed%8a%b8%eb%a5%bc-%eb%b0%9d%ed%98%80%eb%82%b8-%ec%9d%bc%eb%93%b1%ea%b3%b5%ec%8b%a0-%ec%95%88%eb%af%bc%ec%84%9d/">박근혜 최순실 게이트를 밝혀낸 일등공신 안민석</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%b0%b0%ed%8b%80%ea%b7%b8%eb%9d%bc%ec%9a%b4%eb%93%9c-%ec%a0%95%ec%8b%9d%eb%b2%84%ec%a0%84-1-0%ed%8c%a8%ec%b9%98-%eb%ac%b4%ec%97%87%ec%9d%b4-%eb%b0%94%eb%80%8c%eb%82%98%ec%9a%94/">배틀그라운드 정식버전 1.0패치 무엇이 바뀌나요?</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%91%90%eb%87%8c%eb%a5%bc-%ea%b1%b4%ea%b0%95%ed%95%98%ea%b2%8c-%eb%a7%8c%eb%93%9c%eb%8a%94-4%ec%b2%9c%eb%b3%b4%ec%9d%98-%ea%b1%b8%ec%9d%8c/">두뇌를 건강하게 만드는 4천보의 걸음</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%af%b8%ea%b5%ad-%ec%9c%a0%ed%95%99-%ec%a0%95%eb%b3%b4-%ed%95%9c%ea%b5%ad-%eb%82%b4%ec%8b%a0-%ec%84%b1%ec%a0%81%eb%a7%8c%ec%9c%bc%eb%a1%9c-%eb%af%b8%ea%b5%ad-%eb%aa%85%eb%ac%b8%eb%8c%80-%ea%b0%80/">미국 유학  정보 &#8211; 한국 내신 성적만으로 미국 명문대 가기</a>
+						</li>
+				</ul>
+		</div>		<div id="tag_cloud-2" class="widget widget_tag_cloud"><h2 class="widget-title">태그</h2><div class="tagcloud"><a href="http://da.nala.ga/tag/1%ec%9b%94/" class="tag-cloud-link tag-link-35 tag-link-position-1" style="font-size: 14.892307692308pt;" aria-label="1월 (47 아이템)">1월</a>
+<a href="http://da.nala.ga/tag/2017/" class="tag-cloud-link tag-link-510 tag-link-position-2" style="font-size: 19.415384615385pt;" aria-label="2017 (76 아이템)">2017</a>
+<a href="http://da.nala.ga/tag/2017%eb%85%84/" class="tag-cloud-link tag-link-8 tag-link-position-3" style="font-size: 18.123076923077pt;" aria-label="2017년 (66 아이템)">2017년</a>
+<a href="http://da.nala.ga/tag/2018/" class="tag-cloud-link tag-link-61 tag-link-position-4" style="font-size: 14.461538461538pt;" aria-label="2018 (45 아이템)">2018</a>
+<a href="http://da.nala.ga/tag/2018%eb%85%84/" class="tag-cloud-link tag-link-103 tag-link-position-5" style="font-size: 18.984615384615pt;" aria-label="2018년 (73 아이템)">2018년</a>
+<a href="http://da.nala.ga/tag/vs/" class="tag-cloud-link tag-link-943 tag-link-position-6" style="font-size: 9.5076923076923pt;" aria-label="vs (26 아이템)">vs</a>
+<a href="http://da.nala.ga/tag/%ec%98%81%ed%99%94/" class="tag-cloud-link tag-link-1375 tag-link-position-7" style="font-size: 14.246153846154pt;" aria-label="“영화 (44 아이템)">“영화</a>
+<a href="http://da.nala.ga/tag/%ea%b0%80%ea%b2%a9/" class="tag-cloud-link tag-link-63 tag-link-position-8" style="font-size: 12.953846153846pt;" aria-label="가격 (38 아이템)">가격</a>
+<a href="http://da.nala.ga/tag/%ea%b0%80%ec%83%81%ed%99%94%ed%8f%90/" class="tag-cloud-link tag-link-1479 tag-link-position-9" style="font-size: 9.0769230769231pt;" aria-label="가상화폐 (25 아이템)">가상화폐</a>
+<a href="http://da.nala.ga/tag/%ea%b2%80%ec%9d%80%ec%82%ac%eb%a7%89/" class="tag-cloud-link tag-link-341 tag-link-position-10" style="font-size: 8.8615384615385pt;" aria-label="검은사막 (24 아이템)">검은사막</a>
+<a href="http://da.nala.ga/tag/%ea%b2%8c%ec%9e%84/" class="tag-cloud-link tag-link-391 tag-link-position-11" style="font-size: 22pt;" aria-label="게임 (102 아이템)">게임</a>
+<a href="http://da.nala.ga/tag/%ea%b3%b5%ea%b0%9c/" class="tag-cloud-link tag-link-938 tag-link-position-12" style="font-size: 9.5076923076923pt;" aria-label="공개 (26 아이템)">공개</a>
+<a href="http://da.nala.ga/tag/%ea%b3%b5%eb%9e%b5/" class="tag-cloud-link tag-link-1018 tag-link-position-13" style="font-size: 8.8615384615385pt;" aria-label="공략 (24 아이템)">공략</a>
+<a href="http://da.nala.ga/tag/%eb%8b%a4%ec%9a%b4%eb%a1%9c%eb%93%9c/" class="tag-cloud-link tag-link-364 tag-link-position-14" style="font-size: 8.4307692307692pt;" aria-label="다운로드 (23 아이템)">다운로드</a>
+<a href="http://da.nala.ga/tag/%eb%8c%80%ed%95%b4%ec%84%9c/" class="tag-cloud-link tag-link-1629 tag-link-position-15" style="font-size: 8.8615384615385pt;" aria-label="대해서 (24 아이템)">대해서</a>
+<a href="http://da.nala.ga/tag/%eb%a6%ac%eb%b7%b0/" class="tag-cloud-link tag-link-555 tag-link-position-16" style="font-size: 15.969230769231pt;" aria-label="리뷰 (53 아이템)">리뷰</a>
+<a href="http://da.nala.ga/tag/%eb%a7%9b%ec%a7%91/" class="tag-cloud-link tag-link-4173 tag-link-position-17" style="font-size: 9.9384615384615pt;" aria-label="맛집 (27 아이템)">맛집</a>
+<a href="http://da.nala.ga/tag/%eb%aa%a8%eb%b0%94%ec%9d%bc/" class="tag-cloud-link tag-link-835 tag-link-position-18" style="font-size: 10.584615384615pt;" aria-label="모바일 (29 아이템)">모바일</a>
+<a href="http://da.nala.ga/tag/%eb%ac%b4%eb%a3%8c/" class="tag-cloud-link tag-link-827 tag-link-position-19" style="font-size: 13.384615384615pt;" aria-label="무료 (40 아이템)">무료</a>
+<a href="http://da.nala.ga/tag/%eb%b0%a9%eb%b2%95/" class="tag-cloud-link tag-link-529 tag-link-position-20" style="font-size: 15.323076923077pt;" aria-label="방법 (49 아이템)">방법</a>
+<a href="http://da.nala.ga/tag/%eb%b9%84%ed%8a%b8%ec%bd%94%ec%9d%b8/" class="tag-cloud-link tag-link-1478 tag-link-position-21" style="font-size: 9.0769230769231pt;" aria-label="비트코인 (25 아이템)">비트코인</a>
+<a href="http://da.nala.ga/tag/%ec%84%a4%ec%b9%98/" class="tag-cloud-link tag-link-360 tag-link-position-22" style="font-size: 8pt;" aria-label="설치 (22 아이템)">설치</a>
+<a href="http://da.nala.ga/tag/%ec%86%8c%ea%b0%9c/" class="tag-cloud-link tag-link-297 tag-link-position-23" style="font-size: 8.4307692307692pt;" aria-label="소개 (23 아이템)">소개</a>
+<a href="http://da.nala.ga/tag/%ec%88%9c%ec%9c%84/" class="tag-cloud-link tag-link-12 tag-link-position-24" style="font-size: 11.230769230769pt;" aria-label="순위 (31 아이템)">순위</a>
+<a href="http://da.nala.ga/tag/%ec%8b%9c%ec%9e%91/" class="tag-cloud-link tag-link-579 tag-link-position-25" style="font-size: 8.4307692307692pt;" aria-label="시작 (23 아이템)">시작</a>
+<a href="http://da.nala.ga/tag/%ec%95%88%eb%82%b4/" class="tag-cloud-link tag-link-338 tag-link-position-26" style="font-size: 10.584615384615pt;" aria-label="안내 (29 아이템)">안내</a>
+<a href="http://da.nala.ga/tag/%ec%95%8c%ec%95%84%eb%b3%b4%ea%b8%b0/" class="tag-cloud-link tag-link-1939 tag-link-position-27" style="font-size: 12.523076923077pt;" aria-label="알아보기 (36 아이템)">알아보기</a>
+<a href="http://da.nala.ga/tag/%ec%95%8c%ec%95%84%eb%b3%b4%ec%9e%90/" class="tag-cloud-link tag-link-369 tag-link-position-28" style="font-size: 11.661538461538pt;" aria-label="알아보자 (33 아이템)">알아보자</a>
+<a href="http://da.nala.ga/tag/%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8/" class="tag-cloud-link tag-link-567 tag-link-position-29" style="font-size: 9.0769230769231pt;" aria-label="업데이트 (25 아이템)">업데이트</a>
+<a href="http://da.nala.ga/tag/%ec%97%ac%ed%96%89/" class="tag-cloud-link tag-link-1122 tag-link-position-30" style="font-size: 12.738461538462pt;" aria-label="여행 (37 아이템)">여행</a>
+<a href="http://da.nala.ga/tag/%ec%98%a4%eb%b8%8c/" class="tag-cloud-link tag-link-271 tag-link-position-31" style="font-size: 10.8pt;" aria-label="오브 (30 아이템)">오브</a>
+<a href="http://da.nala.ga/tag/%ec%98%a8%eb%9d%bc%ec%9d%b8/" class="tag-cloud-link tag-link-328 tag-link-position-32" style="font-size: 11.876923076923pt;" aria-label="온라인 (34 아이템)">온라인</a>
+<a href="http://da.nala.ga/tag/%ec%9c%84%ed%95%9c/" class="tag-cloud-link tag-link-183 tag-link-position-33" style="font-size: 13.169230769231pt;" aria-label="위한 (39 아이템)">위한</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%eb%b2%a4%ed%8a%b8/" class="tag-cloud-link tag-link-723 tag-link-position-34" style="font-size: 13.169230769231pt;" aria-label="이벤트 (39 아이템)">이벤트</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%ec%95%bc%ea%b8%b0/" class="tag-cloud-link tag-link-861 tag-link-position-35" style="font-size: 10.8pt;" aria-label="이야기 (30 아이템)">이야기</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%ec%9c%a0/" class="tag-cloud-link tag-link-1482 tag-link-position-36" style="font-size: 9.9384615384615pt;" aria-label="이유 (27 아이템)">이유</a>
+<a href="http://da.nala.ga/tag/%ec%9d%bc%eb%b3%b8/" class="tag-cloud-link tag-link-1007 tag-link-position-37" style="font-size: 8.4307692307692pt;" aria-label="일본 (23 아이템)">일본</a>
+<a href="http://da.nala.ga/tag/%ec%a0%95%eb%a6%ac/" class="tag-cloud-link tag-link-65 tag-link-position-38" style="font-size: 11.876923076923pt;" aria-label="정리 (34 아이템)">정리</a>
+<a href="http://da.nala.ga/tag/%ec%a0%95%eb%b3%b4/" class="tag-cloud-link tag-link-610 tag-link-position-39" style="font-size: 17.261538461538pt;" aria-label="정보 (61 아이템)">정보</a>
+<a href="http://da.nala.ga/tag/%ec%b4%9d%ec%a0%95%eb%a6%ac/" class="tag-cloud-link tag-link-179 tag-link-position-40" style="font-size: 8.4307692307692pt;" aria-label="총정리 (23 아이템)">총정리</a>
+<a href="http://da.nala.ga/tag/%ec%b5%9c%ea%b3%a0/" class="tag-cloud-link tag-link-404 tag-link-position-41" style="font-size: 11.876923076923pt;" aria-label="최고 (34 아이템)">최고</a>
+<a href="http://da.nala.ga/tag/%ec%b6%94%ec%b2%9c/" class="tag-cloud-link tag-link-367 tag-link-position-42" style="font-size: 20.707692307692pt;" aria-label="추천 (89 아이템)">추천</a>
+<a href="http://da.nala.ga/tag/%ec%b6%9c%ec%8b%9c/" class="tag-cloud-link tag-link-612 tag-link-position-43" style="font-size: 10.584615384615pt;" aria-label="출시 (29 아이템)">출시</a>
+<a href="http://da.nala.ga/tag/%ed%95%9c%ea%b5%ad/" class="tag-cloud-link tag-link-1483 tag-link-position-44" style="font-size: 10.153846153846pt;" aria-label="한국 (28 아이템)">한국</a>
+<a href="http://da.nala.ga/tag/%ed%9b%84%ea%b8%b0/" class="tag-cloud-link tag-link-114 tag-link-position-45" style="font-size: 19.2pt;" aria-label="후기 (74 아이템)">후기</a></div>
+</div>	    </div>
+	</div>
+
+        </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+    </div>
+    <footer class="site-footer" role="contentinfo">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+  
+                    <p></p>
+                    
+                                            <div class="footer-social-icons">
+                                                                                                                                                                                                                                                                                                                                                                                                        
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+            <div class="scroll-up">
+            <a href="#"><i class="fa fa-angle-up"></i></a>
+        </div>
+        <!-- Scroll Up -->
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/af2821b0/cloudflare-static/email-decode.min.js"></script><script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/bootstrap.min.js?ver=3.3.5'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/scripts.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/jquery.fitvids.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/smoothscroll.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/wp-embed.min.js?ver=4.8.4'></script>
+    </body>
+</html>

@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="http://da.nala.ga/xmlrpc.php">
+
+<title>[PS4] 파이널판타지 나이츠 오브 라운드 공략 | All About CC</title>
+<meta name='robots' content='noindex,follow' />
+
+<!-- All in One SEO Pack 2.4.3.1 by Michael Torbert of Semper Fi Web Design[276,330] -->
+<link rel="canonical" href="http://da.nala.ga/ps4-%ed%8c%8c%ec%9d%b4%eb%84%90%ed%8c%90%ed%83%80%ec%a7%80-%eb%82%98%ec%9d%b4%ec%b8%a0-%ec%98%a4%eb%b8%8c-%eb%9d%bc%ec%9a%b4%eb%93%9c-%ea%b3%b5%eb%9e%b5/" />
+<!-- /all in one seo pack -->
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 피드" href="http://da.nala.ga/feed/" />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 댓글 피드" href="http://da.nala.ga/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; [PS4] 파이널판타지 나이츠 오브 라운드 공략 댓글 피드" href="http://da.nala.ga/ps4-%ed%8c%8c%ec%9d%b4%eb%84%90%ed%8c%90%ed%83%80%ec%a7%80-%eb%82%98%ec%9d%b4%ec%b8%a0-%ec%98%a4%eb%b8%8c-%eb%9d%bc%ec%9a%b4%eb%93%9c-%ea%b3%b5%eb%9e%b5/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/da.nala.ga\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.4"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bootstrap-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/bootstrap.min.css?ver=3.3.5' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/font-awesome.min.css?ver=4.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='shaped-blog-stylesheet-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/style.css?ver=4.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/responsive.css' type='text/css' media='all' />
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://da.nala.ga/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://da.nala.ga/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://da.nala.ga/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='남자머리기르는속도 [파이널판타지14] 초반 육성부터 레이드 준비까지! &#8216;평공&#8217; 창천의 이슈가르드를 말하다!' href='http://da.nala.ga/%eb%82%a8%ec%9e%90%eb%a8%b8%eb%a6%ac%ea%b8%b0%eb%a5%b4%eb%8a%94%ec%86%8d%eb%8f%84-%ed%8c%8c%ec%9d%b4%eb%84%90%ed%8c%90%ed%83%80%ec%a7%8014-%ec%b4%88%eb%b0%98-%ec%9c%a1%ec%84%b1%eb%b6%80%ed%84%b0/' />
+<link rel='next' title='[PC] 파이널 판타지 14 : 창천의 이슈가르드 (2)' href='http://da.nala.ga/pc-%ed%8c%8c%ec%9d%b4%eb%84%90-%ed%8c%90%ed%83%80%ec%a7%80-14-%ec%b0%bd%ec%b2%9c%ec%9d%98-%ec%9d%b4%ec%8a%88%ea%b0%80%eb%a5%b4%eb%93%9c-2/' />
+<meta name="generator" content="WordPress 4.8.4" />
+<link rel='shortlink' href='http://da.nala.ga/?p=4555' />
+<link rel="alternate" type="application/json+oembed" href="http://da.nala.ga/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fda.nala.ga%2Fps4-%25ed%258c%258c%25ec%259d%25b4%25eb%2584%2590%25ed%258c%2590%25ed%2583%2580%25ec%25a7%2580-%25eb%2582%2598%25ec%259d%25b4%25ec%25b8%25a0-%25ec%2598%25a4%25eb%25b8%258c-%25eb%259d%25bc%25ec%259a%25b4%25eb%2593%259c-%25ea%25b3%25b5%25eb%259e%25b5%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://da.nala.ga/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fda.nala.ga%2Fps4-%25ed%258c%258c%25ec%259d%25b4%25eb%2584%2590%25ed%258c%2590%25ed%2583%2580%25ec%25a7%2580-%25eb%2582%2598%25ec%259d%25b4%25ec%25b8%25a0-%25ec%2598%25a4%25eb%25b8%258c-%25eb%259d%25bc%25ec%259a%25b4%25eb%2593%259c-%25ea%25b3%25b5%25eb%259e%25b5%2F&#038;format=xml" />
+
+	<style>
+
+		/* Border Color */
+		.btn-social:hover,
+		blockquote,
+		#respond input:focus[type="text"], 
+	    #respond input:focus[type="email"], 
+	    #respond input:focus[type="url"],
+	    #respond textarea:focus,
+	    #comments .comment-reply a:hover
+		{
+			border-color: ;
+		}
+
+		
+		/* Background Color */
+		.scroll-up a,
+		.btn-social:hover,
+		button,
+		input[type="button"],
+		input[type="reset"],
+		input[type="submit"],
+		.navbar-default .navbar-nav .dropdown-menu li a:hover, .dropdown-menu li a:focus, .navbar-default .navbar-nav .dropdown-menu .active a,
+		.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover, .pagination li .current,
+		.next-previous-posts .next-post a:hover,
+		.next-previous-posts .previous-post a:hover,
+		.btn-goback,
+		.btn-submit,
+		a.more-link,
+		.featured-post .fa,
+		#comments .comment-reply a:hover,
+		.widget .tagcloud a
+		{
+			background-color: ;
+		}
+
+		
+		/* Color */
+		.text-logo a,
+		.navbar-default .navbar-nav .active a, .navbar-default .navbar-nav .active a:hover, .navbar-default .navbar-nav .active a:focus,
+		.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus,
+		a:hover,
+    	a:focus,
+		.next-previous-posts .previous-post a,
+		.next-previous-posts .next-post a,
+		.pagination>li>a, .pagination>li>span,
+		#comments .comment-author a:hover, 
+    	#respond .logged-in-as a:hover,
+    	#wp-calendar a,
+    	h2.entry-title a:hover
+		{
+			color: ;
+		}
+
+
+		/* A Color */
+		a{
+			color: ;
+		}
+
+		/* a:hover Color */
+		a:hover,
+		a:focus,
+		a:active,
+		.widget a:hover,
+		.post .post-content .entry-meta ul li a:hover
+		{
+			color: ;
+		}
+
+		/* .featured-post .fa:after*/
+		.featured-post .fa:after{
+			border-color:   transparent ;
+		}
+
+
+		
+
+	</style>
+</head>
+
+<body class="post-template-default single single-post postid-4555 single-format-standard">
+
+    <div id="st-preloader">
+        <div id="pre-status">
+            <div class="preload-placeholder"></div>
+        </div>
+    </div>
+<!-- /Preloader -->
+
+<header id="header">	
+	<div id="trueHeader">
+    	<div class="wrapper">
+            <div class="container">
+            	<!-- Menu -->
+            	<div class="menu_main">
+                	<div class="navbar blogx-navbar navbar-default">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#st-navber-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+
+                                                            <div class="text-logo">
+                                    <a href="http://da.nala.ga">All About CC</a>
+                                    <p>All About CC Contents</p>
+                                </div><!-- /Logo -->
+                                                    </div>
+                      
+                        <div id="st-navber-collapse" class="navbar-collapse collapse pull-right">
+                             
+                        </div>
+                    </div>
+            	</div><!-- end menu -->
+        	</div> <!-- /.container -->
+    	</div>
+	</div>
+	<DIV class='ads_adsense_img' style='margin:40px 0px 40px 0px;'>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- only display -->
+	<ins class="adsbygoogle"
+	     style="display:block"
+	     data-ad-client="ca-pub-8393857339019314"
+	     data-ad-slot="7474886381"
+	     data-ad-format="auto"></ins>
+	<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+	</DIV>	
+</header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div id="primary" class="content-area">
+                    <main id="main" class="site-main" role="main">
+
+                        
+                                <article id="post-4555" class="post-4555 post type-post status-publish format-standard hentry category-uncategorized tag-ps4 tag-1018 tag-7875 tag-7876 tag-271 tag-7874">
+    <header class="entry-header">
+        
+        
+    </header> <!--/.entry-header -->
+
+    <div class="clearfix post-content media">
+
+        <h2 class="entry-title">
+            [PS4] 파이널판타지 나이츠 오브 라운드 공략        </h2> <!-- //.entry-title -->
+
+        <div class="clearfix entry-meta">
+            
+            <ul class="list-inline">
+                <li>
+                    <span class="author vcard">
+                        By <a class="url fn n" href="http://da.nala.ga/author/site-admin/">site-admin</a>                    </span>
+                </li>
+                <li>
+                    on <span class="posted-on">1월 09, 2018</span>
+                </li>
+                                    <li>
+                        in <span class="posted-in">
+                            <a href="http://da.nala.ga/category/uncategorized/" rel="category tag">미분류</a>                        </span>
+                    </li>
+                            </ul>
+                </div> <!--/.entry-meta -->
+        
+        <div class="entry-summary">
+            <p><img src='http://cfile8.uf.tistory.com/image/2640AB4A583D3DC5041E35' style='max-width:250px;min-width:0px;' onError='this.style.display="none"' /></p>
+<h1>3줄 요약 </h1>
+<div style='color:#fff;background-color:#000;border-radius:10px;'>
+<ol>
+<li><span>1. 최초부터!   전방->메테오레인(오모미같은거)->아스카론메르시(부채 <small>&#8230;중략&#8230;</small>  전방 -> 헤븐리힐(아픔 생존기 필수) -> 전방범위 -> 타겟 사라짐</span></li>
+<li><span>2) 제피란     탑이터진후 조금후에 맵 중앙에서 등장. 세이크리드 크 <small>&#8230;중략&#8230;</small> 은 법률이 정하는 바에 의하여 이를 제한하거나 인정하지 아니할 수 있다.</span></li>
+<li><span>4) 아델펠 &#038; 쟌르느    일정시간이후 창천의 자세를 영창, 받는 대미 <small>&#8230;중략&#8230;</small> > 자세(반복)    창천의 자세의 버프는 둘중 하나가 잡히면 사라짐.​</span></li>
+</ol>
+</div>
+<p><span id="more-4555"></span></p>
+<p><iframe src='http://ad.selfhow.com/rd' width='100%' border=0 frameborder=0 style='height:auto;width:100%'></iframe></p>
+<hr />
+<p style="text-align: center;"><b><span style="font-size: 12pt;"></span><span style="font-size: 12pt;">파이널판타지 나이츠 오브 라운드 공략</span><br /></b></p>
+<p style="text-align: center;"> </p>
+<p style="text-align: justify;">1. 최초부터!</p>
+<p style="text-align: justify;">   전방-&gt;메테오레인(오모미같은거)-&gt;아스카론메르시(부채꼴범위, 간격있음, 알렉3층 공격과 유사) -&gt; 전방 -&gt; 용의 눈 -&gt;</p>
+<p style="text-align: justify;">   용의 사안(페트리펙션과 유사 시선 돌려야 혼란 안옴) -&gt;  전방 -&gt; 백뢰(산개) -&gt; 사룡의마염(머릿수 분배) -&gt; 에인션트퀘이가</p>
+<p style="text-align: justify;">   (전체공격)-&gt; 전방 -&gt; 헤븐리힐(아픔 생존기 필수) -&gt; 전방범위 -&gt; 타겟 사라짐</p>
+<p style="text-align: justify;"></p>
+<p style="text-align: justify;"><b>   ※ 헤븐리힐은 후반부에도 오니 기억해둘것, 전방은 생존기 맞출수 있음 맞추는게 좋음.</b></p>
+<p style="text-align: justify;"><b>​</b></p>
+<p style="text-align: justify;">2. 톨단이 검을 찔러넣고 ~ 얼티메이트 엔드까지(여기서부터 외곽에 닿으면 9999 대미지)</p>
+<p style="text-align: justify;">​</p>
+<p style="text-align: justify;">  1) 샤리벨&amp;에름노스트(타겟 x)</p>
+<p style="text-align: justify;">     홀리체인 4개 + 지면에 범위 + 진성4층의 탑. 메기드 프레임같은 바닥공격을 사용하며 외곽에는 진성4층의 탑이 생성. 기믹처리도</p>
+<p style="text-align: justify;">     탑에 들어가 있으면 처리 됨. 단 메기드 프레임 범위와 탑이 겹쳤을때는 메기드 프레임을 회피후에 들어가도 늦지 않음. 탑이</p>
+<p style="text-align: justify;">     터지는 타이밍은 진성보다 여유로우니 느긋하게 기믹처리. 홀리체인은 침공1층의 줄마냥 떨어지면 끊어짐.</p>
+<p style="text-align: justify;">     탑은 밟지 않으면 터지면서 마비(에스나 해제 가능)</p>
+<p style="text-align: justify;"></p>
+<p style="text-align: justify;"><span style="font-size: 8pt; color: rgb(255, 255, 255);">대통령의 선거에 관한 사항은 법률로 정한다. 국가는 농지에 관하여 경자유전의 원칙이 달성될 수 있도록 노력하여야 하며, 농지의 소작제도는 금지된다.모든 국민은 사생활의 비밀과 자유를 침해받지 아니한다. 대통령은 조약을 체결·비준하고, 외교사절을 신임·접수 또는 파견하며, 선전포고와 강화를 한다.모든 국민은 신체의 자유를 가진다. 누구든지 법률에 의하지 아니하고는 체포·구속·압수·수색 또는 심문을 받지 아니하며, 법률과 적법한 절차에 의하지 아니하고는 처벌·보안처분 또는 강제노역을 받지 아니한다.법원은 최고법원인 대법원과 각급법원으로 조직된다. 국가는 노인과 청소년의 복지향상을 위한 정책을 실시할 의무를 진다. 국무총리는 대통령을 보좌하며, 행정에 관하여 대통령의 명을 받아 행정각부를 통할한다.</span></p>
+<p style="text-align: justify;"> </p>
+<p style="text-align: justify; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:602px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="파이널판타지 1.jpg" height="350" src="http://cfile8.uf.tistory.com/image/2640AB4A583D3DC5041E35" style="" width="602"/></span></p>
+<p style="text-align: justify;"></p>
+<p style="text-align: justify;">  2) 제피란</p>
+<p style="text-align: justify;">     탑이터진후 조금후에 맵 중앙에서 등장. 세이크리드 크로스(전체범위)를 영창함. 본인의 남은 체력대비의 전체대미지를 줌.​</p>
+<p style="text-align: justify;"> </p>
+<p style="text-align: justify;">  3) 이니아셀 &amp; 볼그란 &amp; 웰긴(타겟 x)</p>
+<p style="text-align: justify;">     제피란의 체력을 줄이고 있으면 외각에서 3명이 2등변삼각형 상태로 출현, 중앙으로 돌격한다.</p>
+<p style="text-align: justify;">    3명이 선으로 연결해서 삼각형의 빗변이 되는 장소의 외곽으로 피한다. 게임화면적으로는 외곽을 보고 출현위치가 가까운 2명의</p>
+<p style="text-align: justify;">    외곽으로 피하는 이미지. (주: 1명이 나오는 위치를 12시로 잡고 좌우 산개. 진성3페 다이브 회피와 유사)</p>
+<p style="text-align: justify;">    ※ 100% 회피가 보장되는 8개의 안전지대가 있음. 계시판 검색 참조.</p>
+<p style="text-align: justify;"> </p>
+<p style="text-align: justify;"><span style="font-size: 8pt; color: rgb(255, 255, 255);">형사피의자 또는 형사피고인으로서 구금되었던 자가 법률이 정하는 불기소처분을 받거나 무죄판결을 받은 때에는 법률이 정하는 바에 의하여 국가에 정당한 보상을 청구할 수 있다.국무총리·국무위원 또는 정부위원은 국회나 그 위원회에 출석하여 국정처리상황을 보고하거나 의견을 진술하고 질문에 응답할 수 있다. 체포·구속·압수 또는 수색을 할 때에는 적법한 절차에 따라 검사의 신청에 의하여 법관이 발부한 영장을 제시하여야 한다. 다만, 현행범인인 경우와 장기 3년 이상의 형에 해당하는 죄를 범하고 도피 또는 증거인멸의 염려가 있을 때에는 사후에 영장을 청구할 수 있다. 대한민국은 통일을 지향하며, 자유민주적 기본질서에 입각한 평화적 통일 정책을 수립하고 이를 추진한다. 법률이 정하는 주요방위산업체에 종사하는 근로자의 단체행동권은 법률이 정하는 바에 의하여 이를 제한하거나 인정하지 아니할 수 있다.</span></p>
+<p style="text-align: justify; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:940px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="파이널판타지 2.jpg" height="529" src="http://cfile22.uf.tistory.com/image/2171F848583D3DCD019F8A" style="" width="940"/></span></p>
+<p style="text-align: justify;"></p>
+<p style="text-align: justify;">  4) 아델펠 &amp; 쟌르느</p>
+<p style="text-align: justify;">    일정시간이후 창천의 자세를 영창, 받는 대미지 매우감소, 혹은 대미지 증가 버프를 각자 1개씩 검.</p>
+<p style="text-align: justify;">    선이 연결되면 양쪽에 버프가 들어가니, 탱이 나눠서 가지고 있을것.(주: 알렉영식1층 오브레서 제로, 본체 기믹과 비슷) 더불어 주는</p>
+<p style="text-align: justify;">    대미지 증가 버프가 들어가는 적을 먼저 공격해야함. 창천의 자세는 주기적으로 영창해오며 스킬사용  이후에는 둘이 서로 디버프를</p>
+<p style="text-align: justify;">    교환하므로 캐스팅시 다른 한명을 치는것이 좋음.</p>
+<p style="text-align: justify;">    (주: 택틱의 일례로 아델펠, 쟌르느의 위치는 9시&lt;-&gt;3시로 유지해주고, 중간에 오는 3연속 다이브(?)를 각각 12시, 6시, 12시 의</p>
+<p style="text-align: justify;">      빈 방향으로 빼주는것이 유효)</p>
+<p style="text-align: justify;">    기믹 순서는 다음과 같음.</p>
+<p style="text-align: justify;">    창천의 자세 -&gt; 홀리블레이드댄스(리밋 5연타, 패리 없음을 보면 마공일듯) -&gt; 창천의 자세(이 타이밍에 5)의 기믹) -&gt;</p>
+<p style="text-align: justify;">    홀리에스트홀리(전체공격) -&gt; 홀리블레이드댄스(상동) -&gt; 창천의 자세-&gt; 홀리에스트홀리 -&gt; 댄스 -&gt; 자세(반복)</p>
+<p style="text-align: justify;"> </p>
+<p style="text-align: justify;">   창천의 자세의 버프는 둘중 하나가 잡히면 사라짐.</p>
+<p style="text-align: justify;">​</p>
+<p style="text-align: justify; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:905px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="파이널판타지 3.png" height="509" src="http://cfile28.uf.tistory.com/image/254FF550583D3DD414FF70" style="" width="905"/></span></p>
+<p style="text-align: justify;"></p>
+<p style="text-align: justify;">  5) 이니아셀&amp;폴그란&amp;웰킨(타겟 x)</p>
+<p style="text-align: justify;">    상기 서술한 2번째의 창천의 자세 부근에서 dps3인에게 순서대로 마커가 뜸.</p>
+<p style="text-align: justify;">    마커대상자를 향해서 창천기사가 다이브를 사용. 침공4층의 운석 + 카타라이즈 빼는 방식과 유사.</p>
+<p style="text-align: justify;">    거리에 따른 비례대미지가 들어오는데, 이와 동시에 4)기믹의 홀리도 같이 대미지가 들어옴으로 최대한 사람이 없는 지역에</p>
+<p style="text-align: justify;">    창천기사들을 떨궈줘야 할 필요가 있음. 더불어 순서가 확정되고 다이브가 오는 타이밍이 굉장히 빠르므로 1번째 2번째</p>
+<p style="text-align: justify;">    대상자가 같은 구역으로 피하면 dps2명이 그대로 증발. 따라서 1번과 2번째 대상자는 반대편으로, 3번째 대상자는 1번이</p>
+<p style="text-align: justify;">    빠지고 난 빈 공간에 다이브를 떨어뜨리는것으로 파훼 가능. </p>
+<p style="text-align: justify;">    ※ 4, 5의 경우에는 파티별로 다른 택틱이 존재할수도 있으니 사전조율이 필요.</p>
+<p style="text-align: justify;">​</p>
+<p style="text-align: justify;">  6) 이니아셀&amp;폴그란＆웰킨＆그리노＆옴릭&amp;누도우네(타겟x)</p>
+<p style="text-align: justify;">    이니아셀&amp;폴그란＆웰킨이 중앙에서 줄이 연결된 선으로 돌진을 한다. 이후 플레이어를 중심으로 해서 넓어지는 범위와</p>
+<p style="text-align: justify;">    시바의 헤일스톰이 동시에 오며, 최후에 넉백기가 옴. 중앙에 3명의 기사들이 등장, 랜덤으로 3명에게 줄이 연결되며, 동시에</p>
+<p style="text-align: justify;">    헤일스톰의 마커가 뜬다. 일단 줄이 뜨기전까지는 중앙근처에서 대기한다.이러면 커지는 범위가 중앙에 형성되며 바닥</p>
+<p style="text-align: justify;">    피하기에 유리함. 돌진은 진성3층의 벤느와 같은 선이 오므로 대상자는 쉽게 확인가능.</p>
+<p style="text-align: justify;">    헤일스톰의 대상자는 각자 따로 맞으면 문제 없음. 더불어 헤일스톰이 발동된 장소에 빙결 도트를 거는 바닥이 남아있게 되므로, </p>
+<p style="text-align: justify;">    넉백기를 맞을때는 위치에 조심해서 헤일스톰 바닥 위로 올라가지 않게 주의. </p>
+<p style="text-align: justify;"><span style="font-size: 8pt; color: rgb(255, 255, 255);">일반사면을 명하려면 국회의 동의를 얻어야 한다. 각급 선거관리위원회의 조직·직무범위 기타 필요한 사항은 법률로 정한다. 환경권의 내용과 행사에 관하여는 법률로 정한다.국가는 전통문화의 계승·발전과 민족문화의 창달에 노력하여야 한다. 국가원로자문회의의 의장은 직전대통령이 된다. 다만, 직전대통령이 없을 때에는 대통령이 지명한다.대통령이 궐위되거나 사고로 인하여 직무를 수행할 수 없을 때에는 국무총리, 법률이 정한 국무위원의 순서로 그 권한을 대행한다. 전직대통령의 신분과 예우에 관하여는 법률로 정한다.</span></p>
+<p style="text-align: justify; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:602px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="파이널판타지 4.jpg" height="436" src="http://cfile1.uf.tistory.com/image/216ABD4E583D3DDD2B4DDE" style="" width="602"/></span></p>
+<p style="text-align: justify;"></p>
+<p style="text-align: justify;">  7) 그릭&amp;누도우네</p>
+<p style="text-align: justify;">    유성의성문 + 성편의성문을 부수는 페이즈. 성문은 실크스 최후의 운석이 떨어지는 기믹의 그것과 같음. 랜덤? 대상자</p>
+<p style="text-align: justify;">    3명에게 마커가 뜸. 마커 대상자는 코메트가 연속으로 떨어짐. 회피불가의 범위대미지 이므로 대상자는 겹치지 않게 따로 맞으면 무관.</p>
+<p style="text-align: justify;">    또한 침공4층의 붉은색 골렘이 사용하는 돌의 벽 *2가 옴. 밟은 대상자는 스턴 + 큰 대미지를 받으므로 잘 피할것. 침공4층과는</p>
+<p style="text-align: justify;">    다르게 대미지 들어오는 판정 시간이 여유로우니 돌 벽올라오는 이펙트를 보고 이펙트쪽으로 뛰어들어도 피탄 되지 않음.</p>
+<p style="text-align: justify;">    순간 dps를 측정하는 구간이기도 함.</p>
+<p style="text-align: justify;"></p>
+<p style="text-align: justify;"> </p>
+<p style="text-align: justify;">  8) 톨단</p>
+<p style="text-align: justify;">    얼티메이트엔드(UE). 플레이어가 사망한 수에 대비해서 대미지가 올라감. 게이지가 65정도 차올랐으면 대미지가 아파지니 방어막</p>
+<p style="text-align: justify;">    이나, 고무 등 으로 대비함이 좋음. 여기까지 왔으면 톨단이 다시 공격가능한 상태가 됨.</p>
+<p style="text-align: justify;">​</p>
+<p style="text-align: justify; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:940px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="파이널판타지 5.jpg" height="586" src="http://cfile25.uf.tistory.com/image/21380A4A583D3DE71CCC92" style="" width="940"/></span></p>
+<p style="text-align: justify;"></p>
+<p style="text-align: justify;">3. 마지막</p>
+<p style="text-align: justify;">  용의 눈 -&gt; 나이츠 오브 라운드 -&gt; 용의 사안패턴의 반복. 나이츠 오브 라운드는 회차별 공격해오는 패턴이 다름.</p>
+<p style="text-align: justify;">  이 페이즈에서는 용의 눈을 영창하게 되면 외부에 커다란 눈알이 출현함. 사안사용시 눈알쪽을 보면 1페이즈와 마찬가지로 대미지와</p>
+<p style="text-align: justify;">  함께 공포가 걸리므로 매우 주의. 따라서 MT는 편의를 위해서 눈알을 등지고 탱을 하는것이 좋음.</p>
+<p style="text-align: justify;"> </p>
+<p style="text-align: justify;">  1) 용의눈 1번째(KOR 1회)</p>
+<p style="text-align: justify;">    시작과 동시에 LB3단이 쌓여있으면 그대로 LB3단을 넣어주는것이 좋음. 화력이 양호하면 비상용으로 남겨놔도 무관. 나이츠 오브</p>
+<p style="text-align: justify;">    라운드는 진성1층의 와일드 챠지의 기믹과 유사. 대상은 힐러중 한명에게 랜덤 스턴이후 창 투척. ST가 제일 가까운곳에서 생존기를</p>
+<p style="text-align: justify;">    쓰고 1차 피격 당해야함.  MT 이외에 다같이 맞는것이 좋음. 맞으면 힐량 감소(스펠 한정) 디버프가 걸림. 톨단을 12시로 할때,</p>
+<p style="text-align: justify;">    힐러는 11시 방향에서 스턴을 맞아주면 근접딜러들의 딜로스도 줄여주는것이 가능. 스턴 대상자에게 스턴이 들어올때에는 진성1층의</p>
+<p style="text-align: justify;">    스턴과는 다르게 주변에 사람이 있어도 문제가 되지 않음. 창 던지기와 거의 동시에 MT에게 헤븐리 힐이 들어오므로 생존기 필수. </p>
+<p style="text-align: justify;">    이후 사안 -&gt; 에이션트 퀘이커로 끝.</p>
+<p style="text-align: justify;"> </p>
+<p style="text-align: justify;">    ※ 나이츠 오브 라운드 기믹실패시(창 첫번째 대상자 사망) -&gt; 8~9만의 전멸기가 들어옴. 힐러는 고무 혹은 스톤스킨을 ST에게</p>
+<p style="text-align: justify;">        걸어두는것이 좋음. 침공1층의 기믹실패에서 오는 페널티 스킬 생각하면 됨. (전멸기 라는 점에선 차이가 있지만)</p>
+<p style="text-align: justify;"> </p>
+<p style="text-align: justify;">  2) 용의눈 2번째(KOR 2회)</p>
+<p style="text-align: justify;">    눈알의 위치가 바뀌므로, 탱은 눈알을 등지게 서도록 무빙. 이하의 용의 눈 패턴에서는 동일.</p>
+<p style="text-align: justify;">    이번 나이츠 오브 라운드는 진성4층의 탑4개 + 침공4층의 골렘 돌벽 + 지면범위 -&gt; 날려보내기 -&gt; 사룡의 마염(머릿수)임.</p>
+<p style="text-align: justify;">    용의 사안과 탑이 거의 동시에 나오므로, 탑 처리 할때 보스를 향해 있으면 안됨. 지면의 범위가 사라지고 나서 한가운데에</p>
+<p style="text-align: justify;">    집합하면 같은방향으로 날아가므로, 그 날아간 장소에서 마염(머릿수)맞기. 이후 전방범위로 끝.</p>
+<p style="text-align: justify;"></p>
+<p style="text-align: justify;">  3) 용의눈 3번째(KOR 3회)</p>
+<p style="text-align: justify;">   이번 나이츠 오브 라운드는 사안이 없음. 따라서 눈 위치가 아닌 외곽기사를 기준으로 무빙.</p>
+<p style="text-align: justify;">   공격순서는 백뢰 -&gt; 줄 걸고 돌진 + 마커 대상(청옥) 다이브 + 외곽 기사 돌진 + 머릿수대미지 순</p>
+<p style="text-align: justify;">   MT는 자신의 위치가 외곽 기사의 돌진에서 안전한 위치인지를 확인해야함. 기믹처리는 진성4층의 3P 메가플레어 다이브</p>
+<p style="text-align: justify;">   회피 기믹과 유사. 외곽의 기사를 12시로 고정하고 각각 줄, 마커(청옥)를 9시, 3시 등으로 유도, 나머지 인원은 보스근처(대개11시)</p>
+<p style="text-align: justify;">   머릿수별 대미지를 맞는것으로 기믹 처리 가능. 직후 헤븐스 힐 + 전방의 MT에게 강한데미지가 들어온후 끝.</p>
+<p style="text-align: justify;">   (주 : 여기까지 기믹 실패가 없으면 화력에 큰 문제가 없는한 클리어 각)</p>
+<p style="text-align: justify;"></p>
+<p style="text-align: justify;">  4) 용의눈 4번째(KOR 4회)</p>
+<p style="text-align: justify;">   이번 나이츠 오브 라운드는 코메트 + 헤일스톰 + 홀리 체인 + 아스카론메르시 순서.</p>
+<p style="text-align: justify;">   사안은 코메트 등이 오는 타이밍에 옴. 여기는 잘 움직여서 피하는것 밖에 없음. 헤일스톰은 바닥 디버프 도트를 남기므로,</p>
+<p style="text-align: justify;">   외곽에 버리고 오는것이 좋음. 아스카론 메르시 이후에는 에인션트 퀘이커 -&gt; 헤븐리 힐 -&gt; 에이션트 퀘이커로 종료.</p>
+<p style="text-align: justify;"></p>
+<p style="text-align: justify;">  5) 용의눈 5번째(KOR 5회)</p>
+<p style="text-align: justify;">   홀리에스트 홀리 -&gt; 범위 대미지 *3 -&gt;제피란 등장 -&gt; 세이크리드 크로스. 대개는 이타이밍에서 전투 종결. 제피란의 HP에</p>
+<p style="text-align: justify;">   비례한 대미지인 세이크리드 크로스가 오므로 제피란에 리미트를 때려넣는 방법이 유효.</p>
+<p style="text-align: justify;">   이후에는 6번째 KOR은 시간오버 전멸기라고 생각됨.</p>
+<p style="text-align: justify;">&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8211;</p>
+<p style="text-align: justify;"></p>
+<p style="text-align: justify; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:940px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="파이널판타지 6.jpg" height="578" src="http://cfile10.uf.tistory.com/image/2444F14C583D3DF5238D52" style="" width="940"/></span></p>
+<p style="text-align: justify;"></p>
+<p style="text-align: justify;"> 하면서 외울겸 남겨봅니다. 추가할 사항 있으시면 말씀 주심 감사!</p>
+<p style="text-align: justify;"> </p>
+<hr />
+<p><iframe src='http://ad.selfhow.com/rd' width='100%' border=0 frameborder=0 style='height:auto;width:100%'></iframe></p>
+<p><a href='http://legend10.tistory.com/79' target='_blank'>Origin Content : 환상적일걸? ★☆</a> | <a href="/cdn-cgi/l/email-protection#7215131f172d1111424243321c131e135c1513" target='_blank'>Contact : <span class="__cf_email__" data-cfemail="cfa8aea2aa90acacfffffe8fa1aea3aee1a8ae">[email&#160;protected]</span></a>
+</p>
+<p>Cotent License : CC-BY </p>
+<p>This content is collected under the CCL license.</p>
+<p>Please check the license of the original article before asking about copyright.</p>
+<ul>
+<li><a href='/tag/PS4'>More About <span style='font-weight:bold;'>PS4</span></a></li>
+<li><a href='/tag/파이널판타지'>More About <span style='font-weight:bold;'>파이널판타지</span></a></li>
+<li><a href='/tag/나이츠'>More About <span style='font-weight:bold;'>나이츠</span></a></li>
+<li><a href='/tag/오브'>More About <span style='font-weight:bold;'>오브</span></a></li>
+<li><a href='/tag/라운드'>More About <span style='font-weight:bold;'>라운드</span></a></li>
+<li><a href='/tag/공략'>More About <span style='font-weight:bold;'>공략</span></a></li>
+</ul>
+        </div> <!-- //.entry-summary -->
+        
+                    <div class="entry-tags"><b>Tags:</b> <a href="http://da.nala.ga/tag/ps4/" rel="tag">PS4</a>, <a href="http://da.nala.ga/tag/%ea%b3%b5%eb%9e%b5/" rel="tag">공략</a>, <a href="http://da.nala.ga/tag/%eb%82%98%ec%9d%b4%ec%b8%a0/" rel="tag">나이츠</a>, <a href="http://da.nala.ga/tag/%eb%9d%bc%ec%9a%b4%eb%93%9c/" rel="tag">라운드</a>, <a href="http://da.nala.ga/tag/%ec%98%a4%eb%b8%8c/" rel="tag">오브</a>, <a href="http://da.nala.ga/tag/%ed%8c%8c%ec%9d%b4%eb%84%90%ed%8c%90%ed%83%80%ec%a7%80/" rel="tag">파이널판타지</a></div>
+        
+    </div>
+
+</article> <!--/#post-->
+
+
+
+
+
+                                                                    <div class="post-nav-area">
+                                                    
+            <nav class="next-previous-post clearfix media" role="navigation">
+                <div class="row">
+                    <!-- Previous Post -->
+                    <div class="previous-post col-sm-6 pull-left">
+                        <div class="nav-previous"><i class="fa fa-angle-left"></i> <a href="http://da.nala.ga/%eb%82%a8%ec%9e%90%eb%a8%b8%eb%a6%ac%ea%b8%b0%eb%a5%b4%eb%8a%94%ec%86%8d%eb%8f%84-%ed%8c%8c%ec%9d%b4%eb%84%90%ed%8c%90%ed%83%80%ec%a7%8014-%ec%b4%88%eb%b0%98-%ec%9c%a1%ec%84%b1%eb%b6%80%ed%84%b0/" rel="prev">남자머리기르는속도 [파이널판타지14] 초반 육성부터 레이드 준비까지! &#8216;평공&#8217; 창천의 이슈가르드를 말하다!</a></div>                    </div>
+
+                    <!-- Next Post -->
+                    <div class="next-post col-sm-6 pull-right text-right">
+                        <div class="nav-next"><a href="http://da.nala.ga/pc-%ed%8c%8c%ec%9d%b4%eb%84%90-%ed%8c%90%ed%83%80%ec%a7%80-14-%ec%b0%bd%ec%b2%9c%ec%9d%98-%ec%9d%b4%ec%8a%88%ea%b0%80%eb%a5%b4%eb%93%9c-2/" rel="next">[PC] 파이널 판타지 14 : 창천의 이슈가르드 (2)</a> <i class="fa fa-angle-right"></i></div>                    </div>
+                </div>
+            </nav><!-- .navigation -->
+            
+                                            </div>
+                                
+                                
+                            
+                                            </main> <!-- /.site-main -->
+                </div>  <!-- /.content-area -->
+            </div> <!-- /col -->
+
+            <!-- Blogsidebar -->
+            
+	<div class="col-md-4">
+	    <div class="primary-sidebar widget-area" role="complementary">
+	        <div id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="http://da.nala.ga/">
+				<label>
+					<span class="screen-reader-text">검색:</span>
+					<input type="search" class="search-field" placeholder="검색 &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="검색" />
+			</form></div>		<div id="recent-posts-2" class="widget widget_recent_entries">		<h2 class="widget-title">최근 글</h2>		<ul>
+					<li>
+				<a href="http://da.nala.ga/%ea%b5%90%ed%99%98%ed%95%99%ec%83%9d%ec%a4%80%eb%b9%84part2-%ed%94%84%eb%9e%91%ec%8a%a4-sciences-po-%ec%a7%80%ec%9b%90-%ea%b3%bc%ec%a0%95%ea%b3%bc-%ea%b7%b8-%ec%a0%84-%ec%95%8c%ec%95%84%ec%95%bc/">[교환학생준비PART2] 프랑스 Sciences Po 지원 과정과 그 전 알아야할 것들!</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%b0%95%ea%b7%bc%ed%98%9c-%ec%b5%9c%ec%88%9c%ec%8b%a4-%ea%b2%8c%ec%9d%b4%ed%8a%b8%eb%a5%bc-%eb%b0%9d%ed%98%80%eb%82%b8-%ec%9d%bc%eb%93%b1%ea%b3%b5%ec%8b%a0-%ec%95%88%eb%af%bc%ec%84%9d/">박근혜 최순실 게이트를 밝혀낸 일등공신 안민석</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%b0%b0%ed%8b%80%ea%b7%b8%eb%9d%bc%ec%9a%b4%eb%93%9c-%ec%a0%95%ec%8b%9d%eb%b2%84%ec%a0%84-1-0%ed%8c%a8%ec%b9%98-%eb%ac%b4%ec%97%87%ec%9d%b4-%eb%b0%94%eb%80%8c%eb%82%98%ec%9a%94/">배틀그라운드 정식버전 1.0패치 무엇이 바뀌나요?</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%91%90%eb%87%8c%eb%a5%bc-%ea%b1%b4%ea%b0%95%ed%95%98%ea%b2%8c-%eb%a7%8c%eb%93%9c%eb%8a%94-4%ec%b2%9c%eb%b3%b4%ec%9d%98-%ea%b1%b8%ec%9d%8c/">두뇌를 건강하게 만드는 4천보의 걸음</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%af%b8%ea%b5%ad-%ec%9c%a0%ed%95%99-%ec%a0%95%eb%b3%b4-%ed%95%9c%ea%b5%ad-%eb%82%b4%ec%8b%a0-%ec%84%b1%ec%a0%81%eb%a7%8c%ec%9c%bc%eb%a1%9c-%eb%af%b8%ea%b5%ad-%eb%aa%85%eb%ac%b8%eb%8c%80-%ea%b0%80/">미국 유학  정보 &#8211; 한국 내신 성적만으로 미국 명문대 가기</a>
+						</li>
+				</ul>
+		</div>		<div id="tag_cloud-2" class="widget widget_tag_cloud"><h2 class="widget-title">태그</h2><div class="tagcloud"><a href="http://da.nala.ga/tag/1%ec%9b%94/" class="tag-cloud-link tag-link-35 tag-link-position-1" style="font-size: 14.892307692308pt;" aria-label="1월 (47 아이템)">1월</a>
+<a href="http://da.nala.ga/tag/2017/" class="tag-cloud-link tag-link-510 tag-link-position-2" style="font-size: 19.415384615385pt;" aria-label="2017 (76 아이템)">2017</a>
+<a href="http://da.nala.ga/tag/2017%eb%85%84/" class="tag-cloud-link tag-link-8 tag-link-position-3" style="font-size: 18.123076923077pt;" aria-label="2017년 (66 아이템)">2017년</a>
+<a href="http://da.nala.ga/tag/2018/" class="tag-cloud-link tag-link-61 tag-link-position-4" style="font-size: 14.461538461538pt;" aria-label="2018 (45 아이템)">2018</a>
+<a href="http://da.nala.ga/tag/2018%eb%85%84/" class="tag-cloud-link tag-link-103 tag-link-position-5" style="font-size: 18.984615384615pt;" aria-label="2018년 (73 아이템)">2018년</a>
+<a href="http://da.nala.ga/tag/vs/" class="tag-cloud-link tag-link-943 tag-link-position-6" style="font-size: 9.5076923076923pt;" aria-label="vs (26 아이템)">vs</a>
+<a href="http://da.nala.ga/tag/%ec%98%81%ed%99%94/" class="tag-cloud-link tag-link-1375 tag-link-position-7" style="font-size: 14.246153846154pt;" aria-label="“영화 (44 아이템)">“영화</a>
+<a href="http://da.nala.ga/tag/%ea%b0%80%ea%b2%a9/" class="tag-cloud-link tag-link-63 tag-link-position-8" style="font-size: 12.953846153846pt;" aria-label="가격 (38 아이템)">가격</a>
+<a href="http://da.nala.ga/tag/%ea%b0%80%ec%83%81%ed%99%94%ed%8f%90/" class="tag-cloud-link tag-link-1479 tag-link-position-9" style="font-size: 9.0769230769231pt;" aria-label="가상화폐 (25 아이템)">가상화폐</a>
+<a href="http://da.nala.ga/tag/%ea%b2%80%ec%9d%80%ec%82%ac%eb%a7%89/" class="tag-cloud-link tag-link-341 tag-link-position-10" style="font-size: 8.8615384615385pt;" aria-label="검은사막 (24 아이템)">검은사막</a>
+<a href="http://da.nala.ga/tag/%ea%b2%8c%ec%9e%84/" class="tag-cloud-link tag-link-391 tag-link-position-11" style="font-size: 22pt;" aria-label="게임 (102 아이템)">게임</a>
+<a href="http://da.nala.ga/tag/%ea%b3%b5%ea%b0%9c/" class="tag-cloud-link tag-link-938 tag-link-position-12" style="font-size: 9.5076923076923pt;" aria-label="공개 (26 아이템)">공개</a>
+<a href="http://da.nala.ga/tag/%ea%b3%b5%eb%9e%b5/" class="tag-cloud-link tag-link-1018 tag-link-position-13" style="font-size: 8.8615384615385pt;" aria-label="공략 (24 아이템)">공략</a>
+<a href="http://da.nala.ga/tag/%eb%8b%a4%ec%9a%b4%eb%a1%9c%eb%93%9c/" class="tag-cloud-link tag-link-364 tag-link-position-14" style="font-size: 8.4307692307692pt;" aria-label="다운로드 (23 아이템)">다운로드</a>
+<a href="http://da.nala.ga/tag/%eb%8c%80%ed%95%b4%ec%84%9c/" class="tag-cloud-link tag-link-1629 tag-link-position-15" style="font-size: 8.8615384615385pt;" aria-label="대해서 (24 아이템)">대해서</a>
+<a href="http://da.nala.ga/tag/%eb%a6%ac%eb%b7%b0/" class="tag-cloud-link tag-link-555 tag-link-position-16" style="font-size: 15.969230769231pt;" aria-label="리뷰 (53 아이템)">리뷰</a>
+<a href="http://da.nala.ga/tag/%eb%a7%9b%ec%a7%91/" class="tag-cloud-link tag-link-4173 tag-link-position-17" style="font-size: 9.9384615384615pt;" aria-label="맛집 (27 아이템)">맛집</a>
+<a href="http://da.nala.ga/tag/%eb%aa%a8%eb%b0%94%ec%9d%bc/" class="tag-cloud-link tag-link-835 tag-link-position-18" style="font-size: 10.584615384615pt;" aria-label="모바일 (29 아이템)">모바일</a>
+<a href="http://da.nala.ga/tag/%eb%ac%b4%eb%a3%8c/" class="tag-cloud-link tag-link-827 tag-link-position-19" style="font-size: 13.384615384615pt;" aria-label="무료 (40 아이템)">무료</a>
+<a href="http://da.nala.ga/tag/%eb%b0%a9%eb%b2%95/" class="tag-cloud-link tag-link-529 tag-link-position-20" style="font-size: 15.323076923077pt;" aria-label="방법 (49 아이템)">방법</a>
+<a href="http://da.nala.ga/tag/%eb%b9%84%ed%8a%b8%ec%bd%94%ec%9d%b8/" class="tag-cloud-link tag-link-1478 tag-link-position-21" style="font-size: 9.0769230769231pt;" aria-label="비트코인 (25 아이템)">비트코인</a>
+<a href="http://da.nala.ga/tag/%ec%84%a4%ec%b9%98/" class="tag-cloud-link tag-link-360 tag-link-position-22" style="font-size: 8pt;" aria-label="설치 (22 아이템)">설치</a>
+<a href="http://da.nala.ga/tag/%ec%86%8c%ea%b0%9c/" class="tag-cloud-link tag-link-297 tag-link-position-23" style="font-size: 8.4307692307692pt;" aria-label="소개 (23 아이템)">소개</a>
+<a href="http://da.nala.ga/tag/%ec%88%9c%ec%9c%84/" class="tag-cloud-link tag-link-12 tag-link-position-24" style="font-size: 11.230769230769pt;" aria-label="순위 (31 아이템)">순위</a>
+<a href="http://da.nala.ga/tag/%ec%8b%9c%ec%9e%91/" class="tag-cloud-link tag-link-579 tag-link-position-25" style="font-size: 8.4307692307692pt;" aria-label="시작 (23 아이템)">시작</a>
+<a href="http://da.nala.ga/tag/%ec%95%88%eb%82%b4/" class="tag-cloud-link tag-link-338 tag-link-position-26" style="font-size: 10.584615384615pt;" aria-label="안내 (29 아이템)">안내</a>
+<a href="http://da.nala.ga/tag/%ec%95%8c%ec%95%84%eb%b3%b4%ea%b8%b0/" class="tag-cloud-link tag-link-1939 tag-link-position-27" style="font-size: 12.523076923077pt;" aria-label="알아보기 (36 아이템)">알아보기</a>
+<a href="http://da.nala.ga/tag/%ec%95%8c%ec%95%84%eb%b3%b4%ec%9e%90/" class="tag-cloud-link tag-link-369 tag-link-position-28" style="font-size: 11.661538461538pt;" aria-label="알아보자 (33 아이템)">알아보자</a>
+<a href="http://da.nala.ga/tag/%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8/" class="tag-cloud-link tag-link-567 tag-link-position-29" style="font-size: 9.0769230769231pt;" aria-label="업데이트 (25 아이템)">업데이트</a>
+<a href="http://da.nala.ga/tag/%ec%97%ac%ed%96%89/" class="tag-cloud-link tag-link-1122 tag-link-position-30" style="font-size: 12.738461538462pt;" aria-label="여행 (37 아이템)">여행</a>
+<a href="http://da.nala.ga/tag/%ec%98%a4%eb%b8%8c/" class="tag-cloud-link tag-link-271 tag-link-position-31" style="font-size: 10.8pt;" aria-label="오브 (30 아이템)">오브</a>
+<a href="http://da.nala.ga/tag/%ec%98%a8%eb%9d%bc%ec%9d%b8/" class="tag-cloud-link tag-link-328 tag-link-position-32" style="font-size: 11.876923076923pt;" aria-label="온라인 (34 아이템)">온라인</a>
+<a href="http://da.nala.ga/tag/%ec%9c%84%ed%95%9c/" class="tag-cloud-link tag-link-183 tag-link-position-33" style="font-size: 13.169230769231pt;" aria-label="위한 (39 아이템)">위한</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%eb%b2%a4%ed%8a%b8/" class="tag-cloud-link tag-link-723 tag-link-position-34" style="font-size: 13.169230769231pt;" aria-label="이벤트 (39 아이템)">이벤트</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%ec%95%bc%ea%b8%b0/" class="tag-cloud-link tag-link-861 tag-link-position-35" style="font-size: 10.8pt;" aria-label="이야기 (30 아이템)">이야기</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%ec%9c%a0/" class="tag-cloud-link tag-link-1482 tag-link-position-36" style="font-size: 9.9384615384615pt;" aria-label="이유 (27 아이템)">이유</a>
+<a href="http://da.nala.ga/tag/%ec%9d%bc%eb%b3%b8/" class="tag-cloud-link tag-link-1007 tag-link-position-37" style="font-size: 8.4307692307692pt;" aria-label="일본 (23 아이템)">일본</a>
+<a href="http://da.nala.ga/tag/%ec%a0%95%eb%a6%ac/" class="tag-cloud-link tag-link-65 tag-link-position-38" style="font-size: 11.876923076923pt;" aria-label="정리 (34 아이템)">정리</a>
+<a href="http://da.nala.ga/tag/%ec%a0%95%eb%b3%b4/" class="tag-cloud-link tag-link-610 tag-link-position-39" style="font-size: 17.261538461538pt;" aria-label="정보 (61 아이템)">정보</a>
+<a href="http://da.nala.ga/tag/%ec%b4%9d%ec%a0%95%eb%a6%ac/" class="tag-cloud-link tag-link-179 tag-link-position-40" style="font-size: 8.4307692307692pt;" aria-label="총정리 (23 아이템)">총정리</a>
+<a href="http://da.nala.ga/tag/%ec%b5%9c%ea%b3%a0/" class="tag-cloud-link tag-link-404 tag-link-position-41" style="font-size: 11.876923076923pt;" aria-label="최고 (34 아이템)">최고</a>
+<a href="http://da.nala.ga/tag/%ec%b6%94%ec%b2%9c/" class="tag-cloud-link tag-link-367 tag-link-position-42" style="font-size: 20.707692307692pt;" aria-label="추천 (89 아이템)">추천</a>
+<a href="http://da.nala.ga/tag/%ec%b6%9c%ec%8b%9c/" class="tag-cloud-link tag-link-612 tag-link-position-43" style="font-size: 10.584615384615pt;" aria-label="출시 (29 아이템)">출시</a>
+<a href="http://da.nala.ga/tag/%ed%95%9c%ea%b5%ad/" class="tag-cloud-link tag-link-1483 tag-link-position-44" style="font-size: 10.153846153846pt;" aria-label="한국 (28 아이템)">한국</a>
+<a href="http://da.nala.ga/tag/%ed%9b%84%ea%b8%b0/" class="tag-cloud-link tag-link-114 tag-link-position-45" style="font-size: 19.2pt;" aria-label="후기 (74 아이템)">후기</a></div>
+</div>	    </div>
+	</div>
+
+        </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+    </div>
+    <footer class="site-footer" role="contentinfo">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+  
+                    <p></p>
+                    
+                                            <div class="footer-social-icons">
+                                                                                                                                                                                                                                                                                                                                                                                                        
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+            <div class="scroll-up">
+            <a href="#"><i class="fa fa-angle-up"></i></a>
+        </div>
+        <!-- Scroll Up -->
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/af2821b0/cloudflare-static/email-decode.min.js"></script><script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/bootstrap.min.js?ver=3.3.5'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/scripts.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/jquery.fitvids.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/smoothscroll.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/wp-embed.min.js?ver=4.8.4'></script>
+    </body>
+</html>

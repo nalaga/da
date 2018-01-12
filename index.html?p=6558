@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="http://da.nala.ga/xmlrpc.php">
+
+<title>비트코인 포크가 가격 상승 및 하락에 미치는 영향 | All About CC</title>
+<meta name='robots' content='noindex,follow' />
+
+<!-- All in One SEO Pack 2.4.3.1 by Michael Torbert of Semper Fi Web Design[276,331] -->
+<link rel="canonical" href="http://da.nala.ga/%eb%b9%84%ed%8a%b8%ec%bd%94%ec%9d%b8-%ed%8f%ac%ed%81%ac%ea%b0%80-%ea%b0%80%ea%b2%a9-%ec%83%81%ec%8a%b9-%eb%b0%8f-%ed%95%98%eb%9d%bd%ec%97%90-%eb%af%b8%ec%b9%98%eb%8a%94-%ec%98%81%ed%96%a5/" />
+<!-- /all in one seo pack -->
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 피드" href="http://da.nala.ga/feed/" />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 댓글 피드" href="http://da.nala.ga/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 비트코인 포크가 가격 상승 및 하락에 미치는 영향 댓글 피드" href="http://da.nala.ga/%eb%b9%84%ed%8a%b8%ec%bd%94%ec%9d%b8-%ed%8f%ac%ed%81%ac%ea%b0%80-%ea%b0%80%ea%b2%a9-%ec%83%81%ec%8a%b9-%eb%b0%8f-%ed%95%98%eb%9d%bd%ec%97%90-%eb%af%b8%ec%b9%98%eb%8a%94-%ec%98%81%ed%96%a5/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/da.nala.ga\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.4"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bootstrap-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/bootstrap.min.css?ver=3.3.5' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/font-awesome.min.css?ver=4.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='shaped-blog-stylesheet-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/style.css?ver=4.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/responsive.css' type='text/css' media='all' />
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://da.nala.ga/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://da.nala.ga/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://da.nala.ga/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='통풍치료법  개다래열매 그 효능은 ?&#8230;개다래는 무엇인가?&#8230;.' href='http://da.nala.ga/%ed%86%b5%ed%92%8d%ec%b9%98%eb%a3%8c%eb%b2%95-%ea%b0%9c%eb%8b%a4%eb%9e%98%ec%97%b4%eb%a7%a4-%ea%b7%b8-%ed%9a%a8%eb%8a%a5%ec%9d%80-%ea%b0%9c%eb%8b%a4%eb%9e%98%eb%8a%94-%eb%ac%b4%ec%97%87%ec%9d%b8/' />
+<link rel='next' title='Ethereum 기반 ICO는 궁극적으로 생생한 생태계를 생성' href='http://da.nala.ga/ethereum-%ea%b8%b0%eb%b0%98-ico%eb%8a%94-%ea%b6%81%ea%b7%b9%ec%a0%81%ec%9c%bc%eb%a1%9c-%ec%83%9d%ec%83%9d%ed%95%9c-%ec%83%9d%ed%83%9c%ea%b3%84%eb%a5%bc-%ec%83%9d%ec%84%b1/' />
+<meta name="generator" content="WordPress 4.8.4" />
+<link rel='shortlink' href='http://da.nala.ga/?p=6558' />
+<link rel="alternate" type="application/json+oembed" href="http://da.nala.ga/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fda.nala.ga%2F%25eb%25b9%2584%25ed%258a%25b8%25ec%25bd%2594%25ec%259d%25b8-%25ed%258f%25ac%25ed%2581%25ac%25ea%25b0%2580-%25ea%25b0%2580%25ea%25b2%25a9-%25ec%2583%2581%25ec%258a%25b9-%25eb%25b0%258f-%25ed%2595%2598%25eb%259d%25bd%25ec%2597%2590-%25eb%25af%25b8%25ec%25b9%2598%25eb%258a%2594-%25ec%2598%2581%25ed%2596%25a5%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://da.nala.ga/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fda.nala.ga%2F%25eb%25b9%2584%25ed%258a%25b8%25ec%25bd%2594%25ec%259d%25b8-%25ed%258f%25ac%25ed%2581%25ac%25ea%25b0%2580-%25ea%25b0%2580%25ea%25b2%25a9-%25ec%2583%2581%25ec%258a%25b9-%25eb%25b0%258f-%25ed%2595%2598%25eb%259d%25bd%25ec%2597%2590-%25eb%25af%25b8%25ec%25b9%2598%25eb%258a%2594-%25ec%2598%2581%25ed%2596%25a5%2F&#038;format=xml" />
+
+	<style>
+
+		/* Border Color */
+		.btn-social:hover,
+		blockquote,
+		#respond input:focus[type="text"], 
+	    #respond input:focus[type="email"], 
+	    #respond input:focus[type="url"],
+	    #respond textarea:focus,
+	    #comments .comment-reply a:hover
+		{
+			border-color: ;
+		}
+
+		
+		/* Background Color */
+		.scroll-up a,
+		.btn-social:hover,
+		button,
+		input[type="button"],
+		input[type="reset"],
+		input[type="submit"],
+		.navbar-default .navbar-nav .dropdown-menu li a:hover, .dropdown-menu li a:focus, .navbar-default .navbar-nav .dropdown-menu .active a,
+		.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover, .pagination li .current,
+		.next-previous-posts .next-post a:hover,
+		.next-previous-posts .previous-post a:hover,
+		.btn-goback,
+		.btn-submit,
+		a.more-link,
+		.featured-post .fa,
+		#comments .comment-reply a:hover,
+		.widget .tagcloud a
+		{
+			background-color: ;
+		}
+
+		
+		/* Color */
+		.text-logo a,
+		.navbar-default .navbar-nav .active a, .navbar-default .navbar-nav .active a:hover, .navbar-default .navbar-nav .active a:focus,
+		.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus,
+		a:hover,
+    	a:focus,
+		.next-previous-posts .previous-post a,
+		.next-previous-posts .next-post a,
+		.pagination>li>a, .pagination>li>span,
+		#comments .comment-author a:hover, 
+    	#respond .logged-in-as a:hover,
+    	#wp-calendar a,
+    	h2.entry-title a:hover
+		{
+			color: ;
+		}
+
+
+		/* A Color */
+		a{
+			color: ;
+		}
+
+		/* a:hover Color */
+		a:hover,
+		a:focus,
+		a:active,
+		.widget a:hover,
+		.post .post-content .entry-meta ul li a:hover
+		{
+			color: ;
+		}
+
+		/* .featured-post .fa:after*/
+		.featured-post .fa:after{
+			border-color:   transparent ;
+		}
+
+
+		
+
+	</style>
+</head>
+
+<body class="post-template-default single single-post postid-6558 single-format-standard">
+
+    <div id="st-preloader">
+        <div id="pre-status">
+            <div class="preload-placeholder"></div>
+        </div>
+    </div>
+<!-- /Preloader -->
+
+<header id="header">	
+	<div id="trueHeader">
+    	<div class="wrapper">
+            <div class="container">
+            	<!-- Menu -->
+            	<div class="menu_main">
+                	<div class="navbar blogx-navbar navbar-default">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#st-navber-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+
+                                                            <div class="text-logo">
+                                    <a href="http://da.nala.ga">All About CC</a>
+                                    <p>All About CC Contents</p>
+                                </div><!-- /Logo -->
+                                                    </div>
+                      
+                        <div id="st-navber-collapse" class="navbar-collapse collapse pull-right">
+                             
+                        </div>
+                    </div>
+            	</div><!-- end menu -->
+        	</div> <!-- /.container -->
+    	</div>
+	</div>
+	<DIV class='ads_adsense_img' style='margin:40px 0px 40px 0px;'>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- only display -->
+	<ins class="adsbygoogle"
+	     style="display:block"
+	     data-ad-client="ca-pub-8393857339019314"
+	     data-ad-slot="7474886381"
+	     data-ad-format="auto"></ins>
+	<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+	</DIV>	
+</header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div id="primary" class="content-area">
+                    <main id="main" class="site-main" role="main">
+
+                        
+                                <article id="post-6558" class="post-6558 post type-post status-publish format-standard hentry category-uncategorized tag-63 tag-10430 tag-1478 tag-1984 tag-10431 tag-10428 tag-10429">
+    <header class="entry-header">
+        
+        
+    </header> <!--/.entry-header -->
+
+    <div class="clearfix post-content media">
+
+        <h2 class="entry-title">
+            비트코인 포크가 가격 상승 및 하락에 미치는 영향        </h2> <!-- //.entry-title -->
+
+        <div class="clearfix entry-meta">
+            
+            <ul class="list-inline">
+                <li>
+                    <span class="author vcard">
+                        By <a class="url fn n" href="http://da.nala.ga/author/site-admin/">site-admin</a>                    </span>
+                </li>
+                <li>
+                    on <span class="posted-on">1월 10, 2018</span>
+                </li>
+                                    <li>
+                        in <span class="posted-in">
+                            <a href="http://da.nala.ga/category/uncategorized/" rel="category tag">미분류</a>                        </span>
+                    </li>
+                            </ul>
+                </div> <!--/.entry-meta -->
+        
+        <div class="entry-summary">
+            <p><img src='http://cfile25.uf.tistory.com/image/99BAFF3359F5A3022AE68D' style='max-width:250px;min-width:0px;' onError='this.style.display="none"' /></p>
+<h1>3줄 요약 </h1>
+<div style='color:#fff;background-color:#000;border-radius:10px;'>
+<ol>
+<li><span>과거의 체인 분할을 견뎌내는 사람들은 Bitcoin 네트워크와 분리되었을 <small>&#8230;중략&#8230;</small> 불만을 토로하며 지역 사회 내 파벌들에 의해 많은 쓰레기가 나눠졌습니다.</span></li>
+<li><span>사용하는 지갑이 분기 된 소프트웨어를 지원하면 Bitcoin 및 Fork <small>&#8230;중략&#8230;</small> 유 한 경우 분할 후 BTC 10 개와 BCH 10 개를 소유하게됩니다.</span></li>
+<li><span>떡상 그리고 떡락투자자들은 같은 양의 altcoin을 예상 한 Bitco <small>&#8230;중략&#8230;</small> itcoin Cash에서) 팔아서 대량의 자본 이득을 얻을 수 있습니다.</span></li>
+</ol>
+</div>
+<p><span id="more-6558"></span></p>
+<p><iframe src='http://ad.selfhow.com/rd' width='100%' border=0 frameborder=0 style='height:auto;width:100%'></iframe></p>
+<hr />
+<div class="tt_adsense_top" style="margin-bottom:30px">
+<!-- 티스토리광고 --></p>
+</div>
+<div style="text-align:center;margin:0 0 10px 0;">
+<!-- 티스토리광고(리더보드) --></p>
+</div>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:725px;;height:auto;max-width:100%"><img "="" "725_ly9jb2ludgvszwdyyxbolmnvbs9zdg9yywdll3vwbg9hzhmvdmlldy8wndniyzzhodhhzmfkymzlymnjmjdimmmyyzdjztyznc5qcgc=".jpg" filemime="image/jpeg" filename="725_Ly9jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy8wNDNiYzZhODhhZmFkYmZlYmNjMjdiMmMyYzdjZTYzNC5qcGc=.jpg" height="483" src="http://cfile25.uf.tistory.com/image/99BAFF3359F5A3022AE68D" style="" width="725"/></span></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;"><b><span style="font-size: 14pt;"></span><span style="font-size: 14pt;">2 일 전에 Bitcoin Gold 포크가 나오기 전에 시장은 흥미로운 움직임을 만들었습니다.</span></b></p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;">Bitcoin 가격은 2017 년 10 월 20 일에 처음으로 $ 6,000을 돌파하여 결국 $ 6,200 가까이 오르는 Bitcoin Gold 포크가 나오기 5 일 전부터 최고가에 달했습니다.</p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;">과거의 체인 분할을 견뎌내는 사람들은 Bitcoin 네트워크와 분리되었을 때 일반적으로 어떤 일이 일어나는지 알고 있습니다. 일반적으로 지역 사회는 reddit.com, medium.com 및 twitter.com이 soapbox 연설의 플랫폼이된다는 불만을 토로하며 지역 사회 내 파벌들에 의해 많은 쓰레기가 나눠졌습니다.</p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;">그러나 체인 분할과 관련이있는 다른 이벤트를 발견 했습니까? 체인이 분할되면 Bitcoin 네트워크에있는 토큰 수와 동일한 수의 분할 토큰을 갑자기 소유하게됩니다. 이는 새 체인이 분기가 발생할 때까지 Bitcoin Blockchain의 정확한 복사본이되기 때문입니다.</p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;">사용하는 지갑이 분기 된 소프트웨어를 지원하면 Bitcoin 및 Forked Chain Token이라는 두 개의 디지털 토큰을 소유하게됩니다. 이 예에서는 Bitcoin Cash (BCH)를 분기 토큰으로 사용합니다. Bitcoin Cash 체인이 주 체인에서 벗어 났을 때 Bitcoin의 소유자는 Bitcoin Cash와 동일한 양의 소유자가되었습니다. 이것은 포크가 발생할 때까지 체인이 동일했기 때문입니다. 분할 전에 BTC 10 개를 소유 한 경우 분할 후 BTC 10 개와 BCH 10 개를 소유하게됩니다.</p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;">이것은 경사가 미끄러 워지는 곳입니다. 헤아릴 수 없을 정도로 많은 돈을 가진 사람이나 조직은 포크가 발생할 때 캐피탈 이득을 유도하기 위해 Bitcoin 네트워크와 포크 네트워크를 강탈 할 기회로 포크를 사용할 수 있습니다.</p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="clear: none; float: none;"><b><span style="font-size: 14pt;">포크 준비</span></b></p>
+<p style="clear: none; float: none;">랜디가 35,000 Bitcoins을 소유하고 있다고 가정 해 봅시다. Bitcoin 당 5,000 달러의 가치로 Randy의 디지털 자산 가치는 $ 175,000,000입니다. 막대한 돈을 가진 사람이 시장에 투자 한 것처럼 Randy는 그 시장에서 자신의 지위 (부의)에 영향을 줄 수있는 뉴스에주의를 기울입니다. Randy는 Bitcoin 네트워크에 하드 포크 (hardfork)가 있고 하드 포크가 Bitcoin Cash (BCH)라는 새로운 토큰을 생성 함을 알게됩니다.</p>
+<p style="clear: none; float: none;"></p>
+<p style="clear: none; float: none;">또한 랜디는 자신의 Bitcoin 지갑 공급자가 포크 소프트웨어를 지원할 것이라는 사실을 알기 때문에 일단 포크가 발생하면 Bitcoin Cash와 Bitcoin을 소유하게된다는 것을 알고 있습니다. 현재 Randy는 포크 후 35,000 BTC 외에도 35,000 개의 Bitcoin Cash 토큰을 보유 할 것으로 예상됩니다. Randy가 수백만 달러의 Bitcoin 가치로 자신의 지위를 높이려면 그는 이전에 소유 한 것보다 더 많은 Bitcoin을 소유하게됩니다.</p>
+<p style="clear: none; float: none;"></p>
+<p style="clear: none; float: none;">그러나 그는 Bitcoin 시장에서 큰 선수이기 때문에 Bitcoin 가격을 높이는 구매 벽을 만들 것입니다. Randy가 자신이 소유 한 Bitcoin의 양을 늘릴 때 포크가 발생하면 Bitcoin Cash를 소유하게됩니다.</p>
+<p style="clear: none; float: none;"></p>
+<p style="clear: none; float: none;">Randy는 교육받은 투자자이기 때문에 Randy는 Bitcoin에서 자신의 지위를 높이기로 결정하여 포크 전날 50,000 Bitcoin을 소유하게됩니다. Randy는 Bitcoin에서 자신의 지위를 높이 지 않으면 35,000 파운드보다 더 많은 Bitcoin Cash를 소유하기를 원했기 때문에이를 수행했습니다. 이제 포크가 생기면 Randy는 자신의 50,000 BTC 외에 50,000 BCH가있을 것으로 예상합니다.</p>
+<p style="clear: none; float: none;"></p>
+<p style="clear: none; float: none;"><b><span style="font-size: 14pt;">체인 포크</span></b></p>
+<p style="clear: none; float: none;">Bitcoin 네트워크가 분기되면 Bitcoin 네트워크에 있던 일부 값이 분기 된 체인으로 분할됩니다. Bitcoin Cash가 Bitcoin 네트워크에서 나왔을 때, Bitcoin의 가치는 $ 2800에서 $ 2700 (7 월 23,2017)으로 떨어졌습니다.</p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:820px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="0d68f44ce9d309887a0e25b5ec5ca3ae.png" height="221" src="http://cfile10.uf.tistory.com/image/991B0D3359F5A3EC26955C" style="" width="820"/></span></p>
+<p>포크의 결과로 Bitcoin Cash가 만들어졌으며 출시 당시 약 $ 555 상당의 가치가있었습니다. (7 월 23 일, 2017).</p>
+<p></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:820px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="cf6d79d1c87b6525eb12502fe23d162f.png" height="700" src="http://cfile7.uf.tistory.com/image/99CBF63359F5A40E2D4F48" style="" width="820"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><b><br /></b></p>
+<p style="text-align: left; clear: none; float: none;"><b><span style="font-size: 14pt;"></span><span style="font-size: 14pt;"></span><span style="font-size: 14pt;">랜디는 그게 무슨 뜻이야?</span></b></p>
+<p style="text-align: left; clear: none; float: none;">Bitcoin이 2,800 달러에서 2,700 달러로 떨어졌을 때, Randy의 디지털 자산 (Bitcoin의 자산)은 140,000,000 달러에서 135,000,000 달러로 5 백만 달러의 손실로 떨어졌습니다. 그러나 포크 때문에 Randy는 현재 5 만 5 천 달러의 가치가있는 BCH를 보유하고 있습니다. Randy는 교육받은 투자자이기 때문에 Bitcoin Cash (BCH)를 사용할 계획이 없기 때문에 BCH를 판매 할 수있는 옵션을 자신이 선호하는 교환기에서 사용할 수있게되면 즉시 BCH를 판매합니다.</p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;">Randy는 BCH의 50,000 대를 27,750,000 달러의 이익으로 판매합니다. Bitcoin의 가격 하락으로 고통받는 5 백만 달러의 손실을 만회하기위한 좋은 2800 만 달러의 이익 (반올림 된 수). 결국 Randy는 체인 분할로 약 2300 만 달러의 이익을 얻습니다.</p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;">Randy와 같은 다른 투자자들은 고등 교육을 받았고 자신이하는 일에 대해 매우 숙련되어 있습니다. 또한 그들은 하드 포크 (hardfork)와 관련하여 랜디 (Randy)와 비슷하거나 더 효율적인 전략을 실행하고있을 수 있습니다. 많은 Bitcoin을 구입하고, 자신이 보유한 Bitcoin의 수와 동일한 수의 새로운 altcoin이 남아있는 체인 분할을 예상하고, 이익을 위해 altcoin을 신속하게 판매 한 다음 과평가되어 Bitcoin에서 귀하의 지위를 낮 춥니 다.</p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;">랜디 (Randy)와 같은 사람들은 고래 (Bitcoin) 시장에서 너무 큰 직책을 맡고있는 개인 들로서, 그들의 입찰과 주문은 시장을 흔들 수 있다고 말했다. Bitcoin의 가치를 높이거나 낮추기 위해 이와 비슷한 전략을 사용하는 몇 명의 빅 플레이어 만이 필요하기 때문에 이와 같은 기회가 주어지면 Bitcoin의 가격이 Bitcoin의 진정한 가치를 반영하지 못할 수 있습니다.</p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;">교육 투자자들은 하드 코크 전략을 실행하는 것과 같은 대형 업체 때문에 Bitcoin 가격이 인위적으로 높을 수 있음을 알고 있기 때문에 큰 투자자는 일단 하드 코크 게임 플랜을 실행하면 Bitcoin에서 자신의 지위를 낮추려는 동기가 있습니다. Bitcoin 가격이 모든 하드 포크 제휴 넌센스가 가라 앉으면 진정한 가치에 더 가까운 값으로 수정되기를 기대하기 때문입니다.</p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;">Bitcoin 시장에서 상대적으로 큰 지위를 가진 Randy와 같은 다수의 사람들이 있기 때문에, 이들이 Bitcoin에서 자신의 위치를 ​​곰의 기간 동안 소유하기에 편한 양 (그리고 그 수는 0 일 수 있음)으로 줄이면 집단적 질문 Bitcoin의 가격을 낮추는 판매 벽을 만들 수 있습니다.</p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;">투자자들이 시장 전략으로 인하여 단기적으로 가격이 인위적으로 높다는 사실을 투자자들이 알고 있기 때문에 투자자들이 장기적으로 보유 할 가치가 거의 없기 때문에 Altcoin을 모두 팔아 버린 후 &#8211; Bitcoin은 투자자들이 거대한 판매 벽에서 Bitcoin의 저렴한 가격으로 이전에 내린 Bitcoin을 다시 살 수 있습니다.</p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;">이익을 추구하는 투자자들이 Altcoin을 모두 팔아 버리면 투자자들은 Bitcoin을 인위적으로 높은 가격에 판매함으로써 자본 이득을 경험하게되고 가격이 낮아지면 Bitcoin을 다시 구매하게됩니다. 투자자가 Bitcoin을 구매하는 기간 동안 우리는 단기간에 가격이 안정되는 것을 보게됩니다.</p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;"><b><span style="font-size: 14pt;">떡상 그리고 떡락</span></b></p>
+<p style="text-align: left; clear: none; float: none;">투자자들은 같은 양의 altcoin을 예상 한 Bitcoin을 비축 한 다음 Bitcoin과 altcoin을 상당량 (우리의 예제 Bitcoin Cash에서) 팔아서 대량의 자본 이득을 얻을 수 있습니다.</p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;">몇 가지 다른 시장 요소가 Bitcoin 가격 급등 및 후속 추세에 영향을 미칠 가능성을 배제 할 수는 없지만, 고래가 Bitcoin의 급격한 변화를 어떻게 막아 냈다고 생각하십니까?</p>
+<p></p>
+<div style="text-align:center;margin:10px 0 10px 0;"><tenping class="adsbytenping" style="margin: 0px auto; width: 300px; display: block;" tenping-ad-client="4EhI%2b1RuAlX%2fckPMcvUa2PB%2fS6B%2f6nTBzT2UxhXLE6Y86ZBHlwOdhTiS0iZb3j7H" tenping-ad-type="u7fJsnBzJNoBczKdD7DZ%2bg%3d%3d"></tenping></p>
+</div>
+<div class="tt_adsense_bottom" style="margin-top:30px">
+<!-- 티스토리광고 --></p>
+</div>
+<div class="entry-ccl" style="float:right;margin-top:0;height:0">
+<a href="http://creativecommons.org/licenses/by-sa/4.0/deed.ko" style="text-decoration: none" target="_blank"><br />
+<img alt="저작자 표시" class="entry-ccl-by" id="ccl-icon-208-0" src="//t1.daumcdn.net/tistory_admin/static/admin/editor/ccl_black01.png?_version_=b5527a21961b9a3cee10e4443ee6a9c5f59f0ac9" style="width:15px;height:15px"/><br />
+<img alt="동일 조건 변경 허락" class="entry-ccl-sa" id="ccl-icon-208-1" src="//t1.daumcdn.net/tistory_admin/static/admin/editor/ccl_black04.png?_version_=b5527a21961b9a3cee10e4443ee6a9c5f59f0ac9" style="width:15px;height:15px"/><br />
+<!--
+	<rdf:RDF xmlns="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+		<Work rdf:about="">
+			<license rdf:resource="http://creativecommons.org/licenses/by-sa/2.0/kr/" />
+		</Work>
+		<License rdf:about="http://creativecommons.org/licenses/by-sa/">
+			<permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+			<permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+			<requires rdf:resource="http://web.resource.org/cc/Notice"/>
+			<requires rdf:resource="http://web.resource.org/cc/Attribution"/>
+			<permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+		</License>
+	</rdf:RDF>
+	--><br />
+</a>
+</div>
+<hr />
+<p><iframe src='http://ad.selfhow.com/rd' width='100%' border=0 frameborder=0 style='height:auto;width:100%'></iframe></p>
+<p><a href='http://realmojo.tistory.com/208' target='_blank'>Origin Content : Go Developer &#038; Musician</a> | <a href="/cdn-cgi/l/email-protection#3d5a5c5058625e5e0d0d0c7d535c515c135a5c" target='_blank'>Contact : <span class="__cf_email__" data-cfemail="2d4a4c4048724e4e1d1d1c6d434c414c034a4c">[email&#160;protected]</span></a>
+</p>
+<p>Cotent License : CC-BY-SA </p>
+<p>This content is collected under the CCL license.</p>
+<p>Please check the license of the original article before asking about copyright.</p>
+<ul>
+<li><a href='/tag/비트코인'>More About <span style='font-weight:bold;'>비트코인</span></a></li>
+<li><a href='/tag/포크'>More About <span style='font-weight:bold;'>포크</span></a></li>
+<li><a href='/tag/가격'>More About <span style='font-weight:bold;'>가격</span></a></li>
+<li><a href='/tag/상승'>More About <span style='font-weight:bold;'>상승</span></a></li>
+<li><a href='/tag/하락에'>More About <span style='font-weight:bold;'>하락에</span></a></li>
+<li><a href='/tag/미치'>More About <span style='font-weight:bold;'>미치</span></a></li>
+<li><a href='/tag/영향'>More About <span style='font-weight:bold;'>영향</span></a></li>
+</ul>
+        </div> <!-- //.entry-summary -->
+        
+                    <div class="entry-tags"><b>Tags:</b> <a href="http://da.nala.ga/tag/%ea%b0%80%ea%b2%a9/" rel="tag">가격</a>, <a href="http://da.nala.ga/tag/%eb%af%b8%ec%b9%98/" rel="tag">미치</a>, <a href="http://da.nala.ga/tag/%eb%b9%84%ed%8a%b8%ec%bd%94%ec%9d%b8/" rel="tag">비트코인</a>, <a href="http://da.nala.ga/tag/%ec%83%81%ec%8a%b9/" rel="tag">상승</a>, <a href="http://da.nala.ga/tag/%ec%98%81%ed%96%a5/" rel="tag">영향</a>, <a href="http://da.nala.ga/tag/%ed%8f%ac%ed%81%ac/" rel="tag">포크</a>, <a href="http://da.nala.ga/tag/%ed%95%98%eb%9d%bd%ec%97%90/" rel="tag">하락에</a></div>
+        
+    </div>
+
+</article> <!--/#post-->
+
+
+
+
+
+                                                                    <div class="post-nav-area">
+                                                    
+            <nav class="next-previous-post clearfix media" role="navigation">
+                <div class="row">
+                    <!-- Previous Post -->
+                    <div class="previous-post col-sm-6 pull-left">
+                        <div class="nav-previous"><i class="fa fa-angle-left"></i> <a href="http://da.nala.ga/%ed%86%b5%ed%92%8d%ec%b9%98%eb%a3%8c%eb%b2%95-%ea%b0%9c%eb%8b%a4%eb%9e%98%ec%97%b4%eb%a7%a4-%ea%b7%b8-%ed%9a%a8%eb%8a%a5%ec%9d%80-%ea%b0%9c%eb%8b%a4%eb%9e%98%eb%8a%94-%eb%ac%b4%ec%97%87%ec%9d%b8/" rel="prev">통풍치료법  개다래열매 그 효능은 ?&#8230;개다래는 무엇인가?&#8230;.</a></div>                    </div>
+
+                    <!-- Next Post -->
+                    <div class="next-post col-sm-6 pull-right text-right">
+                        <div class="nav-next"><a href="http://da.nala.ga/ethereum-%ea%b8%b0%eb%b0%98-ico%eb%8a%94-%ea%b6%81%ea%b7%b9%ec%a0%81%ec%9c%bc%eb%a1%9c-%ec%83%9d%ec%83%9d%ed%95%9c-%ec%83%9d%ed%83%9c%ea%b3%84%eb%a5%bc-%ec%83%9d%ec%84%b1/" rel="next">Ethereum 기반 ICO는 궁극적으로 생생한 생태계를 생성</a> <i class="fa fa-angle-right"></i></div>                    </div>
+                </div>
+            </nav><!-- .navigation -->
+            
+                                            </div>
+                                
+                                
+                            
+                                            </main> <!-- /.site-main -->
+                </div>  <!-- /.content-area -->
+            </div> <!-- /col -->
+
+            <!-- Blogsidebar -->
+            
+	<div class="col-md-4">
+	    <div class="primary-sidebar widget-area" role="complementary">
+	        <div id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="http://da.nala.ga/">
+				<label>
+					<span class="screen-reader-text">검색:</span>
+					<input type="search" class="search-field" placeholder="검색 &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="검색" />
+			</form></div>		<div id="recent-posts-2" class="widget widget_recent_entries">		<h2 class="widget-title">최근 글</h2>		<ul>
+					<li>
+				<a href="http://da.nala.ga/%ea%b5%90%ed%99%98%ed%95%99%ec%83%9d%ec%a4%80%eb%b9%84part2-%ed%94%84%eb%9e%91%ec%8a%a4-sciences-po-%ec%a7%80%ec%9b%90-%ea%b3%bc%ec%a0%95%ea%b3%bc-%ea%b7%b8-%ec%a0%84-%ec%95%8c%ec%95%84%ec%95%bc/">[교환학생준비PART2] 프랑스 Sciences Po 지원 과정과 그 전 알아야할 것들!</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%b0%95%ea%b7%bc%ed%98%9c-%ec%b5%9c%ec%88%9c%ec%8b%a4-%ea%b2%8c%ec%9d%b4%ed%8a%b8%eb%a5%bc-%eb%b0%9d%ed%98%80%eb%82%b8-%ec%9d%bc%eb%93%b1%ea%b3%b5%ec%8b%a0-%ec%95%88%eb%af%bc%ec%84%9d/">박근혜 최순실 게이트를 밝혀낸 일등공신 안민석</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%b0%b0%ed%8b%80%ea%b7%b8%eb%9d%bc%ec%9a%b4%eb%93%9c-%ec%a0%95%ec%8b%9d%eb%b2%84%ec%a0%84-1-0%ed%8c%a8%ec%b9%98-%eb%ac%b4%ec%97%87%ec%9d%b4-%eb%b0%94%eb%80%8c%eb%82%98%ec%9a%94/">배틀그라운드 정식버전 1.0패치 무엇이 바뀌나요?</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%91%90%eb%87%8c%eb%a5%bc-%ea%b1%b4%ea%b0%95%ed%95%98%ea%b2%8c-%eb%a7%8c%eb%93%9c%eb%8a%94-4%ec%b2%9c%eb%b3%b4%ec%9d%98-%ea%b1%b8%ec%9d%8c/">두뇌를 건강하게 만드는 4천보의 걸음</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%af%b8%ea%b5%ad-%ec%9c%a0%ed%95%99-%ec%a0%95%eb%b3%b4-%ed%95%9c%ea%b5%ad-%eb%82%b4%ec%8b%a0-%ec%84%b1%ec%a0%81%eb%a7%8c%ec%9c%bc%eb%a1%9c-%eb%af%b8%ea%b5%ad-%eb%aa%85%eb%ac%b8%eb%8c%80-%ea%b0%80/">미국 유학  정보 &#8211; 한국 내신 성적만으로 미국 명문대 가기</a>
+						</li>
+				</ul>
+		</div>		<div id="tag_cloud-2" class="widget widget_tag_cloud"><h2 class="widget-title">태그</h2><div class="tagcloud"><a href="http://da.nala.ga/tag/1%ec%9b%94/" class="tag-cloud-link tag-link-35 tag-link-position-1" style="font-size: 14.892307692308pt;" aria-label="1월 (47 아이템)">1월</a>
+<a href="http://da.nala.ga/tag/2017/" class="tag-cloud-link tag-link-510 tag-link-position-2" style="font-size: 19.415384615385pt;" aria-label="2017 (76 아이템)">2017</a>
+<a href="http://da.nala.ga/tag/2017%eb%85%84/" class="tag-cloud-link tag-link-8 tag-link-position-3" style="font-size: 18.123076923077pt;" aria-label="2017년 (66 아이템)">2017년</a>
+<a href="http://da.nala.ga/tag/2018/" class="tag-cloud-link tag-link-61 tag-link-position-4" style="font-size: 14.461538461538pt;" aria-label="2018 (45 아이템)">2018</a>
+<a href="http://da.nala.ga/tag/2018%eb%85%84/" class="tag-cloud-link tag-link-103 tag-link-position-5" style="font-size: 18.984615384615pt;" aria-label="2018년 (73 아이템)">2018년</a>
+<a href="http://da.nala.ga/tag/vs/" class="tag-cloud-link tag-link-943 tag-link-position-6" style="font-size: 9.5076923076923pt;" aria-label="vs (26 아이템)">vs</a>
+<a href="http://da.nala.ga/tag/%ec%98%81%ed%99%94/" class="tag-cloud-link tag-link-1375 tag-link-position-7" style="font-size: 14.246153846154pt;" aria-label="“영화 (44 아이템)">“영화</a>
+<a href="http://da.nala.ga/tag/%ea%b0%80%ea%b2%a9/" class="tag-cloud-link tag-link-63 tag-link-position-8" style="font-size: 12.953846153846pt;" aria-label="가격 (38 아이템)">가격</a>
+<a href="http://da.nala.ga/tag/%ea%b0%80%ec%83%81%ed%99%94%ed%8f%90/" class="tag-cloud-link tag-link-1479 tag-link-position-9" style="font-size: 9.0769230769231pt;" aria-label="가상화폐 (25 아이템)">가상화폐</a>
+<a href="http://da.nala.ga/tag/%ea%b2%80%ec%9d%80%ec%82%ac%eb%a7%89/" class="tag-cloud-link tag-link-341 tag-link-position-10" style="font-size: 8.8615384615385pt;" aria-label="검은사막 (24 아이템)">검은사막</a>
+<a href="http://da.nala.ga/tag/%ea%b2%8c%ec%9e%84/" class="tag-cloud-link tag-link-391 tag-link-position-11" style="font-size: 22pt;" aria-label="게임 (102 아이템)">게임</a>
+<a href="http://da.nala.ga/tag/%ea%b3%b5%ea%b0%9c/" class="tag-cloud-link tag-link-938 tag-link-position-12" style="font-size: 9.5076923076923pt;" aria-label="공개 (26 아이템)">공개</a>
+<a href="http://da.nala.ga/tag/%ea%b3%b5%eb%9e%b5/" class="tag-cloud-link tag-link-1018 tag-link-position-13" style="font-size: 8.8615384615385pt;" aria-label="공략 (24 아이템)">공략</a>
+<a href="http://da.nala.ga/tag/%eb%8b%a4%ec%9a%b4%eb%a1%9c%eb%93%9c/" class="tag-cloud-link tag-link-364 tag-link-position-14" style="font-size: 8.4307692307692pt;" aria-label="다운로드 (23 아이템)">다운로드</a>
+<a href="http://da.nala.ga/tag/%eb%8c%80%ed%95%b4%ec%84%9c/" class="tag-cloud-link tag-link-1629 tag-link-position-15" style="font-size: 8.8615384615385pt;" aria-label="대해서 (24 아이템)">대해서</a>
+<a href="http://da.nala.ga/tag/%eb%a6%ac%eb%b7%b0/" class="tag-cloud-link tag-link-555 tag-link-position-16" style="font-size: 15.969230769231pt;" aria-label="리뷰 (53 아이템)">리뷰</a>
+<a href="http://da.nala.ga/tag/%eb%a7%9b%ec%a7%91/" class="tag-cloud-link tag-link-4173 tag-link-position-17" style="font-size: 9.9384615384615pt;" aria-label="맛집 (27 아이템)">맛집</a>
+<a href="http://da.nala.ga/tag/%eb%aa%a8%eb%b0%94%ec%9d%bc/" class="tag-cloud-link tag-link-835 tag-link-position-18" style="font-size: 10.584615384615pt;" aria-label="모바일 (29 아이템)">모바일</a>
+<a href="http://da.nala.ga/tag/%eb%ac%b4%eb%a3%8c/" class="tag-cloud-link tag-link-827 tag-link-position-19" style="font-size: 13.384615384615pt;" aria-label="무료 (40 아이템)">무료</a>
+<a href="http://da.nala.ga/tag/%eb%b0%a9%eb%b2%95/" class="tag-cloud-link tag-link-529 tag-link-position-20" style="font-size: 15.323076923077pt;" aria-label="방법 (49 아이템)">방법</a>
+<a href="http://da.nala.ga/tag/%eb%b9%84%ed%8a%b8%ec%bd%94%ec%9d%b8/" class="tag-cloud-link tag-link-1478 tag-link-position-21" style="font-size: 9.0769230769231pt;" aria-label="비트코인 (25 아이템)">비트코인</a>
+<a href="http://da.nala.ga/tag/%ec%84%a4%ec%b9%98/" class="tag-cloud-link tag-link-360 tag-link-position-22" style="font-size: 8pt;" aria-label="설치 (22 아이템)">설치</a>
+<a href="http://da.nala.ga/tag/%ec%86%8c%ea%b0%9c/" class="tag-cloud-link tag-link-297 tag-link-position-23" style="font-size: 8.4307692307692pt;" aria-label="소개 (23 아이템)">소개</a>
+<a href="http://da.nala.ga/tag/%ec%88%9c%ec%9c%84/" class="tag-cloud-link tag-link-12 tag-link-position-24" style="font-size: 11.230769230769pt;" aria-label="순위 (31 아이템)">순위</a>
+<a href="http://da.nala.ga/tag/%ec%8b%9c%ec%9e%91/" class="tag-cloud-link tag-link-579 tag-link-position-25" style="font-size: 8.4307692307692pt;" aria-label="시작 (23 아이템)">시작</a>
+<a href="http://da.nala.ga/tag/%ec%95%88%eb%82%b4/" class="tag-cloud-link tag-link-338 tag-link-position-26" style="font-size: 10.584615384615pt;" aria-label="안내 (29 아이템)">안내</a>
+<a href="http://da.nala.ga/tag/%ec%95%8c%ec%95%84%eb%b3%b4%ea%b8%b0/" class="tag-cloud-link tag-link-1939 tag-link-position-27" style="font-size: 12.523076923077pt;" aria-label="알아보기 (36 아이템)">알아보기</a>
+<a href="http://da.nala.ga/tag/%ec%95%8c%ec%95%84%eb%b3%b4%ec%9e%90/" class="tag-cloud-link tag-link-369 tag-link-position-28" style="font-size: 11.661538461538pt;" aria-label="알아보자 (33 아이템)">알아보자</a>
+<a href="http://da.nala.ga/tag/%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8/" class="tag-cloud-link tag-link-567 tag-link-position-29" style="font-size: 9.0769230769231pt;" aria-label="업데이트 (25 아이템)">업데이트</a>
+<a href="http://da.nala.ga/tag/%ec%97%ac%ed%96%89/" class="tag-cloud-link tag-link-1122 tag-link-position-30" style="font-size: 12.738461538462pt;" aria-label="여행 (37 아이템)">여행</a>
+<a href="http://da.nala.ga/tag/%ec%98%a4%eb%b8%8c/" class="tag-cloud-link tag-link-271 tag-link-position-31" style="font-size: 10.8pt;" aria-label="오브 (30 아이템)">오브</a>
+<a href="http://da.nala.ga/tag/%ec%98%a8%eb%9d%bc%ec%9d%b8/" class="tag-cloud-link tag-link-328 tag-link-position-32" style="font-size: 11.876923076923pt;" aria-label="온라인 (34 아이템)">온라인</a>
+<a href="http://da.nala.ga/tag/%ec%9c%84%ed%95%9c/" class="tag-cloud-link tag-link-183 tag-link-position-33" style="font-size: 13.169230769231pt;" aria-label="위한 (39 아이템)">위한</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%eb%b2%a4%ed%8a%b8/" class="tag-cloud-link tag-link-723 tag-link-position-34" style="font-size: 13.169230769231pt;" aria-label="이벤트 (39 아이템)">이벤트</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%ec%95%bc%ea%b8%b0/" class="tag-cloud-link tag-link-861 tag-link-position-35" style="font-size: 10.8pt;" aria-label="이야기 (30 아이템)">이야기</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%ec%9c%a0/" class="tag-cloud-link tag-link-1482 tag-link-position-36" style="font-size: 9.9384615384615pt;" aria-label="이유 (27 아이템)">이유</a>
+<a href="http://da.nala.ga/tag/%ec%9d%bc%eb%b3%b8/" class="tag-cloud-link tag-link-1007 tag-link-position-37" style="font-size: 8.4307692307692pt;" aria-label="일본 (23 아이템)">일본</a>
+<a href="http://da.nala.ga/tag/%ec%a0%95%eb%a6%ac/" class="tag-cloud-link tag-link-65 tag-link-position-38" style="font-size: 11.876923076923pt;" aria-label="정리 (34 아이템)">정리</a>
+<a href="http://da.nala.ga/tag/%ec%a0%95%eb%b3%b4/" class="tag-cloud-link tag-link-610 tag-link-position-39" style="font-size: 17.261538461538pt;" aria-label="정보 (61 아이템)">정보</a>
+<a href="http://da.nala.ga/tag/%ec%b4%9d%ec%a0%95%eb%a6%ac/" class="tag-cloud-link tag-link-179 tag-link-position-40" style="font-size: 8.4307692307692pt;" aria-label="총정리 (23 아이템)">총정리</a>
+<a href="http://da.nala.ga/tag/%ec%b5%9c%ea%b3%a0/" class="tag-cloud-link tag-link-404 tag-link-position-41" style="font-size: 11.876923076923pt;" aria-label="최고 (34 아이템)">최고</a>
+<a href="http://da.nala.ga/tag/%ec%b6%94%ec%b2%9c/" class="tag-cloud-link tag-link-367 tag-link-position-42" style="font-size: 20.707692307692pt;" aria-label="추천 (89 아이템)">추천</a>
+<a href="http://da.nala.ga/tag/%ec%b6%9c%ec%8b%9c/" class="tag-cloud-link tag-link-612 tag-link-position-43" style="font-size: 10.584615384615pt;" aria-label="출시 (29 아이템)">출시</a>
+<a href="http://da.nala.ga/tag/%ed%95%9c%ea%b5%ad/" class="tag-cloud-link tag-link-1483 tag-link-position-44" style="font-size: 10.153846153846pt;" aria-label="한국 (28 아이템)">한국</a>
+<a href="http://da.nala.ga/tag/%ed%9b%84%ea%b8%b0/" class="tag-cloud-link tag-link-114 tag-link-position-45" style="font-size: 19.2pt;" aria-label="후기 (74 아이템)">후기</a></div>
+</div>	    </div>
+	</div>
+
+        </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+    </div>
+    <footer class="site-footer" role="contentinfo">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+  
+                    <p></p>
+                    
+                                            <div class="footer-social-icons">
+                                                                                                                                                                                                                                                                                                                                                                                                        
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+            <div class="scroll-up">
+            <a href="#"><i class="fa fa-angle-up"></i></a>
+        </div>
+        <!-- Scroll Up -->
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/af2821b0/cloudflare-static/email-decode.min.js"></script><script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/bootstrap.min.js?ver=3.3.5'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/scripts.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/jquery.fitvids.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/smoothscroll.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/wp-embed.min.js?ver=4.8.4'></script>
+    </body>
+</html>

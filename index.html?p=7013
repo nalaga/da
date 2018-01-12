@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="http://da.nala.ga/xmlrpc.php">
+
+<title>블록체인에 대한 소개 | All About CC</title>
+<meta name='robots' content='noindex,follow' />
+
+<!-- All in One SEO Pack 2.4.3.1 by Michael Torbert of Semper Fi Web Design[276,315] -->
+<link rel="canonical" href="http://da.nala.ga/%eb%b8%94%eb%a1%9d%ec%b2%b4%ec%9d%b8%ec%97%90-%eb%8c%80%ed%95%9c-%ec%86%8c%ea%b0%9c/" />
+<!-- /all in one seo pack -->
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 피드" href="http://da.nala.ga/feed/" />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 댓글 피드" href="http://da.nala.ga/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 블록체인에 대한 소개 댓글 피드" href="http://da.nala.ga/%eb%b8%94%eb%a1%9d%ec%b2%b4%ec%9d%b8%ec%97%90-%eb%8c%80%ed%95%9c-%ec%86%8c%ea%b0%9c/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/da.nala.ga\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.4"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bootstrap-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/bootstrap.min.css?ver=3.3.5' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/font-awesome.min.css?ver=4.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='shaped-blog-stylesheet-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/style.css?ver=4.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/responsive.css' type='text/css' media='all' />
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://da.nala.ga/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://da.nala.ga/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://da.nala.ga/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='내계좌 찾아줌 방법 설명' href='http://da.nala.ga/%eb%82%b4%ea%b3%84%ec%a2%8c-%ec%b0%be%ec%95%84%ec%a4%8c-%eb%b0%a9%eb%b2%95-%ec%84%a4%eb%aa%85/' />
+<link rel='next' title='스마트 예스사인으로 스마트폰에서 공인인증서 쓰는방법!' href='http://da.nala.ga/%ec%8a%a4%eb%a7%88%ed%8a%b8-%ec%98%88%ec%8a%a4%ec%82%ac%ec%9d%b8%ec%9c%bc%eb%a1%9c-%ec%8a%a4%eb%a7%88%ed%8a%b8%ed%8f%b0%ec%97%90%ec%84%9c-%ea%b3%b5%ec%9d%b8%ec%9d%b8%ec%a6%9d%ec%84%9c-%ec%93%b0/' />
+<meta name="generator" content="WordPress 4.8.4" />
+<link rel='shortlink' href='http://da.nala.ga/?p=7013' />
+<link rel="alternate" type="application/json+oembed" href="http://da.nala.ga/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fda.nala.ga%2F%25eb%25b8%2594%25eb%25a1%259d%25ec%25b2%25b4%25ec%259d%25b8%25ec%2597%2590-%25eb%258c%2580%25ed%2595%259c-%25ec%2586%258c%25ea%25b0%259c%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://da.nala.ga/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fda.nala.ga%2F%25eb%25b8%2594%25eb%25a1%259d%25ec%25b2%25b4%25ec%259d%25b8%25ec%2597%2590-%25eb%258c%2580%25ed%2595%259c-%25ec%2586%258c%25ea%25b0%259c%2F&#038;format=xml" />
+
+	<style>
+
+		/* Border Color */
+		.btn-social:hover,
+		blockquote,
+		#respond input:focus[type="text"], 
+	    #respond input:focus[type="email"], 
+	    #respond input:focus[type="url"],
+	    #respond textarea:focus,
+	    #comments .comment-reply a:hover
+		{
+			border-color: ;
+		}
+
+		
+		/* Background Color */
+		.scroll-up a,
+		.btn-social:hover,
+		button,
+		input[type="button"],
+		input[type="reset"],
+		input[type="submit"],
+		.navbar-default .navbar-nav .dropdown-menu li a:hover, .dropdown-menu li a:focus, .navbar-default .navbar-nav .dropdown-menu .active a,
+		.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover, .pagination li .current,
+		.next-previous-posts .next-post a:hover,
+		.next-previous-posts .previous-post a:hover,
+		.btn-goback,
+		.btn-submit,
+		a.more-link,
+		.featured-post .fa,
+		#comments .comment-reply a:hover,
+		.widget .tagcloud a
+		{
+			background-color: ;
+		}
+
+		
+		/* Color */
+		.text-logo a,
+		.navbar-default .navbar-nav .active a, .navbar-default .navbar-nav .active a:hover, .navbar-default .navbar-nav .active a:focus,
+		.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus,
+		a:hover,
+    	a:focus,
+		.next-previous-posts .previous-post a,
+		.next-previous-posts .next-post a,
+		.pagination>li>a, .pagination>li>span,
+		#comments .comment-author a:hover, 
+    	#respond .logged-in-as a:hover,
+    	#wp-calendar a,
+    	h2.entry-title a:hover
+		{
+			color: ;
+		}
+
+
+		/* A Color */
+		a{
+			color: ;
+		}
+
+		/* a:hover Color */
+		a:hover,
+		a:focus,
+		a:active,
+		.widget a:hover,
+		.post .post-content .entry-meta ul li a:hover
+		{
+			color: ;
+		}
+
+		/* .featured-post .fa:after*/
+		.featured-post .fa:after{
+			border-color:   transparent ;
+		}
+
+
+		
+
+	</style>
+</head>
+
+<body class="post-template-default single single-post postid-7013 single-format-standard">
+
+    <div id="st-preloader">
+        <div id="pre-status">
+            <div class="preload-placeholder"></div>
+        </div>
+    </div>
+<!-- /Preloader -->
+
+<header id="header">	
+	<div id="trueHeader">
+    	<div class="wrapper">
+            <div class="container">
+            	<!-- Menu -->
+            	<div class="menu_main">
+                	<div class="navbar blogx-navbar navbar-default">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#st-navber-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+
+                                                            <div class="text-logo">
+                                    <a href="http://da.nala.ga">All About CC</a>
+                                    <p>All About CC Contents</p>
+                                </div><!-- /Logo -->
+                                                    </div>
+                      
+                        <div id="st-navber-collapse" class="navbar-collapse collapse pull-right">
+                             
+                        </div>
+                    </div>
+            	</div><!-- end menu -->
+        	</div> <!-- /.container -->
+    	</div>
+	</div>
+	<DIV class='ads_adsense_img' style='margin:40px 0px 40px 0px;'>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- only display -->
+	<ins class="adsbygoogle"
+	     style="display:block"
+	     data-ad-client="ca-pub-8393857339019314"
+	     data-ad-slot="7474886381"
+	     data-ad-format="auto"></ins>
+	<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+	</DIV>	
+</header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div id="primary" class="content-area">
+                    <main id="main" class="site-main" role="main">
+
+                        
+                                <article id="post-7013" class="post-7013 post type-post status-publish format-standard hentry category-uncategorized tag-1424 tag-11158 tag-297">
+    <header class="entry-header">
+        
+        
+    </header> <!--/.entry-header -->
+
+    <div class="clearfix post-content media">
+
+        <h2 class="entry-title">
+            블록체인에 대한 소개        </h2> <!-- //.entry-title -->
+
+        <div class="clearfix entry-meta">
+            
+            <ul class="list-inline">
+                <li>
+                    <span class="author vcard">
+                        By <a class="url fn n" href="http://da.nala.ga/author/site-admin/">site-admin</a>                    </span>
+                </li>
+                <li>
+                    on <span class="posted-on">1월 10, 2018</span>
+                </li>
+                                    <li>
+                        in <span class="posted-in">
+                            <a href="http://da.nala.ga/category/uncategorized/" rel="category tag">미분류</a>                        </span>
+                    </li>
+                            </ul>
+                </div> <!--/.entry-meta -->
+        
+        <div class="entry-summary">
+            <p><img src='http://172.27.42.57/mediawiki/images/thumb/f/f7/%EA%B1%B0%EB%9E%98%EB%B0%A9%EC%8B%9D.png/734px-%EA%B1%B0%EB%9E%98%EB%B0%A9%EC%8B%9D.png' style='max-width:250px;min-width:0px;' onError='this.style.display="none"' /></p>
+<h1>3줄 요약 </h1>
+<div style='color:#fff;background-color:#000;border-radius:10px;'>
+<ol>
+<li><span>블록체인이란?</span></li>
+<li><span>스마트 계약을 지원하는 블록체인을 통해 이제 단순 기록뿐만 아니라 약속을 <small>&#8230;중략&#8230;</small> 글에서는 근미래에 블록체인과의 결합이 실현될 수 있는 사례들을 소개한다.</span></li>
+<li><span>그렇다면 블록체인 기술의 발전이 우리 사회에 뜻하는 바는 무엇일까? 블록 <small>&#8230;중략&#8230;</small> 로 변화시킬까? 전문가들의 의견을 조합해보면 크게 두 가지 의미가 있다.</span></li>
+</ol>
+</div>
+<p><span id="more-7013"></span></p>
+<p><iframe src='http://ad.selfhow.com/rd' width='100%' border=0 frameborder=0 style='height:auto;width:100%'></iframe></p>
+<hr />
+<h1><span style='font-family: "맑은 고딕", sans-serif;'>블록체인이란?</span></h1>
+<p><span style='font-family: "맑은 고딕", sans-serif;'><br />
+</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>블록체인(Blockchain)은 이름 그대로 ‘블록’(Block)들을 ‘사슬’(Chain) 형태로 엮은 것을 의미한다. 덧붙이면, 블록체인은 퍼블릭 또는 프라이빗 P2P 네트워크에서 일어나는 트랜잭션의 정보가 네트워크 참여자간 공유된 디지털 원장이다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>블록체인은 발생된 거래의 기록에 대해 1차 블록(block)을 형성해 온라인 네트워크에 함께하는 모든 당사자들에게 전송한다. 그리고 해당 블록의 신뢰성이 최종 확인되면, 기존의 신뢰성이 확인된 블록과 연결된다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>이때 ‘블록’은 개인과 개인의 거래(P2P)의 데이터가 기록되는 원장(Database)이 되는 것이며, 이런 블록들은 형성된 후 시간의 흐름에 따라 순차적으로 연결된 ‘사슬’ 구조를 가지게 된다.</span></p>
+<p><img alt="거래방식.png" class="aligncenter" src="http://172.27.42.57/mediawiki/images/thumb/f/f7/%EA%B1%B0%EB%9E%98%EB%B0%A9%EC%8B%9D.png/734px-%EA%B1%B0%EB%9E%98%EB%B0%A9%EC%8B%9D.png"/></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>좀 더 쉽게 동생에게 용돈을 송금하는 상황을 가정해보자. 이 경우 거래 당사자는 ‘나’와 ‘동생’으로 생각하자. 내가 인터넷을 통해 동생에게 송금을 시도하면 블록이 형성되고, 형성된 블록은 모든 블록체인 참여자에게 공유된다. 참여자들은 해당 블록을 인증하거나 거절한다. 인증이 되면, 해당 블록은 기존의 블록에 연결되고 거래의 적법성을 인정받게 되는 구조이다. 이렇게 거래 명세를 담은 블록들이 사슬로 이어져 하나의 원장으로 이루어진다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>즉, 블록체인은 ‘거래의 신뢰성과 유효성이 온라인 네트워크상의 모든 거래 당사자에 의해 검증된 블록 간의 연결 그리고 그 집합’이라 정의할 수 있다. 거래 기록을 저장한 블록들이 사슬처럼 이어져 거래 장부를 형성하고, 이렇게 모인 거래 장부는 모든 네트워크에 연결된 불특정 다수가 관리한다. 블록체인은 이러한 근거로 ‘분산 거래원장(distributed ledgers)’으로 불리기도 한다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>https://youtu.be/4IrpEUvaRBM</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'><br />
+</span></p>
+<h2><span style='font-family: "맑은 고딕", sans-serif;'> </span></h2>
+<p><span style='font-family: "맑은 고딕", sans-serif;'><br />
+</span></p>
+<h2><span style='font-family: "맑은 고딕", sans-serif;'>원장의 역할</span></h2>
+<p><span style='font-family: "맑은 고딕", sans-serif;'><br />
+</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>오늘날 서로 긴밀하게 연결된 세계에서 경제 활동은 국가적, 지리적 및 법적 관할 경계를 넘나드는 비즈니스 네트워크에서 이루어진다. 비즈니스 네트워크는 일반적으로 생산자, 소비자, 공급업체, 파트너, 시장 조성자(market maker)/시장 구현자(market enabler) 및 기타 이해 관계자가 </span><em><strong><span style='font-family: "맑은 고딕", sans-serif;'>자산</span></strong></em><span style='font-family: "맑은 고딕", sans-serif;'>이라고 일컫는 가치 있는 대상에 대하여 권리, 특권 및 권한을 소유, 통제 및 행사하는 시장으로 수렴된다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>자산은 유형의 물리적 자산(예: 자동차, 주택)일 수도 있고, 무형의 가상 자산(예: 증권, 특허)일 수도 있다. 비즈니스 네트워크에서 자산의 소유 와 이전은 가치를 생성하며, 이를 가리켜 </span><strong><em><span style='font-family: "맑은 고딕", sans-serif;'>트랜잭션</span></em></strong><span style='font-family: "맑은 고딕", sans-serif;'>(거래)이라고 한다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>트랜잭션에는 일반적으로 구매자, 판매자, 중개자(예: 은행, 감사인, 공증인) 같은 여러 참가자가 관련되며, 이들의 비즈니스 합의 및 계약이 </span><strong><em><span style='font-family: "맑은 고딕", sans-serif;'>원장</span></em></strong><span style='font-family: "맑은 고딕", sans-serif;'>에 기록하게 된다. 기업은 일반적으로 여러 개의 원장을 사용하여 여러 비즈니스 라인에서 참가자 간의 자산 소유 및 자산 이전을 추적한다. 원장은 기업의 경제 활동 및 이해 관계에 대한 기록 시스템(Systems of Record, SOR)이다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>일반적인 원장은 다음과 같은 형태로 나타난다.</span></p>
+<p><img class="aligncenter" src="https://developer.ibm.com/kr/wp-content/uploads/sites/98/image001.jpg"/></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'><br />
+</span></p>
+<h2><span style='font-family: "맑은 고딕", sans-serif;'> </span></h2>
+<p><span style='font-family: "맑은 고딕", sans-serif;'><br />
+</span></p>
+<h2><span style='font-family: "맑은 고딕", sans-serif;'>현재 원장 관리 시스템의 문제점</span></h2>
+<p><span style='font-family: "맑은 고딕", sans-serif;'><br />
+</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>현재 일반적으로 사용되는 비즈니스 원장은 여러 가지 단점이 있다. 비효율적이고, 비용이 많이 들고, 사기와 오용의 대상이 될 수 있다. 이러한 문제는 금융 기관, 어음 교환소, 기존 제도의 금융기관과 같이 중앙 집중화되고 신뢰를 기반으로 하는 제3자 시스템에 의존하기 때문에 발생하게 된다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>이와 같이 집중화되고 신뢰를 기반으로 하는 원장 시스템에서는 트랜잭션 정산의 병목과 지연이 발생할 수 있다. 부정 및 사기에 대한 취약성과 투명성 결여로 인해 분쟁이 일어날 수 도 있다. 때문에 이러한 분쟁을 해결하고 트랜잭션을 취소하거나 트랜잭션의 보험을 제공하려면 비용이 많이 들게 되는 문제점이 생긴다. 이러한 위험과 불확실성 때문에 비즈니스에 많은 제약이 생긴다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>또한 각 네트워크 참가자의 자체 시스템에 비즈니스 원장의 동기화되지 않은 사본이 존재하면 일시적인 부정확한 데이터를 바탕으로 잘못된 비즈니스 의사 결정을 내릴 수 있다. 원장의 사본 불일치와 같은 문제 때문에 완전한 정보를 기반으로 의사 결정을 내리므로 시간적, 비용적 손실을 야기한다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'><br />
+</span></p>
+<h2><span style='font-family: "맑은 고딕", sans-serif;'>블록체인 네트워크는 어떻게 동작하는가</span></h2>
+<p><span style='font-family: "맑은 고딕", sans-serif;'><br />
+</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>블록체인은 트랜잭션을 중재하기 위해 금융 기관과 같은 제3의 기관을 이용하는 대신 블록체인 네트워크의 구성원은 합의(Consensus) 프로토콜을 사용하여 원장 내용의 동의과정을 거치며, 트랜잭션의 무결성을 보장하기 위해 해시 알고리즘으로 암호화하거나 디지털 서명을 사용한다.</span></p>
+<p><code><span style='font-family: "맑은 고딕", sans-serif;'>합의(Consensus)</span></code><span style='font-family: "맑은 고딕", sans-serif;'>는 공유 원장이 임의로 변형되지 않은 무결한 사본임을 확인하여 조작된 거래의 위험을 낮추게 된다. 원장을 변형하기 위해서는 정확히 동일한 시간에 여러 노드에 공유된 원장에 대해서 이루어져야하기 때문에 보안에 강점이 있다. SHA256 암호화 알고리즘과 같은 암호화 해시를 사용하면 거래시 입력된 데이터에 대한 임의의 변경(심지어 가장 미세한 변경)이 일어났을 경우 원본 해시값에 비교해 다른 해시 값이 계산되므로 잠재적으로 손상된 트랜잭션 입력을 확인 할 수 있다. 디지털 서명은 거래의 주체(개인키로 인증 된 거래 발신자)를 인증하며 다른 사용자에의해 거래가 이루어 질 수 없게 한다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>분산형 P2P 블록체인 네트워크는 참여자 또는 그룹 구성원이 인프라를 제어하거나 전체 시스템을 손상시키는 것을 방지한다. 네트워크의 참여자는 모두 동일하며 동일한 프로토콜을 준수한다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>블록체인 시스템의 엔진에는 모든 노드가 선택한 합의(Consensus) 모델을 사용하여 모든 노드에서 합의된 트랜잭션이 시간 순서대로 기록되게 된다. 그 결과 블록체인에 저장된 트랜잭션의 기록은 블록체인 네트워크의 모든 노드에서 뒤집을 수 없는 합의된 거래만 저장되어 진다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'><br />
+</span></p>
+<h3><span style='font-family: "맑은 고딕", sans-serif;'>작동원리</span></h3>
+<p><span style='font-family: "맑은 고딕", sans-serif;'><br />
+</span></p>
+<p><img alt="거래흐름-1.jpg" class="aligncenter" src="http://172.27.42.57/mediawiki/images/7/77/%EA%B1%B0%EB%9E%98%ED%9D%90%EB%A6%84-1.jpg"/></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>조금 더 쉽게 이해해보자.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>원장에 개인 간의 거래 데이터들을 기록하게 되는데, 이런 데이터들을 10분에 한 번씩 모아서 거래내역 묶음인 블록을 만든다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>이러한 블록은 네트워크 내 모든 참여자에게 전송되고, 모든 참여자가 해당 블록이 타당한 거래라고 승인해야만 기존의 블록체인에 연결될 수 있으며(이때 네트워크의 모든 참여자들의 검증과 승인을 받아야만 하므로 거래 관계에서 서로 신뢰하지 못해 발생하는 비효율을 제거하고 정보의 신뢰성을 가질 수 있다), 한번 연결된 블록체인은 영구히 저장된다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>따라서, 한번 연결된 블록의 거래기록은 수정 불가능하게 되고, 이러한 일련의 과정이 반복을 거쳐 블록체인 형성이 계속되게 된다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>그리고, 이러한 블록들이 형성하는 사슬구조는 사실상 거래장부의 위·변조를 불가능하게 만드는데, 원리는 간단하다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>예를 들어, 우리가 블록을 쌓다가 중간에 한 블록의 색깔을 바꾸고 싶다면 그 부분만 억지로 빼낼 수는 없을 것이다. 만약 진행하게 된다면, 위쪽의 블록들을 모두 빼내고, 원하는 색깔의 블록으로 바꿔준 뒤 다시 윗부분을 쌓아줘야 할 것이다. 블록체인은 이와 매우 유사한 원리를 가지게 된다.</span></p>
+<p><img alt="Blockchain.png" class="aligncenter" src="http://172.27.42.57/mediawiki/images/thumb/d/df/Blockchain.png/774px-Blockchain.png"/></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>위 그림과 같이 보면 현재까지 90개의 블록이 만들어져 연결돼 있고, 모든 참여자들은 새로운 91번째 블록에 대한 타당성을 확인하는 작업을 하고 있다고 가정할 수 있다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>그런데, 이때 어떤 참여자가 74번째 블록에 담긴 거래기록을 조작하고자 한다면, 블록체인은 사슬구조로 이루어져 있기 때문에 74~90번째 블록을 모두 수정한 후 74번째 블록으로 들어갈 수 있다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>즉, 17개 블록을 만드는데 소요된 모든 컴퓨팅 비용을 감당해야 하게 되는 것이다. 거기다가 이 모든 작업을 다른 참여자들이 91번째 블록을 완성하기 전(하나의 블록이 형성되는 시간 10분)에 끝내야 하므로 거래내역의 조작은 거의 불가능해지게 된다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>이렇게 블록체인의 기술적인 원리로 보면, 기존방식과 블록체인 방식의 차이를 한눈에 확인 할 수 있다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'><br />
+</span></p>
+<h2><span style='font-family: "맑은 고딕", sans-serif;'>비즈니스에서 블록체인의 이점</span></h2>
+<p><span style='font-family: "맑은 고딕", sans-serif;'><br />
+</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>기존의 비즈니스 네트워크에서 모든 참가자는 각자 원장을 관리함으로 중복 및 불일치로 인해 참여자들간 분쟁이 발생하고 결제 시간이 늘어나고 거래의 중개와 관련된 간접비가 증가하는 환경을 가지고 있었다. 그러나 블록체인 기반 공유 원장을 사용하면 합의(Consensus) 매커니즘 의해 유효성이 검사되고 원장에 기록된 거래정보를 변경할 수 없기 때문에 위험을 줄이면서 시간과 비용을 절약 할 수 있게 된다. 블록체인 기술은 참가자 간의 투명성을 향상시키고, 거래를 자동화 시키며 원장의 커스터마이징 및 데이터 저장의 신뢰도 향상을 가져오게 될 것이다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>블록체인 합의(Consensus) 메커니즘은 오류 감소, 실시간에 가까운 참조 데이터 및 참가자가 자신이 소유 한 자산의 설명을 변경하는 유연성을 통해 통합된 일관된 데이터의 이점을 제공한다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>참여한 회원은 공유 원장에 저장된 정보의 원천 데이터를 별도로 소유하지 않으므로 블록체인 기술은 참여자 간의 정보의 거래의 프로세스에서 신뢰와 무결정을 보장한다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>블록체인 기술의 불변의 메커니즘은 거래의 감사 비용을 낮추고, 투명성을 개선하여 거래의 규정 준수를 유도하게 구성한다. 또한 블록체인 기술을 사용하여 비즈니스 네트워크에서 실행되는 계약은 스마트하고 자동화되고 최종적이기 때문에 전반적인 거래의 실행 속도가 빨라지게 된다. 이 때문에, 비용이 절감되며 적시에 계약을 체결함으로서 시기 적절한 의사결정을 못 함으로 발생할수 있는 비즈니스 기회를 잃어버리는 위험을 줄일 수 있다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'><br />
+</span></p>
+<h1><span style='font-family: "맑은 고딕", sans-serif;'>블록체인 유스케이스</span></h1>
+<p><span style='font-family: "맑은 고딕", sans-serif;'><br />
+</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>다음의 항목으로 블록체인에 접합한 유스케이스인지 판단해야 한다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'><br />
+</span></p>
+<ol>
+<li><span style='font-family: "맑은 고딕", sans-serif;'>다양한 참여자가 포함된 비즈니스 네트워크가 있습니까?</span></li>
+<li><span style='font-family: "맑은 고딕", sans-serif;'>합의(Consensus) 메커니즘을 거래의 유효성을 확인하는데 사용됩니까?</span></li>
+<li><span style='font-family: "맑은 고딕", sans-serif;'>감사 추적 또는 거래의 출처가 정보 관리가 필요합니까?</span></li>
+<li><span style='font-family: "맑은 고딕", sans-serif;'>거래의 기록이 불변이어야하거나 부정하게 조작될 수 없어야 합니까?</span></li>
+<li><span style='font-family: "맑은 고딕", sans-serif;'>최종적인 분쟁해결이 가능해야 합니다.</span></li>
+</ol>
+<p><span style='font-family: "맑은 고딕", sans-serif;'><br />
+</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>첫 번째 질문 혹은 적어도 하나의 질문에 대해 “예”라고 답한 경우에는 블록체인에 적합한 유스케이스라고 판단할 수 있다. 블록체인이 올바른 솔루션이되기 위해서는 항상 네트워크가 필요하지만 네트워크는 다양한 형태를 취할 수 있다. 블록체인 네트워크는 유통망 같은 조직 사이에 존재할 수도 있고, 기업 내부에 있을 수도 있다. 예를 들어, 조직 내에서 블록체인 네트워크를 사용하여 부서 간 참조 데이터를 공유하거나 감사자 준수 네트워크를 생성 할 수 있다. 블록체인에 데이터, 디지털 자산 또는 계약을 저장해야 할 수도있는 개인간에 네트워크에도 이용 할 수 있다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'><br />
+</span></p>
+<h1><span style='font-family: "맑은 고딕", sans-serif;'>블록체인이 바꿀 산업들</span></h1>
+<p><span style='font-family: "맑은 고딕", sans-serif;'><br />
+</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>스마트 계약을 지원하는 블록체인을 통해 이제 단순 기록뿐만 아니라 약속을 블록체인에 올릴 수 있게 되었다. 이는 블록체인 상에서 작동하는 수많은 애플리케이션의 기초가 된다 비트코인을 넘어서 블록체인의 3가지 장점인 보안비용투명성을 필요로 하는 분야들은 아주 많다. 그리고 이 것이 바로 전 세계가 블록체인에 열광하고 있는 이유이다. 블록체인은 또 다른 거대 트렌드인 사물인터넷과도 연결되는데 이 부분에 대해서는 다른 글에서 자세히 다뤄보도록 하겠다 이 글에서는 근미래에 블록체인과의 결합이 실현될 수 있는 사례들을 소개한다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'><br />
+</span></p>
+<h2><span style='font-family: "맑은 고딕", sans-serif;'>음악 산업</span></h2>
+<p><span style='font-family: "맑은 고딕", sans-serif;'><br />
+</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>음악 산업은 블록체인이 활약할 여지가 많은 산업이다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>첫 번째는 오랫동안 음악 산업의 골칫거리였던 음악 저작권 문제다. 연주자 작곡가 제작자 유통업자가 어떤 식으로 곡에 대해 소유권을 가지는지 명확하게 정의하고 관리하는 데 상당한 노력이 들어간다. 하지만 블록체인에 음악의 소유권과 메타 데이터가 저장되고 법적 효력이 생긴다면 저작권 관리는 매우 쉬워질 수 있다. 또 블록체인이 가진 투명성 때문에 아티스트는 자신의 음악에 대한 소유권을 보호받을 수 있고 소비자 또한 정당한 절차로 음악을 구입했음을 쉽게 증명할 수 있다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>두 번째는 과금 (Monetization)이다. 스마트 계약를 이용하면 거래비용이 아주 낮아진다 따라서 음악을 들을 때마다 자동적으로 몇 원이 차감되게 하는 식의 과금이 가능하다. 제3자가 받는 수수료가 없기 때문이다. 또한, 음악에 좋아요를 누르거나 감상평을 남기면 가격을 할인해준다든지 하는 식으로 다양한 응용이 가능하다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>세 번째는 음원 유통 구조의 문제다. 그동안 유통회사와 아티스트의 불공정한 수익 분배에 대한 비판이 많았다. 테일러 스위프트가 애플 뮤직에 자신의 음원을 유통하는 것을 거부한 사례(링크)는 유명하다 국내도 몇몇 유통 회사들이 독점력을 기반으로 높은 수익을 가져가고 있다 게다가 자본력을 갖춘 유통회사들이 채널을 점유하고 있어 아마추어 제작자들이 시장에 진입하기 힘든 문제도 있다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><img alt="" class="size-full wp-image-859 aligncenter" height="301" src="http://oss.cloud.nongshim.co.kr/wp-content/uploads/2017/09/스크린샷-2017-09-15-08-46-46.png" width="509"/></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>블록체인을 매개로 P2P 음악 시장을 만들면 아티스트와 음원 소비자들의 직접적인 연결이 가능하다. 이제 중 간 유통회사를 거치지 않거나 훨씬 적은 개입만으로 음원을 전달할 수 있다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>현재 많은 스타트업이 블록체인 기반 음악 플랫폼에 뛰어들고 있다. PledgeMusic이라는 회사는 블록체인 기 반 Fair Trade Music Database라는 플랫폼을 출시했다. 아티스트가 자신의 음악과 메타 데이터를 업로드하 면 소비자들이 직접 들을 음악을 고르고 스마트 계약를 통해 자동적으로 결제가 진행되는 시스템이다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>PeerTrack이라는 회사도 있다. 일종의 아티스트 저작권 관리 시스템이다 아티스트들이 훨씬 적은 돈으로 로 열티와 음원 수입을 쉽게 관리할 수 있도록 해준다. 제작자나 유통사를 낄 수 없는 소규모 아티스트들이 주요 타깃이다. PeerTrack에 따르면 기존 수익 구조에서 아티스트들은 10% &#8211; 20% 내외의 수익을 가져가지만, PeerTrack에서는 수익의 90%를 가져갈 수 있다고 한다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'><br />
+</span></p>
+<h2><span style='font-family: "맑은 고딕", sans-serif;'>공증</span></h2>
+<p><span style='font-family: "맑은 고딕", sans-serif;'><br />
+</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>공증이란 말 그대로 사실관계 법률관계를 공적으로 증명하는 일이다. 공인인증서, 등기부등본, 계약서 등이 다 공증의 일부다. 내가 나임을 증명하거나, 이것이 내 소유임을 증명하거나, 아니면 내가 이 문서에 동의했다는 사실을 증명하는 것이다. 하지만 일반 문서는 위조의 가능성이 있다. 그렇기 때문에 공증인이나 공증 기관을 통해서 모든 사람이 그 문서의 진위여부를 신뢰할 수 있도록 하는 것이 공증의 역할이다. 현대 사회의 제도들은 엄청나게 많은 종류의 공증에 의해서 돌아가고 있다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>지금 공증 시스템은 정부 금융결제원 같은 공인인증기관이 운영하거나, 전문자격을 갖춘 공증인에게 일정한 절차를 거쳐 비용을 지불해야만 받을 수 있다. 상당한 비용과 시간이 들어가는 일이다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>블록체인은 공증을 대체할 절묘한 솔루션이다. 다시 한번 말하자면, 블록체인은 디지털 데이터를 신뢰할 수 있 게 만드는 기술이다. 공증의 대상인 문서는 얼마든지 디지털화될 수 있고, 그 데이터를 블록체인에 올리면 위조가 불가능해진다. 문서의 합법적인 변경 내역도 지속적으로 추적 가능하다. 게다가 중개자가 없으므로 문서의 민감한 내용을 남에게 보여줄 일도 없다. 비용 시간 모두 획기적으로 줄어든다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>이런 서비스는 국내에도 이미 출시되어있다. 블록체인 애플리케이션 개발사인 블로코가 2015년에 클라우드 스 탬프를 출시한 바 있다. 전자 문서를 블록체인에 올리면 그 문서의 진위 여부를 인증하는 스탬프를 찍어주는 서비스다. 실제 법적 효력이 발생하는지까지는 모르겠지만, 앞으로 국가에서 블록체인 기술의 안정성을 인 정하게 된다면 공증은 블록체인으로 가장 먼저 대체될 기능이다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'><br />
+</span></p>
+<h2><span style='font-family: "맑은 고딕", sans-serif;'>보험</span></h2>
+<p><span style='font-family: "맑은 고딕", sans-serif;'><br />
+</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>가장 거대한 산업 중 하나인 보험 또한 블록체인이 크게 바꿔놓을 산업이다. 스마트 계약을 사용하면 보험 업무를 디지털화할 수 있다. 보험이란, 기본적으로 너한테 이런 일이 일어나면 이만큼 보상해줄게이기 때문이다. 보험사가 이를 이행하기 위해서는 복잡한 과정을 거친다. 실제로 그 사건이 일어났는지 보험 사기 방지를 위해 보험의 보상 범위와 현재 조건이 맞는지 등등 다양한 부분을 확인한다. 그래서 보험사에는 클레임보상처리를 관리하는 부서가 따로 있고, 상당히 많은 인력과 비용을 투입한다.</span></p>
+<p><img alt="insurance에 대한 이미지 검색결과" class="aligncenter" src="image/jpeg;base64,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"/></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>만약 이 계약을 블록체인에 올려놓는다면 보상 처리 업무를 대체할 수 있다. 굳이 누가 개입하지 않아도 스마트 계약이 알아서 사고처리를 할 수 있기 때문이다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>현재 다이아몬드 생산 과정을 블록체인에 올려 다이아몬드의 진위 여부를 파악하게 해주는 Everledger라는 회사가 있다. 다이아몬드 생산 유통과정에서 누구에게 갔는지 얼마나 생산되었는지에 대한 정보가 위조 불가능한 네트워크에 올라온다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>만약 이 데이터를 손해보험에 활용한다면 어떨까? 다이아몬드는 고가의 물품이므로 손해보험을 드는 경우가 많다. 도난이 발생했을 경우, 원래라면 보험사 직원이 가서 각종 데이터와 장부를 확인하고 진위여부를 가려야 한다. 그러고 나서 최종 확정을 거쳐 보험금을 정산한다. 하지만 이 보험을 스마트 계약화한다면, 이미 블록체 인에 올라온 인증된 정보를 가지고 훨씬 적은 비용과 시간으로 보험금이 정산된다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>앞으로 더 많은 종류의 데이터가 블록체인에 올라오면 이런 보험은 더욱 다양한 분야로 확장할 수 있다. 고객의 의료 데이터나 금융 거래 데이터가 블록체인에 올라온다면, 이 데이터를 보고 스마트 계약이 곧바로 보험 처리를 해준다면 비용과 시간 절감뿐 아니라 개인 정보를 알고리즘이 자동적으로 처리하기 때문에 프라이버시 도 보호된다. 보험사 입장에서는 골칫거리인 보험 사기도 막을 수 있다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>디지털화된 보험의 이런 다양한 장점은 현재의 아날로그 보험 산업을 완전히 변화시킬 것이다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>뿐만 아니라, 한 단계 더 나아가서 보험사 없이 개인 간에 보험 계약을 맺는 P2P보험까지 가능해진다. P2P보 험이라고 하면 생소하지만 쉽게 생각해서 계를 떠올리면 된다. 계모임이야 말로 P2P보험의 원조다. 참가자들이 돈을 모아서 목돈을 만들고 누군가에게 필요한 일이 생기면 준다. 보험과 본질이 같다 다만 보험은 보험사가 관리해 신뢰를 얻는 반면 계모임은 인간관계를 바탕으로 신뢰를 얻는다. 그런데 인간관계고 뭐고 하도 곗돈 들고 튀는 일이 많다 보니 계모임이 계모임은 점점 사라지고 믿을만한 회사가 운영하는 보험이 그 자리를 대체 하게 된 것이다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>스마트 계약을 활용하면 모르는 사람들끼리 보험을 만들 수 있다. 누군가가 &#8220;나 이런 조건의 보험을 만들고 싶은데 할 사람 있어!&#8221;라고 올린다. 이에 동의하는 불특정 다수의 사람들이 보험을 만든다. 그리고 규칙에 따라서 보상해야 할 상황이 생기면, 관리자 대신 스마트 계약이 알아서 보상을 처리해준다. 모르는 사람이라 하더라도 계약이 블록체인에 올라가 있으므로 블록체인을 믿고 보험에 가입할 수 있다 장점은 중개자가 없으므 로 당연히 수수료가 훨씬 싸다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'><br />
+</span></p>
+<h2><strong><span style='font-family: "맑은 고딕", sans-serif;'>물류, 공급망</span></strong></h2>
+<p><span style='font-family: "맑은 고딕", sans-serif;'><br />
+</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>블록체인은 물류사업에도 큰 영향을 미칠 것으로 예상된다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>첫 번째 시나리오는 ‘실시간 가시성(Real-time Visibility) 및 히스토리(History) 관리’를 가능하게 한다는 것이다. 이미 IBM-월마트, IBM-머스크의 사례를 통해 실시간 추적 및 관리의 유효성은 입증되었고, 비트코인 사례를 통해 보안 걱정 없이 효율적으로 거래 정보를 추적할 수 있다는 것도 증명되었다. 이는 블록체인이 가져올 가장 직접적인 변화라고 할 수 있다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>두 번째 시나리오는 블록체인이 ‘물류 플랫폼을 보완’하는 것이다. 물류 플랫폼이 언젠가 산업에 성공적으로 안착할 것이라는 사실은 분명하다. 하지만 현재까지는 정보의 실시간 관리가 어려운 물류의 특성으로 인해, 데이터가 자동화된 시스템에 의해서가 아니라 수작업으로 입력돼 왔다. 그리고 이는 물류 플랫폼의 성공적인 시장 안착에 걸림돌이 되고 있다. 그러나 블록체인 기술을 응용하면 물류 플랫폼에서 가장 핵심적인 데이터의 실시간 관리가 가능해질 것으로 예측된다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><img alt="1-nCsavPFgpMW40IcjF882aA.jpg" class="aligncenter" src="http://172.27.42.57/mediawiki/images/5/59/1-nCsavPFgpMW40IcjF882aA.jpg"/></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>세 번째 시나리오는 블록체인이 ‘물류 플랫폼 자체를 뛰어넘는’ 것이다. 물류 플랫폼이란 결국 특정한 플랫폼을 통해 모든 거래를 중개하는 것을 말한다. 따라서 화주나 물류업체가 특정 플랫폼에 종속될 가능성이 있으며, 중앙집중형 시스템을 유지·관리하는 데 필요한 부가적인 서비스 비용이 발생할 가능성도 있다. 그렇지만 블록체인을 응용하면 거래 데이터의 실시간 추적뿐 아니라 계약 관리, 계약 이행 후 비트코인 등의 암호화폐를 활용한 결제까지 해결할 수 있게 되어, 화주나 물류업체는 물류 플랫폼에 대한 의존도를 대폭 낮출 수 있게 된다. 즉, 플랫폼 없이 거래가 이루어질 수 있는 것이다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>실제로 이미 이더리움 프로젝트(Ethereum Project) 등 블록체인을 활용한 ‘스마트 계약(Smart Contract)’이 테스트되고 있다. 이는 스마트 계약의 형태로 정의된 기업 간 거래 내용을 블록체인 거래 장부에 기록함으로써 모든 거래에 대한 계약 이행 여부를 간단히 체크하고, 이에 따라 결제가 자동으로 이루어지는 시스템이다. 이더리움 프로젝트는 거래 정보 확인부터 계약 이행과 결제까지 연결해주어 미래의 B2B거래 수단으로 기대를 한 몸에 받고 있는 중이다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'><br />
+</span></p>
+<h1><span style='font-family: "맑은 고딕", sans-serif;'>블록체인이 갖는 의미</span></h1>
+<p><span style='font-family: "맑은 고딕", sans-serif;'><br />
+</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>그렇다면 블록체인 기술의 발전이 우리 사회에 뜻하는 바는 무엇일까? 블록체인은 미래 사회에 어떤 기여를 하 고 인류의 사회 경제 활동을 어떤 모습으로 변화시킬까? 전문가들의 의견을 조합해보면 크게 두 가지 의미가 있다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'><br />
+</span></p>
+<h2><span style='font-family: "맑은 고딕", sans-serif;'>Digital transformation: 디지털 사회로의 전환</span></h2>
+<p><span style='font-family: "맑은 고딕", sans-serif;'><br />
+</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>블록체인이 가져올 변화는 흔히 인터넷과 많이 비교된다. 인터넷이 디지털라이제이션 1.0이었다면 블록체인은 2.0이라고 할 수 있기 때문이다. 컴퓨터와 인터넷의 발명 이후로 인간 사회는 빠르게 디지털화되어왔다. 블록체인은 디지털 데이터에 신뢰성을 부여해서 디지털 전환을 가속화한다. 기존 인터넷 기반으로 완전히 디지털화되지 못했던 인간 사회의 더 많은 부분들이 디지털화된다. 화폐, 보험, 증권, 개인의 아이덴티티, 법과 제도, 투표, 자율주행차 등 신뢰가 반드시 담보되어야 하는 중요한 것들이 더 빠르게 디지털 네트워크 안으로 들어올 것이다. 즉, IT기술이 우리 삶 속의 더 민감한 부분까지도 파고 들게 되는 것이다.</span></p>
+<p><img alt="Digital transformation에 대한 이미지 검색결과" class="aligncenter" src="https://enterprisersproject.com/sites/default/files/images/cio_digital_transformation_resource.jpg"/></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>그래서 블록체인은 사물인터넷 인공지능과 같은 다른 기술들과 맞물려 일명 4차 산업혁명이라고 불리는 거대한 전환을 만들어낼 핵심 기술이다. 특히, 사물인터넷(IoT)과 블록체인의 조합되면, 영향력은 엄청나다. 현재는 인터넷에 연결 되어있지 않은 수많은 것들이 사물인터넷으로 연결되면 블록체인의 활용범위는 무궁무진해진다. 더 많은 데이터들이 사물인터넷에 연결되고, 더 많은 종류의 데이터들이 블록체인 위에서 디지털화될 수 있다. 그리고 그 데이터들은 소프트웨어(인공지능)에 의해 관리될 것이다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'><br />
+</span></p>
+<h2><span style='font-family: "맑은 고딕", sans-serif;'>Decentralization: 분권화</span></h2>
+<p><span style='font-family: "맑은 고딕", sans-serif;'><br />
+</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>인터넷과 블록체인이 이끄는 Digitalization의 중요한 특성은 바로 분권화Decentralization다. 디지털 기술의 등장 이전에는 사회의 많은 부분들을 중앙 집권화된 기관들이 관리했다. 예를 들어, 인터넷 이전의 미디어는 거의 대형 언론사들에 의해서 만들어졌다. 소비자들은 언론사들이 만들어낸 신문과 뉴스를 읽는 소비자일 뿐이 었다.</span></p>
+<p><img alt="Decentralization에 대한 이미지 검색결과" class="aligncenter" src="https://fee.org/media/20912/decentralized.jpg?anchor=center&amp;mode=crop&amp;height=656&amp;widthratio=2.1341463414634146341463414634&amp;rnd=131333671880000000"/></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>그러나 인터넷의 등장 이후 미디어는 완전히 달라졌다. 이제 사람들은 단순히 뉴스를 소비하는 것에 그치지 않는다. 다양한 뉴스를 취사선택하며 정보의 진위를 검증하고, 직접 소셜 미디어의 자신의 의견을 표출할 수 있다. 인터넷을 통해 정보를 생산하고 유통하는 것이 쉬워지면서 거대 기관들의 힘이 약해지고 개인들의 힘이 강해졌다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>블록체인도 마찬가지 효과를 가져올 것이다. 개인들이 제3자의 개입 없이 블록체인 네트워크를 통해 정보와 가 치를 교환할 수 있다는 것은 앞으로 훨씬 더 많은 분야들에서 개인들의 힘이 강해진다는 것이다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>앞서 얘기한 P2P 보험이 대표적인 예다. 굳이 보험사를 거치지 않고도 개인들이 직접 보험을 만들 수 있다. 물론 보험사들이 완전히 없어질 것이라고 생각하지는 않지만, P2P 보험이 활성화되면 산업의 주도권이 일정 부분 개인들에게 넘어갈 것이다. 정보 유통과 경제 활동이 분권화(Decentralize)되면 자연스럽게 사회 구조도 이에 맞게 바뀔 가능성이 높다. 우리는 2011년 아랍의 재스민 혁명을 통해 인터넷이 사회 변화를 촉진시키는 것을 이미 봤다. 재스민 혁명이 가능했던 이유는 정보가 민주화되고 풀뿌리 운동가들이 소셜 미디어를 통해 커뮤니케이션할 수 있었기 때문이다. 정부가 통제할 수 없는 영역, 인터넷에서 서로 정보를 교환하고 개인들이 조직화할 수 있었다.</span></p>
+<p><img alt="국내외 블록체인 기술 활용분야 차이.png" class="aligncenter" src="http://172.27.42.57/mediawiki/images/f/fb/%EA%B5%AD%EB%82%B4%EC%99%B8_%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8_%EA%B8%B0%EC%88%A0_%ED%99%9C%EC%9A%A9%EB%B6%84%EC%95%BC_%EC%B0%A8%EC%9D%B4.png"/></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>장기적 관점에서 보면 디지털 기술로 개인의 힘이 강해지고, 많은 경제 영역이 중앙 집권화된 네트워크에서 분권화된 네트워크 구조로 바뀌리라고 본다. 국가나 기업과 같은 거대 조직들은 점점 더 작아지고 다른 형태로 변화해나갈 것이다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'><br />
+</span></p>
+<h2><span style='font-family: "맑은 고딕", sans-serif;'>미완의 기술인 블록체인</span></h2>
+<p><span style='font-family: "맑은 고딕", sans-serif;'><br />
+</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>물론 블록체인은 아직 초기 단계다. 아직 기술적 안정성이 완벽하게 담보되지 않았다. 위조 불가능하다는 것은 이론상으로 그런 것일 뿐 실제에서는 갈길이 멀다고 한다. 블록체인 기술의 선두주자인 비트코인이 선전하고 있긴 하지만 여전히 투기성이 강하고 실제 경제에 제대로 활용되지는 못하고 있다. 블록체인 기반의 서비스에서 해킹 사례도 자주 나타나고 있다. 블록체인은 해킹의 대상이 아니지만, 블록체인 위에서 서비스를 제공하는 애플리케이션들은 해킹의 대상이기 때문이다. 글로벌 표준도 아직 명확하게 정립되지 않았다. 현재는 다양한 시도들이 이루어지고 검증을 거치는 상황이다 이런 기술적 과제들을 해결해나가는 시간이 필요할 것이다.</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'> </span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>http://homoefficio.github.io/2016/01/23/BlockChain-%EA%B8%B0%EC%B4%88-%EA%B0%9C%EB%85%90/</span></p>
+<p><span style='font-family: "맑은 고딕", sans-serif;'>출처: https://brunch.co.kr/@bumgeunsong/16</span></p>
+<hr />
+<p><iframe src='http://ad.selfhow.com/rd' width='100%' border=0 frameborder=0 style='height:auto;width:100%'></iframe></p>
+<p><a href='http://racoonlotty.tistory.com/17' target='_blank'>Origin Content : 로티의 블로그</a> | <a href="/cdn-cgi/l/email-protection#4a2f29251529297a7a7b0a242b262b642d2b" target='_blank'>Contact : <span class="__cf_email__" data-cfemail="97f2f4f8c8f4f4a7a7a6d7f9f6fbf6b9f0f6">[email&#160;protected]</span></a>
+</p>
+<p>Cotent License : CC-BY </p>
+<p>This content is collected under the CCL license.</p>
+<p>Please check the license of the original article before asking about copyright.</p>
+<ul>
+<li><a href='/tag/블록체인에'>More About <span style='font-weight:bold;'>블록체인에</span></a></li>
+<li><a href='/tag/대한'>More About <span style='font-weight:bold;'>대한</span></a></li>
+<li><a href='/tag/소개'>More About <span style='font-weight:bold;'>소개</span></a></li>
+</ul>
+        </div> <!-- //.entry-summary -->
+        
+                    <div class="entry-tags"><b>Tags:</b> <a href="http://da.nala.ga/tag/%eb%8c%80%ed%95%9c/" rel="tag">대한</a>, <a href="http://da.nala.ga/tag/%eb%b8%94%eb%a1%9d%ec%b2%b4%ec%9d%b8%ec%97%90/" rel="tag">블록체인에</a>, <a href="http://da.nala.ga/tag/%ec%86%8c%ea%b0%9c/" rel="tag">소개</a></div>
+        
+    </div>
+
+</article> <!--/#post-->
+
+
+
+
+
+                                                                    <div class="post-nav-area">
+                                                    
+            <nav class="next-previous-post clearfix media" role="navigation">
+                <div class="row">
+                    <!-- Previous Post -->
+                    <div class="previous-post col-sm-6 pull-left">
+                        <div class="nav-previous"><i class="fa fa-angle-left"></i> <a href="http://da.nala.ga/%eb%82%b4%ea%b3%84%ec%a2%8c-%ec%b0%be%ec%95%84%ec%a4%8c-%eb%b0%a9%eb%b2%95-%ec%84%a4%eb%aa%85/" rel="prev">내계좌 찾아줌 방법 설명</a></div>                    </div>
+
+                    <!-- Next Post -->
+                    <div class="next-post col-sm-6 pull-right text-right">
+                        <div class="nav-next"><a href="http://da.nala.ga/%ec%8a%a4%eb%a7%88%ed%8a%b8-%ec%98%88%ec%8a%a4%ec%82%ac%ec%9d%b8%ec%9c%bc%eb%a1%9c-%ec%8a%a4%eb%a7%88%ed%8a%b8%ed%8f%b0%ec%97%90%ec%84%9c-%ea%b3%b5%ec%9d%b8%ec%9d%b8%ec%a6%9d%ec%84%9c-%ec%93%b0/" rel="next">스마트 예스사인으로 스마트폰에서 공인인증서 쓰는방법!</a> <i class="fa fa-angle-right"></i></div>                    </div>
+                </div>
+            </nav><!-- .navigation -->
+            
+                                            </div>
+                                
+                                
+                            
+                                            </main> <!-- /.site-main -->
+                </div>  <!-- /.content-area -->
+            </div> <!-- /col -->
+
+            <!-- Blogsidebar -->
+            
+	<div class="col-md-4">
+	    <div class="primary-sidebar widget-area" role="complementary">
+	        <div id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="http://da.nala.ga/">
+				<label>
+					<span class="screen-reader-text">검색:</span>
+					<input type="search" class="search-field" placeholder="검색 &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="검색" />
+			</form></div>		<div id="recent-posts-2" class="widget widget_recent_entries">		<h2 class="widget-title">최근 글</h2>		<ul>
+					<li>
+				<a href="http://da.nala.ga/%ea%b5%90%ed%99%98%ed%95%99%ec%83%9d%ec%a4%80%eb%b9%84part2-%ed%94%84%eb%9e%91%ec%8a%a4-sciences-po-%ec%a7%80%ec%9b%90-%ea%b3%bc%ec%a0%95%ea%b3%bc-%ea%b7%b8-%ec%a0%84-%ec%95%8c%ec%95%84%ec%95%bc/">[교환학생준비PART2] 프랑스 Sciences Po 지원 과정과 그 전 알아야할 것들!</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%b0%95%ea%b7%bc%ed%98%9c-%ec%b5%9c%ec%88%9c%ec%8b%a4-%ea%b2%8c%ec%9d%b4%ed%8a%b8%eb%a5%bc-%eb%b0%9d%ed%98%80%eb%82%b8-%ec%9d%bc%eb%93%b1%ea%b3%b5%ec%8b%a0-%ec%95%88%eb%af%bc%ec%84%9d/">박근혜 최순실 게이트를 밝혀낸 일등공신 안민석</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%b0%b0%ed%8b%80%ea%b7%b8%eb%9d%bc%ec%9a%b4%eb%93%9c-%ec%a0%95%ec%8b%9d%eb%b2%84%ec%a0%84-1-0%ed%8c%a8%ec%b9%98-%eb%ac%b4%ec%97%87%ec%9d%b4-%eb%b0%94%eb%80%8c%eb%82%98%ec%9a%94/">배틀그라운드 정식버전 1.0패치 무엇이 바뀌나요?</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%91%90%eb%87%8c%eb%a5%bc-%ea%b1%b4%ea%b0%95%ed%95%98%ea%b2%8c-%eb%a7%8c%eb%93%9c%eb%8a%94-4%ec%b2%9c%eb%b3%b4%ec%9d%98-%ea%b1%b8%ec%9d%8c/">두뇌를 건강하게 만드는 4천보의 걸음</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%af%b8%ea%b5%ad-%ec%9c%a0%ed%95%99-%ec%a0%95%eb%b3%b4-%ed%95%9c%ea%b5%ad-%eb%82%b4%ec%8b%a0-%ec%84%b1%ec%a0%81%eb%a7%8c%ec%9c%bc%eb%a1%9c-%eb%af%b8%ea%b5%ad-%eb%aa%85%eb%ac%b8%eb%8c%80-%ea%b0%80/">미국 유학  정보 &#8211; 한국 내신 성적만으로 미국 명문대 가기</a>
+						</li>
+				</ul>
+		</div>		<div id="tag_cloud-2" class="widget widget_tag_cloud"><h2 class="widget-title">태그</h2><div class="tagcloud"><a href="http://da.nala.ga/tag/1%ec%9b%94/" class="tag-cloud-link tag-link-35 tag-link-position-1" style="font-size: 14.892307692308pt;" aria-label="1월 (47 아이템)">1월</a>
+<a href="http://da.nala.ga/tag/2017/" class="tag-cloud-link tag-link-510 tag-link-position-2" style="font-size: 19.415384615385pt;" aria-label="2017 (76 아이템)">2017</a>
+<a href="http://da.nala.ga/tag/2017%eb%85%84/" class="tag-cloud-link tag-link-8 tag-link-position-3" style="font-size: 18.123076923077pt;" aria-label="2017년 (66 아이템)">2017년</a>
+<a href="http://da.nala.ga/tag/2018/" class="tag-cloud-link tag-link-61 tag-link-position-4" style="font-size: 14.461538461538pt;" aria-label="2018 (45 아이템)">2018</a>
+<a href="http://da.nala.ga/tag/2018%eb%85%84/" class="tag-cloud-link tag-link-103 tag-link-position-5" style="font-size: 18.984615384615pt;" aria-label="2018년 (73 아이템)">2018년</a>
+<a href="http://da.nala.ga/tag/vs/" class="tag-cloud-link tag-link-943 tag-link-position-6" style="font-size: 9.5076923076923pt;" aria-label="vs (26 아이템)">vs</a>
+<a href="http://da.nala.ga/tag/%ec%98%81%ed%99%94/" class="tag-cloud-link tag-link-1375 tag-link-position-7" style="font-size: 14.246153846154pt;" aria-label="“영화 (44 아이템)">“영화</a>
+<a href="http://da.nala.ga/tag/%ea%b0%80%ea%b2%a9/" class="tag-cloud-link tag-link-63 tag-link-position-8" style="font-size: 12.953846153846pt;" aria-label="가격 (38 아이템)">가격</a>
+<a href="http://da.nala.ga/tag/%ea%b0%80%ec%83%81%ed%99%94%ed%8f%90/" class="tag-cloud-link tag-link-1479 tag-link-position-9" style="font-size: 9.0769230769231pt;" aria-label="가상화폐 (25 아이템)">가상화폐</a>
+<a href="http://da.nala.ga/tag/%ea%b2%80%ec%9d%80%ec%82%ac%eb%a7%89/" class="tag-cloud-link tag-link-341 tag-link-position-10" style="font-size: 8.8615384615385pt;" aria-label="검은사막 (24 아이템)">검은사막</a>
+<a href="http://da.nala.ga/tag/%ea%b2%8c%ec%9e%84/" class="tag-cloud-link tag-link-391 tag-link-position-11" style="font-size: 22pt;" aria-label="게임 (102 아이템)">게임</a>
+<a href="http://da.nala.ga/tag/%ea%b3%b5%ea%b0%9c/" class="tag-cloud-link tag-link-938 tag-link-position-12" style="font-size: 9.5076923076923pt;" aria-label="공개 (26 아이템)">공개</a>
+<a href="http://da.nala.ga/tag/%ea%b3%b5%eb%9e%b5/" class="tag-cloud-link tag-link-1018 tag-link-position-13" style="font-size: 8.8615384615385pt;" aria-label="공략 (24 아이템)">공략</a>
+<a href="http://da.nala.ga/tag/%eb%8b%a4%ec%9a%b4%eb%a1%9c%eb%93%9c/" class="tag-cloud-link tag-link-364 tag-link-position-14" style="font-size: 8.4307692307692pt;" aria-label="다운로드 (23 아이템)">다운로드</a>
+<a href="http://da.nala.ga/tag/%eb%8c%80%ed%95%b4%ec%84%9c/" class="tag-cloud-link tag-link-1629 tag-link-position-15" style="font-size: 8.8615384615385pt;" aria-label="대해서 (24 아이템)">대해서</a>
+<a href="http://da.nala.ga/tag/%eb%a6%ac%eb%b7%b0/" class="tag-cloud-link tag-link-555 tag-link-position-16" style="font-size: 15.969230769231pt;" aria-label="리뷰 (53 아이템)">리뷰</a>
+<a href="http://da.nala.ga/tag/%eb%a7%9b%ec%a7%91/" class="tag-cloud-link tag-link-4173 tag-link-position-17" style="font-size: 9.9384615384615pt;" aria-label="맛집 (27 아이템)">맛집</a>
+<a href="http://da.nala.ga/tag/%eb%aa%a8%eb%b0%94%ec%9d%bc/" class="tag-cloud-link tag-link-835 tag-link-position-18" style="font-size: 10.584615384615pt;" aria-label="모바일 (29 아이템)">모바일</a>
+<a href="http://da.nala.ga/tag/%eb%ac%b4%eb%a3%8c/" class="tag-cloud-link tag-link-827 tag-link-position-19" style="font-size: 13.384615384615pt;" aria-label="무료 (40 아이템)">무료</a>
+<a href="http://da.nala.ga/tag/%eb%b0%a9%eb%b2%95/" class="tag-cloud-link tag-link-529 tag-link-position-20" style="font-size: 15.323076923077pt;" aria-label="방법 (49 아이템)">방법</a>
+<a href="http://da.nala.ga/tag/%eb%b9%84%ed%8a%b8%ec%bd%94%ec%9d%b8/" class="tag-cloud-link tag-link-1478 tag-link-position-21" style="font-size: 9.0769230769231pt;" aria-label="비트코인 (25 아이템)">비트코인</a>
+<a href="http://da.nala.ga/tag/%ec%84%a4%ec%b9%98/" class="tag-cloud-link tag-link-360 tag-link-position-22" style="font-size: 8pt;" aria-label="설치 (22 아이템)">설치</a>
+<a href="http://da.nala.ga/tag/%ec%86%8c%ea%b0%9c/" class="tag-cloud-link tag-link-297 tag-link-position-23" style="font-size: 8.4307692307692pt;" aria-label="소개 (23 아이템)">소개</a>
+<a href="http://da.nala.ga/tag/%ec%88%9c%ec%9c%84/" class="tag-cloud-link tag-link-12 tag-link-position-24" style="font-size: 11.230769230769pt;" aria-label="순위 (31 아이템)">순위</a>
+<a href="http://da.nala.ga/tag/%ec%8b%9c%ec%9e%91/" class="tag-cloud-link tag-link-579 tag-link-position-25" style="font-size: 8.4307692307692pt;" aria-label="시작 (23 아이템)">시작</a>
+<a href="http://da.nala.ga/tag/%ec%95%88%eb%82%b4/" class="tag-cloud-link tag-link-338 tag-link-position-26" style="font-size: 10.584615384615pt;" aria-label="안내 (29 아이템)">안내</a>
+<a href="http://da.nala.ga/tag/%ec%95%8c%ec%95%84%eb%b3%b4%ea%b8%b0/" class="tag-cloud-link tag-link-1939 tag-link-position-27" style="font-size: 12.523076923077pt;" aria-label="알아보기 (36 아이템)">알아보기</a>
+<a href="http://da.nala.ga/tag/%ec%95%8c%ec%95%84%eb%b3%b4%ec%9e%90/" class="tag-cloud-link tag-link-369 tag-link-position-28" style="font-size: 11.661538461538pt;" aria-label="알아보자 (33 아이템)">알아보자</a>
+<a href="http://da.nala.ga/tag/%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8/" class="tag-cloud-link tag-link-567 tag-link-position-29" style="font-size: 9.0769230769231pt;" aria-label="업데이트 (25 아이템)">업데이트</a>
+<a href="http://da.nala.ga/tag/%ec%97%ac%ed%96%89/" class="tag-cloud-link tag-link-1122 tag-link-position-30" style="font-size: 12.738461538462pt;" aria-label="여행 (37 아이템)">여행</a>
+<a href="http://da.nala.ga/tag/%ec%98%a4%eb%b8%8c/" class="tag-cloud-link tag-link-271 tag-link-position-31" style="font-size: 10.8pt;" aria-label="오브 (30 아이템)">오브</a>
+<a href="http://da.nala.ga/tag/%ec%98%a8%eb%9d%bc%ec%9d%b8/" class="tag-cloud-link tag-link-328 tag-link-position-32" style="font-size: 11.876923076923pt;" aria-label="온라인 (34 아이템)">온라인</a>
+<a href="http://da.nala.ga/tag/%ec%9c%84%ed%95%9c/" class="tag-cloud-link tag-link-183 tag-link-position-33" style="font-size: 13.169230769231pt;" aria-label="위한 (39 아이템)">위한</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%eb%b2%a4%ed%8a%b8/" class="tag-cloud-link tag-link-723 tag-link-position-34" style="font-size: 13.169230769231pt;" aria-label="이벤트 (39 아이템)">이벤트</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%ec%95%bc%ea%b8%b0/" class="tag-cloud-link tag-link-861 tag-link-position-35" style="font-size: 10.8pt;" aria-label="이야기 (30 아이템)">이야기</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%ec%9c%a0/" class="tag-cloud-link tag-link-1482 tag-link-position-36" style="font-size: 9.9384615384615pt;" aria-label="이유 (27 아이템)">이유</a>
+<a href="http://da.nala.ga/tag/%ec%9d%bc%eb%b3%b8/" class="tag-cloud-link tag-link-1007 tag-link-position-37" style="font-size: 8.4307692307692pt;" aria-label="일본 (23 아이템)">일본</a>
+<a href="http://da.nala.ga/tag/%ec%a0%95%eb%a6%ac/" class="tag-cloud-link tag-link-65 tag-link-position-38" style="font-size: 11.876923076923pt;" aria-label="정리 (34 아이템)">정리</a>
+<a href="http://da.nala.ga/tag/%ec%a0%95%eb%b3%b4/" class="tag-cloud-link tag-link-610 tag-link-position-39" style="font-size: 17.261538461538pt;" aria-label="정보 (61 아이템)">정보</a>
+<a href="http://da.nala.ga/tag/%ec%b4%9d%ec%a0%95%eb%a6%ac/" class="tag-cloud-link tag-link-179 tag-link-position-40" style="font-size: 8.4307692307692pt;" aria-label="총정리 (23 아이템)">총정리</a>
+<a href="http://da.nala.ga/tag/%ec%b5%9c%ea%b3%a0/" class="tag-cloud-link tag-link-404 tag-link-position-41" style="font-size: 11.876923076923pt;" aria-label="최고 (34 아이템)">최고</a>
+<a href="http://da.nala.ga/tag/%ec%b6%94%ec%b2%9c/" class="tag-cloud-link tag-link-367 tag-link-position-42" style="font-size: 20.707692307692pt;" aria-label="추천 (89 아이템)">추천</a>
+<a href="http://da.nala.ga/tag/%ec%b6%9c%ec%8b%9c/" class="tag-cloud-link tag-link-612 tag-link-position-43" style="font-size: 10.584615384615pt;" aria-label="출시 (29 아이템)">출시</a>
+<a href="http://da.nala.ga/tag/%ed%95%9c%ea%b5%ad/" class="tag-cloud-link tag-link-1483 tag-link-position-44" style="font-size: 10.153846153846pt;" aria-label="한국 (28 아이템)">한국</a>
+<a href="http://da.nala.ga/tag/%ed%9b%84%ea%b8%b0/" class="tag-cloud-link tag-link-114 tag-link-position-45" style="font-size: 19.2pt;" aria-label="후기 (74 아이템)">후기</a></div>
+</div>	    </div>
+	</div>
+
+        </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+    </div>
+    <footer class="site-footer" role="contentinfo">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+  
+                    <p></p>
+                    
+                                            <div class="footer-social-icons">
+                                                                                                                                                                                                                                                                                                                                                                                                        
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+            <div class="scroll-up">
+            <a href="#"><i class="fa fa-angle-up"></i></a>
+        </div>
+        <!-- Scroll Up -->
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/af2821b0/cloudflare-static/email-decode.min.js"></script><script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/bootstrap.min.js?ver=3.3.5'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/scripts.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/jquery.fitvids.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/smoothscroll.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/wp-embed.min.js?ver=4.8.4'></script>
+    </body>
+</html>

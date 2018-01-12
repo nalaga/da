@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="http://da.nala.ga/xmlrpc.php">
+
+<title>Python 자료형(리스트,튜플) / 변수 / 연습문제 | All About CC</title>
+<meta name='robots' content='noindex,follow' />
+
+<!-- All in One SEO Pack 2.4.3.1 by Michael Torbert of Semper Fi Web Design[276,334] -->
+<link rel="canonical" href="http://da.nala.ga/python-%ec%9e%90%eb%a3%8c%ed%98%95%eb%a6%ac%ec%8a%a4%ed%8a%b8%ed%8a%9c%ed%94%8c-%eb%b3%80%ec%88%98-%ec%97%b0%ec%8a%b5%eb%ac%b8%ec%a0%9c/" />
+<!-- /all in one seo pack -->
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 피드" href="http://da.nala.ga/feed/" />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 댓글 피드" href="http://da.nala.ga/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; Python 자료형(리스트,튜플) / 변수 / 연습문제 댓글 피드" href="http://da.nala.ga/python-%ec%9e%90%eb%a3%8c%ed%98%95%eb%a6%ac%ec%8a%a4%ed%8a%b8%ed%8a%9c%ed%94%8c-%eb%b3%80%ec%88%98-%ec%97%b0%ec%8a%b5%eb%ac%b8%ec%a0%9c/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/da.nala.ga\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.4"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bootstrap-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/bootstrap.min.css?ver=3.3.5' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/font-awesome.min.css?ver=4.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='shaped-blog-stylesheet-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/style.css?ver=4.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/responsive.css' type='text/css' media='all' />
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://da.nala.ga/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://da.nala.ga/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://da.nala.ga/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='4F510 파일럿식 5포트 밸브 알아보기.' href='http://da.nala.ga/4f510-%ed%8c%8c%ec%9d%bc%eb%9f%bf%ec%8b%9d-5%ed%8f%ac%ed%8a%b8-%eb%b0%b8%eb%b8%8c-%ec%95%8c%ec%95%84%eb%b3%b4%ea%b8%b0/' />
+<link rel='next' title='장지동입주청소 위례송파힐스테이트 입주청소, 줄눈시공,  위례송파힐스테이트, 장지동 위례송파힐스테이트 입주청소, 인테리어 전문업체 크린하우징' href='http://da.nala.ga/%ec%9e%a5%ec%a7%80%eb%8f%99%ec%9e%85%ec%a3%bc%ec%b2%ad%ec%86%8c-%ec%9c%84%eb%a1%80%ec%86%a1%ed%8c%8c%ed%9e%90%ec%8a%a4%ed%85%8c%ec%9d%b4%ed%8a%b8-%ec%9e%85%ec%a3%bc%ec%b2%ad%ec%86%8c-%ec%a4%84/' />
+<meta name="generator" content="WordPress 4.8.4" />
+<link rel='shortlink' href='http://da.nala.ga/?p=4803' />
+<link rel="alternate" type="application/json+oembed" href="http://da.nala.ga/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fda.nala.ga%2Fpython-%25ec%259e%2590%25eb%25a3%258c%25ed%2598%2595%25eb%25a6%25ac%25ec%258a%25a4%25ed%258a%25b8%25ed%258a%259c%25ed%2594%258c-%25eb%25b3%2580%25ec%2588%2598-%25ec%2597%25b0%25ec%258a%25b5%25eb%25ac%25b8%25ec%25a0%259c%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://da.nala.ga/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fda.nala.ga%2Fpython-%25ec%259e%2590%25eb%25a3%258c%25ed%2598%2595%25eb%25a6%25ac%25ec%258a%25a4%25ed%258a%25b8%25ed%258a%259c%25ed%2594%258c-%25eb%25b3%2580%25ec%2588%2598-%25ec%2597%25b0%25ec%258a%25b5%25eb%25ac%25b8%25ec%25a0%259c%2F&#038;format=xml" />
+
+	<style>
+
+		/* Border Color */
+		.btn-social:hover,
+		blockquote,
+		#respond input:focus[type="text"], 
+	    #respond input:focus[type="email"], 
+	    #respond input:focus[type="url"],
+	    #respond textarea:focus,
+	    #comments .comment-reply a:hover
+		{
+			border-color: ;
+		}
+
+		
+		/* Background Color */
+		.scroll-up a,
+		.btn-social:hover,
+		button,
+		input[type="button"],
+		input[type="reset"],
+		input[type="submit"],
+		.navbar-default .navbar-nav .dropdown-menu li a:hover, .dropdown-menu li a:focus, .navbar-default .navbar-nav .dropdown-menu .active a,
+		.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover, .pagination li .current,
+		.next-previous-posts .next-post a:hover,
+		.next-previous-posts .previous-post a:hover,
+		.btn-goback,
+		.btn-submit,
+		a.more-link,
+		.featured-post .fa,
+		#comments .comment-reply a:hover,
+		.widget .tagcloud a
+		{
+			background-color: ;
+		}
+
+		
+		/* Color */
+		.text-logo a,
+		.navbar-default .navbar-nav .active a, .navbar-default .navbar-nav .active a:hover, .navbar-default .navbar-nav .active a:focus,
+		.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus,
+		a:hover,
+    	a:focus,
+		.next-previous-posts .previous-post a,
+		.next-previous-posts .next-post a,
+		.pagination>li>a, .pagination>li>span,
+		#comments .comment-author a:hover, 
+    	#respond .logged-in-as a:hover,
+    	#wp-calendar a,
+    	h2.entry-title a:hover
+		{
+			color: ;
+		}
+
+
+		/* A Color */
+		a{
+			color: ;
+		}
+
+		/* a:hover Color */
+		a:hover,
+		a:focus,
+		a:active,
+		.widget a:hover,
+		.post .post-content .entry-meta ul li a:hover
+		{
+			color: ;
+		}
+
+		/* .featured-post .fa:after*/
+		.featured-post .fa:after{
+			border-color:   transparent ;
+		}
+
+
+		
+
+	</style>
+</head>
+
+<body class="post-template-default single single-post postid-4803 single-format-standard">
+
+    <div id="st-preloader">
+        <div id="pre-status">
+            <div class="preload-placeholder"></div>
+        </div>
+    </div>
+<!-- /Preloader -->
+
+<header id="header">	
+	<div id="trueHeader">
+    	<div class="wrapper">
+            <div class="container">
+            	<!-- Menu -->
+            	<div class="menu_main">
+                	<div class="navbar blogx-navbar navbar-default">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#st-navber-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+
+                                                            <div class="text-logo">
+                                    <a href="http://da.nala.ga">All About CC</a>
+                                    <p>All About CC Contents</p>
+                                </div><!-- /Logo -->
+                                                    </div>
+                      
+                        <div id="st-navber-collapse" class="navbar-collapse collapse pull-right">
+                             
+                        </div>
+                    </div>
+            	</div><!-- end menu -->
+        	</div> <!-- /.container -->
+    	</div>
+	</div>
+	<DIV class='ads_adsense_img' style='margin:40px 0px 40px 0px;'>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- only display -->
+	<ins class="adsbygoogle"
+	     style="display:block"
+	     data-ad-client="ca-pub-8393857339019314"
+	     data-ad-slot="7474886381"
+	     data-ad-format="auto"></ins>
+	<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+	</DIV>	
+</header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div id="primary" class="content-area">
+                    <main id="main" class="site-main" role="main">
+
+                        
+                                <article id="post-4803" class="post-4803 post type-post status-publish format-standard hentry category-uncategorized tag-python tag-8207 tag-8208 tag-8206">
+    <header class="entry-header">
+        
+        
+    </header> <!--/.entry-header -->
+
+    <div class="clearfix post-content media">
+
+        <h2 class="entry-title">
+            Python 자료형(리스트,튜플) / 변수 / 연습문제        </h2> <!-- //.entry-title -->
+
+        <div class="clearfix entry-meta">
+            
+            <ul class="list-inline">
+                <li>
+                    <span class="author vcard">
+                        By <a class="url fn n" href="http://da.nala.ga/author/site-admin/">site-admin</a>                    </span>
+                </li>
+                <li>
+                    on <span class="posted-on">1월 09, 2018</span>
+                </li>
+                                    <li>
+                        in <span class="posted-in">
+                            <a href="http://da.nala.ga/category/uncategorized/" rel="category tag">미분류</a>                        </span>
+                    </li>
+                            </ul>
+                </div> <!--/.entry-meta -->
+        
+        <div class="entry-summary">
+            <p><img src='http://cfile29.uf.tistory.com/image/992BA54B5A43BA871A0920' style='max-width:250px;min-width:0px;' onError='this.style.display="none"' /></p>
+<h1>3줄 요약 </h1>
+<div style='color:#fff;background-color:#000;border-radius:10px;'>
+<ol>
+<li><span>&#8211; 변수를 선언하지 않는다.</span></li>
+<li><span>2) 결합    &#8211; 하지만 이런식으로 하면 다시 불러올때는    &#8211; 값을 바꿀땐 교체되는것 -> 먼저 결합된 튜플을 만들고 결합.</span></li>
+<li><span>파이썬 공식 홈페이지 &#8211; Python.org책 점프 투 파이썬</span></li>
+</ol>
+</div>
+<p><span id="more-4803"></span></p>
+<p><iframe src='http://ad.selfhow.com/rd' width='100%' border=0 frameborder=0 style='height:auto;width:100%'></iframe></p>
+<hr />
+<p><b><span style="font-size: 11pt;">1. 시퀀스 형태의 자료형</span></b></p>
+<p style="margin-left: 2em;"><b><br /></b></p>
+<p style="margin-left: 2em;">&#8211; <b>list, tuple, range, str</b>(문자열의 한 시퀀스)</p>
+<p style="margin-left: 2em;"></p>
+<p style="margin-left: 2em;">&#8211; 다른 언어에서는 배열(array)</p>
+<p style="margin-left: 2em;"></p>
+<p style="margin-left: 2em;">&#8211; 집합을 표현</p>
+<p style="margin-left: 2em;"></p>
+<p style="margin-left: 2em;"><b>list</b> -&gt; 다른 언어에서는 배열이라고 하는데 파이썬에서는 리스트라고 부르면 됨.</p>
+<p style="margin-left: 2em;"></p>
+<p style="margin-left: 2em;"><span style="color: rgb(140, 140, 140);">여러개의 자료형을 표현하면 되는데, 표현하지 않거나, ()로 할경우 ()tuple, 안에 원소를 []로 집어 넣으면 -&gt; [] list</span></p>
+<p style="margin-left: 2em;"><span style="color: rgb(140, 140, 140);">   -&gt; 문자나 숫자나 어떠한 타입 원소든지 가질 수 있음.</span></p>
+<p style="margin-left: 2em;"></p>
+<p style="margin-left: 2em;"><b>range</b> -&gt; 범위 (자연수의 범위)</p>
+<p style="margin-left: 2em;">ex)list(range(1,10)) -&gt; [1,2,3,4,5,6,7,8,9]</p>
+<p></p>
+<p><b><span style="font-size: 11pt;">2. 변수(variable) &lt;-&gt; 상수(contant) ##중요</span></b></p>
+<p style="margin-left: 2em;"><b><br /></b></p>
+<p style="margin-left: 2em;">ex) 사과 10개 -&gt; 10개 변하지않음 상수표현!<br />      사과n개 -&gt; 변수 표현<br />      게임 레벨업 하는거 변수. -&gt; 변수의 값은 어떻게 추적하느냐? 이게 어려움.</p>
+<p style="margin-left: 2em;"></p>
+<p style="margin-left: 2em;">1) 변수의 선언과 정의</p>
+<p style="margin-left: 4em;"></p>
+<p style="margin-left: 4em;">&#8211; 변수를 선언하지 않는다.</p>
+<p style="margin-left: 4em;"></p>
+<p style="margin-left: 4em;">&#8211; 변수에 대한 정의만 존재한다.</p>
+<p style="margin-left: 4em;"></p>
+<p style="margin-left: 2em;">2) 할당 연산자(assignment)</p>
+<p style="margin-left: 4em;"></p>
+<p style="margin-left: 4em;">&#8211; 할당, 배당, 지정&#8230;</p>
+<p style="margin-left: 4em;"></p>
+<p style="margin-left: 4em;"><b>변수 이름 = 변수에 저장할 값</b></p>
+<p style="margin-left: 4em;"><b><br /></b></p>
+<p style="margin-left: 6em;">-&gt; 바로 정의해서 쓰면 됨.</p>
+<p style="margin-left: 6em;">&#8216;=&#8217; 이게 assignment</p>
+<p style="margin-left: 4em;">변수의 예)</p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;"><span class="imageblock" style="display:inline-block;width:135px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="변수이름.png" height="110" src="http://cfile29.uf.tistory.com/image/992BA54B5A43BA871A0920" width="135"/></span></p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;"><span style="display: inline !important; float: none; background-color: transparent; color: rgb(0, 0, 0); font-family: Gulim,굴림; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;">&gt;&gt;&gt; n=100 변수의 재지정</span></p>
+<p style="margin-left: 4em;"></p>
+<p><b><span style="font-size: 11pt;">3. 변수 이름을 짓는 규칙</span></b></p>
+<p><b><br /></b></p>
+<p style="margin-left: 2em;">1) 강제적 규칙</p>
+<p style="margin-left: 4em;"></p>
+<p style="margin-left: 4em;">&#8211; 변수의 이름은 숫자로 시작할 수 없다. <br />   -&gt;뒤에 숫자 오는건 상관 없음 base10 = 10 </p>
+<p style="margin-left: 4em;"></p>
+<p style="margin-left: 4em;">&#8211; 특수문자는 사용할 수 없다.(예외 _)</p>
+<p style="margin-left: 4em;"></p>
+<p style="margin-left: 4em;">&#8211; 예약어는 사용할 수 없다.<br /> ex)</p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;"><span class="imageblock" style="display:inline-block;width:375px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="예약어 사용x.png" height="41" src="http://cfile25.uf.tistory.com/image/99341F4B5A43BAC31A9B59" width="375"/></span></p>
+<p style="margin-left: 4em;"></p>
+<p style="margin-left: 4em;">&#8211; 즉 주황석 나오는건 쓸수없음. </p>
+<p style="margin-left: 4em;"></p>
+<p style="margin-left: 4em;">&#8211; 보라색 미리 정의된 명령어.(보라색도 가급적 쓰지말기)</p>
+<p style="margin-left: 4em;"></p>
+<p style="margin-left: 4em;">&#8211; 예를들면 type = 10, type(10) 하게되면 type(10)오류남 왜? type=10 이라고 지정되어있음.</p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;"><span class="imageblock" style="display:inline-block;width:407px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="보라색.png" height="115" src="http://cfile2.uf.tistory.com/image/99434A475A43BAEC1ECDC4" width="407"/></span></p>
+<p style="margin-left: 4em;"></p>
+<p style="margin-left: 2em;">2) 암묵적 규칙</p>
+<p></p>
+<p style="margin-left: 4em;">&#8211; 지키지 않아도 프로그램을 실행하는 데 있어서 문제는 발생하지 않는다.<br />   <span style="color: rgb(140, 140, 140);"><b>(나중에 프로그램 규모 커지면 제일 문제가 발생하는게 이름)</b></span></p>
+<p style="margin-left: 4em;"><b><br /></b></p>
+<p style="margin-left: 4em;">&#8211; 단일문자를 사용하지 않는다 : a,b,c,d..<br /> <br />&#8211; 오래전부터 사용해오던 문자는 예외<br />   <span style="color: rgb(140, 140, 140);">미지수 x(x,y), n, m, i, j, k  </span></p>
+<p style="margin-left: 4em;">  </p>
+<p style="margin-left: 4em;">&#8211; 변수 이름의 시작은 소문자</p>
+<p style="margin-left: 4em;">  </p>
+<p style="margin-left: 4em;">&#8211; 단어와 단어 사이에는 &#8216;_&#8217; 를 사용</p>
+<p style="margin-left: 4em;">  </p>
+<p style="margin-left: 4em;">&#8211; 단어와 단어 사이에 시작문자는 대문자</p>
+<p style="margin-left: 4em;">   -&gt; 함수, 클래스 같은 이름을 작성할때도 동일하게 적용</p>
+<p style="margin-left: 4em;"></p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;"><span class="imageblock" style="display:inline-block;width:252px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="암묵적규칙.png" height="62" src="http://cfile21.uf.tistory.com/image/99EFE5505A43BB1728DE18" width="252"/></span></p>
+<p>  </p>
+<p style="margin-left: 4em;">&#8211; 주석은 프로그램의 가독성을 해친다.<br />   <span style="color: rgb(140, 140, 140);">주석은 #을 적으면 그 뒤에 코드는 읽지않음.</span></p>
+<p style="margin-left: 4em;">  </p>
+<p style="margin-left: 4em;"><b>&#8211; 함수와 변수의 이름만 가지고 해석이 가능하게!! ##중요</b></p>
+<p><b></p>
+<p></p>
+<p></b></p>
+<p><b><span style="font-size: 11pt;">4. 변수의 타입</span></b></p>
+<p style="text-align: center; clear: none; float: none;"><b></b></p>
+<p style="margin-left: 2em;">&#8211; 변수의 값이 정의될 때 정해짐</p>
+<p style="margin-left: 2em;"><span class="imageblock" style="display:inline-block;width:188px;background-color: transparent; color: rgb(0, 0, 0); font-family: Gulim,굴림; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; margin-bottom: 0px; margin-top: 0px; orphans: 2; text-align: center; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="변수의 타입.png" height="100" src="http://cfile1.uf.tistory.com/image/997E204C5A43BB69059375" style="background-color: transparent; color: rgb(0, 0, 0); font-family: Gulim,굴림; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; margin-bottom: 0px; margin-top: 0px; orphans: 2; text-align: center; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;" width="188"/></span></p>
+<p style="margin-left: 2em;"><b></b><i></i><u></u><sub></sub><sup></sup><strike></strike></p>
+<p style="margin-left: 4em;">&#8211; 프로그램이 진행될때마다 변수의 값이나 타입이 계속 바뀐다.</p>
+<p style="margin-left: 4em;"></p>
+<p style="margin-left: 4em;">&#8211; 명령어 하나만 실행이 되도 계속해서 값이나 타입이 바뀐다. -&gt; 이걸 추적해야함.</p>
+<p style="margin-left: 4em;"></p>
+<p style="margin-left: 4em;"><b><span style="color: rgb(140, 140, 140);">눈으로 따라가는 연습하기!!</span></b></p>
+<p><b></b></p>
+<p style="margin-left: 4em;">1) 중복 지정</p>
+<p style="text-align: left; clear: none; margin-left: 6em; float: none;"><span class="imageblock" style="display:inline-block;width:211px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="중복지정.png" height="138" src="http://cfile30.uf.tistory.com/image/994956435A43BBA926B9DD" width="211"/></span></p>
+<p style="text-align: left; clear: none; margin-left: 6em; float: none;"><span style="display: inline !important; float: none; background-color: transparent; color: rgb(0, 0, 0); font-family: Gulim,굴림; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;">&#8211; 3개의 변수를 동일하게 지정할 수 있다.</span></p>
+<p style="margin-left: 6em;"></p>
+<p style="margin-left: 4em;">2) 동시지정</p>
+<p style="text-align: left; clear: none; margin-left: 6em; float: none;"><span class="imageblock" style="display:inline-block;width:197px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="동시지정.png" height="101" src="http://cfile28.uf.tistory.com/image/998519485A43BBD011862A" width="197"/></span></p>
+<p style="margin-left: 6em;"></p>
+<p><b><span style="font-size: 11pt;">5. sequence operation</span></b></p>
+<p><b></b></p>
+<p style="margin-left: 2em;">1) 공통</p>
+<p style="margin-left: 2em;"></p>
+<p style="margin-left: 4em;">1) 지정하고 타입, 자료 있을 경우 참 혹은 거짓</p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;">  <span class="imageblock" style="display:inline-block;width:201px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="1)지정하고 타입.png" height="240" src="http://cfile21.uf.tistory.com/image/99BC16495A43CDC436C5BA" width="201"/></span></p>
+<p style="text-align: left; margin-left: 2em;"></p>
+<p style="margin-left: 4em;"> 2) 결합</p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;">  <span class="imageblock" style="display:inline-block;width:215px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="결합1.png" height="43" src="http://cfile5.uf.tistory.com/image/997104475A43CF7B2BE4F9" width="215"/></span></p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;">  &#8211; <span style="display: inline !important; float: none; background-color: transparent; color: rgb(0, 0, 0); font-family: Gulim,굴림; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;">하지만 이런식으로 하면 다시 불러올때는</span></p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;">  <span class="imageblock" style="display:inline-block;width:142px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="결합2.png" height="41" src="http://cfile2.uf.tistory.com/image/9957EB4E5A43CF8E143EDC" width="142"/></span></p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;">  &#8211; <span style="display: inline !important; float: none; background-color: transparent; color: rgb(0, 0, 0); font-family: Gulim,굴림; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;">값을 바꿀땐 교체되는것 -&gt; 먼저 결합된 튜플을 만들고 결합.</span></p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;"> <span class="imageblock" style="display:inline-block;width:221px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="결합3.png" height="59" src="http://cfile7.uf.tistory.com/image/99536D495A43CFB727E5BF" width="221"/></span></p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;"></p>
+<p style="margin-left: 4em;">3) 파이썬 제일 첫번째 기수번호는 0번</p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;">  <span class="imageblock" style="display:inline-block;width:312px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="기수번호.png" height="92" src="http://cfile6.uf.tistory.com/image/99F934425A43CFE6159B76" width="312"/></span></p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;">  &#8211; i에 0번째는 10, 하지만 <b>-은 뒤에서부터 계산</b>!</p>
+<p style="margin-left: 4em;">  &#8211; i에 -1번째는 60.</p>
+<p style="margin-left: 4em;"></p>
+<p style="margin-left: 4em;">4) type 을 두가지 방법으로 표현이 가능</p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;">  <span class="imageblock" style="display:inline-block;width:329px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="타입 두가지방법.png" height="100" src="http://cfile10.uf.tistory.com/image/993265475A43D09434877E" width="329"/></span></p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;">  &#8211; 원소의 형태는 tuple</p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;">  &#8211; i안에 있는 자료는 int형</p>
+<p style="margin-left: 4em;"></p>
+<p style="margin-left: 4em;">5) 슬라이싱</p>
+<p style="margin-left: 4em;">  &#8211; k[i:j] slice i to j -&gt; k의 i번째부터 j부분의 앞까지 잘라낸다!<br style="background-attachment: scroll; background-clip: border-box; background-color: transparent; background-image: none; background-origin: padding-box; background-position-x: 0%; background-position-y: 0%; background-repeat: repeat; background-size: auto; color: rgb(0, 0, 0); font-family: Gulim,굴림; font-size: 13px; line-height: normal; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; padding-top: 0px;"/></p>
+<p style="background-color: transparent; color: rgb(0, 0, 0); font-family: Gulim,굴림; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; margin-bottom: 0px; margin-left: 52px; margin-top: 0px; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;"><span style="color: rgb(140, 140, 140);"><b>  @ 그냥 잘라오기만 하는거임</b></span></p>
+<p><b></b></p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;">  <span class="imageblock" style="display:inline-block;width:262px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="슬라이싱1.png" height="88" src="http://cfile9.uf.tistory.com/image/99CF74405A43D2E510B99A" width="262"/></span></p>
+<p style="margin-left: 4em;">  &#8211; i[:3]은 3이 50인데 그 앞까지 잘라내기 때문에 (10, 20, 30)</p>
+<p style="margin-left: 4em;">  &#8211; i[2:4]은 2번째가 30이고 4번째는 60인데 그 앞까지 잘라내기 때문에 (30, 50)</p>
+<p style="margin-left: 4em;"></p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;">  <span class="imageblock" style="display:inline-block;width:141px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="슬라이싱2.png" height="41" src="http://cfile7.uf.tistory.com/image/995C15335A43D4591541F4" width="141"/></span></p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;">  &#8211; 뒤에서 첫번째부터 4번째 앞까지 (60, 50, 30)</p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;"></p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;">  <span class="imageblock" style="display:inline-block;width:173px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="슬라이싱3.png" height="41" src="http://cfile10.uf.tistory.com/image/99A3783A5A43D4DB2C0920" width="173"/></span></p>
+<p style="margin-left: 4em;">  &#8211; 0번부터 4번째 앞까지 (10, 20, 30, 50)</p>
+<p style="margin-left: 4em;"> </p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;">  <span class="imageblock" style="display:inline-block;width:289px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="슬라이싱5.png" height="62" src="http://cfile1.uf.tistory.com/image/994A5D385A43D5DD140A1E" width="289"/></span></p>
+<p style="margin-left: 4em;">  &#8211; 시작번호와 끝 번호가 생략된다면, 문자열 전체가 선택 (10, 20, 30, 50, 60) <br />  </p>
+<p style="margin-left: 4em;">6) len(i) 원소의 갯수 -&gt; 길이</p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;">  <span class="imageblock" style="display:inline-block;width:294px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="원소의 갯수 length.png" height="139" src="http://cfile10.uf.tistory.com/image/990919415A43D6610FFA5D" width="294"/></span></p>
+<p style="margin-left: 4em;">  &#8211; len(length)은 원소의 갯수이므로 len(i) 5개가 들어있으므로 5임.</p>
+<p style="margin-left: 4em;">  &#8211; min은 제일 작은 숫자, 즉 i안에 들어있는 제일 작은 숫자는 10</p>
+<p style="margin-left: 4em;">  &#8211; max은 제일 큰 숫자, 즉 i안에 들어있는 제일 큰 숫자는 60<br /> </p>
+<p style="margin-left: 4em;">7) index -&gt; 위치</p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;">  <span class="imageblock" style="display:inline-block;width:282px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="위치 index.png" height="95" src="http://cfile29.uf.tistory.com/image/997ED23D5A43D7672AF1F0" width="282"/></span></p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;">  &#8211; 1번째부터 4번째에서 30 원소의 위치 -&gt; 2</p>
+<p></p>
+<p style="margin-left: 4em;">8) count -&gt; 문자 개수 세기</p>
+<p style="margin-left: 4em;">  -&gt; 몇개 있는지 조사해 그 개수 돌려줌</p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;">  <span class="imageblock" style="display:inline-block;width:249px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="count 숫자 세기.png" height="117" src="http://cfile29.uf.tistory.com/image/99658E395A43D82D12B106" width="249"/></span></p>
+<p style="margin-left: 2em;"></p>
+<p style="margin-left: 2em;">2) mutable sequence type</p>
+<p style="margin-left: 2em;"></p>
+<p style="margin-left: 4em;">&#8211; 변경 가능한 자료형(원소)     -&gt;    수정, 삭제 가능</p>
+<p style="margin-left: 4em;"></p>
+<p style="margin-left: 4em;">&#8211; <b>list</b></p>
+<p><b></b></p>
+<p style="margin-left: 4em;"><b><br /></b></p>
+</p>
+<p style="margin-left: 4em;">1) list 지정, 타입</p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;">  <span class="imageblock" style="display:inline-block;width:211px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="리스트 타입.png" height="83" src="http://cfile8.uf.tistory.com/image/9933B4435A43E36D11A372" width="211"/></span></p>
+<p></p>
+<p style="margin-left: 4em;">2) 변경이 가능함</p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;">  <span class="imageblock" style="display:inline-block;width:212px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="리스트 변경가능.png" height="95" src="http://cfile9.uf.tistory.com/image/99AA4A4C5A43E3BD1291D6" width="212"/></span></p>
+<p style="margin-left: 2em;"></p>
+<p style="margin-left: 4em;">3) <span style="display: inline !important; float: none; background-color: transparent; color: rgb(0, 0, 0); font-family: Gulim,굴림; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;">s[:] -&gt; list</span> 슬라이싱 </p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;">  <span class="imageblock" style="display:inline-block;width:269px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="리스트 슬라이싱1.png" height="95" src="http://cfile4.uf.tistory.com/image/99CEC5505A43E41A129C87" width="269"/></span></p>
+<p style="margin-left: 4em;"></p>
+<p style="margin-left: 4em;">&#8211; 슬라이싱으로 원소 삭제</p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;">  <span class="imageblock" style="display:inline-block;width:252px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="리스트 슬라이싱2.png" height="99" src="http://cfile5.uf.tistory.com/image/994765475A43E43310E054" width="252"/></span></p>
+<p>   </p>
+<p style="margin-left: 4em;">4) append -&gt; 제일 마지막 추가</p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;">  <span class="imageblock" style="display:inline-block;width:156px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="리스트 append.png" height="99" src="http://cfile26.uf.tistory.com/image/99DB7D505A43E50F12EA50" width="156"/></span></p>
+<p style="margin-left: 4em;"></p>
+<p style="margin-left: 4em;">5) insert -&gt; 중간에 추가</p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;">  <span class="imageblock" style="display:inline-block;width:309px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="리스트 insert.png" height="84" src="http://cfile29.uf.tistory.com/image/9944164A5A43E52E11A4A1" width="309"/></span></p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;"></p>
+<p style="margin-left: 4em;">6) extend -&gt; 리스트 확장</p>
+<p style="margin-left: 4em;"> <b><span style="color: rgb(140, 140, 140);"> @ </span><span style="text-align: left; color: rgb(140, 140, 140); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Gulim,굴림; font-size: 13px; font-style: normal; font-variant: normal; text-decoration: none; word-spacing: 0px; display: inline !important; white-space: normal; orphans: 2; float: none; -webkit-text-stroke-width: 0px; background-color: transparent;">그냥 바꾸면 안됨 연산자 사용 재지정 해주는거랑 같음</span></b></p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;">  <span class="imageblock" style="display:inline-block;width:308px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="리스트 extend.png" height="101" src="http://cfile21.uf.tistory.com/image/9931EC435A43E55F14305A" width="308"/></span></p>
+<p style="margin-left: 4em;"></p>
+<p style="margin-left: 4em;">7) s.clear() -&gt; 삭제</p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;">  <span class="imageblock" style="display:inline-block;width:307px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="리스트 clear.png" height="103" src="http://cfile28.uf.tistory.com/image/99ED3D495A43E58B126231" width="307"/></span></p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;">    </p>
+<p>              ## 슬라이스랑 카피랑 의미는 같을까?</p>
+<p style="margin-left: 4em;">  </p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;">  <span class="imageblock" style="display:inline-block;width:260px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="슬라이싱 카피 1.png" height="104" src="http://cfile23.uf.tistory.com/image/9945853B5A43EF1D20851A" width="260"/></span></p>
+<p style="margin-left: 4em;">  &#8211; d와 s 다른 리스트~? 어떻게 확인할까?</p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;">  <span class="imageblock" style="display:inline-block;width:219px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="슬라이싱 카피 2.png" height="97" src="http://cfile24.uf.tistory.com/image/99F887385A43EF7222B9B2" width="219"/></span></p>
+<p style="margin-left: 4em;">  &#8211; 즉, 두 리스트는 같은 리스트</p>
+<p style="margin-left: 2em;"></p>
+<p style="margin-left: 4em;"><span style="color: rgb(140, 140, 140);">  &#8211; <b>일반 변수는 값 자체가 다르다고 생각하면 되는데 리스트는 두개 같다고 생각해야함</b></span></p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;">  <span class="imageblock" style="display:inline-block;width:119px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="슬라이싱 카피 3.png" height="212" src="http://cfile25.uf.tistory.com/image/99F12E3C5A43EFAF1E6616" width="119"/></span></p>
+<p style="margin-left: 4em;"></p>
+<p style="margin-left: 4em;">  &#8211; 리스트를 다르게 하고 싶다면??</p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;">  <span class="imageblock" style="display:inline-block;width:227px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="슬라이싱 카피 4.png" height="198" src="http://cfile28.uf.tistory.com/image/9927483A5A43F018229D7C" width="227"/></span></p>
+<p style="margin-left: 4em;"></p>
+<p style="margin-left: 4em;">  &#8211; 다른 방법</p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;">  <span class="imageblock" style="display:inline-block;width:288px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="슬라이싱 카피 5.png" height="209" src="http://cfile7.uf.tistory.com/image/9939143B5A43F0C9231FE9" width="288"/></span></p>
+<p style="margin-left: 4em;"></p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;">  </p>
+<p style="margin-left: 4em;">8) s.pop() -&gt; 제일 마지막 원소를 지움</p>
+<p style="margin-left: 4em;">  <span class="imageblock" style="display:inline-block;width:217px;background-color: transparent; color: rgb(0, 0, 0); font-family: Gulim,굴림; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; margin-bottom: 0px; margin-top: 0px; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="리스트 pop.png" height="115" src="http://cfile5.uf.tistory.com/image/990AC9385A43F1E9246729" style="background-color: transparent; color: rgb(0, 0, 0); font-family: Gulim,굴림; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; margin-bottom: 0px; margin-top: 0px; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;" width="217"/></span></p>
+<p style="margin-left: 4em;"></p>
+<p style="margin-left: 4em;"> </p>
+<p style="margin-left: 4em;">  9) s.reverse() -&gt; 값이 바뀜</p>
+<p style="margin-left: 4em;"><span style="display: inline !important; float: none; background-color: transparent; color: rgb(0, 0, 0); font-family: Gulim,굴림; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;">   <span style="color: rgb(140, 140, 140);">값 자체가 바껴있는건 돌려주지 않음. 확인 해야함.</span></span></p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;">  <span class="imageblock" style="display:inline-block;width:179px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="리스트 reverse.png" height="96" src="http://cfile8.uf.tistory.com/image/9932B3335A43F22F24749D" width="179"/></span></p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;">  </p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;">  &#8211; 정렬</p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;">  <span class="imageblock" style="display:inline-block;width:167px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="리스트 sort.png" height="56" src="http://cfile5.uf.tistory.com/image/99DE01395A43F25124B0F3" width="167"/></span></p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;">  <span class="imageblock" style="display:inline-block;width:174px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="sorted.png" height="77" src="http://cfile7.uf.tistory.com/image/99DE31395A43F2802480B5" width="174"/></span></p>
+<p style="text-align: left; clear: none; margin-left: 4em; float: none;"><span style="color: rgb(140, 140, 140);">  &#8211; sorted로 정렬을 해도 s를 선언하게 된다면 값은 바뀌지 않음!! 참고!</span><b><br /></b></p>
+<p style="margin-left: 2em;"><b></b><br />3) immutable type</p>
+<p style="margin-left: 4em;"></p>
+<p style="margin-left: 4em;">&#8211; 변경 불가능한 자료형</p>
+<p style="margin-left: 4em;"></p>
+<p style="margin-left: 4em;">&#8211; <b>tuple</b>, str</p>
+<p></p>
+<p><b><span style="font-size: 11pt;">6. 입/출력</span></b></p>
+<p style="margin-left: 2em;"><b></b></p>
+<p style="margin-left: 2em;">&#8211; 표준 입/출력(키보드, 모니터) -&gt; 키보드로 값을 받고 모니터로 출력</p>
+<p style="margin-left: 2em;"></p>
+<p style="margin-left: 2em;">&#8211; 파일 입/출력 -&gt; 어떤 파일로 입출력 할수있는지 알수없기에 표준은 없음<br /> <br />&#8211; 네트워크 통신(입/출력)</p>
+<p style="margin-left: 2em;"></p>
+<p style="margin-left: 2em;">&#8230;</p>
+<p style="margin-left: 2em;">&#8211; 표준 입/출력</p>
+<p style="margin-left: 2em;"></p>
+<p style="margin-left: 2em;"> &#8211; input() -&gt; 한 줄을 입력(\n)</p>
+<p style="margin-left: 2em;">   -&gt; 숫자나 다른 형태의 값은 입력 할 수 없다.</p>
+<p style="margin-left: 2em;">   -&gt; 문자로만 입력이 가능</p>
+<p style="margin-left: 2em;">   -&gt; 즉 입력받은 모든 값은 str</p>
+<p style="margin-left: 2em;"></p>
+<p style="margin-left: 2em;">   <span style="color: rgb(140, 140, 140);">해당 명령이 아직 끝나지 않았음. 종료되지 않음.</span> </p>
+<p style="margin-left: 2em;">   <span style="color: rgb(140, 140, 140);">&gt;&gt;&gt;프롬프트가 떠서 다음 명령 입력할 준비가 되어있으면 앞에 실행한게 종료되었다는 뜻</span></p>
+<p style="text-align: left; clear: none; margin-left: 2em; float: none;">   <span class="imageblock" style="display:inline-block;width:205px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="입출력.png" height="229" src="http://cfile25.uf.tistory.com/image/99F100365A43F30A22C5D1" width="205"/></span></p>
+<p style="margin-left: 2em;"></p>
+<p><b></b></p>
+<hr class="tx-hr-border-3" style="display:block; border: black 0 none; border-top: black 1px dotted; height: 1px">
+<p style="margin-left: 2em;"><b><span style="font-size: 12pt;">[연습문제]</span></b></p>
+<p style="margin-left: 2em;"><b></b></p>
+<p style="margin-left: 2em;"><b><span style="font-size: 11pt;">1. 초를 입력 받아서 시간과 분으로 변환하는 프로그램</span></b></p>
+<p style="text-align: left; clear: none; margin-left: 2em; float: none;">  <span class="imageblock" style="display:inline-block;width:556px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="editor_1.png" height="145" src="http://cfile5.uf.tistory.com/image/996563375A43F63E26C8E5" width="556"/></span></p>
+<p style="margin-left: 2em;">  &#8211; shell에서 아닌 editor에서 소스를 작성했다. 일단 내가 초를 입력받으면 한번에 분과 시간을 한번에 출력되는걸 원했기 때문이다.</p>
+<p style="margin-left: 2em;">  &#8211; 일단 sec는 int 형변환 하는 이유는 타입이 str이기 때문에 int 바꾼 후에 계산을 했다.</p>
+<p style="margin-left: 2em;">  &#8211; 소스를 작성한 후 F5 shell에 실행해봤다.</p>
+<p style="text-align: left; clear: none; margin-left: 2em; float: none;">  <span class="imageblock" style="display:inline-block;width:677px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="shell1_1.png" height="54" src="http://cfile1.uf.tistory.com/image/99B06A3F5A43F9532B0D74" width="677"/></span></p>
+<p style="margin-left: 2em;">  &#8211; editor을 shell에 실행하게 된다면 이런 화면이 나온다. 초 : 이곳에 숫자를 작성하게 되면 바로 분과 시간이 바뀌게 된다.</p>
+<p style="text-align: left; clear: none; margin-left: 2em; float: none;">  <span class="imageblock" style="display:inline-block;width:419px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="shell1_2.png" height="76" src="http://cfile2.uf.tistory.com/image/9925A73A5A43F99F29AA3A" width="419"/></span></p>
+<p style="text-align: left; clear: none; margin-left: 2em; float: none;">  &#8211; 초에 내가 원하는 숫자를 작성한 후 enter를 누르면 바로 분과 시간이 계산되어 나타난다.</p>
+<p style="margin-left: 2em;"></p>
+<p style="margin-left: 2em;"><b><span style="font-size: 11pt;">2. 섭씨를 입력받아서 화씨로 변환하는 프로그램</span></b><br />   F = 9.0 / 5.0 * C + 32</p>
+<p style="text-align: left; clear: none; margin-left: 2em; float: none;">  <span class="imageblock" style="display:inline-block;width:549px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="editor_2.png" height="95" src="http://cfile21.uf.tistory.com/image/990768385A43FB4E2BEA92" width="549"/></span></p>
+<p style="text-align: left; clear: none; margin-left: 2em; float: none;">  &#8211; 1번 문제와 비슷하게 shell이 아닌 editor에 소스를 작성한 후 shell에 실행을 했다.</p>
+<p style="text-align: left; clear: none; margin-left: 2em; float: none;">  &#8211; 일단 섭씨는 정수이기 때문에 int로 형변환을 했고, 화씨는 정수가 아닌 다른 수도 나올수 있기 때문에 float로 형변환을 했다.</p>
+<p style="text-align: left; clear: none; margin-left: 2em; float: none;">  <span class="imageblock" style="display:inline-block;width:474px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="shell2_!.png" height="40" src="http://cfile4.uf.tistory.com/image/990335385A43FA942AAEF2" width="474"/></span></p>
+<p style="text-align: left; clear: none; margin-left: 2em; float: none;"><span style="display: inline !important; float: none; background-color: transparent; color: rgb(0, 0, 0); font-family: Gulim,굴림; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;">  &#8211; editor을 shell에 실행하게 된다면 이런 화면이 나온다. 섭씨 : 이곳에 정수를 작성하게 되면 바로 계산되어 화씨가 출력이 된다.</span></p>
+<p style="text-align: left; clear: none; margin-left: 2em; float: none;">  <span class="imageblock" style="display:inline-block;width:440px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="shell2_2.png" height="56" src="http://cfile28.uf.tistory.com/image/999896405A43FC1E2E3C74" width="440"/></span></p>
+<p style="margin-left: 2em;"></p>
+<p style="margin-left: 2em;"><b><span style="font-size: 11pt;">3. 화씨를 입력받아서 섭씨로 변환하는 프로그램</span></b><br />   C = (5 * F &#8211; 160) / 9.0</p>
+<p style="text-align: left; clear: none; margin-left: 2em; float: none;">  <span class="imageblock" style="display:inline-block;width:473px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="editor_3.png" height="83" src="http://cfile29.uf.tistory.com/image/99DFD3395A43FD102C7499" width="473"/></span></p>
+<p style="text-align: left; clear: none; margin-left: 2em; float: none;">  &#8211; 연습문제 2번과 비슷하게 소스를 작성했다. 거의 같지만 다른건 화씨가 정수 아닌 수가 나올수 있기 때문에 float로 형변환을 했다.</p>
+<p style="text-align: left; clear: none; margin-left: 2em; float: none;">  &#8211; 화씨에서 섭씨를 입력받을때는 정수가 아닌 다른 수가 나올 확률이 있으므로 int가 아닌 float로 형변환을 했다.</p>
+<p style="text-align: left; clear: none; margin-left: 2em; float: none;">  <span class="imageblock" style="display:inline-block;width:441px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="shell3_1.png" height="38" src="http://cfile30.uf.tistory.com/image/9952B2375A43FDCF2DF35D" width="441"/></span></p>
+<p style="text-align: left; clear: none; margin-left: 2em; float: none;"><span style="display: inline !important; float: none; background-color: transparent; color: rgb(0, 0, 0); font-family: Gulim,굴림; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;">  &#8211; editor을 shell에 실행하게 된다면 이런 화면이 나온다. 화씨 : 이곳에 수를 작성하게 되면 바로 계산되어 섭씨가 출력이 된다.</span><b></b><i></i><u></u><sub></sub><sup></sup><strike></strike></p>
+<p style="text-align: left; clear: none; margin-left: 2em; float: none;">  <span class="imageblock" style="display:inline-block;width:448px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="shell3_2.png" height="61" src="http://cfile28.uf.tistory.com/image/99FF36365A43FE192BCC45" width="448"/></span></p>
+<p style="text-align: left; clear: none; margin-left: 2em; float: none;"></p>
+<hr class="tx-hr-image-1" style="background: url(//i1.daumcdn.net/deco/contents/horizontalrule/line03.gif?v=2) repeat-x scroll left; height: 15px; border:0">
+<p style="margin-left: 2em;"><b>[출처]</b></p>
+<p style="margin-left: 2em;"><b><br /></b></p>
+<p style="background-attachment: scroll; background-clip: border-box; background-color: transparent; background-image: none; background-origin: padding-box; background-position-x: 0%; background-position-y: 0%; background-repeat: repeat; background-size: auto; color: rgb(0, 0, 0); font-family: &amp;quot;Ubuntu Condensed&amp;quot;,&amp;quot;Noto Sans Korean&amp;quot;; font-size: 15px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; line-height: 27px; margin-bottom: 0px; margin-left: 30px; margin-top: 0px; orphans: 2; padding-bottom: 0px; padding-top: 0px; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;">파이썬 공식 홈페이지 &#8211; Python.org</p>
+<p style="background-attachment: scroll; background-clip: border-box; background-color: transparent; background-image: none; background-origin: padding-box; background-position-x: 0%; background-position-y: 0%; background-repeat: repeat; background-size: auto; color: rgb(0, 0, 0); font-family: &amp;quot;Ubuntu Condensed&amp;quot;,&amp;quot;Noto Sans Korean&amp;quot;; font-size: 15px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; line-height: 27px; margin-bottom: 0px; margin-left: 30px; margin-top: 0px; orphans: 2; padding-bottom: 0px; padding-top: 0px; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;">책 점프 투 파이썬</p>
+<p style="margin-left: 2em;"></p>
+</hr>
+</hr>
+<hr />
+<p><iframe src='http://ad.selfhow.com/rd' width='100%' border=0 frameborder=0 style='height:auto;width:100%'></iframe></p>
+<p><a href='http://audiojazz.tistory.com/5' target='_blank'>Origin Content : 소소한 지02</a> | <a href="/cdn-cgi/l/email-protection#b7d0d6dad2e8d4d4878786f7d9d6dbd699d0d6" target='_blank'>Contact : <span class="__cf_email__" data-cfemail="f295939f97ad9191c2c2c3b29c939e93dc9593">[email&#160;protected]</span></a>
+</p>
+<p>Cotent License : CC-BY </p>
+<p>This content is collected under the CCL license.</p>
+<p>Please check the license of the original article before asking about copyright.</p>
+<ul>
+<li><a href='/tag/Python'>More About <span style='font-weight:bold;'>Python</span></a></li>
+<li><a href='/tag/자료형리스트튜플'>More About <span style='font-weight:bold;'>자료형리스트튜플</span></a></li>
+<li><a href='/tag/변수'>More About <span style='font-weight:bold;'>변수</span></a></li>
+<li><a href='/tag/연습문제'>More About <span style='font-weight:bold;'>연습문제</span></a></li>
+</ul>
+        </div> <!-- //.entry-summary -->
+        
+                    <div class="entry-tags"><b>Tags:</b> <a href="http://da.nala.ga/tag/python/" rel="tag">python</a>, <a href="http://da.nala.ga/tag/%eb%b3%80%ec%88%98/" rel="tag">변수</a>, <a href="http://da.nala.ga/tag/%ec%97%b0%ec%8a%b5%eb%ac%b8%ec%a0%9c/" rel="tag">연습문제</a>, <a href="http://da.nala.ga/tag/%ec%9e%90%eb%a3%8c%ed%98%95%eb%a6%ac%ec%8a%a4%ed%8a%b8%ed%8a%9c%ed%94%8c/" rel="tag">자료형리스트튜플</a></div>
+        
+    </div>
+
+</article> <!--/#post-->
+
+
+
+
+
+                                                                    <div class="post-nav-area">
+                                                    
+            <nav class="next-previous-post clearfix media" role="navigation">
+                <div class="row">
+                    <!-- Previous Post -->
+                    <div class="previous-post col-sm-6 pull-left">
+                        <div class="nav-previous"><i class="fa fa-angle-left"></i> <a href="http://da.nala.ga/4f510-%ed%8c%8c%ec%9d%bc%eb%9f%bf%ec%8b%9d-5%ed%8f%ac%ed%8a%b8-%eb%b0%b8%eb%b8%8c-%ec%95%8c%ec%95%84%eb%b3%b4%ea%b8%b0/" rel="prev">4F510 파일럿식 5포트 밸브 알아보기.</a></div>                    </div>
+
+                    <!-- Next Post -->
+                    <div class="next-post col-sm-6 pull-right text-right">
+                        <div class="nav-next"><a href="http://da.nala.ga/%ec%9e%a5%ec%a7%80%eb%8f%99%ec%9e%85%ec%a3%bc%ec%b2%ad%ec%86%8c-%ec%9c%84%eb%a1%80%ec%86%a1%ed%8c%8c%ed%9e%90%ec%8a%a4%ed%85%8c%ec%9d%b4%ed%8a%b8-%ec%9e%85%ec%a3%bc%ec%b2%ad%ec%86%8c-%ec%a4%84/" rel="next">장지동입주청소 위례송파힐스테이트 입주청소, 줄눈시공,  위례송파힐스테이트, 장지동 위례송파힐스테이트 입주청소, 인테리어 전문업체 크린하우징</a> <i class="fa fa-angle-right"></i></div>                    </div>
+                </div>
+            </nav><!-- .navigation -->
+            
+                                            </div>
+                                
+                                
+                            
+                                            </main> <!-- /.site-main -->
+                </div>  <!-- /.content-area -->
+            </div> <!-- /col -->
+
+            <!-- Blogsidebar -->
+            
+	<div class="col-md-4">
+	    <div class="primary-sidebar widget-area" role="complementary">
+	        <div id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="http://da.nala.ga/">
+				<label>
+					<span class="screen-reader-text">검색:</span>
+					<input type="search" class="search-field" placeholder="검색 &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="검색" />
+			</form></div>		<div id="recent-posts-2" class="widget widget_recent_entries">		<h2 class="widget-title">최근 글</h2>		<ul>
+					<li>
+				<a href="http://da.nala.ga/%ea%b5%90%ed%99%98%ed%95%99%ec%83%9d%ec%a4%80%eb%b9%84part2-%ed%94%84%eb%9e%91%ec%8a%a4-sciences-po-%ec%a7%80%ec%9b%90-%ea%b3%bc%ec%a0%95%ea%b3%bc-%ea%b7%b8-%ec%a0%84-%ec%95%8c%ec%95%84%ec%95%bc/">[교환학생준비PART2] 프랑스 Sciences Po 지원 과정과 그 전 알아야할 것들!</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%b0%95%ea%b7%bc%ed%98%9c-%ec%b5%9c%ec%88%9c%ec%8b%a4-%ea%b2%8c%ec%9d%b4%ed%8a%b8%eb%a5%bc-%eb%b0%9d%ed%98%80%eb%82%b8-%ec%9d%bc%eb%93%b1%ea%b3%b5%ec%8b%a0-%ec%95%88%eb%af%bc%ec%84%9d/">박근혜 최순실 게이트를 밝혀낸 일등공신 안민석</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%b0%b0%ed%8b%80%ea%b7%b8%eb%9d%bc%ec%9a%b4%eb%93%9c-%ec%a0%95%ec%8b%9d%eb%b2%84%ec%a0%84-1-0%ed%8c%a8%ec%b9%98-%eb%ac%b4%ec%97%87%ec%9d%b4-%eb%b0%94%eb%80%8c%eb%82%98%ec%9a%94/">배틀그라운드 정식버전 1.0패치 무엇이 바뀌나요?</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%91%90%eb%87%8c%eb%a5%bc-%ea%b1%b4%ea%b0%95%ed%95%98%ea%b2%8c-%eb%a7%8c%eb%93%9c%eb%8a%94-4%ec%b2%9c%eb%b3%b4%ec%9d%98-%ea%b1%b8%ec%9d%8c/">두뇌를 건강하게 만드는 4천보의 걸음</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%af%b8%ea%b5%ad-%ec%9c%a0%ed%95%99-%ec%a0%95%eb%b3%b4-%ed%95%9c%ea%b5%ad-%eb%82%b4%ec%8b%a0-%ec%84%b1%ec%a0%81%eb%a7%8c%ec%9c%bc%eb%a1%9c-%eb%af%b8%ea%b5%ad-%eb%aa%85%eb%ac%b8%eb%8c%80-%ea%b0%80/">미국 유학  정보 &#8211; 한국 내신 성적만으로 미국 명문대 가기</a>
+						</li>
+				</ul>
+		</div>		<div id="tag_cloud-2" class="widget widget_tag_cloud"><h2 class="widget-title">태그</h2><div class="tagcloud"><a href="http://da.nala.ga/tag/1%ec%9b%94/" class="tag-cloud-link tag-link-35 tag-link-position-1" style="font-size: 14.892307692308pt;" aria-label="1월 (47 아이템)">1월</a>
+<a href="http://da.nala.ga/tag/2017/" class="tag-cloud-link tag-link-510 tag-link-position-2" style="font-size: 19.415384615385pt;" aria-label="2017 (76 아이템)">2017</a>
+<a href="http://da.nala.ga/tag/2017%eb%85%84/" class="tag-cloud-link tag-link-8 tag-link-position-3" style="font-size: 18.123076923077pt;" aria-label="2017년 (66 아이템)">2017년</a>
+<a href="http://da.nala.ga/tag/2018/" class="tag-cloud-link tag-link-61 tag-link-position-4" style="font-size: 14.461538461538pt;" aria-label="2018 (45 아이템)">2018</a>
+<a href="http://da.nala.ga/tag/2018%eb%85%84/" class="tag-cloud-link tag-link-103 tag-link-position-5" style="font-size: 18.984615384615pt;" aria-label="2018년 (73 아이템)">2018년</a>
+<a href="http://da.nala.ga/tag/vs/" class="tag-cloud-link tag-link-943 tag-link-position-6" style="font-size: 9.5076923076923pt;" aria-label="vs (26 아이템)">vs</a>
+<a href="http://da.nala.ga/tag/%ec%98%81%ed%99%94/" class="tag-cloud-link tag-link-1375 tag-link-position-7" style="font-size: 14.246153846154pt;" aria-label="“영화 (44 아이템)">“영화</a>
+<a href="http://da.nala.ga/tag/%ea%b0%80%ea%b2%a9/" class="tag-cloud-link tag-link-63 tag-link-position-8" style="font-size: 12.953846153846pt;" aria-label="가격 (38 아이템)">가격</a>
+<a href="http://da.nala.ga/tag/%ea%b0%80%ec%83%81%ed%99%94%ed%8f%90/" class="tag-cloud-link tag-link-1479 tag-link-position-9" style="font-size: 9.0769230769231pt;" aria-label="가상화폐 (25 아이템)">가상화폐</a>
+<a href="http://da.nala.ga/tag/%ea%b2%80%ec%9d%80%ec%82%ac%eb%a7%89/" class="tag-cloud-link tag-link-341 tag-link-position-10" style="font-size: 8.8615384615385pt;" aria-label="검은사막 (24 아이템)">검은사막</a>
+<a href="http://da.nala.ga/tag/%ea%b2%8c%ec%9e%84/" class="tag-cloud-link tag-link-391 tag-link-position-11" style="font-size: 22pt;" aria-label="게임 (102 아이템)">게임</a>
+<a href="http://da.nala.ga/tag/%ea%b3%b5%ea%b0%9c/" class="tag-cloud-link tag-link-938 tag-link-position-12" style="font-size: 9.5076923076923pt;" aria-label="공개 (26 아이템)">공개</a>
+<a href="http://da.nala.ga/tag/%ea%b3%b5%eb%9e%b5/" class="tag-cloud-link tag-link-1018 tag-link-position-13" style="font-size: 8.8615384615385pt;" aria-label="공략 (24 아이템)">공략</a>
+<a href="http://da.nala.ga/tag/%eb%8b%a4%ec%9a%b4%eb%a1%9c%eb%93%9c/" class="tag-cloud-link tag-link-364 tag-link-position-14" style="font-size: 8.4307692307692pt;" aria-label="다운로드 (23 아이템)">다운로드</a>
+<a href="http://da.nala.ga/tag/%eb%8c%80%ed%95%b4%ec%84%9c/" class="tag-cloud-link tag-link-1629 tag-link-position-15" style="font-size: 8.8615384615385pt;" aria-label="대해서 (24 아이템)">대해서</a>
+<a href="http://da.nala.ga/tag/%eb%a6%ac%eb%b7%b0/" class="tag-cloud-link tag-link-555 tag-link-position-16" style="font-size: 15.969230769231pt;" aria-label="리뷰 (53 아이템)">리뷰</a>
+<a href="http://da.nala.ga/tag/%eb%a7%9b%ec%a7%91/" class="tag-cloud-link tag-link-4173 tag-link-position-17" style="font-size: 9.9384615384615pt;" aria-label="맛집 (27 아이템)">맛집</a>
+<a href="http://da.nala.ga/tag/%eb%aa%a8%eb%b0%94%ec%9d%bc/" class="tag-cloud-link tag-link-835 tag-link-position-18" style="font-size: 10.584615384615pt;" aria-label="모바일 (29 아이템)">모바일</a>
+<a href="http://da.nala.ga/tag/%eb%ac%b4%eb%a3%8c/" class="tag-cloud-link tag-link-827 tag-link-position-19" style="font-size: 13.384615384615pt;" aria-label="무료 (40 아이템)">무료</a>
+<a href="http://da.nala.ga/tag/%eb%b0%a9%eb%b2%95/" class="tag-cloud-link tag-link-529 tag-link-position-20" style="font-size: 15.323076923077pt;" aria-label="방법 (49 아이템)">방법</a>
+<a href="http://da.nala.ga/tag/%eb%b9%84%ed%8a%b8%ec%bd%94%ec%9d%b8/" class="tag-cloud-link tag-link-1478 tag-link-position-21" style="font-size: 9.0769230769231pt;" aria-label="비트코인 (25 아이템)">비트코인</a>
+<a href="http://da.nala.ga/tag/%ec%84%a4%ec%b9%98/" class="tag-cloud-link tag-link-360 tag-link-position-22" style="font-size: 8pt;" aria-label="설치 (22 아이템)">설치</a>
+<a href="http://da.nala.ga/tag/%ec%86%8c%ea%b0%9c/" class="tag-cloud-link tag-link-297 tag-link-position-23" style="font-size: 8.4307692307692pt;" aria-label="소개 (23 아이템)">소개</a>
+<a href="http://da.nala.ga/tag/%ec%88%9c%ec%9c%84/" class="tag-cloud-link tag-link-12 tag-link-position-24" style="font-size: 11.230769230769pt;" aria-label="순위 (31 아이템)">순위</a>
+<a href="http://da.nala.ga/tag/%ec%8b%9c%ec%9e%91/" class="tag-cloud-link tag-link-579 tag-link-position-25" style="font-size: 8.4307692307692pt;" aria-label="시작 (23 아이템)">시작</a>
+<a href="http://da.nala.ga/tag/%ec%95%88%eb%82%b4/" class="tag-cloud-link tag-link-338 tag-link-position-26" style="font-size: 10.584615384615pt;" aria-label="안내 (29 아이템)">안내</a>
+<a href="http://da.nala.ga/tag/%ec%95%8c%ec%95%84%eb%b3%b4%ea%b8%b0/" class="tag-cloud-link tag-link-1939 tag-link-position-27" style="font-size: 12.523076923077pt;" aria-label="알아보기 (36 아이템)">알아보기</a>
+<a href="http://da.nala.ga/tag/%ec%95%8c%ec%95%84%eb%b3%b4%ec%9e%90/" class="tag-cloud-link tag-link-369 tag-link-position-28" style="font-size: 11.661538461538pt;" aria-label="알아보자 (33 아이템)">알아보자</a>
+<a href="http://da.nala.ga/tag/%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8/" class="tag-cloud-link tag-link-567 tag-link-position-29" style="font-size: 9.0769230769231pt;" aria-label="업데이트 (25 아이템)">업데이트</a>
+<a href="http://da.nala.ga/tag/%ec%97%ac%ed%96%89/" class="tag-cloud-link tag-link-1122 tag-link-position-30" style="font-size: 12.738461538462pt;" aria-label="여행 (37 아이템)">여행</a>
+<a href="http://da.nala.ga/tag/%ec%98%a4%eb%b8%8c/" class="tag-cloud-link tag-link-271 tag-link-position-31" style="font-size: 10.8pt;" aria-label="오브 (30 아이템)">오브</a>
+<a href="http://da.nala.ga/tag/%ec%98%a8%eb%9d%bc%ec%9d%b8/" class="tag-cloud-link tag-link-328 tag-link-position-32" style="font-size: 11.876923076923pt;" aria-label="온라인 (34 아이템)">온라인</a>
+<a href="http://da.nala.ga/tag/%ec%9c%84%ed%95%9c/" class="tag-cloud-link tag-link-183 tag-link-position-33" style="font-size: 13.169230769231pt;" aria-label="위한 (39 아이템)">위한</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%eb%b2%a4%ed%8a%b8/" class="tag-cloud-link tag-link-723 tag-link-position-34" style="font-size: 13.169230769231pt;" aria-label="이벤트 (39 아이템)">이벤트</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%ec%95%bc%ea%b8%b0/" class="tag-cloud-link tag-link-861 tag-link-position-35" style="font-size: 10.8pt;" aria-label="이야기 (30 아이템)">이야기</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%ec%9c%a0/" class="tag-cloud-link tag-link-1482 tag-link-position-36" style="font-size: 9.9384615384615pt;" aria-label="이유 (27 아이템)">이유</a>
+<a href="http://da.nala.ga/tag/%ec%9d%bc%eb%b3%b8/" class="tag-cloud-link tag-link-1007 tag-link-position-37" style="font-size: 8.4307692307692pt;" aria-label="일본 (23 아이템)">일본</a>
+<a href="http://da.nala.ga/tag/%ec%a0%95%eb%a6%ac/" class="tag-cloud-link tag-link-65 tag-link-position-38" style="font-size: 11.876923076923pt;" aria-label="정리 (34 아이템)">정리</a>
+<a href="http://da.nala.ga/tag/%ec%a0%95%eb%b3%b4/" class="tag-cloud-link tag-link-610 tag-link-position-39" style="font-size: 17.261538461538pt;" aria-label="정보 (61 아이템)">정보</a>
+<a href="http://da.nala.ga/tag/%ec%b4%9d%ec%a0%95%eb%a6%ac/" class="tag-cloud-link tag-link-179 tag-link-position-40" style="font-size: 8.4307692307692pt;" aria-label="총정리 (23 아이템)">총정리</a>
+<a href="http://da.nala.ga/tag/%ec%b5%9c%ea%b3%a0/" class="tag-cloud-link tag-link-404 tag-link-position-41" style="font-size: 11.876923076923pt;" aria-label="최고 (34 아이템)">최고</a>
+<a href="http://da.nala.ga/tag/%ec%b6%94%ec%b2%9c/" class="tag-cloud-link tag-link-367 tag-link-position-42" style="font-size: 20.707692307692pt;" aria-label="추천 (89 아이템)">추천</a>
+<a href="http://da.nala.ga/tag/%ec%b6%9c%ec%8b%9c/" class="tag-cloud-link tag-link-612 tag-link-position-43" style="font-size: 10.584615384615pt;" aria-label="출시 (29 아이템)">출시</a>
+<a href="http://da.nala.ga/tag/%ed%95%9c%ea%b5%ad/" class="tag-cloud-link tag-link-1483 tag-link-position-44" style="font-size: 10.153846153846pt;" aria-label="한국 (28 아이템)">한국</a>
+<a href="http://da.nala.ga/tag/%ed%9b%84%ea%b8%b0/" class="tag-cloud-link tag-link-114 tag-link-position-45" style="font-size: 19.2pt;" aria-label="후기 (74 아이템)">후기</a></div>
+</div>	    </div>
+	</div>
+
+        </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+    </div>
+    <footer class="site-footer" role="contentinfo">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+  
+                    <p></p>
+                    
+                                            <div class="footer-social-icons">
+                                                                                                                                                                                                                                                                                                                                                                                                        
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+            <div class="scroll-up">
+            <a href="#"><i class="fa fa-angle-up"></i></a>
+        </div>
+        <!-- Scroll Up -->
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/af2821b0/cloudflare-static/email-decode.min.js"></script><script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/bootstrap.min.js?ver=3.3.5'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/scripts.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/jquery.fitvids.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/smoothscroll.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/wp-embed.min.js?ver=4.8.4'></script>
+    </body>
+</html>

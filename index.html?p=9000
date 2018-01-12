@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="http://da.nala.ga/xmlrpc.php">
+
+<title>맞춤법 검사는 이렇게 간단히(feat 잡코리아) | All About CC</title>
+<meta name='robots' content='noindex,follow' />
+
+<!-- All in One SEO Pack 2.4.3.1 by Michael Torbert of Semper Fi Web Design[276,330] -->
+<link rel="canonical" href="http://da.nala.ga/%eb%a7%9e%ec%b6%a4%eb%b2%95-%ea%b2%80%ec%82%ac%eb%8a%94-%ec%9d%b4%eb%a0%87%ea%b2%8c-%ea%b0%84%eb%8b%a8%ed%9e%88feat-%ec%9e%a1%ec%bd%94%eb%a6%ac%ec%95%84/" />
+<!-- /all in one seo pack -->
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 피드" href="http://da.nala.ga/feed/" />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 댓글 피드" href="http://da.nala.ga/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 맞춤법 검사는 이렇게 간단히(feat 잡코리아) 댓글 피드" href="http://da.nala.ga/%eb%a7%9e%ec%b6%a4%eb%b2%95-%ea%b2%80%ec%82%ac%eb%8a%94-%ec%9d%b4%eb%a0%87%ea%b2%8c-%ea%b0%84%eb%8b%a8%ed%9e%88feat-%ec%9e%a1%ec%bd%94%eb%a6%ac%ec%95%84/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/da.nala.ga\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.4"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bootstrap-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/bootstrap.min.css?ver=3.3.5' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/font-awesome.min.css?ver=4.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='shaped-blog-stylesheet-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/style.css?ver=4.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/responsive.css' type='text/css' media='all' />
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://da.nala.ga/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://da.nala.ga/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://da.nala.ga/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='레이먼킴의 알리오올리오 스파게티' href='http://da.nala.ga/%eb%a0%88%ec%9d%b4%eb%a8%bc%ed%82%b4%ec%9d%98-%ec%95%8c%eb%a6%ac%ec%98%a4%ec%98%ac%eb%a6%ac%ec%98%a4-%ec%8a%a4%ed%8c%8c%ea%b2%8c%ed%8b%b0/' />
+<link rel='next' title='2018년 사대보험 요율 실수령액 궁금하시죠 계산해보세요,, 세금이 올랐내요' href='http://da.nala.ga/2018%eb%85%84-%ec%82%ac%eb%8c%80%eb%b3%b4%ed%97%98-%ec%9a%94%ec%9c%a8-%ec%8b%a4%ec%88%98%eb%a0%b9%ec%95%a1-%ea%b6%81%ea%b8%88%ed%95%98%ec%8b%9c%ec%a3%a0-%ea%b3%84%ec%82%b0%ed%95%b4%eb%b3%b4%ec%84%b8/' />
+<meta name="generator" content="WordPress 4.8.4" />
+<link rel='shortlink' href='http://da.nala.ga/?p=9000' />
+<link rel="alternate" type="application/json+oembed" href="http://da.nala.ga/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fda.nala.ga%2F%25eb%25a7%259e%25ec%25b6%25a4%25eb%25b2%2595-%25ea%25b2%2580%25ec%2582%25ac%25eb%258a%2594-%25ec%259d%25b4%25eb%25a0%2587%25ea%25b2%258c-%25ea%25b0%2584%25eb%258b%25a8%25ed%259e%2588feat-%25ec%259e%25a1%25ec%25bd%2594%25eb%25a6%25ac%25ec%2595%2584%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://da.nala.ga/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fda.nala.ga%2F%25eb%25a7%259e%25ec%25b6%25a4%25eb%25b2%2595-%25ea%25b2%2580%25ec%2582%25ac%25eb%258a%2594-%25ec%259d%25b4%25eb%25a0%2587%25ea%25b2%258c-%25ea%25b0%2584%25eb%258b%25a8%25ed%259e%2588feat-%25ec%259e%25a1%25ec%25bd%2594%25eb%25a6%25ac%25ec%2595%2584%2F&#038;format=xml" />
+
+	<style>
+
+		/* Border Color */
+		.btn-social:hover,
+		blockquote,
+		#respond input:focus[type="text"], 
+	    #respond input:focus[type="email"], 
+	    #respond input:focus[type="url"],
+	    #respond textarea:focus,
+	    #comments .comment-reply a:hover
+		{
+			border-color: ;
+		}
+
+		
+		/* Background Color */
+		.scroll-up a,
+		.btn-social:hover,
+		button,
+		input[type="button"],
+		input[type="reset"],
+		input[type="submit"],
+		.navbar-default .navbar-nav .dropdown-menu li a:hover, .dropdown-menu li a:focus, .navbar-default .navbar-nav .dropdown-menu .active a,
+		.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover, .pagination li .current,
+		.next-previous-posts .next-post a:hover,
+		.next-previous-posts .previous-post a:hover,
+		.btn-goback,
+		.btn-submit,
+		a.more-link,
+		.featured-post .fa,
+		#comments .comment-reply a:hover,
+		.widget .tagcloud a
+		{
+			background-color: ;
+		}
+
+		
+		/* Color */
+		.text-logo a,
+		.navbar-default .navbar-nav .active a, .navbar-default .navbar-nav .active a:hover, .navbar-default .navbar-nav .active a:focus,
+		.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus,
+		a:hover,
+    	a:focus,
+		.next-previous-posts .previous-post a,
+		.next-previous-posts .next-post a,
+		.pagination>li>a, .pagination>li>span,
+		#comments .comment-author a:hover, 
+    	#respond .logged-in-as a:hover,
+    	#wp-calendar a,
+    	h2.entry-title a:hover
+		{
+			color: ;
+		}
+
+
+		/* A Color */
+		a{
+			color: ;
+		}
+
+		/* a:hover Color */
+		a:hover,
+		a:focus,
+		a:active,
+		.widget a:hover,
+		.post .post-content .entry-meta ul li a:hover
+		{
+			color: ;
+		}
+
+		/* .featured-post .fa:after*/
+		.featured-post .fa:after{
+			border-color:   transparent ;
+		}
+
+
+		
+
+	</style>
+</head>
+
+<body class="post-template-default single single-post postid-9000 single-format-standard">
+
+    <div id="st-preloader">
+        <div id="pre-status">
+            <div class="preload-placeholder"></div>
+        </div>
+    </div>
+<!-- /Preloader -->
+
+<header id="header">	
+	<div id="trueHeader">
+    	<div class="wrapper">
+            <div class="container">
+            	<!-- Menu -->
+            	<div class="menu_main">
+                	<div class="navbar blogx-navbar navbar-default">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#st-navber-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+
+                                                            <div class="text-logo">
+                                    <a href="http://da.nala.ga">All About CC</a>
+                                    <p>All About CC Contents</p>
+                                </div><!-- /Logo -->
+                                                    </div>
+                      
+                        <div id="st-navber-collapse" class="navbar-collapse collapse pull-right">
+                             
+                        </div>
+                    </div>
+            	</div><!-- end menu -->
+        	</div> <!-- /.container -->
+    	</div>
+	</div>
+	<DIV class='ads_adsense_img' style='margin:40px 0px 40px 0px;'>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- only display -->
+	<ins class="adsbygoogle"
+	     style="display:block"
+	     data-ad-client="ca-pub-8393857339019314"
+	     data-ad-slot="7474886381"
+	     data-ad-format="auto"></ins>
+	<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+	</DIV>	
+</header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div id="primary" class="content-area">
+                    <main id="main" class="site-main" role="main">
+
+                        
+                                <article id="post-9000" class="post-9000 post type-post status-publish format-standard hentry category-uncategorized tag-feat tag-14305 tag-7433 tag-2760 tag-14307">
+    <header class="entry-header">
+        
+        
+    </header> <!--/.entry-header -->
+
+    <div class="clearfix post-content media">
+
+        <h2 class="entry-title">
+            맞춤법 검사는 이렇게 간단히(feat 잡코리아)        </h2> <!-- //.entry-title -->
+
+        <div class="clearfix entry-meta">
+            
+            <ul class="list-inline">
+                <li>
+                    <span class="author vcard">
+                        By <a class="url fn n" href="http://da.nala.ga/author/site-admin/">site-admin</a>                    </span>
+                </li>
+                <li>
+                    on <span class="posted-on">1월 10, 2018</span>
+                </li>
+                                    <li>
+                        in <span class="posted-in">
+                            <a href="http://da.nala.ga/category/uncategorized/" rel="category tag">미분류</a>                        </span>
+                    </li>
+                            </ul>
+                </div> <!--/.entry-meta -->
+        
+        <div class="entry-summary">
+            <p><img src='http://cfile25.uf.tistory.com/image/99C9D0335A53577D0EA2BC' style='max-width:250px;min-width:0px;' onError='this.style.display="none"' /></p>
+<h1>3줄 요약 </h1>
+<div style='color:#fff;background-color:#000;border-radius:10px;'>
+<ol>
+<li><span>그 다음 아래의 화면처럼 &#8216;잡코리아 맞춤법 검사기&#8217;가 등장하게 됩니다.  <small>&#8230;중략&#8230;</small> 한 대체어가 나오고, 왜 그런지 도움말 정보가 나와서 이해를 도와줍니다.</span></li>
+<li><span>이해를 돕기 위해서 예로 든 문장은 수필가 &#8216;피천득&#8217;님의 인연에서 발췌 했습니다. 일부러 맞춤법 작성한거니 오해하지 않으셨으면 합니다^^</span></li>
+<li><span>&#8211; 운전면허 결격기간 초간단 조회방법</span></li>
+</ol>
+</div>
+<p><span id="more-9000"></span></p>
+<p><iframe src='http://ad.selfhow.com/rd' width='100%' border=0 frameborder=0 style='height:auto;width:100%'></iframe></p>
+<hr />
+<div style="text-align:center;margin:0 0 10px 0;">
+<!-- 상단광고 -->
+</div>
+<p style="text-align: center;"><b><span style="font-size: 12pt;">맞춤법 검사는 이렇게 간단히</span><span style="font-size: 12pt;">(feat 잡코리아)</span></b></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:500px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="job-search-276893_1280.jpg" height="333" src="http://cfile25.uf.tistory.com/image/99C9D0335A53577D0EA2BC" style="" width="500"/></span></p>
+<p style="text-align: left;">안녕하세요. 낙화유수G 입니다. 월요병을 이겨내시느라 오늘 하루도 수고 하셨습니다. 요즘은 취업의 관문을 뚫는게 참 어려운 시기인거 같습니다. 매일 나오는 뉴스 기사들을 보아도 미취업자의 수 중에서 거의 절반 가까이가 젊은 층이 주를 이룬다고 합니다. 그리고 주위에도 아직 취업준비로 힘겨운 나날들을 보내고 있는 지인들도 제법 많습니다. </p>
+<p style="text-align: left;">
+<!-- 반응형 진짜 --></p>
+<p style="text-align: left;">그만큼 취업의 문이 견고하고 경쟁이 나날히 치열하다고 볼 수 있습니다. 취업의 첫번째 관문이 무엇일까요? 그것은 바로 <b>자기 소개서</b>와 <b>이력서 작성</b>이 아닐까 합니다. <b></b>정성들여 자기 소개서, 이력서를 작성하고 그 내용도 정말 알차더라도 맞춤법이 맞지 않는 글이라든지, 띄어쓰기가 올바르지 못하다면 면접관 눈에 좋게 보이지 않겠죠. 심지어는 그 내용을 다 읽어보지도 않고 휴지통에 버려지게 될 수도 있습니다. 내가 원하는 기업에 취업을 하기 위한 이력서가 한 두통이 아니기 때문에 빨리 빨리 걸러내게 되는데, 그 걸러지는 이력서가 내 것이 되면 안되겠습니다. </p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:500px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="building-804526_1280.jpg" height="366" src="http://cfile27.uf.tistory.com/image/99B302475A53577B13E8D2" style="" width="500"/></span></p>
+<p style="text-align: left;">그래서 오늘은 취업의 관문을 뚫고 멋지고 당당한 직장인이 될 우리의 청춘들을 위해 <b>잡코리아 맞춤법 검사기 활용 방법</b>에 대해서 알아보고자 합니다. 쉬우니까 천천히 이 글을 보시면서 따라오시면 됩니다. 아래의 사진 처럼 먼저 평소에 자주 이용하시는 포털사이트에 접속하셔서 검색창에 &#8216;잡코리아&#8217;를 입력해 주세요. 잡코리아 홈페이지로 클릭해 들어가시면 됩니다. </p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:500px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="Inkeddaum_net_20180108_200610_LI.jpg" height="183" src="http://cfile25.uf.tistory.com/image/99B3B64D5A5350CD12174F" width="500"/></span></p>
+<p style="text-align: left;">접속해 들어가시면 취업을 준비하시고 새로운 도약을 꿈꾸시는 이들에게는 익숙한 &#8216;잡코리아 홈페이지&#8217; 메인 화면이 나옵니다. 그리고 상단의 오른쪽을 보시면 &#8216;맞춤법검사&#8217; 탭이 보이실 거에요. 여기로 커서를 맞추시고 클릭하시면 됩니다.</p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:500px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="Inkedjobkorea_co_kr_20180108_200849_LI.jpg" height="168" src="http://cfile28.uf.tistory.com/image/99E1FE375A53516916DCBF" width="500"/></span></p>
+<p style="text-align: left;">그 다음 아래의 화면처럼 &#8216;잡코리아 맞춤법 검사기&#8217;가 등장하게 됩니다. 예를 들어 &#8220;얼마나 고운 인연이기에 우리는 만났을까요. 이 인연 다하고나도 당신앞에 다시 서게 하소서 &#8220;라고 작성을 한 후에 잡코리아 맞춤법 검사기를 클릭해 보았습니다. </p>
+<table align="center" border="0" cellpadding="0" cellspacing="5">
+<tbody>
+<tr>
+<td><span class="imageblock" style="display:inline-block;width:250px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="jobkorea_co_kr_20180108_201842.jpg" height="73" src="http://cfile7.uf.tistory.com/image/99AEBF395A5353A32C04EA" width="250"/></span></td>
+<td><span class="imageblock" style="display:inline-block;width:250px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="jobkorea_co_kr_20180108_201854.jpg" height="79" src="http://cfile1.uf.tistory.com/image/996CBE365A5353A427A26A" width="250"/></span></td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: left;">그러면 붉은색으로 표시된 부분이 제가 작성한 문장에서 맞춤법 상으로 틀린 곳인데, 마우스로 쭉 밑으로 스크롤해 내려가시면 틀린 단어에 대한 대체어가 나오고, 왜 그런지 도움말 정보가 나와서 이해를 도와줍니다. </p>
+<p style="text-align: left;">
+<!-- 반응형1 링크광고 --></p>
+<p style="text-align: left;">이해를 돕기 위해서 예로 든 문장은 수필가 &#8216;피천득&#8217;님의 인연에서 발췌 했습니다. 일부러 맞춤법 작성한거니 오해하지 않으셨으면 합니다^^ </p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:500px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="jobkorea_co_kr_20180108_202031.jpg" height="117" src="http://cfile22.uf.tistory.com/image/993166345A5354461226B0" width="500"/></span></p>
+<p style="text-align: left;">
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:500px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="jobkorea_co_kr_20180108_202054.jpg" height="275" src="http://cfile4.uf.tistory.com/image/99D94D355A5354480E3939" width="500"/></span></p>
+<p style="text-align: left;">이러한 방식으로 취업을 준비하시는 여러분들이 작성하고자 하는 자기 소개서와 이력서를 여기서 연습을 많이 해보시면 좋을거 같습니다. 요즘 같이 스마트한 세대에는 워낙 스마트폰으로 SNS 등을 통해서 순간 순간 생각 전달만 하고 내용만 간추려 전달하는 것이 익숙해 장문의 글을 작성하기가 쉽지가 않습니다. </p>
+<p style="text-align: left;">
+<!-- 반응형1 링크광고 --></p>
+<p style="text-align: left;">하지만 인생의 중요한 관문인 면접에서는 정확한 맞춤법으로 여러분들의 생각을 명확히 전달하는 것이 중요하고, 또 얼마나 절실한지도 평가기준에 들어가니 아무쪼록 이 글을 보는 모든 이들이 합격의 기쁨을 누렸으면 좋겠습니다. 긴 글 읽어주셔서 감사합니다. 이상으로 &#8216;맞춤법 검사는 이렇게 간단히(feat 잡코리아)&#8217; 였습니다. </p>
+<p style="text-align: left;"></p>
+<p style="text-align: left;">추천글</p>
+<p style="text-align: left;"><a href="http://mutual-love.tistory.com/109" target="_blank">&#8211; 2018년 공휴일 총정리,나야 나</a></p>
+<p style="text-align: left;"><a href="http://mutual-love.tistory.com/95" target="_blank">&#8211; 2018년 주휴수당 알아보기</a></p>
+<p style="text-align: left;"><a href="http://mutual-love.tistory.com/90" target="_blank">&#8211; 스타벅스 영업시간 확인하기[최신판]</a></p>
+<p style="text-align: left;"><a href="http://mutual-love.tistory.com/88" target="_blank">&#8211; 운전면허 결격기간 초간단 조회방법</a></p>
+<p style="text-align: left;"><a href="http://mutual-love.tistory.com/85" target="_blank">&#8211; 휴학 증명서 발급, 쉽게 따라하기</a></p>
+<p style="text-align: left;"></p>
+<p style="text-align: left;">
+<!-- 반응형 진짜 --></p>
+<p style="text-align: left;"></p>
+<hr />
+<p><iframe src='http://ad.selfhow.com/rd' width='100%' border=0 frameborder=0 style='height:auto;width:100%'></iframe></p>
+<p><a href='http://mutual-love.tistory.com/113' target='_blank'>Origin Content : 낙화유수G의 런앤건</a> | <a href="/cdn-cgi/l/email-protection#c2a7a1ad9da1a1f2f2f382aca3aea3eca5a3" target='_blank'>Contact : <span class="__cf_email__" data-cfemail="9df8fef2c2fefeadadacddf3fcf1fcb3fafc">[email&#160;protected]</span></a>
+</p>
+<p>Cotent License : CC-BY </p>
+<p>This content is collected under the CCL license.</p>
+<p>Please check the license of the original article before asking about copyright.</p>
+<ul>
+<li><a href='/tag/맞춤법'>More About <span style='font-weight:bold;'>맞춤법</span></a></li>
+<li><a href='/tag/검사'>More About <span style='font-weight:bold;'>검사</span></a></li>
+<li><a href='/tag/이렇게'>More About <span style='font-weight:bold;'>이렇게</span></a></li>
+<li><a href='/tag/간단히feat'>More About <span style='font-weight:bold;'>간단히feat</span></a></li>
+<li><a href='/tag/잡코리아'>More About <span style='font-weight:bold;'>잡코리아</span></a></li>
+</ul>
+        </div> <!-- //.entry-summary -->
+        
+                    <div class="entry-tags"><b>Tags:</b> <a href="http://da.nala.ga/tag/%ea%b0%84%eb%8b%a8%ed%9e%88feat/" rel="tag">간단히feat</a>, <a href="http://da.nala.ga/tag/%ea%b2%80%ec%82%ac/" rel="tag">검사</a>, <a href="http://da.nala.ga/tag/%eb%a7%9e%ec%b6%a4%eb%b2%95/" rel="tag">맞춤법</a>, <a href="http://da.nala.ga/tag/%ec%9d%b4%eb%a0%87%ea%b2%8c/" rel="tag">이렇게</a>, <a href="http://da.nala.ga/tag/%ec%9e%a1%ec%bd%94%eb%a6%ac%ec%95%84/" rel="tag">잡코리아</a></div>
+        
+    </div>
+
+</article> <!--/#post-->
+
+
+
+
+
+                                                                    <div class="post-nav-area">
+                                                    
+            <nav class="next-previous-post clearfix media" role="navigation">
+                <div class="row">
+                    <!-- Previous Post -->
+                    <div class="previous-post col-sm-6 pull-left">
+                        <div class="nav-previous"><i class="fa fa-angle-left"></i> <a href="http://da.nala.ga/%eb%a0%88%ec%9d%b4%eb%a8%bc%ed%82%b4%ec%9d%98-%ec%95%8c%eb%a6%ac%ec%98%a4%ec%98%ac%eb%a6%ac%ec%98%a4-%ec%8a%a4%ed%8c%8c%ea%b2%8c%ed%8b%b0/" rel="prev">레이먼킴의 알리오올리오 스파게티</a></div>                    </div>
+
+                    <!-- Next Post -->
+                    <div class="next-post col-sm-6 pull-right text-right">
+                        <div class="nav-next"><a href="http://da.nala.ga/2018%eb%85%84-%ec%82%ac%eb%8c%80%eb%b3%b4%ed%97%98-%ec%9a%94%ec%9c%a8-%ec%8b%a4%ec%88%98%eb%a0%b9%ec%95%a1-%ea%b6%81%ea%b8%88%ed%95%98%ec%8b%9c%ec%a3%a0-%ea%b3%84%ec%82%b0%ed%95%b4%eb%b3%b4%ec%84%b8/" rel="next">2018년 사대보험 요율 실수령액 궁금하시죠 계산해보세요,, 세금이 올랐내요</a> <i class="fa fa-angle-right"></i></div>                    </div>
+                </div>
+            </nav><!-- .navigation -->
+            
+                                            </div>
+                                
+                                
+                            
+                                            </main> <!-- /.site-main -->
+                </div>  <!-- /.content-area -->
+            </div> <!-- /col -->
+
+            <!-- Blogsidebar -->
+            
+	<div class="col-md-4">
+	    <div class="primary-sidebar widget-area" role="complementary">
+	        <div id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="http://da.nala.ga/">
+				<label>
+					<span class="screen-reader-text">검색:</span>
+					<input type="search" class="search-field" placeholder="검색 &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="검색" />
+			</form></div>		<div id="recent-posts-2" class="widget widget_recent_entries">		<h2 class="widget-title">최근 글</h2>		<ul>
+					<li>
+				<a href="http://da.nala.ga/%ea%b5%90%ed%99%98%ed%95%99%ec%83%9d%ec%a4%80%eb%b9%84part2-%ed%94%84%eb%9e%91%ec%8a%a4-sciences-po-%ec%a7%80%ec%9b%90-%ea%b3%bc%ec%a0%95%ea%b3%bc-%ea%b7%b8-%ec%a0%84-%ec%95%8c%ec%95%84%ec%95%bc/">[교환학생준비PART2] 프랑스 Sciences Po 지원 과정과 그 전 알아야할 것들!</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%b0%95%ea%b7%bc%ed%98%9c-%ec%b5%9c%ec%88%9c%ec%8b%a4-%ea%b2%8c%ec%9d%b4%ed%8a%b8%eb%a5%bc-%eb%b0%9d%ed%98%80%eb%82%b8-%ec%9d%bc%eb%93%b1%ea%b3%b5%ec%8b%a0-%ec%95%88%eb%af%bc%ec%84%9d/">박근혜 최순실 게이트를 밝혀낸 일등공신 안민석</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%b0%b0%ed%8b%80%ea%b7%b8%eb%9d%bc%ec%9a%b4%eb%93%9c-%ec%a0%95%ec%8b%9d%eb%b2%84%ec%a0%84-1-0%ed%8c%a8%ec%b9%98-%eb%ac%b4%ec%97%87%ec%9d%b4-%eb%b0%94%eb%80%8c%eb%82%98%ec%9a%94/">배틀그라운드 정식버전 1.0패치 무엇이 바뀌나요?</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%91%90%eb%87%8c%eb%a5%bc-%ea%b1%b4%ea%b0%95%ed%95%98%ea%b2%8c-%eb%a7%8c%eb%93%9c%eb%8a%94-4%ec%b2%9c%eb%b3%b4%ec%9d%98-%ea%b1%b8%ec%9d%8c/">두뇌를 건강하게 만드는 4천보의 걸음</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%af%b8%ea%b5%ad-%ec%9c%a0%ed%95%99-%ec%a0%95%eb%b3%b4-%ed%95%9c%ea%b5%ad-%eb%82%b4%ec%8b%a0-%ec%84%b1%ec%a0%81%eb%a7%8c%ec%9c%bc%eb%a1%9c-%eb%af%b8%ea%b5%ad-%eb%aa%85%eb%ac%b8%eb%8c%80-%ea%b0%80/">미국 유학  정보 &#8211; 한국 내신 성적만으로 미국 명문대 가기</a>
+						</li>
+				</ul>
+		</div>		<div id="tag_cloud-2" class="widget widget_tag_cloud"><h2 class="widget-title">태그</h2><div class="tagcloud"><a href="http://da.nala.ga/tag/1%ec%9b%94/" class="tag-cloud-link tag-link-35 tag-link-position-1" style="font-size: 14.892307692308pt;" aria-label="1월 (47 아이템)">1월</a>
+<a href="http://da.nala.ga/tag/2017/" class="tag-cloud-link tag-link-510 tag-link-position-2" style="font-size: 19.415384615385pt;" aria-label="2017 (76 아이템)">2017</a>
+<a href="http://da.nala.ga/tag/2017%eb%85%84/" class="tag-cloud-link tag-link-8 tag-link-position-3" style="font-size: 18.123076923077pt;" aria-label="2017년 (66 아이템)">2017년</a>
+<a href="http://da.nala.ga/tag/2018/" class="tag-cloud-link tag-link-61 tag-link-position-4" style="font-size: 14.461538461538pt;" aria-label="2018 (45 아이템)">2018</a>
+<a href="http://da.nala.ga/tag/2018%eb%85%84/" class="tag-cloud-link tag-link-103 tag-link-position-5" style="font-size: 18.984615384615pt;" aria-label="2018년 (73 아이템)">2018년</a>
+<a href="http://da.nala.ga/tag/vs/" class="tag-cloud-link tag-link-943 tag-link-position-6" style="font-size: 9.5076923076923pt;" aria-label="vs (26 아이템)">vs</a>
+<a href="http://da.nala.ga/tag/%ec%98%81%ed%99%94/" class="tag-cloud-link tag-link-1375 tag-link-position-7" style="font-size: 14.246153846154pt;" aria-label="“영화 (44 아이템)">“영화</a>
+<a href="http://da.nala.ga/tag/%ea%b0%80%ea%b2%a9/" class="tag-cloud-link tag-link-63 tag-link-position-8" style="font-size: 12.953846153846pt;" aria-label="가격 (38 아이템)">가격</a>
+<a href="http://da.nala.ga/tag/%ea%b0%80%ec%83%81%ed%99%94%ed%8f%90/" class="tag-cloud-link tag-link-1479 tag-link-position-9" style="font-size: 9.0769230769231pt;" aria-label="가상화폐 (25 아이템)">가상화폐</a>
+<a href="http://da.nala.ga/tag/%ea%b2%80%ec%9d%80%ec%82%ac%eb%a7%89/" class="tag-cloud-link tag-link-341 tag-link-position-10" style="font-size: 8.8615384615385pt;" aria-label="검은사막 (24 아이템)">검은사막</a>
+<a href="http://da.nala.ga/tag/%ea%b2%8c%ec%9e%84/" class="tag-cloud-link tag-link-391 tag-link-position-11" style="font-size: 22pt;" aria-label="게임 (102 아이템)">게임</a>
+<a href="http://da.nala.ga/tag/%ea%b3%b5%ea%b0%9c/" class="tag-cloud-link tag-link-938 tag-link-position-12" style="font-size: 9.5076923076923pt;" aria-label="공개 (26 아이템)">공개</a>
+<a href="http://da.nala.ga/tag/%ea%b3%b5%eb%9e%b5/" class="tag-cloud-link tag-link-1018 tag-link-position-13" style="font-size: 8.8615384615385pt;" aria-label="공략 (24 아이템)">공략</a>
+<a href="http://da.nala.ga/tag/%eb%8b%a4%ec%9a%b4%eb%a1%9c%eb%93%9c/" class="tag-cloud-link tag-link-364 tag-link-position-14" style="font-size: 8.4307692307692pt;" aria-label="다운로드 (23 아이템)">다운로드</a>
+<a href="http://da.nala.ga/tag/%eb%8c%80%ed%95%b4%ec%84%9c/" class="tag-cloud-link tag-link-1629 tag-link-position-15" style="font-size: 8.8615384615385pt;" aria-label="대해서 (24 아이템)">대해서</a>
+<a href="http://da.nala.ga/tag/%eb%a6%ac%eb%b7%b0/" class="tag-cloud-link tag-link-555 tag-link-position-16" style="font-size: 15.969230769231pt;" aria-label="리뷰 (53 아이템)">리뷰</a>
+<a href="http://da.nala.ga/tag/%eb%a7%9b%ec%a7%91/" class="tag-cloud-link tag-link-4173 tag-link-position-17" style="font-size: 9.9384615384615pt;" aria-label="맛집 (27 아이템)">맛집</a>
+<a href="http://da.nala.ga/tag/%eb%aa%a8%eb%b0%94%ec%9d%bc/" class="tag-cloud-link tag-link-835 tag-link-position-18" style="font-size: 10.584615384615pt;" aria-label="모바일 (29 아이템)">모바일</a>
+<a href="http://da.nala.ga/tag/%eb%ac%b4%eb%a3%8c/" class="tag-cloud-link tag-link-827 tag-link-position-19" style="font-size: 13.384615384615pt;" aria-label="무료 (40 아이템)">무료</a>
+<a href="http://da.nala.ga/tag/%eb%b0%a9%eb%b2%95/" class="tag-cloud-link tag-link-529 tag-link-position-20" style="font-size: 15.323076923077pt;" aria-label="방법 (49 아이템)">방법</a>
+<a href="http://da.nala.ga/tag/%eb%b9%84%ed%8a%b8%ec%bd%94%ec%9d%b8/" class="tag-cloud-link tag-link-1478 tag-link-position-21" style="font-size: 9.0769230769231pt;" aria-label="비트코인 (25 아이템)">비트코인</a>
+<a href="http://da.nala.ga/tag/%ec%84%a4%ec%b9%98/" class="tag-cloud-link tag-link-360 tag-link-position-22" style="font-size: 8pt;" aria-label="설치 (22 아이템)">설치</a>
+<a href="http://da.nala.ga/tag/%ec%86%8c%ea%b0%9c/" class="tag-cloud-link tag-link-297 tag-link-position-23" style="font-size: 8.4307692307692pt;" aria-label="소개 (23 아이템)">소개</a>
+<a href="http://da.nala.ga/tag/%ec%88%9c%ec%9c%84/" class="tag-cloud-link tag-link-12 tag-link-position-24" style="font-size: 11.230769230769pt;" aria-label="순위 (31 아이템)">순위</a>
+<a href="http://da.nala.ga/tag/%ec%8b%9c%ec%9e%91/" class="tag-cloud-link tag-link-579 tag-link-position-25" style="font-size: 8.4307692307692pt;" aria-label="시작 (23 아이템)">시작</a>
+<a href="http://da.nala.ga/tag/%ec%95%88%eb%82%b4/" class="tag-cloud-link tag-link-338 tag-link-position-26" style="font-size: 10.584615384615pt;" aria-label="안내 (29 아이템)">안내</a>
+<a href="http://da.nala.ga/tag/%ec%95%8c%ec%95%84%eb%b3%b4%ea%b8%b0/" class="tag-cloud-link tag-link-1939 tag-link-position-27" style="font-size: 12.523076923077pt;" aria-label="알아보기 (36 아이템)">알아보기</a>
+<a href="http://da.nala.ga/tag/%ec%95%8c%ec%95%84%eb%b3%b4%ec%9e%90/" class="tag-cloud-link tag-link-369 tag-link-position-28" style="font-size: 11.661538461538pt;" aria-label="알아보자 (33 아이템)">알아보자</a>
+<a href="http://da.nala.ga/tag/%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8/" class="tag-cloud-link tag-link-567 tag-link-position-29" style="font-size: 9.0769230769231pt;" aria-label="업데이트 (25 아이템)">업데이트</a>
+<a href="http://da.nala.ga/tag/%ec%97%ac%ed%96%89/" class="tag-cloud-link tag-link-1122 tag-link-position-30" style="font-size: 12.738461538462pt;" aria-label="여행 (37 아이템)">여행</a>
+<a href="http://da.nala.ga/tag/%ec%98%a4%eb%b8%8c/" class="tag-cloud-link tag-link-271 tag-link-position-31" style="font-size: 10.8pt;" aria-label="오브 (30 아이템)">오브</a>
+<a href="http://da.nala.ga/tag/%ec%98%a8%eb%9d%bc%ec%9d%b8/" class="tag-cloud-link tag-link-328 tag-link-position-32" style="font-size: 11.876923076923pt;" aria-label="온라인 (34 아이템)">온라인</a>
+<a href="http://da.nala.ga/tag/%ec%9c%84%ed%95%9c/" class="tag-cloud-link tag-link-183 tag-link-position-33" style="font-size: 13.169230769231pt;" aria-label="위한 (39 아이템)">위한</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%eb%b2%a4%ed%8a%b8/" class="tag-cloud-link tag-link-723 tag-link-position-34" style="font-size: 13.169230769231pt;" aria-label="이벤트 (39 아이템)">이벤트</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%ec%95%bc%ea%b8%b0/" class="tag-cloud-link tag-link-861 tag-link-position-35" style="font-size: 10.8pt;" aria-label="이야기 (30 아이템)">이야기</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%ec%9c%a0/" class="tag-cloud-link tag-link-1482 tag-link-position-36" style="font-size: 9.9384615384615pt;" aria-label="이유 (27 아이템)">이유</a>
+<a href="http://da.nala.ga/tag/%ec%9d%bc%eb%b3%b8/" class="tag-cloud-link tag-link-1007 tag-link-position-37" style="font-size: 8.4307692307692pt;" aria-label="일본 (23 아이템)">일본</a>
+<a href="http://da.nala.ga/tag/%ec%a0%95%eb%a6%ac/" class="tag-cloud-link tag-link-65 tag-link-position-38" style="font-size: 11.876923076923pt;" aria-label="정리 (34 아이템)">정리</a>
+<a href="http://da.nala.ga/tag/%ec%a0%95%eb%b3%b4/" class="tag-cloud-link tag-link-610 tag-link-position-39" style="font-size: 17.261538461538pt;" aria-label="정보 (61 아이템)">정보</a>
+<a href="http://da.nala.ga/tag/%ec%b4%9d%ec%a0%95%eb%a6%ac/" class="tag-cloud-link tag-link-179 tag-link-position-40" style="font-size: 8.4307692307692pt;" aria-label="총정리 (23 아이템)">총정리</a>
+<a href="http://da.nala.ga/tag/%ec%b5%9c%ea%b3%a0/" class="tag-cloud-link tag-link-404 tag-link-position-41" style="font-size: 11.876923076923pt;" aria-label="최고 (34 아이템)">최고</a>
+<a href="http://da.nala.ga/tag/%ec%b6%94%ec%b2%9c/" class="tag-cloud-link tag-link-367 tag-link-position-42" style="font-size: 20.707692307692pt;" aria-label="추천 (89 아이템)">추천</a>
+<a href="http://da.nala.ga/tag/%ec%b6%9c%ec%8b%9c/" class="tag-cloud-link tag-link-612 tag-link-position-43" style="font-size: 10.584615384615pt;" aria-label="출시 (29 아이템)">출시</a>
+<a href="http://da.nala.ga/tag/%ed%95%9c%ea%b5%ad/" class="tag-cloud-link tag-link-1483 tag-link-position-44" style="font-size: 10.153846153846pt;" aria-label="한국 (28 아이템)">한국</a>
+<a href="http://da.nala.ga/tag/%ed%9b%84%ea%b8%b0/" class="tag-cloud-link tag-link-114 tag-link-position-45" style="font-size: 19.2pt;" aria-label="후기 (74 아이템)">후기</a></div>
+</div>	    </div>
+	</div>
+
+        </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+    </div>
+    <footer class="site-footer" role="contentinfo">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+  
+                    <p></p>
+                    
+                                            <div class="footer-social-icons">
+                                                                                                                                                                                                                                                                                                                                                                                                        
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+            <div class="scroll-up">
+            <a href="#"><i class="fa fa-angle-up"></i></a>
+        </div>
+        <!-- Scroll Up -->
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/af2821b0/cloudflare-static/email-decode.min.js"></script><script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/bootstrap.min.js?ver=3.3.5'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/scripts.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/jquery.fitvids.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/smoothscroll.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/wp-embed.min.js?ver=4.8.4'></script>
+    </body>
+</html>

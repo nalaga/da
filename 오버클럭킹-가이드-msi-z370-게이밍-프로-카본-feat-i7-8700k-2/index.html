@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="http://da.nala.ga/xmlrpc.php">
+
+<title>오버클럭킹 가이드 : MSI Z370 게이밍 프로 카본 (feat. i7-8700K) | All About CC</title>
+<meta name='robots' content='noindex,follow' />
+
+<!-- All in One SEO Pack 2.4.3.1 by Michael Torbert of Semper Fi Web Design[276,351] -->
+<link rel="canonical" href="http://da.nala.ga/%ec%98%a4%eb%b2%84%ed%81%b4%eb%9f%ad%ed%82%b9-%ea%b0%80%ec%9d%b4%eb%93%9c-msi-z370-%ea%b2%8c%ec%9d%b4%eb%b0%8d-%ed%94%84%eb%a1%9c-%ec%b9%b4%eb%b3%b8-feat-i7-8700k-2/" />
+<!-- /all in one seo pack -->
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 피드" href="http://da.nala.ga/feed/" />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 댓글 피드" href="http://da.nala.ga/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 오버클럭킹 가이드 : MSI Z370 게이밍 프로 카본 (feat. i7-8700K) 댓글 피드" href="http://da.nala.ga/%ec%98%a4%eb%b2%84%ed%81%b4%eb%9f%ad%ed%82%b9-%ea%b0%80%ec%9d%b4%eb%93%9c-msi-z370-%ea%b2%8c%ec%9d%b4%eb%b0%8d-%ed%94%84%eb%a1%9c-%ec%b9%b4%eb%b3%b8-feat-i7-8700k-2/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/da.nala.ga\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.4"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bootstrap-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/bootstrap.min.css?ver=3.3.5' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/font-awesome.min.css?ver=4.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='shaped-blog-stylesheet-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/style.css?ver=4.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/responsive.css' type='text/css' media='all' />
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://da.nala.ga/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://da.nala.ga/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://da.nala.ga/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Brad, OPIc 첫시험에 AL레벨 달성 후기' href='http://da.nala.ga/brad-opic-%ec%b2%ab%ec%8b%9c%ed%97%98%ec%97%90-al%eb%a0%88%eb%b2%a8-%eb%8b%ac%ec%84%b1-%ed%9b%84%ea%b8%b0-2/' />
+<link rel='next' title='인도, 신화로 말하다.' href='http://da.nala.ga/%ec%9d%b8%eb%8f%84-%ec%8b%a0%ed%99%94%eb%a1%9c-%eb%a7%90%ed%95%98%eb%8b%a4-2/' />
+<meta name="generator" content="WordPress 4.8.4" />
+<link rel='shortlink' href='http://da.nala.ga/?p=5413' />
+<link rel="alternate" type="application/json+oembed" href="http://da.nala.ga/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fda.nala.ga%2F%25ec%2598%25a4%25eb%25b2%2584%25ed%2581%25b4%25eb%259f%25ad%25ed%2582%25b9-%25ea%25b0%2580%25ec%259d%25b4%25eb%2593%259c-msi-z370-%25ea%25b2%258c%25ec%259d%25b4%25eb%25b0%258d-%25ed%2594%2584%25eb%25a1%259c-%25ec%25b9%25b4%25eb%25b3%25b8-feat-i7-8700k-2%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://da.nala.ga/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fda.nala.ga%2F%25ec%2598%25a4%25eb%25b2%2584%25ed%2581%25b4%25eb%259f%25ad%25ed%2582%25b9-%25ea%25b0%2580%25ec%259d%25b4%25eb%2593%259c-msi-z370-%25ea%25b2%258c%25ec%259d%25b4%25eb%25b0%258d-%25ed%2594%2584%25eb%25a1%259c-%25ec%25b9%25b4%25eb%25b3%25b8-feat-i7-8700k-2%2F&#038;format=xml" />
+
+	<style>
+
+		/* Border Color */
+		.btn-social:hover,
+		blockquote,
+		#respond input:focus[type="text"], 
+	    #respond input:focus[type="email"], 
+	    #respond input:focus[type="url"],
+	    #respond textarea:focus,
+	    #comments .comment-reply a:hover
+		{
+			border-color: ;
+		}
+
+		
+		/* Background Color */
+		.scroll-up a,
+		.btn-social:hover,
+		button,
+		input[type="button"],
+		input[type="reset"],
+		input[type="submit"],
+		.navbar-default .navbar-nav .dropdown-menu li a:hover, .dropdown-menu li a:focus, .navbar-default .navbar-nav .dropdown-menu .active a,
+		.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover, .pagination li .current,
+		.next-previous-posts .next-post a:hover,
+		.next-previous-posts .previous-post a:hover,
+		.btn-goback,
+		.btn-submit,
+		a.more-link,
+		.featured-post .fa,
+		#comments .comment-reply a:hover,
+		.widget .tagcloud a
+		{
+			background-color: ;
+		}
+
+		
+		/* Color */
+		.text-logo a,
+		.navbar-default .navbar-nav .active a, .navbar-default .navbar-nav .active a:hover, .navbar-default .navbar-nav .active a:focus,
+		.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus,
+		a:hover,
+    	a:focus,
+		.next-previous-posts .previous-post a,
+		.next-previous-posts .next-post a,
+		.pagination>li>a, .pagination>li>span,
+		#comments .comment-author a:hover, 
+    	#respond .logged-in-as a:hover,
+    	#wp-calendar a,
+    	h2.entry-title a:hover
+		{
+			color: ;
+		}
+
+
+		/* A Color */
+		a{
+			color: ;
+		}
+
+		/* a:hover Color */
+		a:hover,
+		a:focus,
+		a:active,
+		.widget a:hover,
+		.post .post-content .entry-meta ul li a:hover
+		{
+			color: ;
+		}
+
+		/* .featured-post .fa:after*/
+		.featured-post .fa:after{
+			border-color:   transparent ;
+		}
+
+
+		
+
+	</style>
+</head>
+
+<body class="post-template-default single single-post postid-5413 single-format-standard">
+
+    <div id="st-preloader">
+        <div id="pre-status">
+            <div class="preload-placeholder"></div>
+        </div>
+    </div>
+<!-- /Preloader -->
+
+<header id="header">	
+	<div id="trueHeader">
+    	<div class="wrapper">
+            <div class="container">
+            	<!-- Menu -->
+            	<div class="menu_main">
+                	<div class="navbar blogx-navbar navbar-default">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#st-navber-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+
+                                                            <div class="text-logo">
+                                    <a href="http://da.nala.ga">All About CC</a>
+                                    <p>All About CC Contents</p>
+                                </div><!-- /Logo -->
+                                                    </div>
+                      
+                        <div id="st-navber-collapse" class="navbar-collapse collapse pull-right">
+                             
+                        </div>
+                    </div>
+            	</div><!-- end menu -->
+        	</div> <!-- /.container -->
+    	</div>
+	</div>
+	<DIV class='ads_adsense_img' style='margin:40px 0px 40px 0px;'>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- only display -->
+	<ins class="adsbygoogle"
+	     style="display:block"
+	     data-ad-client="ca-pub-8393857339019314"
+	     data-ad-slot="7474886381"
+	     data-ad-format="auto"></ins>
+	<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+	</DIV>	
+</header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div id="primary" class="content-area">
+                    <main id="main" class="site-main" role="main">
+
+                        
+                                <article id="post-5413" class="post-5413 post type-post status-publish format-standard hentry category-uncategorized tag-feat tag-i7-8700k tag-msi tag-z370 tag-6668 tag-6500 tag-8505 tag-8507 tag-3258">
+    <header class="entry-header">
+        
+        
+    </header> <!--/.entry-header -->
+
+    <div class="clearfix post-content media">
+
+        <h2 class="entry-title">
+            오버클럭킹 가이드 : MSI Z370 게이밍 프로 카본 (feat. i7-8700K)        </h2> <!-- //.entry-title -->
+
+        <div class="clearfix entry-meta">
+            
+            <ul class="list-inline">
+                <li>
+                    <span class="author vcard">
+                        By <a class="url fn n" href="http://da.nala.ga/author/site-admin/">site-admin</a>                    </span>
+                </li>
+                <li>
+                    on <span class="posted-on">1월 10, 2018</span>
+                </li>
+                                    <li>
+                        in <span class="posted-in">
+                            <a href="http://da.nala.ga/category/uncategorized/" rel="category tag">미분류</a>                        </span>
+                    </li>
+                            </ul>
+                </div> <!--/.entry-meta -->
+        
+        <div class="entry-summary">
+            <p><img src='http://cfile9.uf.tistory.com/image/99D6E4335A23E3D625D134' style='max-width:250px;min-width:0px;' onError='this.style.display="none"' /></p>
+<h1>3줄 요약 </h1>
+<div style='color:#fff;background-color:#000;border-radius:10px;'>
+<ol>
+<li><span>MSI Z370 게이밍 프로 카본 (feat. 8700K)</span></li>
+<li><span># <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="132b2423235853273d2b545b69">[email&#160;protected]</a> (AVX Offset -3) &#8211; 노뚜따 보급형 <small>&#8230;중략&#8230;</small>  43 ] * Misc Setting &#8211; EIST [ Disabled ]</span></li>
+<li><span>* DigitALL Power &#8211; CPU LoadLine Calibration Control [ Mode 4 ]</span></li>
+</ol>
+</div>
+<p><span id="more-5413"></span></p>
+<p><iframe src='http://ad.selfhow.com/rd' width='100%' border=0 frameborder=0 style='height:auto;width:100%'></iframe></p>
+<hr />
+<p style="text-align: left; clear: none; float: none;">
+<p style="text-align: left; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:730px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="000.jpg" height="630" src="http://cfile9.uf.tistory.com/image/99D6E4335A23E3D625D134" width="730"/></span></p>
+<p style="text-align: left; clear: none; float: none;"><iframe allowfullscreen="" frameborder="0" height="411" src="https://www.youtube.com/embed/hAJSs2QV5pI?rel=0&amp;controls=0" width="730"></iframe></p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;">
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-size: 18pt; font-family: Gulim, 굴림;">MSI Z370 게이밍 프로 카본 (feat. 8700K)</span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">커피레이크가 출시한지도 벌써 2달이 넘어가고 있습니다. 출시 초기에 구경도 못할 수준의 공급량, 그리고 말도 안되는 높은 가격이었으나 조금씩 가격이 내려가면서 많은 분들이 커피레이크 업그레이드를 단행 할 것으로 예상됩니다.</span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">그에 따라 커피레이크 CPU + Z370 메인보드를 활용한 오버클럭킹 방법에 대한 소개를 해보려 오버가이드를 작성해보았습니다. 본 게시글에서는 </span><font face="Gulim, 굴림">영상을 통해 소개해드린 <b>MSI Z370 게이밍 프로 카본</b>을 활용하여 i7-8700K 오버클럭킹 방법을 소개할 것 입니다. </font><font face="Gulim, 굴림">MSI 메인보드 바이오스 기준으로 설명이 진행되지만 타사 바이오스에서도 비슷한 기능이 있는 만큼 내용을 참고하시어 활용하신다면 도움이 되시기라 생각해봅니다.</font></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">글 작성에 앞서 오버클럭킹 결과는 CPU 수율, 메인보드 바이오스 완성도, 쿨링 환경 등에 따라 상이하게 다른 결과를 보여줄 수 있습니다. 구매하신 제품의 수율과 쿨링 환경에 따른 배수 및 전압 조절은 필수입니다. 가이드를 참고하셔서 수율에 맞는 오버클럭킹에 성공하시길 기원합니다.</span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림; font-size: 18pt;">제품 소개</span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;">
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:730px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="002.jpg" height="601" src="http://cfile8.uf.tistory.com/image/992CB0335A23949D31AE2D" width="730"/></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;">
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><b><br /></b></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><b>MSI Z370 게이밍 프로 카본</b> + 인텔 코어i7-8세대 8700K (커피레이크)를 준비하였습니다. 오버클럭킹에 들어가기 전에 패키지 구성, 외형을 간략하게 살펴보도록 하겠습니다.</span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"></p>
+<p style="text-align: left; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:730px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="007.jpg" height="601" src="http://cfile1.uf.tistory.com/image/991152335A23949F330907" width="730"/></span></p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:730px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="011.jpg" height="601" src="http://cfile8.uf.tistory.com/image/996698335A2394A2218418" width="730"/></span></p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:730px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="012.jpg" height="601" src="http://cfile24.uf.tistory.com/image/99F3F5335A2394A228492B" width="730"/></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;">
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">후면 I/O 쉴드, SLI 브릿지, 메뉴얼, 소프트웨어 DVD 등 다양한 구성품이 동봉되어 있습니다.</span></p>
+<p style="text-align: left; clear: none; float: none; line-height: 1.8;"></p>
+<p style="text-align: left; clear: none; float: none; line-height: 1.8;"></p>
+<p style="text-align: left; clear: none; float: none; line-height: 1.8;"></p>
+<p style="text-align: left; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:730px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="013.jpg" height="601" src="http://cfile5.uf.tistory.com/image/99A1A7335A2394A31D1055" width="730"/></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">이전 시리즈(Z270 게이밍 프로 카본)와 하위 제품인 크레이트 게이밍 등과 비교해보았을 때 레이아웃은 비슷하지만 I/O 및 M.2 커버, 방열판 등 좀 더 심플하고 고급스러운 재질이 느껴지며 상위급 다운 면모를 확인할 수 있습니다.</span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="text-align: left; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:730px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="014.jpg" height="601" src="http://cfile21.uf.tistory.com/image/9960F0335A2394A418C751" width="730"/></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"></p>
+<p style="text-align: left; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:730px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="015.jpg" height="481" src="http://cfile6.uf.tistory.com/image/99FCE8335A2394A4315B1D" width="730"/></span></p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:730px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="016.jpg" height="601" src="http://cfile26.uf.tistory.com/image/993A16335A2394A52C1854" width="730"/></span></p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:730px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="017.jpg" height="601" src="http://cfile10.uf.tistory.com/image/994DBF335A2394A52B3D5A" width="730"/></span></p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:730px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="018.jpg" height="601" src="http://cfile28.uf.tistory.com/image/99755C335A2394A6285C04" width="730"/></span></p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:730px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="019.jpg" height="481" src="http://cfile5.uf.tistory.com/image/993BD0335A2394A61B33A6" width="730"/></span></p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:730px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="020.jpg" height="601" src="http://cfile2.uf.tistory.com/image/99A823335A2394A702443F" width="730"/></span></p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:730px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="021.jpg" height="601" src="http://cfile30.uf.tistory.com/image/9931AA335A2394A82C6B64" width="730"/></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림; font-size: 18pt;">테스트 시스템</span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;">
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;">
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:730px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="023.jpg" height="601" src="http://cfile4.uf.tistory.com/image/99A07D335A2394A9022F07" width="730"/></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림; text-align: justify;"><br /></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><font face="Gulim, 굴림">테스트를 위해 아래와 같은 주요부품으로 구성된 PC를 사용하였습니다.</font></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><font face="Gulim, 굴림"><br /></font></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림; text-align: justify;">CPU : 인텔 코어i7-8세대 8700K (커피레이크) / </span><span style="font-family: Gulim, 굴림;">RAM : AVEXIR 8G PC4-19200 GREEN x 2 / </span><span style="font-family: Gulim, 굴림;">COOLER : ID-COOLING AURAFLOW 240 RGB BLACK / </span><span style="font-family: Gulim, 굴림;">M/B : MSI Z370 게이밍 프로 카본 / </span><span style="font-family: Gulim, 굴림;">VGA : </span><font face="Gulim, 굴림">MSI GTX1070 Ti 게이밍 D5 8GB 트윈프로져6</font></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><font face="Gulim, 굴림"><br /></font></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><font face="Gulim, 굴림"><br /></font></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><font face="Gulim, 굴림"><br /></font></p>
+<p style="text-align: left; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:730px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="024.jpg" height="601" src="http://cfile26.uf.tistory.com/image/9911D7335A2394A921DE0B" width="730"/></span></p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:730px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="025.jpg" height="601" src="http://cfile27.uf.tistory.com/image/99A821335A2394AA3842C1" width="730"/></span></p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:730px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="026.jpg" height="601" src="http://cfile6.uf.tistory.com/image/995FF3335A2394AA071C68" width="730"/></span></p>
+<p style="text-align: left; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="text-align: left; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="text-align: left; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="text-align: left; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="text-align: left; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="text-align: left; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><span style="font-size: 18pt;">오버클럭킹 메뉴 소개</span></span></p>
+<p style="text-align: left; clear: none; float: none; line-height: 1.8;"></p>
+<p style="text-align: left; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:730px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="030.jpg" height="548" src="http://cfile9.uf.tistory.com/image/99D6C7335A2394AC328B2D" width="730"/></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">바이오스를 진입하면 처음 만나게 되는 EZ MODE 화면입니다.</span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">오버클럭킹 메뉴를 위해서는 ADAVNCED MODE (F7 입력)로 진입하여야합니다.</span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;">
+<p style="text-align: left; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:730px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="035.jpg" height="548" src="http://cfile3.uf.tistory.com/image/995DBF335A2394AF2B8C8A" width="730"/></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;">
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">ADVANCED MODE (F7 입력)에 진입한 모습입니다. 다른 메뉴는 제쳐두고 오버클럭킹 셋팅을 할 수 있는 [ OC ] 메뉴를 바로 확인해보도록 하겠습니다.</span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"></p>
+<p style="text-align: left; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:730px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="037.jpg" height="548" src="http://cfile24.uf.tistory.com/image/99AD2C335A2394B021400E" width="730"/></span></p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span class="imageblock" style="display:inline-block;width:730px;text-align: left;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="040.jpg" height="548" src="http://cfile5.uf.tistory.com/image/99213E335A2394B119116B" style="text-align: left;" width="730"/></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><b>&#8211; OC Explore Mode</b></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">Normal : 기본 메뉴제공 / </span><b><span style="font-family: Gulim, 굴림;">Expert : 세부메뉴 추가 제공 (권장)</span></b></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">오버클럭킹 메뉴 구성을 선택할 수 있는 기능으로 Normal 구성으로도 오버클럭킹은</span><span style="font-family: Gulim, 굴림;"> 가능하지만 상세 설정을 불러올 수 있는 Expert를 권장합니다.</span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><b>&#8211; CPU Ratio Apply Mode</b></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><b>All Core : 모든 코어 배수적용 (권장)</b> / Turbo Core : 터보 코어 배수적용 / Per Core : 각 코어별 개별 배수적용</span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">CPU 작동클럭은 ( 100 x 배수 )로 작동을 하게 되어 있습니다. 그래서 오버클럭킹은 배수(Ratio) 값을 입력하여 작동클럭을 지정하게됩니다. CPU Ratio Apply Mode는 이러한 배수(Ratio) 부여방식을 설정하는 메뉴로 특별한 일이 없는 경우 All Core 를 선택하여 모든 코어에 동일한 배수 설정을 부여합니다. </span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">* 상황에 따라 코어별로 별도의 배수 설정을 활용할 수 있습니다. 예를들어 3번 코어의 온도가 너무 높은 경우 Per Core를 통해 3-Core 배수만 조금 낮게 지정하여 온도를 낮출 수 있습니다.</span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><b>&#8211; Misc Setting / EIST</b></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">기본값 : Enabled / <b>Disabled (권장)</b></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">EIST 다른 말로는 스피드 스텝은 전력관리 옵션 중에 하나로 사용량에 따라 가변클럭으로 작동하게 합니다. 작동 클럭이 가변되는 상황에서 안정화를 진행하는 경우 미세하게나마 전압에 영향을 미칠 수 있기 때문에 해당 기능을 끄고 안정화를 진행할 것을 권장하지만 코어인가 방식 및 사용자 성향에 따라 켜두는 경우도 종종 있습니다.</span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">* 코어전압 인가 방식에 따라 켜두는 것이 좋은 경우도 존재합니다. (Adaptive , Offset 의 경우 켜는 것을 권장)</span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span class="imageblock" style="display:inline-block;width:730px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="039.jpg" height="548" src="http://cfile5.uf.tistory.com/image/996359335A2394B001B28F" width="730"/></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><b>&#8211; CPU Ratio Offset When Running AVX</b></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">Auto : 자동적용 / <b>직접 값입력 : 권장값 -3 ~ -5 (추천 -5)</b></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">커피레이크 오버에 있어서 많이 활용을 하게될 기능으로 AVX 명령어를 사용하는 경우 입력된 값만큼의 배수를 하락시켜 과부하를 줄여주는 역할을 합니다. 예를 들어 CPU 50배수 (5.0GHz) 설정에서 AVX -5로 설정하는 경우 LINX 테스트에서 -5배수 하락된 45배수 (4.5GHz)로 작동을 하게됩니다. AVX 명령어를 사용하지않는 경우 AVX -5에서도 정상적인 50배수 (5.0GHz)로 작동하게 됩니다. </span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">* AVX 명령어 작동에도 50배수로 동일하게 작동하도록 설정하는 것이 좋은 성능을 기대할 수 있지만 AVX 명령어를 사용할 때 급격하게 온도가 상승하는 만큼 사용타입에 따라 해당 기능을 활용하는 것을 권장합니다. AVX 0 설정으로 사용하고 싶다면 CPU IHS 튜닝(뚜따)를 추천드립니다. 노뚜따에서는 AVX Offset을 활용하시기 바랍니다.</span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><b>&#8211; Ring Ratio</b></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">Auto : 자동적용 / <b>직접 값입력 : 권장값 -3 ~ -5 (추천 -5)</b></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">CPU 캐쉬 배수(Ratio)를 설정하는 곳으로 일반적으로 작동배수 -5 정도로 셋팅을 권장합니다.</span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">* 캐쉬 배수를 높일 수록 성능은 좋아지지만 CPU 코어전압 상승 및 안정화 난이도가 상승합니다.</span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><b>&#8211; CPU Base Clock (MHz)</b></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">기본값 : 100 (권장)</span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">앞서 배수설명에서 적었듯이 CPU 작동클럭은 내부클럭(BLCK) 100 x 배수로 작동하게 되는데 해당 메뉴를 통해 내부클럭 100에서 좀 더 높게 설정이 가능합니다. 다만, 내부클럭을 상승시키는 경우 VGA, SSD, HDD 등 주변 부품에 영향을 끼칠 수 있기에 기본값 100으로 사용하기를 권장합니다.</span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">* 배수언락 (K버전)이 아닌 일반 CPU에서 작동클럭을 높이기 위해 사용되는 경우가 있습니다. (i5-8400 / i7-8700 등)</span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span class="imageblock" style="display:inline-block;width:730px;text-align: left;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="038.jpg" height="548" src="http://cfile25.uf.tistory.com/image/995D9B335A2394B0259501" style="text-align: left;" width="730"/></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><b><span style="font-family: Gulim, 굴림;">&#8211; Extreme Memory Profile(X.M.P)</span></b></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><span style="font-family: Gulim, 굴림;">기본값 : Disabled </span><span style="font-family: Gulim, 굴림;">/ </span></span><span style="font-family: Gulim, 굴림;">XMP 메모리 사용시 : Enabled</span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">사전 테스트를 거쳐 판매되는 오버클럭킹 메모리 (G.Skill , Corsair , TeamGroup , Kingston 등)에 설정된 X.M.P 프로파일을 불러올 수 있는 기능으로 해당 제품들을 사용하는 경우 Enabled 로 설정하시기 바랍니다.</span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><b><span style="color: rgb(140, 140, 140);">&#8211; DRAM Reference Clock</span></b></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><b><span style="color: rgb(140, 140, 140);">기본값 : Auto(권장)</span></b><span style="color: rgb(140, 140, 140);"> </span><span style="color: rgb(140, 140, 140);">/ 100 / 133</span></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림; color: rgb(140, 140, 140);">메모리 레퍼런스 클럭을 설정하는 기능으로 특별한 경우가 아니라면 Auto를 권장합니다.</span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><b><span style="color: rgb(140, 140, 140);">&#8211; DRAM Frequency</span></b></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><b><span style="color: rgb(140, 140, 140);">기본값 : Auto(권장)</span></b><span style="color: rgb(140, 140, 140);"> / </span></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><span style="color: rgb(140, 140, 140);">메모리 오버클럭킹을 할 수 있는 기능으로 각 제품의 수율에 따라 작동클럭을 선택하여 안정화를 진행하게 됩니다. 하지만 Auto를 권장하는 이유는 메모리 오버클럭킹의 경우 CPU오버와 함께 진행하는 경우 CPU + RAM 두가지에서 어떤 부분이 오버가 실패하는지 초심자의 경우 파악하기 쉽지않으며,</span><span style="color: rgb(140, 140, 140);"> 추가적으로 메모리 오버를 진행하는 경우 CPU 코어전압의 영향도 있기에 난이도가 상승하므로 메모리 오버는 차후에 좀 더 오버스킬을 쌓은 후 진행하는 것을 추천합니다.</span></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><b><span style="color: rgb(140, 140, 140);">&#8211; Advanced DRAM Configuration</span></b></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림; color: rgb(140, 140, 140);">메모리 작동 타이밍을 세부적으로 설정할 수 있는 메뉴이나 전문가가 아닌 이상 해당 메뉴는 기본값을 그대로 사용하는 것을 권장합니다. 본 가이드는 초심자를 기준으로 하고 있기에 앞서 언급한 DRAM Reference Clock / Frequency 와 함께 기본값 그대로 사용하는 것을 권장합니다.</span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"></p>
+<p style="text-align: left; clear: none; float: none;"></p>
+<p style="text-align: left; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:730px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="042.jpg" height="548" src="http://cfile24.uf.tistory.com/image/99DD7F335A2394B22EA86B" width="730"/></span></p>
+<p style="text-align: left; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:730px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="043.jpg" height="330" src="http://cfile8.uf.tistory.com/image/992CA6335A242A69068A59" width="730"/></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;">
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><b><br /></b></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><b>&#8211; DigiALL Power (CPU LoadLine Calibration Control / LLC)</b></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">기본값 : Auto / <b>Mode 4 (권장)</b></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">일명 LLC라 불리우는 기능으로 CPU 로드 상황에서 전압강하를 막아주어 전압부족으로 프리징되는 현상을 방지하는 기능</span><span style="font-family: Gulim, 굴림;">입니다. 오버클럭킹 타겟이 높을 수록 중요하게 다뤄야 할 기능이며 LLC 옵션이 얼마나 세분화 되어있고 제대로 작동하는지에 따라 메인보드 선택에 중요한 구매요소가 될 수 있습니다. </span><span style="font-family: Gulim, 굴림;">오버클럭킹에 중요한 기능인 만큼 LLC를 </span><span style="font-family: Gulim, 굴림;">잘 다룰수록 오버 성공률을 높일 수 있고 코어전압과 함께 온도관리의 핵심이라 할 수 있습니다.</span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">* Mode 4를 권장하는 이유는 코어전압을 강하없이 지탱하는 칼전압 수준의 기능을 보여주기 때문이며, 이 특징은 MSI Z370 메인보드에만 해당합니다. LLC 옵션 스타일은 각 제조사마다 특색이 있기에 같은 제조사 사용자들의 오버값을 참고하시기 바랍니다.</span></p>
+<p style="text-align: justify; clear: none; float: none; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p></p>
+<p style="clear: none; float: none;"></p>
+<p style="clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:730px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="041.jpg" height="548" src="http://cfile25.uf.tistory.com/image/99AC2D335A2394B130CD3C" width="730"/></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;">
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><b><br /></b></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><b>&#8211; CPU Core/GT Voltage Mode</b></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">기본값 : Auto / Adaptive Mode / <b>Override Mode(권장)</b> / Offset Mode</span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">/ Adaptive + Offset Mode / Override + Offset Mode</span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">CPU/iGPU 전압을 설정하는 기능으로 오버클럭킹에서 LLC와 함께 가장 중요한 부분입니다. CPU 수율이란 얘기를 하는 부분이 바로 코어전압 때문이며 온도와 직결되기에 좀 더 낮은 전압을 인가하는 것을 선호하며, 이러한 전압값에 의해 고수율 / 뿔딱 CPU가 발생하며 수율뽑기가 존재하는 것입니다.</span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">MSI 메인보드에는 코어전압 인가방식이 5가지로 상당히 디테일한 편인데 가장 손쉬운 Override Mode (Fixed) 기능을 권장합니다. Override Mode는 항상 설정한 전압이 적용되는 Fixed 방식으로 가장 쉬운 전압인가 방식이며 많은 사용자가 선호하는 방식입니다. 기능을 선택하면 바로 아래에 CPU Core Voltage 값을 입력할 수 있게되며 이 곳에 1.00 ~ 1.520V 까지 수동 전<span style="font-family: Gulim, 굴림;">압을 입력할 수 있습니다. 일반적으로 1.5V이상의 한계치를 가지고 있지만 </span><span style="font-family: Gulim, 굴림;">1.45V 이상의 전압은 인가하지 않습니다. </span></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">그 외에도 SA / IO / PLL OC / PLL SFR / RING PLL / SA PLL / MC PLL / CPU ST PLL / DRAM Voltage 등 다양한 </span><span style="font-family: Gulim, 굴림;">전압인가 기능이 있지만 특별한 경우가 아니라면 기본값(Auto)를 권장합니다.</span><span style="font-family: Gulim, 굴림;"> 본 가이드에서도 초심자를 기준으로 한 만큼 해당 기능들은 활용하지 않습니다.</span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림; font-size: 18pt;">오버클럭킹 설정</span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">앞서 소개한 메뉴들을 활용하여 CPU 오버클럭킹을 적용해보도록 하겠습니다. 아래에 제시하게 되는 오버값은 현재 보유중인 CPU 수율, 쿨링환경에 따른 것으로 사용자 환경에 따라 몇가지 항목을 수정하여 적용하시기를 바랍니다.</span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<table border="0" cellpadding="0" cellspacing="0" class="txc-table" sans-serif;font-size:13px"="" style="border:none;border-collapse:collapse;;font-family:" width="694" 고딕",="" 맑은="">
+<tbody>
+<tr>
+<td style="width:694;height:24;border-bottom:1px solid #ccc;border-right:1px solid #ccc;border-top:1px solid #ccc;border-left:1px solid #ccc;;">
+<p></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> <span style="color: rgb(255, 0, 0);"><b># <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="d1e9e6e1e19a91e5ffe99699ab">[email&#160;protected]</a> (AVX Offset -3)</b></span></span></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><span style="color: rgb(255, 0, 0);"><span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"> &#8211; 노뚜따 보급형 공랭쿨러 추천 셋팅</span></span></span></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> </span></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> OC Explore Mode <b>[ Expert ]</b></span></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> CPU Ratio Apply Mode <b>[ All Core ]</b></span></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> CPU Ratio <b>[ 48 ]</b></span></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> CPU Ratio Offset When Running AVX <b>[ -3 ]</b></span></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> Ring Ratio <b>[ 43 ]</b></span></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> * Misc Setting &#8211; EIST <b>[ Disabled ]</b></span></p>
+<p style="text-align: justify; line-height: 1.8;"></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> CPU Base Clock <b>[ 100.00 ]</b></span></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> Extreme Memory Profile <b>[ Disabled ]</b>  &#8211; XMP 메모리사용시 Enabled로 설정</span></p>
+<p style="text-align: justify; line-height: 1.8;"></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> * DigitALL Power &#8211; CPU LoadLine Calibration Control <b>[ Mode 4 ]</b></span></p>
+<p style="text-align: justify; line-height: 1.8;"></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> CPU Core/GT Voltage Mode <b>[ Override Mode ]</b></span></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> CPU Core Voltage <b>[ 1.240 ]</b></span><b>  </b>&#8211; CPU 수율에 따라 &#8211; / + 적용하시기 바랍니다.</p>
+<p></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<table border="0" cellpadding="0" cellspacing="0" class="txc-table" sans-serif;font-size:13px"="" style="border: none; border-collapse: collapse;" width="694" 고딕",="" 맑은="">
+<tbody>
+<tr>
+<td style="width: 694px; height: 24px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204);">
+<p></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> <span style="color: rgb(255, 0, 0);"><b># <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="41797671710a01756f7906093b">[email&#160;protected]</a> (AVX Offset 0)</b></span></span></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> &#8211; 노뚜따 고급형 공랭 &amp; 일체형 수냉 쿨러 추천 셋팅</span></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> </span></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> OC Explore Mode <b>[ Expert ]</b></span></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> CPU Ratio Apply Mode <b>[ All Core ]</b></span></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> CPU Ratio <b>[ 48 ]</b></span></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> CPU Ratio Offset When Running AVX <b>[ 0 ]</b></span></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> Ring Ratio <b>[ 43 ]</b></span></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> * Misc Setting &#8211; EIST <b>[ Disabled ]</b></span></p>
+<p style="text-align: justify; line-height: 1.8;"></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> CPU Base Clock <b>[ 100.00 ]</b></span></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> Extreme Memory Profile <b>[ Disabled ]</b>  &#8211; XMP 메모리사용시 Enabled로 설정</span></p>
+<p style="text-align: justify; line-height: 1.8;"></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> * DigitALL Power &#8211; CPU LoadLine Calibration Control <b>[ Mode 4 ]</b></span></p>
+<p style="text-align: justify; line-height: 1.8;"></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> CPU Core/GT Voltage Mode <b>[ Override Mode ]</b></span></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> CPU Core Voltage <b>[ 1.260 ]</b></span><b>  </b>&#8211; CPU 수율에 따라 &#8211; / + 적용하시기 바랍니다.</p>
+<p></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"></p>
+<table border="0" cellpadding="0" cellspacing="0" class="txc-table" sans-serif;font-size:13px"="" style="border: none; border-collapse: collapse;" width="694" 고딕",="" 맑은="">
+<tbody>
+<tr>
+<td style="width: 694px; height: 24px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204);">
+<p></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> <span style="color: rgb(255, 0, 0);"><b># <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="142c2324245f54213a24535c6e">[email&#160;protected]</a> (AVX Offset -5)</b></span></span></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> &#8211; 노뚜따 최상급 공랭쿨러 &amp; 일체형 수냉쿨러 추천 셋팅</span></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> </span></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> OC Explore Mode <b>[ Expert ]</b></span></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> CPU Ratio Apply Mode <b>[ All Core ]</b></span></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> CPU Ratio <b>[ 50 ]</b></span></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> CPU Ratio Offset When Running AVX <b>[ -5 ]</b></span></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> Ring Ratio <b>[ 45 ]</b></span></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> * Misc Setting &#8211; EIST <b>[ Disabled ]</b></span></p>
+<p style="text-align: justify; line-height: 1.8;"></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> CPU Base Clock <b>[ 100.00 ]</b></span></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> Extreme Memory Profile <b>[ Disabled ]</b>  &#8211; XMP 메모리사용시 Enabled로 설정</span></p>
+<p style="text-align: justify; line-height: 1.8;"></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> * DigitALL Power &#8211; CPU LoadLine Calibration Control <b>[ Mode 4 ]</b></span></p>
+<p style="text-align: justify; line-height: 1.8;"></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> CPU Core/GT Voltage Mode <b>[ Override Mode ]</b></span></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> CPU Core Voltage <b>[ 1.330 ]</b></span><b>  </b>&#8211; CPU 수율에 따라 &#8211; / + 적용하시기 바랍니다.</p>
+<p></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"></p>
+<table border="0" cellpadding="0" cellspacing="0" class="txc-table" sans-serif;font-size:13px"="" style="border: none; border-collapse: collapse;" width="694" 고딕",="" 맑은="">
+<tbody>
+<tr>
+<td style="width: 694px; height: 24px; border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204);">
+<p></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> <span style="color: rgb(255, 0, 0);"><b># <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="efd7d8dfdfa4afdac1dfa8a795">[email&#160;protected]</a> (AVX Offset 0)</b></span></span></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> &#8211; 뚜따 최상급 공랭쿨러 &amp; 일체형 수냉쿨러 추천 셋팅</span></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> </span></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> OC Explore Mode <b>[ Expert ]</b></span></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> CPU Ratio Apply Mode <b>[ All Core ]</b></span></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> CPU Ratio <b>[ 50 ]</b></span></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> CPU Ratio Offset When Running AVX <b>[ 0 ]</b></span></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> Ring Ratio <b>[ 45 ]</b></span></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> * Misc Setting &#8211; EIST <b>[ Disabled ]</b></span></p>
+<p style="text-align: justify; line-height: 1.8;"></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> CPU Base Clock <b>[ 100.00 ]</b></span></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> Extreme Memory Profile <b>[ Disabled ]</b>  &#8211; XMP 메모리사용시 Enabled로 설정</span></p>
+<p style="text-align: justify; line-height: 1.8;"></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> * DigitALL Power &#8211; CPU LoadLine Calibration Control <b>[ Mode 4 ]</b></span></p>
+<p style="text-align: justify; line-height: 1.8;"></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> CPU Core/GT Voltage Mode <b>[ Override Mode ]</b></span></p>
+<p style="text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"> CPU Core Voltage <b>[ 1.360 ]</b></span><b>  </b>&#8211; CPU 수율에 따라 &#8211; / + 적용하시기 바랍니다.</p>
+<p></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">일반적으로 8700K 노뚜따, </span><span style="font-family: Gulim, 굴림;">중급형 4~5만원대 공랭 쿨러를 장착한 경우</span><span style="font-family: Gulim, 굴림;"> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="625a5552522922564c5a252a18">[email&#160;protected]</a> (AVX -3) 셋팅을 추천합니다. 대표적인 쿨러로는 &#8216;써모랩 트리니티&#8217;가 해당됩니다. 노뚜따 상태에서 50배수 (AVX -5) 설정 또는 48배수 (AVX 0) 설정으로 클럭을 올려야한 다면 좋은 성능에 쿨러가 필요하며, 이에 해당하는 제품은 공랭에서는 &#8216;써멀라이트 마쵸 RT / 녹투아 D15&#8217; 급의 제품, 일체형 수냉에서는 &#8216;NZXT X52 / Corsair H100i&#8217; 급의 제품이 필요합니다.</span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">이러한 고급형 쿨러 강제현상은 인텔의 똥서멀에 의한 것으로 최상위 쿨러를 사용함에 있어서도 높은 발열은 감수해야할 부분입니다. 특히 AVX 클럭을 높이면 높일수록 발열 증가 현상이 두드러지기 때문에 AVX Offset을 통해 배수하락 기능을 활용하는 것이 이로우며, 해당 옵션을 사용하고 싶지 않다면 반드시 IHS 튜닝(뚜따)를 진행해서 온도를 잡아야합니다.</span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림; font-size: 18pt;">오버클럭킹 안정화</span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">안정화 테스트란 것은 오버클럭킹을 적용 후 CPU / RAM에 인위적인 100% 로드상황을 부여해서 블루스크린, 프리징, 재부팅 등의 현상이 발생하는지, 작동 온도와 쿨링 소음은 어떠한지를 체크하는 과정으로 테스트 과정에서 오류상황이 발생하는 경우 오버클럭킹 셋팅 값을 조정하며 진행합니다.</span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">테스트에 주로 사용되<span style="font-family: Gulim, 굴림;">는 프로그램은 아래와 같습니다.</span></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">CPU-Z / RealTemp / LinX 0.8.0</span><span style="font-family: Gulim, 굴림;"> / Prime95 / RealBench / AIDA64 / HWINFO64 / HW Monitor 등</span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">이번 가이드에서는 CPU-Z / RealTemp / LinX / AIDA64 를 사용하여 안정화 방법을 소개합니다.</span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"></p>
+<p style="clear: none; float: none; text-align: left; line-height: 1.8;"><span class="imageblock" style="display:inline-block;width:730px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="044.jpg" height="400" src="http://cfile21.uf.tistory.com/image/990EC0335A2CDF6F1AFE1A" width="730"/></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">테스트에 앞서 클럭고정을 위해 전원관리 옵션을 균형 → 고성능으로 선택합니다. (</span><span style="font-family: Gulim, 굴림;">안정화가 끝난 후에는 전력관리를 위해 균형으로 다시 조정하시기 바랍니다.)</span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;">
+<p style="clear: none; float: none; text-align: left; line-height: 1.8;"><span class="imageblock" style="display:inline-block;width:730px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="045.jpg" height="645" src="http://cfile5.uf.tistory.com/image/990373335A2CDF6F2DD106" width="730"/></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;">
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">CPU-Z를 통해 오버클럭킹이 제대로 적용되었는지 확인 할 수 있습니다. 스샷을 통해 확인할 수 있듯이 50배수가 적용된 상태로 Core Speed / Multiplier </span><span style="font-family: Gulim, 굴림;">를 확인할 수 있습니다.</span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;">
+<p style="clear: none; float: none; text-align: left; line-height: 1.8;"><span class="imageblock" style="display:inline-block;width:730px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="046.jpg" height="420" src="http://cfile10.uf.tistory.com/image/997F5F335A2CDF70106CB9" width="730"/></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">LinX / AIDA 64 테스트에 앞서 온도 확인을 위해 Real Temp GT를 실행합니다. 해당 프로그램을 통해 CPU 온도를 확인할 수 있으며 최대 온도 / Thermal Status를 확인할 수 있습니다. 100도를 넘기는 경우 Thermal Status에 LOG 또는 HOT이 표기되며 이 경우 블루스크린, 프리징이 없더라도 오버클럭킹은 실패한 것입니다. 테스트 과정에서 LOG / HOT이 발생하는 경우 전압조정 및 배수조정을 통해 온도를 100도 미만으로 낮추어야 합니다.</span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;">
+<p style="clear: none; float: none; text-align: left; line-height: 1.8;"><span class="imageblock" style="display:inline-block;width:730px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="047.jpg" height="430" src="http://cfile10.uf.tistory.com/image/9973B5335A2CDF7012DE9F" width="730"/></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;">
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">LinX 0.8.0을 통해 CPU / 메모리 과부하 연산을 진행하며 연산 과정에서 AVX 테스트를 함께 진행하게 됩니다. 보통 20회 이상을 통과하는 것이 목표이며 시스템 메모리에 따라 테스트 메모리 사이즈를 선택하여 진행합니다. 일반적으로 시스템 메모리의 7~80%를 설정하여 테스트를 진행합니다.</span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">* 8GB 기준 : 6,144MB 권장 / 16GB 기준 : 12,288MB 권장 / 32GB 기준 : 24,576MB 권장</span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;">
+<p style="clear: none; float: none; text-align: left; line-height: 1.8;"><span class="imageblock" style="display:inline-block;width:730px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="048.jpg" height="680" src="http://cfile4.uf.tistory.com/image/99202C335A2CDF7119463A" width="730"/></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;">
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">#AVX Offset을 적용한 경우에만 테스트 진행</span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">* AVX Offset 0으로 오버클럭킹 설정을 한 경우에는 LinX 테스트만 진행하여도 무방합니다.</span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">AIDA 64에는 System Stablility Test를 통해 CPU / 메모리 과부하 테스트가 가능하며 해당 테스트에서는 AVX 명령어는 사용되지 않습니다. 일반적으로 1~2시간 정도 테스트를 진행하며 오류가 없는 경우 안정화로 판단합니다.</span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">LinX 테스트만 하는 것이 아니라 AIDA 64 안정화를 진행하는 이유는 오버클럭킹 설정에서 AVX Offset 기능을 사용한 경우를 고려해서 LinX 테스트시 AVX가 작동할 때 설정된 값만큼 배수가 하락하기 때문에 (50배수 AVX -5인경우 45배수로 작동) AVX를 사용하지 않을 때 50배수의 안정화를 따로 진행하는 것입니다. (LinX = :45배수 / AIDA 64 : 50배수를 테스트)</span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"># 블루스크린, 프리징, 재부팅 해결방안</span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">앞서 소개한 프로그램을 통해 안정화 테스트를 진행함에 있어 블루스크린, 프리징, 재부팅 등의 현상이 발생한다면 오버클럭킹 설정값의 조정이 필요합니다.</span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">가장 먼저 테스트시 최대 온도를 체크하여,</span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">100도 미만인 경우 : &#8211; CPU 전압 추가 -를 통해 코어 전압을 안정적으로 공급해보아야합니다. 코어 전압은 0.010 ~ 0.020v 수준으로 추가하며 테스트 진행하여 오작동이 없는 전압을 찾으시기 바랍니다.</span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">100도 이상인 경우 : 좀 더 다양한 확인이 필요합니다.</span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">우선 온도를 낮추기 위해서는 &#8211; 전압 / 배수 다이어트 &#8211; 를 진행해야 하는데, 50배수 테스트를 예를 들면 50배수 상태에서 온도만 높다면 전압 다이어트를 통해 온도를 낮출수 있습니다.</span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">그러나</span><span style="font-family: Gulim, 굴림;"> 높은 온도 + 블루스크린(재부팅) 등이 발생한다면 코어 전압을 추가해야 합니다. 다만, 이미 CPU 온도가 매우 높기에 전압 추가는 불가능한 상태이기에 아쉽지만 작동클럭 조정(배수)를 낮춰야 합니다.(50배수 → 48배수와 같이 다운클럭)</span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">그럼에도, 50배수 오버를 원한다면 추가된 코어 전압에서도 안정적인 CPU 온도 확보를 해야하기에 현재 사용하고 있는 CPU 쿨러 보다 상위급 제품으로 교체하거나, IHS 튜닝(뚜따)를 해서 온도를 낮추어야 합니다. <strike>(또는, CPU를 장터에 정리하고 새로 구입해서 수율 뽑기를 시도합니다. &#8211; 비추)</strike></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"></p>
+<p style="clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:730px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="027.jpg" height="601" src="http://cfile10.uf.tistory.com/image/99555E335A2394AB2C6DFB" width="730"/></span></p>
+<p style="clear: none; float: none;"></p>
+<p style="clear: none; float: none;"></p>
+<p style="clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:730px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="028.jpg" height="481" src="http://cfile8.uf.tistory.com/image/992DCA335A2394AB2E7D63" width="730"/></span></p>
+<p style="clear: none; float: none;"></p>
+<p style="clear: none; float: none;"></p>
+<p style="clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:730px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="029.jpg" height="481" src="http://cfile30.uf.tistory.com/image/99B8AF335A2394AC37D978" width="730"/></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;">
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><span style="font-family: Gulim, 굴림;"></span><span style="font-family: Gulim, 굴림;">지금까지 </span></span><span style="font-family: Gulim, 굴림;">MSI Z370 게이밍 프로 카본을</span><span style="font-family: Gulim, 굴림;"> 활용한 </span><span style="font-family: Gulim, 굴림;">인텔 8세대 커피레이크 8700K</span><span style="font-family: Gulim, 굴림;"> 오버클럭킹 방법에 대하여 소개하였습니다. 가이드에서는 Z370 게이밍 프로 카본으로 설명하였지만, MSI Z370 메인보드라면 바이오스 구조가 같기에 해당 제품이외에 전체 제품에 참고가 가능하시리라 생각됩니다.</span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><span style="font-family: Gulim, 굴림;">MSI Z370 시리즈는 사용자 표본이 얼마없어 보이지만 생각보다 괜찮은 메인보드라 생각합니다. 타사에 비해 바이오스가 늦게 공개되는 점은 단점으로 생각되지만 초기 바이오스가 크게 문제가 있는 것은 아니기에 오버클럭킹을 적용하기에 문제는 없다고 판단됩니다. </span><strike><span style="font-family: Gulim, 굴림;">(그래도 바이오스는 좀 빨리 빨리 공개하자&#8230;일해라 므시!!)</span></strike></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><span style="font-family: Gulim, 굴림;">MSI Z370 제품군을 사용하시는 분들게 도움이 되셨기를 바라며 MSI 제품외에도 타사 제품에도 명칭은 다르지만 같은 기능이 있다면 비슷한 값을 넣은 후 조절하실 수 있으리라 생각합니다. 초심자를 위한 오버 가이드를 작성해본다고 했는데 도움이 되셨을지 모르겠습니다. 이 글을 통해 조금이라도 좋은 오버결과 있으시길 바라며 글을 마칩니다.</span></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: justify; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: right; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">글/사진 : 링크</span></p>
+<p style="clear: none; float: none; text-align: right; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">블로그 : </span><font face="Gulim, 굴림">http://wilove04n.blog.me/</font></p>
+<p style="clear: none; float: none; text-align: right; line-height: 1.8;"><span style="font-family: Gulim, 굴림;">이메일 : <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="ee9d8a82878085ae808f9a8bc08d8183">[email&#160;protected]</a></span></p>
+<p style="clear: none; float: none; text-align: right; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: right; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: right; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: right; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<p style="clear: none; float: none; text-align: right; line-height: 1.8;"><span style="font-family: Gulim, 굴림;"><br /></span></p>
+<hr />
+<p><iframe src='http://ad.selfhow.com/rd' width='100%' border=0 frameborder=0 style='height:auto;width:100%'></iframe></p>
+<p><a href='http://itlink.tistory.com/199' target='_blank'>Origin Content : 링크의 IT 따라잡기</a> | <a href="/cdn-cgi/l/email-protection#bed9dfd3dbe1dddd8e8e8ffed0dfd2df90d9df" target='_blank'>Contact : <span class="__cf_email__" data-cfemail="5a3d3b373f0539396a6a6b1a343b363b743d3b">[email&#160;protected]</span></a>
+</p>
+<p>Cotent License : CC-BY-SA </p>
+<p>This content is collected under the CCL license.</p>
+<p>Please check the license of the original article before asking about copyright.</p>
+<ul>
+<li><a href='/tag/오버클럭킹'>More About <span style='font-weight:bold;'>오버클럭킹</span></a></li>
+<li><a href='/tag/가이드'>More About <span style='font-weight:bold;'>가이드</span></a></li>
+<li><a href='/tag/MSI'>More About <span style='font-weight:bold;'>MSI</span></a></li>
+<li><a href='/tag/Z370'>More About <span style='font-weight:bold;'>Z370</span></a></li>
+<li><a href='/tag/게이밍'>More About <span style='font-weight:bold;'>게이밍</span></a></li>
+<li><a href='/tag/프로'>More About <span style='font-weight:bold;'>프로</span></a></li>
+<li><a href='/tag/카본'>More About <span style='font-weight:bold;'>카본</span></a></li>
+<li><a href='/tag/feat'>More About <span style='font-weight:bold;'>feat</span></a></li>
+<li><a href='/tag/i7-8700K'>More About <span style='font-weight:bold;'>i7-8700K</span></a></li>
+</ul>
+        </div> <!-- //.entry-summary -->
+        
+                    <div class="entry-tags"><b>Tags:</b> <a href="http://da.nala.ga/tag/feat/" rel="tag">feat</a>, <a href="http://da.nala.ga/tag/i7-8700k/" rel="tag">i7-8700K</a>, <a href="http://da.nala.ga/tag/msi/" rel="tag">MSI</a>, <a href="http://da.nala.ga/tag/z370/" rel="tag">Z370</a>, <a href="http://da.nala.ga/tag/%ea%b0%80%ec%9d%b4%eb%93%9c/" rel="tag">가이드</a>, <a href="http://da.nala.ga/tag/%ea%b2%8c%ec%9d%b4%eb%b0%8d/" rel="tag">게이밍</a>, <a href="http://da.nala.ga/tag/%ec%98%a4%eb%b2%84%ed%81%b4%eb%9f%ad%ed%82%b9/" rel="tag">오버클럭킹</a>, <a href="http://da.nala.ga/tag/%ec%b9%b4%eb%b3%b8/" rel="tag">카본</a>, <a href="http://da.nala.ga/tag/%ed%94%84%eb%a1%9c/" rel="tag">프로</a></div>
+        
+    </div>
+
+</article> <!--/#post-->
+
+
+
+
+
+                                                                    <div class="post-nav-area">
+                                                    
+            <nav class="next-previous-post clearfix media" role="navigation">
+                <div class="row">
+                    <!-- Previous Post -->
+                    <div class="previous-post col-sm-6 pull-left">
+                        <div class="nav-previous"><i class="fa fa-angle-left"></i> <a href="http://da.nala.ga/brad-opic-%ec%b2%ab%ec%8b%9c%ed%97%98%ec%97%90-al%eb%a0%88%eb%b2%a8-%eb%8b%ac%ec%84%b1-%ed%9b%84%ea%b8%b0-2/" rel="prev">Brad, OPIc 첫시험에 AL레벨 달성 후기</a></div>                    </div>
+
+                    <!-- Next Post -->
+                    <div class="next-post col-sm-6 pull-right text-right">
+                        <div class="nav-next"><a href="http://da.nala.ga/%ec%9d%b8%eb%8f%84-%ec%8b%a0%ed%99%94%eb%a1%9c-%eb%a7%90%ed%95%98%eb%8b%a4-2/" rel="next">인도, 신화로 말하다.</a> <i class="fa fa-angle-right"></i></div>                    </div>
+                </div>
+            </nav><!-- .navigation -->
+            
+                                            </div>
+                                
+                                
+                            
+                                            </main> <!-- /.site-main -->
+                </div>  <!-- /.content-area -->
+            </div> <!-- /col -->
+
+            <!-- Blogsidebar -->
+            
+	<div class="col-md-4">
+	    <div class="primary-sidebar widget-area" role="complementary">
+	        <div id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="http://da.nala.ga/">
+				<label>
+					<span class="screen-reader-text">검색:</span>
+					<input type="search" class="search-field" placeholder="검색 &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="검색" />
+			</form></div>		<div id="recent-posts-2" class="widget widget_recent_entries">		<h2 class="widget-title">최근 글</h2>		<ul>
+					<li>
+				<a href="http://da.nala.ga/%ea%b5%90%ed%99%98%ed%95%99%ec%83%9d%ec%a4%80%eb%b9%84part2-%ed%94%84%eb%9e%91%ec%8a%a4-sciences-po-%ec%a7%80%ec%9b%90-%ea%b3%bc%ec%a0%95%ea%b3%bc-%ea%b7%b8-%ec%a0%84-%ec%95%8c%ec%95%84%ec%95%bc/">[교환학생준비PART2] 프랑스 Sciences Po 지원 과정과 그 전 알아야할 것들!</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%b0%95%ea%b7%bc%ed%98%9c-%ec%b5%9c%ec%88%9c%ec%8b%a4-%ea%b2%8c%ec%9d%b4%ed%8a%b8%eb%a5%bc-%eb%b0%9d%ed%98%80%eb%82%b8-%ec%9d%bc%eb%93%b1%ea%b3%b5%ec%8b%a0-%ec%95%88%eb%af%bc%ec%84%9d/">박근혜 최순실 게이트를 밝혀낸 일등공신 안민석</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%b0%b0%ed%8b%80%ea%b7%b8%eb%9d%bc%ec%9a%b4%eb%93%9c-%ec%a0%95%ec%8b%9d%eb%b2%84%ec%a0%84-1-0%ed%8c%a8%ec%b9%98-%eb%ac%b4%ec%97%87%ec%9d%b4-%eb%b0%94%eb%80%8c%eb%82%98%ec%9a%94/">배틀그라운드 정식버전 1.0패치 무엇이 바뀌나요?</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%91%90%eb%87%8c%eb%a5%bc-%ea%b1%b4%ea%b0%95%ed%95%98%ea%b2%8c-%eb%a7%8c%eb%93%9c%eb%8a%94-4%ec%b2%9c%eb%b3%b4%ec%9d%98-%ea%b1%b8%ec%9d%8c/">두뇌를 건강하게 만드는 4천보의 걸음</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%af%b8%ea%b5%ad-%ec%9c%a0%ed%95%99-%ec%a0%95%eb%b3%b4-%ed%95%9c%ea%b5%ad-%eb%82%b4%ec%8b%a0-%ec%84%b1%ec%a0%81%eb%a7%8c%ec%9c%bc%eb%a1%9c-%eb%af%b8%ea%b5%ad-%eb%aa%85%eb%ac%b8%eb%8c%80-%ea%b0%80/">미국 유학  정보 &#8211; 한국 내신 성적만으로 미국 명문대 가기</a>
+						</li>
+				</ul>
+		</div>		<div id="tag_cloud-2" class="widget widget_tag_cloud"><h2 class="widget-title">태그</h2><div class="tagcloud"><a href="http://da.nala.ga/tag/1%ec%9b%94/" class="tag-cloud-link tag-link-35 tag-link-position-1" style="font-size: 14.892307692308pt;" aria-label="1월 (47 아이템)">1월</a>
+<a href="http://da.nala.ga/tag/2017/" class="tag-cloud-link tag-link-510 tag-link-position-2" style="font-size: 19.415384615385pt;" aria-label="2017 (76 아이템)">2017</a>
+<a href="http://da.nala.ga/tag/2017%eb%85%84/" class="tag-cloud-link tag-link-8 tag-link-position-3" style="font-size: 18.123076923077pt;" aria-label="2017년 (66 아이템)">2017년</a>
+<a href="http://da.nala.ga/tag/2018/" class="tag-cloud-link tag-link-61 tag-link-position-4" style="font-size: 14.461538461538pt;" aria-label="2018 (45 아이템)">2018</a>
+<a href="http://da.nala.ga/tag/2018%eb%85%84/" class="tag-cloud-link tag-link-103 tag-link-position-5" style="font-size: 18.984615384615pt;" aria-label="2018년 (73 아이템)">2018년</a>
+<a href="http://da.nala.ga/tag/vs/" class="tag-cloud-link tag-link-943 tag-link-position-6" style="font-size: 9.5076923076923pt;" aria-label="vs (26 아이템)">vs</a>
+<a href="http://da.nala.ga/tag/%ec%98%81%ed%99%94/" class="tag-cloud-link tag-link-1375 tag-link-position-7" style="font-size: 14.246153846154pt;" aria-label="“영화 (44 아이템)">“영화</a>
+<a href="http://da.nala.ga/tag/%ea%b0%80%ea%b2%a9/" class="tag-cloud-link tag-link-63 tag-link-position-8" style="font-size: 12.953846153846pt;" aria-label="가격 (38 아이템)">가격</a>
+<a href="http://da.nala.ga/tag/%ea%b0%80%ec%83%81%ed%99%94%ed%8f%90/" class="tag-cloud-link tag-link-1479 tag-link-position-9" style="font-size: 9.0769230769231pt;" aria-label="가상화폐 (25 아이템)">가상화폐</a>
+<a href="http://da.nala.ga/tag/%ea%b2%80%ec%9d%80%ec%82%ac%eb%a7%89/" class="tag-cloud-link tag-link-341 tag-link-position-10" style="font-size: 8.8615384615385pt;" aria-label="검은사막 (24 아이템)">검은사막</a>
+<a href="http://da.nala.ga/tag/%ea%b2%8c%ec%9e%84/" class="tag-cloud-link tag-link-391 tag-link-position-11" style="font-size: 22pt;" aria-label="게임 (102 아이템)">게임</a>
+<a href="http://da.nala.ga/tag/%ea%b3%b5%ea%b0%9c/" class="tag-cloud-link tag-link-938 tag-link-position-12" style="font-size: 9.5076923076923pt;" aria-label="공개 (26 아이템)">공개</a>
+<a href="http://da.nala.ga/tag/%ea%b3%b5%eb%9e%b5/" class="tag-cloud-link tag-link-1018 tag-link-position-13" style="font-size: 8.8615384615385pt;" aria-label="공략 (24 아이템)">공략</a>
+<a href="http://da.nala.ga/tag/%eb%8b%a4%ec%9a%b4%eb%a1%9c%eb%93%9c/" class="tag-cloud-link tag-link-364 tag-link-position-14" style="font-size: 8.4307692307692pt;" aria-label="다운로드 (23 아이템)">다운로드</a>
+<a href="http://da.nala.ga/tag/%eb%8c%80%ed%95%b4%ec%84%9c/" class="tag-cloud-link tag-link-1629 tag-link-position-15" style="font-size: 8.8615384615385pt;" aria-label="대해서 (24 아이템)">대해서</a>
+<a href="http://da.nala.ga/tag/%eb%a6%ac%eb%b7%b0/" class="tag-cloud-link tag-link-555 tag-link-position-16" style="font-size: 15.969230769231pt;" aria-label="리뷰 (53 아이템)">리뷰</a>
+<a href="http://da.nala.ga/tag/%eb%a7%9b%ec%a7%91/" class="tag-cloud-link tag-link-4173 tag-link-position-17" style="font-size: 9.9384615384615pt;" aria-label="맛집 (27 아이템)">맛집</a>
+<a href="http://da.nala.ga/tag/%eb%aa%a8%eb%b0%94%ec%9d%bc/" class="tag-cloud-link tag-link-835 tag-link-position-18" style="font-size: 10.584615384615pt;" aria-label="모바일 (29 아이템)">모바일</a>
+<a href="http://da.nala.ga/tag/%eb%ac%b4%eb%a3%8c/" class="tag-cloud-link tag-link-827 tag-link-position-19" style="font-size: 13.384615384615pt;" aria-label="무료 (40 아이템)">무료</a>
+<a href="http://da.nala.ga/tag/%eb%b0%a9%eb%b2%95/" class="tag-cloud-link tag-link-529 tag-link-position-20" style="font-size: 15.323076923077pt;" aria-label="방법 (49 아이템)">방법</a>
+<a href="http://da.nala.ga/tag/%eb%b9%84%ed%8a%b8%ec%bd%94%ec%9d%b8/" class="tag-cloud-link tag-link-1478 tag-link-position-21" style="font-size: 9.0769230769231pt;" aria-label="비트코인 (25 아이템)">비트코인</a>
+<a href="http://da.nala.ga/tag/%ec%84%a4%ec%b9%98/" class="tag-cloud-link tag-link-360 tag-link-position-22" style="font-size: 8pt;" aria-label="설치 (22 아이템)">설치</a>
+<a href="http://da.nala.ga/tag/%ec%86%8c%ea%b0%9c/" class="tag-cloud-link tag-link-297 tag-link-position-23" style="font-size: 8.4307692307692pt;" aria-label="소개 (23 아이템)">소개</a>
+<a href="http://da.nala.ga/tag/%ec%88%9c%ec%9c%84/" class="tag-cloud-link tag-link-12 tag-link-position-24" style="font-size: 11.230769230769pt;" aria-label="순위 (31 아이템)">순위</a>
+<a href="http://da.nala.ga/tag/%ec%8b%9c%ec%9e%91/" class="tag-cloud-link tag-link-579 tag-link-position-25" style="font-size: 8.4307692307692pt;" aria-label="시작 (23 아이템)">시작</a>
+<a href="http://da.nala.ga/tag/%ec%95%88%eb%82%b4/" class="tag-cloud-link tag-link-338 tag-link-position-26" style="font-size: 10.584615384615pt;" aria-label="안내 (29 아이템)">안내</a>
+<a href="http://da.nala.ga/tag/%ec%95%8c%ec%95%84%eb%b3%b4%ea%b8%b0/" class="tag-cloud-link tag-link-1939 tag-link-position-27" style="font-size: 12.523076923077pt;" aria-label="알아보기 (36 아이템)">알아보기</a>
+<a href="http://da.nala.ga/tag/%ec%95%8c%ec%95%84%eb%b3%b4%ec%9e%90/" class="tag-cloud-link tag-link-369 tag-link-position-28" style="font-size: 11.661538461538pt;" aria-label="알아보자 (33 아이템)">알아보자</a>
+<a href="http://da.nala.ga/tag/%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8/" class="tag-cloud-link tag-link-567 tag-link-position-29" style="font-size: 9.0769230769231pt;" aria-label="업데이트 (25 아이템)">업데이트</a>
+<a href="http://da.nala.ga/tag/%ec%97%ac%ed%96%89/" class="tag-cloud-link tag-link-1122 tag-link-position-30" style="font-size: 12.738461538462pt;" aria-label="여행 (37 아이템)">여행</a>
+<a href="http://da.nala.ga/tag/%ec%98%a4%eb%b8%8c/" class="tag-cloud-link tag-link-271 tag-link-position-31" style="font-size: 10.8pt;" aria-label="오브 (30 아이템)">오브</a>
+<a href="http://da.nala.ga/tag/%ec%98%a8%eb%9d%bc%ec%9d%b8/" class="tag-cloud-link tag-link-328 tag-link-position-32" style="font-size: 11.876923076923pt;" aria-label="온라인 (34 아이템)">온라인</a>
+<a href="http://da.nala.ga/tag/%ec%9c%84%ed%95%9c/" class="tag-cloud-link tag-link-183 tag-link-position-33" style="font-size: 13.169230769231pt;" aria-label="위한 (39 아이템)">위한</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%eb%b2%a4%ed%8a%b8/" class="tag-cloud-link tag-link-723 tag-link-position-34" style="font-size: 13.169230769231pt;" aria-label="이벤트 (39 아이템)">이벤트</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%ec%95%bc%ea%b8%b0/" class="tag-cloud-link tag-link-861 tag-link-position-35" style="font-size: 10.8pt;" aria-label="이야기 (30 아이템)">이야기</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%ec%9c%a0/" class="tag-cloud-link tag-link-1482 tag-link-position-36" style="font-size: 9.9384615384615pt;" aria-label="이유 (27 아이템)">이유</a>
+<a href="http://da.nala.ga/tag/%ec%9d%bc%eb%b3%b8/" class="tag-cloud-link tag-link-1007 tag-link-position-37" style="font-size: 8.4307692307692pt;" aria-label="일본 (23 아이템)">일본</a>
+<a href="http://da.nala.ga/tag/%ec%a0%95%eb%a6%ac/" class="tag-cloud-link tag-link-65 tag-link-position-38" style="font-size: 11.876923076923pt;" aria-label="정리 (34 아이템)">정리</a>
+<a href="http://da.nala.ga/tag/%ec%a0%95%eb%b3%b4/" class="tag-cloud-link tag-link-610 tag-link-position-39" style="font-size: 17.261538461538pt;" aria-label="정보 (61 아이템)">정보</a>
+<a href="http://da.nala.ga/tag/%ec%b4%9d%ec%a0%95%eb%a6%ac/" class="tag-cloud-link tag-link-179 tag-link-position-40" style="font-size: 8.4307692307692pt;" aria-label="총정리 (23 아이템)">총정리</a>
+<a href="http://da.nala.ga/tag/%ec%b5%9c%ea%b3%a0/" class="tag-cloud-link tag-link-404 tag-link-position-41" style="font-size: 11.876923076923pt;" aria-label="최고 (34 아이템)">최고</a>
+<a href="http://da.nala.ga/tag/%ec%b6%94%ec%b2%9c/" class="tag-cloud-link tag-link-367 tag-link-position-42" style="font-size: 20.707692307692pt;" aria-label="추천 (89 아이템)">추천</a>
+<a href="http://da.nala.ga/tag/%ec%b6%9c%ec%8b%9c/" class="tag-cloud-link tag-link-612 tag-link-position-43" style="font-size: 10.584615384615pt;" aria-label="출시 (29 아이템)">출시</a>
+<a href="http://da.nala.ga/tag/%ed%95%9c%ea%b5%ad/" class="tag-cloud-link tag-link-1483 tag-link-position-44" style="font-size: 10.153846153846pt;" aria-label="한국 (28 아이템)">한국</a>
+<a href="http://da.nala.ga/tag/%ed%9b%84%ea%b8%b0/" class="tag-cloud-link tag-link-114 tag-link-position-45" style="font-size: 19.2pt;" aria-label="후기 (74 아이템)">후기</a></div>
+</div>	    </div>
+	</div>
+
+        </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+    </div>
+    <footer class="site-footer" role="contentinfo">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+  
+                    <p></p>
+                    
+                                            <div class="footer-social-icons">
+                                                                                                                                                                                                                                                                                                                                                                                                        
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+            <div class="scroll-up">
+            <a href="#"><i class="fa fa-angle-up"></i></a>
+        </div>
+        <!-- Scroll Up -->
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/af2821b0/cloudflare-static/email-decode.min.js"></script><script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/bootstrap.min.js?ver=3.3.5'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/scripts.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/jquery.fitvids.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/smoothscroll.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/wp-embed.min.js?ver=4.8.4'></script>
+    </body>
+</html>

@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="http://da.nala.ga/xmlrpc.php">
+
+<title>슈퍼로봇대전 D 공략 – 31 ~ 마지막화 | All About CC</title>
+<meta name='robots' content='noindex,follow' />
+
+<!-- All in One SEO Pack 2.4.3.1 by Michael Torbert of Semper Fi Web Design[276,333] -->
+<link rel="canonical" href="http://da.nala.ga/%ec%8a%88%ed%8d%bc%eb%a1%9c%eb%b4%87%eb%8c%80%ec%a0%84-d-%ea%b3%b5%eb%9e%b5-31-%eb%a7%88%ec%a7%80%eb%a7%89%ed%99%94/" />
+<!-- /all in one seo pack -->
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 피드" href="http://da.nala.ga/feed/" />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 댓글 피드" href="http://da.nala.ga/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 슈퍼로봇대전 D 공략 &#8211; 31 ~ 마지막화 댓글 피드" href="http://da.nala.ga/%ec%8a%88%ed%8d%bc%eb%a1%9c%eb%b4%87%eb%8c%80%ec%a0%84-d-%ea%b3%b5%eb%9e%b5-31-%eb%a7%88%ec%a7%80%eb%a7%89%ed%99%94/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/da.nala.ga\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.4"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bootstrap-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/bootstrap.min.css?ver=3.3.5' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/font-awesome.min.css?ver=4.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='shaped-blog-stylesheet-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/style.css?ver=4.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/responsive.css' type='text/css' media='all' />
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://da.nala.ga/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://da.nala.ga/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://da.nala.ga/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='RPCS3 PS3 에뮬레이터로 제3차 슈퍼로봇대전 Z 시옥편 구동 후기' href='http://da.nala.ga/rpcs3-ps3-%ec%97%90%eb%ae%ac%eb%a0%88%ec%9d%b4%ed%84%b0%eb%a1%9c-%ec%a0%9c3%ec%b0%a8-%ec%8a%88%ed%8d%bc%eb%a1%9c%eb%b4%87%eb%8c%80%ec%a0%84-z-%ec%8b%9c%ec%98%a5%ed%8e%b8-%ea%b5%ac%eb%8f%99-%ed%9b%84/' />
+<link rel='next' title='[Daily Life]크리스마스 선물/장식장 정리' href='http://da.nala.ga/daily-life%ed%81%ac%eb%a6%ac%ec%8a%a4%eb%a7%88%ec%8a%a4-%ec%84%a0%eb%ac%bc%ec%9e%a5%ec%8b%9d%ec%9e%a5-%ec%a0%95%eb%a6%ac/' />
+<meta name="generator" content="WordPress 4.8.4" />
+<link rel='shortlink' href='http://da.nala.ga/?p=3163' />
+<link rel="alternate" type="application/json+oembed" href="http://da.nala.ga/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fda.nala.ga%2F%25ec%258a%2588%25ed%258d%25bc%25eb%25a1%259c%25eb%25b4%2587%25eb%258c%2580%25ec%25a0%2584-d-%25ea%25b3%25b5%25eb%259e%25b5-31-%25eb%25a7%2588%25ec%25a7%2580%25eb%25a7%2589%25ed%2599%2594%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://da.nala.ga/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fda.nala.ga%2F%25ec%258a%2588%25ed%258d%25bc%25eb%25a1%259c%25eb%25b4%2587%25eb%258c%2580%25ec%25a0%2584-d-%25ea%25b3%25b5%25eb%259e%25b5-31-%25eb%25a7%2588%25ec%25a7%2580%25eb%25a7%2589%25ed%2599%2594%2F&#038;format=xml" />
+
+	<style>
+
+		/* Border Color */
+		.btn-social:hover,
+		blockquote,
+		#respond input:focus[type="text"], 
+	    #respond input:focus[type="email"], 
+	    #respond input:focus[type="url"],
+	    #respond textarea:focus,
+	    #comments .comment-reply a:hover
+		{
+			border-color: ;
+		}
+
+		
+		/* Background Color */
+		.scroll-up a,
+		.btn-social:hover,
+		button,
+		input[type="button"],
+		input[type="reset"],
+		input[type="submit"],
+		.navbar-default .navbar-nav .dropdown-menu li a:hover, .dropdown-menu li a:focus, .navbar-default .navbar-nav .dropdown-menu .active a,
+		.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover, .pagination li .current,
+		.next-previous-posts .next-post a:hover,
+		.next-previous-posts .previous-post a:hover,
+		.btn-goback,
+		.btn-submit,
+		a.more-link,
+		.featured-post .fa,
+		#comments .comment-reply a:hover,
+		.widget .tagcloud a
+		{
+			background-color: ;
+		}
+
+		
+		/* Color */
+		.text-logo a,
+		.navbar-default .navbar-nav .active a, .navbar-default .navbar-nav .active a:hover, .navbar-default .navbar-nav .active a:focus,
+		.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus,
+		a:hover,
+    	a:focus,
+		.next-previous-posts .previous-post a,
+		.next-previous-posts .next-post a,
+		.pagination>li>a, .pagination>li>span,
+		#comments .comment-author a:hover, 
+    	#respond .logged-in-as a:hover,
+    	#wp-calendar a,
+    	h2.entry-title a:hover
+		{
+			color: ;
+		}
+
+
+		/* A Color */
+		a{
+			color: ;
+		}
+
+		/* a:hover Color */
+		a:hover,
+		a:focus,
+		a:active,
+		.widget a:hover,
+		.post .post-content .entry-meta ul li a:hover
+		{
+			color: ;
+		}
+
+		/* .featured-post .fa:after*/
+		.featured-post .fa:after{
+			border-color:   transparent ;
+		}
+
+
+		
+
+	</style>
+</head>
+
+<body class="post-template-default single single-post postid-3163 single-format-standard">
+
+    <div id="st-preloader">
+        <div id="pre-status">
+            <div class="preload-placeholder"></div>
+        </div>
+    </div>
+<!-- /Preloader -->
+
+<header id="header">	
+	<div id="trueHeader">
+    	<div class="wrapper">
+            <div class="container">
+            	<!-- Menu -->
+            	<div class="menu_main">
+                	<div class="navbar blogx-navbar navbar-default">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#st-navber-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+
+                                                            <div class="text-logo">
+                                    <a href="http://da.nala.ga">All About CC</a>
+                                    <p>All About CC Contents</p>
+                                </div><!-- /Logo -->
+                                                    </div>
+                      
+                        <div id="st-navber-collapse" class="navbar-collapse collapse pull-right">
+                             
+                        </div>
+                    </div>
+            	</div><!-- end menu -->
+        	</div> <!-- /.container -->
+    	</div>
+	</div>
+	<DIV class='ads_adsense_img' style='margin:40px 0px 40px 0px;'>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- only display -->
+	<ins class="adsbygoogle"
+	     style="display:block"
+	     data-ad-client="ca-pub-8393857339019314"
+	     data-ad-slot="7474886381"
+	     data-ad-format="auto"></ins>
+	<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+	</DIV>	
+</header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div id="primary" class="content-area">
+                    <main id="main" class="site-main" role="main">
+
+                        
+                                <article id="post-3163" class="post-3163 post type-post status-publish format-standard hentry category-uncategorized tag-4488 tag-1018 tag-5826 tag-5818">
+    <header class="entry-header">
+        
+        
+    </header> <!--/.entry-header -->
+
+    <div class="clearfix post-content media">
+
+        <h2 class="entry-title">
+            슈퍼로봇대전 D 공략 &#8211; 31 ~ 마지막화        </h2> <!-- //.entry-title -->
+
+        <div class="clearfix entry-meta">
+            
+            <ul class="list-inline">
+                <li>
+                    <span class="author vcard">
+                        By <a class="url fn n" href="http://da.nala.ga/author/site-admin/">site-admin</a>                    </span>
+                </li>
+                <li>
+                    on <span class="posted-on">1월 09, 2018</span>
+                </li>
+                                    <li>
+                        in <span class="posted-in">
+                            <a href="http://da.nala.ga/category/uncategorized/" rel="category tag">미분류</a>                        </span>
+                    </li>
+                            </ul>
+                </div> <!--/.entry-meta -->
+        
+        <div class="entry-summary">
+            <p><img src='http://cfile1.uf.tistory.com/image/27509C335811E1C31E4EED' style='max-width:250px;min-width:0px;' onError='this.style.display="none"' /></p>
+<h1>3줄 요약 </h1>
+<div style='color:#fff;background-color:#000;border-radius:10px;'>
+<ol>
+<li><span>주인공 &#8216;사랑&#8217; 사용 후 그라키에이스 원호까지 받아서 잡았습니다.적이 새빨갛게 몰려왔네요 또..</span></li>
+<li><span>적을 세 기 잡으면 운브라 일당이 왼쪽 위에서 증원.</span></li>
+<li><span>페르펙티오와 함께 온 증원 기체들 역시 HP 40,000 이상입니다. 만만찮네요.</span></li>
+</ol>
+</div>
+<p><span id="more-3163"></span></p>
+<p><iframe src='http://ad.selfhow.com/rd' width='100%' border=0 frameborder=0 style='height:auto;width:100%'></iframe></p>
+<hr />
+<p style="text-align: center;"><b>31화</b></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-1.png" height="160" src="http://cfile1.uf.tistory.com/image/27509C335811E1C31E4EED" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-2.png" height="160" src="http://cfile3.uf.tistory.com/image/273908335811E1C4339B46" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-3.png" height="160" src="http://cfile9.uf.tistory.com/image/274AA4335811E1C423F59D" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-4.png" height="160" src="http://cfile5.uf.tistory.com/image/276084335811E1C40F3CA7" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-5.png" height="160" src="http://cfile24.uf.tistory.com/image/274B51335811E1C5225075" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">빨갛게 표시된 부분이 유적입니다.</p>
+<p style="text-align: center;">정신기 가속을 갖고 있는 기체들은 빠르게 접근해줍시다.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">적들이 뭉쳐서 오기 때문에 원호공격 / 방어가 주렁주렁 달려있네요.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-6.png" height="160" src="http://cfile5.uf.tistory.com/image/2109614B5814343C358A12" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-7.png" height="160" src="http://cfile7.uf.tistory.com/image/2205F84B5814343C3802CA" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">적을 열심히 잡고 있으면 회화 이벤트가 발생합니다.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-8.png" height="160" src="http://cfile29.uf.tistory.com/image/2618A83C5814393C04A507" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-9.png" height="160" src="http://cfile10.uf.tistory.com/image/251A7A3C5814393C0262A0" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-10.png" height="160" src="http://cfile25.uf.tistory.com/image/210BBA3C5814393D0EEC6E" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-11.png" height="160" src="http://cfile21.uf.tistory.com/image/2445D139581439711127BA" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;">
+<p style="text-align: center;"></p>
+<p style="text-align: center;">적이 다섯 기 남으면 길고긴 이벤트 후 가빌이 그레덴과 합체(?)합니다.</p>
+<p style="text-align: center;">가빌에게 사거리 9짜리 맵 병기가 생기니 뒤로 쭉 빠져서 오게 만듭시다.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">사실 저 사운드포스 분대만 빠지면 됩니다. 저는 유적 쪽에 옹기종기 모여있었거든요.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">프로토데빌룬을 갖고 있는 기체엔 사운드포스의 노래를 제외하면 데미지가 반 밖에 안 들어갑니다.</p>
+<p style="text-align: center;">거기에 I필드 배리어까지 들고 있어 빔 공격은 아예 들어가질 않는군요.</p>
+<p style="text-align: center;">HP회복 少, EN회복 大 달고 있습니다.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">HP 20퍼센트에 퇴각까지 하기 때문에 HP 조절 잘 해서 + 원호 공격 잘 이용해서 잡아봅시다.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">물론 노래를 사용하면 이 문제는 좀 더 쉽게 해결할 수 있지만! 저는 노래 안 쓰기로 했으니까요.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-12.png" height="160" src="http://cfile21.uf.tistory.com/image/223FE843581440D9032AA2" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-13.png" height="160" src="http://cfile3.uf.tistory.com/image/2322DA43581440D9212F13" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-14.png" height="160" src="http://cfile21.uf.tistory.com/image/213FFC43581440DA0348B7" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-15.png" height="160" src="http://cfile27.uf.tistory.com/image/2612B743581440DA31EDAF" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">주인공 &#8216;사랑&#8217; 사용 후 그라키에이스 원호까지 받아서 잡았습니다.</p>
+<p style="text-align: center;">적이 새빨갛게 몰려왔네요 또..</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">바르고는 HP 20퍼센트에 퇴각입니다. 프로토데빌룬 달고 있고요.</p>
+<p style="text-align: center;">HP회복 小, EN회복 大 달고 있습니다.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-16.png" height="160" src="http://cfile4.uf.tistory.com/image/2606064658145351024396" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">잡으면 이벤트와 함께 2부로 넘어갑니다.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-17.png" height="160" src="http://cfile8.uf.tistory.com/image/27612344581456AF1363AD" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-18.png" height="160" src="http://cfile30.uf.tistory.com/image/2249FA44581456B02670DE" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">아군이 아래쪽, 적은 위쪽에서 시작합니다.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-19.png" height="160" src="http://cfile10.uf.tistory.com/image/2757F14D58145F4525C26F" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">게페르니치를 잡으면 남아있던 적 모두 퇴각. 참 긴 스테이지였습니다.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">쯔메슈퍼로봇</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-20.png" height="160" src="http://cfile5.uf.tistory.com/image/245C903D581460C41DE3D4" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-21.png" height="160" src="http://cfile1.uf.tistory.com/image/2162773D581460C41750AB" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-22.png" height="160" src="http://cfile4.uf.tistory.com/image/2431C74E5814621B03F699" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">가운데 있는 빨간 곳이 적이 도달해서는 안 되는 곳입니다.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-23.png" height="160" src="http://cfile26.uf.tistory.com/image/27626F38581464150460FE" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-24.png" height="160" src="http://cfile9.uf.tistory.com/image/24390A385814641535B134" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;">겟타를 2형태로 변형.</p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-25.png" height="160" src="http://cfile24.uf.tistory.com/image/233A903858146416339F18" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-26.png" height="160" src="http://cfile6.uf.tistory.com/image/254934385814641621706A" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-27.png" height="160" src="http://cfile24.uf.tistory.com/image/213C2A385814641732BACC" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-28.png" height="160" src="http://cfile9.uf.tistory.com/image/2637D5385814641736926B" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-30.png" height="160" src="http://cfile25.uf.tistory.com/image/223EFC3C581464180569A2" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-31.png" height="160" src="http://cfile25.uf.tistory.com/image/212FAD3C5814641817547A" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;">쥬도 열혈 사용 후 겟타 왼쪽으로 이동, 아래에 있는 적 하이퍼 빔 샤벨로 공격.</p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-32.png" height="160" src="http://cfile28.uf.tistory.com/image/2617133C5814641932CA07" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-33.png" height="160" src="http://cfile27.uf.tistory.com/image/2137373C581464190D609D" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-34.png" height="160" src="http://cfile21.uf.tistory.com/image/26368D3C5814641A0E4034" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-36.png" height="160" src="http://cfile6.uf.tistory.com/image/2128EE3C5814641A1EE99C" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-39.png" height="160" src="http://cfile6.uf.tistory.com/image/221041375814641C029107" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-40.png" height="160" src="http://cfile24.uf.tistory.com/image/270AEF375814641D089BA5" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-41.png" height="160" src="http://cfile1.uf.tistory.com/image/271109375814641D01ABC4" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-42.png" height="160" src="http://cfile5.uf.tistory.com/image/256796375814641E2ED334" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;">겟타2를 다시 겟타1로 변형 후 정신기 가속, 열혈 사용 → 콜로니 오른쪽 아래로 이동</p>
+<p style="text-align: center; clear: none; float: none;">→ 위로 세칸 떨어진 적 스파이럴 겟타 빔으로 공격.</p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-43.png" height="160" src="http://cfile23.uf.tistory.com/image/267FDC375814641E142A2C" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-44.png" height="160" src="http://cfile29.uf.tistory.com/image/2716413B5814641E18DC18" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-45.png" height="160" src="http://cfile4.uf.tistory.com/image/2512A23B5814641F213EAD" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-46.png" height="160" src="http://cfile2.uf.tistory.com/image/241AA03B5814641F19000E" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-47.png" height="160" src="http://cfile9.uf.tistory.com/image/222DCE3B58146420023C29" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;">감린 사랑 사용 후 겟타 위쪽으로 이동 → 건 포드로 위로 네칸 떨어진 적 공격.</p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-48.png" height="160" src="http://cfile8.uf.tistory.com/image/211AF73B5814642018C16B" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-49.png" height="160" src="http://cfile4.uf.tistory.com/image/24214B3B581464241110E7" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-50.png" height="160" src="http://cfile10.uf.tistory.com/image/262DD63B58146424024A51" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;">웃소 감린이 공격한 적 위로 이동 → 빔 샤벨로 감린이 공격한 적 마무리.</p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-51.png" height="160" src="http://cfile6.uf.tistory.com/image/265AB638581464250D3259" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-52.png" height="160" src="http://cfile1.uf.tistory.com/image/263929385814642535DB38" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-53.png" height="160" src="http://cfile23.uf.tistory.com/image/235E4F38581464260A255C" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-54.png" height="160" src="http://cfile3.uf.tistory.com/image/2539B538581464263512CE" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-55.png" height="160" src="http://cfile21.uf.tistory.com/image/2247B43858146427244FCF" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-56.png" height="160" src="http://cfile9.uf.tistory.com/image/2347D33858146427241C3B" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-57.png" height="160" src="http://cfile30.uf.tistory.com/image/2445363858146427276C1B" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">카미유 변형 → 정신기 열혈, 돌격 사용 → 감린 오른쪽 위칸으로 이동 →</p>
+<p style="text-align: center;">하이퍼 메가 런쳐로 쥬도 옆쪽에 있는 적 공격 → 턴 종료.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">이후 공격은 반격하셔도 되고 방어하셔도 되고 회피하셔도 되고 마음대로 하십시오.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"><b>32화</b></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d32-1.png" height="160" src="http://cfile1.uf.tistory.com/image/260ED64D58146A16166B3C" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d32-2.png" height="160" src="http://cfile30.uf.tistory.com/image/240E2B4D58146A1719EF56" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">적이 많네요.</p>
+<p style="text-align: center;">보스 기체인 고람과 조무드는 프로토데빌룬을 달고 있습니다.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">이번 스테이지에서는 그 동안 많이 출전하지 못했던 기체들 위주로 꺼내주는 게 좋겠습니다.</p>
+<p style="text-align: center;">다음 스테이지에서는 이번 스테이지에 출전한 기체들은 출격을 할 수 없는데, 다음 스테이지가 훨씬 어렵습니다.</p>
+<p style="text-align: center;">전 이걸 진작 알았어야 하는데 왜 몰랐을까요..</p>
+<p style="text-align: center;">인터미션 회화 이벤트 너무 휙휙 넘기지 맙시다 ㅠㅠ</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d32-3.png" height="160" src="http://cfile10.uf.tistory.com/image/273C5B35581470CA24D137" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">둘 중 하나를 격추하면 남은 적들은 퇴각합니다.</p>
+<p style="text-align: center;">그리고 스테이지 종료. 모처럼 짧은 스테이지였습니다.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">쯔메슈퍼로봇</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d32-4.png" height="160" src="http://cfile2.uf.tistory.com/image/2528A534581471BF24328F" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d32-5.png" height="160" src="http://cfile30.uf.tistory.com/image/24244534581471C02641CE" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d32-6.png" height="160" src="http://cfile9.uf.tistory.com/image/2528DA34581471C122F9DC" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d32-7.png" height="160" src="http://cfile26.uf.tistory.com/image/272E5734581471C11AB855" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d32-8.png" height="160" src="http://cfile29.uf.tistory.com/image/24318D345814743821CB4B" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d32-9.png" height="160" src="http://cfile2.uf.tistory.com/image/2324BC34581474382A469E" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d32-10.png" height="160" src="http://cfile22.uf.tistory.com/image/2730CC345814743921C755" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d32-11.png" height="160" src="http://cfile10.uf.tistory.com/image/26325A345814743920E97E" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d32-12.png" height="160" src="http://cfile1.uf.tistory.com/image/2428BC345814743A2CF46F" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d32-13.png" height="160" src="http://cfile27.uf.tistory.com/image/272684345814743A2ECC0A" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;">트레이즈 정신기 열혈 + 돌격 사용 → 위쪽 콜로니 오른쪽 위로 이동 → 가장 아래쪽에 있는 적 도버 건으로 공격.</p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d32-14.png" height="160" src="http://cfile4.uf.tistory.com/image/2228C8345814743B2C9917" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d32-15.png" height="160" src="http://cfile23.uf.tistory.com/image/2719B0345814743B3BE4D5" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d32-16.png" height="160" src="http://cfile3.uf.tistory.com/image/214FBB355814743C1D7B99" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;">샤아 트레이즈 오른쪽으로 이동 → 오른쪽 적을 빔 숏 라이플로 공격.</p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d32-17.png" height="160" src="http://cfile10.uf.tistory.com/image/2648B2355814743C252B5E" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d32-18.png" height="160" src="http://cfile6.uf.tistory.com/image/23480A355814743D24B5D2" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d32-19.png" height="160" src="http://cfile22.uf.tistory.com/image/213C53355814743D30501D" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d32-20.png" height="160" src="http://cfile27.uf.tistory.com/image/25428A355814743D2B70AD" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d32-21.png" height="160" src="http://cfile1.uf.tistory.com/image/21466E355814743E274A7D" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">젝스 저격 사용 → 트레이즈 왼쪽으로 이동 → 히트 로드로 샤아가 공격했던 적 마무리.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"><b>33화</b></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-1.png" height="160" src="http://cfile5.uf.tistory.com/image/257DA33B5815BC991A9A06" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-2.png" height="160" src="http://cfile1.uf.tistory.com/image/275C753B5815BC99285348" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-4.png" height="160" src="http://cfile24.uf.tistory.com/image/22334D3B58C669C80CAB58" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center;">이번 화에도 가빌을 아군으로 만들기 위한 조건이 있습니다. 2부에요.</p>
+<p style="text-align: center;">아군 전력이 나뉜 상태라 아주 약합니다.</p>
+<p style="text-align: center;">이번 화에서는 사운드포스를 이용해야 할지도 모르겠습니다. 강제출격이거든요.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">두번째 스크린샷 맨 위에 혼자 덜렁 있는 저 적기 있는 곳에 아군이 도달해야 합니다.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-3.png" height="160" src="http://cfile21.uf.tistory.com/image/2411D43E58C6627437C712" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">검은 부분으로는 지상 로봇이 이동할 수 없습니다.</p>
+<p style="text-align: center;">적을 열 기 가량 줄이면 적이 증원되니 교전은 최소한으로 하면서 이동하는 편이 좋습니다.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-5.png" height="160" src="http://cfile29.uf.tistory.com/image/2101974858C751A30652F4" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">목표지점을 점거하고 있는 적의 스탯입니다. 부지런히 때려줘야겠네요.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-6.png" height="160" src="http://cfile25.uf.tistory.com/image/2270B14F58C75C66207EF9" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-8.png" height="160" src="http://cfile6.uf.tistory.com/image/2373344F58C75C69202518" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-9.png" height="160" src="http://cfile10.uf.tistory.com/image/2504D34F58C75C6B154827" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d333-10.png" height="160" src="http://cfile26.uf.tistory.com/image/2762034F58C75C6D17FE5A" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">함대기함 우주공모를 격추하면 가빌 일당이 증원됩니다.</p>
+<p style="text-align: center;">무시하고 목표지점에 도달하게 되면 2부로 넘어가게 됩니다. 적을 다 잡을 필요가 없어요.</p>
+<p style="text-align: center;">2부에는 가빌을 아군으로 만들기 위한 플래그가 존재합니다.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-11.png" height="160" src="http://cfile26.uf.tistory.com/image/2441C65058C75DD82906DF" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-12.png" height="160" src="http://cfile4.uf.tistory.com/image/2412475058C75DD92391C5" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">아래쪽이 론드 벨 일행입니다.</p>
+<p style="text-align: center;">&#8216;감린&#8217; 으로 가빌을 격추합니다. 가빌 입수 조건입니다.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">그라빌에게는 HP小가 달려있습니다.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-13.png" height="160" src="http://cfile26.uf.tistory.com/image/223A484D58C76661104876" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-14.png" height="160" src="http://cfile21.uf.tistory.com/image/23701D4D58C7666115A17E" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">감린으로 가빌을 격추해도 적이 퇴각한다거나 하지는 않습니다.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-15 - 복사본.png" height="160" src="http://cfile23.uf.tistory.com/image/27207D3658C76E6E03FE13" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-16 - 복사본.png" height="160" src="http://cfile8.uf.tistory.com/image/2566A53658C76E6F0997D4" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-17 - 복사본.png" height="160" src="http://cfile4.uf.tistory.com/image/222DA53658C76E6F0309E7" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">적을 모두 잡으면 이벤트 후 스테이지 종료.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">쯔메슈퍼로봇</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-18.png" height="160" src="http://cfile4.uf.tistory.com/image/2776D94058C773B2143711" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-19.png" height="160" src="http://cfile29.uf.tistory.com/image/262E274058C773B32479CE" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-20.png" height="160" src="http://cfile23.uf.tistory.com/image/251D934158C7741C372B9B" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-21.png" height="160" src="http://cfile4.uf.tistory.com/image/227E874158C7741D191821" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-22.png" height="160" src="http://cfile9.uf.tistory.com/image/243D7A4158C7741D17D3BE" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-23.png" height="160" src="http://cfile3.uf.tistory.com/image/2176364158C7741D1197A1" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-24.png" height="160" src="http://cfile2.uf.tistory.com/image/251FFC4A58C77432245468" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;">켄토의 기합 + 단지의 직격 + 베라리오스의 철벽 사용 →  분리.</p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-25.png" height="160" src="http://cfile26.uf.tistory.com/image/274B244758C774A304F97E" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-26.png" height="160" src="http://cfile3.uf.tistory.com/image/23730E4758C774A43037A0" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-27.png" height="160" src="http://cfile10.uf.tistory.com/image/255F2F4758C774A41C6989" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;">아틀라우스의 핸드 슬레이서로 오른쪽 적 공격.</p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-28.png" height="160" src="http://cfile28.uf.tistory.com/image/22586F4D58C775001CA0D4" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-29.png" height="160" src="http://cfile7.uf.tistory.com/image/214C524D58C7750027A2DA" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-30.png" height="160" src="http://cfile10.uf.tistory.com/image/214E224D58C775002815B0" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-31.png" height="160" src="http://cfile21.uf.tistory.com/image/23169D4D58C77501223A5F" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-32.png" height="160" src="http://cfile22.uf.tistory.com/image/24636B4D58C775012682D1" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center;">건퍼 직격 사용 후 건퍼 커터로 해당 적기 공격 후 대기.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-33.png" height="160" src="http://cfile9.uf.tistory.com/image/253C9B4C58C7755927FFEA" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-34.png" height="160" src="http://cfile29.uf.tistory.com/image/2457154C58C775591AD0F5" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-35.png" height="160" src="http://cfile28.uf.tistory.com/image/263D3A4C58C7755A26373C" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">베라리오스 이동 후 합체, 페이즈 종료.</p>
+<p style="text-align: center;">적군 페이즈에는 모두 반격.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-36.png" height="160" src="http://cfile22.uf.tistory.com/image/2415894158C7765D32859C" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-37.png" height="160" src="http://cfile22.uf.tistory.com/image/241E694158C7765D1BBD0B" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-38.png" height="160" src="http://cfile5.uf.tistory.com/image/223D7A4158C7765E2456E0" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-39.png" height="160" src="http://cfile7.uf.tistory.com/image/277E874158C7765E269A9F" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-40.png" height="160" src="http://cfile7.uf.tistory.com/image/2338834158C7765F192BBA" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;">분리 후 건퍼로 감시로봇 격추.</p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-41.png" height="160" src="http://cfile21.uf.tistory.com/image/2276364158C7765F1FE566" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-42.png" height="160" src="http://cfile2.uf.tistory.com/image/236B7D4158C7766020F6B2" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-43.png" height="160" src="http://cfile3.uf.tistory.com/image/2130284158C77660032D0E" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-44.png" height="160" src="http://cfile28.uf.tistory.com/image/2216014258C77660015410" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-45.png" height="160" src="http://cfile1.uf.tistory.com/image/260E5F4258C77661335EF3" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-46.png" height="160" src="http://cfile3.uf.tistory.com/image/2273414258C7766125626A" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;">베라리오스 섬광 사용 후 개스콘에 근접하여 알파베타감마 어택으로 공격.</p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-47.png" height="160" src="http://cfile26.uf.tistory.com/image/21666F4258C776623CB4B6" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-48.png" height="160" src="http://cfile2.uf.tistory.com/image/2618974258C776622C1DCC" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-49.png" height="160" src="http://cfile28.uf.tistory.com/image/221D864258C776622CB547" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-50.png" height="160" src="http://cfile22.uf.tistory.com/image/2172AA4258C77663310072" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-51.png" height="160" src="http://cfile8.uf.tistory.com/image/2254A04358C776633BC712" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">합체 후 겐토 열혈 사용, 화염십문자 베기로 마무리.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"><b>34화</b></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-1.png" height="160" src="http://cfile30.uf.tistory.com/image/211F284C58C77862308A5B" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">배틀7은 이동 불가상태입니다.</p>
+<p style="text-align: center;">감린은 꼭 출격시킵시다.</p>
+<p style="text-align: center;">감린과 가비그라의 교전 이벤트를 보면 가빌 입수 조건 완료.</p>
+<p style="text-align: center;">2부에서 게페르니치를 격추하지 않고 클리어하면 시빌 입수 조건 완료입니다.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">가비그라 등장 조건은</p>
+<p style="text-align: center;">1. 그라빌의 HP가 30% 이하가 되었을 경우</p>
+<p style="text-align: center;">2. 가빌을 그라빌보다 먼저 격추</p>
+<p style="text-align: center;">이렇게 둘 중 하나입니다. 그라빌의 HP가 30% 넘게 남은 상태에서 한 번에 격추하면 가비그라가 등장하지 않습니다.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-2.png" height="160" src="http://cfile30.uf.tistory.com/image/2248483758C77A8C23AD39" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-3.png" height="160" src="http://cfile2.uf.tistory.com/image/276C673758C77A8C038760" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">3턴 아군 페이즈에 이벤트 발생, 이후 밀레느, 감린 공역 이탈.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-4.png" height="160" src="http://cfile29.uf.tistory.com/image/263ED24658C77D6507C5DD" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">5턴 아군 페이즈에 바사라와 감린 증원.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-5.png" height="160" src="http://cfile2.uf.tistory.com/image/26129E4658C77E080F76CE" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-6.png" height="160" src="http://cfile30.uf.tistory.com/image/233C0D4658C77E083E3F3F" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">그라빌보다 가빌을 먼저 격추했습니다. 가빌이 먼저 오거든요. 가비그라 팝업에 성공.</p>
+<p style="text-align: center;">가비그라에게는 맵병기가 있긴 한데 명중률이 형편없어 그리 위협이 되지는 않습니다.</p>
+<p style="text-align: center;">HP 회복 小 달려있네요.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-7.png" height="160" src="http://cfile30.uf.tistory.com/image/27306F4558C77E6E169C20" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-8.png" height="160" src="http://cfile23.uf.tistory.com/image/230A5A4558C77E6F26F336" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">가빌 입수 조건 완료.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-9.png" height="160" src="http://cfile6.uf.tistory.com/image/2672814558C7878B2A626C" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">HP가 150,000인데 75,000 이하가 되면 도근성까지 사용합니다.</p>
+<p style="text-align: center;">정신기는 게페르니치 쪽에 몰아주는 것이 좋겠습니다.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-10.png" height="160" src="http://cfile28.uf.tistory.com/image/231D1D3B58C78DE02C6F28" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-11.png" height="160" src="http://cfile30.uf.tistory.com/image/2564C03B58C78DE11D728A" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-12.png" height="160" src="http://cfile10.uf.tistory.com/image/2311BD3B58C78DE10F77EA" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">와 한 번 부활까지 합니다. 이 것이 2부입니다.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-14.png" height="160" src="http://cfile29.uf.tistory.com/image/26469F4258C7900A2C5DCD" width="240"/></span></p>
+<p style="text-align: center;">
+<p style="text-align: center;"></p>
+<p style="text-align: center;">한 번 부활한 상태에서 바사라와 게페르니치가 교전을 하면 게페르니치 비격추 상태로 클리어.</p>
+<p style="text-align: center;">시빌 입수 조건 완료입니다.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">쯔메슈퍼로봇</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-15.png" height="160" src="http://cfile26.uf.tistory.com/image/271FC84758C7914319F6BC" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-16.png" height="160" src="http://cfile22.uf.tistory.com/image/262DDF4758C7914417746C" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-17.png" height="160" src="http://cfile27.uf.tistory.com/image/212DBC4958C797CB15BCCB" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-18.png" height="160" src="http://cfile4.uf.tistory.com/image/212F194958C797CC1F3A4A" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-19.png" height="160" src="http://cfile21.uf.tistory.com/image/247BC64958C797CC309ACD" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-20.png" height="160" src="http://cfile10.uf.tistory.com/image/245A3A4958C797CC048FAD" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-21.png" height="160" src="http://cfile27.uf.tistory.com/image/262DCC4958C797CD083042" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-22.png" height="160" src="http://cfile8.uf.tistory.com/image/261FB34958C797CD21866D" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-23.png" height="160" src="http://cfile5.uf.tistory.com/image/247E564958C797CE397812" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-24.png" height="160" src="http://cfile8.uf.tistory.com/image/23235F4E58C797CE3376B5" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;">보스로 타시로에게 탈력 4회, 쥰의 헌신으로 보스의 SP 10회복, 다시 보스로 타시로에게 탈력 1회.</p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-25.png" height="160" src="http://cfile25.uf.tistory.com/image/2656144E58C797CF2F4CEE" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-26.png" height="160" src="http://cfile28.uf.tistory.com/image/220B544E58C797CF367149" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-27.png" height="160" src="http://cfile24.uf.tistory.com/image/274AC14E58C797CF25FC83" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-28.png" height="160" src="http://cfile28.uf.tistory.com/image/27775E4E58C797D02D89BB" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-45.png" height="160" src="http://cfile6.uf.tistory.com/image/227B6F3B58C79BF619B943" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;">
+<p style="text-align: center;">코우지 기합 4회, 쥰의 헌신으로 코우지 SP 10 회복, 열혈 사용</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-30.png" height="160" src="http://cfile5.uf.tistory.com/image/2459DF4E58C798740444CA" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-31.png" height="160" src="http://cfile21.uf.tistory.com/image/2351144E58C79874334AA0" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-32.png" height="160" src="http://cfile7.uf.tistory.com/image/2330844E58C79875089A52" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-33.png" height="160" src="http://cfile29.uf.tistory.com/image/266BFF4E58C7987525A3E0" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-34.png" height="160" src="http://cfile10.uf.tistory.com/image/25698C4E58C79876037265" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">쥰 섬광 사용 후 코우지 위로 이동하여 광자력 빔 + 코우지의 원호 공격으로 공격.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-35.png" height="160" src="http://cfile10.uf.tistory.com/image/267BA24E58C79901336C26" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-36.png" height="160" src="http://cfile21.uf.tistory.com/image/2517884E58C799011A42EA" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-37.png" height="160" src="http://cfile23.uf.tistory.com/image/2276454E58C79902273DCE" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-38.png" height="160" src="http://cfile3.uf.tistory.com/image/2470754E58C79902345B8B" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-39.png" height="160" src="http://cfile6.uf.tistory.com/image/2715924E58C799033165D4" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-40.png" height="160" src="http://cfile1.uf.tistory.com/image/2208074E58C79903109D03" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-41.png" height="160" src="http://cfile22.uf.tistory.com/image/2111A94E58C7990425B44E" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-42.png" height="160" src="http://cfile24.uf.tistory.com/image/2719194E58C799040EED12" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">코우지에게 사야카의 보급 사용, 사야카 섬광 사용 후 보스 옆으로 이동,</p>
+<p style="text-align: center;">스칼렛 빔 + 보스의 원호 공격으로 타시로 공격.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-43.png" height="160" src="http://cfile9.uf.tistory.com/image/263D795058C79AAA29ADC2" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-44.png" height="160" src="http://cfile7.uf.tistory.com/image/2338BE5058C79AAA139FA0" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">보스 자폭 사용.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-46.png" height="160" src="http://cfile29.uf.tistory.com/image/2645463558C79C1A2C3D3B" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-47.png" height="160" src="http://cfile27.uf.tistory.com/image/2206EC3558C79C1B19EDF2" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d34-48.png" height="160" src="http://cfile7.uf.tistory.com/image/2118453558C79C1B2EBEE5" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">강화형 로켓 펀치 + 그레이트 부스터(원호)로 마무리.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"><b>35화</b></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d35-1.png" height="160" src="http://cfile27.uf.tistory.com/image/26748F3F58C79DB31C107E" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">영 고약한 시작입니다.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d35-2.png" height="160" src="http://cfile27.uf.tistory.com/image/2775024658C79E3E2F93B2" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d35-3.png" height="160" src="http://cfile27.uf.tistory.com/image/2469224658C79E3E09753F" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">2턴 아군 페이즈에 아군 증원. 아래쪽에서 등장하고 동시에 타워는 퇴각합니다.</p>
+<p style="text-align: center;">시빌과 가빌이 아군이 되었습니다.</p>
+<p style="text-align: center;">이그니스에게는 맵병기가 있으니 조심합시다.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d35-4.png" height="160" src="http://cfile9.uf.tistory.com/image/2302F94358C79FF2030833" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d35-5.png" height="160" src="http://cfile23.uf.tistory.com/image/2606DA4358C79FF318A5BC" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">적을 세 기 잡으면 운브라 일당이 왼쪽 위에서 증원.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">이번 화는 이 것이 전부입니다.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">쯔메슈퍼로봇</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d35-6.png" height="160" src="http://cfile26.uf.tistory.com/image/27632D3B58C7ABA61C6A61" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d35-7.png" height="160" src="http://cfile8.uf.tistory.com/image/2208AD3B58C7ABA6175CCD" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d35-8.png" height="160" src="http://cfile5.uf.tistory.com/image/23561D3358C7ACD119B329" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d35-9.png" height="160" src="http://cfile28.uf.tistory.com/image/2506FA3358C7ACD2147555" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d35-10.png" height="160" src="http://cfile30.uf.tistory.com/image/265B543358C7ACD20CA30C" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">구바바 기합 사용.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d35-11.png" height="160" src="http://cfile7.uf.tistory.com/image/277F533558C7AD9623680B" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d35-12.png" height="160" src="http://cfile8.uf.tistory.com/image/271AFF3558C7AD972C7C61" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d35-13.png" height="160" src="http://cfile9.uf.tistory.com/image/227AE23558C7AD973E0281" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d35-14.png" height="160" src="http://cfile1.uf.tistory.com/image/26642A3558C7AD98301108" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d35-15.png" height="160" src="http://cfile23.uf.tistory.com/image/2151DB3558C7AD981AAFDE" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d35-16.png" height="160" src="http://cfile28.uf.tistory.com/image/27418B3558C7AD99353D34" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d35-17.png" height="160" src="http://cfile8.uf.tistory.com/image/215B663558C7AD99235E8E" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d35-18.png" height="160" src="http://cfile29.uf.tistory.com/image/2443733C58C7AD9A13E19F" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">밀리아 B형으로 변형 → 열혈 사용 → 바사라 위쪽으로 이동하여 일제 사격(+ 바사라 원호)으로 공격.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d35-19.png" height="160" src="http://cfile9.uf.tistory.com/image/213B2B4358C7AE53097C09" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d35-20.png" height="160" src="http://cfile6.uf.tistory.com/image/2272504358C7AE5311BDFB" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d35-21.png" height="160" src="http://cfile29.uf.tistory.com/image/261EE64358C7AE540CADA4" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d35-22.png" height="160" src="http://cfile1.uf.tistory.com/image/2641224358C7AE5A38AB03" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d35-23.png" height="160" src="http://cfile29.uf.tistory.com/image/273E724358C7AE5A097B79" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d35-24.png" height="160" src="http://cfile21.uf.tistory.com/image/2429884358C7AE5B0B2DF4" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d35-25.png" height="160" src="http://cfile7.uf.tistory.com/image/245D674358C7AE5B1DB0FB" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">맥스 열혈 + 각성 사용 후 밀레느 왼쪽으로 이동, 건 포드(+ 밀레느 원호)로 공격.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d35-26.png" height="160" src="http://cfile29.uf.tistory.com/image/27221B4558C7AEF901BD00" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d35-27.png" height="160" src="http://cfile6.uf.tistory.com/image/25522D4558C7AEFA2BC919" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d35-28.png" height="160" src="http://cfile5.uf.tistory.com/image/277D584558C7AEFA31513B" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d35-29.png" height="160" src="http://cfile7.uf.tistory.com/image/2702D54558C7AEFB2764F9" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d35-30.png" height="160" src="http://cfile3.uf.tistory.com/image/2304124558C7AEFB047DB1" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d35-31.png" height="160" src="http://cfile26.uf.tistory.com/image/2555864558C7AEFC0981FF" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d31-12.png" height="160" src="http://cfile21.uf.tistory.com/image/223FE843581440D9032AA2" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">바사라 열혈, 돌격 사용 → HOLY LONELY NIGHT SB(+ 맥스 원호)로 공격.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d35-33.png" height="160" src="http://cfile29.uf.tistory.com/image/235FD84058C7AF6F1DEF36" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d35-34.png" height="160" src="http://cfile3.uf.tistory.com/image/2149A34058C7AF7042DDED" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d35-35.png" height="160" src="http://cfile23.uf.tistory.com/image/2742B54058C7AF701FF0F7" width="240"/></span></p>
+<p style="text-align: center;"> </p>
+<p style="text-align: center;">밀레느 MY FRIEND SB(+ 맥스 원호)로 공격.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d35-36.png" height="160" src="http://cfile5.uf.tistory.com/image/215C243E58C7AFDF1991C8" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d35-37.png" height="160" src="http://cfile25.uf.tistory.com/image/2613903E58C7AFDF139A75" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d35-38.png" height="160" src="http://cfile7.uf.tistory.com/image/26245A3E58C7AFE012094F" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d35-39.png" height="160" src="http://cfile10.uf.tistory.com/image/2457923E58C7AFE00DB65B" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">맥스 열혈 사용 후 마이크로 미사일 공격.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"><b>36화</b></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-1.png" height="160" src="http://cfile4.uf.tistory.com/image/2725D64F58C7B103072B17" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-2.png" height="160" src="http://cfile2.uf.tistory.com/image/224CA34F58C7B10324C8B7" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">알기 쉬운 배치.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-3.png" height="160" src="http://cfile29.uf.tistory.com/image/2578E24958C7B3F70607BF" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">슈바르츠는 한 번 잡으면 부활.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-4.png" height="160" src="http://cfile23.uf.tistory.com/image/237CB74958C7B56A028938" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">적이 다섯 기 남으면 아크이라 일당 증원. 이게 본게임이군요.</p>
+<p style="text-align: center;">아크이라는 빔 코트를 장착하고 있습니다.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">적기는 콤보공격을 갖고 있습니다. 주의하는 게 좋겠네요.</p>
+<p style="text-align: center;">모두 잡으면 2부로 넘어갑니다.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-5.png" height="160" src="http://cfile5.uf.tistory.com/image/26770C4958C7BC931C2612" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">7턴 내로 왼쪽에 있는 빨간 지점에 조슈아 혹은 글라키에이스가 도달해야 합니다.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-6.png" height="160" src="http://cfile29.uf.tistory.com/image/262DE13358C7C05C081BCB" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">적기를 하나 잡으니 목표 지점에 적이 증원.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-7.png" height="160" src="http://cfile8.uf.tistory.com/image/2130B73D58C7C209351241" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">처음 나와있던 적을 모두 잡으면 목표 지점에 다시 한 번 적 증원.</p>
+<p style="text-align: center;">적이 다섯 기 이하가 되면 또 다시 적이 증원됩니다. 세 번 까지 오네요.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-8.png" height="160" src="http://cfile4.uf.tistory.com/image/237F593F58C7C7DA11BC4B" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-9.png" height="160" src="http://cfile29.uf.tistory.com/image/224E533358C7C7F415E9C2" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">두 번째 목표 지점은 왼쪽 위입니다. 역시 현 시점으로부터 7턴이 경과되면 게임 오버.</p>
+<p style="text-align: center;">저 같은 경우는 주인공조, 글라키에이스조 둘로 나눠서 한 쪽이 목표 지점에 도달하는 동안</p>
+<p style="text-align: center;">나머지 조는 다음 지점으로 이동을 시켰습니다.</p>
+<p style="text-align: center;">그리고 전투에 참여하지 않는 인원은 미리 탈출구 쪽으로 보냈어요.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-10.png" height="160" src="http://cfile24.uf.tistory.com/image/2524FE4658C7CD5B1DEFCE" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">세 번째 지점은 오른쪽 조금 아래 부근.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-11.png" height="160" src="http://cfile21.uf.tistory.com/image/2430C34258C7D0D31AB739" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-12.png" height="160" src="http://cfile5.uf.tistory.com/image/253D6A4258C7D0D438794E" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">세 번째 지점 기준 위쪽에 마지막 목표 지점 위치.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-13.png" height="160" src="http://cfile26.uf.tistory.com/image/265FF94D58C7D76E0718E8" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-14.png" height="160" src="http://cfile25.uf.tistory.com/image/233A1F4D58C7D76F3176D1" width="240"/></span></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">마지막 지점까지 파괴하고 나면 탈출을 해야합니다.</p>
+<p style="text-align: center;">왼쪽 위라서 갈 길이 아주 멀군요. 7턴 이내에 나가야 하는데 말입니다.</p>
+<p style="text-align: center;">4차에 비슷한 맵이 있었는데 거기서는 탈출 못할 것 같으면 격추 당하면 됐었거든요.</p>
+<p style="text-align: center;">그거 꼼수라고 생각했는지 격추되면 게임 오버 됩니다.</p>
+<p style="text-align: center;">이동력이 낮은 기체들은 전함에 태워 한 번에 나가도 됩니다.</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;"></p>
+<p style="text-align: center;">쯔메슈퍼로봇</p>
+<p style="text-align: center;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-16.png" height="160" src="http://cfile4.uf.tistory.com/image/263D0F4658C89A1F1285C0" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-15.png" height="160" src="http://cfile26.uf.tistory.com/image/2209E84658C89A1E0E75C0" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-17.png" height="160" src="http://cfile2.uf.tistory.com/image/2279453858C8A3A9075BEF" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-18.png" height="160" src="http://cfile23.uf.tistory.com/image/216E1F3858C8A3AA0829B5" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-19.png" height="160" src="http://cfile1.uf.tistory.com/image/214F443858C8A3AA12991C" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-20.png" height="160" src="http://cfile4.uf.tistory.com/image/2512F13858C8A3AB0E3031" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-21.png" height="160" src="http://cfile27.uf.tistory.com/image/26321B3858C8A3AB124DCB" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;">켄토 기합 2회 사용. 베라리오스 신뢰 2회 노인에게 사용.</p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-22.png" height="160" src="http://cfile30.uf.tistory.com/image/2563BA3858C8A3AC09E7BB" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-24.png" height="160" src="http://cfile21.uf.tistory.com/image/2429153858C8A3AD1531EE" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-25.png" height="160" src="http://cfile10.uf.tistory.com/image/2649933C58C8A3AD21ECDF" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-26.png" height="160" src="http://cfile21.uf.tistory.com/image/253BDE3C58C8A3AE2B9B45" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;">달타니어스 분리 후 베라리오스를 켄토 왼쪽으로 이동하여 알파베타감마 어택으로 왼쪽 적 공격.</p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-28.png" height="160" src="http://cfile1.uf.tistory.com/image/2706A03C58C8A3AF0437B5" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-29.png" height="160" src="http://cfile9.uf.tistory.com/image/274C173C58C8A3AF30CC7E" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-30.png" height="160" src="http://cfile10.uf.tistory.com/image/2125673C58C8A3B035330F" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-31.png" height="160" src="http://cfile30.uf.tistory.com/image/2215FF3B58C8A3B0354B1C" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;">공격한 적 위쪽으로 건퍼 이동하여 알파베타감마 어택으로 마무리.</p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-32.png" height="160" src="http://cfile28.uf.tistory.com/image/21508B3B58C8A3B131AFBA" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-33.png" height="160" src="http://cfile5.uf.tistory.com/image/2651443B58C8A3B132C7B8" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-34.png" height="160" src="http://cfile29.uf.tistory.com/image/234C4E3B58C8A3B20293AB" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-35.png" height="160" src="http://cfile9.uf.tistory.com/image/216C843B58C8A3B330A156" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-36.png" height="160" src="http://cfile6.uf.tistory.com/image/265BD83B58C8A3B3016D8A" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-37.png" height="160" src="http://cfile1.uf.tistory.com/image/2634F93B58C8A3B42BDC1A" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-38.png" height="160" src="http://cfile21.uf.tistory.com/image/273A8A3B58C8A3B4349402" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;">달타니어스로 합체, 노인과 히카루의 헌신 달타니어스에 한 번씩 사용.</p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-39.png" height="160" src="http://cfile30.uf.tistory.com/image/241D163658C8A3B531FFE5" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-40.png" height="160" src="http://cfile9.uf.tistory.com/image/2202253658C8A3B525F46A" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-41.png" height="160" src="http://cfile1.uf.tistory.com/image/2136A63658C8A3B630A325" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;">달타니어스 트란 세이버로 위에 있는 적 공격. 콤보 공격입니다.</p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-42.png" height="160" src="http://cfile2.uf.tistory.com/image/2252A93658C8A3B62822F4" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-43.png" height="160" src="http://cfile9.uf.tistory.com/image/22276E3658C8A3B72B15B9" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-44.png" height="160" src="http://cfile1.uf.tistory.com/image/2661AD3658C8A3B727A6A1" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-45.png" height="160" src="http://cfile5.uf.tistory.com/image/214E423A58C8A3B832FF97" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-46.png" height="160" src="http://cfile24.uf.tistory.com/image/2526353A58C8A3B902F0A8" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-48.png" height="160" src="http://cfile23.uf.tistory.com/image/2552A83A58C8A3BA069FB5" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-49.png" height="160" src="http://cfile23.uf.tistory.com/image/2416D03A58C8A3BA03FB44" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d33-45.png" height="160" src="http://cfile1.uf.tistory.com/image/260E5F4258C77661335EF3" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-51.png" height="160" src="http://cfile3.uf.tistory.com/image/272C463A58C8A3BB357128" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;">달타니어스에게 노인의 재동 사용, 켄토 열혈 사용 후 벰보그 디란체 오른쪽으로 이동하여 화염십문자 베기로 공격.</p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-52.png" height="160" src="http://cfile24.uf.tistory.com/image/2754273A58C8A3BC064824" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-53.png" height="160" src="http://cfile27.uf.tistory.com/image/277A233358C8A3BC1FE0DD" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-54.png" height="160" src="http://cfile30.uf.tistory.com/image/2547623358C8A3BD202423" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-55.png" height="160" src="http://cfile29.uf.tistory.com/image/25354A3358C8A3BD33FD03" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-56.png" height="160" src="http://cfile8.uf.tistory.com/image/2142AA3358C8A3BE2990A5" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-57.png" height="160" src="http://cfile25.uf.tistory.com/image/241BDF3358C8A3BE25B25E" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;">아무로 열혈 사용 후 이동, 빔 라이플로 아래쪽 적 공격.</p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-58.png" height="160" src="http://cfile23.uf.tistory.com/image/263A8F3358C8A3BF2A0530" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-59.png" height="160" src="http://cfile6.uf.tistory.com/image/2615C73358C8A3BF2E2619" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-60.png" height="160" src="http://cfile3.uf.tistory.com/image/2475F93B58C8A3C036E288" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;">노인 레이저 건으로 겟타 왼쪽에 있는 적 공격.</p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-61.png" height="160" src="http://cfile9.uf.tistory.com/image/22214F3B58C8A3C0349BE6" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-62.png" height="160" src="http://cfile30.uf.tistory.com/image/250B5D3B58C8A3C136FA07" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-63.png" height="160" src="http://cfile23.uf.tistory.com/image/247A913B58C8A3C137D60F" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;">료마와 벤케이로 기합 2회씩 사용. 총 4회 사용입니다.</p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-64.png" height="160" src="http://cfile2.uf.tistory.com/image/2244453B58C8A3C203F7D8" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-65.png" height="160" src="http://cfile30.uf.tistory.com/image/253ED83B58C8A3C2336675" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-66.png" height="160" src="http://cfile6.uf.tistory.com/image/2432E83B58C8A3C335C891" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-67.png" height="160" src="http://cfile1.uf.tistory.com/image/2425563658C8A3DA2C8A21" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-68.png" height="160" src="http://cfile29.uf.tistory.com/image/25484D3658C8A3DB3089CF" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-69.png" height="160" src="http://cfile6.uf.tistory.com/image/251E3F3658C8A3DB33EECF" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-70.png" height="160" src="http://cfile26.uf.tistory.com/image/2109D53658C8A3DC25E4D5" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;">마리아 열혈, 섬광 사용 후 겟타 아래쪽으로 이동, 드릴 어택으로 겟타 옆의 적 공격.</p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-71.png" height="160" src="http://cfile9.uf.tistory.com/image/2458863658C8A3DC0ADB5C" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-72.png" height="160" src="http://cfile9.uf.tistory.com/image/2602253658C8A3DD265943" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;">겟타에게 히카루의 헌신 2회 사용.</p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-73.png" height="160" src="http://cfile3.uf.tistory.com/image/2104CB3658C8A3DD2B0A0C" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-74.png" height="160" src="http://cfile23.uf.tistory.com/image/224DB23558C8A3DE22E319" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-75.png" height="160" src="http://cfile25.uf.tistory.com/image/226A693558C8A3DF090302" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-76.png" height="160" src="http://cfile23.uf.tistory.com/image/2340A13558C8A3E02A0B9A" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-77.png" height="160" src="http://cfile2.uf.tistory.com/image/2530293558C8A3E035DB43" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d36-78.png" height="160" src="http://cfile22.uf.tistory.com/image/22019E3558C8A3E10872F4" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;">겟타 열혈 사용 후 적 왼쪽으로 접근, 겟타 토마호크 콤보 공격으로 스테이지 마무리.</p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"><b>37화</b></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d37-1.png" height="160" src="http://cfile23.uf.tistory.com/image/23797A3558C8AAEF0E33A9" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;">마지막화입니다.</p>
+<p style="text-align: center; clear: none; float: none;">쯔메슈퍼로봇이 37까지 있는데 이 분기에서는 못 보네요. 아이고 참 아쉽네요 하하하하.</p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;">저는 이상한 똥고집 때문에 사운드포스 거의 안 썼는데 적극적으로 사용하시길 권합니다.</p>
+<p style="text-align: center; clear: none; float: none;">아, 이걸 너무 늦게 말했는데 파일럿 육성도 36화 끝나고 부랴부랴 했습니다. 참 멍청한 짓이죠 그거.</p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d37-2.png" height="160" src="http://cfile6.uf.tistory.com/image/2303854358C8C0F60DE4FA" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d37-3.png" height="160" src="http://cfile1.uf.tistory.com/image/2669984358C8C0F60E1019" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;">이그니스 잡으면 아크이라.</p>
+<p style="text-align: center; clear: none; float: none;">여기까지는 할만합니다.</p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;">아그니스를 격추한 저쪽은 지상유닛이 넘어갈 수 없으니 전함에 태워 넘겨줍시다.</p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d37-4.png" height="160" src="http://cfile2.uf.tistory.com/image/2423733B58C8CB87037F09" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d37-5.png" height="160" src="http://cfile30.uf.tistory.com/image/2154353B58C8CB880B7454" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d37-6.png" height="160" src="http://cfile30.uf.tistory.com/image/2755633B58C8CB882D78FA" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d37-7.png" height="160" src="http://cfile6.uf.tistory.com/image/211CD03B58C8CB8910F696" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;">2부입니다. 벌써 머리가 아프네요.</p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;">정신기 최대한 아끼면서 가야합니다.</p>
+<p style="text-align: center; clear: none; float: none;">콘타키오에게는 HP 회복 小가 달려있네요.</p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;">시빌을 아군으로 만드셨다면 탱커처럼 운용하실 수 있습니다. 회피가 말도 안 되거든요.</p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="D37-8.png" height="160" src="http://cfile30.uf.tistory.com/image/2209874558C8F7011429B7" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;">적이 다섯 기 이하가 남으면 양 옆에서 총 여섯 기의 적 증원.</p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="D37-9.png" height="160" src="http://cfile1.uf.tistory.com/image/2556BB4658C8F7D43071DE" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;">운브라와 콘타키오는 HP가 30% 이하가 되면 도근성을 사용합니다.</p>
+<p style="text-align: center; clear: none; float: none;">원호 공격 등등을 이용해 한 번에 터뜨려야 합니다.</p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d37-10.png" height="160" src="http://cfile7.uf.tistory.com/image/21071C3358C8F96B2C40B5" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;">적이 다섯 기 이하가 되면 다시 한 번 적 증원.</p>
+<p style="text-align: center; clear: none; float: none;">적 다섯 기 이하일 때 증원이 반복되니 잘 조절하도록 합시다.</p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d37-12.png" height="160" src="http://cfile25.uf.tistory.com/image/214F1A3958C91276105E16" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d37-13.png" height="160" src="http://cfile3.uf.tistory.com/image/2364D23958C912770E566B" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d37-14.png" height="160" src="http://cfile4.uf.tistory.com/image/2761063958C912773DE523" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;">운브라와 콘타키오를 잡아내면 마침내 페르펙티오 등장.</p>
+<p style="text-align: center; clear: none; float: none;">아 하기 싫습니다..</p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;">페르펙티오와 함께 온 증원 기체들 역시 HP 40,000 이상입니다. 만만찮네요.</p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d37-15.png" height="160" src="http://cfile5.uf.tistory.com/image/27416C4E58C915DF1A2FDD" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d37-16.png" height="160" src="http://cfile26.uf.tistory.com/image/226A2D4E58C915DF0C80FE" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d37-17.png" height="160" src="http://cfile25.uf.tistory.com/image/2622D04E58C915DF2E20EF" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d37-18.png" height="160" src="http://cfile10.uf.tistory.com/image/237D0A4E58C915E03B4393" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d37-19.png" height="160" src="http://cfile8.uf.tistory.com/image/2272434E58C915E12A8AD7" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d37-20.png" height="160" src="http://cfile22.uf.tistory.com/image/2132484E58C915E12F1CB8" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;">이거 뭐 언제 잡나요.</p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d37-21.png" height="160" src="http://cfile1.uf.tistory.com/image/2426363F58C9264C2FD1D8" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d37-22.png" height="160" src="http://cfile21.uf.tistory.com/image/2624AB3F58C9264D0FBD36" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;">어떻게 꾸역꾸역 잡아내면 또 부활까지 합니다. 졸병 18기는 덤.</p>
+<p style="text-align: center; clear: none; float: none;">저는 겟타 두 대와 주인공의 정신기를 최대한 아껴놓은 상태입니다.</p>
+<p style="text-align: center; clear: none; float: none;">잘 큰 유닛 위주로 정신기를 꼭 남겨놓으세요.</p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d37-23.png" height="160" src="http://cfile2.uf.tistory.com/image/265F3D4458C9FA6703C437" width="240"/></span><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d37-24.png" height="160" src="http://cfile1.uf.tistory.com/image/22089D4458C9FA68383283" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"><span class="imageblock" style="display:inline-block;width:240px;;height:auto;max-width:100%"><img filemime="image/jpeg" filename="d37-25.png" height="160" src="http://cfile3.uf.tistory.com/image/27059E4458C9FA6838FCC2" width="240"/></span></p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;">한 번 더 잡아내면 이벤트 후 스테이지 클리어.</p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;">어렵다고 노래를 불렀던 이유는</p>
+<p style="text-align: center; clear: none; float: none;">1. 제가 이상한 똥고집 부려서 사운드 포스 사용을 안 했기 때문에.</p>
+<p style="text-align: center; clear: none; float: none;">2. 파툼 맵병기 때문에 슈퍼로봇들이 붙어서 싸울 수가 없어서.</p>
+<p style="text-align: center; clear: none; float: none;">3. HP가 너무 높아 필연적으로 장기전을 해야 했기 때문에.</p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;">네. 그러니 여러분들은 쓰라고 만든 사운드 포스 굳이 안 써가며 하실 이유가 없습니다.</p>
+<p style="text-align: center; clear: none; float: none;"></p>
+<p style="text-align: center; clear: none; float: none;">늦어져서 죄송합니다. 저 33화 보고 엄두가 안 나서 다음에 해야지 했던 게 이 사단을 만들었네요;</p>
+<p style="text-align: center; clear: none; float: none;">다음 공략은 J를 하려고 하는데</p>
+<p style="text-align: center; clear: none; float: none;">저기 쯔메슈퍼로봇 공략 꼭 필요한 거 아니죠???</p>
+<hr />
+<p><iframe src='http://ad.selfhow.com/rd' width='100%' border=0 frameborder=0 style='height:auto;width:100%'></iframe></p>
+<p><a href='http://ddaerry.tistory.com/96' target='_blank'>Origin Content : Garage</a> | <a href="/cdn-cgi/l/email-protection#9cfbfdf1f9c3ffffacacaddcf2fdf0fdb2fbfd" target='_blank'>Contact : <span class="__cf_email__" data-cfemail="83e4e2eee6dce0e0b3b3b2c3ede2efe2ade4e2">[email&#160;protected]</span></a>
+</p>
+<p>Cotent License : CC-BY </p>
+<p>This content is collected under the CCL license.</p>
+<p>Please check the license of the original article before asking about copyright.</p>
+<ul>
+<li><a href='/tag/슈퍼로봇대전'>More About <span style='font-weight:bold;'>슈퍼로봇대전</span></a></li>
+<li><a href='/tag/공략'>More About <span style='font-weight:bold;'>공략</span></a></li>
+<li><a href='/tag/31'>More About <span style='font-weight:bold;'>31</span></a></li>
+<li><a href='/tag/마지막화'>More About <span style='font-weight:bold;'>마지막화</span></a></li>
+</ul>
+        </div> <!-- //.entry-summary -->
+        
+                    <div class="entry-tags"><b>Tags:</b> <a href="http://da.nala.ga/tag/31/" rel="tag">31</a>, <a href="http://da.nala.ga/tag/%ea%b3%b5%eb%9e%b5/" rel="tag">공략</a>, <a href="http://da.nala.ga/tag/%eb%a7%88%ec%a7%80%eb%a7%89%ed%99%94/" rel="tag">마지막화</a>, <a href="http://da.nala.ga/tag/%ec%8a%88%ed%8d%bc%eb%a1%9c%eb%b4%87%eb%8c%80%ec%a0%84/" rel="tag">슈퍼로봇대전</a></div>
+        
+    </div>
+
+</article> <!--/#post-->
+
+
+
+
+
+                                                                    <div class="post-nav-area">
+                                                    
+            <nav class="next-previous-post clearfix media" role="navigation">
+                <div class="row">
+                    <!-- Previous Post -->
+                    <div class="previous-post col-sm-6 pull-left">
+                        <div class="nav-previous"><i class="fa fa-angle-left"></i> <a href="http://da.nala.ga/rpcs3-ps3-%ec%97%90%eb%ae%ac%eb%a0%88%ec%9d%b4%ed%84%b0%eb%a1%9c-%ec%a0%9c3%ec%b0%a8-%ec%8a%88%ed%8d%bc%eb%a1%9c%eb%b4%87%eb%8c%80%ec%a0%84-z-%ec%8b%9c%ec%98%a5%ed%8e%b8-%ea%b5%ac%eb%8f%99-%ed%9b%84/" rel="prev">RPCS3 PS3 에뮬레이터로 제3차 슈퍼로봇대전 Z 시옥편 구동 후기</a></div>                    </div>
+
+                    <!-- Next Post -->
+                    <div class="next-post col-sm-6 pull-right text-right">
+                        <div class="nav-next"><a href="http://da.nala.ga/daily-life%ed%81%ac%eb%a6%ac%ec%8a%a4%eb%a7%88%ec%8a%a4-%ec%84%a0%eb%ac%bc%ec%9e%a5%ec%8b%9d%ec%9e%a5-%ec%a0%95%eb%a6%ac/" rel="next">[Daily Life]크리스마스 선물/장식장 정리</a> <i class="fa fa-angle-right"></i></div>                    </div>
+                </div>
+            </nav><!-- .navigation -->
+            
+                                            </div>
+                                
+                                
+                            
+                                            </main> <!-- /.site-main -->
+                </div>  <!-- /.content-area -->
+            </div> <!-- /col -->
+
+            <!-- Blogsidebar -->
+            
+	<div class="col-md-4">
+	    <div class="primary-sidebar widget-area" role="complementary">
+	        <div id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="http://da.nala.ga/">
+				<label>
+					<span class="screen-reader-text">검색:</span>
+					<input type="search" class="search-field" placeholder="검색 &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="검색" />
+			</form></div>		<div id="recent-posts-2" class="widget widget_recent_entries">		<h2 class="widget-title">최근 글</h2>		<ul>
+					<li>
+				<a href="http://da.nala.ga/%ea%b5%90%ed%99%98%ed%95%99%ec%83%9d%ec%a4%80%eb%b9%84part2-%ed%94%84%eb%9e%91%ec%8a%a4-sciences-po-%ec%a7%80%ec%9b%90-%ea%b3%bc%ec%a0%95%ea%b3%bc-%ea%b7%b8-%ec%a0%84-%ec%95%8c%ec%95%84%ec%95%bc/">[교환학생준비PART2] 프랑스 Sciences Po 지원 과정과 그 전 알아야할 것들!</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%b0%95%ea%b7%bc%ed%98%9c-%ec%b5%9c%ec%88%9c%ec%8b%a4-%ea%b2%8c%ec%9d%b4%ed%8a%b8%eb%a5%bc-%eb%b0%9d%ed%98%80%eb%82%b8-%ec%9d%bc%eb%93%b1%ea%b3%b5%ec%8b%a0-%ec%95%88%eb%af%bc%ec%84%9d/">박근혜 최순실 게이트를 밝혀낸 일등공신 안민석</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%b0%b0%ed%8b%80%ea%b7%b8%eb%9d%bc%ec%9a%b4%eb%93%9c-%ec%a0%95%ec%8b%9d%eb%b2%84%ec%a0%84-1-0%ed%8c%a8%ec%b9%98-%eb%ac%b4%ec%97%87%ec%9d%b4-%eb%b0%94%eb%80%8c%eb%82%98%ec%9a%94/">배틀그라운드 정식버전 1.0패치 무엇이 바뀌나요?</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%91%90%eb%87%8c%eb%a5%bc-%ea%b1%b4%ea%b0%95%ed%95%98%ea%b2%8c-%eb%a7%8c%eb%93%9c%eb%8a%94-4%ec%b2%9c%eb%b3%b4%ec%9d%98-%ea%b1%b8%ec%9d%8c/">두뇌를 건강하게 만드는 4천보의 걸음</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%af%b8%ea%b5%ad-%ec%9c%a0%ed%95%99-%ec%a0%95%eb%b3%b4-%ed%95%9c%ea%b5%ad-%eb%82%b4%ec%8b%a0-%ec%84%b1%ec%a0%81%eb%a7%8c%ec%9c%bc%eb%a1%9c-%eb%af%b8%ea%b5%ad-%eb%aa%85%eb%ac%b8%eb%8c%80-%ea%b0%80/">미국 유학  정보 &#8211; 한국 내신 성적만으로 미국 명문대 가기</a>
+						</li>
+				</ul>
+		</div>		<div id="tag_cloud-2" class="widget widget_tag_cloud"><h2 class="widget-title">태그</h2><div class="tagcloud"><a href="http://da.nala.ga/tag/1%ec%9b%94/" class="tag-cloud-link tag-link-35 tag-link-position-1" style="font-size: 14.892307692308pt;" aria-label="1월 (47 아이템)">1월</a>
+<a href="http://da.nala.ga/tag/2017/" class="tag-cloud-link tag-link-510 tag-link-position-2" style="font-size: 19.415384615385pt;" aria-label="2017 (76 아이템)">2017</a>
+<a href="http://da.nala.ga/tag/2017%eb%85%84/" class="tag-cloud-link tag-link-8 tag-link-position-3" style="font-size: 18.123076923077pt;" aria-label="2017년 (66 아이템)">2017년</a>
+<a href="http://da.nala.ga/tag/2018/" class="tag-cloud-link tag-link-61 tag-link-position-4" style="font-size: 14.461538461538pt;" aria-label="2018 (45 아이템)">2018</a>
+<a href="http://da.nala.ga/tag/2018%eb%85%84/" class="tag-cloud-link tag-link-103 tag-link-position-5" style="font-size: 18.984615384615pt;" aria-label="2018년 (73 아이템)">2018년</a>
+<a href="http://da.nala.ga/tag/vs/" class="tag-cloud-link tag-link-943 tag-link-position-6" style="font-size: 9.5076923076923pt;" aria-label="vs (26 아이템)">vs</a>
+<a href="http://da.nala.ga/tag/%ec%98%81%ed%99%94/" class="tag-cloud-link tag-link-1375 tag-link-position-7" style="font-size: 14.246153846154pt;" aria-label="“영화 (44 아이템)">“영화</a>
+<a href="http://da.nala.ga/tag/%ea%b0%80%ea%b2%a9/" class="tag-cloud-link tag-link-63 tag-link-position-8" style="font-size: 12.953846153846pt;" aria-label="가격 (38 아이템)">가격</a>
+<a href="http://da.nala.ga/tag/%ea%b0%80%ec%83%81%ed%99%94%ed%8f%90/" class="tag-cloud-link tag-link-1479 tag-link-position-9" style="font-size: 9.0769230769231pt;" aria-label="가상화폐 (25 아이템)">가상화폐</a>
+<a href="http://da.nala.ga/tag/%ea%b2%80%ec%9d%80%ec%82%ac%eb%a7%89/" class="tag-cloud-link tag-link-341 tag-link-position-10" style="font-size: 8.8615384615385pt;" aria-label="검은사막 (24 아이템)">검은사막</a>
+<a href="http://da.nala.ga/tag/%ea%b2%8c%ec%9e%84/" class="tag-cloud-link tag-link-391 tag-link-position-11" style="font-size: 22pt;" aria-label="게임 (102 아이템)">게임</a>
+<a href="http://da.nala.ga/tag/%ea%b3%b5%ea%b0%9c/" class="tag-cloud-link tag-link-938 tag-link-position-12" style="font-size: 9.5076923076923pt;" aria-label="공개 (26 아이템)">공개</a>
+<a href="http://da.nala.ga/tag/%ea%b3%b5%eb%9e%b5/" class="tag-cloud-link tag-link-1018 tag-link-position-13" style="font-size: 8.8615384615385pt;" aria-label="공략 (24 아이템)">공략</a>
+<a href="http://da.nala.ga/tag/%eb%8b%a4%ec%9a%b4%eb%a1%9c%eb%93%9c/" class="tag-cloud-link tag-link-364 tag-link-position-14" style="font-size: 8.4307692307692pt;" aria-label="다운로드 (23 아이템)">다운로드</a>
+<a href="http://da.nala.ga/tag/%eb%8c%80%ed%95%b4%ec%84%9c/" class="tag-cloud-link tag-link-1629 tag-link-position-15" style="font-size: 8.8615384615385pt;" aria-label="대해서 (24 아이템)">대해서</a>
+<a href="http://da.nala.ga/tag/%eb%a6%ac%eb%b7%b0/" class="tag-cloud-link tag-link-555 tag-link-position-16" style="font-size: 15.969230769231pt;" aria-label="리뷰 (53 아이템)">리뷰</a>
+<a href="http://da.nala.ga/tag/%eb%a7%9b%ec%a7%91/" class="tag-cloud-link tag-link-4173 tag-link-position-17" style="font-size: 9.9384615384615pt;" aria-label="맛집 (27 아이템)">맛집</a>
+<a href="http://da.nala.ga/tag/%eb%aa%a8%eb%b0%94%ec%9d%bc/" class="tag-cloud-link tag-link-835 tag-link-position-18" style="font-size: 10.584615384615pt;" aria-label="모바일 (29 아이템)">모바일</a>
+<a href="http://da.nala.ga/tag/%eb%ac%b4%eb%a3%8c/" class="tag-cloud-link tag-link-827 tag-link-position-19" style="font-size: 13.384615384615pt;" aria-label="무료 (40 아이템)">무료</a>
+<a href="http://da.nala.ga/tag/%eb%b0%a9%eb%b2%95/" class="tag-cloud-link tag-link-529 tag-link-position-20" style="font-size: 15.323076923077pt;" aria-label="방법 (49 아이템)">방법</a>
+<a href="http://da.nala.ga/tag/%eb%b9%84%ed%8a%b8%ec%bd%94%ec%9d%b8/" class="tag-cloud-link tag-link-1478 tag-link-position-21" style="font-size: 9.0769230769231pt;" aria-label="비트코인 (25 아이템)">비트코인</a>
+<a href="http://da.nala.ga/tag/%ec%84%a4%ec%b9%98/" class="tag-cloud-link tag-link-360 tag-link-position-22" style="font-size: 8pt;" aria-label="설치 (22 아이템)">설치</a>
+<a href="http://da.nala.ga/tag/%ec%86%8c%ea%b0%9c/" class="tag-cloud-link tag-link-297 tag-link-position-23" style="font-size: 8.4307692307692pt;" aria-label="소개 (23 아이템)">소개</a>
+<a href="http://da.nala.ga/tag/%ec%88%9c%ec%9c%84/" class="tag-cloud-link tag-link-12 tag-link-position-24" style="font-size: 11.230769230769pt;" aria-label="순위 (31 아이템)">순위</a>
+<a href="http://da.nala.ga/tag/%ec%8b%9c%ec%9e%91/" class="tag-cloud-link tag-link-579 tag-link-position-25" style="font-size: 8.4307692307692pt;" aria-label="시작 (23 아이템)">시작</a>
+<a href="http://da.nala.ga/tag/%ec%95%88%eb%82%b4/" class="tag-cloud-link tag-link-338 tag-link-position-26" style="font-size: 10.584615384615pt;" aria-label="안내 (29 아이템)">안내</a>
+<a href="http://da.nala.ga/tag/%ec%95%8c%ec%95%84%eb%b3%b4%ea%b8%b0/" class="tag-cloud-link tag-link-1939 tag-link-position-27" style="font-size: 12.523076923077pt;" aria-label="알아보기 (36 아이템)">알아보기</a>
+<a href="http://da.nala.ga/tag/%ec%95%8c%ec%95%84%eb%b3%b4%ec%9e%90/" class="tag-cloud-link tag-link-369 tag-link-position-28" style="font-size: 11.661538461538pt;" aria-label="알아보자 (33 아이템)">알아보자</a>
+<a href="http://da.nala.ga/tag/%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8/" class="tag-cloud-link tag-link-567 tag-link-position-29" style="font-size: 9.0769230769231pt;" aria-label="업데이트 (25 아이템)">업데이트</a>
+<a href="http://da.nala.ga/tag/%ec%97%ac%ed%96%89/" class="tag-cloud-link tag-link-1122 tag-link-position-30" style="font-size: 12.738461538462pt;" aria-label="여행 (37 아이템)">여행</a>
+<a href="http://da.nala.ga/tag/%ec%98%a4%eb%b8%8c/" class="tag-cloud-link tag-link-271 tag-link-position-31" style="font-size: 10.8pt;" aria-label="오브 (30 아이템)">오브</a>
+<a href="http://da.nala.ga/tag/%ec%98%a8%eb%9d%bc%ec%9d%b8/" class="tag-cloud-link tag-link-328 tag-link-position-32" style="font-size: 11.876923076923pt;" aria-label="온라인 (34 아이템)">온라인</a>
+<a href="http://da.nala.ga/tag/%ec%9c%84%ed%95%9c/" class="tag-cloud-link tag-link-183 tag-link-position-33" style="font-size: 13.169230769231pt;" aria-label="위한 (39 아이템)">위한</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%eb%b2%a4%ed%8a%b8/" class="tag-cloud-link tag-link-723 tag-link-position-34" style="font-size: 13.169230769231pt;" aria-label="이벤트 (39 아이템)">이벤트</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%ec%95%bc%ea%b8%b0/" class="tag-cloud-link tag-link-861 tag-link-position-35" style="font-size: 10.8pt;" aria-label="이야기 (30 아이템)">이야기</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%ec%9c%a0/" class="tag-cloud-link tag-link-1482 tag-link-position-36" style="font-size: 9.9384615384615pt;" aria-label="이유 (27 아이템)">이유</a>
+<a href="http://da.nala.ga/tag/%ec%9d%bc%eb%b3%b8/" class="tag-cloud-link tag-link-1007 tag-link-position-37" style="font-size: 8.4307692307692pt;" aria-label="일본 (23 아이템)">일본</a>
+<a href="http://da.nala.ga/tag/%ec%a0%95%eb%a6%ac/" class="tag-cloud-link tag-link-65 tag-link-position-38" style="font-size: 11.876923076923pt;" aria-label="정리 (34 아이템)">정리</a>
+<a href="http://da.nala.ga/tag/%ec%a0%95%eb%b3%b4/" class="tag-cloud-link tag-link-610 tag-link-position-39" style="font-size: 17.261538461538pt;" aria-label="정보 (61 아이템)">정보</a>
+<a href="http://da.nala.ga/tag/%ec%b4%9d%ec%a0%95%eb%a6%ac/" class="tag-cloud-link tag-link-179 tag-link-position-40" style="font-size: 8.4307692307692pt;" aria-label="총정리 (23 아이템)">총정리</a>
+<a href="http://da.nala.ga/tag/%ec%b5%9c%ea%b3%a0/" class="tag-cloud-link tag-link-404 tag-link-position-41" style="font-size: 11.876923076923pt;" aria-label="최고 (34 아이템)">최고</a>
+<a href="http://da.nala.ga/tag/%ec%b6%94%ec%b2%9c/" class="tag-cloud-link tag-link-367 tag-link-position-42" style="font-size: 20.707692307692pt;" aria-label="추천 (89 아이템)">추천</a>
+<a href="http://da.nala.ga/tag/%ec%b6%9c%ec%8b%9c/" class="tag-cloud-link tag-link-612 tag-link-position-43" style="font-size: 10.584615384615pt;" aria-label="출시 (29 아이템)">출시</a>
+<a href="http://da.nala.ga/tag/%ed%95%9c%ea%b5%ad/" class="tag-cloud-link tag-link-1483 tag-link-position-44" style="font-size: 10.153846153846pt;" aria-label="한국 (28 아이템)">한국</a>
+<a href="http://da.nala.ga/tag/%ed%9b%84%ea%b8%b0/" class="tag-cloud-link tag-link-114 tag-link-position-45" style="font-size: 19.2pt;" aria-label="후기 (74 아이템)">후기</a></div>
+</div>	    </div>
+	</div>
+
+        </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+    </div>
+    <footer class="site-footer" role="contentinfo">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+  
+                    <p></p>
+                    
+                                            <div class="footer-social-icons">
+                                                                                                                                                                                                                                                                                                                                                                                                        
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+            <div class="scroll-up">
+            <a href="#"><i class="fa fa-angle-up"></i></a>
+        </div>
+        <!-- Scroll Up -->
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/af2821b0/cloudflare-static/email-decode.min.js"></script><script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/bootstrap.min.js?ver=3.3.5'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/scripts.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/jquery.fitvids.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/smoothscroll.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/wp-embed.min.js?ver=4.8.4'></script>
+    </body>
+</html>

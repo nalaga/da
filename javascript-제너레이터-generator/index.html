@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="http://da.nala.ga/xmlrpc.php">
+
+<title>[JavaScript] 제너레이터 (Generator) | All About CC</title>
+<meta name='robots' content='noindex,follow' />
+
+<!-- All in One SEO Pack 2.4.3.1 by Michael Torbert of Semper Fi Web Design[276,334] -->
+<link rel="canonical" href="http://da.nala.ga/javascript-%ec%a0%9c%eb%84%88%eb%a0%88%ec%9d%b4%ed%84%b0-generator/" />
+<!-- /all in one seo pack -->
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 피드" href="http://da.nala.ga/feed/" />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; 댓글 피드" href="http://da.nala.ga/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="All About CC &raquo; [JavaScript] 제너레이터 (Generator) 댓글 피드" href="http://da.nala.ga/javascript-%ec%a0%9c%eb%84%88%eb%a0%88%ec%9d%b4%ed%84%b0-generator/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/da.nala.ga\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.4"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bootstrap-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/bootstrap.min.css?ver=3.3.5' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/font-awesome.min.css?ver=4.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='shaped-blog-stylesheet-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/style.css?ver=4.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css-css'  href='http://da.nala.ga/wp-content/themes/shaped-blog/assets/css/responsive.css' type='text/css' media='all' />
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://da.nala.ga/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://da.nala.ga/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://da.nala.ga/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='티스토리 애드센스 일치하는 콘텐츠 적용하기' href='http://da.nala.ga/%ed%8b%b0%ec%8a%a4%ed%86%a0%eb%a6%ac-%ec%95%a0%eb%93%9c%ec%84%bc%ec%8a%a4-%ec%9d%bc%ec%b9%98%ed%95%98%eb%8a%94-%ec%bd%98%ed%85%90%ec%b8%a0-%ec%a0%81%ec%9a%a9%ed%95%98%ea%b8%b0/' />
+<link rel='next' title='Micro HDMI cable 변환 젠더 구매 ( LG 2in1 연결 )' href='http://da.nala.ga/micro-hdmi-cable-%eb%b3%80%ed%99%98-%ec%a0%a0%eb%8d%94-%ea%b5%ac%eb%a7%a4-lg-2in1-%ec%97%b0%ea%b2%b0/' />
+<meta name="generator" content="WordPress 4.8.4" />
+<link rel='shortlink' href='http://da.nala.ga/?p=4781' />
+<link rel="alternate" type="application/json+oembed" href="http://da.nala.ga/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fda.nala.ga%2Fjavascript-%25ec%25a0%259c%25eb%2584%2588%25eb%25a0%2588%25ec%259d%25b4%25ed%2584%25b0-generator%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://da.nala.ga/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fda.nala.ga%2Fjavascript-%25ec%25a0%259c%25eb%2584%2588%25eb%25a0%2588%25ec%259d%25b4%25ed%2584%25b0-generator%2F&#038;format=xml" />
+
+	<style>
+
+		/* Border Color */
+		.btn-social:hover,
+		blockquote,
+		#respond input:focus[type="text"], 
+	    #respond input:focus[type="email"], 
+	    #respond input:focus[type="url"],
+	    #respond textarea:focus,
+	    #comments .comment-reply a:hover
+		{
+			border-color: ;
+		}
+
+		
+		/* Background Color */
+		.scroll-up a,
+		.btn-social:hover,
+		button,
+		input[type="button"],
+		input[type="reset"],
+		input[type="submit"],
+		.navbar-default .navbar-nav .dropdown-menu li a:hover, .dropdown-menu li a:focus, .navbar-default .navbar-nav .dropdown-menu .active a,
+		.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover, .pagination li .current,
+		.next-previous-posts .next-post a:hover,
+		.next-previous-posts .previous-post a:hover,
+		.btn-goback,
+		.btn-submit,
+		a.more-link,
+		.featured-post .fa,
+		#comments .comment-reply a:hover,
+		.widget .tagcloud a
+		{
+			background-color: ;
+		}
+
+		
+		/* Color */
+		.text-logo a,
+		.navbar-default .navbar-nav .active a, .navbar-default .navbar-nav .active a:hover, .navbar-default .navbar-nav .active a:focus,
+		.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus,
+		a:hover,
+    	a:focus,
+		.next-previous-posts .previous-post a,
+		.next-previous-posts .next-post a,
+		.pagination>li>a, .pagination>li>span,
+		#comments .comment-author a:hover, 
+    	#respond .logged-in-as a:hover,
+    	#wp-calendar a,
+    	h2.entry-title a:hover
+		{
+			color: ;
+		}
+
+
+		/* A Color */
+		a{
+			color: ;
+		}
+
+		/* a:hover Color */
+		a:hover,
+		a:focus,
+		a:active,
+		.widget a:hover,
+		.post .post-content .entry-meta ul li a:hover
+		{
+			color: ;
+		}
+
+		/* .featured-post .fa:after*/
+		.featured-post .fa:after{
+			border-color:   transparent ;
+		}
+
+
+		
+
+	</style>
+</head>
+
+<body class="post-template-default single single-post postid-4781 single-format-standard">
+
+    <div id="st-preloader">
+        <div id="pre-status">
+            <div class="preload-placeholder"></div>
+        </div>
+    </div>
+<!-- /Preloader -->
+
+<header id="header">	
+	<div id="trueHeader">
+    	<div class="wrapper">
+            <div class="container">
+            	<!-- Menu -->
+            	<div class="menu_main">
+                	<div class="navbar blogx-navbar navbar-default">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#st-navber-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+
+                                                            <div class="text-logo">
+                                    <a href="http://da.nala.ga">All About CC</a>
+                                    <p>All About CC Contents</p>
+                                </div><!-- /Logo -->
+                                                    </div>
+                      
+                        <div id="st-navber-collapse" class="navbar-collapse collapse pull-right">
+                             
+                        </div>
+                    </div>
+            	</div><!-- end menu -->
+        	</div> <!-- /.container -->
+    	</div>
+	</div>
+	<DIV class='ads_adsense_img' style='margin:40px 0px 40px 0px;'>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- only display -->
+	<ins class="adsbygoogle"
+	     style="display:block"
+	     data-ad-client="ca-pub-8393857339019314"
+	     data-ad-slot="7474886381"
+	     data-ad-format="auto"></ins>
+	<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+	</DIV>	
+</header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div id="primary" class="content-area">
+                    <main id="main" class="site-main" role="main">
+
+                        
+                                <article id="post-4781" class="post-4781 post type-post status-publish format-standard hentry category-uncategorized tag-generator tag-javascript tag-8177">
+    <header class="entry-header">
+        
+        
+    </header> <!--/.entry-header -->
+
+    <div class="clearfix post-content media">
+
+        <h2 class="entry-title">
+            [JavaScript] 제너레이터 (Generator)        </h2> <!-- //.entry-title -->
+
+        <div class="clearfix entry-meta">
+            
+            <ul class="list-inline">
+                <li>
+                    <span class="author vcard">
+                        By <a class="url fn n" href="http://da.nala.ga/author/site-admin/">site-admin</a>                    </span>
+                </li>
+                <li>
+                    on <span class="posted-on">1월 09, 2018</span>
+                </li>
+                                    <li>
+                        in <span class="posted-in">
+                            <a href="http://da.nala.ga/category/uncategorized/" rel="category tag">미분류</a>                        </span>
+                    </li>
+                            </ul>
+                </div> <!--/.entry-meta -->
+        
+        <div class="entry-summary">
+            <h1>3줄 요약 </h1>
+<div style='color:#fff;background-color:#000;border-radius:10px;'>
+<ol>
+<li><span>next() 메서드는 yield를 만날 때까지 내부의 함수를 실행한다고  <small>&#8230;중략&#8230;</small> 에 있는 yield까지 도달을 할수있을까?function* gen() {</span></li>
+<li><span>yield 3;</span></li>
+<li><span>var g2 = gen();</span></li>
+</ol>
+</div>
+<p><span id="more-4781"></span></p>
+<p><iframe src='http://ad.selfhow.com/rd' width='100%' border=0 frameborder=0 style='height:auto;width:100%'></iframe></p>
+<hr />
+<p><span style="font-size: 18pt;"><b>콜백 지옥 이라니&#8230;.</b></span></p>
+<p></p>
+<p>간단한(?) 커피 주문 시스템 코드가 있다고 하자. 이 코드는 굉장히 비 효율적 이라서, 핸드폰 번호를 알아야 아이디를 알 수 있고, 아이디를 알아야 이메일을 알 수 있고, 이메일을 알아야 이름을 알 수 있고, 이름을 알아야만 주문을 할 수 있다. 작성하면 아래와 같다.</p>
+<pre style="background-color:#2b2b2b;color:#a9b7c6;font-family:'Menlo';font-size:11.3pt;"><span style="color:#cc7832;font-weight:bold;">function </span><span style="color:#ffc66d;">getId</span>(phoneNumber) { <span style="color:#808080;">/* … */ </span>}<br/><span style="color:#cc7832;font-weight:bold;">function </span><span style="color:#ffc66d;">getEmail</span>(id) { <span style="color:#808080;">/* … */ </span>}<br/><span style="color:#cc7832;font-weight:bold;">function </span><span style="color:#ffc66d;">getName</span>(email) { <span style="color:#808080;">/* … */ </span>}<br/><span style="color:#cc7832;font-weight:bold;">function </span><span style="color:#ffc66d;">order</span>(name<span style="color:#cc7832;">, </span>menu) { <span style="color:#808080;">/* … */ </span>}<br/><br/><span style="color:#cc7832;font-weight:bold;">function </span><span style="color:#ffc66d;">orderCoffee</span>(phoneNumber) {<br/>    <span style="color:#cc7832;font-weight:bold;">const </span>id = <span style="color:#ffc66d;">getId</span>(phoneNumber)<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">    </span><span style="color:#cc7832;font-weight:bold;">const </span>email = <span style="color:#ffc66d;">getEmail</span>(id)<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">    </span><span style="color:#cc7832;font-weight:bold;">const </span>name = <span style="color:#ffc66d;">getName</span>(email)<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">    </span><span style="color:#cc7832;font-weight:bold;">const </span>result = <span style="color:#ffc66d;">order</span>(name<span style="color:#cc7832;">, </span><span style="color:#6a8759;">'coffee'</span>)<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">    </span><span style="color:#cc7832;font-weight:bold;">return </span>result<span style="color:#cc7832;">;<br/></span>}</pre>
+<p>하지만 만약에 각각에 데이터들을 외부에 있는 서버에서 받아와야 한다고 가정해보자. 위의 코드로 데이터를 받아오면 데이터를 비동기적으로 받아오기 때문에 각각에 변수에 데이터가 안담길 수 있다(필자도 비동기 때문에 오류를 많이 일으켰다&#8230;.) . 그래서! 콜백을 이용하여 비동기 방식으로 코드를 작성해야한다.</p>
+<pre style="background-color:#2b2b2b;color:#a9b7c6;font-family:'Menlo';font-size:11.3pt;"><span style="color:#cc7832;font-weight:bold;">function </span><span style="color:#ffc66d;">getId</span>(phoneNumber<span style="color:#cc7832;">, </span>callback) { <span style="color:#808080;">/* … */ </span>}<br/><span style="color:#cc7832;font-weight:bold;">function </span><span style="color:#ffc66d;">getEmail</span>(id<span style="color:#cc7832;">, </span>callback) { <span style="color:#808080;">/* … */ </span>}<br/><span style="color:#cc7832;font-weight:bold;">function </span><span style="color:#ffc66d;">getName</span>(email<span style="color:#cc7832;">, </span>callback) { <span style="color:#808080;">/* … */ </span>}<br/><span style="color:#cc7832;font-weight:bold;">function </span><span style="color:#ffc66d;">order</span>(name<span style="color:#cc7832;">, </span>menu<span style="color:#cc7832;">, </span>callback) { <span style="color:#808080;">/* … */ </span>}<br/><br/><span style="color:#cc7832;font-weight:bold;">function </span><span style="color:#ffc66d;">orderCoffee</span>(phoneNumber<span style="color:#cc7832;">, </span>callback) {<br/>    <span style="color:#ffc66d;">getId</span>(phoneNumber<span style="color:#cc7832;">, </span><span style="color:#cc7832;font-weight:bold;">function</span>(id) {<br/>        <span style="color:#ffc66d;">getEmail</span>(id<span style="color:#cc7832;">, </span><span style="color:#cc7832;font-weight:bold;">function</span>(email) {<br/>            <span style="color:#ffc66d;">getName</span>(email<span style="color:#cc7832;">, </span><span style="color:#cc7832;font-weight:bold;">function</span>(name) {<br/>                <span style="color:#ffc66d;">order</span>(name<span style="color:#cc7832;">, </span><span style="color:#6a8759;">'coffee'</span><span style="color:#cc7832;">, </span><span style="color:#cc7832;font-weight:bold;">function</span>(result) {<br/>                    callback(result)<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">                </span>})<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">            </span>})<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">        </span>})<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">    </span>})<span style="color:#cc7832;">;<br/></span>}</pre>
+<p>정말 딱봐도 콜백 지옥이다. 이러한 콜백은 단순히 들여쓰기와 가독성의 문제도 있지만, 콜백으로 넘겨줌으로 써 this가 바뀐다는 점이다. 그래서 현재 this의 데이터를 변경해주고 싶을때는 this를 변수에 담거나 해당 콜백을 바인딩 해줘야한다. 이로 인해 프로그램이 더 예측하기 어렵게 되고 에러가 발생하기 쉽게 되며, 디버깅 또한 만만치 않게 된다.</p>
+<p></p>
+<p>콜백지옥을 해결하기 위해 JavaScript ES6 부터는 Promise라는 기능이 있지만 그 방법은 추후에 업데이트 하고 이번에는 제너레이터 (Generator) 라는 방식으로 비동기 같지만 비동기 아닌 비동기 코드를 구현해 보겠다!</p>
+<p></p>
+<p><span style="font-size: 18pt;"><b>제너레이터란?</b></span></p>
+<p></p>
+<p>제너레이터는 JavaScript ES6 부터 제공되는 기능이다. 일반적인 함수는 매 실행 마다 같은 흐름으로 모든 코드를 실행하지만, 제너레이터는 실행중간에서 값을 반환할 수 있고, 다른 작업을 처리한 후에 다시 그 위치에서 코드를 시작할 수 있다.</p>
+<p>아래 예시에서 제너레이터 함수와 일반 함수의 차이점을 설명하겠다.</p>
+<pre style="background-color:#2b2b2b;color:#a9b7c6;font-family:'Menlo';font-size:11.3pt;"><span style="color:#cc7832;font-weight:bold;">function </span><span style="color:#ffc66d;">normal_func</span>() {<br/>    <span style="color:#cc7832;font-weight:bold;">var </span>str = <span style="color:#6a8759;">"Hello normal_func"</span><span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">    </span><span style="color:#9876aa;">console</span>.<span style="color:#ffc66d;">log</span>(str)<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">    </span><span style="color:#cc7832;font-weight:bold;">return </span>str<span style="color:#cc7832;">;<br/></span>}<br/><br/><span style="color:#cc7832;font-weight:bold;">function</span>* generator_func() {<br/>    <span style="color:#cc7832;font-weight:bold;">var </span>str = <span style="color:#6a8759;">"Hello generator_func"</span><span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">    </span><span style="color:#9876aa;">console</span>.<span style="color:#ffc66d;">log</span>(str)<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">    </span><span style="color:#cc7832;font-weight:bold;">return </span>str<span style="color:#cc7832;">;<br/></span>}<br/><br/><span style="color:#cc7832;font-weight:bold;">var </span>a = <span style="color:#ffc66d;">normal_func</span>()<span style="color:#cc7832;">; </span><span style="color:#808080;">// "Hello normal_func"<br/></span><span style="color:#cc7832;font-weight:bold;">var </span>b = <span style="color:#ffc66d;">generator_func</span>()<span style="color:#cc7832;">; </span><span style="color:#808080;">// ???</span></pre>
+<p>두 함수 모두다 console.log 로 str를 프린트하고 리턴하는 코드이다. 딱 봐도 normal_func를 실행하면 &#8220;Hello normal_func&#8221; 가 프린트되고 변수 a 에 str 값이 할당된다. 그러나, generator_func 함수를 호출하면 console.log 도 호출되지 않고 b 변수에 str 값도 할당되지 않는다. 이게 무슨 말도안되는 소리인가???</p>
+<p></p>
+<p></p>
+<p>제너레이터는 (*) 키워드를 사용하여 구현할 수 있고, 코드를 순서대로 실행하고 리턴값을 반환하는 일반함수와는 다르게 제너레이터 함수를 실행하면 제너레이터 객체를 생성한다.</p>
+<p>함수가 무슨 new도 안하고 객체를 생성한다는 말도안되는 소리냐고 하는데 실행해보면 진짜다.</p>
+<p></p>
+<div class="console-message-wrapper console-adjacent-user-command-result" style='min-width: 0px; min-height: 0px; box-sizing: border-box; display: flex; border-bottom: none; color: rgb(34, 34, 34); font-family: Consolas, "Lucida Console", "Courier New", monospace; font-size: 12px;'>
+<div class="console-user-command" style="min-width: 0px; min-height: 18px; box-sizing: border-box; clear: right; position: relative; padding: 3px 22px 1px 0px; margin-left: 24px; flex: 1 1 auto; display: flex;"><span class="source-code" style="min-width: 0px; min-height: 0px; box-sizing: border-box; white-space: pre-wrap;"><span class="cm-js-keyword" style="min-width: 0px; min-height: 0px; box-sizing: border-box; color: rgb(171, 12, 144);">function</span><span class="cm-js-keyword" style="min-width: 0px; min-height: 0px; box-sizing: border-box; color: rgb(171, 12, 144);">*</span> <span class="cm-js-def" style="min-width: 0px; min-height: 0px; box-sizing: border-box; color: rgb(26, 26, 168);">generator_func</span>() {<br />
+    <span class="cm-js-keyword" style="min-width: 0px; min-height: 0px; box-sizing: border-box; color: rgb(171, 12, 144);">var</span> <span class="cm-js-def" style="min-width: 0px; min-height: 0px; box-sizing: border-box; color: rgb(26, 26, 168);">str</span> <span class="cm-js-operator" style="min-width: 0px; min-height: 0px; box-sizing: border-box; color: rgb(153, 69, 0);">=</span> <span class="cm-js-string" style="min-width: 0px; min-height: 0px; box-sizing: border-box; color: rgb(198, 24, 22) !important;">&#8220;Hello generator_func&#8221;</span>;<br />
+    <span class="cm-js-variable" style="min-width: 0px; min-height: 0px; box-sizing: border-box;">console</span>.<span class="cm-js-property" style="min-width: 0px; min-height: 0px; box-sizing: border-box;">log</span>(<span class="cm-js-variable-2" style="min-width: 0px; min-height: 0px; box-sizing: border-box; color: rgb(26, 26, 168);">str</span>);<br />
+    <span class="cm-js-keyword" style="min-width: 0px; min-height: 0px; box-sizing: border-box; color: rgb(171, 12, 144);">return</span> <span class="cm-js-variable-2" style="min-width: 0px; min-height: 0px; box-sizing: border-box; color: rgb(26, 26, 168);">str</span>;<br />
+}<br />
+<span class="cm-js-keyword" style="min-width: 0px; min-height: 0px; box-sizing: border-box; color: rgb(171, 12, 144);">var</span> <span class="cm-js-def" style="min-width: 0px; min-height: 0px; box-sizing: border-box; color: rgb(26, 26, 168);">b</span> <span class="cm-js-operator" style="min-width: 0px; min-height: 0px; box-sizing: border-box; color: rgb(153, 69, 0);">=</span> <span class="cm-js-variable" style="min-width: 0px; min-height: 0px; box-sizing: border-box;">generator_func</span>();</span></div>
+</div>
+<div class="console-message-wrapper console-info-level" style='min-width: 0px; min-height: 0px; box-sizing: border-box; display: flex; border-bottom: 1px solid rgb(240, 240, 240); color: rgb(34, 34, 34); font-family: Consolas, "Lucida Console", "Courier New", monospace; font-size: 12px;'>
+<div class="console-message console-user-command-result" style="min-width: 0px; min-height: 18px; box-sizing: border-box; clear: right; position: relative; padding: 3px 22px 1px 0px; margin-left: 24px; flex: 1 1 auto; display: flex;"><span class="command-result-icon spritesheet-smallicons smallicon-command-result" is="ui-icon" style='min-width: 0px; min-height: 0px; box-sizing: border-box; display: inline-block; flex: 1 1 auto; position: absolute; left: -17px; top: 4px; user-select: none; background-position: var(--spritesheet-position); background-image: -webkit-image-set(url("Images/smallIcons.png") 1x, url("Images/smallIcons_2x.png") 2x); --spritesheet-position:0px 70px; width: 10px; height: 10px;'></span><span class="source-code" style="min-width: 0px; min-height: 0px; box-sizing: border-box; white-space: pre-wrap; flex: 1 1 auto;"><span class="console-message-text" style="min-width: 0px; min-height: 0px; box-sizing: border-box;"><span class="object-value-undefined source-code" style="min-width: 0px; min-height: 0px; box-sizing: border-box; color: rgb(128, 128, 128);">undefined</span></span></span></div>
+</div>
+<div class="console-message-wrapper console-adjacent-user-command-result" style='min-width: 0px; min-height: 0px; box-sizing: border-box; display: flex; border-bottom: none; color: rgb(34, 34, 34); font-family: Consolas, "Lucida Console", "Courier New", monospace; font-size: 12px;'>
+<div class="console-user-command" style="min-width: 0px; min-height: 18px; box-sizing: border-box; clear: right; position: relative; padding: 3px 22px 1px 0px; margin-left: 24px; flex: 1 1 auto; display: flex;"><span class="command-result-icon spritesheet-smallicons smallicon-user-command" is="ui-icon" style='min-width: 0px; min-height: 0px; box-sizing: border-box; display: inline-block; flex-shrink: 0; position: absolute; left: -17px; top: 4px; user-select: none; background-position: var(--spritesheet-position); background-image: -webkit-image-set(url("Images/smallIcons.png") 1x, url("Images/smallIcons_2x.png") 2x); --spritesheet-position:-40px 10px; width: 10px; height: 10px;'></span><span class="source-code" style="min-width: 0px; min-height: 0px; box-sizing: border-box; white-space: pre-wrap;"><span class="cm-js-variable" style="min-width: 0px; min-height: 0px; box-sizing: border-box;">b</span></span></div>
+</div>
+<div class="console-message-wrapper console-info-level" style='min-width: 0px; min-height: 0px; box-sizing: border-box; display: flex; border-bottom: 1px solid rgb(240, 240, 240); color: rgb(34, 34, 34); font-family: Consolas, "Lucida Console", "Courier New", monospace; font-size: 12px;'>
+<div class="console-message console-user-command-result" style="min-width: 0px; min-height: 18px; box-sizing: border-box; clear: right; position: relative; padding: 3px 22px 1px 0px; margin-left: 24px; flex: 1 1 auto; display: flex;"><span class="command-result-icon spritesheet-smallicons smallicon-command-result" is="ui-icon" style='min-width: 0px; min-height: 0px; box-sizing: border-box; display: inline-block; flex: 1 1 auto; position: absolute; left: -17px; top: 4px; user-select: none; background-position: var(--spritesheet-position); background-image: -webkit-image-set(url("Images/smallIcons.png") 1x, url("Images/smallIcons_2x.png") 2x); --spritesheet-position:0px 70px; width: 10px; height: 10px;'></span><span class="source-code" style="min-width: 0px; min-height: 0px; box-sizing: border-box; white-space: pre-wrap; flex: 1 1 auto;"><span class="console-message-text" style="min-width: 0px; min-height: 0px; box-sizing: border-box;"></p>
+<div class="console-view-object-properties-section object-value-generator source-code expanded" style="flex: 1 1 0%; padding: 0px; min-width: 0px; min-height: 0px; box-sizing: border-box; position: relative; vertical-align: baseline; color: inherit; display: inline-block;">
+<div class="tree-outline-disclosure tree-outline-disclosure-hide-overflow" style="min-width: 0px; min-height: 0px; box-sizing: border-box;">
+<ol class="tree-outline source-code object-properties-section" role="tree" style="min-width: 0px; min-height: 0px; box-sizing: border-box; padding: 0px; margin: 0px; z-index: 0; position: relative; display: flex; flex-direction: column; list-style-type: none; color: rgb(33, 33, 33) !important;">
+<li aria-expanded="true" class="parent object-properties-section-root-element expanded" role="treeitem" style="min-width: 0px; min-height: 16px; box-sizing: border-box; display: flex; flex-direction: row; text-overflow: ellipsis; white-space: nowrap; position: relative; align-items: center; user-select: text;"><span class="console-object-preview" style="min-width: 0px; min-height: 0px; box-sizing: border-box; white-space: normal; word-wrap: break-word; font-style: italic;"><span class="object-description" style="min-width: 0px; min-height: 0px; box-sizing: border-box;">generator_func </span><span class="object-properties-preview source-code" style="min-width: 0px; min-height: 0px; box-sizing: border-box; white-space: nowrap;">{<span class="name" style="min-width: 0px; min-height: 0px; box-sizing: border-box; color: rgb(86, 86, 86); flex-shrink: 0;">&lt;suspended&gt;</span>}</span><span class="object-state-note info-note" style="min-width: 0px; min-height: 0px; box-sizing: border-box; display: inline-block; width: 11px; height: 11px; color: white; text-align: center; border-radius: 3px; line-height: 13px; margin: 0px 6px; font-size: 9px; background-color: rgb(179, 203, 247);"></span></span></li>
+<ol class="children expanded" role="group" style="min-width: 0px; min-height: 0px; box-sizing: border-box; list-style-type: none; padding-left: 12px;">
+<li aria-expanded="false" class="parent" role="treeitem" style="min-width: 0px; min-height: 16px; box-sizing: border-box; text-overflow: ellipsis; white-space: nowrap; position: relative; display: flex; align-items: center; user-select: text;"><span class="name object-properties-section-dimmed" style="min-width: 0px; min-height: 0px; box-sizing: border-box; color: rgb(136, 19, 145); flex-shrink: 0; opacity: 0.6;">__proto__</span><span class="object-properties-section-separator" style="min-width: 0px; min-height: 0px; box-sizing: border-box; flex-shrink: 0; padding-right: 5px;">:</span><span class="object-value-object value" style="min-width: 0px; min-height: 0px; box-sizing: border-box;">Generator</span></li>
+<li role="treeitem" style="min-width: 0px; min-height: 16px; box-sizing: border-box; text-overflow: ellipsis; white-space: nowrap; position: relative; display: flex; align-items: center; user-select: text;"><span class="name" style="min-width: 0px; min-height: 0px; box-sizing: border-box; color: rgb(136, 19, 145); flex-shrink: 0;">[[GeneratorStatus]]</span><span class="object-properties-section-separator" style="min-width: 0px; min-height: 0px; box-sizing: border-box; flex-shrink: 0; padding-right: 5px;">:</span><span class="object-value-string value" style="min-width: 0px; min-height: 0px; box-sizing: border-box; white-space: pre; unicode-bidi: -webkit-isolate; color: rgb(196, 26, 22);"><span class="object-value-string-quote" style="min-width: 0px; min-height: 0px; box-sizing: border-box; color: rgb(34, 34, 34);">&#8220;</span>suspended<span class="object-value-string-quote" style="min-width: 0px; min-height: 0px; box-sizing: border-box; color: rgb(34, 34, 34);">&#8220;</span></span></li>
+<li aria-expanded="false" class="parent" role="treeitem" style="min-width: 0px; min-height: 16px; box-sizing: border-box; text-overflow: ellipsis; white-space: nowrap; position: relative; display: flex; align-items: center; user-select: text;"><span class="name" style="min-width: 0px; min-height: 0px; box-sizing: border-box; color: rgb(136, 19, 145); flex-shrink: 0;">[[GeneratorFunction]]</span><span class="object-properties-section-separator" style="min-width: 0px; min-height: 0px; box-sizing: border-box; flex-shrink: 0; padding-right: 5px;">:</span><span class="object-value-function value" style="min-width: 0px; min-height: 0px; box-sizing: border-box; font-style: italic;"><span class="object-value-function-prefix" style="min-width: 0px; min-height: 0px; box-sizing: border-box; color: rgb(13, 34, 170);">ƒ* </span>generator_func()</span></li>
+<li aria-expanded="false" class="parent" role="treeitem" style="min-width: 0px; min-height: 16px; box-sizing: border-box; text-overflow: ellipsis; white-space: nowrap; position: relative; display: flex; align-items: center; user-select: text;"><span class="name" style="min-width: 0px; min-height: 0px; box-sizing: border-box; color: rgb(136, 19, 145); flex-shrink: 0;">[[GeneratorReceiver]]</span><span class="object-properties-section-separator" style="min-width: 0px; min-height: 0px; box-sizing: border-box; flex-shrink: 0; padding-right: 5px;">:</span><span class="object-value-object value" style="min-width: 0px; min-height: 0px; box-sizing: border-box;">Window</span></li>
+<li role="treeitem" style="min-width: 0px; min-height: 16px; box-sizing: border-box; text-overflow: ellipsis; white-space: nowrap; position: relative; display: flex; align-items: center; user-select: text;"><span class="name" style="min-width: 0px; min-height: 0px; box-sizing: border-box; color: rgb(136, 19, 145); flex-shrink: 0;">[[GeneratorLocation]]</span><span class="object-properties-section-separator" style="min-width: 0px; min-height: 0px; box-sizing: border-box; flex-shrink: 0; padding-right: 5px;">:</span><span class="devtools-link" style="min-width: 0px; min-height: 0px; box-sizing: border-box; color: rgb(17, 85, 204); text-decoration-line: underline; cursor: pointer;">VM136:1</span></li>
+<li aria-expanded="false" class="parent" role="treeitem" style="min-width: 0px; min-height: 16px; box-sizing: border-box; text-overflow: ellipsis; white-space: nowrap; position: relative; display: flex; align-items: center; user-select: text;"><span class="name" style="min-width: 0px; min-height: 0px; box-sizing: border-box; color: rgb(136, 19, 145); flex-shrink: 0;">[[Scopes]]</span><span class="object-properties-section-separator" style="min-width: 0px; min-height: 0px; box-sizing: border-box; flex-shrink: 0; padding-right: 5px;">:</span><span class="object-value-internal#scopeList value" style="min-width: 0px; min-height: 0px; box-sizing: border-box;">Scopes[2]</span></li>
+</ol>
+</ol>
+</div>
+</div>
+<p></span></span></div>
+</div>
+<p></p>
+<p>그럼 도대체 제너레이터 함수는 어떻게 사용하는 것인지 제너레이터와 같이사용하는 키워드와 함께 설명하겠다.</p>
+<p><b><br /></b></p>
+<p><span style="font-size: 18pt;"><b>yield 와 next()</b></span></p>
+<pre style="background-color:#2b2b2b;color:#a9b7c6;font-family:'Consolas';font-size:10.5pt;"><p><span style="color:#cc7832;font-weight:bold;">function</span>* <span style="color:#ffc66d;">gen</span>() {<br/>    console.<span style="color:#ffc66d;">log</span>(<span style="color:#6a8759;">"</span><span style="color:#6a8759;font-family:'굴림체';">첫</span><span style="color:#6a8759;"> next"</span>)<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">    </span>yield <span style="color:#6897bb;">1</span><span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">    </span>console.<span style="color:#ffc66d;">log</span>(<span style="color:#6a8759;">"</span><span style="color:#6a8759;font-family:'굴림체';">두번 째</span><span style="color:#6a8759;"> next"</span>)<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">    </span>yield <span style="color:#6897bb;">2</span><span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">    </span>console.<span style="color:#ffc66d;">log</span>(<span style="color:#6a8759;">"</span><span style="color:#6a8759;font-family:'굴림체';">세번 째</span><span style="color:#6a8759;"> next"</span>)<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">    </span>yield <span style="color:#6897bb;">3</span><span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">    </span>console.<span style="color:#ffc66d;">log</span>(<span style="color:#6a8759;">"</span><span style="color:#6a8759;font-family:'굴림체';">네번 째</span><span style="color:#6a8759;"> next"</span>)<span style="color:#cc7832;">;<br/></span>}<br/><br/><span style="color:#cc7832;font-weight:bold;">var </span>g = <span style="color:#ffc66d;">gen</span>()<span style="color:#cc7832;">; </span><span style="color:#808080;">// </span><span style="color:#808080;font-family:'굴림체';">제너레이터 객체 반환<br/></span><span style="color:#808080;font-family:'굴림체';"><br/></span>console.<span style="color:#ffc66d;">log</span>(g.next())<span style="color:#cc7832;">; </span><span style="color:#808080;">// {value: 1, done: false}<br/></span>console.<span style="color:#ffc66d;">log</span>(g.next())<span style="color:#cc7832;">; </span><span style="color:#808080;">// {value: 2, done: false}<br/></span>console.<span style="color:#ffc66d;">log</span>(g.next())<span style="color:#cc7832;">; </span><span style="color:#808080;">// {value: 3, done: false}<br/></span>console.<span style="color:#ffc66d;">log</span>(g.next())<span style="color:#cc7832;">; </span><span style="color:#808080;">// {value: undefined, done: true}</span></p></pre>
+<p>제너레이터에서 가장 많이 쓰이는 키워드가 yield와 next()이다. 제러네이터 함수를 실행하면 next() 메서드를 사용할 수 있다. 메서드를 호출하면 제너레이터 함수를 yield를 만날때 까지 순차적으로 실행하게된다. 이 때 yield는 오른쪽에 있는 값을 객체로 리턴하게 된다. {value: 리턴값, done: boolean} 형식으로 말이다. 그래서 위의 코드를 실행하면 아래와 같이 결과가 출력된다.</p>
+<pre style="background-color:#2b2b2b;color:#a9b7c6;font-family:'굴림체';font-size:10.5pt;"><p>첫 <span style="font-family:'Consolas';">next<br/></span><span style="font-family:'Consolas';">{value: </span><span style="color:#6897bb;font-family:'Consolas';">1</span><span style="color:#cc7832;font-family:'Consolas';">, </span><span style="font-family:'Consolas';">done: </span><span style="color:#cc7832;font-weight:bold;font-family:'Consolas';">false</span><span style="font-family:'Consolas';">}<br/></span>두번 째 <span style="font-family:'Consolas';">next<br/></span><span style="font-family:'Consolas';">{value: </span><span style="color:#6897bb;font-family:'Consolas';">2</span><span style="color:#cc7832;font-family:'Consolas';">, </span><span style="font-family:'Consolas';">done: </span><span style="color:#cc7832;font-weight:bold;font-family:'Consolas';">false</span><span style="font-family:'Consolas';">}<br/></span>세번 째 <span style="font-family:'Consolas';">next<br/></span><span style="font-family:'Consolas';">{value: </span><span style="color:#6897bb;font-family:'Consolas';">3</span><span style="color:#cc7832;font-family:'Consolas';">, </span><span style="font-family:'Consolas';">done: </span><span style="color:#cc7832;font-weight:bold;font-family:'Consolas';">false</span><span style="font-family:'Consolas';">}<br/></span>네번 째 <span style="font-family:'Consolas';">next<br/></span><span style="font-family:'Consolas';">{value: </span><span style="color:#cc7832;font-weight:bold;font-family:'Consolas';">undefined</span><span style="color:#cc7832;font-family:'Consolas';">, </span><span style="font-family:'Consolas';">done: </span><span style="color:#cc7832;font-weight:bold;font-family:'Consolas';">true</span><span style="font-family:'Consolas';">}</span></p></pre>
+<p>이해가 안갈수도 있으니 위의 코드를 순차적으로 설명하면,</p>
+<p></p>
+<ol style="list-style-type: decimal;">
+<li>gen 제너레이터 함수를 실행한 결과인 제너레이터 객체를 변수 g에 저장한다.</li>
+<li>g.next()를 실행한다. g.next()는 gen 함수를 yield를 만날때까지 순차적으로 실행한다. 첫번째 g.next()는 gen 함수를 순차적으로 실행하여 console.log(&#8220;첫 next&#8221;) 를 실행하고, yield 1; 을 만나 종료하게 된다. 이 때 yield는 오른쪽에 있는 값을 객체로 리턴하게 된다. 값은 {value: 1, done: false} 이다. value 프로퍼티는 리턴값을 의미하고 done 프로퍼티는 함수의 return 에 도달하게 되면 true를 호출하고 끝나지 않았으면 false를 호출한다. 첫 g.next()를 실행했을 때 함수가 아직 끝나지 않아서 done 프로퍼티의 값은 false가 된다.</li>
+<li>두번 째 g.next()를 실행한다. 두번째 next는 처음 yield가 끝난시점에서 출발하여 다음 yield를 만날때까지 함수를 실행하게 된다. console.log(&#8220;두번 째 next&#8221;); 를실행하고 다음 yield를 만나 {value: 2, done: false}를 호출한다. 아직 함수가 끝나지 않았기 때문에 done 프로퍼티는 false를 호출한다.</li>
+<li>세번 째 g.next()를 실행한다. 세번째 next는 두번째 next가 종료한 시점인 yield 2; 부터 시작하여 다음 yield를 만날때 까지 실행한다. console.log(&#8220;세번 째 next&#8221;); 를실행하고 다음 yield를 만나 {value: 3, done: false}를 호출한다. </li>
+<li>네번 째 g.next()를 실행한다. 네번째 next는 세번째 next가 종료한 시점부터 출발한다. console.log(&#8220;세번 째 next&#8221;); 를 실행하고 함수의 끝부분에 도달했기 때문에 {value: undefined, done: true} 가 호출된다.</li>
+</ol>
+<div>즉 next로 함수를 실행하고 yield로 함수의 실행을 중간에 멈출수 있는 아주좋은 기능이다. yield는 일반함수에서 return 과도 같은 기능을하지만 함수가 끝나는게 아니고 그자리에서 멈추는것이다. 또한 yield는 몇번이고 쓸 수 있다.</div>
+<div></div>
+<div>그럼 과연 제너레이터 기능이 없는 ES5에서는 어떻게 구현할까? 조금 복잡하긴 하지만 아래코드를 보자.</div>
+<div>
+<pre style="background-color:#2b2b2b;color:#a9b7c6;font-family:'Menlo';font-size:11.3pt;"><span style="color:#cc7832;font-weight:bold;">var </span>__generator = (<span style="color:#cc7832;font-weight:bold;">this </span>&amp;&amp; <span style="color:#cc7832;font-weight:bold;">this</span>.__generator) || <span style="color:#cc7832;font-weight:bold;">function </span>(thisArg<span style="color:#cc7832;">, </span>body) {<br/>    <span style="color:#cc7832;font-weight:bold;">var </span>_ = {<br/>        <span style="color:#9876aa;">label</span>: <span style="color:#6897bb;">0</span><span style="color:#cc7832;">,<br/></span><span style="color:#cc7832;">        </span><span style="color:#ffc66d;">sent</span>: <span style="color:#cc7832;font-weight:bold;">function </span>() {<br/>            <span style="color:#cc7832;font-weight:bold;">if </span>(t[<span style="color:#6897bb;">0</span>] &amp; <span style="color:#6897bb;">1</span>) <span style="color:#cc7832;font-weight:bold;">throw </span>t[<span style="color:#6897bb;">1</span>]<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">            </span><span style="color:#cc7832;font-weight:bold;">return </span>t[<span style="color:#6897bb;">1</span>]<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">        </span>}<span style="color:#cc7832;">,<br/></span><span style="color:#cc7832;">        </span><span style="color:#9876aa;">trys</span>: []<span style="color:#cc7832;">,<br/></span><span style="color:#cc7832;">        </span><span style="color:#9876aa;">ops</span>: []<br/>    }<span style="color:#cc7832;">, </span>f<span style="color:#cc7832;">, </span>y<span style="color:#cc7832;">, </span>t<span style="color:#cc7832;">, </span>g<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;"><br/></span><span style="color:#cc7832;">    </span><span style="color:#cc7832;font-weight:bold;">return </span>g = { <span style="color:#808080;">// __generator 함수가 반환하는 값<br/></span><span style="color:#808080;">        </span><span style="color:#9876aa;">next</span>: <span style="color:#ffc66d;">verb</span>(<span style="color:#6897bb;">0</span>)<span style="color:#cc7832;">,<br/></span><span style="color:#cc7832;">        </span><span style="color:#6a8759;">"throw"</span>: <span style="color:#ffc66d;">verb</span>(<span style="color:#6897bb;">1</span>)<span style="color:#cc7832;">,<br/></span><span style="color:#cc7832;">        </span><span style="color:#6a8759;">"return"</span>: <span style="color:#ffc66d;">verb</span>(<span style="color:#6897bb;">2</span>)<br/>    }<span style="color:#cc7832;">,<br/></span><span style="color:#cc7832;"><br/></span><span style="color:#cc7832;">    </span><span style="color:#cc7832;font-weight:bold;">typeof </span>Symbol === <span style="color:#6a8759;">"function" </span>&amp;&amp; (g[Symbol.iterator] = <span style="color:#cc7832;font-weight:bold;">function </span>() {<br/>        <span style="color:#cc7832;font-weight:bold;">return this</span><span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">    </span>})<span style="color:#cc7832;">, </span>g<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;"><br/></span><span style="color:#cc7832;">    </span><span style="color:#cc7832;font-weight:bold;">function </span><span style="color:#ffc66d;">verb</span>(n) { <span style="color:#808080;">// next() 메서드를 사용하면 호출된다.<br/></span><span style="color:#808080;">        </span><span style="color:#cc7832;font-weight:bold;">return function </span>(v) {<br/>            <span style="color:#cc7832;font-weight:bold;">return </span><span style="color:#ffc66d;">step</span>([n<span style="color:#cc7832;">, </span>v])<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">        </span>}<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">    </span>}<br/><br/>    <span style="color:#cc7832;font-weight:bold;">function </span><span style="color:#ffc66d;">step</span>(op) {<br/>        <span style="color:#cc7832;font-weight:bold;">if </span>(f) <span style="color:#cc7832;font-weight:bold;">throw new </span><span style="color:#9876aa;">TypeError</span>(<span style="color:#6a8759;">"Generator is already executing."</span>)<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">        </span><span style="color:#cc7832;font-weight:bold;">while </span>(_) <span style="color:#cc7832;font-weight:bold;">try </span>{<br/>            <span style="color:#cc7832;font-weight:bold;">if </span>(f = <span style="color:#6897bb;">1</span><span style="color:#cc7832;">, </span>y &amp;&amp; (t = y[op[<span style="color:#6897bb;">0</span>] &amp; <span style="color:#6897bb;">2 </span>? <span style="color:#6a8759;">"return" </span>: op[<span style="color:#6897bb;">0</span>] ? <span style="color:#6a8759;">"throw" </span>: <span style="color:#6a8759;">"next"</span>]) <br/>                &amp;&amp; !(t = t.<span style="color:#ffc66d;">call</span>(y<span style="color:#cc7832;">, </span>op[<span style="color:#6897bb;">1</span>])).<span style="color:#9876aa;">done</span>) <span style="color:#cc7832;font-weight:bold;">return </span>t<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">            </span><span style="color:#cc7832;font-weight:bold;">if </span>(y = <span style="color:#6897bb;">0</span><span style="color:#cc7832;">, </span>t) op = [<span style="color:#6897bb;">0</span><span style="color:#cc7832;">, </span>t.<span style="color:#9876aa;">value</span>]<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">            </span><span style="color:#cc7832;font-weight:bold;">switch </span>(op[<span style="color:#6897bb;">0</span>]) {<br/>                <span style="color:#cc7832;font-weight:bold;">case </span><span style="color:#6897bb;">0</span>:<br/>                <span style="color:#cc7832;font-weight:bold;">case </span><span style="color:#6897bb;">1</span>:<br/>                    t = op<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">                    </span><span style="color:#cc7832;font-weight:bold;">break</span><span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">                </span><span style="color:#cc7832;font-weight:bold;">case </span><span style="color:#6897bb;">4</span>:<br/>                    _.<span style="color:#9876aa;">label</span>++<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">                    </span><span style="color:#cc7832;font-weight:bold;">return </span>{<span style="color:#9876aa;">value</span>: op[<span style="color:#6897bb;">1</span>]<span style="color:#cc7832;">, </span><span style="color:#9876aa;">done</span>: <span style="color:#cc7832;font-weight:bold;">false</span>}<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">                </span><span style="color:#cc7832;font-weight:bold;">case </span><span style="color:#6897bb;">5</span>:<br/>                    _.<span style="color:#9876aa;">label</span>++<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">                    </span>y = op[<span style="color:#6897bb;">1</span>]<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">                    </span>op = [<span style="color:#6897bb;">0</span>]<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">                    </span><span style="color:#cc7832;font-weight:bold;">continue</span><span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">                </span><span style="color:#cc7832;font-weight:bold;">case </span><span style="color:#6897bb;">7</span>:<br/>                    op = _.<span style="color:#9876aa;">ops</span>.<span style="color:#ffc66d;">pop</span>()<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">                    </span>_.<span style="color:#9876aa;">trys</span>.<span style="color:#ffc66d;">pop</span>()<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">                    </span><span style="color:#cc7832;font-weight:bold;">continue</span><span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">                </span><span style="color:#cc7832;font-weight:bold;">default</span>:<br/>                    <span style="color:#cc7832;font-weight:bold;">if </span>(!(t = _.<span style="color:#9876aa;">trys</span><span style="color:#cc7832;">, </span>t = t.<span style="color:#9876aa;">length </span>&gt; <span style="color:#6897bb;">0 </span>&amp;&amp; t[t.<span style="color:#9876aa;">length </span>- <span style="color:#6897bb;">1</span>])<br/>                        &amp;&amp; (op[<span style="color:#6897bb;">0</span>] === <span style="color:#6897bb;">6 </span>|| op[<span style="color:#6897bb;">0</span>] === <span style="color:#6897bb;">2</span>)) {<br/>                        _ = <span style="color:#6897bb;">0</span><span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">                        </span><span style="color:#cc7832;font-weight:bold;">continue</span><span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">                    </span>}<br/>                    <span style="color:#cc7832;font-weight:bold;">if </span>(op[<span style="color:#6897bb;">0</span>] === <span style="color:#6897bb;">3 </span>&amp;&amp; (!t || (op[<span style="color:#6897bb;">1</span>] &gt; t[<span style="color:#6897bb;">0</span>] &amp;&amp; op[<span style="color:#6897bb;">1</span>] &lt; t[<span style="color:#6897bb;">3</span>]))) {<br/>                        _.<span style="color:#9876aa;">label </span>= op[<span style="color:#6897bb;">1</span>]<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">                        </span><span style="color:#cc7832;font-weight:bold;">break</span><span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">                    </span>}<br/>                    <span style="color:#cc7832;font-weight:bold;">if </span>(op[<span style="color:#6897bb;">0</span>] === <span style="color:#6897bb;">6 </span>&amp;&amp; _.<span style="color:#9876aa;">label </span>&lt; t[<span style="color:#6897bb;">1</span>]) {<br/>                        _.<span style="color:#9876aa;">label </span>= t[<span style="color:#6897bb;">1</span>]<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">                        </span>t = op<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">                        </span><span style="color:#cc7832;font-weight:bold;">break</span><span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">                    </span>}<br/>                    <span style="color:#cc7832;font-weight:bold;">if </span>(t &amp;&amp; _.<span style="color:#9876aa;">label </span>&lt; t[<span style="color:#6897bb;">2</span>]) {<br/>                        _.<span style="color:#9876aa;">label </span>= t[<span style="color:#6897bb;">2</span>]<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">                        </span>_.<span style="color:#9876aa;">ops</span>.<span style="color:#ffc66d;">push</span>(op)<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">                        </span><span style="color:#cc7832;font-weight:bold;">break</span><span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">                    </span>}<br/>                    <span style="color:#cc7832;font-weight:bold;">if </span>(t[<span style="color:#6897bb;">2</span>]) _.<span style="color:#9876aa;">ops</span>.<span style="color:#ffc66d;">pop</span>()<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">                    </span>_.<span style="color:#9876aa;">trys</span>.<span style="color:#ffc66d;">pop</span>()<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">                    </span><span style="color:#cc7832;font-weight:bold;">continue</span><span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">            </span>}<br/>            op = body.<span style="color:#ffc66d;">call</span>(thisArg<span style="color:#cc7832;">, </span>_)<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">        </span>} <span style="color:#cc7832;font-weight:bold;">catch </span>(e) {<br/>            op = [<span style="color:#6897bb;">6</span><span style="color:#cc7832;">, </span>e]<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">            </span>y = <span style="color:#6897bb;">0</span><span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">        </span>} <span style="color:#cc7832;font-weight:bold;">finally </span>{<br/>            f = t = <span style="color:#6897bb;">0</span><span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">        </span>}<br/>        <span style="color:#cc7832;font-weight:bold;">if </span>(op[<span style="color:#6897bb;">0</span>] &amp; <span style="color:#6897bb;">5</span>) <span style="color:#cc7832;font-weight:bold;">throw </span>op[<span style="color:#6897bb;">1</span>]<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">        </span><span style="color:#cc7832;font-weight:bold;">return </span>{<span style="color:#9876aa;">value</span>: op[<span style="color:#6897bb;">0</span>] ? op[<span style="color:#6897bb;">1</span>] : <span style="color:#cc7832;font-weight:bold;">void </span><span style="color:#6897bb;">0</span><span style="color:#cc7832;">, </span><span style="color:#9876aa;">done</span>: <span style="color:#cc7832;font-weight:bold;">true</span>}<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">    </span>}<br/>}<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;"><br/></span><span style="color:#cc7832;font-weight:bold;">function </span><span style="color:#ffc66d;">gen</span>() {<br/>    <span style="color:#cc7832;font-weight:bold;">return </span>__generator(<span style="color:#cc7832;font-weight:bold;">this</span><span style="color:#cc7832;">, </span><span style="color:#cc7832;font-weight:bold;">function </span>(_a) {<br/>        <span style="color:#cc7832;font-weight:bold;">switch </span>(_a.<span style="color:#9876aa;">label</span>) {<br/>            <span style="color:#cc7832;font-weight:bold;">case </span><span style="color:#6897bb;">0</span>:<br/>                <span style="color:#9876aa;">console</span>.<span style="color:#ffc66d;">log</span>(<span style="color:#6a8759;">"첫 next"</span>)<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">                </span><span style="color:#cc7832;font-weight:bold;">return </span>[<span style="color:#6897bb;">4 </span><span style="color:#808080;">/*yield*/</span><span style="color:#cc7832;">, </span><span style="color:#6897bb;">1</span>]<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">            </span><span style="color:#cc7832;font-weight:bold;">case </span><span style="color:#6897bb;">1</span>:<br/>                _a.<span style="color:#ffc66d;">sent</span>()<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">                </span><span style="color:#9876aa;">console</span>.<span style="color:#ffc66d;">log</span>(<span style="color:#6a8759;">"두번 째 next"</span>)<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">                </span><span style="color:#cc7832;font-weight:bold;">return </span>[<span style="color:#6897bb;">4 </span><span style="color:#808080;">/*yield*/</span><span style="color:#cc7832;">, </span><span style="color:#6897bb;">2</span>]<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">            </span><span style="color:#cc7832;font-weight:bold;">case </span><span style="color:#6897bb;">2</span>:<br/>                _a.<span style="color:#ffc66d;">sent</span>()<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">                </span><span style="color:#9876aa;">console</span>.<span style="color:#ffc66d;">log</span>(<span style="color:#6a8759;">"세번 째 next"</span>)<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">                </span><span style="color:#cc7832;font-weight:bold;">return </span>[<span style="color:#6897bb;">4 </span><span style="color:#808080;">/*yield*/</span><span style="color:#cc7832;">, </span><span style="color:#6897bb;">3</span>]<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">            </span><span style="color:#cc7832;font-weight:bold;">case </span><span style="color:#6897bb;">3</span>:<br/>                _a.<span style="color:#ffc66d;">sent</span>()<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">                </span><span style="color:#9876aa;">console</span>.<span style="color:#ffc66d;">log</span>(<span style="color:#6a8759;">"네번 째 next"</span>)<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">                </span><span style="color:#cc7832;font-weight:bold;">return </span>[<span style="color:#6897bb;">2 </span><span style="color:#808080;">/*return*/</span>]<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">        </span>}<br/>    })<span style="color:#cc7832;">;<br/></span>}<br/><br/><span style="color:#cc7832;font-weight:bold;">var </span>g = <span style="color:#ffc66d;">gen</span>()<span style="color:#cc7832;">; </span><span style="color:#808080;">// 제너레이터 객체 반환<br/></span><span style="color:#9876aa;">console</span>.<span style="color:#ffc66d;">log</span>(g.<span style="color:#9876aa;">next</span>())<span style="color:#cc7832;">; </span><span style="color:#808080;">// {value: 1, done: false}<br/></span><span style="color:#9876aa;">console</span>.<span style="color:#ffc66d;">log</span>(g.<span style="color:#9876aa;">next</span>())<span style="color:#cc7832;">; </span><span style="color:#808080;">// {value: 2, done: false}<br/></span><span style="color:#9876aa;">console</span>.<span style="color:#ffc66d;">log</span>(g.<span style="color:#9876aa;">next</span>())<span style="color:#cc7832;">; </span><span style="color:#808080;">// {value: 3, done: false}<br/></span><span style="color:#9876aa;">console</span>.<span style="color:#ffc66d;">log</span>(g.<span style="color:#9876aa;">next</span>())<span style="color:#cc7832;">; </span><span style="color:#808080;">// {value: undefined, done: true}<br/></span></pre>
+</div>
+<div>쩝&#8230; 많이 복잡하다. 참고로 ES6 코드나 타입스크립트 코드를 ES5 형식으로 변환하려면 <a class="tx-link" href="https://www.typescriptlang.org/play/index.html" target="_blank">여기</a> 에서 코드를 넣으면 변환가능하다. </div>
+<div>필자도 모르는 부분이 조금 있다. 최대한 아는선에서 말하자면,</div>
+<div></div>
+<ol style="list-style-type: decimal;">
+<li>get 함수를 호출하면 __generator 함수를 호출한 return 값을 반환한다. __generator 함수는 g 객체를 반환하는데 next, throw, return 프로퍼티를 반환한다. 반환한 g 객체는 글로벌 변수 g에 넣는다.</li>
+<li>g.next()를 실행하여 next 프로퍼티를 호출한다. next 프로퍼티는 verb(0) 함수를 호출하는데 verb 함수는 step 함수를 실행한 결과를 반환한다. 처음 step 함수의 매개변수 op 에는 [0, undefined] 가들어가게 된다. 왜냐하면 n 값은 verb(0) 을 호출하여 0이 들어가게되고 next()에 매개변수를 넘겨주지 않아 undefined가 들어가게 된다.</li>
+<li>while 문을 돌고 switch 문을 만나 op[0] 을 확인한다. op[0] 은 0이기 때문에 t 변수에 op를 넣고 break 한다.</li>
+<li>아래에 op = body.call(thisArg, _); 에 의해 __generator 함수에서 두번째인자로 넘겨준 콜백함수를 실행한다. 콜백함수는 gen 함수에 정의되어있다.</li>
+<li>switch 문을 만나 _a.label 을 확인한다. _a.label의 값은 0이라서 console.log(&#8220;첫번 째 next&#8221;); 를 실행하고 [4, 1] 변수를 반환한다.</li>
+<li>반환한 값은 op 변수에 담기게 된다.</li>
+<li>while 문이 끝나지 않았으니 다시 switch 문을 만나 op[0] 을확인한다. 이번에 op[0]은 4이기 때문에 case 4 에 들어간다. _.label의 값을 1증가시키고 {value: op[1], done: false} 객체를 반환한다. 이떄 op[1]은 1이므로 {value: 4, done: false} 를 반환한다.</li>
+<li>두번 째 세번 째 next() 도 위와 같이 실행된다.</li>
+<li>마지막 g.next()는 [2, undefined]를 op 변수에 전달해준다. switch 에서 case 2는 없으므로 default 로 들어가게 된다. (여기서부터 잘모르겠지만&#8230;) default 의 첫번째 if 를 보면 op[0] === 2 인지 확인하고 맞으면 _ 객체를 0 으로 변경하고 break 한다. while 에서 _ 가 0 이므로 false 가되어 while 문을 나가게 되고 {value: op[0] ? op[1] : void 0, done: true} 를 반환한다. value 프로퍼티의 값은 op[0]이 값이 존재하므로 op[1]의 값을 가지게 되는데 op[1]이 undefined 이므로 {value: undefined, done: true} 를 호출하게 된다.</li>
+</ol>
+<div></div>
+<div><b><span style="font-size: 18pt;">next(parameter</span><span style="font-size: 18pt;">)</span></b></div>
+<p></p>
+<p>next() 는 매개변수를 가질수도 있다. 매개변수를 가지게 되면 기능이 조금 달라진다. 아래의 예시를 보자.</p>
+<pre style="background-color:#2b2b2b;color:#a9b7c6;font-family:'Consolas';font-size:10.5pt;"><span style="color:#cc7832;font-weight:bold;">function</span>* <span style="color:#ffc66d;">gen</span>() {<br/>    <span style="color:#cc7832;font-weight:bold;">var </span>bar = yield <span style="color:#6a8759;">'foo'</span><span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">    </span>console.<span style="color:#ffc66d;">log</span>(bar)<span style="color:#cc7832;">; </span><span style="color:#808080;">// bar<br/></span>}<br/><br/><span style="color:#cc7832;font-weight:bold;">var </span>g = <span style="color:#ffc66d;">gen</span>()<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;"><br/></span>console.<span style="color:#ffc66d;">log</span>(g.next())<span style="color:#cc7832;">; </span><span style="color:#808080;">// {value: 'foo', done: false}<br/></span>console.<span style="color:#ffc66d;">log</span>(g.next(<span style="color:#6a8759;">'bar'</span>))<span style="color:#cc7832;">;</span></pre>
+<p>yield와 next()를 배웠으면 당연히 변수 bar 에는 {value: &#8216;foo&#8217;, done: false} 가 들어가야 하지 않냐는 생각이지만 전혀 아니다. 일단 위의 코드를 실행하면 아래와 같다.</p>
+<pre style="background-color:#2b2b2b;color:#a9b7c6;font-family:'Consolas';font-size:10.5pt;">{value: <span style="color:#6a8759;">"foo"</span><span style="color:#cc7832;">, </span>done: <span style="color:#cc7832;font-weight:bold;">false</span>}<br/>bar<br/>{value: <span style="color:#cc7832;font-weight:bold;">undefined</span><span style="color:#cc7832;">, </span>done: <span style="color:#cc7832;font-weight:bold;">true</span>}</pre>
+<p>왜 bar 변수에 문자열 &#8220;bar&#8221; 가 들어가있지???? 하는데 그 이유는 next(&#8216;bar&#8217;) 때문이다. 보통 next()를 실행하면 yield가 next()에게 값을 반환하는 방식이었다. 하지만 next에 매개변수가 들어가게되면 반대로 next가 yield 에게 값을 주게 된다. 즉, 두번째 next()는 매개변수 &#8220;bar&#8221;를 yield에게 넘겨주에 bar변수에 문자열 &#8220;foo&#8221; 대신 &#8220;bar&#8221;가 들어가게 된다.</p>
+<p></p>
+<p></p>
+<p><span style="font-size: 18pt;"><b>중간에 return을 만나면 어떻게 되지??</b></span></p>
+<p></p>
+<p>next() 메서드는 yield를 만날 때까지 내부의 함수를 실행한다고 했다. 그럼 중간에 return을 삽입하면 아래에 있는 yield까지 도달을 할수있을까?</p>
+<pre style="background-color:#2b2b2b;color:#a9b7c6;font-family:'Consolas';font-size:10.5pt;"><span style="color:#cc7832;font-weight:bold;">function</span>* <span style="color:#ffc66d;">gen</span>() {<br/>    yield <span style="color:#6897bb;">1</span><span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">    </span><span style="color:#cc7832;font-weight:bold;">return </span><span style="color:#6897bb;">1.5</span><span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">    </span>yield <span style="color:#6897bb;">2</span><span style="color:#cc7832;">;<br/></span>}<br/><br/><span style="color:#cc7832;font-weight:bold;">var </span>g = <span style="color:#ffc66d;">gen</span>()<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;"><br/></span>console.<span style="color:#ffc66d;">log</span>(g.next())<span style="color:#cc7832;">; </span><span style="color:#808080;">// {value: 1, done: false}<br/></span>console.<span style="color:#ffc66d;">log</span>(g.next())<span style="color:#cc7832;">; </span><span style="color:#808080;">// {value: 1.5, done: true}<br/></span>console.<span style="color:#ffc66d;">log</span>(g.next()) <span style="color:#808080;">// {value: undefined, done: true}</span></pre>
+<p>정답은 실행이 되지 않는다 이다. next() 메서드를 실행하여 return을 만나게 되면 그자리에서 리턴값과 done이 true가 되어 제너레이터 함수를 종료한다.</p>
+<p></p>
+<p><span style="font-size: 18pt;"><b>yield *</b></span></p>
+<p></p>
+<p>제너레이터 키워드 (*) 는 yield 에도 사용 할 수있다. 그럼 yield도 제너레이터가 되는건가?? 라고 생각하는데 뭐, 비슷한 말이기도 하다.</p>
+<pre style="background-color:#2b2b2b;color:#a9b7c6;font-family:'Consolas';font-size:10.5pt;"><span style="color:#cc7832;font-weight:bold;">function</span>* <span style="color:#ffc66d;">gen1</span>() {<br/>    yield <span style="color:#6897bb;">1</span><span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">    </span>yield <span style="color:#6897bb;">2</span><span style="color:#cc7832;">;<br/></span>}<br/><br/><span style="color:#cc7832;font-weight:bold;">function</span>* <span style="color:#ffc66d;">gen2</span>() {<br/>    <span style="color:#808080;">// yield* </span><span style="color:#808080;font-family:'굴림체';">가</span><span style="color:#808080;">  gfn1 </span><span style="color:#808080;font-family:'굴림체';">을 위임한다</span><span style="color:#808080;">.<br/></span><span style="color:#808080;">    </span>yield* <span style="color:#ffc66d;">gen1</span>()<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">    </span>yield <span style="color:#6897bb;">3</span><span style="color:#cc7832;">;<br/></span>}<br/><br/><span style="color:#cc7832;font-weight:bold;">var </span>g = <span style="color:#ffc66d;">gen2</span>()<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;"><br/></span>console.<span style="color:#ffc66d;">log</span>(g.next())<span style="color:#cc7832;">; </span><span style="color:#808080;">// {value: 1, done: false}<br/></span>console.<span style="color:#ffc66d;">log</span>(g.next())<span style="color:#cc7832;">; </span><span style="color:#808080;">// {value: 2, done: false}<br/></span>console.<span style="color:#ffc66d;">log</span>(g.next())<span style="color:#cc7832;">; </span><span style="color:#808080;">// {value: 3, done: false}<br/></span>console.<span style="color:#ffc66d;">log</span>(g.next())<span style="color:#cc7832;">; </span><span style="color:#808080;">// {value: undefined, done: true}</span></pre>
+<p>위의 코드에서 gen2의 함수에서 yield* gen1(); 이 새로운 특징이다. yield*는 제너레이터를 이중으로 실행할 때 사용할 수 있다. 처음 g.next()를 실행하면 yield*는 gen1 제너레이터 함수를 위임하게 되고 gen1 함수를 실행한다. gen1 함수에서 yield 1을 만나 value 값이 1이 호출이 되는 것이다.</p>
+<p>이처럼 제너레이터 함수를 다중으로 사용할 때는 yield* 키워드를 사용하여 중첩으로 실행할 수 있다.</p>
+<p><b><br /></b></p>
+<p><span style="font-size: 18pt;"><b>return()과 throw()</b></span></p>
+<p></p>
+<p>제너레이터 객체는 next() 말고도 return()과 throw()를 지원한다. 아래 예시를 보자</p>
+<pre style="background-color:#2b2b2b;color:#a9b7c6;font-family:'Consolas';font-size:10.5pt;"><span style="color:#cc7832;font-weight:bold;">function</span>* <span style="color:#ffc66d;">gen</span>() {<br/>    yield <span style="color:#6897bb;">1</span><span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">    </span>yield <span style="color:#6897bb;">2</span><span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">    </span>yield <span style="color:#6897bb;">3</span><span style="color:#cc7832;">;<br/></span>}<br/><br/><span style="color:#cc7832;font-weight:bold;">var </span>g = <span style="color:#ffc66d;">gen</span>()<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;"><br/></span>console.<span style="color:#ffc66d;">log</span>(g.next())<span style="color:#cc7832;">; </span><span style="color:#808080;">// {value: 1, done: false}<br/></span>console.<span style="color:#ffc66d;">log</span>(g.return(<span style="color:#6897bb;">123</span>))<span style="color:#cc7832;">; </span><span style="color:#808080;">// {value: 123, done: true}<br/></span><span style="color:#808080;"><br/></span><span style="color:#cc7832;font-weight:bold;">var </span>g2 = <span style="color:#ffc66d;">gen</span>()<span style="color:#cc7832;">;<br/></span>console.<span style="color:#ffc66d;">log</span>(g2.next())<span style="color:#cc7832;">; </span><span style="color:#808080;">// {value: 1, done: false}<br/></span>console.<span style="color:#ffc66d;">log</span>(g2.throw(<span style="color:#6a8759;">"error </span><span style="color:#6a8759;font-family:'굴림체';">호출</span><span style="color:#6a8759;">"</span>))<span style="color:#cc7832;">; </span><span style="color:#808080;">// </span><span style="color:#808080;font-family:'굴림체';">에러 호출</span><span style="color:#808080;">, </span><span style="color:#808080;font-family:'굴림체';">제너레이터 종료</span></pre>
+<p>return() 메서드는 해당 매개변수를 value에 담고 강제로 제너레이터 함수를 종료한다. 위의 예시를 보면 g.return(123)으로 인해 done이 true가 되어 제너레이터 함수를 종료했다.</p>
+<p>throw() 메서드는 해당 매개변수를 메시지로 에러를 호출한다. throw 메서드도 return 메서드와 같이 제너레이터 함수를 강제종료한다.</p>
+<p></p>
+<p><span style="font-size: 18pt;"><b>다시 콜백지옥 소환</b></span></p>
+<pre style="background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: Menlo; font-size: 11.3pt;"><span style="color: rgb(204, 120, 50); font-weight: bold;">function </span><span style="color: rgb(255, 198, 109);">getId</span>(phoneNumber<span style="color: rgb(204, 120, 50);">, </span>callback) { <span style="color: rgb(128, 128, 128);">/* … */ </span>}<br/><span style="color: rgb(204, 120, 50); font-weight: bold;">function </span><span style="color: rgb(255, 198, 109);">getEmail</span>(id<span style="color: rgb(204, 120, 50);">, </span>callback) { <span style="color: rgb(128, 128, 128);">/* … */ </span>}<br/><span style="color: rgb(204, 120, 50); font-weight: bold;">function </span><span style="color: rgb(255, 198, 109);">getName</span>(email<span style="color: rgb(204, 120, 50);">, </span>callback) { <span style="color: rgb(128, 128, 128);">/* … */ </span>}<br/><span style="color: rgb(204, 120, 50); font-weight: bold;">function </span><span style="color: rgb(255, 198, 109);">order</span>(name<span style="color: rgb(204, 120, 50);">, </span>menu<span style="color: rgb(204, 120, 50);">, </span>callback) { <span style="color: rgb(128, 128, 128);">/* … */ </span>}<br/><br/><span style="color: rgb(204, 120, 50); font-weight: bold;">function </span><span style="color: rgb(255, 198, 109);">orderCoffee</span>(phoneNumber<span style="color: rgb(204, 120, 50);">, </span>callback) {<br/>    <span style="color: rgb(255, 198, 109);">getId</span>(phoneNumber<span style="color: rgb(204, 120, 50);">, </span><span style="color: rgb(204, 120, 50); font-weight: bold;">function</span>(id) {<br/>        <span style="color: rgb(255, 198, 109);">getEmail</span>(id<span style="color: rgb(204, 120, 50);">, </span><span style="color: rgb(204, 120, 50); font-weight: bold;">function</span>(email) {<br/>            <span style="color: rgb(255, 198, 109);">getName</span>(email<span style="color: rgb(204, 120, 50);">, </span><span style="color: rgb(204, 120, 50); font-weight: bold;">function</span>(name) {<br/>                <span style="color: rgb(255, 198, 109);">order</span>(name<span style="color: rgb(204, 120, 50);">, </span><span style="color: rgb(106, 135, 89);">'coffee'</span><span style="color: rgb(204, 120, 50);">, </span><span style="color: rgb(204, 120, 50); font-weight: bold;">function</span>(result) {<br/>                    callback(result)<span style="color: rgb(204, 120, 50);">;<br/></span><span style="color: rgb(204, 120, 50);">                </span>})<span style="color: rgb(204, 120, 50);">;<br/></span><span style="color: rgb(204, 120, 50);">            </span>})<span style="color: rgb(204, 120, 50);">;<br/></span><span style="color: rgb(204, 120, 50);">        </span>})<span style="color: rgb(204, 120, 50);">;<br/></span><span style="color: rgb(204, 120, 50);">    </span>})<span style="color: rgb(204, 120, 50);">;<br/></span>}</pre>
+<p>이제 위의 콜백 지옥을 제너레이터를 활용하여 비동기코드를 비동기인 듯 비동기 아닌 비동기 같은 코드로 만들어보자! 위에서도 설명했듯이 제너레이터는 함수를 실행도중에 멈출수 있는 좋은 기능이다. 그럼 서버에 데이터를 얻어올 때까지 제너레이터에서 제어를 해주면 아주좋게 되지 않을까?</p>
+<p></p>
+<p>일단 먼저 orderCoffee 함수에 제너레이터 (*) 를 추가하고 yield를 추가하자. 변경하면 아래와 같은 코드가 될 것이다.</p>
+<pre style="background-color:#2b2b2b;color:#a9b7c6;font-family:'Consolas';font-size:10.5pt;"><span style="color:#cc7832;font-weight:bold;">function</span>* <span style="color:#ffc66d;">orderCoffee</span>(phoneNumber) {<br/>    <span style="color:#cc7832;font-weight:bold;">const </span>id = yield getId(phoneNumber)<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">    </span><span style="color:#cc7832;font-weight:bold;">const </span>email = yield getEmail(id)<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">    </span><span style="color:#cc7832;font-weight:bold;">const </span>name = yield getName(email)<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">    </span><span style="color:#cc7832;font-weight:bold;">const </span>result = yield order(name<span style="color:#cc7832;">, </span><span style="color:#6a8759;">'coffee'</span>)<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;">    </span><span style="color:#cc7832;font-weight:bold;">return </span>result<span style="color:#cc7832;">;<br/></span>}</pre>
+<p>와우! 한층 간결해졌고 원하는대로 잘동작 할것만 같다. 이제 데이터로드가 완료되었을 때 next() 메서드에 매개변수를 전달해서 변수에 담아주기만 하면 된다.</p>
+<pre style="background-color:#2b2b2b;color:#a9b7c6;font-family:'Consolas';font-size:10.5pt;"><span style="color:#cc7832;font-weight:bold;">const </span>iterator = orderCoffee(<span style="color:#6a8759;">'010-1234-1234'</span>)<span style="color:#cc7832;">;<br/></span>iterator.next()<span style="color:#cc7832;">;<br/></span><span style="color:#cc7832;"><br/></span><span style="color:#cc7832;font-weight:bold;">function </span><span style="color:#ffc66d;">getId</span>(phoneNumber) {<br/>    <span style="color:#808080;">// …<br/></span><span style="color:#808080;">    </span>iterator.next(result)<span style="color:#cc7832;">;<br/></span>}<br/><br/><span style="color:#cc7832;font-weight:bold;">function </span><span style="color:#ffc66d;">getEmail</span>(id) {<br/>    <span style="color:#808080;">// …<br/></span><span style="color:#808080;">    </span>iterator.next(result)<span style="color:#cc7832;">;<br/></span>}<br/><br/><span style="color:#cc7832;font-weight:bold;">function </span><span style="color:#ffc66d;">getName</span>(email) {<br/>    <span style="color:#808080;">// …<br/></span><span style="color:#808080;">    </span>iterator.next(result)<span style="color:#cc7832;">;<br/></span>}<br/><br/><span style="color:#cc7832;font-weight:bold;">function </span><span style="color:#ffc66d;">order</span>(name<span style="color:#cc7832;">, </span>menu) {<br/>    <span style="color:#808080;">// …<br/></span><span style="color:#808080;">    </span>iterator.next(result)<span style="color:#cc7832;">;<br/></span>}</pre>
+<p>마지막 order 함수의 next를 통하여 result 값을 안전하게 받아올수가 있다. 이렇게하면 콜백지옥의 비동기 코드에서 동기적이지만 비동기같은 기능을 수행할 수 있는 좋은 코드를 작성할 수 있다. </p>
+<p></p>
+<p></p>
+<p><span style="font-size: 18pt;"><b>제너레이터를 마치며</b></span></p>
+<p></p>
+<p>지금까지 자바스크립트에서 제너레이터를 사용하여 프로그래밍을 하는 방법에 대해 알아보았다. 제너레이터를 사용하면 비동기 코드를 마치 동기식 코드를 작성하는 것처럼 작성할 수 있다. 서버에서 대용량의 데이터를 받아와서 순차적으로 처리하고 싶을때 사용하면 유용할 것 같다. 실제 사용해보면 알겠지만, 복잡한 비동기 코드를 다룰 때 이를 활용하면 이전과 비교할 수 없이 편하게 코드를 작성할 수 있을 것이다.</p>
+<p></p>
+<p></p>
+<p>참고:</p>
+<ul style="list-style-type: disc;">
+<li><a class="tx-link" href="http://meetup.toast.com/posts/73" target="_blank">http://meetup.toast.com/posts/73</a></li>
+<li><a class="tx-link" href="https://basarat.gitbooks.io/typescript/content/docs/generators.html" target="_blank">https://basarat.gitbooks.io/typescript/content/docs/generators.html</a></li>
+<li><a class="tx-link" href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Generator" target="_blank">https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Generator</a></li>
+</ul>
+<p></p>
+<p></p>
+<hr />
+<p><iframe src='http://ad.selfhow.com/rd' width='100%' border=0 frameborder=0 style='height:auto;width:100%'></iframe></p>
+<p><a href='http://thd0011.tistory.com/1' target='_blank'>Origin Content : 만재 송</a> | <a href="/cdn-cgi/l/email-protection#bfd8ded2dae0dcdc8f8f8effd1ded3de91d8de" target='_blank'>Contact : <span class="__cf_email__" data-cfemail="6d0a0c0008320e0e5d5d5c2d030c010c430a0c">[email&#160;protected]</span></a>
+</p>
+<p>Cotent License : CC-BY </p>
+<p>This content is collected under the CCL license.</p>
+<p>Please check the license of the original article before asking about copyright.</p>
+<ul>
+<li><a href='/tag/JavaScript'>More About <span style='font-weight:bold;'>JavaScript</span></a></li>
+<li><a href='/tag/제너레이터'>More About <span style='font-weight:bold;'>제너레이터</span></a></li>
+<li><a href='/tag/Generator'>More About <span style='font-weight:bold;'>Generator</span></a></li>
+</ul>
+        </div> <!-- //.entry-summary -->
+        
+                    <div class="entry-tags"><b>Tags:</b> <a href="http://da.nala.ga/tag/generator/" rel="tag">Generator</a>, <a href="http://da.nala.ga/tag/javascript/" rel="tag">javascript</a>, <a href="http://da.nala.ga/tag/%ec%a0%9c%eb%84%88%eb%a0%88%ec%9d%b4%ed%84%b0/" rel="tag">제너레이터</a></div>
+        
+    </div>
+
+</article> <!--/#post-->
+
+
+
+
+
+                                                                    <div class="post-nav-area">
+                                                    
+            <nav class="next-previous-post clearfix media" role="navigation">
+                <div class="row">
+                    <!-- Previous Post -->
+                    <div class="previous-post col-sm-6 pull-left">
+                        <div class="nav-previous"><i class="fa fa-angle-left"></i> <a href="http://da.nala.ga/%ed%8b%b0%ec%8a%a4%ed%86%a0%eb%a6%ac-%ec%95%a0%eb%93%9c%ec%84%bc%ec%8a%a4-%ec%9d%bc%ec%b9%98%ed%95%98%eb%8a%94-%ec%bd%98%ed%85%90%ec%b8%a0-%ec%a0%81%ec%9a%a9%ed%95%98%ea%b8%b0/" rel="prev">티스토리 애드센스 일치하는 콘텐츠 적용하기</a></div>                    </div>
+
+                    <!-- Next Post -->
+                    <div class="next-post col-sm-6 pull-right text-right">
+                        <div class="nav-next"><a href="http://da.nala.ga/micro-hdmi-cable-%eb%b3%80%ed%99%98-%ec%a0%a0%eb%8d%94-%ea%b5%ac%eb%a7%a4-lg-2in1-%ec%97%b0%ea%b2%b0/" rel="next">Micro HDMI cable 변환 젠더 구매 ( LG 2in1 연결 )</a> <i class="fa fa-angle-right"></i></div>                    </div>
+                </div>
+            </nav><!-- .navigation -->
+            
+                                            </div>
+                                
+                                
+                            
+                                            </main> <!-- /.site-main -->
+                </div>  <!-- /.content-area -->
+            </div> <!-- /col -->
+
+            <!-- Blogsidebar -->
+            
+	<div class="col-md-4">
+	    <div class="primary-sidebar widget-area" role="complementary">
+	        <div id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="http://da.nala.ga/">
+				<label>
+					<span class="screen-reader-text">검색:</span>
+					<input type="search" class="search-field" placeholder="검색 &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="검색" />
+			</form></div>		<div id="recent-posts-2" class="widget widget_recent_entries">		<h2 class="widget-title">최근 글</h2>		<ul>
+					<li>
+				<a href="http://da.nala.ga/%ea%b5%90%ed%99%98%ed%95%99%ec%83%9d%ec%a4%80%eb%b9%84part2-%ed%94%84%eb%9e%91%ec%8a%a4-sciences-po-%ec%a7%80%ec%9b%90-%ea%b3%bc%ec%a0%95%ea%b3%bc-%ea%b7%b8-%ec%a0%84-%ec%95%8c%ec%95%84%ec%95%bc/">[교환학생준비PART2] 프랑스 Sciences Po 지원 과정과 그 전 알아야할 것들!</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%b0%95%ea%b7%bc%ed%98%9c-%ec%b5%9c%ec%88%9c%ec%8b%a4-%ea%b2%8c%ec%9d%b4%ed%8a%b8%eb%a5%bc-%eb%b0%9d%ed%98%80%eb%82%b8-%ec%9d%bc%eb%93%b1%ea%b3%b5%ec%8b%a0-%ec%95%88%eb%af%bc%ec%84%9d/">박근혜 최순실 게이트를 밝혀낸 일등공신 안민석</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%b0%b0%ed%8b%80%ea%b7%b8%eb%9d%bc%ec%9a%b4%eb%93%9c-%ec%a0%95%ec%8b%9d%eb%b2%84%ec%a0%84-1-0%ed%8c%a8%ec%b9%98-%eb%ac%b4%ec%97%87%ec%9d%b4-%eb%b0%94%eb%80%8c%eb%82%98%ec%9a%94/">배틀그라운드 정식버전 1.0패치 무엇이 바뀌나요?</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%91%90%eb%87%8c%eb%a5%bc-%ea%b1%b4%ea%b0%95%ed%95%98%ea%b2%8c-%eb%a7%8c%eb%93%9c%eb%8a%94-4%ec%b2%9c%eb%b3%b4%ec%9d%98-%ea%b1%b8%ec%9d%8c/">두뇌를 건강하게 만드는 4천보의 걸음</a>
+						</li>
+					<li>
+				<a href="http://da.nala.ga/%eb%af%b8%ea%b5%ad-%ec%9c%a0%ed%95%99-%ec%a0%95%eb%b3%b4-%ed%95%9c%ea%b5%ad-%eb%82%b4%ec%8b%a0-%ec%84%b1%ec%a0%81%eb%a7%8c%ec%9c%bc%eb%a1%9c-%eb%af%b8%ea%b5%ad-%eb%aa%85%eb%ac%b8%eb%8c%80-%ea%b0%80/">미국 유학  정보 &#8211; 한국 내신 성적만으로 미국 명문대 가기</a>
+						</li>
+				</ul>
+		</div>		<div id="tag_cloud-2" class="widget widget_tag_cloud"><h2 class="widget-title">태그</h2><div class="tagcloud"><a href="http://da.nala.ga/tag/1%ec%9b%94/" class="tag-cloud-link tag-link-35 tag-link-position-1" style="font-size: 14.892307692308pt;" aria-label="1월 (47 아이템)">1월</a>
+<a href="http://da.nala.ga/tag/2017/" class="tag-cloud-link tag-link-510 tag-link-position-2" style="font-size: 19.415384615385pt;" aria-label="2017 (76 아이템)">2017</a>
+<a href="http://da.nala.ga/tag/2017%eb%85%84/" class="tag-cloud-link tag-link-8 tag-link-position-3" style="font-size: 18.123076923077pt;" aria-label="2017년 (66 아이템)">2017년</a>
+<a href="http://da.nala.ga/tag/2018/" class="tag-cloud-link tag-link-61 tag-link-position-4" style="font-size: 14.461538461538pt;" aria-label="2018 (45 아이템)">2018</a>
+<a href="http://da.nala.ga/tag/2018%eb%85%84/" class="tag-cloud-link tag-link-103 tag-link-position-5" style="font-size: 18.984615384615pt;" aria-label="2018년 (73 아이템)">2018년</a>
+<a href="http://da.nala.ga/tag/vs/" class="tag-cloud-link tag-link-943 tag-link-position-6" style="font-size: 9.5076923076923pt;" aria-label="vs (26 아이템)">vs</a>
+<a href="http://da.nala.ga/tag/%ec%98%81%ed%99%94/" class="tag-cloud-link tag-link-1375 tag-link-position-7" style="font-size: 14.246153846154pt;" aria-label="“영화 (44 아이템)">“영화</a>
+<a href="http://da.nala.ga/tag/%ea%b0%80%ea%b2%a9/" class="tag-cloud-link tag-link-63 tag-link-position-8" style="font-size: 12.953846153846pt;" aria-label="가격 (38 아이템)">가격</a>
+<a href="http://da.nala.ga/tag/%ea%b0%80%ec%83%81%ed%99%94%ed%8f%90/" class="tag-cloud-link tag-link-1479 tag-link-position-9" style="font-size: 9.0769230769231pt;" aria-label="가상화폐 (25 아이템)">가상화폐</a>
+<a href="http://da.nala.ga/tag/%ea%b2%80%ec%9d%80%ec%82%ac%eb%a7%89/" class="tag-cloud-link tag-link-341 tag-link-position-10" style="font-size: 8.8615384615385pt;" aria-label="검은사막 (24 아이템)">검은사막</a>
+<a href="http://da.nala.ga/tag/%ea%b2%8c%ec%9e%84/" class="tag-cloud-link tag-link-391 tag-link-position-11" style="font-size: 22pt;" aria-label="게임 (102 아이템)">게임</a>
+<a href="http://da.nala.ga/tag/%ea%b3%b5%ea%b0%9c/" class="tag-cloud-link tag-link-938 tag-link-position-12" style="font-size: 9.5076923076923pt;" aria-label="공개 (26 아이템)">공개</a>
+<a href="http://da.nala.ga/tag/%ea%b3%b5%eb%9e%b5/" class="tag-cloud-link tag-link-1018 tag-link-position-13" style="font-size: 8.8615384615385pt;" aria-label="공략 (24 아이템)">공략</a>
+<a href="http://da.nala.ga/tag/%eb%8b%a4%ec%9a%b4%eb%a1%9c%eb%93%9c/" class="tag-cloud-link tag-link-364 tag-link-position-14" style="font-size: 8.4307692307692pt;" aria-label="다운로드 (23 아이템)">다운로드</a>
+<a href="http://da.nala.ga/tag/%eb%8c%80%ed%95%b4%ec%84%9c/" class="tag-cloud-link tag-link-1629 tag-link-position-15" style="font-size: 8.8615384615385pt;" aria-label="대해서 (24 아이템)">대해서</a>
+<a href="http://da.nala.ga/tag/%eb%a6%ac%eb%b7%b0/" class="tag-cloud-link tag-link-555 tag-link-position-16" style="font-size: 15.969230769231pt;" aria-label="리뷰 (53 아이템)">리뷰</a>
+<a href="http://da.nala.ga/tag/%eb%a7%9b%ec%a7%91/" class="tag-cloud-link tag-link-4173 tag-link-position-17" style="font-size: 9.9384615384615pt;" aria-label="맛집 (27 아이템)">맛집</a>
+<a href="http://da.nala.ga/tag/%eb%aa%a8%eb%b0%94%ec%9d%bc/" class="tag-cloud-link tag-link-835 tag-link-position-18" style="font-size: 10.584615384615pt;" aria-label="모바일 (29 아이템)">모바일</a>
+<a href="http://da.nala.ga/tag/%eb%ac%b4%eb%a3%8c/" class="tag-cloud-link tag-link-827 tag-link-position-19" style="font-size: 13.384615384615pt;" aria-label="무료 (40 아이템)">무료</a>
+<a href="http://da.nala.ga/tag/%eb%b0%a9%eb%b2%95/" class="tag-cloud-link tag-link-529 tag-link-position-20" style="font-size: 15.323076923077pt;" aria-label="방법 (49 아이템)">방법</a>
+<a href="http://da.nala.ga/tag/%eb%b9%84%ed%8a%b8%ec%bd%94%ec%9d%b8/" class="tag-cloud-link tag-link-1478 tag-link-position-21" style="font-size: 9.0769230769231pt;" aria-label="비트코인 (25 아이템)">비트코인</a>
+<a href="http://da.nala.ga/tag/%ec%84%a4%ec%b9%98/" class="tag-cloud-link tag-link-360 tag-link-position-22" style="font-size: 8pt;" aria-label="설치 (22 아이템)">설치</a>
+<a href="http://da.nala.ga/tag/%ec%86%8c%ea%b0%9c/" class="tag-cloud-link tag-link-297 tag-link-position-23" style="font-size: 8.4307692307692pt;" aria-label="소개 (23 아이템)">소개</a>
+<a href="http://da.nala.ga/tag/%ec%88%9c%ec%9c%84/" class="tag-cloud-link tag-link-12 tag-link-position-24" style="font-size: 11.230769230769pt;" aria-label="순위 (31 아이템)">순위</a>
+<a href="http://da.nala.ga/tag/%ec%8b%9c%ec%9e%91/" class="tag-cloud-link tag-link-579 tag-link-position-25" style="font-size: 8.4307692307692pt;" aria-label="시작 (23 아이템)">시작</a>
+<a href="http://da.nala.ga/tag/%ec%95%88%eb%82%b4/" class="tag-cloud-link tag-link-338 tag-link-position-26" style="font-size: 10.584615384615pt;" aria-label="안내 (29 아이템)">안내</a>
+<a href="http://da.nala.ga/tag/%ec%95%8c%ec%95%84%eb%b3%b4%ea%b8%b0/" class="tag-cloud-link tag-link-1939 tag-link-position-27" style="font-size: 12.523076923077pt;" aria-label="알아보기 (36 아이템)">알아보기</a>
+<a href="http://da.nala.ga/tag/%ec%95%8c%ec%95%84%eb%b3%b4%ec%9e%90/" class="tag-cloud-link tag-link-369 tag-link-position-28" style="font-size: 11.661538461538pt;" aria-label="알아보자 (33 아이템)">알아보자</a>
+<a href="http://da.nala.ga/tag/%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8/" class="tag-cloud-link tag-link-567 tag-link-position-29" style="font-size: 9.0769230769231pt;" aria-label="업데이트 (25 아이템)">업데이트</a>
+<a href="http://da.nala.ga/tag/%ec%97%ac%ed%96%89/" class="tag-cloud-link tag-link-1122 tag-link-position-30" style="font-size: 12.738461538462pt;" aria-label="여행 (37 아이템)">여행</a>
+<a href="http://da.nala.ga/tag/%ec%98%a4%eb%b8%8c/" class="tag-cloud-link tag-link-271 tag-link-position-31" style="font-size: 10.8pt;" aria-label="오브 (30 아이템)">오브</a>
+<a href="http://da.nala.ga/tag/%ec%98%a8%eb%9d%bc%ec%9d%b8/" class="tag-cloud-link tag-link-328 tag-link-position-32" style="font-size: 11.876923076923pt;" aria-label="온라인 (34 아이템)">온라인</a>
+<a href="http://da.nala.ga/tag/%ec%9c%84%ed%95%9c/" class="tag-cloud-link tag-link-183 tag-link-position-33" style="font-size: 13.169230769231pt;" aria-label="위한 (39 아이템)">위한</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%eb%b2%a4%ed%8a%b8/" class="tag-cloud-link tag-link-723 tag-link-position-34" style="font-size: 13.169230769231pt;" aria-label="이벤트 (39 아이템)">이벤트</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%ec%95%bc%ea%b8%b0/" class="tag-cloud-link tag-link-861 tag-link-position-35" style="font-size: 10.8pt;" aria-label="이야기 (30 아이템)">이야기</a>
+<a href="http://da.nala.ga/tag/%ec%9d%b4%ec%9c%a0/" class="tag-cloud-link tag-link-1482 tag-link-position-36" style="font-size: 9.9384615384615pt;" aria-label="이유 (27 아이템)">이유</a>
+<a href="http://da.nala.ga/tag/%ec%9d%bc%eb%b3%b8/" class="tag-cloud-link tag-link-1007 tag-link-position-37" style="font-size: 8.4307692307692pt;" aria-label="일본 (23 아이템)">일본</a>
+<a href="http://da.nala.ga/tag/%ec%a0%95%eb%a6%ac/" class="tag-cloud-link tag-link-65 tag-link-position-38" style="font-size: 11.876923076923pt;" aria-label="정리 (34 아이템)">정리</a>
+<a href="http://da.nala.ga/tag/%ec%a0%95%eb%b3%b4/" class="tag-cloud-link tag-link-610 tag-link-position-39" style="font-size: 17.261538461538pt;" aria-label="정보 (61 아이템)">정보</a>
+<a href="http://da.nala.ga/tag/%ec%b4%9d%ec%a0%95%eb%a6%ac/" class="tag-cloud-link tag-link-179 tag-link-position-40" style="font-size: 8.4307692307692pt;" aria-label="총정리 (23 아이템)">총정리</a>
+<a href="http://da.nala.ga/tag/%ec%b5%9c%ea%b3%a0/" class="tag-cloud-link tag-link-404 tag-link-position-41" style="font-size: 11.876923076923pt;" aria-label="최고 (34 아이템)">최고</a>
+<a href="http://da.nala.ga/tag/%ec%b6%94%ec%b2%9c/" class="tag-cloud-link tag-link-367 tag-link-position-42" style="font-size: 20.707692307692pt;" aria-label="추천 (89 아이템)">추천</a>
+<a href="http://da.nala.ga/tag/%ec%b6%9c%ec%8b%9c/" class="tag-cloud-link tag-link-612 tag-link-position-43" style="font-size: 10.584615384615pt;" aria-label="출시 (29 아이템)">출시</a>
+<a href="http://da.nala.ga/tag/%ed%95%9c%ea%b5%ad/" class="tag-cloud-link tag-link-1483 tag-link-position-44" style="font-size: 10.153846153846pt;" aria-label="한국 (28 아이템)">한국</a>
+<a href="http://da.nala.ga/tag/%ed%9b%84%ea%b8%b0/" class="tag-cloud-link tag-link-114 tag-link-position-45" style="font-size: 19.2pt;" aria-label="후기 (74 아이템)">후기</a></div>
+</div>	    </div>
+	</div>
+
+        </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+    </div>
+    <footer class="site-footer" role="contentinfo">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+  
+                    <p></p>
+                    
+                                            <div class="footer-social-icons">
+                                                                                                                                                                                                                                                                                                                                                                                                        
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+            <div class="scroll-up">
+            <a href="#"><i class="fa fa-angle-up"></i></a>
+        </div>
+        <!-- Scroll Up -->
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/af2821b0/cloudflare-static/email-decode.min.js"></script><script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/bootstrap.min.js?ver=3.3.5'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/scripts.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/jquery.fitvids.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-content/themes/shaped-blog/assets/js/smoothscroll.js'></script>
+<script type='text/javascript' src='http://da.nala.ga/wp-includes/js/wp-embed.min.js?ver=4.8.4'></script>
+    </body>
+</html>
